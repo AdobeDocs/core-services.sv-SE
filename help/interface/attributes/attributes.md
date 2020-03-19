@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Kundattribut
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: c59fe8c13defc8572d9c8776d0ca376d76fec794
+source-git-commit: d27bbed21f472b6fee275d58a67203895922aee0
 
 ---
 
@@ -36,7 +36,7 @@ Om du samlar in företagsdata i en CRM-databas (customer relationship management
 * **Adobe Target** [!DNL at.js] (valfri version) eller [!DNL mbox.js] version 58 eller senare krävs för kundattribut.
 
 
-   Se [Distribuera på.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html eller implementering [av](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)Mbox.js).
+   Se [Så här distribuerar du at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) eller implementering [av](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)Mbox.js.
 
 ## Vad är företagsdata? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
