@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Kundattribut
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
+source-git-commit: c59fe8c13defc8572d9c8776d0ca376d76fec794
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 12c3ac8bfa64b7c8708312576ac6dc4036c1b7d8
 
 ## Översikt
 
-Navigera [!UICONTROL customer attributes] till **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
+Om du vill hitta [!UICONTROL kundattribut] går du till **[!DNL Experience Platform]** > **[!UICONTROL Personer]** > **[!UICONTROL Kundattribut]**
 
 Om du samlar in företagsdata i en CRM-databas (customer relationship management) kan du överföra data till en datakälla för kundattribut i Experience Cloud. När data har överförts kan du utnyttja dem i [!DNL Adobe Analytics] och [!DNL Adobe Target].
 
@@ -29,16 +29,14 @@ Om du samlar in företagsdata i en CRM-databas (customer relationship management
 
 * **Gruppmedlemskap:** För att kunna överföra kundattributdata måste användarna vara medlemmar i gruppen [](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)Kundattribut. Du måste också tillhöra antingen en Adobe Analytics-grupp eller en Adobe Target-grupp.
 
-   Om du vill veta om ditt företag har tillgång till kundattribut bör din [!DNL Experience Cloud] administratör logga in på [!DNL Experience Cloud]. Navigera till **[!UICONTROL Administration]** > **[!UICONTROL Launch Admin Console]** > **[!UICONTROL Groups]**. Om *kundattribut* visas som en av grupperna är du redo att börja.
+   Om du vill veta om ditt företag har tillgång till kundattribut bör din [!DNL Experience Cloud] administratör logga in på [!DNL Experience Cloud]. Navigera till **[!UICONTROL Administration]** > **[!UICONTROL Starta Admin Console]** > **[!UICONTROL Grupper]**. Om *kundattribut* visas som en av grupperna är du redo att börja.
 
-   Användare som läggs till i gruppen Kundattribut ser menyalternativet till vänster [!UICONTROL Customer Attributes] i Experience Cloud-gränssnittet.
+   Användare som läggs till i gruppen Kundattribut ser menyalternativet [!UICONTROL Kundattribut] till vänster i Experience Cloud-gränssnittet.
 
-* **Målruta:** mbox.js version 58 eller senare krävs för kundattribut.
+* **Adobe Target** [!DNL at.js] (valfri version) eller [!DNL mbox.js] version 58 eller senare krävs för kundattribut.
 
 
-   Se Implementering av [Mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html).
-
-* **at.js:** Alla versioner.
+   Se [Distribuera på.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html eller implementering [av](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)Mbox.js).
 
 ## Vad är företagsdata? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
@@ -48,7 +46,7 @@ Följande bild är ett exempel på en datafil som visar prenumerationsdata för 
 
 ![](assets/01_crs_usecase.png)
 
-När du har skapat datafilen kan du överföra den till kundattributkällan som du skapar i **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]**.
+När du har skapat datafilen kan du överföra den till kundattributskällan som du skapar i **[!UICONTROL Experience Cloud]** > **[!UICONTROL Kundattribut]**.
 
 Mer information om det här arbetsflödet finns i [Överför kundattributdata](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) .
 
