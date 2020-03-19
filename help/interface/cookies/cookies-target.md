@@ -7,7 +7,7 @@ solution: Marketing Cloud,Analytics,Target,Social
 title: Målcookies
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: 29d8f983cf6961b3e567e672ee803e12b330fee7
 
 ---
 
@@ -44,7 +44,7 @@ Du kan ändra de här inställningarna om det behövs, med undantag för cookie-
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cookie-varaktighet </p> </td> 
-   <td colname="col2"> <p>Cookien finns kvar i besökarens webbläsare två veckor efter hans eller hennes senaste inloggning. Du kan inte ändra varaktighet för cookie-filen. </p> </td> 
+   <td colname="col2"> <p>Cookien finns kvar i besökarens webbläsare två år efter hans eller hennes senaste inloggning. Du kan inte ändra varaktighet för cookie-filen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
