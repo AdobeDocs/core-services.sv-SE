@@ -8,7 +8,7 @@ title: Cookies från första part
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: 64d35205275317e46072e7239b52863bf3b34e12
+source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
 
 ---
 
@@ -88,6 +88,7 @@ FPC-specialisten ger dig konfigurerade värdnamn och vilka CNAME som de ska peka
 Så länge implementeringskoden inte ändras kommer det här steget inte att påverka datainsamlingen och kan utföras när som helst efter att implementeringskoden har uppdaterats.
 
 >[!NObs!]
+>
 >Tjänsten Experience Cloud Visitor ID är ett alternativ till att konfigurera en CNAME för att aktivera cookies från första part, men på grund av de senaste ändringarna i Apple ITP rekommenderar vi fortfarande att du allokerar en CNAME även när du använder Experience Cloud ID Service.
 
 ## Verifiera vidarebefordran av värdnamn {#validate}
@@ -100,7 +101,9 @@ Om du har konfigurerat en CNAME och har installerat certifikatet kan du använda
 
 `https://sstats.adobe.com/_check`
 
-**Obs!** En säkerhetsvarning visas om inget certifikat är installerat.
+>[!NObs!]
+>
+>En säkerhetsvarning visas om inget certifikat är installerat.
 
 ### Validera med [!DNL curl]
 
