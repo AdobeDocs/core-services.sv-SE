@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Hantera Experience Cloud-användare och -produkter
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: 14d6e0ae15b023ad4dd3f8aca0606f26b39a21e9
 
 ---
 
@@ -15,6 +15,8 @@ source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
 # Hantera Experience Cloud-användare och -produkter {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
 Lär dig hur du loggar in på Admin Console, hanterar användarbehörigheter och produktprofiler för Experience Cloud samt webbläsarstöd.
+
+<!-- Beginning April 16, 2020, new organizations created in the Admin Console will block Adobe ID (type 1) identity types. Starting 16 Apr 2020 , newly created orgs will block the addition of Adobe ID/Type1 accounts.Migration for Orgs that have CCE/DX overlapping contracts will happen starting on  26 Apr 2020 (Gov't & Commercial Orgs) (~600 Orgs) Majority of EC customers will be migrated after July 2020. (~15k Orgs)https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM-->
 
 >[!IMPORTANT]
 >
@@ -33,7 +35,7 @@ Administratörer hanterar inte längre användare i lösningar. Användar- och p
 1. Gå till [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. Skriv ditt [Adobe-ID eller Enterprise-ID](https://helpx.adobe.com/enterprise/help/identity.html) och lösenord.
 
-Du kan också gå till Experience Cloud-menyn ( ![](assets/menu-icon.png)) och klicka på **[!UICONTROL Administration]** > **[!UICONTROL Launch Admin Console]**.
+Du kan också gå till Experience Cloud-menyn ( ![](assets/menu-icon.png)) och klicka på **[!UICONTROL Administration]** > **[!UICONTROL Starta Admin Console]**.
 
 **Relaterad hjälp**
 
@@ -110,10 +112,10 @@ Skapa en produktprofil och tilldela den till en behörighetsgrupp.
 
 När du bjuder in en användare till en organisation kan du ge användaren tillgång till produkter och produktprofiler. Du kan även delegera begränsade administrativa behörigheter till en användare. På samma sätt kan du skapa användargrupper och sedan lägga till gruppen i en produktprofil för att aktivera åtkomst.
 
-1. Klicka på [Admin Console](https://adminconsole.adobe.com/enterprise/)**[!UICONTROL Products]**.
-1. Klicka på **[!UICONTROL New Profile]**.
-1. Konfigurera profilinformationen och klicka sedan på **[!UICONTROL Next]**.
-1. Klicka på **[!UICONTROL Done]**.
+1. I [Admin Console](https://adminconsole.adobe.com/enterprise/)klickar du på **[!UICONTROL Produkter]**.
+1. Klicka på **[!UICONTROL Ny profil]**.
+1. Konfigurera profilinformationen och klicka sedan på **[!UICONTROL Nästa]**.
+1. Klicka på **[!UICONTROL Klar]**.
 
 Mer hjälp finns här:
 
@@ -125,10 +127,10 @@ Mer hjälp finns här:
 
 Tilldela åtkomstbehörigheter för analysrapporter (rapportsviter, mätvärden, dimensioner och så vidare) till en produktprofil.
 
-Du kan till exempel skapa en produktprofil som innehåller flera analysverktyg (, [!UICONTROL Analysis Workspace]och [!UICONTROL Reports & Analytics][!UICONTROL Report Builder]), med behörighet till specifika mått och dimensioner (inklusive eVars) och funktioner som att skapa segment eller beräknade mätvärden.
+Du kan till exempel skapa en produktprofil som innehåller flera analysverktyg ( [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics]och [!UICONTROL Report Builder]), med tillstånd till specifika mått och dimensioner (inklusive eVars), samt funktioner som att skapa segment eller beräknade mätvärden.
 
-1. Logga in på [Admin Console](https://adminconsole.adobe.com/enterprise)och klicka sedan på **[!UICONTROL Products]** (eller klicka på ditt produktnamn).
-1. Klicka på **[!UICONTROL Permissions]** (endast tillgängligt för administratörer) i produktprofilen.
+1. Logga in på [Admin Console](https://adminconsole.adobe.com/enterprise)och klicka sedan på **[!UICONTROL Produkter]** (eller klicka på ditt produktnamn).
+1. Klicka på **[!UICONTROL Behörigheter]** (endast för administratörer) i produktprofilen.
 1. Konfigurera profilens behörigheter:
 
 | Element | Beskrivning |
@@ -151,10 +153,10 @@ Du kan till exempel:
 
 Genom att använda de här rollerna kan du delegera hantering till andra utan att ge dem mer kapacitet än de behöver.
 
-1. I Admin Console klickar du på **[!UICONTROL Users]** och sedan på användarens namn.
-1. Klicka på **[!UICONTROL Edit admin rights]**.
+1. Klicka på **[!UICONTROL Användare]** på Admin Console och sedan på användarens namn.
+1. Klicka på **[!UICONTROL Redigera administratörsrättigheter]**.
 1. Konfigurera användarens administratörsrättigheter.
-1. Klicka **[!UICONTROL Next]** för att granska inställningarna och klicka sedan på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Nästa]** för att granska inställningarna och klicka sedan på **[!UICONTROL Spara]**.
 
 ## Webbläsare och systemkrav som stöds {#concept_CDC4371EB9BF433E9534F8716DC8A088}
 
