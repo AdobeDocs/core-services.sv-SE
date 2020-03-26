@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Möjliggör era lösningar för bastjänsterna
 uuid: 5820060f-9b18-4339-81e0-401d964f7a03
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 979520e2f0e015180a3b51d4b0b88b96b72301a3
 
 ---
 
@@ -199,7 +199,7 @@ Utnyttja följande bastjänster.
 
 ![](assets/menu-audiences-shell.png)
 
-### [!UICONTROL People] > [!UICONTROl Customer Attributes]
+### [!UICONTROL Folk] > [!UICONTROL Kundattribut]
 
 Om du samlar in företagsdata i en CRM-databas (customer relationship management) kan du överföra data till en datakälla för kundattribut i Experience Cloud. När data har överförts kan du utnyttja dem i [!DNL Adobe Analytics] och [!DNL Adobe Target].
 
