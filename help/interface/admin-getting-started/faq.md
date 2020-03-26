@@ -2,17 +2,17 @@
 description: Vanliga frågor och svar för administratörer i Experience Cloud.
 keywords: core services
 seo-description: Vanliga frågor och svar för administratörer i Experience Cloud.
-seo-title: Frågor och svar
+seo-title: Vanliga frågor
 solution: Experience Cloud
-title: Frågor och svar
+title: Vanliga frågor
 uuid: 3ed0b4eb-690f-4c14-a31c-0cc1118fb3b4
 translation-type: tm+mt
-source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
 
-# Frågor och svar
+# Vanliga frågor
 
 Vanliga frågor och svar för administratörer i Experience Cloud.
 
@@ -24,7 +24,7 @@ Om implementeringen inte har etablerats för bastjänster, se [Aktivera lösning
 1. [Implementera Experience Cloud ID-tjänsten med Dynamic Tag Manager](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354) (eller den nya [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html))
 1. [Mappa rapportsviter till en Experience Cloud-organisation](../core-services/core-services.md#concept_apg_zq2_rw)
 1. [(Endast analys) Modernisera AppMeasurement Code för analyser](../core-services/core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
-1. [(Endast Target) Modernisera implementeringen av Adobe Target](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
+1. [(Endast Adobe Target) Modernisera implementeringen av Adobe Target](../core-services/core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
 1. [Verifiera implementeringen av bastjänsterna](../core-services/core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [Hantera användare och produkter](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [Börja använda bastjänsterna](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
