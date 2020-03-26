@@ -7,7 +7,7 @@ solution: Marketing Cloud
 title: Logga in och hantera dina profilinställningar
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: a260a0e607b72ace6f89928d51cbfb35bb40b56b
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -30,11 +30,11 @@ Om du loggar in på Experience Cloud (i stället för att logga in i en enda lö
 
 Logga in och verifiera att du är i rätt [organisation](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1).
 
-1. Klicka på Experience Cloud-menyn ( ![](assets/menu-icon.png)) och klicka sedan på **[!UICONTROL Administration]**.
+1. Klicka på Experience Cloud-menyn ( ![](assets/menu-icon.png)) och sedan på **[!UICONTROL Administration]**.
 
    ![](assets/admin-link.png)
 
-   Om **[!UICONTROL Administration]** länken inte visas är du inte Experience Cloud-administratör för den visade [organisationen](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) (Adobe Corp, i det här exemplet). Om du behöver hjälp med att bli administratör kontaktar du kundtjänst eller en befintlig Experience Cloud-administratör i ditt företag.
+   Om länken **[!UICONTROL Administration]** inte visas är du inte Experience Cloud-administratör för den visade [organisationen](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) (Adobe Corp, i det här exemplet). Om du behöver hjälp med att bli administratör kontaktar du kundtjänst eller en befintlig Experience Cloud-administratör i ditt företag.
 1. Klicka på **[!UICONTROL Administration]**.
 
    ![](assets/admin-landing.png)
@@ -48,7 +48,7 @@ Logga in och verifiera att du är i rätt [organisation](../admin-getting-starte
 | [Starta Admin Console](../admin-getting-started/admin-getting-started.md) | Admin Console är den centrala platsen för hantering av Adobe-användare och produktbehörigheter i hela organisationen.<br>Du kan också logga in på Admin Console med en [direktlänk](https://adminconsole.adobe.com). |
 | [Hantera Creative Cloud-användare](../experience-cloud-assets/t-admin-add-cc-user.md) | Med Experience Cloud Assets kan marknadsförare dela, synkronisera och samarbeta i mappar med designers och andra kreativa resurser med hjälp av Creative Cloud. Du kan hantera de Creative Cloud-användare som är godkända för att samarbeta med din organisation här. |
 | [Kartlägg dina rapportsviter](../core-services/core-services.md) | (Endast analys) Experience Cloud-bastjänsterna är kopplade till en organisation i stället för till en enskild rapportserie. För att dessa tjänster ska fungera på rätt sätt måste varje analysrapportsserie mappas till en organisation. (Den här uppgiften ingår i ett större arbetsflöde för att [aktivera Analytics för bastjänster](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
-| [Organisations-ID](../admin-getting-started/organizations.md) | Organisations- *ID* finns längst ned på administrationssidan. Detta ID är det associerade ID:t med ditt tilldelade Experience Cloud-företag. Detta ID är en alfanumerisk sträng med 24 tecken, följt av (och måste innehålla) @AdobeOrg. |
+| [Organisations-ID](../admin-getting-started/organizations.md) | Organisations- *ID* finns längst ned på administrationssidan. Detta ID är det associerade ID:t med ditt tilldelade Experience Cloud-företag. Detta ID är en 24 tecken lång alfanumerisk sträng som följs av (och måste innehålla) @AdobeOrg. |
 
 ## Logga in på Experience Cloud (användare) {#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
@@ -59,7 +59,7 @@ Hjälp för icke-administrativa användare som loggar in på Experience Cloud.
 
 
 1. Navigera till [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
-1. Klicka på **[!UICONTROL Sign In With Adobe ID]**.
+1. Klicka på **[!UICONTROL Logga in med Adobe ID]**.
 
    Experience Cloud-administratören kan hjälpa er att fastställa kontotypen (Adobe ID eller Enterprise ID).
 
@@ -76,16 +76,16 @@ Du kan redigera personlig information och ange en standard [organisations](../ad
 1. Logga in på Experience Cloud och klicka sedan på din profilikon.
 
    ![](assets/edit-profile.png)
-1. Klicka på **[!UICONTROL Edit Profile]**.
+1. Klicka på **[!UICONTROL Redigera profil]**.
 
    ![](assets/default-organization.png)
-1. Fortsätt konfigurera och redigera personlig information och klicka sedan på **[!UICONTROL Save Changes]**.
+1. Fortsätt konfigurera och redigera personlig information och klicka sedan på **[!UICONTROL Spara ändringar]**.
 
 ## Aktivera meddelanden {#concept_0105453AD71847B8BFCAF4A40915F157}
 
 Få meddelanden (via e-post eller i produkten) om systemuppdateringar, underhållsmeddelanden, inlägg, omnämnanden och delade resurser. Du kan också ange för vilka produkter och lösningar du vill ha meddelanden, inklusive överföringsstatus för kundattribut.
 
-Om du vill navigera till Meddelanden klickar du på **[!UICONTROL Notifications]** ikonen ![](assets/notifications-icon.png)och sedan på **[!UICONTROL Settings]** ikonen ![](assets/icon_edit_board.png).
+Om du vill navigera till Meddelanden klickar du på ikonen **[!UICONTROL Meddelanden]** ![](assets/notifications-icon.png)och sedan på ikonen **[!UICONTROL Inställningar]** ![](assets/icon_edit_board.png).
 
 Du kan sortera meddelandevisningen baserat på de meddelandetyper som är viktiga för dig och söka efter meddelanden. Du kan också:
 
@@ -103,7 +103,7 @@ Du kan sortera meddelandevisningen baserat på de meddelandetyper som är viktig
  <li id="li_03D33D3228884CECA371B58656B2F3E7">Guided analysis shared </li> 
  <li id="li_DCF710F89317487B8DAA86CC05C694CA">Scheduled report failure </li> 
 </ul> 
-<p> <b>Target</b> </p> 
+<p> <b>Adobe Target</b> </p> 
 <p>Test started or stopped </p> 
 <p> <b>Media Optimizer</b> </p> 
 <p>Performance alerts </p> 
@@ -124,14 +124,14 @@ Du kan redigera din Experience Cloud-profil, ange en standardorganisations- och 
 1. Klicka på din profilbild på Experience Cloud-menyn.
 
    ![](assets/edit-profile.png)
-1. Klicka på **[!UICONTROL Edit Profile]**.
+1. Klicka på **[!UICONTROL Redigera profil]**.
 
    Fyll i fälten och alternativen under Personlig information på sidan Profil och lösenord.
 
 ## Återställa lösenordet {#task_46541A2806164CB1A4AE8239604E4EB1}
 
 1. Gå till inloggningssidan för lösningen.
-1. Klicka på **[!UICONTROL Forgot Password]**.
+1. Klicka på **[!UICONTROL Glömt lösenord]**.
 
    Lösenordslänkningsproblem för Experience Cloud bör lösas genom att du återställer ett lösningslösenord.
 
