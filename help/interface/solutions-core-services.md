@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Om de nya molnnamnen i Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -73,9 +73,9 @@ Se även:
 Adobe Target integreras med Analytics och andra bastjänster i Experience Cloud. Användbara ämnen för att komma igång:
 
 * [Konfigurera mål](https://docs.adobe.com/content/help/en/target/using/administer/administrating-target.html)
-* [Så här fungerar Target](https://docs.adobe.com/content/help/en/target/using/introduction/how-target-works.html)
+* [Så här fungerar Adobe Target](https://docs.adobe.com/content/help/en/target/using/introduction/how-target-works.html)
 * [Administratörssteg](https://docs.adobe.com/content/help/en/target/using/administer/start-target.html)
-* [Använd Analytics som rapportkälla för Target](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
+* [Använd Analytics som rapportkälla för Adobe Target](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
 
 ![](assets/mc_social_32.png) [Adobe Social](https://docs.adobe.com/content/help/en/social/using/home.html)
 
@@ -111,12 +111,12 @@ Adobe Primetime är en TV-plattform för flera skärmar som hjälper medieföret
 
 | Bastjänst | Beskrivning |
 |--- |--- |
-| [Aktivering](activation/activation.md) | Tagghanteringssystem (Experience Platform Launch och Dynamic Tag Management).<br>Utlösare gör att ni kan vidta åtgärder i realtid i Adobe Campaign utifrån insikter från Adobe Analytics. |
+| [Aktivering](activation/activation.md) | Tagghanteringssystem (Experience Platform Launch och Dynamic Tag Management).<br>Utlösare gör att ni kan vidta åtgärder i realtid i Adobe Campaign baserat på insikter från Adobe Analytics. |
 | [Administration](admin-getting-started/admin-getting-started.md) | Hantera användar- och produktbehörigheter i alla era moln och lösningar från Adobe. |
-| [Resurser](experience-cloud-assets/experience-cloud-assets.md) | Lagra, synkronisera och dela enkelt alla digitala resurser på en central plats för att spara tid och leverera en mer enhetlig kundupplevelse. |
-| [Starta](https://docs.adobe.com/content/help/en/launch/using/overview.html) | Launch är nästa generation av tagghanteringsfunktioner från Adobe. Launch ger kunderna ett enkelt sätt att driftsätta och hantera alla analyser, marknadsförings- och annonstaggar som behövs för att driva relevanta kundupplevelser. |
-| [Resesamordning](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | Bygg realtidssamordning med hjälp av kontextuella data lagrade i händelser eller datakällor. [!UICONTROL Journey Orchestration] är en programtjänst som är integrerad med Experience Platform. |
-| [Platstjänst](https://docs.adobe.com/content/help/en/places/using/home.html) | Adobe Experience Platform Location Service (Location Service) är en geolokaliseringstjänst som gör det möjligt för mobilappar med platsmedvetenhet att förstå platskontexten genom att använda avancerade och lättanvända SDK-gränssnitt tillsammans med en flexibel databas med intressepunkter (POI). |
+| [Assets](experience-cloud-assets/experience-cloud-assets.md) | Lagra, synkronisera och dela enkelt alla digitala resurser på en central plats för att spara tid och leverera en mer enhetlig kundupplevelse. |
+| [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) | [!UICONTROL Experience Platform Launch] är nästa generation av tagghanteringsfunktioner från Adobe. [!UICONTROL Experience Platform Launch] ger kunderna ett enkelt sätt att driftsätta och hantera alla analyser, marknadsförings- och annonstaggar som behövs för att skapa relevanta kundupplevelser. |
+| [Resesamordning](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | Bygg realtidssamordning med hjälp av kontextuella data lagrade i händelser eller datakällor. [!UICONTROL Resesamordning] är en programtjänst som är integrerad med Experience Platform. |
+| [Platstjänst](https://docs.adobe.com/content/help/en/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] (Location Service) är en geolokaliseringstjänst som gör det möjligt för mobilappar med platsmedvetenhet att förstå platskontexten genom att använda avancerade och lättanvända SDK-gränssnitt tillsammans med en flexibel databas med intressepunkter (POI). |
 | Erbjudanden | Med Erbjudandehantering kan du skapa, hantera och fatta beslut för erbjudanden i alla kanaler i Experience Cloud. |
 | [Exchange](exchange.md) | Sök, bläddra, välj, betala och hämta Digital Marketing-tillägg via appar. |
 | [Mobiltjänster](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Adobe Mobile Services samlar funktioner för mobilmarknadsföring för mobilappar från hela Experience Cloud, vilket gör att ni kan förstå och förbättra användarinteraktionen med era mobilappar. |
