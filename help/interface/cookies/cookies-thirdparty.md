@@ -3,11 +3,11 @@ description: I takt med att stödet för cookies från tredje part har blivit al
 keywords: cookies;privacy
 seo-description: I takt med att stödet för cookies från tredje part har blivit allt mer begränsat i olika webbläsare har Adobe arbetat på nya lösningar som noggrant balanserar kundens krav med konsumentens rätt till integritet i alla Adobe Experience Cloud-lösningar.
 seo-title: Hur ändringar i stödet för cookies från tredje part påverkar kunderna
-solution: Marketing Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Hur ändringar i stödet för cookies från tredje part påverkar kunderna
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -33,7 +33,7 @@ Följande lista visar hur stöd för cookies från tredje part påverkar aktuell
 
 ## Adobe Advertising Cloud
 
-* Sök:
+* Sökning:
 
    * Om sökningen optimeras baserat på Adobe Analytics-data påverkas sökningen på samma sätt som Adobe Analytics.
    * Samlingen av konverteringsdata bör inte påverkas.
@@ -49,4 +49,3 @@ Följande lista visar hur stöd för cookies från tredje part påverkar aktuell
 
    * Marknadsföringsannonser på Facebook påverkas inte.
    * Facebook Exchange (FBX) påverkas på samma sätt som leverans av displayannonser.
-
