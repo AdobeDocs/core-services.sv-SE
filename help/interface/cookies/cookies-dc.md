@@ -3,11 +3,11 @@ description: Dataanslutningar använder cookies för att förse annonsörer med 
 keywords: cookies;privacy
 seo-description: Dataanslutningar använder cookies för att förse annonsörer med optimerade mått för kampanjprestanda och konverteringsprestanda över flera annonskanaler.
 seo-title: Cookies för dataanslutningar
-solution: Marketing Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Adobe Analytics,Adobe Target,Adobe Social
 title: Cookies för dataanslutningar
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
