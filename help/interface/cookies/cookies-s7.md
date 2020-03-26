@@ -3,11 +3,11 @@ description: Scene7 använder cookies för att lagra användbar information som 
 keywords: cookies;privacy
 seo-description: Scene7 använder cookies för att lagra användbar information som kan användas för att leverera dynamiska medier till webbläsaren.
 seo-title: Scene7 Cookies
-solution: Marketing Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Scene7 Cookies
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
