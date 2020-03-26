@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Målgrupper
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: 14d6e0ae15b023ad4dd3f8aca0606f26b39a21e9
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -39,14 +39,14 @@ I följande tabell beskrivs hur målgrupper används i Experience Cloud-lösning
 | Experience Cloud-målgrupper | Skapa, hantera och dela målgrupper direkt med hjälp av [Audience Library](../audience-library/audience-library.md) . Du kan:<ul><li>Använd målgrupper i realtid med råanalysattribut</li><li>Kombinera målgrupper för att skapa sammansatta, sammanfogade realtids- och historiska data</li><li>Se grafiska vyer av uppskattad målgruppsstorlek</li></ul><br>Information om vilken typ av målgrupp du vill skapa finns i: [Experience Cloud-målgrupper](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html). |
 | Analyser | Vid segmentering kan ni skapa ett segment, kombinera det med en rapportsvit och sedan [publicera segmentet i Experience Cloud](../audience-library/audience-library.md). När du publicerar segmentet visas det på sidan [Publiker](../audience-library/audience-library.md) . Publiken finns också som målgrupp för en kampanjupplevelse som levereras av Adobe Target och i Audience Manager. När en målgrupp har delats från Analytics och valts ut för användning i en aktiv kampanj skickas alla besökarprofiler som uppfyller villkoren för segmentdefinition för de senaste 90 dagarna till plattformen Experience Cloud [!UICONTROL Audience Services] . Gränsen för delade målgrupper har ökat till 75. Målgrupper som delas med Experience Cloud från Analytics får inte överstiga 20 miljoner unika medlemmar. På grund av cachelagring kräver borttagna rapportsviter i Analytics 12 timmar innan borttagningen visas i Experience Cloud. |
 | Mobiltjänster | Analysera mobiltrafiken med solbränsvisualisering i rapporten [!UICONTROL Enhetstyper] . |
-| Mål | Med [ID-tjänsten](https://docs.adobe.com/content/help/en/id-service/using/home.html) kombineras besökar-ID:n och data i en enda användbar profil för användning i olika lösningar. Kryssrutan [Publicera i Experience Cloud](../audience-library/audience-library.md) när du skapar segment i Adobe Analytics gör att segmentet kan vara tillgängligt i Adobe Target-målets anpassade målgruppsbibliotek. Ett segment som skapats i Analytics eller Audience Manager kan användas för aktiviteter i Target.  Ni kan till exempel skapa kampanjaktiviteter baserat på analysstatistik och målgruppssegment som skapats i Analytics. |
+| [!DNL Target] | Med [ID-tjänsten](https://docs.adobe.com/content/help/en/id-service/using/home.html) kombineras besökar-ID:n och data i en enda användbar profil för användning i olika lösningar. Kryssrutan [Publicera i Experience Cloud](../audience-library/audience-library.md) när du skapar segment i Adobe Analytics gör att segmentet kan vara tillgängligt i Adobe Target-målets anpassade målgruppsbibliotek. Ett segment som skapats i Analytics eller Audience Manager kan användas för aktiviteter i [!DNL Target].  Ni kan till exempel skapa kampanjaktiviteter baserat på analysstatistik och målgruppssegment som skapats i Analytics. |
 | Audience Manager | Delade målgrupper finns i Audience Manager-segmentering. Alla Experience Cloud-målgrupper är tillgängliga direkt i Audience Manager, som tillhandahåller:<ul><li>Inbyggd automatisering av hur de delas och används i lösningsarbetsflöden</li><li>Destinationer utanför webbplatsen</li><li>Look-alike-modellering</li></ul> |
 | Campaign | <ul><li>Importera delade målgrupper från olika Adobe Experience Cloud-lösningar till Adobe Campaign.</li><li>Exportera mottagarlistor i form av delade målgrupper. Dessa delade målgrupper kan användas i de olika Adobe Experience Cloud-lösningar ni använder.</li></ul> |
 | Media Optimizer | Använd målgruppen som mål. |
 
 >[!IMPORTANT]
 >
->När en besökare kvalificerar sig för den målgrupp som delas från Analytics uppstår en fördröjning på 4-8 timmar innan informationen kan användas i Target, Ad Cloud och Campaign Standard.
+>När en besökare kvalificerar sig för den målgrupp som delas från Analytics uppstår en fördröjning på 4-8 timmar innan den informationen kan användas i [!DNL Target], Ad Cloud och Campaign Standard.
 
 ## Mer hjälp - frågor, vägledning och användningsfall {#section_C7F151644D8A45F7B6FC54F58845635D}
 
