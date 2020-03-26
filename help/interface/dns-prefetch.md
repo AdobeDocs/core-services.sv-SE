@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Använda DNS-förhämtning med olika lösningar och tjänster
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -21,7 +21,7 @@ Webbläsare använder DNS-förhämtning för att automatiskt matcha domännamn s
 
 ## DNS-förhämtning och Adobe Experience Cloud-lösningar {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
-DNS-förhämtning fungerar automatiskt med statiska, inbäddade länkar på en sida. Detta innebär också att automatisk DNS-förhämtning inte fungerar med olika [!UICONTROL Experience Cloud] lösningar och tjänster eftersom:
+DNS-förhämtning fungerar automatiskt med statiska, inbäddade länkar på en sida. Detta innebär också att automatisk DNS-förhämtning inte fungerar med olika [!UICONTROL Experience Cloud] -lösningar och -tjänster eftersom:
 
 * Varje Experience Cloud-lösning eller -tjänst genererar DNS-anrop dynamiskt när sidan läses in.
 * Webbläsaren kan inte matcha domännamn med IP-adress innan dessa anrop görs.
@@ -48,7 +48,7 @@ I följande exempel visas hur du gör DNS-förhämtningsanrop till olika [!DNL E
    * `<link rel="dns-prefetch" href="//cm.everesttechnet">`
 
 
-* **Mål:** `<link rel="dns-prefetch" href="//insert customer code here.tt.omtrdc.net">`
+* **[!DNL Target]:**`<link rel="dns-prefetch" href="//insert customer code here.tt.omtrdc.net">`
 
 >[!MORE_LIKE_THIS]
 >
