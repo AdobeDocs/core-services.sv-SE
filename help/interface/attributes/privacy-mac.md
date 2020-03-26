@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Sekretessfrågor - kundattribut
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -36,7 +36,7 @@ Adobe inser att dessa typer av beslut om marknadsföring och reklam kan påverka
 
 **God praxis**
 
-När du överför PII till Adobe Analytics eller Target rekommenderar Adobe att kunden kraschar PII innan den överförs till Adobe. Hash-kodad information kan fortfarande användas för analys och marknadsföring. Som en påminnelse förbjuder Adobe annonsörer att skicka känslig personlig information till Adobe Analytics och Target, som medicinska journaler, ekonomisk kontoinformation och information om minderåriga.
+När du överför PII till Adobe Analytics eller Adobe Target rekommenderar Adobe att kunden kraschar PII innan den överförs till Adobe. Hash-kodad information kan fortfarande användas för analys och marknadsföring. Som en påminnelse förbjuder Adobe annonsörer att skicka känslig personlig information till Adobe Analytics och Adobe Target, som medicinska journaler, ekonomisk kontoinformation och information om minderåriga.
 
 Adobe rekommenderar sina annonsörer att noga överväga vilken information som är lämplig att använda i marknadsföringssyfte och i vilka fall annonsören har tillstånd att använda sådan information.
 
