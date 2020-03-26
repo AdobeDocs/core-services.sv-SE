@@ -7,7 +7,7 @@ solution: Marketing Cloud,Audience Manager
 title: Cookies för Audience Manager
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -39,7 +39,7 @@ Audience Manager använder några enkla cookies för att utföra olika funktione
    <td colname="col2"> <p> 
      <ul id="ul_11291DA87C5045E880034E06C863BCDA"> 
       <li id="li_40C30A06A12449A4A8748621223CA71B">Livstid: Demdex- <span class="wintitle"></span> -cookien har ett TTL-intervall på 180 dagar. TTL återställs till 180 dagar efter varje användarinteraktion med en partnerwebbplats. Cookien upphör att gälla om en användare inte kommer tillbaka till webbplatsen inom TTL-intervallet. </li> 
-      <li id="li_A589EDA2198249829207A183872EF1FF">Avanmäl dig: <span class="keyword"> Audience Manager </span> återställer cookien med en <span class="codeph"> Do Not Target- </span> sträng om en användare väljer bort datainsamlingen. I det här fallet anges TTL-värdet för cookie till 10 år. </li> 
+      <li id="li_A589EDA2198249829207A183872EF1FF">Avanmäl dig: <span class="keyword"> Audience Manager </span> återställer cookien med en <span class="codeph"> Do Not Adobe Target- </span> sträng om en användare väljer bort datainsamling. I det här fallet anges TTL-värdet för cookie till 10 år. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -72,7 +72,7 @@ Audience Manager använder några enkla cookies för att utföra olika funktione
    <td colname="col2"> <p> 
      <ul id="ul_4922AC2CD55D4C888A6FBEB22F8B889B"> 
       <li id="li_91A68C44E53840379C2ACDED25468735">Livstid: Den <span class="wintitle"> dextp- </span> cookien har ett TTL-intervall på 180 dagar. </li> 
-      <li id="li_6B8C674EFAAC4DABA0A640CF29247F99">Avanmäl dig: <span class="keyword"> Audience Manager </span> återställer cookien med en <span class="codeph"> Do Not Target- </span> sträng om en användare väljer bort datainsamlingen. I det här fallet anges TTL-värdet för cookie till 10 år. </li> 
+      <li id="li_6B8C674EFAAC4DABA0A640CF29247F99">Avanmäl dig: <span class="keyword"> Audience Manager </span> återställer cookien med en <span class="codeph"> Do Not Adobe Target- </span> sträng om en användare väljer bort datainsamling. I det här fallet anges TTL-värdet för cookie till 10 år. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -140,7 +140,7 @@ I följande tabell visas och definieras elementen i en [!DNL dextp] cookie efter
    <td colname="col2"> <p> 
      <ul id="ul_5D13DD701B484B51BF2808A69A919106"> 
       <li id="li_4E665114C63246FBA32A4E19984D2693">Livstid: DST- <span class="wintitle"></span> cookien har ett TTL-intervall på 180 dagar. </li> 
-      <li id="li_A682B566704F43D2AB72487EFF212474">Avanmäl dig: <span class="keyword"> Audience Manager </span> återställer cookien med en <span class="codeph"> Do Not Target- </span> sträng om en användare väljer bort datainsamlingen. </li> 
+      <li id="li_A682B566704F43D2AB72487EFF212474">Avanmäl dig: <span class="keyword"> Audience Manager </span> återställer cookien med en <span class="codeph"> Do Not Adobe Target- </span> sträng om en användare väljer bort datainsamling. </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
