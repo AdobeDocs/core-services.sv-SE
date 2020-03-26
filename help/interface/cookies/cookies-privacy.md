@@ -3,11 +3,11 @@ description: Adobe prioriterar att upprätthålla kundens integritet och datasä
 keywords: cookies;privacy
 seo-description: Adobe prioriterar att upprätthålla kundens integritet och datasäkerhet. Adobe deltar i flera integritetsorganisationer och samarbetar med integritetsreglerande organ och självreglerande principer (t.ex. Digital Advertising Alliance AdChoices-programmet) för att ge kunderna information om hur deras information används och vilka val som görs för hur informationen används.
 seo-title: Om cookies och sekretess
-solution: Marketing Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Om cookies och sekretess
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
