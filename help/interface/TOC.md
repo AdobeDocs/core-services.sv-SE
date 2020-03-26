@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
 
 + [Produktdokumentation för Experience Cloud och bastjänster](experience-cloud.md)
 + Om bastjänster {#about-core-services}
-   + [Översikt över bastjänster](core-services-landing.md)
+   + [[!UICONTROL Viktiga tjänster] - översikt](core-services-landing.md)
    + [Möjliggör era lösningar för bastjänsterna](core-services/core-services.md)
    + [Mappa rapportsviter till en organisation](core-services/report-suite-mapping.md)
    + [Om de nya molnnamnen i Experience Cloud](solutions-core-services.md)
@@ -23,19 +23,19 @@ source-git-commit: d225ef8800228d35c1920904f6fe7590bd751de3
    + [cookies från första part i Experience Cloud](cookies/cookies-first-party.md)
    + [Analytics-cookies](cookies/cookies-analytics.md)
    + [Audience Manager-cookies](cookies/cookies-am.md)
-   + [Data Connectors cookies](cookies/cookies-dc.md)
-   + [Data Workbench-cookies](cookies/cookies-insight.md)
+   + [[!UICONTROL Dataanslutningscookies]](cookies/cookies-dc.md)
+   + [[!UICONTROL Data Workbench] cookies](cookies/cookies-insight.md)
    + [Experience Cloud-cookies](cookies/cookies-mc.md)
    + [Advertising Cloud cookies](cookies/cookies-advertising-cloud.md)
-   + [Scene7 cookies](cookies/cookies-s7.md)
-   + [Söka efter och marknadsföra cookies](cookies/cookies-snp.md)
-   + [Målcookies](cookies/cookies-target.md)
+   + [[!DNL Scene7] cookies](cookies/cookies-s7.md)
+   + [[!DNL Search and Promote] cookies](cookies/cookies-snp.md)
+   + [[!DNL Target]-cookies](cookies/cookies-target.md)
    + [Aktivera sekretessinställningar för webbläsarcookies](cookies/browser-cookie-settings.md)
-   + [Hur ändringar i stödet för cookies från tredje part påverkar kunderna](cookies/cookies-thirdparty.md)
+   + [Hur ändringar av cookie-support från tredje part påverkar kunder](cookies/cookies-thirdparty.md)
 + Hantering av användare och produkter {#manage-users-and-products}
    + [Hantera Experience Cloud-användare och -produkter (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Visa användarinformation för Experience Cloud (Admin Tool)](admin-getting-started/admin-tool-experience-cloud.md)
-   + [Frågor och svar](admin-getting-started/faq.md)
+   + [Vanliga frågor](admin-getting-started/faq.md)
    + [Logga in och hantera dina profilinställningar](admin-getting-started/getting-started-experience-cloud.md)
    + [Organisationer och kontolänkning](admin-getting-started/organizations.md)
    + [Uppgradera till Analytics Premium och Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
