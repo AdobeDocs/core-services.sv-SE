@@ -3,11 +3,11 @@ description: Ta bort användare som har blockerat alla cookies i webbläsare på
 keywords: cookies;privacy
 seo-description: Ta bort användare som har blockerat alla cookies i webbläsare på datorer och mobila enheter. Den här sekretessinställningen exkluderar användare som avanmäler sig från datainsamlingen i Analytics.
 seo-title: Aktivera sekretessinställningar för webbläsarcookies
-solution: Marketing Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Adobe Analytics,Adobe Target,Adobe Social
 title: Aktivera sekretessinställningar för webbläsarcookies
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 translation-type: tm+mt
-source-git-commit: 688272e19e9d1828d070889bf8689cab7ed2c9c1
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -18,9 +18,9 @@ Du kan ta bort användare som har blockerat alla cookies i webbläsare för dato
 
 **Aktivera sekretessinställningar för webbläsarcookies**
 
-1. Navigera till **[!UICONTROL Admin Tools]** > **[!UICONTROL Report Suites]**.
-1. Klicka på **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Privacy Settings]**.
-1. Aktivera **[!UICONTROL Privacy Settings]** (för dator eller mobil).
+1. Gå till **[!UICONTROL Administratörsverktyg]** > **[!UICONTROL Rapportsviter]**.
+1. Klicka på **[!UICONTROL Redigera inställningar]** > **[!UICONTROL Allmänt]** > **[!UICONTROL Sekretessinställningar]**.
+1. Aktivera **[!UICONTROL sekretessinställningar]** (för dator eller mobil).
 
 >[!IMPORTANT]
 >
