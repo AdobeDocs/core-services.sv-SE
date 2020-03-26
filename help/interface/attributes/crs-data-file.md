@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Om datafiler och datakällor för kundattribut
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: 73cb227d2b44024706ce24a9ae6aa06c57a8ce85
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -81,7 +81,7 @@ Samma fil som visas i en textredigerare:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kund-ID, kolumn </p> </td> 
-   <td colname="col2"> <p> Den första kolumnen måste vara ett unikt kund-ID. Det ID som används ska motsvara det ID som skickas till Experience Cloud ID-tjänsten. </p> <p>För Analytics lagras ID:t i en prop eller eVar. </p> <p>För Target anger du värdet setCustomerID. (Se <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics &amp; Target - synching the customer ID </a>) </p> <p> Detta kund-ID är den unika identifierare som CRM använder för varje person i din databas. De återstående kolumnerna är attribut som kommer från CRM. Du väljer hur många attribut du vill överföra. </p> <p>Ett läsbart namn rekommenderas för kolumnrubrikerna, men det behövs inte. När du validerar schemat efter överföring kan du mappa egna namn till överförda rader och kolumner. </p> <p> <b>Om Kund-ID</b> </p> <p>Ett företag använder vanligtvis ett kund-ID från ett CRM-system. Detta ID anges med <span class="codeph"> anropet setCustomerIDs </span> när en person loggar in. Detta ID används också som nyckel i CRM-filen som överförs till Experience Cloud. Ett <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> alias-ID </a> är ett eget namn för ett datalager i Audience Manager, där aliasdata lagras. Systemet skickar alias till detta datalager (via setCustomerID:n). CRM-filen används på data i det datalagret. </p> <p>Mer information om <span class="codeph"> setCustomerID: </span> finns i <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Kund-ID:n och autentiseringstillstånd </a>. </p> </td> 
+   <td colname="col2"> <p> Den första kolumnen måste vara ett unikt kund-ID. Det ID som används ska motsvara det ID som skickas till Experience Cloud ID-tjänsten. </p> <p>För Analytics lagras ID:t i en prop eller eVar. </p> <p>För Target anger du värdet setCustomerID. (Se <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics &amp; Adobe Target - synkronisera kund-ID </a>) </p> <p> Detta kund-ID är den unika identifierare som CRM använder för varje person i din databas. De återstående kolumnerna är attribut som kommer från CRM. Du väljer hur många attribut du vill överföra. </p> <p>Ett läsbart namn rekommenderas för kolumnrubrikerna, men det behövs inte. När du validerar schemat efter överföring kan du mappa egna namn till överförda rader och kolumner. </p> <p> <b>Om Kund-ID</b> </p> <p>Ett företag använder vanligtvis ett kund-ID från ett CRM-system. Detta ID anges med <span class="codeph"> anropet setCustomerIDs </span> när en person loggar in. Detta ID används också som nyckel i CRM-filen som överförs till Experience Cloud. Ett <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> alias-ID </a> är ett eget namn för ett datalager i Audience Manager, där aliasdata lagras. Systemet skickar alias till detta datalager (via setCustomerID:n). CRM-filen används på data i det datalagret. </p> <p>Mer information om <span class="codeph"> setCustomerID: </span> finns i <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Kund-ID:n och autentiseringstillstånd </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Efterföljande rubriker och kolumner </p> </td> 
@@ -93,8 +93,8 @@ Samma fil som visas i en textredigerare:
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analysstandard</b>: 3 totalt </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>: 200 per rapportserie </li> 
-      <li id="li_8C891FE3D1EF49FA9F81E2E32CD0B9CA"> <b>Målstandard:</b> 5 </li> 
-      <li id="li_2B66D43023F34EA685CE2C38A9250CEA"> <b>Target Premium:</b> 200 </li> 
+      <li id="li_8C891FE3D1EF49FA9F81E2E32CD0B9CA"> <b>Adobe Target Standard:</b> 5 </li> 
+      <li id="li_2B66D43023F34EA685CE2C38A9250CEA"> <b>Adobe Target Premium:</b> 200 </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -162,6 +162,6 @@ Visitor.setCustomerIDs({
 
 (Mer information finns i [Kund-ID och Autentiseringstillstånd](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) .)
 
-I **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
+I **[!UICONTROL Experience Cloud]** > **[!UICONTROL Personer]** > **[!UICONTROL Kundattribut]**:
 
 Skapa två kundattributskällor med unika alias-ID:n som motsvarar kundens ID:n ovan. Med den här metoden kan samma referens-ID skickas till flera källor för kundattribut
