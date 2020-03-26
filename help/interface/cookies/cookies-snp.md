@@ -3,11 +3,11 @@ description: Search&Promote använder cookies för att förstå och förutse bes
 keywords: cookies;privacy
 seo-description: Search&Promote använder cookies för att förstå och förutse besökarens sökmetod.
 seo-title: Sök efter och marknadsför cookies
-solution: Marketing Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Sök efter och marknadsför cookies
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
