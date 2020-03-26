@@ -3,11 +3,11 @@ description: Data workbench använder cookies för att analysera stora volymer s
 keywords: cookies;privacy
 seo-description: Data workbench använder cookies för att analysera stora volymer snabbt föränderliga data i realtid.
 seo-title: Data Workbench Cookies
-solution: Marketing Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Data Workbench Cookies
 uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
