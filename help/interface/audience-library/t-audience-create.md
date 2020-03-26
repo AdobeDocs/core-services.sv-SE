@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Skapa en målgrupp
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 translation-type: tm+mt
-source-git-commit: 11f2f0bd16665a6e8def3a34d8f3d284497fa1b8
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -38,38 +38,38 @@ I följande exempel visas hur du skapar regler för en sammansatt målgrupp. Må
 
    ![](assets/audience_create.png)
 
-1. Klicka på [!DNL Experience Cloud]> i [!DNL Experience Platform]under **[!UICONTROL People]** **[!UICONTROL Audience Library].**
-1. På [!UICONTROL Audiences] sidan klickar du på **[!UICONTROL New]**. ![](assets/add_icon_small.png)
+1. I [!DNL Experience Cloud], under [!DNL Experience Platform], klickar du på **[!UICONTROL Personer]** > **[!UICONTROL Audience Library].**
+1. På sidan [!UICONTROL Publiker] klickar du på **[!UICONTROL Nytt]**. ![](assets/add_icon_small.png)
 
    ![Stegresultat](assets/audience_create_new.png)
 
-1. Ange en rubrik och beskrivning på [!UICONTROL Create New Audience] sidan.
-1. Under [!UICONTROL Rules]väljer du en attributkälla:
+1. Ange en rubrik och beskrivning på sidan [!UICONTROL Skapa ny publik] .
+1. Välj en attributkälla under [!UICONTROL Regler]:
 
-   * **[!UICONTROL Real-Time Analytics Data:]** (eller Raw-data) Detta är attributdata som härletts från bildbegäranden i realtid med Analytics, och innehåller data som eVars och events. Du måste välja en rapportserie när du använder den här attributkällan och definiera dimensionen eller händelsen som ska inkluderas. Rapportsvitens urval innehåller den variabelstruktur som används av rapportsviten.
+   * **[!UICONTROL Realtidsanalysdata:]** (eller Raw-data) Detta är attributdata som härletts från bildbegäranden i realtid med Analytics, och innehåller data som eVars och events. Du måste välja en rapportserie när du använder den här attributkällan och definiera dimensionen eller händelsen som ska inkluderas. Rapportsvitens urval innehåller den variabelstruktur som används av rapportsviten.
    >[!NOTE]
    >
    >På grund av cachelagring kräver borttagna rapportsviter i Analytics 12 timmar innan borttagningen visas i Experience Cloud.
 
    * **[!UICONTROL Experience Cloud:]** Attributdata härledda från [!DNL Experience Cloud] källorna. Detta kan till exempel vara data från målgruppssegment som du skapar i [!DNL Analytics]eller data från [!DNL Audience Manager].
 
-1. Definiera målgruppsregler och klicka sedan **[!UICONTROL Save].**
+1. Definiera målgruppsregler och klicka sedan på **[!UICONTROL Spara].**
 
 >[!NOTE]
 >
 >Ni bör förstå era implementeringsvariabler när ni definierar målgruppsregler.
 
-Under [!UICONTROL Rules]definierar du *`Home & Garden`* attributval:
+Definiera [!UICONTROL attributval under]Regler *`Home & Garden`* :
 
-* **[!UICONTROL Attribute Source:]** Råanalysdata
+* **[!UICONTROL Attributkälla:]** Råanalysdata
 * **[!UICONTROL Report Suite:]** Report Suite 31
-* Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home & Garden]**
+* Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Lika med]** > **[!UICONTROL Hem &amp; Garden]**
 
 ![](assets/home_garden.png)
 
 Besökarna *i* Chrome och Safari är ett målgruppssegment som delas av Analytics:
 
-* **[!UICONTROL Attribute Source:]** Experience Cloud
+* **[!UICONTROL Attributkälla:]** Experience Cloud
 * **[!UICONTROL Dimension:]** Besökare i Chrome och Safari
 
 ![](assets/chrome_safari.png)
@@ -87,4 +87,4 @@ Den resulterande regeln är en definierad målgrupp som omfattar Chrome- och Saf
 
 När datainsamlingen har slutförts för den angivna perioden kombineras cirklarna för att visa en definierad målgrupp.
 
-När målgruppen har sparats är den tillgänglig för andra lösningar. Du kan till exempel inkludera en delad målgrupp i en Target-aktivitet.
+När målgruppen har sparats är den tillgänglig för andra lösningar. Du kan till exempel inkludera en delad publik i en Adobe Target-aktivitet.
