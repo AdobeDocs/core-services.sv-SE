@@ -3,11 +3,11 @@ description: Adobe Experience Cloud använder cookies för att lagra ett besöka
 keywords: cookies;privacy
 seo-description: Adobe Experience Cloud använder cookies för att lagra ett besökar-ID som används i alla Experience Cloud-lösningar.
 seo-title: Experience Cloud Cookies
-solution: Marketing Cloud,Analytics,Target,Social
+solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
 title: Experience Cloud Cookies
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 translation-type: tm+mt
-source-git-commit: f9839c39c52bc10ab641df094dc444b642986974
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
