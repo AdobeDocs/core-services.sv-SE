@@ -7,20 +7,20 @@ solution: Marketing Cloud,Analytics,Target,Social
 title: Målcookies
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 translation-type: tm+mt
-source-git-commit: 29d8f983cf6961b3e567e672ee803e12b330fee7
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
 
-# Målcookies{#target-cookies}
+# Adobe Target Cookies{#target-cookies}
 
-Target använder cookies för att ge webbplatsoperatörerna möjlighet att testa vilket onlineinnehåll och vilka erbjudanden som är mer relevanta för besökarna.
+Adobe Target använder cookies för att ge webbplatsoperatörerna möjlighet att testa vilket onlineinnehåll och vilka erbjudanden som är mer relevanta för besökarna.
 
 Du kan ändra de här inställningarna om det behövs, med undantag för cookie-varaktighet. Kontakta din kontorepresentant när du ändrar cookie-inställningarna.
 
 >[!NOTE]
 >
->Målanvändare kan också skapa anpassade cookies från tredje part.
+>Adobe Target-användare kan också skapa anpassade cookies från tredje part.
 
 <table id="table_54B402C6E19C4A70B1E27BC9DFF776EB"> 
  <thead> 
@@ -40,7 +40,7 @@ Du kan ändra de här inställningarna om det behövs, med undantag för cookie-
   </tr> 
   <tr> 
    <td colname="col1"> <p>Serverdomän </p> </td> 
-   <td colname="col2"> <p> <span class="filepath"> clientcode.tt.omtrdc.net</span>, använda klientkoden för ditt Target-konto. </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> clientcode.tt.omtrdc.net</span>, använda klientkoden för ditt Adobe Target-konto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Cookie-varaktighet </p> </td> 
@@ -53,7 +53,7 @@ Du kan ändra de här inställningarna om det behövs, med undantag för cookie-
 >
 >Om något av dina domännamn innehåller en landskod, t.ex. [!DNL mycompany.co.uk], kan du samarbeta med dina klienttjänster för att konfigurera dina domäner [!DNL mbox.js] så att de stöder detta.
 
-Cookien har ett antal värden för att hantera hur besökarna upplever målkampanjer:
+Denna cookie har ett antal värden för att hantera hur besökarna upplever Adobe Target-kampanjer:
 
 <table id="table_5245F72A2D5A4322B40ABB10B7DFB338"> 
  <thead> 
