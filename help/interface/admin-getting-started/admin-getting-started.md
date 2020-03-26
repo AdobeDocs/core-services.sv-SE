@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Hantera Experience Cloud-användare och -produkter
 uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
 translation-type: tm+mt
-source-git-commit: fda58ef3a32af684482662ee462764b1b92f5cb2
+source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 
 ---
 
@@ -86,14 +86,14 @@ Efter migreringen loggar användare in med sitt Adobe ID (eller Enterprise ID) o
 
 [Migrering av användar-ID för analyser](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
-## Mål - produktprofiler jämfört med arbetsytor {#section_3860AF177C9E4C7E9C390D36A414F353}
+## Adobe Target - produktprofiler och arbetsytor {#section_3860AF177C9E4C7E9C390D36A414F353}
 
-I Target är en arbetsyta en produktprofil. Det gör att en organisation kan tilldela en viss uppsättning användare till en viss uppsättning egenskaper. På många sätt liknar en arbetsyta en rapportserie i Adobe Analytics.
+I Adobe Target är en arbetsyta en produktprofil. Det gör att en organisation kan tilldela en viss uppsättning användare till en viss uppsättning egenskaper. På många sätt liknar en arbetsyta en rapportserie i Adobe Analytics.
 
 Se:
 * [Enterprise-användarbehörigheter](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
 * [Hantera produkter och profiler](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* Video: Konfigurera [målarbetsytor i Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* Video: [Konfigurera Adobe Target-arbetsytor i Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Campaign - produktprofiler, hyresgäster och säkerhetsgrupper {#section_09CDF75366444CF5810CF321B7C712F3}
 
@@ -135,8 +135,8 @@ När du bjuder in en användare till en organisation kan du ge användaren tillg
 Mer hjälp finns här:
 
 * [Hantera produkter och profiler](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* [Enterprise User Permissions](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) in Target help for more information.
-* Video: Konfigurera [målarbetsytor i Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* [Enterprise User Permissions](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) in Adobe Target help for more information.
+* Video: [Konfigurera Adobe Target-arbetsytor i Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Tilldela behörigheter för Analytics-åtkomst till en produktprofil {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -152,7 +152,7 @@ Du kan till exempel skapa en produktprofil som innehåller flera analysverktyg (
 |--- |--- |
 | Rapportsviter | Aktivera behörigheter för specifika rapportsviter. |
 | Mått | Aktivera behörigheter för trafik, konvertering, anpassade händelser, lösningshändelser, innehållsmedveten osv. |
-| Dimensioner | Anpassa användaråtkomsten på detaljnivå: eVars, trafikrapporter, lösningsrapporter och kundvägsrapporter. |
+| Dimensioner | Anpassa användaråtkomsten på detaljnivå, inklusive eVars, trafikrapporter, lösningsrapporter och sökvägsrapporter. |
 | Report Suite-verktyg | Aktivera användarbehörigheter för Web Services, Report Suite Management, Tools and Reports och Dashboard Items. |
 | Analysverktyg | Aktivera användarbehörigheter för allmänna objekt (fakturering, loggar osv.), företagshantering, verktyg, Web Service Access, Report Builder och integrering med Data Connectors. Företagsinställningar från kategorin Anpassa Admin Console har flyttats till Analytics-verktyg. |
 
@@ -185,7 +185,7 @@ Följande webbläsare stöds i Experience Cloud:
 * [!DNL Safari]
 * [!DNL Opera]
 
-**Obs!** Trots att Experience Cloud-gränssnittet har stöd för dessa webbläsare kanske inte enskilda lösningar har stöd för alla webbläsare. ( [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) stöder till exempel inte [!DNL Opera]och [Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) stöder inte [!DNL Safari].)
+**Obs!** Trots att Experience Cloud-gränssnittet har stöd för dessa webbläsare kanske inte enskilda lösningar har stöd för alla webbläsare. ( [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) stöder till exempel inte [!DNL Opera]och [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) stöder inte [!DNL Safari].)
 
 **Lösningar och produktkrav**
 
