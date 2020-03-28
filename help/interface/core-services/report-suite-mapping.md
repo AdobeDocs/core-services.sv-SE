@@ -5,7 +5,7 @@ seo-title: Mappa rapportsviter till en organisation
 title: Mappa rapportsviter till en organisation
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -19,7 +19,7 @@ Experience Cloud-tjänster (som Experience Cloud ID Service och People core serv
 * Anger en Experience Cloud-organisation som primär organisation för rapportsviten.
 * Ändrar inte vem som har åtkomst till en rapportserie (åtkomsten bestäms fortfarande av inloggningskontot för Adobe Analytics för varje användare)
 
-**Krav**
+## Krav
 
 Du måste vara Analytics-administratör för ett inloggningsföretag som har tillgång till den rapportserie som du vill mappa. Dessutom måste det här kontot vara [länkat till en Experience Cloud-organisation](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) för att kunna mappa rapportsviter till den organisationen.
 
@@ -55,13 +55,13 @@ Organisationer är nedtonade om du inte har administratörsbehörighet för Anal
 
 Det här avsnittet innehåller tips som hjälper dig att välja den Experience Cloud-organisation som du ska mappa en rapportsvit till.
 
-**Vilken organisation ska jag välja?**
+### Vilken organisation ska jag välja?
 
 Om Experience Cloud ID-tjänsten för närvarande är distribuerad till rapportsviten ser du till att den organisation du väljer i verktyget för mappning av rapportsviten har samma organisation som anges i [!DNL visitorAPI.js] filen på din webbplats. Du kan använda instruktionerna i [Testa och Verifiera Experience Cloud ID-tjänsten](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) för att hitta det organisations-ID som används av Visitor ID-tjänsten.
 
 Om besökar-ID-tjänsten ännu inte har distribuerats på webbplatser som samlar in data för rapportsviten måste du se till att distributionen matchar den organisation du valde i verktyget för mappning av rapportsviten om du distribuerar Experience Cloud-besökar-ID i framtiden.
 
-**Varför är vissa organisationer nedtonade?**
+### Varför är vissa organisationer nedtonade?
 
 Detta anger att du inte har tillräcklig behörighet för att mappa till den nedtonade rapportsviten. Titta på följande exempel:
 
@@ -81,32 +81,32 @@ I följande punkter visas mappningsåtgärder som den här användaren kan och i
 * [!UICONTROL Nigel-prod] -rapportsviten kan inte länkas av den här användaren eftersom han inte är administratör i något inloggningsföretag som rapportsviten är synlig för.
 * [!UICONTROL Doohan-prod] report suite kan mappas till [!UICONTROL Chapek Corp] eftersom den här användaren är administratör för ett inloggningsföretag ([!UICONTROL chapek]) som är kopplat till Experience Cloud-organisationen (observera att han inte är administratör för inloggningsföretaget för Adobe Analytics). Det är viktigt att vara medveten om att rapportsviten [!UICONTROL doohan-prod] också kan mappas till Nigel Inc Experience Cloud-organisationen, även om den här användaren inte kan utföra mappningen. I det här fallet visas båda Experience Cloud-organisationerna i listan, men [!UICONTROL Nigel Inc] är nedtonad. Före mappningen bör den här användaren rådfråga en administratör för nollinloggningsföretaget för att avgöra vilken organisation som är bäst lämpad för mappning. Gränssnittet visar en varning om möjlig konflikt om du väljer en organisation som det här är en annan än den organisation som rapportsviten ursprungligen skapades i.
 
-## Vanliga frågor {#section_099E485805994C929FF9C9F75219BEE1}
+## Frequently Asked Questions {#section_099E485805994C929FF9C9F75219BEE1}
 
-**Varför ser jag inte alla rapporteringsprogram?**
+### Varför ser jag inte alla rapporteringsprogram?
 
 Vissa av dina rapportsviter kan vara synliga under ett annat inloggningsföretag. Du kan ändra det aktuella inloggningsföretaget med hjälp av listrutan högst upp på skärmen.
 
-**Vad händer om jag inte känner igen vissa av de organisationer som listas i listrutan för en av mina rapportsviter?**
+### Vad händer om jag inte känner igen vissa av de organisationer som listas i listrutan för en av mina rapportsviter?
 
-Listan visar alla *möjliga *organisationer som din rapportsserie kan mappas till, även om du inte har behörighet att mappa till alla dessa rapportsviter. Om du är osäker på om rapportsviten ska mappas till någon av de nedtonade rapportsviterna i listan kan du kontakta en Experience Cloud-administratör i din organisation för att avgöra vilket alternativ som är bäst.
+Listan visar alla *möjliga* organisationer som rapportsviten kan mappas till, även om du inte har behörighet att mappa till alla dessa rapportsviter. Om du är osäker på om rapportsviten ska mappas till någon av de nedtonade rapportsviterna i listan kan du kontakta en Experience Cloud-administratör i din organisation för att avgöra vilket alternativ som är bäst.
 
-**Vad händer om jag inte känner igen några av de inloggningsföretag som anges för en rapportserie i kolumnen&quot;Synligt för inloggningsföretag&quot;?**
+### Vad händer om jag inte känner igen några av de inloggningsföretag som anges för en rapportserie i kolumnen&quot;Synligt för inloggningsföretag&quot;?
 
 Vid något tillfälle delades den här rapportsviten med ett annat inloggningsföretag som kan vara en del av en annan Experience Cloud-organisation.
 
-**Vad är det här felet &quot;Möjlig konflikt&quot; om rapportsviten genereras av en annan organisation? Varför spelar det någon roll?**
+### Vad är det här felet &quot;Möjlig konflikt&quot; om rapportsviten genereras av en annan organisation? Varför spelar det någon roll?
 
 Detta är ett meddelande som hjälper dig att fatta ett välgrundat beslut om mappningen av rapportsviten. Vi vill informera dig om att rapportsviten ursprungligen skapades under en annan organisation om den organisationen skulle kunna vara mer lämplig för den här rapportsviten.
 
-**Hur vet jag om en rapportsserie är mappad?**
+### Hur vet jag om en rapportsserie är mappad?
 
 Mappade rapportsviter visas i ett format som inte kan redigeras. Kontakta kundtjänst om du behöver ändra en karta.
 
-**Vad händer om jag bara känner till Org ID:t för min Experience Cloud-organisation? Hur söker jag efter namnet på mitt Org ID?**
+### Vad händer om jag bara känner till Org ID:t för min Experience Cloud-organisation? Hur söker jag efter namnet på mitt Org ID?
 
 Du hittar ditt organisationsnamn i [Organisationer och Kontoinställningar](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html).
 
-**Jag ser ett datum i kolumnen &quot;Datummappning&quot;. Vem mappade det där?**
+### Jag ser ett datum i kolumnen &quot;Datummappning&quot;. Vem mappade det där?
 
-Du kan läsa ändringsloggen för Report Suite i analysgränssnittet för att kontrollera användar-ID:t som gjorde ändringen. Leta efter händelsen &quot;Suite associerad med IMS-organisationen&quot;.
+Du kan läsa ändringsloggen för Report Suite i analysgränssnittet för att kontrollera det användar-ID som gjorde ändringen. Leta efter händelsen &quot;Suite associerad med IMS-organisationen&quot;.
