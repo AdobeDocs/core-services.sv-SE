@@ -7,7 +7,7 @@ solution: Marketing Cloud
 title: Utlösare
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ## Översikt över utlösare {#topic_4F21FCE9A64E46E8B6D51F494FA652A7}
 
-*Med triggers* kan ni identifiera, definiera och övervaka viktiga konsumentbeteenden och sedan generera kommunikation mellan olika lösningar för att engagera besökarna på nytt. Ni kan använda triggers i realtidsbeslut och personalisering.
+*Med triggers* kan ni identifiera, definiera och övervaka viktiga konsumentbeteenden och sedan generera kommunikation mellan olika lösningar för att återengagera besökarna. Ni kan använda triggers i realtidsbeslut och personalisering.
 
 * Konfigurera snabb ommarknadsföring för övergivna varukorgar eller övergivna varukorgar med borttagna produkter
 * Ofullständiga formulär och ansökningar
@@ -24,7 +24,7 @@ source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
 
 ![](assets/trigger-abandonment-2.png)
 
-**Typer av utlösare**
+### Typer av utlösare
 
 I allmänhet kan en utlösare ta 15-90 minuter att starta en marknadsföringskampanj. Detta varierar beroende på implementering av datainsamling, inläsning på pipeline, anpassad konfiguration av den definierade utlösaren och arbetsflödet i Adobe Campaign.
 
@@ -36,18 +36,16 @@ I allmänhet kan en utlösare ta 15-90 minuter att starta en marknadsföringskam
 
 Skapa en utlösare för att överge och konfigurera villkoren för utlösaren och poängsättningen för benägenhet. Du kan till exempel ange villkor för en utlösares regler under ett besök, till exempel mått som Cart Abandon eller dimensioner som produktnamnet. När reglerna är uppfyllda körs utlösaren.
 
-<!-- t_create-trigger.xml -->
-
 >[!NOTE]
 >
 >Det finns för närvarande en teknisk gräns på 100 utlösare.
 
-1. Klicka på i Experience Cloud ![](assets/menu-icon.png)och sedan på **[!UICONTROL Activation]**.
-1. Leta reda på [!UICONTROL Triggers] kortet och klicka sedan på **[!UICONTROL Launch]**.
+1. Klicka på ![](assets/menu-icon.png)och sedan på **[!UICONTROL Aktivering]** i Experience Cloud.
+1. Leta upp [!UICONTROL utlösarkortet] och klicka sedan på **[!UICONTROL Starta]**.
 
    ![Stegresultat](assets/activation-triggers.png)
 
-1. Klicka **[!UICONTROL New Trigger]** och ange sedan typ av utlösare:
+1. Klicka på **[!UICONTROL Ny utlösare]** och ange sedan typ av utlösare:
 
    ![Stegresultat](assets/add-trigger.png)
 
@@ -62,30 +60,30 @@ Skapa en utlösare för att överge och konfigurera villkoren för utlösaren oc
    | Behållare | Behållare är där du anger och lagrar regler, villkor eller filter som definierar en utlösare. Om du vill att händelser ska inträffa samtidigt placerar du dem i samma behållare. Det innebär att varje behållare bearbetas oberoende på träffnivå.  Om du till exempel har två behållare som förenas med operatorn And kan du förvänta dig att reglerna kvalificeras när två träffar uppfyller kraven. |
    | Starta ny session efter | Skapa en utlösare för händelser för sessionsstart och sessionsslut. |
 
-1. (Valfritt) I övergivningsutlösare kan du använda [Propensitetsbedömning](../activation/triggers.md#concept_A506150674AD45DB98D3CC07E560D334).
+1. (Valfritt) I [!UICONTROL övergivningsutlösare]kan du använda [Propensitetsbedömning](../activation/triggers.md#concept_A506150674AD45DB98D3CC07E560D334).
 
    ![Stegresultat](assets/propensity-scoring.png)
 
-1. Klicka på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Spara]**.
 1. Använd triggers för återmarknadsföring [i](https://docs.campaign.adobe.com/doc/standard/en/EMA_Transactional_messaging_Marketing_Cloud_Triggers.html) realtid i [!DNL Adobe Campaign].
 
 ### Exempelutlösare
 
-**Cart Abandonment Trigger**
+Exempel på Experience Cloud-utlösare:
+
+#### Cart Abandonment Trigger
 
 På följande sida visas regler som du kan använda för en Cart Abandonment-utlösare, baserat på vilka produkter som visas under ett besök.
 
 ![](assets/abandonment-trigger.png)
 
-**Utlösare för referent**
+#### Utlösare för referent
 
-Följande utlösare utlöses när en träff kommer in med produkten av Men&#39;s Boots och Facebooks hänvisningsprogram. För att de två kriterierna ( *produkter* och *referent*) ska utvärderas i samma träff bör de läggas till i samma behållare.
+Följande utlösare utlöses när en träff kommer in med produkten av Men&#39;s Boots och Facebooks hänvisningsprogram. För att de två kriterierna (*produkter* och *referent*) ska utvärderas i samma träff, bör de läggas till i samma behållare.
 
 ![](assets/fb-boots-promo.png)
 
 ## Propensitetsbedömning {#concept_A506150674AD45DB98D3CC07E560D334}
-
-<!-- propensity-scoring.xml -->
 
 Förstå kundernas tendens att återvända efter att ha övergett en kundvagn. Propensitetsbedömning är inbyggd i Experience Cloud Triggers och finns för övergivningsutlösare.
 
@@ -99,7 +97,7 @@ Du kan:
 * Identifiera rätt kunder som överger kundvagnen och mappa deras aktivitet till rätt budskap.
 * Öka intäkterna genom att veta vilka kunder som kommer att returnera och inte.
 
-## Värdet för känslighetsskalförändring {#section_CA99874A25434CC0BF01D0DA61608889}
+### Värdet för känslighetsskalförändring {#section_CA99874A25434CC0BF01D0DA61608889}
 
 Du kan identifiera dolda beteenden eller mönster som finns i alla dina data genom att utföra dataidentifiering. I synnerhet hjälper benägenhetsbedömningen er att identifiera kluster med liknande kunder med mer fokuserade och objektiva metoder i stället för enkel segmentering eller filtrering. Dessutom kan ni med benägenhetsbedömning lägga upp prediktiva funktioner för att identifiera beteende för företagets värdefulla kunder.
 
