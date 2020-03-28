@@ -5,9 +5,9 @@ seo-description: Implementera Experience Cloud och bli administratör. Den här 
 seo-title: Aktivera era Experience Cloud-lösningar för bastjänster
 solution: Experience Cloud
 title: Möjliggör era lösningar för bastjänsterna
-uuid: 5820060f-9b18-4339-81e0-401d964f7a03
+index: true
 translation-type: tm+mt
-source-git-commit: 979520e2f0e015180a3b51d4b0b88b96b72301a3
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -104,7 +104,7 @@ I Adobe Target `mbox3rdpartyid` måste kunden hämta sitt ID och skicka det till
 
 När en besökare autentiserar sig på din webbplats, eller på annat sätt identifierar sig själv, måste din implementering visa den personens CRM-kund-ID för sidan eller appen. Sedan kan du använda rätt funktionsanrop för att synkronisera ditt kund-ID med Experience Cloud. Den här synkroniseringen lagrar besökarens CRM-kund-ID i Experience Cloud och aktiverar kundens attribut för användning i Experience Cloud.
 
-Anta till exempel att Bob har ett kund-ID `52mc210tr42` i ditt CRM-system. När Bob autentiserar på din webbplats måste du visa detta ID på sidan och använda ID:t för att synkronisera det på ett av två sätt:
+Anta till exempel att Bob har ett kund-ID `52mc210tr42` i ditt CRM-system. När Bob autentiserar på din webbplats måste du visa detta ID på sidan och använda ID:t för att synkronisera det på något av två sätt:
 
 * Ring `visitor.setCustomerIDs({"crm_id":"52mc210tr42"})` med tjänsten för besökar-ID. Eller
 * Fyll i *`Customer ID (52mc210tr42)`* i en prop eller eVar.
