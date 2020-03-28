@@ -5,9 +5,9 @@ seo-description: Lär dig hur du loggar in på Admin Console, hanterar användar
 seo-title: Hantera Experience Cloud-användare och -produkter
 solution: Experience Cloud
 title: Hantera Experience Cloud-användare och -produkter
-uuid: aea4e4c3-f543-4e8d-b553-d838418477d6
+index: true
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -26,11 +26,11 @@ Läs om de senaste funktionerna i Experience Cloud-användarhantering.
 
 <!-- ### Business ID type
 
-Adobe is now introducing a new identity type: **Business ID**. This identity type, improves the control of user and product management, and content, while increasing the flexibility of Experience Cloud and Creative Cloud storage usage among your team. With the introduction of this new identity type, Adobe is migrating all Adobe IDs (owned by the individual) used for business to the new Business IDs (owned by the organization).
+Adobe is introducing an identity type called _Business ID_. This identity type improves the control of user and product management while increasing the flexibility of Creative Cloud storage usage among your team (if applicable). Adobe is migrating all Adobe IDs (owned by individuals) that are used for business to the new enterprise Business IDs (owned by your organization).
 
-If you're an existing Creative Cloud for enterprise or teams customer, Adobe will migrate all your users on the Admin Console with Adobe IDs to Business IDs. If you're a new enterprise or teams customer, you will add users to the Admin Console using one of the available identity types: Business ID, Enterprise ID, or Federated ID. 
+If you're an existing Experience Cloud customer, Adobe will migrate all your users on the Admin Console with Adobe IDs to Business IDs. If you're a new enterprise or teams customer, you will add users to the Admin Console using one of the available identity types: Business ID, Enterprise ID, or Federated ID. 
 
-Beginning May 89, 2020, enterprise admins cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM
+Beginning May 2020, enterprise admins cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM
 
 What to do
 
@@ -45,7 +45,7 @@ Administratörer kan visa en sorterbar och filterbar lista över alla Experience
 
 Administratörer hanterar inte längre användare i lösningar. Användar- och produkthantering för Experience Cloud finns nu i Admin Console.
 
-**Logga in på Admin Console**
+Så här loggar du in på Admin Console:
 
 1. Gå till [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. Skriv ditt [Adobe-ID eller Enterprise-ID](https://helpx.adobe.com/enterprise/help/identity.html) och lösenord.
@@ -117,7 +117,7 @@ Mer information om hur du bjuder in användare till dynamisk tagghantering och t
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
-Skapa Audience Manager-användare och tilldela dem till grupper. Du kan också visa begränsningar (egenskaper, segment, mål och AlgoModel).
+Skapa Audience Manager-användare och tilldela dem till grupper. Du kan också visa begränsningar (egenskaper, segment, mål och [!DNL AlgoModel]).
 
 Se [Administration](https://docs.adobe.com/content/help/en/dtm/using/admin/users.html) i hjälpen för Audience Manager.
 
@@ -177,8 +177,6 @@ Genom att använda de här rollerna kan du delegera hantering till andra utan at
 
 Webbläsare som stöds i Experience Cloud.
 
-Följande webbläsare stöds i Experience Cloud:
-
 * [!DNL Microsoft Edge] (Microsoft har [upphört med stödet](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) för Internet Explorer 8, 9 och 10. Därför kommer Adobe inte att åtgärda problem som rapporteras mot dessa specifika versioner av Internet Explorer.)
 * [!DNL Google Chrome]
 * [!DNL Firefox]
@@ -187,7 +185,7 @@ Följande webbläsare stöds i Experience Cloud:
 
 **Obs!** Trots att Experience Cloud-gränssnittet har stöd för dessa webbläsare kanske inte enskilda lösningar har stöd för alla webbläsare. ( [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) stöder till exempel inte [!DNL Opera]och [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) stöder inte [!DNL Safari].)
 
-**Lösningar och produktkrav**
+### Lösningar och produktkrav
 
 * [Analyser](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)
 * [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
