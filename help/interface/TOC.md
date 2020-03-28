@@ -4,7 +4,7 @@ user-guide-title: Core Services User Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -12,8 +12,8 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
 # Användarhandbok för bastjänster {#interface}
 
 + [Produktdokumentation för Experience Cloud och bastjänster](experience-cloud.md)
-+ Om bastjänster {#about-core-services}
-   + [[!UICONTROL Viktiga tjänster] - översikt](core-services-landing.md)
++ Centrala tjänster i Experience Cloud {#about-core-services}
+   + [Översikt över bastjänster](core-services-landing.md)
    + [Möjliggör era lösningar för bastjänsterna](core-services/core-services.md)
    + [Mappa rapportsviter till en organisation](core-services/report-suite-mapping.md)
    + [Om de nya molnnamnen i Experience Cloud](solutions-core-services.md)
@@ -33,7 +33,7 @@ source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
    + [Aktivera sekretessinställningar för webbläsarcookies](cookies/browser-cookie-settings.md)
    + [Hur ändringar av cookie-support från tredje part påverkar kunder](cookies/cookies-thirdparty.md)
 + Hantering av användare och produkter {#manage-users-and-products}
-   + [Hantera Experience Cloud-användare och -produkter (Admin Console)](admin-getting-started/admin-getting-started.md)
+   + [Hantera Experience Cloud-användaridentitet och -produkter (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Visa användarinformation för Experience Cloud (Admin Tool)](admin-getting-started/admin-tool-experience-cloud.md)
    + [Vanliga frågor](admin-getting-started/faq.md)
    + [Logga in och hantera dina profilinställningar](admin-getting-started/getting-started-experience-cloud.md)
