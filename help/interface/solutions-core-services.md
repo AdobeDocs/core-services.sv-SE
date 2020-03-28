@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Om de nya molnnamnen i Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -105,19 +105,6 @@ Adobe Primetime är en TV-plattform för flera skärmar som hjälper medieföret
 
 ## Vad är bastjänster? {#concept_38AC4888C3F84694AE4F60311C21B9C2}
 
-[Bastjänsterna](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C) innehåller funktioner som förenklar produktimplementeringen och möjliggör arbetsflöden mellan olika lösningar, som målgruppssegmentering, överföring av kundattribut och samarbetsverktyg.
+[Bastjänsterna](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html) innehåller funktioner som förenklar produktimplementeringen och möjliggör arbetsflöden mellan olika lösningar, som målgruppssegmentering, överföring av kundattribut och samarbetsverktyg.
 
 ![](assets/core-services.png)
-
-| Bastjänst | Beskrivning |
-|--- |--- |
-| [Aktivering](activation/activation.md) | Tagghanteringssystem (Experience Platform Launch och Dynamic Tag Management).<br>Utlösare gör att ni kan vidta åtgärder i realtid i Adobe Campaign baserat på insikter från Adobe Analytics. |
-| [Administration](admin-getting-started/admin-getting-started.md) | Hantera användar- och produktbehörigheter i alla era moln och lösningar från Adobe. |
-| [Assets](experience-cloud-assets/experience-cloud-assets.md) | Lagra, synkronisera och dela enkelt alla digitala resurser på en central plats för att spara tid och leverera en mer enhetlig kundupplevelse. |
-| [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) | [!UICONTROL Experience Platform Launch] är nästa generation av tagghanteringsfunktioner från Adobe. [!UICONTROL Experience Platform Launch] ger kunderna ett enkelt sätt att driftsätta och hantera alla analyser, marknadsförings- och annonstaggar som behövs för att skapa relevanta kundupplevelser. |
-| [Resesamordning](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | Bygg realtidssamordning med hjälp av kontextuella data lagrade i händelser eller datakällor. [!UICONTROL Resesamordning] är en programtjänst som är integrerad med Experience Platform. |
-| [Platstjänst](https://docs.adobe.com/content/help/en/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] (Location Service) är en geolokaliseringstjänst som gör det möjligt för mobilappar med platsmedvetenhet att förstå platskontexten genom att använda avancerade och lättanvända SDK-gränssnitt tillsammans med en flexibel databas med intressepunkter (POI). |
-| Erbjudanden | Med Erbjudandehantering kan du skapa, hantera och fatta beslut för erbjudanden i alla kanaler i Experience Cloud. |
-| [Exchange](exchange.md) | Sök, bläddra, välj, betala och hämta Digital Marketing-tillägg via appar. |
-| [Mobiltjänster](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Adobe Mobile Services samlar funktioner för mobilmarknadsföring för mobilappar från hela Experience Cloud, vilket gör att ni kan förstå och förbättra användarinteraktionen med era mobilappar. |
-| Folk | Skapa en heltäckande bild av enskilda kunder genom att koppla samman Adobe-data och andra data i era Experience Cloud-lösningar. Ta reda på vad som betyder mest för dem när de interagerar via olika kontaktytor. Känn igen välbekanta konsumenter när de besöker hemlösa enheter. Du kan till och med gruppera användare i målgrupper för riktade marknadsföringssatsningar.<br>[Målgrupper](audience-library/audience-library.md) - Kategorisera olika typer av kunder i målgrupper och dela sedan dessa målgrupper i alla Marketing Cloud-lösningar.<br>[Kundattribut](attributes/attributes.md) - målgruppsberikning som gör att ni kan koppla samman konsumentinformation som ni har samlat in utanför Marketing Cloud.<br>[Enhetsdiagram](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) - Samarbeta med världens populäraste varumärken för att känna igen en välbekant konsument bakom en okänd enhet. (I betaversion, endast för medlemmar i Marketing Cloud Device Co-op.) |
