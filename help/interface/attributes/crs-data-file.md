@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Om datafiler och datakällor för kundattribut
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -18,12 +18,9 @@ Datafilskrav och flera datakällor för överföring av kundattribut till Experi
 
 Du behöver åtkomst till CRM eller liknande data från ditt företag. De data du överför till Experience Cloud måste vara en `.csv` fil. Om du överför via FTP eller sFTP överför du även en `.fin` fil.
 
-Kundattribut är utformat för att hantera några filer per dag. För att minska problemet med att ha ett stort antal små filer som försenar bearbetningen dirigeras filer som skickas inom 30 minuter från en tidigare batch från samma organisation till en kö med lägre prioritet.
-
-<!-- <p>Articulate difference between this and SAINT. </p> -->
+Kundattribut är utformat för att hantera ett fåtal filer per dag. För att minska problemet med att ha ett stort antal små filer som försenar bearbetningen dirigeras filer som skickas inom 30 minuter från en tidigare batch från samma organisation till en kö med lägre prioritet.
 
 ## Tillåtna filtyper och namnkrav {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
-
 
 <table id="table_C27955F6B52A45B28BEEAAF14FFC86D8"> 
  <thead> 
@@ -48,16 +45,11 @@ Kundattribut är utformat för att hantera några filer per dag. För att minska
  </tbody> 
 </table>
 
-
 ## Krav för attributdatafiler {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
-
-
 
 **Exempel på CSV**
 
 CSV-filen måste ha följande format:
-
-Exempel på CSV:
 
 ![](assets/cvs.png)
 
@@ -142,7 +134,6 @@ Samma fil som visas i en textredigerare:
  </tbody> 
 </table>
 
-
 ## Utnyttja flera datakällor {#section_76DEB6001C614F4DB8BCC3E5D05088CB}
 
 När du skapar, ändrar eller tar bort kundattributskällor är det en fördröjning på ungefär en timme innan ID:n börjar synkronisera med den nya datakällan.
@@ -164,4 +155,4 @@ Visitor.setCustomerIDs({
 
 I **[!UICONTROL Experience Cloud]** > **[!UICONTROL Personer]** > **[!UICONTROL Kundattribut]**:
 
-Skapa två kundattributskällor med unika alias-ID:n som motsvarar kundens ID:n ovan. Med den här metoden kan samma referens-ID skickas till flera källor för kundattribut
+Skapa två kundattributskällor med unika alias-ID:n som motsvarar kundens ID:n ovan. Med den här metoden kan samma referens-ID skickas till flera källor för kundattribut.
