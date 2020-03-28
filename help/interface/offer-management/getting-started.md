@@ -8,14 +8,14 @@ index: y
 internal: n
 snippet: y
 translation-type: tm+mt
-source-git-commit: 2f0c2eb70313c42da9e7ac1d75429ec768dea10d
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
 # Adobes erbjudandehantering {#section_07CBD4C01F4049A5A19781737D2DCD35}
 
-[!UICONTROL Offer Management] ger möjlighet att skapa, hantera och fatta beslut i alla kanaler i Experience Cloud. Det fungerar som en central katalog för erbjudanden där du kan koppla berättiganderegler och flera innehållsdelar till varje _erbjudandeobjekt._ Ni kan publicera dessa erbjudanden över olika kanaler och platser och leverera det bästa erbjudandet för varje kund vid varje interaktion. Dessa funktioner gör att ni kontinuerligt kan leverera det bästa erbjudandet till era kunder på ett sätt som är enhetligt och samordnat för upplevelsen.
+[!UICONTROL Med Erbjudandehantering] kan du skapa, hantera och fatta beslut för erbjudanden i alla kanaler i Experience Cloud. Det fungerar som en central katalog för erbjudanden där du kan koppla berättiganderegler och flera innehållsdelar till varje _erbjudandeobjekt._ Ni kan publicera dessa erbjudanden över olika kanaler och platser och leverera det bästa erbjudandet för varje kund vid varje interaktion. Dessa funktioner gör att ni kontinuerligt kan leverera det bästa erbjudandet till era kunder på ett sätt som är enhetligt och samordnat för upplevelsen.
 
 Några fördelar:
 
@@ -32,11 +32,11 @@ Lär dig hur du får tillgång till Erbjudandehantering.
 
    En Experience Cloud-organisation måste ha en instans av Campaign Standard. Adobe kan också aktivera en funktion i Campaign som gör att ni kan skapa erbjudandeaktiviteter i e-postmeddelanden.
 
-1. Klicka på lösningsväljaren på Experience Clouds navigeringsmeny och klicka sedan på **[!UICONTROL Offers]**.
+1. Klicka på lösningsväljaren på Experience Clouds navigeringsmeny och klicka sedan på **[!UICONTROL Erbjudanden]**.
 
    ![](assets/access-offers.png)
 
-   Om du vill få tillgång till erbjudanden i Campaign Standard klickar du på **[!UICONTROL Offers]** ikonen i en e-postmall.
+   Om du vill få tillgång till erbjudanden i Campaign Standard klickar du på ikonen **[!UICONTROL Erbjudanden]** i en e-postmall.
 
    ![](assets/campaign-add-offer.png)
 
@@ -44,7 +44,7 @@ Lär dig hur du får tillgång till Erbjudandehantering.
 
 ## Användare och behörigheter {#concept_81F0ABB07ACC49E099EDCD87AA0436E1}
 
-Administratörer kan lägga till användare [!UICONTROL Offer Management] i Admin Console. En e-postinbjudan skickas till den nya användaren med instruktioner om hur man kommer åt produkten. När en användare har lagts till kan du justera deras behörigheter och ge dem åtkomst till olika funktioner i hela [!UICONTROL Offer Management]processen.
+Administratörer kan lägga till användare i [!UICONTROL Erbjudandehantering] på Admin Console. En e-postinbjudan skickas till den nya användaren med instruktioner om hur man kommer åt produkten. När en användare har lagts till kan du justera deras behörigheter och ge dem åtkomst till olika funktioner genom [!UICONTROL Erbjudandehantering].
 
 Mer information om hur du använder Admin Console finns i dokumentationen [till Admin Console i](https://helpx.adobe.com/enterprise/help/aedash.html)HelpX.
 
@@ -52,7 +52,7 @@ I Campaign har standardanvändare automatiskt rätt att bädda in erbjudandeakti
 
 >[!NOTE]
 >
->Det finns inga behörigheter för betaversion. Alla användare som har lagts till i erbjudanden har full tillgång till alla funktioner i [!UICONTROL Offer Management].
+>Det finns inga behörigheter för betaversion. Alla användare som har lagts till i erbjudanden har full tillgång till alla funktioner i [!UICONTROL erbjudandehanteringen].
 
 ## Skapa en produktprofil för Erbjudandehantering
 
@@ -60,21 +60,21 @@ En produktprofil är en uppsättning behörigheter som kan kombineras för att s
 
 1. Gå till Adobe [Admin Console](https://adminconsole.adobe.com/).
 
-1. Klicka på proceduren (till **[!UICONTROL Offers]** exempel).
+1. Klicka på din profil (till exempel **[!UICONTROL Erbjudanden]**).
 
-1. På [!UICONTROL Product Pofiles] sidan klickar du på **[!UICONTROL New Profile]**.
+1. På sidan [!UICONTROL Produktprofiler] klickar du på **[!UICONTROL Ny profil]**.
 
-1. Ange ett namn och en beskrivning för produktprofilen och klicka sedan på **[!UICONTROL Done]**.
+1. Ange ett namn och en beskrivning för produktprofilen och klicka sedan på **[!UICONTROL Klar]**.
 
-1. Klicka på **[!UICONTROL Save]**.
+1. Klicka på **[!UICONTROL Spara]**.
 
 ### Behörigheter - definitioner
 
-En beskrivning av [!UICONTROL Offer Management] behörigheter som är tillgängliga för produktprofiler i [!UICONTROL Admin Console].
+En beskrivning av de [!UICONTROL behörigheter för] erbjudandehantering som är tillgängliga för produktprofiler i [!UICONTROL Admin Console].
 
 | Element | Beskrivning |
 |--- |--- |
-| Skapa och redigera erbjudanden | Ger användarna möjlighet att skapa och redigera erbjudanden i [!UICONTROL Offer Management]. Om en användare har den här behörigheten men inte _behörigheten Godkänn erbjuder_ , kan användaren bara skapa ett erbjudande och skicka det för godkännande. Den kan inte användas i en erbjudandeaktivitet förrän den har godkänts. |
+| Skapa och redigera erbjudanden | Ger användarna möjlighet att skapa och redigera erbjudanden i [!UICONTROL Erbjudandehantering]. Om en användare har den här behörigheten men inte _behörigheten Godkänn erbjuder_ , kan användaren bara skapa ett erbjudande och skicka det för godkännande. Den kan inte användas i en erbjudandeaktivitet förrän den har godkänts. |
 | Ta bort erbjudanden | Ger användarna åtkomst till raderade erbjudanden. |
 | Godkänn erbjudanden | Ger användarna möjlighet att godkänna ett erbjudande. Användare med den här behörigheten får ett meddelande när de loggar in på Offer Management om erbjudanden behöver godkännas. Om en användare har både den här behörigheten och _skaps- och redigeringsbehörigheten_ kan han/hon skapa och godkänna erbjudanden i ett enda arbetsflöde. |
 | Arkivera erbjudanden | Ger användarna möjlighet att arkivera ett erbjudande. |
