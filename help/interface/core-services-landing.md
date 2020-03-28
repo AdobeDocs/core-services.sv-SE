@@ -1,30 +1,37 @@
 ---
-description: 'null'
-seo-description: 'null'
-seo-title: Om bastjänster
+description: Läs mer om användar- och produkthantering i Adobe Experience Cloud,"People core service" (målgrupper och kundattribut), Journey Orchestration, Offers, Places, 45 Experience Platform Launch och Mobile Services.
+seo-description: Läs mer om användar- och produkthantering i Adobe Experience Cloud, bastjänsten för människor (målgrupper och kundattribut), erbjudanden, Experience Platform Launch och mobiltjänster.
+seo-title: Bastjänsterna och användarhanteringen i Experience Cloud
 solution: Experience Cloud
-title: Om bastjänster
-uuid: 0a8542de-8d89-43dc-b9ad-e27bdf4356f6
+title: Om bastjänsterna i Experience Cloud
+index: true
 translation-type: tm+mt
-source-git-commit: 97cc8a1fbc63a87f758a4dc0494a6f953be44006
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
-# Om bastjänster {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
+# Om bastjänsterna i Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Klicka på menyikonen i Experience Cloud ![](assets/menu-icon.png) för att öppna den nedrullningsbara menyn.
+Bastjänsterna i Adobe Experience Cloud innefattar bastjänsten People (målgrupper och kundattribut), Offers, Experience Platform Launch och Mobile Services. Du kan även få tillgång till hjälp om användar- och produkthantering i Experience Cloud.
 
-![](assets/experience-cloud-core-services.png)
+Klicka på **[!UICONTROL Experience Platform]** -menyn för att få tillgång till de här tjänsterna i Experience Cloud ![](assets/menu-icon.png).
 
-Adobe Experience Platform centraliserar och standardiserar data och innehåll i hela företaget. Produktdokumentationen finns på [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html).
+![](assets/platform-core-services.png)
 
-| Element | Beskrivning |
+Adobe Experience Platform centraliserar och standardiserar data och innehåll i hela företaget. Produktdokumentation för utvecklare av [!UICONTROL Experience Platform] finns på [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html).
+
+I den här hjälpen beskrivs följande produkter och tjänster:
+
+| Bastjänst | Beskrivning |
 |--- |--- |
-| [Administratör](admin-getting-started/admin-getting-started.md) | Hantera användarrättigheter och produktprofiler för Experience Cloud. |
-| [Resurser](experience-cloud-assets/experience-cloud-assets.md) | Experience Cloud Assets utgör en enda central lagringsplats med marknadsföringsklart material som ni kan dela mellan olika lösningar. |
-| [Exchange](https://experiencecloud.adobeexchange.com/) | Utöka funktionaliteten i Adobe Experience Cloud med de bästa tilläggen, skripten med mera. Utforska med sökfältet eller sortera efter produkt eller apptyp. |
-| [Starta](activation/activation.md) | Datainsamling och teknikaktivering för webbplatser och appar. Den innehåller följande uppgifter:<ul><li>Experience Platform Launch (den senaste tagghanteringslösningen)</li><li>Dynamisk tagghantering</li><li>Utlösare</li></ul> |
-| [Erbjudanden](offer-management/getting-started.md) | Skapa, hantera och fatta beslut i alla kanaler i Experience Cloud. [!UICONTROL Offer Management] fungerar som en central katalog för erbjudanden där ni kan koppla samman regler för behörighet och flera innehållsdelar med varje erbjudande, publicera dessa erbjudanden över olika kanaler och platser och leverera det bästa erbjudandet för varje kund vid varje interaktion. |
-| [Mobiltjänster](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Mobiltjänster samlar funktioner för mobilmarknadsföring för mobilappar från hela Adobe Marketing Cloud, vilket gör att ni kan förstå och förbättra användarengagemanget i era mobilappar. |
-| [Folk](audience-library/audience-library.md) | I målgruppsbiblioteket kan du skapa målgrupper, kombinera befintliga målgrupper för att skapa sammansatta målgrupper och visa alla delade målgrupper.<br>I kundattribut kan du även överföra företagskunddata till Experience Cloud. |
+| [Aktivering](activation/activation.md) | Tagghanteringssystem (Experience Platform Launch och Dynamic Tag Management).<br>Utlösare gör att ni kan vidta åtgärder i realtid i Adobe Campaign utifrån insikter från Adobe Analytics. |
+| [Administration](admin-getting-started/admin-getting-started.md) | Hantera användar- och produktbehörigheter i alla era moln och lösningar från Adobe. |
+| [Assets](experience-cloud-assets/experience-cloud-assets.md) | Lagra, synkronisera och dela enkelt alla digitala resurser på en central plats för att spara tid och leverera en mer enhetlig kundupplevelse. |
+| [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) | [!UICONTROL Experience Platform Launch] är nästa generation av tagghanteringsfunktioner från Adobe. [!UICONTROL Experience Platform Launch] ger kunderna ett enkelt sätt att driftsätta och hantera alla analyser, marknadsförings- och annonstaggar som behövs för att skapa relevanta kundupplevelser. |
+| [Resesamordning](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | Bygg realtidssamordning med hjälp av kontextuella data lagrade i händelser eller datakällor. [!UICONTROL Resesamordning] är en programtjänst som är integrerad med Experience Platform. |
+| [Platstjänst](https://docs.adobe.com/content/help/en/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] (Location Service) är en geolokaliseringstjänst som gör det möjligt för mobilappar med platsmedvetenhet att förstå platskontexten genom att använda avancerade och lättanvända SDK-gränssnitt tillsammans med en flexibel databas med intressepunkter (POI). |
+| [Erbjudanden](offer-management/getting-started.md) | Skapa, hantera och fatta beslut i alla kanaler i Experience Cloud. [!UICONTROL Erbjudandehantering] fungerar som en central katalog för erbjudanden där ni kan koppla samman regler för kvalificering och flera innehållsdelar med varje erbjudande, publicera erbjudandena över olika kanaler och platser och leverera det bästa erbjudandet för varje kund vid varje interaktion. |
+| [Exchange](exchange.md) | Sök, bläddra, välj, betala och hämta Digital Marketing-tillägg via appar. |
+| [Mobiltjänster](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Adobe Mobile Services samlar funktioner för mobilmarknadsföring för mobilappar från hela Experience Cloud, vilket gör att ni kan förstå och förbättra användarinteraktionen med era mobilappar. |
+| Folk | Skapa en heltäckande bild av enskilda kunder genom att koppla samman Adobe-data och andra data i era Experience Cloud-lösningar. Ta reda på vad som betyder mest för dem när de interagerar via olika kontaktytor. Känn igen välbekanta konsumenter när de besöker hemlösa enheter. Du kan till och med gruppera användare i målgrupper för riktade marknadsföringssatsningar.<br>[Målgrupper](audience-library/audience-library.md) - Kategorisera olika typer av kunder i målgrupper och dela sedan dessa målgrupper i alla Marketing Cloud-lösningar.<br>[Kundattribut](attributes/attributes.md) - målgruppsberikning som gör att ni kan koppla samman konsumentinformation som ni har samlat in utanför Marketing Cloud.<br>[Enhetsdiagram](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) - Samarbeta med världens populäraste varumärken för att känna igen en välbekant konsument bakom en okänd enhet. (I betaversion, endast för medlemmar i Marketing Cloud Device Co-op.) |
