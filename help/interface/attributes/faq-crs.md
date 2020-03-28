@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Vanliga frågor, begränsningar och bästa praxis
 uuid: e93eb531-23c7-4d75-92e8-75699f58546a
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -18,11 +18,11 @@ Vanliga frågor och bästa praxis för kundattribut i Analytics och Target.
 
 ## God praxis och begränsningar {#section_7F5189B3DAA84EE6865B91D2026EE05A}
 
-Vägledning och begränsningar när kundattribut används.
+Vägledning och begränsningar när [!UICONTROL kundattribut]används.
 
 | Problem | Beskrivning |
 |--- |--- |
-| Prenumerationsbegränsningar för kundattribut | När du uppgraderar till Analytics Premium tar det 24 timmar innan ytterligare attribut finns tillgängliga. Ett Max-fel för attributprenumeration kan visas under den här fördröjningen. |
+| [!UICONTROL Prenumerationsbegränsningar för] kundattribut | När du uppgraderar till Analytics Premium tar det 24 timmar innan ytterligare attribut finns tillgängliga. Ett Max-fel för attributprenumeration kan visas under den här fördröjningen. |
 | Flera inloggningar på samma enhet | När du använder kundattribut för att överföra kundprofiler till en datakälla, rekommenderar Adobe mot användare som delar samma enhet (det vill säga samma Experience Cloud-ID). Om du gör det kan ECID-tjänsten, som finns kvar på enheten, länka flera användare under samma Experience Cloud ID, vilket kan ge oväntade resultat [!DNL Target]. **Obs!** För mobiler är ECID permanent efter att mobilappen har installerats, och du måste installera om appen för att generera ett nytt ECID. För webben genereras ett nytt ECID när webbläsarens cookie har rensats. |
 | Begränsning av överföring av frekvens per dag | Adobe rekommenderar att du bara uppdaterar kundattribut en gång om dagen. Du måste vänta minst 24 timmar för att överföra ytterligare en kundprofildatafil för samma uppsättning profiler. |
 | ID för anpassad analys (`s.visitorID`) | Att ange ett kund-ID med `s.visitorID` är ett sätt att identifiera användare i Analytics. Integrationer där Analytics-data exporteras eller importeras med ID-tjänsten kommer dock inte att fungera när en besökare identifieras med `s.visitorID.`<br>Detta inkluderar, men är inte begränsat till, delade målgrupper, Analytics för Adobe Target (A4T) och kundattribut.<br>För dessa integreringar stöds inte inställning av ett anpassat analys-ID. |
@@ -43,5 +43,5 @@ Vägledning och begränsningar när kundattribut används.
 | **(Endast Adobe Target)** Hur fungerar kundattributsfunktionen jämfört med Adobe Target-API:t för gruppprofiler? | Massprofilens API gör att Adobe Target-profiler kan uppdateras direkt via API:t, antingen för en enskild profil eller i grupp. Funktionen liknar kundattribut, med följande viktiga skillnader:<ul><li>Profil-API är ett REST API-anrop och kundattribut använder FTP.</li><li>Adobe Target profil-API skickar bara data till Adobe Target i stället för till hela Experience Cloud.</li><li>Kundattribut är ett enkelt gränssnitt för att skapa och hantera externa data.</li></ul> |
 | **(Endast Adobe Target)** förlänger Adobe Target-besökarens livslängd genom att överföra data från kundattribut till Adobe Target? | Ja. Mer information finns i [Livstid](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/visitor-profile.html) för besökarprofiler i hjälpen för Adobe Target. |
 | **(Endast Adobe Target)** Kan jag rikta in mig på de data som överförs i kundattribut omedelbart efter det att besökaren har identifierats av kund-ID:t? | Ja. På serveranropet till Adobe Target, som innehåller mbox-ID:t, kommer alla kundattributsdata att vara tillgängliga. |
-| **(Endast Adobe Target)** Vad representerar kolumnen **[!UICONTROL Synkroniseringsstatus]** för filer som överförs i Kundattributkälla? | Du kan visa antalet poster som publiceras och synkroniseras av Adobe Target genom att klicka på ikonen Synkronisera status mot en viss attributfil. `Sync %` är ett realtidsmått som anger procentandelen profiler som har synkroniserats i Adobe Target.<br> **Obs!** Det kan ta upp till 24 timmar för attribut att synkronisera med Adobe Target. |
+| **(Endast Adobe Target)** Vad representerar kolumnen **[!UICONTROL Synkroniseringsstatus]** för filer som överförs i kundens attributkälla? | Du kan visa antalet poster som publiceras och synkroniseras av Adobe Target genom att klicka på ikonen Synkronisera status mot en viss attributfil. `Sync %` är ett realtidsmått som anger procentandelen profiler som har synkroniserats i Adobe Target.<br> **Obs!** Det kan ta upp till 24 timmar för attribut att synkronisera med Adobe Target. |
 | Vad representerar mätvärdena för filöverföring i kundattributskällan? | Du kan kontrollera statusen för attribut som överförts till kundattribut med hjälp av följande mått: <ul><li>Poster:  Antal poster i attributfilen.</li><li>**Nya poster:** Antal nya poster i attributfilen.</li> <li>**Uppdaterade poster:** Antal poster i som redan finns i kundattribut med uppdaterade värden i filen.</li><li>**Alla data (poster):** Totalt antal poster som har överförts till kundattribut.</li></ul> |
