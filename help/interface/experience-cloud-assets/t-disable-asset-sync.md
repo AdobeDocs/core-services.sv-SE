@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Inaktivera synkronisering av delade mappar
 uuid: 17c42b39-614c-45e4-bfb1-c6cb2fd66150
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -19,17 +19,18 @@ Så här inaktiverar du synkroniseringen av delade Experience Cloud-mappar i Cre
 >[!NOTE]
 >
 >Du kan endast desynkronisera mappar som du äger.
-<p class="head"> <b>Windows</b> </p>
+
+## Windows
 
 1. Öppna Utforskaren.
 
-1. Under Favoriter högerklickar du på **[!UICONTROL Creative Cloud Files]** mappen och sedan på **[!UICONTROL Select Shared Folders to Sync]**.
+1. Under Favoriter högerklickar du på mappen **[!UICONTROL Creative Cloud Files]** och klickar sedan på **[!UICONTROL Välj delade mappar att synkronisera]**.
 
    ![](assets/select_sync_folders.png)
 
 1. Avmarkera en mapp som du inte vill synkronisera.
 
-<p class="head"> <b>Mac OS</b> </p>
+## Mac OS
 
 1. Öppna ett Finder-fönster.
 
