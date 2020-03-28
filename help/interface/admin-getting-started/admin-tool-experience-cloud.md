@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: 'Visa Experience Cloud-användare och användarinformation '
 index: true
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -76,7 +76,7 @@ I det här avsnittet visas en sammanfattning av användarkontot, inklusive:
 
 ## Sammanfattning av lösningar
 
-I det här avsnittet visas en sammanfattning av Experience Cloud-lösningar som användaren har tillgång till. Inkluderar produktens administrativa roll när det är tillämpligt
+I det här avsnittet visas en sammanfattning av Experience Cloud-lösningar som användaren har tillgång till. Inkluderar den administrativa rollen för produkten när det är tillämpligt.
 
 ## Detaljerad lista över produktåtkomst
 
