@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Skapa en kundattributkälla och överför datafilen
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -39,7 +39,7 @@ När datakällan är aktiv kan du:
 >
 >Medlemskap i lösningsgruppen krävs också.
 
-Om du vill använda funktionen Kundattribut måste användarna tillhöra gruppen Adobe Customer Attributes i användarhantering och i lösningsnivågrupper (Analytics eller [!DNL Target]).
+För att kunna använda funktionen Kundattribut måste användarna tillhöra gruppen Adobe Customer Attributes i användarhantering och i grupper på lösningsnivå (Analytics eller [!DNL Target]).
 
 Se [Användare och grupper](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
 
@@ -82,7 +82,6 @@ Utför dessa steg på sidan Skapa ny källa för kundattribut i Experience Cloud
    ![Stegresultat](assets/04_crs_usecase.png)
 1. Konfigurera följande fält på sidan [!UICONTROL Redigera källa] för kundattribut:
 
-
    * **[!UICONTROL Namn:]** Ett eget namn för datakällan för dataattribut. Attributnamn [!DNL Adobe Target]får inte innehålla blanksteg. Om ett attribut med ett blanksteg skickas, [!DNL Target] ignoreras det. Andra tecken som inte stöds är: `< , >, ', "`.
 
    * **[!UICONTROL Beskrivning:]** (Valfritt) En beskrivning av datakällan för dataattribut.
@@ -97,18 +96,15 @@ Utför dessa steg på sidan Skapa ny källa för kundattribut i Experience Cloud
 
          Till exempel *&quot;crm_id&quot;* i:
 
-
          ```
          "crm_id":"67312378756723456"
          ```
-
 
       * **iOS:** Alias-ID motsvarar *&quot;idType&quot;* i [visitorSyncIdentifiers:identifiers](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
 
          Exempel:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
-
 
       * **Android:** Alias-ID motsvarar *&quot;idType&quot;* i [syncIdentifiers](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html).
 
@@ -119,15 +115,12 @@ Utför dessa steg på sidan Skapa ny källa för kundattribut i Experience Cloud
          Se [Använda flera datakällor](../attributes/crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) för mer information om databearbetning för Alias ID-fältet och Kund-ID:n.
    * **[!UICONTROL Filöverföring:]** Du kan dra och släppa datafilen eller överföra data via FTP. `.csv` (FTP kräver också en `.fin` fil.) Se [Överföra data via FTP](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
 
-
       >[!IMPORTANT]
       >
       >Det finns särskilda krav på datafiler. Mer information finns i [Datafilskrav](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) .
 
 
       När du har överfört filen visas tabelldata under rubriken [!UICONTROL Filöverföring] på den här sidan. Du kan validera schemat, konfigurera prenumerationer eller konfigurera FTP.
-
-
 
       **Filöverföring - grafik**
 
@@ -138,13 +131,6 @@ Utför dessa steg på sidan Skapa ny källa för kundattribut i Experience Cloud
    * **[!UICONTROL Kundtillhandahållna ID:n alias för Experience Cloud-besökar-ID:n:]** Visar hur många ID:n som har alias för Experience Cloud Visitor ID:n.
 
    * **[!UICONTROL Kundtillhandahållna ID:n med högt aliasantal:]** Visar antalet kundtillhandahållna ID:n med 500 eller fler aliaserade Experience Cloud-besökar-ID:n. Dessa kundtillhandahållna ID:n representerar förmodligen inte individer utan snarare någon typ av delad inloggning. Systemet distribuerar de attribut som är kopplade till dessa ID:n till de 500 senast aliaserade Experience Cloud Visitor ID:n, tills aliasantalet når 10 000. Då blir det kundens ID ogiltigt och distribuerar inte längre tillhörande attribut.
-
-
-
-
-
-
-
 
 
 
@@ -159,7 +145,6 @@ Information om hur du tar bort attribut finns i [(Valfritt) Uppdatera schemat (t
 ## (Valfritt) Uppdatera schemat (ta bort attribut) {#task_6568898BB7C44A42ABFB86532B89063C}
 
 Så här tar du bort attribut och ersätter attribut i schemat.
-
 
 1. På sidan [!UICONTROL Redigera källa] för kundattribut tar du bort prenumerationen **[!UICONTROL Target]** eller **[!UICONTROL Analytics]** (under [!UICONTROL Konfigurera prenumerationer]).
 1. [Överför en ny datafil med uppdaterade fält](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8).
@@ -183,7 +168,7 @@ Med data som nu finns i lösningar som
 Adobe Analytics
 </keyword>kan ni rapportera om data, analysera dem och vidta lämpliga åtgärder i era marknadsföringskampanjer.
 
-I följande exempel visas ett [!DNL Analytics] segment baserat på de överförda attributen. I det här segmentet visas Photoshop Lightroom-prenumeranter vars mest lanserade produkt är Photoshop.
+I följande exempel visas ett [!DNL Analytics] segment baserat på de överförda attributen. I det här segmentet visas [!DNL Photoshop Lightroom] prenumeranter vars mest lanserade produkt är Photoshop.
 
 ![](assets/08_crs_usecase.png)
 
@@ -193,7 +178,7 @@ Mer information finns i [Kundattributrapport](https://docs.adobe.com/help/en/ana
 
 ## Använd kundattribut i Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
-I Target kan du välja ett kundattribut i avsnittet Besökarprofil när du skapar en målgrupp. Alla kundattribut har prefixet [!DNL crs.] i listan. Kombinera dessa attribut efter behov med andra dataattribut för att skapa målgrupper.
+I [!DNL Target]kan du välja ett kundattribut under [!UICONTROL Besöksprofil] när du skapar en målgrupp. Alla kundattribut har prefixet [!DNL crs.] i listan. Kombinera dessa attribut efter behov med andra dataattribut för att skapa målgrupper.
 
 ![](assets/crs-add-attribute-target.png)
 
