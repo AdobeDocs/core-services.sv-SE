@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Experience Cloud och bastjänsterna hjälper
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: e2cfce353d4b1f21c08b7ddf76e491c6aeba03ba
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: e2cfce353d4b1f21c08b7ddf76e491c6aeba03ba
 
 ![Experience Cloud](assets/banner.png)
 
-Den här sidan innehåller självhjälp, support samt teknisk dokumentation och produktdokumentation för Adobe Experience Cloud-lösningar och -tjänster. Experience Cloud är Adobes integrerade familj av lösningar och tjänster för digital marknadsföring. Det är också ett intuitivt gränssnitt som gör att du snabbt kan komma åt dina molnlösningar och bastjänster.
+Den här sidan innehåller självhjälp, support samt teknisk och produktrelaterad dokumentation för Adobe Experience Cloud-lösningar och -tjänster. Experience Cloud är Adobes integrerade familj av lösningar och tjänster för digital marknadsföring. Det är också ett intuitivt gränssnitt som gör att du snabbt kan komma åt dina molnlösningar och bastjänster.
 
 ## Vad vill du lära dig?
 
@@ -33,7 +33,7 @@ Den här sidan innehåller självhjälp, support samt teknisk dokumentation och 
 * [Översikt över](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) bastjänster (blogg)
 * [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [Målgrupper](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
-* [Resurser](experience-cloud-assets/experience-cloud-assets.md)
+* [Assets](experience-cloud-assets/experience-cloud-assets.md)
 * [Kundattribut](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html)
 * [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)
 * [Dynamisk tagghantering](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
@@ -47,7 +47,7 @@ Den här sidan innehåller självhjälp, support samt teknisk dokumentation och 
 
 * [Hantering](admin-getting-started/admin-getting-started.md) av användare och produkter (Admin Console)
 * [Möjliggör era lösningar för bastjänsterna](core-services/core-services.md)
-* [Frågor och svar](admin-getting-started/admin-getting-started.md)
+* [Vanliga frågor](admin-getting-started/admin-getting-started.md)
 * [Organisationer och kontolänkning](admin-getting-started/organizations.md)
 * [Integreringar](marketing-cloud-integrations.md)
 * [Integrera Adobe Target med Experience Cloud](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
