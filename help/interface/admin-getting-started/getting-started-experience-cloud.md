@@ -1,26 +1,20 @@
 ---
 description: Lär dig hur du loggar in på Experience Cloud, hanterar lösenord och meddelanden och anger en standardstartsida.
-keywords: core services
+keywords: core services, sign in to Experience Cloud
 seo-description: Lär dig hur du loggar in på Experience Cloud, hanterar lösenord och meddelanden och anger en standardstartsida.
 seo-title: Logga in och hantera dina profilinställningar
-solution: Marketing Cloud
-title: Logga in och hantera dina profilinställningar
+solution: Experience Cloud
+title: Logga in och hantera dina Experience Cloud-profilinställningar
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
 
-# Logga in och hantera dina profilinställningar
+# Logga in och hantera dina Experience Cloud-profilinställningar
 
-Om du loggar in på Experience Cloud (i stället för att logga in i en enda lösning) kan du logga in på alla lösningar och tjänster som du äger. Lär dig hur du loggar in på Experience Cloud, hanterar lösenord och meddelanden och anger en standardstartsida.
-
-<!-- t_sign_in.xml -->
-
-<!-- notifications.xml -->
-
-<!-- t_get_access.xml -->
+Om du loggar in på Experience Cloud (i stället för att logga in i en enda lösning) kan du logga in på alla lösningar och tjänster som du äger. I den här hjälpen beskrivs hur du loggar in på Experience Cloud, hanterar lösenord och meddelanden och anger en standardstartsida.
 
 >[!IMPORTANT]
 >
@@ -48,7 +42,7 @@ Logga in och verifiera att du är i rätt [organisation](../admin-getting-starte
 | [Starta Admin Console](../admin-getting-started/admin-getting-started.md) | Admin Console är den centrala platsen för hantering av Adobe-användare och produktbehörigheter i hela organisationen.<br>Du kan också logga in på Admin Console med en [direktlänk](https://adminconsole.adobe.com). |
 | [Hantera Creative Cloud-användare](../experience-cloud-assets/t-admin-add-cc-user.md) | Med Experience Cloud Assets kan marknadsförare dela, synkronisera och samarbeta i mappar med designers och andra kreativa resurser med hjälp av Creative Cloud. Du kan hantera de Creative Cloud-användare som är godkända för att samarbeta med din organisation här. |
 | [Kartlägg dina rapportsviter](../core-services/core-services.md) | (Endast analys) Experience Cloud-bastjänsterna är kopplade till en organisation i stället för till en enskild rapportserie. För att dessa tjänster ska fungera på rätt sätt måste varje analysrapportsserie mappas till en organisation. (Den här uppgiften ingår i ett större arbetsflöde för att [aktivera Analytics för bastjänster](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
-| [Organisations-ID](../admin-getting-started/organizations.md) | Organisations- *ID* finns längst ned på administrationssidan. Detta ID är det associerade ID:t med ditt tilldelade Experience Cloud-företag. Detta ID är en 24 tecken lång alfanumerisk sträng som följs av (och måste innehålla) @AdobeOrg. |
+| [Organisations-ID](../admin-getting-started/organizations.md) | Organisations- *ID* finns längst ned på administrationssidan. Detta ID är det associerade ID:t med ditt tilldelade Experience Cloud-företag. Detta ID är en alfanumerisk sträng med 24 tecken, följt av (och måste innehålla) @AdobeOrg. |
 
 ## Logga in på Experience Cloud (användare) {#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
