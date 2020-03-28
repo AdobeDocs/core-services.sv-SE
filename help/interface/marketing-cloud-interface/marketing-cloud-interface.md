@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Nyheter i Experience Cloud
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
 translation-type: tm+mt
-source-git-commit: ae97db27349940a8df7ee2ba6678683f57585678
+source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 ---
 
@@ -50,6 +50,7 @@ Nya funktioner och korrigeringar i [!DNL Adobe Experience Cloud] gränssnittet.
 | Funktion | Beskrivning |
 |--- |--- |
 | Ny startsida för administration | När du loggar in på Experience Cloud och navigerar till administrationssidan finns det ett nytt intuitivt gränssnitt som hjälper dig att snabbt komma åt dina Experience Cloud-lösningar och bastjänster. |
+
 **Korrigeringar**
 
 * Ett problem där bildöverföringen misslyckades på grund av en Scene7-uppdatering har åtgärdats. (CORE-12746)
