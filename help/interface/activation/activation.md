@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Aktivering
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 translation-type: tm+mt
-source-git-commit: 5e57aedb38e6914f7e99b1b26df9e4bb52b9e13d
+source-git-commit: 29899fcb712847609e1fb17425a85f999e00fe82
 
 ---
 
@@ -24,7 +24,7 @@ Se [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/us
 
 ## Dynamisk tagghantering {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
 
-Om du vill starta Dynamic Tag Management klickar du på **[!UICONTROL Activation]** och skickar en begäran till Adobes team för provisionering. Du bör få inloggningsuppgifterna inom en till två arbetsdagar.
+Om du vill starta Dynamic Tag Management klickar du på **[!UICONTROL Aktivering]** och skickar en begäran till Adobes team för etablering. Du bör få inloggningsuppgifterna inom en till två arbetsdagar.
 
 <table id="table_3241FF7CA0B242BFAFC68362A62AA0C7"> 
  <thead> 
@@ -44,7 +44,7 @@ Om du vill starta Dynamic Tag Management klickar du på **[!UICONTROL Activation
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> Produktdokumentation för dynamisk tagghantering </a> </p> </td> 
-   <td colname="col2"> <p>Läs mer om hur du distribuerar Experience Cloud-lösningar med dynamisk tagghantering. </p> </td> 
+   <td colname="col2"> <p>Läs mer om hur du distribuerar Experience Cloud-lösningar med dynamisk tagghantering. </p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -58,20 +58,20 @@ Om du vill ha hjälp med att implementera dynamisk tagghantering rekommenderar v
 <table id="table_AF6842470172429EA97C9B02163BD0C3"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Uppgift </th> 
-   <th colname="col2" class="entry"> Beskrivning </th> 
+   <th colname="col1" class="entry"> Uppgift </th>
+   <th colname="col2" class="entry"> Beskrivning </th>
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <a href="../activation/triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB" format="dita" scope="local"> Skapa Experience Cloud-utlösare </a> </p> </td> 
-   <td colname="col2"> <p> Stegvisa instruktioner för att skapa Experience Cloud-utlösare med Adobe Analytics-data. </p> <p>Experience Cloud-utlösare är tillgängliga för användning i Adobe Campaign. </p> </td> 
-  </tr> 
+   <td colname="col2"> <p> Stegvisa instruktioner för att skapa Experience Cloud-utlösare med Adobe Analytics-data. </p> <p>Experience Cloud-utlösare är tillgängliga för användning i Adobe Campaign. </p> </td>
+  </tr>
   <tr> 
    <td colname="col1"> <p>Använda utlösare i Adobe Campaign </p> </td> 
-   <td colname="col2"> <p> Adobe Campaign Standard 16.7 introducerar en integrering med den nya utlösartjänsten. Med den här tjänsten kan företagsanvändare enkelt definiera triggers baserat på onlinebeteendedata som samlats in i Adobe Analytics. När utlösaren är definierad kommer den att finnas tillgänglig i Adobe Campaign för att stödja återmarknadsföringsmeddelanden som driver engagemang och konverteringar. Med den här nya körklara funktionen kan marknadsförarna utlösa marknadsföringsmeddelanden vid rätt tidpunkt, baserat på online-händelser som övergivna varukorgar, sidvisningar, bevakade videofilmer och så vidare. </p> </td> 
-  </tr> 
- </tbody> 
+   <td colname="col2"> <p> Adobe Campaign Standard 16.7 introducerar en integrering med den nya utlösartjänsten. Med den här tjänsten kan företagsanvändare enkelt definiera triggers baserat på onlinebeteendedata som samlats in i Adobe Analytics. När utlösaren är definierad kommer den att finnas tillgänglig i Adobe Campaign för att stödja återmarknadsföringsmeddelanden som driver engagemang och konverteringar. Med den här nya körklara funktionen kan marknadsförarna utlösa marknadsföringsmeddelanden vid rätt tidpunkt, baserat på online-händelser som övergivna varukorgar, sidvisningar, bevakade videofilmer och så vidare. </p> </td>
+  </tr>
+ </tbody>
 </table>
 
 
