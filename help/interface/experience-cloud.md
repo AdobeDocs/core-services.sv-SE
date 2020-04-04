@@ -7,14 +7,14 @@ solution: Adobe Experience Cloud
 title: Experience Cloud och bastjänsterna hjälper
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
 
 ---
 
 
 # Produktdokumentation för Experience Cloud och bastjänster
 
-![Experience Cloud](assets/banner.png)
+![Experience Cloud](assets/cloud-pulldown.png)
 
 Den här sidan innehåller självhjälp, support samt teknisk och produktrelaterad dokumentation för Adobe Experience Cloud-lösningar och -tjänster. Experience Cloud är Adobes integrerade familj av lösningar och tjänster för digital marknadsföring. Det är också ett intuitivt gränssnitt som gör att du snabbt kan komma åt dina molnlösningar och bastjänster.
 
