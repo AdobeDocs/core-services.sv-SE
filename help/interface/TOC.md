@@ -1,10 +1,10 @@
 ---
 audience: end-user
-user-guide-title: Core Services User Guide
+user-guide-title: Användarhandbok för bastjänster
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
 
 ---
 
