@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Experience Cloud och bastjänsterna hjälper
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
+source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
 
 ---
 
@@ -26,7 +26,7 @@ Den här sidan innehåller självhjälp, support samt teknisk och produktrelater
 * [Experthjälp på Experience League](https://landing.adobe.com/experience-league/) - få hjälp av experter och communityn
 * [Utbildning](https://helpx.adobe.com/learning.html?promoid=KAUDK) - Samarbeta med Adobe för att få ut det mesta av våra produkter
 * [Kundupplevelseblogg](https://theblog.adobe.com/customer-experience/) - Läs Experience Cloud-bloggen
-* [Kundtjänst](https://helpx.adobe.com/contact/enterprise-support.ec.html) - kontakta Adobes kundtjänst
+* [Kundtjänst](https://helpx.adobe.com/se/contact/enterprise-support.ec.html) - kontakta Adobes kundtjänst
 
 ## Produktdokumentation för bastjänster
 
