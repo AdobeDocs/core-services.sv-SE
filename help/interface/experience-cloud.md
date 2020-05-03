@@ -7,7 +7,7 @@ solution: Adobe Experience Cloud
 title: Experience Cloud och bastjänsterna hjälper
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
@@ -28,9 +28,8 @@ Den här sidan innehåller självhjälp, support samt teknisk och produktrelater
 * [Kundupplevelseblogg](https://theblog.adobe.com/customer-experience/) - Läs Experience Cloud-bloggen
 * [Kundtjänst](https://helpx.adobe.com/se/contact/enterprise-support.ec.html) - kontakta Adobes kundtjänst
 
-## Produktdokumentation för bastjänster
+## Produktdokumentation för Experience Platform
 
-* [Översikt över](https://theblog.adobe.com/part-2-capturing-leveraging-consumer-behavior-adobe-marketing-cloud/) bastjänster (blogg)
 * [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [Målgrupper](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
 * [Assets](experience-cloud-assets/experience-cloud-assets.md)
