@@ -1,24 +1,24 @@
 ---
-description: Lär dig mer om tillgängliga lösningar och viktiga tjänstintegreringar i Adobe Experience Cloud.
+description: Lär dig mer om tillgängliga lösningsintegreringar i Adobe Experience Cloud.
 keywords: integrations
-seo-description: Lär dig mer om tillgängliga lösningar och viktiga tjänstintegreringar i Adobe Experience Cloud.
+seo-description: Lär dig mer om tillgängliga lösningsintegreringar i Adobe Experience Cloud.
 seo-title: Experience Cloud-integreringar
 solution: Experience Cloud
 title: Experience Cloud-integreringar
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
 
 # Experience Cloud-integreringar
 
-Adobe Experience Cloud är en omfattande uppsättning förstklassiga, integrerade lösningar som bygger på en gemensam dataplattform med en gemensam uppsättning kraftfulla bastjänster.
+Adobe Experience Cloud är en omfattande uppsättning högklassiga, integrerade lösningar som bygger på en gemensam dataplattform med en gemensam uppsättning kraftfulla funktioner.
 
-## Kärntjänster - Aktivera lösningar för bastjänster {#section_A3D024994DA3492F8435CFCC4EF035C2}
+## Aktivera Experience Cloud-program för plattformstjänster {#section_A3D024994DA3492F8435CFCC4EF035C2}
 
-Hjälp: [Aktivera era lösningar för bastjänster](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
+Hjälp: [Aktivera program för plattformstjänster](core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
 
 Beskriver hur du:
 
@@ -37,7 +37,7 @@ Lösningar eller tjänster:
 
 ## Experience Cloud ID-tjänst {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
 
-Hjälp: ID-tjänst [för Experience Cloud](https://docs.adobe.com/content/help/en/id-service/using/home.html)
+Hjälp: [Experience Cloud ID-tjänst](https://docs.adobe.com/content/help/en/id-service/using/home.html)
 
 ID-tjänsten tillhandahåller ett universellt, beständigt ID som identifierar besökarna i alla lösningar i Experience Cloud. Den kan ersätta ID-genereringskoden för tjänster som Analytics, Audience Manager, Adobe Target, videominnespulsslag och andra Experience Cloud-lösningar eller -funktioner.
 
@@ -55,7 +55,7 @@ Skapa och hantera målgrupper i Experience Cloud Audience Library. Målgrupper k
 
 * Nya som skapats i [!DNL Experience Cloud].
 * Från [!DNL Analytics] segment som publiceras till [!DNL Experience Cloud].
-* Från [!DNL Audience Manager].
+* From [!DNL Audience Manager].
 
 **Tillämpliga lösningar eller tjänster**
 
@@ -71,7 +71,7 @@ Om du samlar in företagsdata i en CRM-databas (customer relationship management
 
 **Tillämpliga lösningar eller tjänster**
 
-* Adobe Analytics: Rapport [om kundattribut](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)
+* Adobe Analytics: [Kundattributrapport](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html)
 * Adobe Target: Konfigurera Adobe Target- [prenumerationen](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) till kundattribut
 
 ## Experience Cloud Assets {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
@@ -89,7 +89,7 @@ Dela mappar och resurser mellan Experience Cloud och Creative Cloud. Samarbeta, 
 
 ## Analyser - AEM Assets-rapportering i Analytics {#section_0A16AE14F128470AA02EFC6457BDCE75}
 
-Hjälp: Rapportering av [AEM Assets i Analytics](https://docs.adobe.com/content/help/en/analytics/integration/aem-assets-reporting.html)
+Hjälp: [AEM Assets-rapportering i Analytics](https://docs.adobe.com/content/help/en/analytics/integration/aem-assets-reporting.html)
 
 Gör det möjligt för Analytics att samla in visningar och klickningar på Assets från AEM Asset Insights.
 
@@ -132,7 +132,7 @@ Använd Adobe Experience Cloud Debugger-tillägget för att felsöka problem som
 
 ## Adobe Target {#section_739716AB6022424CBC38724CDED10701}
 
-Hjälp: Integrera Adobe Target [med Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
+Hjälp: [Integrera Adobe Target med Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
 
 Integrera Adobe Target med Adobe Analytics och andra Experience Cloud-lösningar för att möjliggöra användning av samma data, målgrupper, attribut och mätvärden i båda lösningarna.
 
@@ -141,13 +141,13 @@ Integrera Adobe Target med Adobe Analytics och andra Experience Cloud-lösningar
 * Kundattribut: Konfigurera Adobe Target- [prenumerationen](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) till kundattribut
 * Experience Cloud-målgrupper: [Experience Cloud Audience Library](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
 * Analyser: [Adobe Analytics som rapportkälla för Adobe Target](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
-* Dynamisk tagghantering: Bästa [tillvägagångssätt för att implementera Adobe Target med DTM](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)
-* Audience Manager: Integrering av [Adobe Target-data med Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
-* Campaign: Integrera Adobe Target [med Campaign](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
+* Dynamisk tagghantering: [Bästa tillvägagångssätt för att implementera Adobe Target med DTM](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)
+* Audience Manager: [Adobe Target-dataintegrering med Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
+* Campaign: [Integrera Adobe Target med Campaign](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
 
 ## Experience Manager-integreringar {#section_32FB010EF8B4429FBC63C8DC2A9BE98F}
 
-Hjälp: Integrering av [lösningar](https://docs.adobe.com/docs/en/aem/6-2/administer/integration.html)
+Hjälp: [Lösningsintegrering](https://docs.adobe.com/docs/en/aem/6-2/administer/integration.html)
 
 Integrera AEM med andra lösningar och tredjepartstjänster.
 
@@ -167,7 +167,7 @@ Integrera AEM med andra lösningar och tredjepartstjänster.
 
 ## Experience Manager - Assets {#section_CB865F8EFE4C4147BF8E2E4B66B5A318}
 
-Hjälp: Konfigurera [AEM Assets-integrering med Experience Cloud och Creative Cloud](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/configure-assets-cc-integration.html)
+Hjälp: [Konfigurera AEM Assets-integrering med Experience Cloud och Creative Cloud](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/configure-assets-cc-integration.html)
 
 Synkronisera era resurser i Adobe Experience Manager (AEM) Assets med Adobe Creative Cloud, och vice versa. Ni kan också synkronisera era resurser med Experience Cloud och vice versa. Du kan konfigurera synkroniseringen med Experience Cloud.
 
@@ -187,7 +187,7 @@ Hjälp (inloggning krävs): [Integrering med Adobe Experience Cloud-lösningar o
 
 **Dynamisk tagghanterare:** Du kan [använda Dynamic Tag Manager för att skapa pixelbaserade spårningstaggar](https://docs.adobe.com/content/help/en/dtm/using/tools/media-optimizer.html)för konvertering i Media Optimizer samt spårningstaggar från tredje part för sök-, sociala och visnings- och landningssidor. (Du kan också skapa Media Optimizer-taggar direkt i Media Optimizer.)
 
-**Experience Cloud-målgrupper:** (Annonsörer med visningshantering) Ni kan använda vilken som helst av era [Adobe Experience Cloud-målgrupper](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) som mål för era displayannonser. Ni kan automatiskt använda målgrupper som ni har skapat i Adobe Experience Cloud och målgrupper från Analytics som ni har publicerat på Adobe Experience Cloud, och ni kan använda målgrupper från Audience Manager när Media Optimizer-kontot är konfigurerat för att tillåta det. Kontakta din kontohanterare för mer information om åtkomst till Adobe Experience Cloud och dess bastjänst för profiler och målgrupper, och om den första konfigurationen mellan målgrupperna i Media Optimizer och Adobe Experience Cloud. **Obs!** Om du även använder Adobe Target är alla målgrupper som du har publicerat till Adobe Experience Cloud även tillgängliga för aktiviteter i Adobe Target.
+**Experience Cloud-målgrupper:** (Annonsörer med visningshantering) Ni kan använda vilken som helst av era [Adobe Experience Cloud-målgrupper](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) som mål för era displayannonser. Ni kan automatiskt använda målgrupper som ni har skapat i Adobe Experience Cloud och målgrupper från Analytics som ni har publicerat på Adobe Experience Cloud, och ni kan använda målgrupper från Audience Manager när Media Optimizer-kontot är konfigurerat för att tillåta det. Kontakta din kontohanterare för mer information om åtkomst till Adobe Experience Cloud och profiler och målgrupper samt om den första konfigurationen mellan Media Optimizer och Adobe Experience Cloud-målgrupper. **Obs!** Om du även använder Adobe Target är alla målgrupper som du har publicerat till Adobe Experience Cloud även tillgängliga för aktiviteter i Adobe Target.
 
 **Experience Cloud Assets:** (Annonsörer med visningshantering) Du kan använda vilket som helst av dina Adobe Experience Cloud-resurser som kreatörer för dina webbannonser med hjälp av Beta-vyn Ny skärm. Du måste vara [inloggad på Media Optimizer via Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm)) för att få tillgång till dina Adobe Experience Cloud-resurser. Kontakta din kontohanterare för information om åtkomst till Adobe Experience Cloud.
 
