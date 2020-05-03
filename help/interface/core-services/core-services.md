@@ -1,13 +1,13 @@
 ---
-description: Implementera Experience Cloud och bli administratör. Den här processen moderniserar era lösningar för centrala funktioner som kundattribut och målgrupper.
+description: Implementera Experience Cloud och bli administratör. Den här processen moderniserar era lösningar för funktioner som kundattribut och målgrupper.
 keywords: core services;customer attributes
-seo-description: Implementera Experience Cloud och bli administratör. Den här processen moderniserar era lösningar för centrala funktioner som kundattribut och målgrupper.
+seo-description: Implementera Experience Cloud och bli administratör. Den här processen moderniserar era lösningar för funktioner som kundattribut och målgrupper.
 seo-title: Aktivera era Experience Cloud-lösningar för bastjänster
 solution: Experience Cloud
 title: Möjliggör era lösningar för bastjänsterna
 index: true
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
@@ -76,7 +76,7 @@ Se [Länka konton i Experience Cloud](../admin-getting-started/organizations.md#
 
 I följande avsnitt beskrivs hur du moderniserar implementeringen. Genom att modernisera implementeringen kan du använda bastjänsterna i Experience Cloud.
 
-## Steg 2. Implementera [!UICONTROL Experience Cloud ID Service] med [!UICONTROL Experience Platform Launch]eller [!UICONTROL Dynamic Tag Management]{#section_3C9F6DF37C654D939625BB4D485E4354}
+## Steg 2. Implementera [!UICONTROL Experience Cloud ID Service] med [!UICONTROL Experience Platform Launch]eller [!UICONTROL Dynamic Tag Management] {#section_3C9F6DF37C654D939625BB4D485E4354}
 
 Experience [!UICONTROL Cloud ID-tjänsten] ger ett gemensamt ID för integrering mellan olika lösningar. Det ger identifiering av besökare över domäner och en sökväg för målinriktning och personalisering mellan olika enheter/webbläsare baserat på CRM-data som överförs via [!UICONTROL kundattribut].
 
@@ -195,7 +195,7 @@ Användare som läggs till i gruppen [!UICONTROL Kundattribut] kan se menyaltern
 
 ## Steg 8. Börja använda bastjänsterna {#section_960C06093623462E8EA247B3E97274A1}
 
-Utnyttja följande bastjänster.
+Utnyttja följande funktioner.
 
 ![](assets/menu-audiences-shell.png)
 
