@@ -5,7 +5,7 @@ seo-title: Mappa rapportsviter till en organisation
 title: Mappa rapportsviter till en organisation
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
 
 Lär dig hur du mappar en eller flera rapportsviter till en organisation.
 
-Experience Cloud-tjänster (som Experience Cloud ID Service och People core service) är kopplade till en organisation i stället för till en enskild rapportserie. För att dessa tjänster ska fungera på rätt sätt måste varje analysrapportsserie mappas till en organisation. Mappningsprocessen:
+Experience Cloud-tjänster (som Experience Cloud ID Service och [!UICONTROL People]) är kopplade till en organisation i stället för till en enskild rapportserie. För att dessa tjänster ska fungera på rätt sätt måste varje analysrapportsserie mappas till en organisation. Mappningsprocessen:
 
 * Anger en Experience Cloud-organisation som primär organisation för rapportsviten.
 * Ändrar inte vem som har åtkomst till en rapportserie (åtkomsten bestäms fortfarande av inloggningskontot för Adobe Analytics för varje användare)
