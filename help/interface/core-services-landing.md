@@ -1,19 +1,19 @@
 ---
-description: Läs mer om användar- och produkthantering i Adobe Experience Cloud,"People core service" (målgrupper och kundattribut), Journey Orchestration, Offers, Places, 45 Experience Platform Launch och Mobile Services.
-seo-description: Läs mer om användar- och produkthantering i Adobe Experience Cloud, bastjänsten för människor (målgrupper och kundattribut), erbjudanden, Experience Platform Launch och mobiltjänster.
+description: Läs om användar- och produkthantering i Adobe Experience Cloud, människor (målgrupper och kundattribut), resesamordning, erbjudanden, platser, Experience Platform Launch och mobiltjänster.
+seo-description: Läs mer om användar- och produkthantering i Adobe Experience Cloud, personer (målgrupper och kundattribut), erbjudanden, Experience Platform Launch och mobiltjänster.
 seo-title: Bastjänsterna och användarhanteringen i Experience Cloud
 solution: Experience Cloud
 title: Om bastjänsterna i Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
 
-# Om bastjänsterna i Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
+# Om Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Bastjänsterna i Adobe Experience Cloud innefattar bastjänsten People (målgrupper och kundattribut), Offers, Experience Platform Launch och Mobile Services. Du kan även få tillgång till hjälp om användar- och produkthantering i Experience Cloud.
+Adobe Experience Cloud-tjänsterna omfattar [!UICONTROL People] (målgrupper och kundattribut), Offers, Experience Platform Launch och Mobile Services. Du kan även få tillgång till hjälp om användar- och produkthantering i Experience Cloud.
 
 Klicka på **[!UICONTROL Experience Platform]** -menyn för att få tillgång till de här tjänsterna i Experience Cloud ![](assets/menu-icon.png).
 
@@ -25,11 +25,11 @@ I den här hjälpen beskrivs följande produkter och tjänster:
 
 | Bastjänst | Beskrivning |
 |--- |--- |
-| [Aktivering](activation/activation.md) | Tagghanteringssystem (Experience Platform Launch och Dynamic Tag Management).<br>Utlösare gör att ni kan vidta åtgärder i realtid i Adobe Campaign utifrån insikter från Adobe Analytics. |
+| [Aktivering](activation/activation.md) | Tagghanteringssystem (Experience Platform Launch och Dynamic Tag Management).<br>Utlösare gör att ni kan vidta åtgärder i realtid i Adobe Campaign baserat på insikter från Adobe Analytics. |
 | [Administration](admin-getting-started/admin-getting-started.md) | Hantera användar- och produktbehörigheter i alla era moln och lösningar från Adobe. |
 | [Assets](experience-cloud-assets/experience-cloud-assets.md) | Lagra, synkronisera och dela enkelt alla digitala resurser på en central plats för att spara tid och leverera en mer enhetlig kundupplevelse. |
 | [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) | [!UICONTROL Experience Platform Launch] är nästa generation av tagghanteringsfunktioner från Adobe. [!UICONTROL Experience Platform Launch] ger kunderna ett enkelt sätt att driftsätta och hantera alla analyser, marknadsförings- och annonstaggar som behövs för att skapa relevanta kundupplevelser. |
-| [Resesamordning](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | Bygg realtidssamordning med hjälp av kontextuella data lagrade i händelser eller datakällor. [!UICONTROL Resesamordning] är en programtjänst som är integrerad med Experience Platform. |
+| [Journey Orchestration](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | Bygg realtidssamordning med hjälp av kontextuella data lagrade i händelser eller datakällor. [!UICONTROL Resesamordning] är en programtjänst som är integrerad med Experience Platform. |
 | [Platstjänst](https://docs.adobe.com/content/help/en/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] (Location Service) är en geolokaliseringstjänst som gör det möjligt för mobilappar med platsmedvetenhet att förstå platskontexten genom att använda avancerade och lättanvända SDK-gränssnitt tillsammans med en flexibel databas med intressepunkter (POI). |
 | [Erbjudanden](offer-management/getting-started.md) | Skapa, hantera och fatta beslut i alla kanaler i Experience Cloud. [!UICONTROL Erbjudandehantering] fungerar som en central katalog för erbjudanden där ni kan koppla samman regler för kvalificering och flera innehållsdelar med varje erbjudande, publicera erbjudandena över olika kanaler och platser och leverera det bästa erbjudandet för varje kund vid varje interaktion. |
 | [Exchange](exchange.md) | Sök, bläddra, välj, betala och hämta Digital Marketing-tillägg via appar. |
