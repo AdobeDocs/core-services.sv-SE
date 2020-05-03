@@ -1,8 +1,8 @@
 ---
 cloud: experience-cloud
 product: core-services
-solution: Core Services
-solution-title: Centrala tjänster
+solution: Experience Platform
+solution-title: Experience Platform
 solution-hub-url: https://helpx.adobe.com/support/experience-cloud/core-services.html
 solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Komma igång
@@ -11,7 +11,7 @@ tutorials-title: Självstudiekurser
 tutorials-url: https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://github.com/AdobeDocs/core-services.en
 translation-type: tm+mt
-source-git-commit: bf1f018ad1815518b5b5ecaf4552803b8d04a6c9
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
