@@ -6,7 +6,7 @@ seo-title: Dela Experience Cloud-mappar och resurser med Creative Cloud
 solution: Experience Cloud
 title: Dela Experience Cloud-mappar och resurser med Creative Cloud
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
