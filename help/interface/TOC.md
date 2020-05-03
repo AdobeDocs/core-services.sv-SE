@@ -1,17 +1,17 @@
 ---
 audience: end-user
-user-guide-title: Användarhandbok för bastjänster
+user-guide-title: Användarhandbok för Experience Cloud-gränssnittet
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 1c1562f7977f4ca6f175416e4d9fa9632f6141d4
+source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 
 ---
 
 
 # Användarhandbok för bastjänster {#interface}
 
-+ [Produktdokumentation för Experience Cloud och bastjänster](experience-cloud.md)
++ [Experience Cloud och produktdokumentation](experience-cloud.md)
 + Centrala tjänster i Experience Cloud {#about-core-services}
    + [Översikt över bastjänster](core-services-landing.md)
    + [Möjliggör era lösningar för bastjänsterna](core-services/core-services.md)
