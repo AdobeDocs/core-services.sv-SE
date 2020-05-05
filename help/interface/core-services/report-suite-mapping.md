@@ -5,7 +5,7 @@ seo-title: Mappa rapportsviter till en organisation
 title: Mappa rapportsviter till en organisation
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 08e8e5fea4e4e64a195ebe25ae3ef19e849cabc5
 
 ---
 
@@ -13,6 +13,8 @@ source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
 # Mappa rapportsviter till en organisation {#topic_7C4740559EAC4E0FA5F8DEF886B580DA}
 
 Lär dig hur du mappar en eller flera rapportsviter till en organisation.
+
+<!-- May 5 2020: This feature will likely be deprecated in Nov 2020. Any users with outstanding report suites that are not mapped will have 6 months to map their RS. -->
 
 Experience Cloud-tjänster (som Experience Cloud ID Service och [!UICONTROL People]) är kopplade till en organisation i stället för till en enskild rapportserie. För att dessa tjänster ska fungera på rätt sätt måste varje analysrapportsserie mappas till en organisation. Mappningsprocessen:
 
