@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Kundattribut
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 75d3d045964aa42f7ac6b32b25cfd77aa7f663a9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '441'
+ht-degree: 2%
 
 ---
 
@@ -27,11 +27,11 @@ Om du samlar in företagsdata i en CRM-databas (customer relationship management
 
 * **Aktivera lösning:** [Aktivera era lösningar för Experience Platform-tjänster](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
 
-* **Gruppmedlemskap:** För att kunna överföra kundattributdata måste användarna vara medlemmar i gruppen [](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)Kundattribut. Du måste också tillhöra antingen en Adobe Analytics-grupp eller en Adobe Target-grupp.
+* **Gruppmedlemskap:** Om du vill överföra kundattributdata måste användarna vara medlemmar i gruppen [](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)Kundattribut. Du måste också tillhöra antingen en Adobe Analytics-grupp eller en Adobe Target-grupp.
 
-   Om du vill veta om ditt företag har tillgång till kundattribut bör din [!DNL Experience Cloud] administratör logga in på [!DNL Experience Cloud]. Navigera till **[!UICONTROL Administration]** > **[!UICONTROL Launch Admin Console]** > **[!UICONTROL Groups]**. Om *kundattribut* visas som en av grupperna är du redo att börja.
+   Om du vill veta om ditt företag har tillgång till kundattribut bör din [!DNL Experience Cloud] administratör logga in på [Experience Cloud](https://experience.adobe.com). Navigera till **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Om *kundattribut* visas som ett av [!UICONTROL Product Profiles]alternativen är du redo att börja.
 
-   Användare som läggs till i gruppen Kundattribut ser menyalternativet till vänster [!UICONTROL Customer Attributes] i Experience Cloud-gränssnittet.
+   Användare som läggs till i kundattributen kan se menyalternativet till vänster i Experience Cloud-gränssnittet [!UICONTROL Customer Attributes] .
 
 * **Adobe Target** [!DNL at.js] (valfri version) eller [!DNL mbox.js] version 58 eller senare krävs för kundattribut.
 
