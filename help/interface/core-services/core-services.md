@@ -1,13 +1,16 @@
 ---
 description: Implementera Experience Cloud och bli administratör. Den här processen moderniserar era lösningar för funktioner som kundattribut och målgrupper.
-keywords: core services;customer attributes
+keywords: core services;Customer Attributes
 seo-description: Implementera Experience Cloud och bli administratör. Den här processen moderniserar era lösningar för funktioner som kundattribut och målgrupper.
 seo-title: Aktivera era Experience Cloud-lösningar för bastjänster
 solution: Experience Cloud
 title: Möjliggör era lösningar för bastjänsterna
 index: true
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -40,7 +43,7 @@ Vad du behöver göra för att gå med i Experience Cloud:
 
 ![](assets/step2_icon.png) Modernisera implementeringen och få status som administratör.
 
-1. Följ stegen nedan i [Distribuera [!UICONTROL Experience Cloud ID-tjänsten]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354).
+1. Följ stegen nedan i [Distribuera [!UICONTROL Experience Cloud ID Service]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354).
 1. Kontakta din kontohanterare och starta provisioneringsprocessen för Experience Cloud.
 
 ![](assets/step3_icon.png) Hantera användare och produkter i [!UICONTROL Admin Console].
@@ -49,7 +52,7 @@ Vad du behöver göra för att gå med i Experience Cloud:
 
 När du är administratör kan du logga in på [experienceCloud.adobe.com](https://experiencecloud.adobe.com).
 
-Länken **[!UICONTROL Administration]** visas i menynavigeringen i Experience Cloud.
+Länken visas i Experience Cloud-menynavigeringen **[!UICONTROL Administration]** .
 
 Mer information finns i [Experience Cloud-användar- och produktadministration](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) .
 
@@ -64,7 +67,7 @@ För att kunna logga in på Experience Cloud måste användarna:
 
 ![](assets/step4_icon.png) Valfritt: Länka befintliga användarkonton.
 
-Det är sannolikt att du har användare som redan är medlemmar i lösningsgrupper, till exempel en Analytics-grupp som du tidigare har hanterat i [!UICONTROL Analytics] > [!UICONTROL Admin Tools].
+Troligen har du användare som redan är medlemmar i lösningsgrupper, till exempel en Analytics-grupp som du tidigare har hanterat i [!UICONTROL Analytics] > [!UICONTROL Admin Tools].
 
 När du mappar dessa grupper till Experience Cloud Enterprise-grupper måste dessa användare manuellt länka sina autentiseringsuppgifter för lösningskonton till sina Adobe ID:n.
 
@@ -76,11 +79,11 @@ Se [Länka konton i Experience Cloud](../admin-getting-started/organizations.md#
 
 I följande avsnitt beskrivs hur du moderniserar implementeringen. Genom att modernisera implementeringen kan du använda bastjänsterna i Experience Cloud.
 
-## Steg 2. Implementera [!UICONTROL Experience Cloud ID Service] med [!UICONTROL Experience Platform Launch]eller [!UICONTROL Dynamic Tag Management] {#section_3C9F6DF37C654D939625BB4D485E4354}
+## Steg 2. implementera [!UICONTROL Experience Cloud ID Service] med [!UICONTROL Experience Platform Launch], eller [!UICONTROL Dynamic Tag Management] {#section_3C9F6DF37C654D939625BB4D485E4354}
 
-Experience [!UICONTROL Cloud ID-tjänsten] ger ett gemensamt ID för integrering mellan olika lösningar. Det ger identifiering av besökare över domäner och en sökväg för målinriktning och personalisering mellan olika enheter/webbläsare baserat på CRM-data som överförs via [!UICONTROL kundattribut].
+Det [!UICONTROL Experience Cloud ID Service] ger ett gemensamt ID för integrering mellan olika lösningar. Det ger identifiering av besökare över domäner och en sökväg för målinriktning och personalisering mellan olika enheter/webbläsare baserat på CRM-data som överförs via [!UICONTROL Customer Attributes].
 
-Det enklaste sättet att aktivera Experience Cloud-bastjänsterna är att aktivera det automatiskt för Analytics och Adobe Target via [Experience Cloud ID Service-tillägget](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) i [!UICONTROL Experience Platform Launch], eller via ECID-verktyget i [!UICONTROL Dynamic Tag Management]. (Experience Platform Launch rekommenderas.)
+Det enklaste sättet att aktivera Experience Cloud-bastjänsterna är att aktivera det automatiskt för Analytics och Adobe Target via [Experience Cloud ID-tjänsttillägget](https://docs.adobe.com/content/help/en/launch/using/implement/solutions/idservice-save.html) i [!UICONTROL Experience Platform Launch], eller via ECID-verktyget i [!UICONTROL Dynamic Tag Management]. (Experience Platform Launch rekommenderas.)
 
 ![](assets/menu-activation-shell.png)
 
@@ -104,7 +107,7 @@ I Adobe Target `mbox3rdpartyid` måste kunden hämta sitt ID och skicka det till
 
 När en besökare autentiserar sig på din webbplats, eller på annat sätt identifierar sig själv, måste din implementering visa den personens CRM-kund-ID för sidan eller appen. Sedan kan du använda rätt funktionsanrop för att synkronisera ditt kund-ID med Experience Cloud. Den här synkroniseringen lagrar besökarens CRM-kund-ID i Experience Cloud och aktiverar kundens attribut för användning i Experience Cloud.
 
-Anta till exempel att Bob har ett kund-ID `52mc210tr42` i ditt CRM-system. När Bob autentiserar på din webbplats måste du visa detta ID på sidan och använda ID:t för att synkronisera det på något av två sätt:
+Anta till exempel att Bob har ett kund-ID `52mc210tr42` i ditt CRM-system. När Bob autentiserar på din webbplats måste du visa detta ID på sidan och använda ID:t för att synkronisera det på ett av två sätt:
 
 * Ring `visitor.setCustomerIDs({"crm_id":"52mc210tr42"})` med tjänsten för besökar-ID. Eller
 * Fyll i *`Customer ID (52mc210tr42)`* i en prop eller eVar.
@@ -117,13 +120,13 @@ Se avsnittet *Experience Cloud ID Service* för syntaxexempel om hur du ställer
 
 ### Aktivera attribut för historiska data
 
-Kundattributdata blir tillgängliga när besökarna loggar in. Om du ännu inte har implementerat den senaste Experience Cloud ID-tjänsten, och om du historiskt har spårat kund-ID:n i en prop eller eVar, kan du begära en process som skickar historiska inloggningar till Experience Cloud. Med den här processen kan ni börja använda kundattribut direkt.
+Kundattributdata blir tillgängliga när besökarna loggar in. Om du ännu inte har implementerat den senaste Experience Cloud ID-tjänsten, och om du historiskt har spårat kund-ID:n i en prop eller eVar, kan du begära en process som skickar historiska inloggningar till Experience Cloud. Med den här processen kan du börja använda kundattribut direkt.
 
 Kontakta kundtjänst om du vill aktivera historikdata.
 
 ## Steg 3. Mappa rapportsviter till en Experience Cloud-organisation {#section_7B08516B01BA421681DF03D0E86CE3BA}
 
-Experience Cloud-tjänster (som Experience Cloud ID Service och [!UICONTROL People Service]) är kopplade till en Experience Cloud-organisation i stället för till en enskild Analytics-rapportsserie. För att dessa tjänster ska fungera på rätt sätt måste varje Analytics-rapportsserie mappas till en Experience Cloud-organisation.
+Experience Cloud-tjänster (till exempel Experience Cloud ID Service och [!UICONTROL People service]) är kopplade till en Experience Cloud-organisation i stället för till en enskild Analytics-rapportserie. För att dessa tjänster ska fungera på rätt sätt måste varje Analytics-rapportsserie mappas till en Experience Cloud-organisation.
 
 Se [Mappa rapportsviter till en organisation](report-suite-mapping.md).
 
@@ -133,11 +136,11 @@ Kontrollera att du använder regional datainsamling. Om din datainsamlingsdomän
 
 Vi rekommenderar att du moderniserar din Analytics-implementering genom att uppdatera dina JavaScript-bibliotek, inklusive Visitor API. Det enkla sättet att uppnå detta är att lägga till ett [!DNL Adobe Analytics] verktyg i Dynamic Tag Management, som anger *`Automatic`* som konfigurationsmetod.
 
-I [!UICONTROL Dynamic Tag Management]klickar du på **[!UICONTROL <Web Property Name>]**>**[!UICONTROL &#x200B;Översikt ]**>**[!UICONTROL  Lägg till ett verktyg ]**>**[!UICONTROL  Adobe Analytics ]**. Mer distributionsinformation finns i[Adobe Analytics-inställningar](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html)i Dynamic Tag Management.
+Klicka [!UICONTROL Dynamic Tag Management]på **[!UICONTROL <Web Property Name>]**>**[!UICONTROL Overview]**>**[!UICONTROL Add a Tool]**>**[!UICONTROL Adobe Analytics]**. Mer distributionsinformation finns i[Adobe Analytics-inställningar](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html)i Dynamic Tag Management.
 
 ## Steg 5. (Adobe Target) Uppdatera implementeringen av Adobe Target {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* Vi rekommenderar att du lägger till ett [Adobe Target-tillägg](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html) i [!UICONTROL Experience Platform Launch], så att bibliotekshämtningen är automatisk. Du kan också konfigurera [Experience Cloud ID-tjänsttillägget](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) för Adobe Target (och andra lösningar) med [!UICONTROL Experience Platform Launch]. Uppdateringen av [!UICONTROL Experience Cloud ID Service] **krävs** för att Adobe Target ska kunna använda bastjänsterna. (Om du använder [!UICONTROL dynamisk tagghantering]lägger du till ett [Adobe Target-verktyg](https://docs.adobe.com/content/help/en/dtm/using/tools/target.html). Du kan också använda [!UICONTROL Dynamic Tag Management] för att distribuera Experience Cloud ID-tjänsten för Adobe Target.)
+* Vi rekommenderar att du lägger till ett [Adobe Target-tillägg](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html) i [!UICONTROL Experience Platform Launch]så att bibliotekshämtningen sker automatiskt. Du kan också konfigurera [Experience Cloud ID-tjänsttillägget](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) för Adobe Target (och andra lösningar) med [!UICONTROL Experience Platform Launch]. Uppdateringen [!UICONTROL Experience Cloud ID Service] krävs **** för att Adobe Target ska kunna använda bastjänsterna. (Om du använder [!UICONTROL Dynamic Tag Management]kan du lägga till ett [Adobe Target-verktyg](https://docs.adobe.com/content/help/en/dtm/using/tools/target.html). Du kan också använda [!UICONTROL Dynamic Tag Management] för att distribuera Experience Cloud ID-tjänsten för Adobe Target.)
 * Om du inte använder [!UICONTROL Experience Platform Launch] eller [!UICONTROL Dynamic Tag Management]ska du [uppdatera mbox-biblioteket](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html) manuellt.
 * Begär åtkomst att använda Adobe Analytics som rapportkälla för [!DNL Adobe Target]. [!DNL Target] och [!DNL Analytics] data kombineras på samma serveranrop under bearbetningen så att besökarna är sammankopplade mellan de två lösningarna. Se [Analytics for Target Implementation](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html).
 
@@ -191,7 +194,7 @@ Se [Experience Cloud-användare och -hantering](../admin-getting-started/admin-g
  </note> </p> 
  -->
 
-Användare som läggs till i gruppen [!UICONTROL Kundattribut] kan se menyalternativet [!UICONTROL Kundattribut] till vänster i Experience Cloud-gränssnittet.
+Användare som läggs till i [!UICONTROL Customer Attributes] gruppen kan se [!UICONTROL Customer Attributes] menyalternativet till vänster i Experience Cloud-gränssnittet.
 
 ## Steg 8. Börja använda bastjänsterna {#section_960C06093623462E8EA247B3E97274A1}
 
@@ -199,7 +202,7 @@ Utnyttja följande funktioner.
 
 ![](assets/menu-audiences-shell.png)
 
-### [!UICONTROL Folk] > [!UICONTROL Kundattribut]
+### [!UICONTROL People] > [!UICONTROL Customer Attributes]
 
 Om du samlar in företagsdata i en CRM-databas (customer relationship management) kan du överföra data till en datakälla för kundattribut i Experience Cloud. När data har överförts kan du utnyttja dem i [!DNL Adobe Analytics] och [!DNL Adobe Target].
 
@@ -213,9 +216,9 @@ Se [målgrupper](../audience-library/audience-library.md#topic_679810123CAA4E0CA
 
 ## Datalagring och sekretess
 
-Om ni utnyttjar målgruppsprofiler i realtid och andra bastjänster inom Adobe [!DNL Experience Cloud]kan användningen av dessa tjänster påverka vilket datacenter (och vilket land) era data finns i. Eftersom Adobes bastjänster utnyttjar Adobe Audience Manager måste data som används i [!DNL Experience Cloud] People  -tjänsten finnas i Audience Manager-servrar i USA.
+Om ni utnyttjar målgruppsprofiler i realtid och andra bastjänster inom Adobe [!DNL Experience Cloud]kan användningen av dessa tjänster påverka vilket datacenter (och vilket land) era data finns i. Eftersom Adobes bastjänster [!DNL Experience Cloud] använder Adobe Audience Manager måste data som används inom [!UICONTROL People] tjänsten finnas på Audience Manager-servrar i USA.
 
-När man utnyttjar bastjänsterna som blivit tillgängliga via [!UICONTROL People] Service är de typer av data som skickas från andra Adobe-produkter till målgruppshantering:
+När man utnyttjar bastjänsterna som blir tillgängliga via [!UICONTROL People] tjänsten är de typer av data som skickas från andra Adobe-produkter till målgruppshanteringen:
 
 * [!DNL Analytics] nyckel-/värdepar (props, eVars, list-var o.s.v.). Som standard innehåller loggraderna IP-adress, inklusive IP-adressens sista oktett (förutsatt att IP-adressen inte har ändrats av inställningarna för IP-förfalskning i Adobe [!DNL Analytics]).
 * Spåra och segmentera som besökare är kvalificerade för baserat på regler som har konfigurerats i Audience Manager.
