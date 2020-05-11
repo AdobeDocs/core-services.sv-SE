@@ -1,13 +1,16 @@
 ---
 description: Datafilskrav och flera datakällor för överföring av kundattribut till Experience Cloud.
-keywords: customer attributes;core services
+keywords: Customer Attributes;core services
 seo-description: Datafilskrav och flera datakällor för överföring av kundattribut till Experience Cloud.
 seo-title: Om datafiler och datakällor för kundattribut
 solution: Experience Cloud
 title: Om datafiler och datakällor för kundattribut
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Datafilskrav och flera datakällor för överföring av kundattribut till Experi
 
 Du behöver åtkomst till CRM eller liknande data från ditt företag. De data du överför till Experience Cloud måste vara en `.csv` fil. Om du överför via FTP eller sFTP överför du även en `.fin` fil.
 
-Kundattribut är utformat för att hantera ett fåtal filer per dag. För att minska problemet med att ha ett stort antal små filer som försenar bearbetningen dirigeras filer som skickas inom 30 minuter från en tidigare batch från samma organisation till en kö med lägre prioritet.
+Kundattribut är utformat för att hantera några filer per dag. För att minska problemet med att ha ett stort antal små filer som försenar bearbetningen dirigeras filer som skickas inom 30 minuter från en tidigare batch från samma organisation till en kö med lägre prioritet.
 
 ## Tillåtna filtyper och namnkrav {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
 
@@ -117,7 +120,7 @@ Samma fil som visas i en textredigerare:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Flera filer </p> </td> 
-   <td colname="col2"> <p>När du överför kundattributdata, om du har flera filer som du vill överföra i snabb följd, och särskilt om filerna är stora, bör du kontrollera att den föregående filen har bearbetats innan du överför nästa fil. Du kan övervaka detta genom att kontrollera när den tidigare filen har flyttats till den bearbetade eller misslyckade mappen i ditt kundattribut via FTP-kontot. </p> <p> Att dela upp en stor fil i mindre filer och skicka in dem i snabb följd kan i själva verket göra bearbetningen långsammare, såvida du inte kan säkerställa att varje fil bearbetas fullständigt innan du skickar in nästa. </p> </td> 
+   <td colname="col2"> <p>När du överför kundattributdata, om du har flera filer som du vill överföra i snabb följd, och särskilt om filerna är stora, bör du kontrollera att den föregående filen har bearbetats innan du överför nästa fil. Du kan övervaka detta genom att kontrollera när den tidigare filen har flyttats till den bearbetade eller misslyckade mappen i ditt FTP-konto för kundattribut. </p> <p> Att dela upp en stor fil i mindre filer och skicka in dem i snabb följd kan i själva verket göra bearbetningen långsammare, såvida du inte kan säkerställa att varje fil bearbetas fullständigt innan du skickar in nästa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Teckenkodning </p> </td> 
@@ -153,6 +156,6 @@ Visitor.setCustomerIDs({
 
 (Mer information finns i [Kund-ID och Autentiseringstillstånd](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) .)
 
-I **[!UICONTROL Experience Cloud]** > **[!UICONTROL Personer]** > **[!UICONTROL Kundattribut]**:
+I **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
 
-Skapa två kundattributskällor med unika alias-ID:n som motsvarar kundens ID:n ovan. Med den här metoden kan samma referens-ID skickas till flera källor för kundattribut.
+Skapa två kundattribut med unika alias-ID:n som motsvarar kundens ID:n ovan. Med den här metoden kan samma referens-ID skickas till flera källor för kundattribut.
