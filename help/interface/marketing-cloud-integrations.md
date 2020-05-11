@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Experience Cloud-integreringar
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -134,7 +137,7 @@ Använd Adobe Experience Cloud Debugger-tillägget för att felsöka problem som
 
 Hjälp: [Integrera Adobe Target med Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html)
 
-Integrera Adobe Target med Adobe Analytics och andra Experience Cloud-lösningar för att möjliggöra användning av samma data, målgrupper, attribut och mätvärden i båda lösningarna.
+Integrera Adobe Target med Adobe Analytics och andra Experience Cloud-lösningar så att ni kan använda samma data, målgrupper, attribut och mätvärden i båda lösningarna.
 
 **Tillämpliga lösningar eller tjänster**
 
@@ -187,7 +190,7 @@ Hjälp (inloggning krävs): [Integrering med Adobe Experience Cloud-lösningar o
 
 **Dynamisk tagghanterare:** Du kan [använda Dynamic Tag Manager för att skapa pixelbaserade spårningstaggar](https://docs.adobe.com/content/help/en/dtm/using/tools/media-optimizer.html)för konvertering i Media Optimizer samt spårningstaggar från tredje part för sök-, sociala och visnings- och landningssidor. (Du kan också skapa Media Optimizer-taggar direkt i Media Optimizer.)
 
-**Experience Cloud-målgrupper:** (Annonsörer med visningshantering) Ni kan använda vilken som helst av era [Adobe Experience Cloud-målgrupper](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) som mål för era displayannonser. Ni kan automatiskt använda målgrupper som ni har skapat i Adobe Experience Cloud och målgrupper från Analytics som ni har publicerat på Adobe Experience Cloud, och ni kan använda målgrupper från Audience Manager när Media Optimizer-kontot är konfigurerat för att tillåta det. Kontakta din kontohanterare för mer information om åtkomst till Adobe Experience Cloud och profiler och målgrupper samt om den första konfigurationen mellan Media Optimizer och Adobe Experience Cloud-målgrupper. **Obs!** Om du även använder Adobe Target är alla målgrupper som du har publicerat till Adobe Experience Cloud även tillgängliga för aktiviteter i Adobe Target.
+**Experience Cloud-målgrupper:** (Annonsörer med visningshantering) Ni kan använda vilken som helst av era [Adobe Experience Cloud-målgrupper](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) som mål för era displayannonser. Ni kan automatiskt använda de målgrupper ni skapat i Adobe Experience Cloud och de målgrupper från Analytics som ni har publicerat i Adobe Experience Cloud, och ni kan använda målgrupper från Audience Manager när Media Optimizer-kontot är konfigurerat för att tillåta det. Kontakta din kontohanterare för mer information om åtkomst till Adobe Experience Cloud och profiler och målgrupper samt om den första konfigurationen mellan Media Optimizer och Adobe Experience Cloud-målgrupper. **Obs!** Om du även använder Adobe Target är alla publiker som du har publicerat till Adobe Experience Cloud även tillgängliga för aktiviteter i Adobe Target.
 
 **Experience Cloud Assets:** (Annonsörer med visningshantering) Du kan använda vilket som helst av dina Adobe Experience Cloud-resurser som kreatörer för dina webbannonser med hjälp av Beta-vyn Ny skärm. Du måste vara [inloggad på Media Optimizer via Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard/help/internal/getting_started/t_log_in_from_adobe_marketing_cloud.htm)) för att få tillgång till dina Adobe Experience Cloud-resurser. Kontakta din kontohanterare för information om åtkomst till Adobe Experience Cloud.
 
