@@ -1,13 +1,16 @@
 ---
 description: Överväganden och bästa praxis gällande personligt identifierbar information (PII) som överförts och används i Adobe Experience Cloud.
-keywords: customer attributes;core services
+keywords: Customer Attributes;core services
 seo-description: Överväganden och bästa praxis gällande personligt identifierbar information (PII) som överförts och används i Adobe Experience Cloud.
 seo-title: Sekretessfrågor - kundattribut
 solution: Experience Cloud
 title: Sekretessfrågor - kundattribut
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
