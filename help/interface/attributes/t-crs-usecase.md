@@ -7,9 +7,9 @@ solution: Experience Cloud
 title: Skapa en kundattributkälla och överför datafilen
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: af5201da6eac644e150783195bdbc8f93760c3f1
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
@@ -28,23 +28,18 @@ Skapa kundattributskällan (CSV- och FIN-filer) och överför data. Du kan aktiv
 1. [Validera schemat](../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8)
 1. [Konfigurera prenumerationer och aktivera attributkällan](../attributes/t-crs-usecase.md#task_1ACA21198F0E46A897A320C244DFF6EA)
 
-
 När datakällan är aktiv kan du:
 
 * [Använd kundattribut i Adobe Analytics](../attributes/t-crs-usecase.md#task_7EB0680540CE4B65911B2C779210915D)
 * [Använd kundattribut i Adobe Target](../attributes/t-crs-usecase.md#task_FC5F9D9059114027B62DB9B1C7D9E257)
 
-
-
 >[!IMPORTANT]
 >
->För att få tillgång till den här funktionen måste användarna tilldelas till produktprofilen för kundattribut (kundattribut - standardåtkomst). ( **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** > ). Användare som läggs till i gruppen Kundattribut ser menyalternativet i [!UICONTROL Customer Attributes] [!UICONTROL Audiences]till vänster om Experience Cloud-gränssnittet.
+>För att få tillgång till den här funktionen måste användarna tilldelas till produktprofilen för kundattribut (kundattribut - standardåtkomst). Navigera till **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Om *kundattribut* visas som ett av [!UICONTROL Product Profiles]alternativen är du redo att börja. Användare som läggs till i gruppen Kundattribut ser [!UICONTROL Customer Attributes] menyn till vänster i Experience Cloud-gränssnittet.
 >
->Medlemskap i lösningsgruppen krävs också.
+>Om du vill använda funktionen Kundattribut måste användarna även tillhöra lösningsnivågrupper (Analytics eller [!DNL Target]).
 
-För att kunna använda funktionen Kundattribut måste användarna tillhöra gruppen Adobe Customer Attributes i användarhantering och i grupper på lösningsnivå (Analytics eller [!DNL Target]).
-
-Se [Användare och grupper](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
+See [Manage Experience Cloud users and products](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9).
 
 ## Skapa en datafil {#task_B5FB8C0649374C7A94C45DCF2878EA1A}
 
@@ -52,12 +47,9 @@ Dessa data är företagskunddata från din CRM. Informationen kan omfatta prenum
 
 1. Skapa en `.csv`.
 
-
    >[!NOTE]
    >
    >Senare i den här processen drar och släpper du filen `.csv` för att överföra den. Om du däremot [överför via FTP](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B)behöver du också en `.fin` fil med samma namn som `.csv`.
-
-
 
    Exempel på kunddatafil för företag:
 
@@ -131,7 +123,7 @@ Utför dessa steg på sidan Skapa ny källa för kundattribut i Experience Cloud
 
    * **[!UICONTROL Unique Customer ID:]** Visar hur många unika ID:n du har överfört till den här attributkällan.
 
-   * **[!UICONTROL Customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]** Visar hur många ID:n som har alias för Experience Cloud-besökar-ID:n.
+   * **[!UICONTROL Customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]** Visar hur många ID:n som har alias för Experience Cloud Visitor ID:n.
 
    * **[!UICONTROL Customer-Provided IDs with High Alias Counts:]** Visar antalet kundtillhandahållna ID:n med 500 eller fler aliaserade Experience Cloud-besökar-ID:n. Dessa kundtillhandahållna ID:n representerar förmodligen inte individer utan snarare någon typ av delad inloggning. Systemet distribuerar de attribut som är kopplade till dessa ID:n till de 500 senast aliaserade Experience Cloud Visitor ID:n, tills aliasantalet når 10 000. Då blir det kundens ID ogiltigt och distribuerar inte längre tillhörande attribut.
 
