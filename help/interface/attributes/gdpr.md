@@ -2,9 +2,9 @@
 title: Kundattribut Stöd för allmänna dataskyddsregler
 description: Kundattribut Stöd för allmänna dataskyddsregler
 translation-type: tm+mt
-source-git-commit: 8709449909ce4fbd441d77fb4bbfb0b7758e805d
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,13 +22,13 @@ Den [allmänna dataskyddsförordningen](https://www.adobe.com/privacy/general-da
 
 Adobe Experience Cloud fungerar som databehandlare för alla personuppgifter som de tar emot och lagrar för sina kunders räkning. Som personuppgiftsansvariga fastställer ni de personuppgifter som Adobe Experience Cloud bearbetar och lagrar åt er.
 
-I det här dokumentet beskrivs hur de registrerade [!UICONTROL customer attributes] stöder dataåtkomst och borttagningsrättigheter för GDPR-data med hjälp av API:t för Adobe Experience Platform Privacy Service och gränssnittet för integritetstjänsten.
+I det här dokumentet beskrivs hur de registrerade [!UICONTROL Customer Attributes] stöder dataåtkomst och borttagningsrättigheter för GDPR-data med hjälp av API:t för Adobe Experience Platform Privacy Service och gränssnittet för integritetstjänsten.
 
 Mer information om vad GDPR innebär för ditt företag finns i [GDPR och Ditt företag](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
-## Nödvändiga inställningar för att skicka begäranden [!UICONTROL customer attributes]
+## Nödvändiga inställningar för att skicka begäranden [!UICONTROL Customer Attributes]
 
-Om du vill begära åtkomst till och ta bort data för [!UICONTROL customer attributes]måste du:
+Om du vill begära åtkomst till och ta bort data för [!UICONTROL Customer Attributes]måste du:
 
 1. Identifiera följande:
 
@@ -39,7 +39,7 @@ Om du vill begära åtkomst till och ta bort data för [!UICONTROL customer attr
 
 1. I [!UICONTROL Privacy Service]kan du skicka in begäran om åtkomst och borttagning till kundattribut och kontrollera status för befintliga begäranden.
 
-## Obligatoriska fältvärden i [!UICONTROL customer attributes] JSON-begäranden
+## Obligatoriska fältvärden i [!UICONTROL Customer Attributes] JSON-begäranden
 
 företagskontext:
 
