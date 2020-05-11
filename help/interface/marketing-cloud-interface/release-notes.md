@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Ackumulerade versionsinformation
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -29,13 +32,13 @@ Versionsinformation om alla lösningar finns i Versionsinformation om [Experienc
 * Ett kritiskt problem med Experience Cloud-inloggning som ledde till sessionsutloggning för vissa användare har korrigerats. (MCUI-6908)
 * Experience Cloud-inloggning har uppdaterats för att förbättra prestanda och minska latensen. (MCUI-6854, MCUI-6869, MCUI-6883)
 * Uppdaterat gränssnitt kosmetiskt. (MCUI-6861, MCUI-6911, MCUI-6862)
-* Korrigerade ett problem med Experience Cloud [!UICONTROL Triggers] som ledde till felaktig tolkning av _Like_ -satsen i [!UICONTROL Trigger] -definitionen. (MCUI-6611)
+* Korrigerade ett problem med Experience Cloud [!UICONTROL Triggers] som ledde till felaktig tolkning av _Gilla_ -satsen i [!UICONTROL Trigger] definitionen. (MCUI-6611)
 
 ## April-2019
 
 * Appväljaren har uppdaterats för att inkludera Marketo i Experience Cloud-lösningssviten och varumärkesuppdateringar i Experience Platform. (MCUI-6529)
 * Experience Cloud Home har uppdaterats för att inkludera navigeringslänkar till sidorna Feed och Administration. (MCUI-6682)
-* Korrigerade ett fel i [!UICONTROL utlösardefinitionen] för korrekt användning av &quot;like&quot;-satsen. (MCUI-6611)
+* Korrigerade ett fel i [!UICONTROL Trigger] definitionen för korrekt användning av gilla-satsen. (MCUI-6611)
 * Förbättringar av kundattribut för bättre inloggning i prenumerationstjänsten. (MCUI-6519)
 
 ## Version 19.1.1 - 17 januari 2019
@@ -99,7 +102,7 @@ Versionsinformation om alla lösningar finns i Versionsinformation om [Experienc
 
 **Känt fel**
 
-Om du använder Dynamic Tag Management via **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]** , men ditt Dynamic Tag Management-konto inte är länkat till Experience Cloud (Adobe ID), kan du inte logga in på Dynamic Tag Management. Du undviker det här problemet genom att navigera direkt till [!DNL dtm.adobe.com] på en ny webbläsarflik.
+Om du använder Dynamic Tag Management via **[!UICONTROL Experience Cloud]** >- **[!UICONTROL Activation]** gränssnittet, men ditt Dynamic Tag Management-konto inte är länkat till Experience Cloud (Adobe ID), kan du inte logga in på Dynamic Tag Management. Du undviker det här problemet genom att navigera direkt till [!DNL dtm.adobe.com] på en ny webbläsarflik.
 
 ## Version 16.1 - 21 januari 2016 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -131,7 +134,7 @@ Om du använder Dynamic Tag Management via **[!UICONTROL Experience Cloud]** > *
 
 ## Version 15.9 - 10 september 2015 {#section_BCCE3E7DF62A4FF5A57B9C8FE2A5F37B}
 
-* Korrigerade ett prestandaproblem i Audience Manager API som orsakade intermittenta timeout vid överföring av kundattributdata. (MAC-26305)
+* Korrigerade ett prestandaproblem i Audience Manager API som orsakade intermittenta timeout vid överföring av kundattributsdata. (MAC-26305)
 * Ett problem som gjorde att användare inte kunde lägga till upp till 200 kundattribut i en prenumeration har åtgärdats. (MAC-26188)
 * Korrigerade ett problem med målgruppsbiblioteket som förhindrade målgruppsdelning från Analytics-segmentering. Detta orsakade att&quot;Collecting Data&quot; (0 målgrupper) visades. För att förhindra detta rekommenderar Adobe att segmentstorlekarna hålls under 50 000 publiken per segment. (MAC-25788)
 * Korrigerade ett tidigare känt fel på sidan Kundattribut - Redigera schema som orsakade ett innehållsmedvetet fel som utfärdades när ett visningsnamn ändrades. (MAC-25589, AN-103834)
@@ -174,7 +177,7 @@ Ingen information finns tillgänglig
  </tbody> 
 </table>
 
-* Ett problem som förhindrar att kundattribut synkroniseras för vissa kunder har åtgärdats.
+* Korrigerade ett problem som förhindrade att kundattribut synkroniserades för vissa kunder.
 * Ett problem som gjorde att [Adobe Target-produktdokumentationssidan](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html) inte kunde visas på japanska har korrigerats.
 * Ett problem som förhindrade användning av japansk text i kommentarer mellan [!DNL Creative Cloud] och [!DNL Experience Cloud]har korrigerats.
 
@@ -261,7 +264,7 @@ Korrigeringar:
 * Förbättrat arbetsflöde för användarens e-postinbjudan för kontoetablering.
 * Korrigerade ett problem med resursmappen som förhindrar [!DNL Experience Cloud] och [!DNL Adobe Campaign] att resurser visar identiska mapphierarkier.
 * Ett problem som förhindrar att målgrupper som var en del av inaktiverade [!DNL Target] aktiviteter tas bort har åtgärdats.
-* Ett problem som gjorde att ikonen Lägg till (plus) inte kunde visas under [!UICONTROL Regler] på sidan [!UICONTROL Skapa ny publik] har åtgärdats.
+* Ett problem som gjorde att ikonen Lägg till (plus) inte kunde visas under [!UICONTROL Rules] på [!UICONTROL Create New Audience] sidan har åtgärdats.
 * Förbättrat stöd för Experience Cloud-gränssnitt i Internet Explorer 9.
 
 ## Version 15.1.1 - 15 januari 2015 {#section_F1A352E928AF432E94CC0A289C345184}
@@ -353,7 +356,7 @@ Nya funktioner och korrigeringar i samarbets- och delningsgränssnittet [!DNL Ad
 * Vissa användare kan ta bort en inaktuell resurs i stället för att få ett felmeddelande.
 * Användaren kan inte dela PowerPoint-filer på ritytor.
 * [!DNL Experience Cloud] -gränssnittet kan minska prestandan när det används parallellt av många användare.
-* Länkningen [!DNL Search&Promote] är inte tillgänglig från sidan [!UICONTROL Organisationer och produktåtkomst] .
+* Länkningen [!DNL Search&Promote] är inte tillgänglig från [!UICONTROL Organizations & Product Access] sidan.
 
 ## Version 14.9.1 - 18 september 2014 {#section_20F156A9CC2F4FC59C4970075C181D3A}
 
@@ -371,7 +374,7 @@ Nya funktioner och korrigeringar i samarbets- och delningsgränssnittet [!DNL Ad
 * Användaren kan inte dela PowerPoint-filer på ritytor.
 * Vissa [!DNL .png] filer kan inte återges på ett kort.
 * [!DNL Experience Cloud] -gränssnittet kan minska prestandan när det används parallellt av många användare.
-* Länkningen [!DNL Search&Promote] är inte tillgänglig från sidan [!UICONTROL Organisationer och produktåtkomst] .
+* Länkningen [!DNL Search&Promote] är inte tillgänglig från [!UICONTROL Organizations & Product Access] sidan.
 * Vissa användare kan uppleva att deras [!DNL Creative Cloud] innehåll tas bort från deras mapp om innehållet inte delas i [!DNL Experience Cloud].
 
 ## Version 14.8.1 - 21 augusti 2014 {#section_03BF00F6A95A490C91BCC0A1988FA7AA}
@@ -405,7 +408,7 @@ Nya funktioner och korrigeringar i samarbets- och delningsgränssnittet [!DNL Ad
 * Användaren kan inte dela PowerPoint-filer på ritytor.
 * Vissa [!DNL .png] filer kan inte återges på ett kort.
 * [!DNL Experience Cloud] -gränssnittet kan minska prestandan när det används parallellt av många användare.
-* Länkningen [!DNL Search&Promote] är inte tillgänglig från sidan [!UICONTROL Organisationer och produktåtkomst] .
+* Länkningen [!DNL Search&Promote] är inte tillgänglig från [!UICONTROL Organizations & Product Access] sidan.
 * Vissa användare kan uppleva att deras [!DNL Creative Cloud] innehåll tas bort från deras mapp om innehållet inte delas i [!DNL Experience Cloud].
 
 ## Version 14.7.1 - 24 juli 2014 {#section_B22D4F830756463DB27BB4D508D9ADD5}
@@ -415,10 +418,10 @@ Nya funktioner och korrigeringar i samarbets- och delningsgränssnittet [!DNL Ad
 **Kända fel**
 
 * Filer som tas bort från [!DNL Experience Cloud] tas inte bort från [!DNL Digital Asset Management].
-* Vissa [!UICONTROL Exchange] -användare kan se att deras namn i kommentarerna är ett långt sträng-ID i stället för deras namn
+* Vissa [!UICONTROL Exchange] användare kan se sina namn i kommentarerna som ett långt sträng-ID i stället för deras namn
 * Vissa [!DNL .png] filer kan inte återges på ett kort
-* Att överföra filer ger fler filtyper än att dra och släppa. För bästa resultat ska du överföra med [!UICONTROL Resurser].
-* Länkningen [!DNL Search&Promote] är inte tillgänglig från sidan [!UICONTROL Organisationer och produktåtkomst] .
+* Att överföra filer ger fler filtyper än att dra och släppa. För bästa resultat ska du överföra med [!UICONTROL Assets].
+* Länkningen [!DNL Search&Promote] är inte tillgänglig från [!UICONTROL Organizations & Product Access] sidan.
 * [!DNL Exchange] -användare måste rensa sina cookies för att förbättra sin upplevelse.
 * [!DNL Experience Cloud] gränssnitt kan göra det långsammare när det används parallellt av många användare.
 * Vissa användare kan uppleva att deras [!DNL Creative Cloud] innehåll tas bort från deras mapp om innehållet inte delas i [!DNL Experience Cloud].
@@ -456,7 +459,7 @@ Nya funktioner och korrigeringar i samarbets- och delningsgränssnittet [!DNL Ad
 
 * Filer som tas bort från [!DNL Experience Cloud] tas inte bort från [!DNL Digital Asset Management].
 * Att överföra filer ger fler filtyper än att dra och släppa. För bästa resultat ska du överföra med Assets.
-* Länkningen [!DNL Search&Promote] är inte tillgänglig från sidan [!UICONTROL Organisationer och produktåtkomst] .
+* Länkningen [!DNL Search&Promote] är inte tillgänglig från [!UICONTROL Organizations & Product Access] sidan.
 * Filter som används på trendrapporter från [!DNL Analytics] används inte på kort i [!DNL Experience Cloud].
 * Vissa användare kan inte länka sina målgruppshanteringskonton till sina [!DNL Experience Cloud] konton.
 * Du loggas ut efter 15 minuters inaktivitet. Om du loggar ut från en plats loggas du ut från Experience Cloud.
@@ -507,9 +510,9 @@ Nya funktioner och korrigeringar i samarbets- och delningsgränssnittet [!DNL Ad
 * Det gick inte att klicka på kommentarlänken i resurskortvyn.
 * När du har lagt till en anpassad tagg i en resurs, bevaras inga andra metadataändringar.
 * När du tar bort en bild visas ingen varning om bilden används i Adobe Target Essentials.
-* Sakta [!UICONTROL Experience Cloud] -gränssnittets prestanda när det används parallellt av många användare.
-* När en bild togs bort i [!UICONTROL Experience Cloud Assets] utlöstes ingen varning om bilden användes i [!DNL Adobe Target Essentials].
-* När **[!UICONTROL du inte valde mig]** under inloggningen loggades användaren ut efter 15 minuter.
+* Långsam [!UICONTROL Experience Cloud] gränssnittsprestanda vid parallell användning av många användare.
+* När du tog bort en bild i [!UICONTROL Experience Cloud Assets] utlöstes ingen varning om bilden användes i [!DNL Adobe Target Essentials].
+* När användaren inte **[!UICONTROL remember me]** valdes under inloggningen loggades användaren ut efter 15 minuter.
 * Användarna var tvungna att logga ut och in igen för att alla ändringar i behörighet och tillstånd skulle börja gälla.
 * Det [!DNL Experience Cloud] tog längre tid än en sekund att logga in.
 * För vissa användare synkroniserades inte filer som togs bort från [!DNL Experience Cloud] med [!DNL Digital Asset Management].
@@ -543,10 +546,10 @@ Nya funktioner och korrigeringar i samarbets- och delningsgränssnittet [!DNL Ad
 
 * När du har lagt till en anpassad tagg i en resurs kan inga andra metadataändringar sparas.
 * Användarna måste uppdatera anslagstavlan för att ta bort de raderade korten.
-* När **[!UICONTROL Kom ihåg mig]** inte har valts under inloggningen loggas användaren ut efter 15 minuter
+* När **[!UICONTROL Remember me]** inte har valts under inloggningen loggas användaren ut efter 15 minuter
 * [!DNL Analytics] på startsidan för lösningen visas formateringsfel.
 * Användarna måste logga ut och logga in igen för att alla ändringar i behörighet och tillstånd ska börja gälla.
-* När du tar bort en bild visas ingen varning om bilden används i [!UICONTROL Resurser] [!DNL Adobe Target Essentials].
+* När du tar bort en bild visas [!UICONTROL Assets] ingen varning om bilden används i [!DNL Adobe Target Essentials].
 * Det går inte att klicka på kommentarlänken i resurskortvyn.
 * Alternativ i kombinationsrutor för att lägga till nya användare försvinner tillfälligt när du skriver.
 * Inloggning till [!DNL Experience Cloud] tar längre tid än en sekund.
@@ -554,14 +557,14 @@ Nya funktioner och korrigeringar i samarbets- och delningsgränssnittet [!DNL Ad
 * Adobe skapar [!DNL Media Optimizer] inte användare automatiskt när användare har skapats i [!DNL Experience Cloud].
 * Det [!DNL Experience Cloud] går inte att länka till [!DNL Adobe Target]om [!DNL Adobe Target] inloggningen kan användas på flera [!DNL Target] servrar.
 * [!DNL Experience Cloud] gränssnitt kan göra det långsammare när det används parallellt av många användare.
-* [!DNL Search&Promote] Det går inte att länka från sidan [!UICONTROL Organisationer och produktåtkomst] .
+* [!DNL Search&Promote] Det går inte att länka från [!UICONTROL Organizations & Product Access] sidan.
 * [!DNL Adobe Media Optimizer] simuleringskort återges inte korrekt.
 * Filter som används på trendrapporter från [!DNL Analytics] används inte på kort i [!DNL Experience Cloud].
 * Filter som tillämpas på trendrapporter från Analytics tillämpas inte på kort i Experience Cloud.
 * Vissa Excel- eller CSV-filer kan inte överföras till en anslagstavla.
 * Vissa användare kanske inte kan länka sina målgruppshanteringskonton till sina [!DNL Experience Cloud].
 * Vissa användare kan råka ut för fel när de delar [!DNL Analytics] segment i [!DNL Experience Cloud].
-* Vissa användare kanske inte kan fördjupa sig i undermappar i [!UICONTROL Resursväljaren].
+* Vissa användare kanske inte kan gå ned i undermappar i [!UICONTROL Asset Selector].
 * Vissa användare kan inte dela AdLens-gadgets i [!DNL Experience Cloud].
 
 ## Version 14.3.1 - 13 mars 2014 {#section_5D142E3225E3477A84DC01B8197D39BC}
@@ -591,7 +594,7 @@ Version 14.3.1 är en underhållsrelease som fokuserar på hastighet, stabilitet
 * Det går inte att dela Flickr-bilder.
 * Filter som tillämpas på trendrapporter från [!DNL Analytics] tillämpas inte på kort i Experience Cloud.
 * Ändringar av grupper och tillstånd som görs i användarhantering börjar gälla först efter en ny inloggning.
-* [!DNL Search&Promote] Det går inte att länka från [!UICONTROL organisationer och produktåtkomst].
+* [!DNL Search&Promote] Det går inte att länka från [!UICONTROL Organizations & Product Access].
 * Användaren måste uppdatera anslagstavlan för att ta bort de borttagna korten från vyn.
 * Vissa Excel- eller CSV-filer kan inte överföras till en anslagstavla.
 * [!DNL Adobe Media Optimizer] simuleringskort återges inte korrekt.
@@ -623,6 +626,6 @@ Version 14.3.1 är en underhållsrelease som fokuserar på hastighet, stabilitet
 **Korrigeringar**
 
 * Ett problem som förhindrade delade [!DNL Analytics] rapporter från att tillämpa segmentfilter har korrigerats.
-* Ett problem som gjorde att lösningar visades på sidan [!UICONTROL Experience Cloud-lösningar] som länkade har korrigerats, även om lösningskontona inte var länkade.
-* Ett problem som gjorde att [!DNL Adobe Target] kunder i Asien inte kunde klicka på knappen **[!UICONTROL Fortsätt till Experience Cloud]** på länkningssidan har åtgärdats.
+* Ett problem som gjorde att lösningar visades på [!UICONTROL Experience Cloud Solutions] sidan som länkade har korrigerats, även om lösningskontona inte var länkade.
+* Korrigerade ett problem som gjorde att [!DNL Adobe Target] kunder i Asien inte kunde klicka på **[!UICONTROL Continue to Experience Cloud]** -knappen på länkningssidan.
 * Ett problem som förhindrade delning av YouTube-videor har korrigerats.
