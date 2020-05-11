@@ -4,7 +4,10 @@ user-guide-title: Användarhandbok för Experience Cloud-gränssnittet
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
    + [cookies från första part i Experience Cloud](cookies/cookies-first-party.md)
    + [Analytics-cookies](cookies/cookies-analytics.md)
    + [Audience Manager-cookies](cookies/cookies-am.md)
-   + [[!UICONTROL Dataanslutningscookies]](cookies/cookies-dc.md)
+   + [[!UICONTROL Data Connectors] cookies](cookies/cookies-dc.md)
    + [[!UICONTROL Data Workbench] cookies](cookies/cookies-insight.md)
    + [Experience Cloud-cookies](cookies/cookies-mc.md)
    + [Advertising Cloud cookies](cookies/cookies-advertising-cloud.md)
