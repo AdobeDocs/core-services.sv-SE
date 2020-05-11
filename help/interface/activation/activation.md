@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Aktivering
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 translation-type: tm+mt
-source-git-commit: 29899fcb712847609e1fb17425a85f999e00fe82
+source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +27,7 @@ Se [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/us
 
 ## Dynamisk tagghantering {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
 
-Om du vill starta Dynamic Tag Management klickar du på **[!UICONTROL Aktivering]** och skickar en begäran till Adobes team för etablering. Du bör få inloggningsuppgifterna inom en till två arbetsdagar.
+Om du vill starta Dynamic Tag Management klickar du på **[!UICONTROL Activation]** och skickar en begäran till Adobes team för provisionering. Du bör få inloggningsuppgifterna inom en till två arbetsdagar.
 
 <table id="table_3241FF7CA0B242BFAFC68362A62AA0C7"> 
  <thead> 
@@ -40,7 +43,7 @@ Om du vill starta Dynamic Tag Management klickar du på **[!UICONTROL Aktivering
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Implementeringsguider för Experience Cloud ID Service </a> </p> </td> 
-   <td colname="col2"> <p>Experience Cloud ID-tjänsten möjliggör grundläggande funktionalitet i alla Experience Cloud-lösningar (inklusive kundattribut, målgruppsdelning och triggers). Adobe rekommenderar att du implementerar ID-tjänsten och utnyttjar dessa funktioner. </p> </td> 
+   <td colname="col2"> <p>Experience Cloud ID-tjänsten möjliggör grundläggande funktionalitet i alla Experience Cloud-lösningar (inklusive kundattribut, målgruppsdelning och utlösare). Adobe rekommenderar att du implementerar ID-tjänsten och utnyttjar dessa funktioner. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> Produktdokumentation för dynamisk tagghantering </a> </p> </td> 
