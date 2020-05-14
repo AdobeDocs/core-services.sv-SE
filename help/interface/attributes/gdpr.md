@@ -2,15 +2,15 @@
 title: Kundattribut Stöd för allmänna dataskyddsregler
 description: Kundattribut Stöd för allmänna dataskyddsregler
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '420'
 ht-degree: 0%
 
 ---
 
 
-# Stöd för kundattribut i den allmänna dataskyddsförordningen
+# Kundattribut stöd för den allmänna dataskyddsförordningen
 
 Den här sidan beskriver hur kundattribut stöder allmänna dataskyddsförordningen (GDPR).
 
