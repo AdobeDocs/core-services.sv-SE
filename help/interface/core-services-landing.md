@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: Om bastjänsterna i Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 2%
@@ -28,7 +28,7 @@ I den här hjälpen beskrivs följande produkter och tjänster:
 
 | Bastjänst | Beskrivning |
 |--- |--- |
-| [Aktivering](activation/activation.md) | Tagghanteringssystem (Experience Platform Launch och Dynamic Tag Management).<br>Utlösare gör att ni kan vidta åtgärder i realtid i Adobe Campaign baserat på insikter från Adobe Analytics. |
+| [Aktivering](activation/activation.md) | Tagghanteringssystem (Experience Platform Launch och Dynamic Tag Management).<br>Utlösare gör att ni kan vidta åtgärder i realtid i Adobe Campaign utifrån insikter från Adobe Analytics. |
 | [Administration](admin-getting-started/admin-getting-started.md) | Hantera användar- och produktbehörigheter i alla era moln och lösningar från Adobe. |
 | [Assets](experience-cloud-assets/experience-cloud-assets.md) | Lagra, synkronisera och dela enkelt alla digitala resurser på en central plats för att spara tid och leverera en mer enhetlig kundupplevelse. |
 | [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) | [!UICONTROL Experience Platform Launch] är nästa generations tagghanteringsfunktioner från Adobe. [!UICONTROL Experience Platform Launch] ger kunderna ett enkelt sätt att driftsätta och hantera alla analys-, marknadsförings- och annonstaggar som behövs för att skapa relevanta kundupplevelser. |
