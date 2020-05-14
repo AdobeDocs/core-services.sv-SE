@@ -4,10 +4,10 @@ user-guide-title: Användarhandbok för Experience Cloud-gränssnittet
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '385'
+ht-degree: 2%
 
 ---
 
@@ -70,6 +70,8 @@ ht-degree: 0%
    + [Validera schemat](attributes/validate-schema.md)
    + [Konfigurera prenumerationer](attributes/subscription.md)
    + [Uppdatera schemat](attributes/t-update-schema.md)
+   + [Stöd för den allmänna dataskyddsförordningen](attributes/gdpr.md)
+   + [Stöd för California Consumer Privacy Act](attributes/ccpa.md)
    + [Sekretessfrågor - kundattribut](attributes/privacy-mac.md)
 + Erbjudandehantering {#offer-management}
    + [Komma igång med erbjudandehantering](offer-management/getting-started.md)
