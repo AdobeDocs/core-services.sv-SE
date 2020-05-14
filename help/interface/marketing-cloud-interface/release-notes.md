@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Ackumulerade versionsinformation
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3875'
+ht-degree: 1%
 
 ---
 
@@ -22,6 +22,22 @@ Funktioner, versionsinformation och kända fel för Experience Cloud-gränssnitt
 En lista över dokumentationsuppdateringar finns i [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Versionsinformation om alla lösningar finns i Versionsinformation om [Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html).
+
+## April - 2020
+
+* Sidan [!UICONTROL Feed] har tagits bort i Experience Cloud. (EXC-8505)
+* Inloggningssidan för Experience Cloud har uppdaterats för att återspegla nya varumärkeselement. (EXC-10747)
+
+## Februari - 2020
+
+| Funktion | Beskrivning |
+| -----------| ---------- |
+| Administratörsverktyg - visa användarinformation | Administratörer kan visa en sorterbar och filterbar lista över alla Experience Cloud-användare och deras information i det nya administrationsverktyget. Användarinformationen innehåller information om en användares produktåtkomst, roller och den senast öppnade informationen. Mer information finns i hjälpen för [Experience Cloud Admin Tool](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-tool-experience-cloud.html) . |
+
+**Korrigeringar**
+
+* **Kundattribut:** Gränssnittet för kundattribut visar nu ytterligare statusvärden för profiler som har synkroniserats i Target. (MCUI-10231)
+* **Huvudtjänst för utlösare:** På grund av bristande användning har benägenheten&quot;Sannolikhet att returnera inom 30 dagar&quot; när en utlösare av typen Abandonment skapas tagits bort. (MCUI-10056)
 
 ## Januari-2020
 
