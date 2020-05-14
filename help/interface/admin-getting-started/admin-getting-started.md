@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Hantera Experience Cloud-användare och -produkter
 index: true
 translation-type: tm+mt
-source-git-commit: e54747dc6ff4e52b893924c5e0ebfa91ba824538
+source-git-commit: a4a0760f838178b3c4caebf89e389da8a7ff4627
+workflow-type: tm+mt
+source-wordcount: '1422'
+ht-degree: 4%
 
 ---
 
@@ -50,7 +53,7 @@ Så här loggar du in på Admin Console:
 1. Gå till [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
 1. Skriv ditt [Adobe-ID eller Enterprise-ID](https://helpx.adobe.com/enterprise/help/identity.html) och lösenord.
 
-Du kan också gå till Experience Cloud-menyn ( ![](assets/menu-icon.png)) och klicka på **[!UICONTROL Administration]** > **[!UICONTROL Starta Admin Console]**.
+Du kan också gå till Experience Cloud-menyn ( ![](assets/menu-icon.png)) och klicka på **[!UICONTROL Administration]** > **[!UICONTROL Launch Admin Console]**.
 
 **Relaterad hjälp**
 
@@ -68,7 +71,7 @@ I Analytics kan du till exempel konfigurera en samling rapporteringsverktyg, som
 
 [Delegera begränsade administrationsbehörigheter](../admin-getting-started/admin-getting-started.md#task_3A072C4AA9734BC59FFA7E015271BC7E)
 
-## Analyser {#section_97DE101F92CD494AB073893680992F1A}
+## Analytics {#section_97DE101F92CD494AB073893680992F1A}
 
 Hantera användar- och produktbehörigheter för Analytics i Admin Console.
 
@@ -109,6 +112,12 @@ Experience Platform Launch visas på sidan Produkter i Admin Console. Du kan ink
 
 Se [Användarhantering](https://docs.adobelaunch.com/launch-reference/administration/user-permissions) för information om användarbehörigheter i Admin Console och ange startspecifika alternativ, inklusive tilldelning av behörigheter till profiler.
 
+## Experience Manager as a Cloud Service
+
+Adobe Enterprise-kunder representeras som IMS-organisationer i Adobe Admin Console. Det här är den portal som Adobes kunder använder för att hantera sina produktbehörigheter för användare och grupper. AEM-kunder kan använda Adobe Admin Console för att hantera sina produkträttigheter och IMS-autentisering till AEM som en molntjänst.
+
+See [IMS Support for AEM as a Cloud Service](https://youtu.be/EuUAVLZMdDA).
+
 ## Dynamisk tagghanterare {#section_3A41CF2BD5994B9891537D063571D4ED}
 
 Bjud in användare till dynamisk tagghantering och tilldela användarroller och lägg till användare i grupper.
@@ -127,10 +136,10 @@ Skapa en produktprofil och tilldela den till en behörighetsgrupp.
 
 När du bjuder in en användare till en organisation kan du ge användaren tillgång till produkter och produktprofiler. Du kan även delegera begränsade administrativa behörigheter till en användare. På samma sätt kan du skapa användargrupper och sedan lägga till gruppen i en produktprofil för att aktivera åtkomst.
 
-1. I [Admin Console](https://adminconsole.adobe.com/enterprise/)klickar du på **[!UICONTROL Produkter]**.
-1. Klicka på **[!UICONTROL Ny profil]**.
-1. Konfigurera profilinformationen och klicka sedan på **[!UICONTROL Nästa]**.
-1. Klicka på **[!UICONTROL Klar]**.
+1. Klicka på [Admin Console](https://adminconsole.adobe.com/enterprise/)**[!UICONTROL Products]**.
+1. Klicka på **[!UICONTROL New Profile]**.
+1. Konfigurera profilinformationen och klicka sedan på **[!UICONTROL Next]**.
+1. Klicka på **[!UICONTROL Done]**.
 
 Mer hjälp finns här:
 
@@ -142,10 +151,10 @@ Mer hjälp finns här:
 
 Tilldela åtkomstbehörigheter för analysrapporter (rapportsviter, mätvärden, dimensioner och så vidare) till en produktprofil.
 
-Du kan till exempel skapa en produktprofil som innehåller flera analysverktyg ( [!UICONTROL Analysis Workspace], [!UICONTROL Reports &amp; Analytics]och [!UICONTROL Report Builder]), med tillstånd till specifika mått och dimensioner (inklusive eVars), samt funktioner som att skapa segment eller beräknade mätvärden.
+Du kan till exempel skapa en produktprofil som innehåller flera analysverktyg (, [!UICONTROL Analysis Workspace]och [!UICONTROL Reports & Analytics][!UICONTROL Report Builder]), med behörighet till specifika mått och dimensioner (inklusive eVars) och funktioner som att skapa segment eller beräknade mätvärden.
 
-1. Logga in på [Admin Console](https://adminconsole.adobe.com/enterprise)och klicka sedan på **[!UICONTROL Produkter]** (eller klicka på ditt produktnamn).
-1. Klicka på **[!UICONTROL Behörigheter]** (endast för administratörer) i produktprofilen.
+1. Logga in på [Admin Console](https://adminconsole.adobe.com/enterprise)och klicka sedan på **[!UICONTROL Products]** (eller klicka på ditt produktnamn).
+1. Klicka på **[!UICONTROL Permissions]** (endast tillgängligt för administratörer) i produktprofilen.
 1. Konfigurera profilens behörigheter:
 
 | Element | Beskrivning |
@@ -168,10 +177,10 @@ Du kan till exempel:
 
 Genom att använda de här rollerna kan du delegera hantering till andra utan att ge dem mer kapacitet än de behöver.
 
-1. Klicka på **[!UICONTROL Användare]** på Admin Console och sedan på användarens namn.
-1. Klicka på **[!UICONTROL Redigera administratörsrättigheter]**.
+1. I Admin Console klickar du på **[!UICONTROL Users]** och sedan på användarens namn.
+1. Klicka på **[!UICONTROL Edit admin rights]**.
 1. Konfigurera användarens administratörsrättigheter.
-1. Klicka på **[!UICONTROL Nästa]** för att granska inställningarna och klicka sedan på **[!UICONTROL Spara]**.
+1. Klicka **[!UICONTROL Next]** för att granska inställningarna och klicka sedan på **[!UICONTROL Save]**.
 
 ## Webbläsare och systemkrav som stöds {#concept_CDC4371EB9BF433E9534F8716DC8A088}
 
@@ -183,7 +192,7 @@ Webbläsare som stöds i Experience Cloud.
 * [!DNL Safari]
 * [!DNL Opera]
 
-**Obs!** Trots att Experience Cloud-gränssnittet har stöd för dessa webbläsare kanske inte enskilda lösningar har stöd för alla webbläsare. ( [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) stöder till exempel inte [!DNL Opera]och [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) stöder inte [!DNL Safari].)
+**Obs!** Trots att Experience Cloud-gränssnittet har stöd för dessa webbläsare kanske inte enskilda lösningar har stöd för alla webbläsare. (For example, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) does not support [!DNL Opera], and [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) does not support [!DNL Safari].)
 
 ### Lösningar och produktkrav
 
