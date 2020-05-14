@@ -4,7 +4,7 @@ user-guide-title: Användarhandbok för Experience Cloud-gränssnittet
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
+source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 2%
@@ -65,7 +65,7 @@ ht-degree: 2%
    + [Översikt över kundattribut](attributes/attributes.md)
    + [Vanliga frågor, begränsningar och bästa praxis](attributes/faq-crs.md)
    + [Om datafiler och datakällor för kundattribut](attributes/crs-data-file.md)
-   + [Skapa en kundattributkälla och överför datafilen](attributes/t-crs-usecase.md)
+   + [Skapa en kundattributskälla och överför datafilen](attributes/t-crs-usecase.md)
    + [Valfritt - Överför datafilen via FTP](attributes/t-upload-attributes-ftp.md)
    + [Validera schemat](attributes/validate-schema.md)
    + [Konfigurera prenumerationer](attributes/subscription.md)
