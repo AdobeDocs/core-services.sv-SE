@@ -7,9 +7,9 @@ solution: Experience Cloud
 title: Dokumentationsuppdateringar - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,17 @@ ht-degree: 0%
 # Dokumentationsuppdateringar - Experience Cloud
 
 Information om uppdateringar av produktdokumentationen för Experience Cloud.
+
+**Uppdaterat: 5/19/2020**
+
+Underskriven dokumentation om erbjudandehantering.
+
+**Uppdaterat: 5/15/2020**
+
+Följande sidor har lagts till:
+
+* [Stöd för den allmänna dataskyddsförordningen](attributes/gdpr.md)
+* [Stöd för California Consumer Privacy Act](attributes/ccpa.md)
 
 **Uppdaterat: 3/10/2020**
 
