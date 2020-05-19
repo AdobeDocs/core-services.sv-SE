@@ -6,10 +6,10 @@ solution: Experience Cloud
 title: Om bastjänsterna i Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 1f7672f43e870c7ab66d68f451c031ea2c5af15b
+source-git-commit: a8dff138652b34c9532b87a4aae74f9d9f614580
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 2%
+source-wordcount: '494'
+ht-degree: 5%
 
 ---
 
@@ -34,7 +34,6 @@ I den här hjälpen beskrivs följande produkter och tjänster:
 | [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html) | [!UICONTROL Experience Platform Launch] är nästa generations tagghanteringsfunktioner från Adobe. [!UICONTROL Experience Platform Launch] ger kunderna ett enkelt sätt att driftsätta och hantera alla analys-, marknadsförings- och annonstaggar som behövs för att skapa relevanta kundupplevelser. |
 | [Journey Orchestration](https://docs.adobe.com/content/help/en/journeys/using/journey-orchestration-home.html) | Bygg realtidssamordning med hjälp av kontextuella data lagrade i händelser eller datakällor. [!UICONTROL Journey Orchestration] är en programtjänst som är integrerad med Experience Platform. |
 | [Platstjänst](https://docs.adobe.com/content/help/en/places/using/home.html) | Adobe [!UICONTROL Experience Platform Location Service] (Location Service) är en geolokaliseringstjänst som gör det möjligt för mobilappar med platsmedvetenhet att förstå platskontexten genom att använda avancerade och lättanvända SDK-gränssnitt tillsammans med en flexibel databas med intressepunkter (POI). |
-| [Erbjudanden](offer-management/getting-started.md) | Skapa, hantera och fatta beslut i alla kanaler i Experience Cloud. [!UICONTROL Offer Management] fungerar som en central katalog för erbjudanden där ni kan koppla samman regler för behörighet och flera innehållsdelar med varje erbjudande, publicera dessa erbjudanden över olika kanaler och platser och leverera det bästa erbjudandet för varje kund vid varje interaktion. |
 | [Exchange](exchange.md) | Sök, bläddra, välj, betala och hämta Digital Marketing-tillägg via appar. |
 | [Mobiltjänster](https://docs.adobe.com/content/help/en/mobile-services/using/home.html) | Adobe Mobile Services samlar funktioner för mobilmarknadsföring för mobilappar från hela Experience Cloud, vilket gör att ni kan förstå och förbättra användarinteraktionen med era mobilappar. |
 | Folk | Skapa en heltäckande bild av enskilda kunder genom att koppla samman Adobe-data och andra data i era Experience Cloud-lösningar. Ta reda på vad som betyder mest för dem när de interagerar via olika kontaktytor. Känn igen välbekanta konsumenter när de besöker hemlösa enheter. Du kan till och med gruppera användare i målgrupper för riktade marknadsföringssatsningar.<br>[Målgrupper](audience-library/audience-library.md) - Kategorisera olika typer av kunder i målgrupper och dela sedan dessa målgrupper i alla Marketing Cloud-lösningar.<br>[Kundattribut](attributes/attributes.md) - målgruppsberikning som gör att ni kan koppla samman konsumentinformation som ni har samlat in utanför Marketing Cloud.<br>[Enhetsdiagram](https://landing.adobe.com/en/na/events/summit/275658-summit-co-op.html) - Samarbeta med världens populäraste varumärken för att känna igen en välbekant konsument bakom en okänd enhet. (I betaversion, endast för medlemmar i Marketing Cloud Device Co-op.) |
