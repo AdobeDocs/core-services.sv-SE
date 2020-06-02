@@ -1,10 +1,11 @@
 ---
 audience: end-user
 user-guide-title: Användarhandbok för Experience Cloud-gränssnittet
+user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
+source-git-commit: 7a3a14fa8572444513dd0ac4753431f3c33245f0
 workflow-type: tm+mt
 source-wordcount: '371'
 ht-degree: 9%
@@ -38,7 +39,7 @@ ht-degree: 9%
 + Hantering av användare och produkter {#manage-users-and-products}
    + [Hantera Experience Cloud-användaridentitet och -produkter (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Visa användarinformation för Experience Cloud (Admin Tool)](admin-getting-started/admin-tool-experience-cloud.md)
-   + [Vanliga frågor](admin-getting-started/faq.md)
+   + [Frågor och svar](admin-getting-started/faq.md)
    + [Logga in och hantera dina profilinställningar](admin-getting-started/getting-started-experience-cloud.md)
    + [Organisationer och kontolänkning](admin-getting-started/organizations.md)
    + [Uppgradera till Analytics Premium och Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
@@ -74,7 +75,7 @@ ht-degree: 9%
    + [Stöd för California Consumer Privacy Act](attributes/ccpa.md)
    + [Sekretessfrågor - kundattribut](attributes/privacy-mac.md)
 + Versionsinformation om Experience Cloud {#release-notes}
-   + [Nyheter i Experience Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)
+   + [Nyheter i Experience Cloud](https://docs.adobe.com/content/help/sv-SE/release-notes/experience-cloud/current.html)
    + [Ackumulerade versionsinformation](marketing-cloud-interface/release-notes.md)
 + [Exchange Marketplace](exchange.md)
 + [Mobiltjänster](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
