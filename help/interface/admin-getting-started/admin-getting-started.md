@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Hantera Experience Cloud-användare och -produkter
 index: true
 translation-type: tm+mt
-source-git-commit: a4a0760f838178b3c4caebf89e389da8a7ff4627
+source-git-commit: 01277057733cb921ebfbb7e66a3e34cdd1e21829
 workflow-type: tm+mt
-source-wordcount: '1422'
-ht-degree: 4%
+source-wordcount: '1428'
+ht-degree: 5%
 
 ---
 
@@ -71,7 +71,7 @@ I Analytics kan du till exempel konfigurera en samling rapporteringsverktyg, som
 
 [Delegera begränsade administrationsbehörigheter](../admin-getting-started/admin-getting-started.md#task_3A072C4AA9734BC59FFA7E015271BC7E)
 
-## Analytics {#section_97DE101F92CD494AB073893680992F1A}
+## Analyser {#section_97DE101F92CD494AB073893680992F1A}
 
 Hantera användar- och produktbehörigheter för Analytics i Admin Console.
 
@@ -116,7 +116,7 @@ Se [Användarhantering](https://docs.adobelaunch.com/launch-reference/administra
 
 Adobe Enterprise-kunder representeras som IMS-organisationer i Adobe Admin Console. Det här är den portal som Adobes kunder använder för att hantera sina produktbehörigheter för användare och grupper. AEM-kunder kan använda Adobe Admin Console för att hantera sina produkträttigheter och IMS-autentisering till AEM som en molntjänst.
 
-See [IMS Support for AEM as a Cloud Service](https://youtu.be/EuUAVLZMdDA).
+See [IMS Support for AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console).
 
 ## Dynamisk tagghanterare {#section_3A41CF2BD5994B9891537D063571D4ED}
 
@@ -160,7 +160,7 @@ Du kan till exempel skapa en produktprofil som innehåller flera analysverktyg (
 | Element | Beskrivning |
 |--- |--- |
 | Rapportsviter | Aktivera behörigheter för specifika rapportsviter. |
-| Mått | Aktivera behörigheter för trafik, konvertering, anpassade händelser, lösningshändelser, innehållsmedveten osv. |
+| Mätvärden | Aktivera behörigheter för trafik, konvertering, anpassade händelser, lösningshändelser, innehållsmedveten osv. |
 | Dimensioner | Anpassa användaråtkomsten på detaljnivå, inklusive eVars, trafikrapporter, lösningsrapporter och sökvägsrapporter. |
 | Report Suite-verktyg | Aktivera användarbehörigheter för Web Services, Report Suite Management, Tools and Reports och Dashboard Items. |
 | Analysverktyg | Aktivera användarbehörigheter för allmänna objekt (fakturering, loggar osv.), företagshantering, verktyg, Web Service Access, Report Builder och integrering med Data Connectors. Företagsinställningar från kategorin Anpassa Admin Console har flyttats till Analytics-verktyg. |
@@ -192,10 +192,10 @@ Webbläsare som stöds i Experience Cloud.
 * [!DNL Safari]
 * [!DNL Opera]
 
-**Obs!** Trots att Experience Cloud-gränssnittet har stöd för dessa webbläsare kanske inte enskilda lösningar har stöd för alla webbläsare. (For example, [Analytics](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html) does not support [!DNL Opera], and [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html) does not support [!DNL Safari].)
+**Obs!** Trots att Experience Cloud-gränssnittet har stöd för dessa webbläsare kanske inte enskilda lösningar har stöd för alla webbläsare. (For example, [Analytics](https://docs.adobe.com/content/help/sv-SE/analytics/admin/sys-reqs.html) does not support [!DNL Opera], and [Adobe Target](https://docs.adobe.com/help/sv-SE/target/using/implement-target/before-implement/supported-browsers.html) does not support [!DNL Safari].)
 
 ### Lösningar och produktkrav
 
-* [Analyser](https://docs.adobe.com/content/help/en/analytics/admin/sys-reqs.html)
+* [Analyser](https://docs.adobe.com/content/help/sv-SE/analytics/admin/sys-reqs.html)
 * [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
-* [Adobe Target](https://docs.adobe.com/help/en/target/using/implement-target/before-implement/supported-browsers.html)
+* [Adobe Target](https://docs.adobe.com/help/sv-SE/target/using/implement-target/before-implement/supported-browsers.html)
