@@ -7,6 +7,9 @@ title: Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
 source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+workflow-type: tm+mt
+source-wordcount: '421'
+ht-degree: 0%
 
 ---
 
@@ -27,7 +30,7 @@ Genom att använda mediefiler blir det enhetligare och varumärkeskommunikatione
 * **[!DNL Media Optimizer]**: Utveckla annonsenheter i olika kanaler och kampanjer
 * **[!DNL Campaign]**: Lägg in resurser i nyhetsbrev och kampanjer via e-post.
 
-I [!UICONTROL Experience Cloud Assets]kan ni:
+I [!UICONTROL Experience Cloud Assets]kan du:
 
 * [Navigera till Experience Cloud Assets](../experience-cloud-assets/experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
 * [Öppna verktygsfältet](../experience-cloud-assets/experience-cloud-assets.md#section_EC2E401D225148818F3753248556BE6B)
@@ -45,7 +48,7 @@ I [!UICONTROL Experience Cloud Assets]kan ni:
 
 ## Öppna verktygsfältet {#section_EC2E401D225148818F3753248556BE6B}
 
-Navigera till en resurs (eller resurskatalog) och klicka sedan på **[!UICONTROL Välj]**.
+Navigera till en resurs (eller resurskatalog) och klicka sedan på **[!UICONTROL Select]**.
 
 Verktygsfältet ger snabb åtkomst till funktioner som sökning, tidslinje, återgivning, redigering, anteckning och hämtning.
 
@@ -69,13 +72,13 @@ Du kan söka efter nyckelord, filtyp, storlek, senaste ändring, publiceringssta
 
 ## Anteckna resurser {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-Klicka på **[!UICONTROL Anteckna]** genom att rita cirklar eller pilar på en bild och anteckna resursen för granskning av medarbetare.
+Klicka **[!UICONTROL Annotate]** genom att rita cirklar eller pilar på en bild och anteckna resursen för granskning av medarbetare.
 
 ![](assets/assets-annotate.png)
 
 ## Visa resurser i helskärmsläge och zooma {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-Klicka på **[!UICONTROL Vyer]** > **[!UICONTROL Bild]** för att visa hela resursen och aktivera zoomning.
+Klicka **[!UICONTROL Views]** > **[!UICONTROL Image]** om du vill visa hela bilden och aktivera zoomning.
 
 ![](assets/asset-zoom.png)
 
@@ -83,7 +86,7 @@ Klicka på **[!UICONTROL Vyer]** > **[!UICONTROL Bild]** för att visa hela resu
 
 Välj mellan kortvyn med egenskaper, listvy och kolumnvy för att enklare hitta resurser.
 
-Klicka på **[!UICONTROL Vyer]** > **[!UICONTROL Egenskaper]** för att visa en resurs egenskaper:
+Klicka **[!UICONTROL Views]** > **[!UICONTROL Properties]** om du vill visa en resurs egenskaper:
 
 ![](assets/asset-properties.png)
 
@@ -91,6 +94,6 @@ Klicka på **[!UICONTROL Vyer]** > **[!UICONTROL Egenskaper]** för att visa en 
 
 Se antalet användare, använt lagringsutrymme och totalt antal resurser.
 
-Klicka på **[!UICONTROL Verktyg]** > **[!UICONTROL Rapporter]** > **[!UICONTROL Användningsrapport]**
+Klicka på **[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**
 
 ![](assets/assets-usage-report.png)
