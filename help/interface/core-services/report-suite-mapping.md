@@ -5,15 +5,19 @@ seo-title: Mappa rapportsviter till en organisation
 title: Mappa rapportsviter till en organisation
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: af0bb1497252afa9bca2d6c7bacb11749cfe654c
+source-git-commit: 5d987d60a462457afab6c1935095c7ea948b4d65
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1167'
 ht-degree: 1%
 
 ---
 
 
 # Mappa rapportsviter till en organisation {#topic_7C4740559EAC4E0FA5F8DEF886B580DA}
+
+>[!NOTE]
+>
+>Rapportsvitens mappningsfunktion kommer att bli inaktuell i november 2020. Mappa alla utestående rapportsviter i >förberedelser för detta. Kontakta kundtjänst om du har några frågor.
 
 Lär dig hur du mappar en eller flera rapportsviter till en organisation.
 
@@ -102,7 +106,7 @@ Vid något tillfälle delades denna rapportserie med ett annat inloggningsföret
 
 ### Vad är det här felet &quot;Möjlig konflikt&quot; om rapportsviten genereras av en annan organisation? Varför spelar det någon roll?
 
-Detta är ett meddelande som hjälper dig att fatta ett välgrundat beslut om mappningen av rapportsviten. Vi vill informera dig om att rapportsviten ursprungligen skapades under en annan organisation om den organisationen skulle vara lämpligare för den här rapportsviten.
+Detta är ett meddelande som hjälper dig att fatta ett välgrundat beslut om mappningen av rapportsviten. Vi vill informera dig om att rapportsviten ursprungligen skapades under en annan organisation om den organisationen skulle kunna vara mer lämplig för den här rapportsviten.
 
 ### Hur vet jag om en rapportsserie är mappad?
 
