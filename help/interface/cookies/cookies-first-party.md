@@ -1,30 +1,33 @@
 ---
-description: Analytics använder cookies för att ge information om variabler och komponenter som inte finns kvar mellan bildbegäranden och webbläsarsessioner.
+description: Analytics använder cookies för att tillhandahålla information om variabler och komponenter som inte finns kvar mellan bildbegäranden och webbläsarsessioner.
 keywords: cookies;privacy
-seo-description: Analytics använder cookies för att ge information om variabler och komponenter som inte finns kvar mellan bildbegäranden och webbläsarsessioner.
+seo-description: Analytics använder cookies för att tillhandahålla information om variabler och komponenter som inte finns kvar mellan bildbegäranden och webbläsarsessioner.
 seo-title: Cookies från första part
 solution: Experience Cloud,Analytics
 title: Cookies från första part
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: b6ef7f0b7ef3b43b437524b20cee940889c26ba8
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+workflow-type: tm+mt
+source-wordcount: '1464'
+ht-degree: 0%
 
 ---
 
 
 # Om cookies från första part
 
-Analytics använder cookies för att ge information om variabler och komponenter som inte finns kvar mellan bildbegäranden och webbläsarsessioner. Dessa ofarliga cookies, som kommer från en domän som Adobe är värd för, kallas cookies från tredje part.
+Analytics använder cookies för att tillhandahålla information om variabler och komponenter som inte finns kvar mellan bildbegäranden och webbläsarsessioner. Dessa ofarliga cookies, som kommer från en domän som Adobe är värd för, kallas cookies från tredje part.
 
-Många webbläsare och antispionprogram är utformade för att avvisa och ta bort cookies från tredje part, bland annat de som används vid datainsamling i Analytics. För att hjälpa er att spåra hur besökarna interagerar med er webbplats kan ni implementera cookies från första part.
+Många webbläsare och antispionprogram är utformade för att avvisa och ta bort cookies från tredje part, inklusive de som används i Analytics datainsamling. För att hjälpa er att spåra hur besökarna interagerar med er webbplats kan ni implementera cookies från första part.
 
 Det finns två alternativ för att implementera cookies från första part:
 
-* Experience Platform ID Service. ID-tjänsten kan ställa in cookien i förstahandskontexten med JavaScript.
+* Experience Platform ID-tjänsten. ID-tjänsten kan ställa in cookien i förstahandskontexten med JavaScript.
 * DNS-poster på företagets DNS-server för att konfigurera ett CNAME-alias till en Adobe-värddomän. Observera att även om olika Adobe-produkter stöder användning av CNAME används CNAME i samtliga fall för att skapa en tillförlitlig förstapartsslutpunkt för en viss kund och ägs av den kunden. Om den kunden kontrollerar flera domäner kan de använda en enda CNAME-slutpunkt för att spåra användare över sina domäner, men eftersom detta kräver cookies från tredje part för alla domäner utanför CNAME:s domän fungerar det inte när cookies från tredje part blockeras och rekommenderas därför inte. Adobe CNAME används aldrig för att spåra en individ eller enhet över domäner som ägs av olika kunder.
 
-Även om du använder det första alternativet med Experience Cloud ID-tjänsten kommer Apples ITP att göra cookies från första part kortlivade, så den används bäst tillsammans med det andra alternativet.
+Även om du använder det första alternativet med Experience Cloud ID-tjänsten kommer Apples ITP att göra cookies från första part kortlivade, så det är bäst att använda tillsammans med det andra alternativet.
 
 För det andra alternativet med CNAME kan du, om din webbplats har säkra sidor med HTTPS-protokollet, arbeta med Adobe för att erhålla ett SSL-certifikat för att implementera cookies från första part. Adobe rekommenderar att du endast använder HTTPS för datainsamling eftersom vi kommer att släppa stödet för HTTP-samling under andra halvåret 2020.
 
@@ -36,7 +39,7 @@ Med ditt tillstånd arbetar vi tillsammans med vår certifikatutfärdare för at
 
 Adobe Managed Certificate Program rekommenderas för implementering av ett nytt SSL-certifikat från första part för cookies från första part.
 
-Med Adobe Managed Certificate kan du utan extra kostnad implementera ett nytt SSL-certifikat från första part för cookies från första part. Om du för närvarande har ett eget kundhanterat SSL-certifikat kan du tala med Adobes kundtjänst om hur du migrerar till Adobe Managed Certificate Program.
+Med Adobe Managed Certificate Program kan du implementera ett nytt SSL-certifikat från första part för cookies från första part utan extra kostnad (för dina första 100 CNAME). Om du för närvarande har ett eget kundhanterat SSL-certifikat kan du tala med Adobes kundtjänst om hur du migrerar till Adobe Managed Certificate Program.
 
 ### Implementera
 
@@ -69,7 +72,7 @@ SSL-certifikat upphör att gälla varje år, vilket innebär att Adobe måste k�
 | Fråga | Svar |
 |---|---|
 | **Är den här processen säker?** | Ja, Adobes hanterade program är säkrare än vår gamla metod eftersom inget certifikat eller någon privat nyckel ändrar händer utanför Adobe och certifikatutfärdaren. |
-| **Hur kan Adobe köpa ett certifikat för vår domän?** | Certifikatet kan bara köpas när du har pekat på det angivna värdnamnet (till exempel smetrics.example.com) till ett värdnamn som ägs av Adobe. Detta innebär att vi delegerar det här värdnamnet till Adobe och tillåter Adobe att köpa certifikatet åt dig. |
+| **Hur kan Adobe köpa ett certifikat för vår domän?** | Certifikatet kan bara köpas om du har angett ett värdnamn (till exempel `smetrics.example.com`) som tillhör Adobe. Detta innebär att vi delegerar det här värdnamnet till Adobe och tillåter Adobe att köpa certifikatet åt dig. |
 | **Kan jag begära att certifikatet återkallas?** | Ja, som ägare av domänen har du rätt att begära att certifikatet återkallas. Du behöver bara öppna en biljett hos Kundtjänst för att få detta färdigt. |
 | **Använder det här certifikatet SHA-2-kryptering?** | Ja, Adobe kommer att arbeta med DigiCert för att utfärda ett SHA-2-certifikat. |
 | **Kostar detta något?** | Nej, Adobe erbjuder denna tjänst till alla befintliga Adobe Digital Experience-kunder utan extra kostnad. |
@@ -89,7 +92,7 @@ Så länge implementeringskoden inte ändras kommer det här steget inte att på
 
 >[!NObs!]
 >
->Tjänsten Experience Cloud Visitor ID är ett alternativ till att konfigurera en CNAME för att aktivera cookies från första part, men på grund av de senaste ändringarna i Apple ITP rekommenderar vi fortfarande att du allokerar en CNAME även när du använder Experience Cloud ID Service.
+>Experience Cloud Visitor ID-tjänsten är ett alternativ till att konfigurera en CNAME för att aktivera cookies från första part, men på grund av de senaste ändringarna i Apple ITP rekommenderar vi fortfarande att du allokerar en CNAME även när du använder tjänsten Experience Cloud ID.
 
 ## Verifiera vidarebefordran av värdnamn {#validate}
 
@@ -110,12 +113,14 @@ Om du har konfigurerat en CNAME och har installerat certifikatet kan du använda
 Adobe rekommenderar att du använder [!DNL [curl](https://curl.haxx.se/)] från kommandoraden. ([!DNL Windows] användare kan installera [!DNL curl] från: <https://curl.haxx.se/windows/>)
 
 Om du har en CNAME men inget certifikat är installerat kör du:
-`curl -k https://sstats.adobe.com/_check`Svar: `SUCCESS`
+`curl -k https://sstats.adobe.com/_check`
+Svar: `SUCCESS`
 
 (Värdet `-k` inaktiverar säkerhetsvarningen.)
 
 Om du har konfigurerat en CNAME och certifikatet är installerat kör du:
-`curl https://sstats.adobe.com/_check`Svar: `SUCCESS`
+`curl https://sstats.adobe.com/_check`
+Svar: `SUCCESS`
 
 ### Validera med [!DNL nslookup]
 
@@ -154,6 +159,6 @@ När du har verifierat att dina värdnamn svarar och vidarebefordrar till Adobes
 
 1. Om du går över till cookies från en långvarig implementering, eller byter till ett annat värdnamn för en egen samling, rekommenderar vi att du migrerar besökare från den tidigare domänen till den nya domänen.
 
-Se [Besöksmigrering](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) i Analytics-implementeringshandboken.
+Se [Besöksmigrering](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) i Analytics Implementeringshandbok.
 
-När du har överfört JavaScript-filen konfigureras allt för insamling av cookie-data från första part. Vi rekommenderar att ni övervakar Analytics-rapporter under de kommande timmarna för att säkerställa att datainsamlingen fortsätter som vanligt. Om så inte är fallet kontrollerar du att alla ovanstående steg har slutförts och att någon av de användare i organisationen som stöds kontaktar Kundtjänst.
+När du har överfört JavaScript-filen konfigureras allt för insamling av cookie-data från första part. Vi rekommenderar att du övervakar Analytics-rapporter under de kommande timmarna för att säkerställa att datainsamlingen fortsätter som vanligt. Om så inte är fallet kontrollerar du att alla ovanstående steg har slutförts och att någon av de användare i organisationen som stöds kontaktar Kundtjänst.
