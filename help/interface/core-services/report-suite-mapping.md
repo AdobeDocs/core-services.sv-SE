@@ -5,7 +5,7 @@ seo-title: Mappa rapportsviter till en organisation
 title: Mappa rapportsviter till en organisation
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: 5d987d60a462457afab6c1935095c7ea948b4d65
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 1%
@@ -17,11 +17,9 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Rapportsvitens mappningsfunktion kommer att bli inaktuell i november 2020. Mappa alla utestående rapportsviter i >förberedelser för detta. Kontakta kundtjänst om du har några frågor.
+>Rapportsvitens mappningsfunktion kommer att bli inaktuell i november 2020. Kartlägg alla utestående rapportsviter som förberedelse för detta. Kontakta kundtjänst om du har några frågor.
 
 Lär dig hur du mappar en eller flera rapportsviter till en organisation.
-
-<!-- May 5 2020: This feature will likely be deprecated in Nov 2020. Any users with outstanding report suites that are not mapped will have 6 months to map their RS. -->
 
 Experience Cloud-tjänster (som Experience Cloud ID-tjänsten och [!UICONTROL People]) är kopplade till en organisation i stället för till en enskild rapportserie. För att dessa tjänster ska fungera på rätt sätt måste varje Analytics rapporteringsprogram mappas till en organisation. Mappningsprocessen:
 
@@ -66,7 +64,7 @@ Det här avsnittet innehåller tips som hjälper dig att välja den Experience C
 
 ### Vilken organisation ska jag välja?
 
-Om Experience Cloud ID-tjänsten för närvarande är distribuerad till rapportsviten kontrollerar du att den organisation du väljer i verktyget för mappning av rapportsviten är densamma som anges i [!DNL visitorAPI.js] filen på din plats. Du kan använda instruktionerna i [Testa och verifiera Experience Cloud ID-tjänsten](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) för att hitta det organisations-ID som används av Visitor ID-tjänsten.
+Om Experience Cloud ID-tjänsten för närvarande är distribuerad till rapportsviten ser du till att den organisation du väljer i verktyget för mappning av rapportsviten har samma organisation som anges i [!DNL visitorAPI.js] filen på din plats. Du kan använda instruktionerna i [Testa och verifiera Experience Cloud ID-tjänsten](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) för att hitta det organisations-ID som används av Visitor ID-tjänsten.
 
 Om besökar-ID-tjänsten ännu inte har distribuerats på webbplatser som samlar in data för rapportsviten måste du, om du i framtiden distribuerar Experience Cloud Visitor ID-tjänsten, se till att distributionen matchar den organisation du valde i verktyget för mappning av rapportsviten.
 
@@ -106,7 +104,7 @@ Vid något tillfälle delades denna rapportserie med ett annat inloggningsföret
 
 ### Vad är det här felet &quot;Möjlig konflikt&quot; om rapportsviten genereras av en annan organisation? Varför spelar det någon roll?
 
-Detta är ett meddelande som hjälper dig att fatta ett välgrundat beslut om mappningen av rapportsviten. Vi vill informera dig om att rapportsviten ursprungligen skapades under en annan organisation om den organisationen skulle kunna vara mer lämplig för den här rapportsviten.
+Detta är ett meddelande som hjälper dig att fatta ett välgrundat beslut om mappningen av rapportsviten. Vi vill informera dig om att rapportsviten ursprungligen skapades under en annan organisation om den organisationen skulle vara lämpligare för den här rapportsviten.
 
 ### Hur vet jag om en rapportsserie är mappad?
 
