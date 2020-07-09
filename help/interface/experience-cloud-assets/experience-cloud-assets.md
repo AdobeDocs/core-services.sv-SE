@@ -1,12 +1,12 @@
 ---
-description: Experience Cloud Assets utgör en enda central lagringsplats med marknadsföringsklart material som ni kan dela mellan olika lösningar. En resurs är ett digitalt dokument, en bild, en video eller ett ljud (eller en del av ett) som kan ha flera återgivningar och kan ha underresurser (t.ex. lager i en Photoshop-fil, bilder i en PowerPoint-fil, sidor i en PDF-fil, filer i en ZIP-fil).
-seo-description: Experience Cloud Assets utgör en enda central lagringsplats med marknadsföringsklart material som ni kan dela mellan olika lösningar. En resurs är ett digitalt dokument, en bild, en video eller ett ljud (eller en del av ett) som kan ha flera återgivningar och kan ha underresurser (t.ex. lager i en Photoshop-fil, bilder i en PowerPoint-fil, sidor i en PDF-fil, filer i en ZIP-fil).
+description: Experience Cloud Assets utgör ett enda centralt arkiv av marknadsföringsmaterial som ni kan dela mellan olika lösningar. En resurs är ett digitalt dokument, en bild, en video eller ett ljud (eller en del av ett) som kan ha flera återgivningar och kan ha underresurser (t.ex. lager i en Photoshop-fil, bilder i en PowerPoint-fil, sidor i en PDF-fil, filer i en ZIP-fil).
+seo-description: Experience Cloud Assets utgör ett enda centralt arkiv av marknadsföringsmaterial som ni kan dela mellan olika lösningar. En resurs är ett digitalt dokument, en bild, en video eller ett ljud (eller en del av ett) som kan ha flera återgivningar och kan ha underresurser (t.ex. lager i en Photoshop-fil, bilder i en PowerPoint-fil, sidor i en PDF-fil, filer i en ZIP-fil).
 seo-title: Assets
 solution: Experience Cloud
 title: Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: c8d38647750747212c2b825feff600419c1f3352
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 0%
@@ -16,12 +16,12 @@ ht-degree: 0%
 
 # Assets
 
-Experience Cloud Assets utgör en enda central lagringsplats med marknadsföringsklart material som ni kan dela mellan olika lösningar. En resurs är ett digitalt dokument, en bild, en video eller ett ljud (eller en del av ett) som kan ha flera återgivningar och kan ha underresurser (t.ex. lager i en [!DNL Photoshop] fil, bilder i en [!DNL PowerPoint] fil, sidor i en PDF-fil, filer i en ZIP-fil).
+Experience Cloud Assets utgör ett enda centralt arkiv av marknadsföringsmaterial som ni kan dela mellan olika lösningar. En resurs är ett digitalt dokument, en bild, en video eller ett ljud (eller en del av ett) som kan ha flera återgivningar och kan ha underresurser (t.ex. lager i en [!DNL Photoshop] fil, bilder i en [!DNL PowerPoint] fil, sidor i en PDF-fil, filer i en ZIP-fil).
 
 Tillgångstjänster:
 
 * Resurslagring, hanteringsgränssnitt, inbäddat urvalsgränssnitt (nås via lösningar).
-* Integrering med Creative Cloud, Experience Cloud-samarbete och Experience Cloud-lösningar.
+* Integrering med lösningarna Creative Cloud, Experience Cloud och Experience Cloud.
 
 Genom att använda mediefiler blir det enhetligare och varumärkeskommunikationen effektivare och kortare time-to-market. Ni kan effektivisera arbetsflödena i lösningar:
 
