@@ -5,15 +5,15 @@ user-guide-description: Adobe Experience Cloud services include the People (Audi
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 323e562d41daa547d488497116cd5ffa783f6426
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 9%
+source-wordcount: '352'
+ht-degree: 12%
 
 ---
 
 
-# Användarhandbok för bastjänster {#interface}
+# Experience Cloud-gränssnittshjälp {#interface}
 
 + [Experience Cloud och produktdokumentation](experience-cloud.md)
 + Bastjänster i Experience Cloud {#about-core-services}
@@ -28,7 +28,7 @@ ht-degree: 9%
    + [Analytics cookies](cookies/cookies-analytics.md)
    + [Audience Manager cookies](cookies/cookies-am.md)
    + [[!UICONTROL Data Connectors] cookies](cookies/cookies-dc.md)
-   + [[!UICONTROL-Data Workbench] cookies](cookies/cookies-insight.md)
+   + [[!UICONTROL Data Workbench] cookies](cookies/cookies-insight.md)
    + [Experience Cloud cookies](cookies/cookies-mc.md)
    + [Advertising Cloud cookies](cookies/cookies-advertising-cloud.md)
    + [[!DNL Scene7] cookies](cookies/cookies-s7.md)
@@ -46,7 +46,7 @@ ht-degree: 9%
 + Aktivering av Experience Cloud {#activation}
    + [Aktiveringsöversikt](activation/activation.md)
    + [Starta användarhandboken](https://docs.adobe.com/content/help/en/launch/using/overview.html)
-   + [Användarhandbok för Dynamic Tag Manager](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+   + [Användarhandbok för Dynamic Tag Manager](https://docs.adobe.com/content/help/sv-SE/dtm/using/dtm-home.html)
    + [Utlösare](activation/triggers.md)
 + Experience Cloud assets {#assets}
    + [Översikt över Experience Cloud-resurser](experience-cloud-assets/experience-cloud-assets.md)
