@@ -6,9 +6,9 @@ solution: Experience Cloud
 title: Om Experience Cloud bastjänster
 index: true
 translation-type: tm+mt
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '495'
 ht-degree: 6%
 
 ---
@@ -16,13 +16,15 @@ ht-degree: 6%
 
 # Om Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Adobe Experience Cloud-tjänsterna omfattar [!UICONTROL People] (målgrupper och kundattribut), erbjudanden, Experience Platform Launch och mobiltjänster. Du kan även få hjälp om användar- och produkthantering i Experience Cloud.
+Adobe Experience Cloud-tjänsterna omfattar [!UICONTROL People] (målgrupper och kundattribut), Experience Platform Launch och mobiltjänster. Du kan även hitta hjälp om användarhantering och produkthantering i Experience Cloud.
 
 Klicka på **[!UICONTROL Application Selector]** om du vill få åtkomst till tjänsterna i Experience Cloud ![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
 
-Adobe Experience Platform centraliserar och standardiserar data och innehåll i hela företaget. Produktdokumentation för [!UICONTROL Experience Platform] utvecklare finns på [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html).
+>[!NOTE]
+>
+>Produktdokumentation för Experience Platform finns [här](https://docs.adobe.com/content/help/en/experience-platform/landing/home.html). Teknisk dokumentation för [!UICONTROL Experience Platform] utvecklare finns på [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html).
 
 I den här hjälpen beskrivs följande produkter och tjänster:
 
