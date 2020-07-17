@@ -7,9 +7,9 @@ solution: Experience Cloud
 title: Möjliggör era lösningar för bastjänsterna
 index: true
 translation-type: tm+mt
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
 workflow-type: tm+mt
-source-wordcount: '2268'
+source-wordcount: '2266'
 ht-degree: 2%
 
 ---
@@ -105,7 +105,7 @@ I Adobe Target `mbox3rdpartyid` måste kunden hämta ID:t och skicka det till [!
 
 När en besökare autentiserar sig på din webbplats, eller på annat sätt identifierar sig själv, måste din implementering visa den personens CRM-kund-ID för sidan eller appen. Sedan kan du använda rätt funktionsanrop för att synkronisera ditt kund-ID med Experience Cloud. Den här synkroniseringen lagrar besökarens CRM-kund-ID i Experience Cloud och aktiverar kundens attribut för användning i Experience Cloud.
 
-Anta till exempel att Bob har ett kund-ID `52mc210tr42` i ditt CRM-system. När Bob autentiserar på din webbplats måste du visa detta ID på sidan och använda ID:t för att synkronisera det på något av två sätt:
+Anta till exempel att Bob har ett kund-ID `52mc210tr42` i ditt CRM-system. När Bob autentiserar på din webbplats måste du visa detta ID på sidan och använda ID:t för att synkronisera det på ett av två sätt:
 
 * Ring `visitor.setCustomerIDs({"crm_id":"52mc210tr42"})` med tjänsten för besökar-ID. Eller
 * Fyll i *`Customer ID (52mc210tr42)`* i en prop eller eVar.
@@ -146,7 +146,7 @@ Klicka [!UICONTROL Dynamic Tag Management]på **[!UICONTROL <Web Property Name>]
    >
    >Alla Analytics-kunder har redan fått standardtjänster som kundattribut. Om du inte är Analytics-kund kontaktar du kundtjänst för att begära att få etableras.
 
-## Steg 6. Verifiera implementeringen av bastjänsterna {#section_E641782A0F4F44AF8C9C91216BE330D5}
+## Steg 6. Verifiera implementeringen {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
 Använd följande process för att säkerställa att Experience Cloud ID-tjänsten implementeras korrekt på din webbplats.
 
