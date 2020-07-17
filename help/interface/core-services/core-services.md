@@ -2,31 +2,33 @@
 description: Implementera Experience Cloud och bli administratör. Den här processen moderniserar era lösningar för funktioner som kundattribut och målgrupper.
 keywords: core services;Customer Attributes
 seo-description: Implementera Experience Cloud och bli administratör. Den här processen moderniserar era lösningar för funktioner som kundattribut och målgrupper.
-seo-title: Möjliggör era Experience Cloud-lösningar för bastjänsterna
+seo-title: Möjliggör era Experience Cloud-lösningar för kundattribut och målgrupper
 solution: Experience Cloud
 title: Möjliggör era lösningar för bastjänsterna
 index: true
 translation-type: tm+mt
-source-git-commit: ca03abbeebdd6c1dcf9dcb881170cc79adf1ba4a
+source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
 workflow-type: tm+mt
-source-wordcount: '2266'
+source-wordcount: '2312'
 ht-degree: 2%
 
 ---
 
 
-# Möjliggör era lösningar för bastjänsterna
+# Aktivera implementeringen för tjänster som omfattar flera lösningar
 
-För befintliga kunder kan du lära dig att modernisera implementeringarna av lösningar och implementera Experience Cloud så att du kan använda funktioner som kundattribut och målgrupper. För att uppnå detta ska du:
+Om du nyligen har implementerat Experience Cloud med Experience Platform Launch har du redan ställt in kundattribut och Experience Cloud målgrupper. Du kan också hantera användare och produkter i Admin Console.
+
+För befintliga kunder kan ni behöva modernisera era lösningar och implementera Experience Cloud. På så sätt kan ni utnyttja kundattribut och målgruppsfunktioner i Adobe Analytics, Audience Manager och Adobe Target. För att uppnå detta ska du:
 
 1. [Gå med i Experience Cloud och bli administratör](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Implementera tjänsten Experience Cloud ID](#section_3C9F6DF37C654D939625BB4D485E4354)
 1. [Mappa rapportsviter till en Experience Cloud-organisation](#section_7B08516B01BA421681DF03D0E86CE3BA)
 1. [Uppdatera din Analytics AppMeasurement-kod](#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [Uppdatera implementeringen av Adobe Target](#section_C2F4493C7A36406DAE2266B429A4BD24)
-1. [Verifiera implementeringen av bastjänsterna](#section_E641782A0F4F44AF8C9C91216BE330D5)
+1. [Verifiera implementeringen](#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [Hantera användare och produkter](#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
-1. [Börja använda bastjänsterna](#section_960C06093623462E8EA247B3E97274A1)
+1. [Börja dela attribut och målgruppsdata](#section_960C06093623462E8EA247B3E97274A1)
 
 ## Steg 1. Gå med i Experience Cloud och bli administratör {#section_2423F0BD3DF642658103310EE5EA6154}
 
@@ -187,7 +189,7 @@ Se [Experience Cloud och produkthantering](../admin-getting-started/admin-gettin
 
 Användare som läggs till i [!UICONTROL Customer Attributes] gruppen kan se [!UICONTROL Customer Attributes] menyalternativet till vänster i Experience Cloud.
 
-## Steg 8. Börja använda bastjänsterna {#section_960C06093623462E8EA247B3E97274A1}
+## Steg 8. Börja dela attribut och målgruppsdata {#section_960C06093623462E8EA247B3E97274A1}
 
 Utnyttja följande funktioner.
 
