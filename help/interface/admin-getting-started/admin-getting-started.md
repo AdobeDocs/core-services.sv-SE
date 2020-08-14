@@ -1,48 +1,48 @@
 ---
-description: Lär dig hur du loggar in på Admin Console, hanterar användarbehörigheter och produktprofiler för Experience Cloud samt webbläsarstöd.
+description: Lär dig mer om att logga in på Admin Console, hantera användarbehörigheter och produktprofiler för Experience Cloud samt webbläsarstöd.
 keywords: core services
-seo-description: Lär dig hur du loggar in på Admin Console, hanterar användarbehörigheter och produktprofiler för Experience Cloud samt webbläsarstöd.
+seo-description: Lär dig mer om att logga in på Admin Console, hantera användarbehörigheter och produktprofiler för Experience Cloud samt webbläsarstöd.
 seo-title: Hantera Experience Cloud-användare och -produkter
 solution: Experience Cloud
 title: Hantera Experience Cloud-användare och -produkter
 index: true
 translation-type: tm+mt
-source-git-commit: 01277057733cb921ebfbb7e66a3e34cdd1e21829
+source-git-commit: 1d3f4449f1f3b939e5dc61ad9838475be73f0cfa
 workflow-type: tm+mt
 source-wordcount: '1428'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
 
 # Hantera Experience Cloud-användare och -produkter {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
-Lär dig hur du loggar in på Admin Console, hanterar användarbehörigheter och produktprofiler för Experience Cloud samt webbläsarstöd.
+Lär dig mer om att logga in på Admin Console, hantera användarbehörigheter och produktprofiler för Experience Cloud samt webbläsarstöd.
 
 >[!IMPORTANT]
 >
->När du hanterar användare på Admin Console introduceras nya termer, gränssnitt och navigering. Följande information beskriver dessa ändringar och innehåller länkar till ytterligare hjälpresurser. Den här hjälpen kompletterar informationen i [Enterprise Administration User Guide](https://helpx.adobe.com/enterprise/managing/user-guide.html) för alla Adobe-molnprodukter.
+>När du hanterar användare i Admin Console introduceras nya termer, gränssnitt och navigering. Följande information beskriver dessa ändringar och innehåller länkar till ytterligare hjälpresurser. Den här hjälpen kompletterar informationen i [Enterprise Administration User Guide](https://helpx.adobe.com/enterprise/managing/user-guide.html) för alla molnprodukter från Adobe.
 
-## Nyheter i Experience Cloud-användarhantering {#concept_06A0A13362F644FB90F947238407637A}
+## Nyheter inom användarhantering i Experience Cloud {#concept_06A0A13362F644FB90F947238407637A}
 
-Läs om de senaste funktionerna i Experience Cloud-användarhantering.
+Läs om de senaste funktionerna för användarhantering i Experience Cloud.
 
 <!-- ### Business ID type
 
-Adobe is introducing an identity type called _Business ID_. This identity type improves the control of user and product management. Adobe is migrating all Adobe IDs (owned by individuals) that are used for business to the new enterprise Business IDs owned by your organization.
+Adobe is introducing an identity type called Business ID. This identity type improves the control of user and product management. Adobe is migrating all Adobe IDs (owned by individuals) that are used for business to the new enterprise Business IDs owned by your organization.
 
-If you are an existing Experience Cloud customer, Adobe will migrate all your users on the Admin Console with Adobe IDs to Business IDs. If you are a new enterprise or teams customer, you will add users to the Admin Console using one of the available identity types: Business ID, Enterprise ID, or Federated ID.
-
-Beginning May 2020, enterprise administrators cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM
+If you are an existing Experience Cloud customer, Adobe will migrate all your users with Adobe IDs in the Admin Console to Business IDs. If you are a new enterprise or teams customer, you will add users to the Admin Console using one of the available identity types: Business ID, Enterprise ID, or Federated ID.
 
 What to do
 
 * Your users will need to accept Terms of Use (TOU) changes prior to accounts being migrated to Type2e. 
-* Users that belong to multiple organizations might see a Profile Selection screen during the login workflow and need to select the correct one. This ensures that they are logging into the correct organization. (There might be multiple profiles to choose from if a users was a member of multiple organizations before the migration.) -->
+* Users that belong to multiple organizations might see a Profile Selection screen during the login workflow and need to select the correct one. This ensures that they are logging into the correct organization. (There might be multiple profiles to choose from if a user was a member of multiple organizations before the migration.)
+
+Beginning May 2020, enterprise administrators cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM-->
 
 ### Administratörsverktyg
 
-Administratörer kan visa en sorterbar och filterbar lista över alla Experience Cloud-användare och deras information i Admin Tool. Se [Visa Experience Cloud-användare i Admin Tool](admin-tool-experience-cloud.md).
+Administratörer kan visa en sorterbar och filterbar lista över alla Experience Cloud-användare och deras information i Admin Tool. Se [Visa Experience Cloud-användare i administrationsverktyget](admin-tool-experience-cloud.md).
 
 ## Logga in på Admin Console {#section_705072FD4EBE4B70BC69EC81F2BB8669}
 
@@ -51,13 +51,13 @@ Administratörer hanterar inte längre användare i lösningar. Användar- och p
 Så här loggar du in på Admin Console:
 
 1. Gå till [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/#).
-1. Skriv ditt [Adobe-ID eller Enterprise-ID](https://helpx.adobe.com/enterprise/help/identity.html) och lösenord.
+1. Skriv in [Adobe ID eller Enterprise ID](https://helpx.adobe.com/enterprise/help/identity.html) och lösenord.
 
 Du kan också gå till Experience Cloud-menyn ( ![](assets/menu-icon.png)) och klicka på **[!UICONTROL Administration]** > **[!UICONTROL Launch Admin Console]**.
 
 **Relaterad hjälp**
 
-[Användarhandbok](https://helpx.adobe.com/enterprise/using/users.html) för administration av Creative Cloud och Document Cloud. Viss information är relevant för Experience Cloud-användarhantering, till exempel [hantering av identitetstyper](https://helpx.adobe.com/enterprise/help/identity.html).
+[Administrationsanvändarhandbok](https://helpx.adobe.com/se/enterprise/using/users.html) för Creative Cloud och Document Cloud. Viss information är relevant för användarhantering i Experience Cloud, till exempel [hantering av identitetstyper](https://helpx.adobe.com/enterprise/help/identity.html).
 
 [Logga in och hantera dina profilinställningar](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0) för att hantera lösenord, organisationer och meddelanden.
 
@@ -65,13 +65,13 @@ Du kan också gå till Experience Cloud-menyn ( ![](assets/menu-icon.png)) och k
 
 Tillägget av produktprofiler innebär en förändring från hur produkter och tjänster tidigare hanterades (med grupper). I Admin Console baseras behörigheter på produktprofiler, som är grupper av produkter och tjänster som du kan tilldela användare.
 
-I Analytics kan du till exempel konfigurera en samling rapporteringsverktyg, som Analysis Workspace och Report Builder, tillsammans med rapportsviter, mått och så vidare. Du kan ge användare behörighet till en produktprofil genom att lägga till dem i profilen. Se [Tilldela behörigheter för Analytics-åtkomst till en produktprofil](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391).
+I Analytics kan du till exempel konfigurera en samling rapporteringsverktyg, som Analysis Workspace och Report Builder, tillsammans med rapportsviter, mätvärden, dimensioner och så vidare. Du kan ge användare behörighet till en produktprofil genom att lägga till dem i profilen. Se [Tilldela behörigheter för Analytics-åtkomst till en produktprofil](../admin-getting-started/admin-getting-started.md#task_040673FE3E3E429B9531FBCB8B6A4391).
 
 **Relaterad hjälp**
 
 [Delegera begränsade administrationsbehörigheter](../admin-getting-started/admin-getting-started.md#task_3A072C4AA9734BC59FFA7E015271BC7E)
 
-## Analyser {#section_97DE101F92CD494AB073893680992F1A}
+## Analytics {#section_97DE101F92CD494AB073893680992F1A}
 
 Hantera användar- och produktbehörigheter för Analytics i Admin Console.
 
@@ -79,28 +79,28 @@ Hantera användar- och produktbehörigheter för Analytics i Admin Console.
 
 **Migrering av användarkonto**
 
-Det finns ett verktyg för migrering av användar-ID:n i Analytics som kan hjälpa Analytics-administratörer att migrera användarkonton från Analytics-användarhantering till [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/).
+Det finns ett verktyg för migrering av användar-ID i Analytics som kan hjälpa Analytics-administratörer att migrera användarkonton från Analytics-användarhantering till [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/).
 
 Kontomigreringen introduceras till kunder i faser. Adobe meddelar och hjälper dig när det är dags att migrera befintliga användarkonton från **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** till Admin Console.
 
-Efter migreringen loggar användare in med sitt Adobe ID (eller Enterprise ID) och autentiserar sig med sina Experience Cloud-lösningar och -tjänster på [experienceCloud.adobe.com](https://experiencecloud.adobe.com). Om användare försöker logga in via äldre inloggningar ([!DNL my.omniture.com] och [!DNL sc.omniture.com]) dirigeras de om till [!DNL experiencecloud.adobe.com].
+Efter migreringen loggar användare in med sin Adobe ID (eller Enterprise ID) och autentiserar till sina Experience Cloud-lösningar och -tjänster på [experienceCloud.adobe.com](https://experiencecloud.adobe.com). Om användare försöker logga in via äldre inloggningar ([!DNL my.omniture.com] och [!DNL sc.omniture.com]) dirigeras de om till [!DNL experiencecloud.adobe.com].
 
 **Relaterad hjälp**
 
 [Migrering av användar-ID för analyser](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html)
 
-## Adobe Target - produktprofiler och arbetsytor {#section_3860AF177C9E4C7E9C390D36A414F353}
+## Adobe Target - produktprofiler jämfört med arbetsytor {#section_3860AF177C9E4C7E9C390D36A414F353}
 
 I Adobe Target är en arbetsyta en produktprofil. Det gör att en organisation kan tilldela en viss uppsättning användare till en viss uppsättning egenskaper. På många sätt liknar en arbetsyta en rapportserie i Adobe Analytics.
 
 Se:
 * [Enterprise-användarbehörigheter](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
 * [Hantera produkter och profiler](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
-* Video: [Konfigurera Adobe Target-arbetsytor i Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* Video: [Konfigurera Adobe Target Workspaces i Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Campaign - produktprofiler, hyresgäster och säkerhetsgrupper {#section_09CDF75366444CF5810CF321B7C712F3}
 
-En *klientorganisation* i Campaign visas som en *produkt* på sidan Produkter i Admin Console.
+En *klientorganisation* i Campaign visas som en *produkt* på Admin Console-produktsidan.
 
 *Säkerhetsgruppen* visas som en produktprofil.
 
@@ -114,7 +114,7 @@ Se [Användarhantering](https://docs.adobelaunch.com/launch-reference/administra
 
 ## Experience Manager as a Cloud Service
 
-Adobe Enterprise-kunder representeras som IMS-organisationer i Adobe Admin Console. Det här är den portal som Adobes kunder använder för att hantera sina produktbehörigheter för användare och grupper. AEM-kunder kan använda Adobe Admin Console för att hantera sina produkträttigheter och IMS-autentisering till AEM som en molntjänst.
+Adobe Enterprise-kunder representeras som IMS-organisationer i Adobe Admin Console. Det här är den portal som Adobe-kunder använder för att hantera sina produkträttigheter för användare och grupper. AEM kan använda Adobe Admin Console för att hantera sina produkträttigheter och IMS-autentisering AEM som en Cloud Service.
 
 See [IMS Support for AEM as a Cloud Service](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/security/ims-support.html#managing-products-and-user-access-in-admin-console).
 
@@ -136,7 +136,7 @@ Skapa en produktprofil och tilldela den till en behörighetsgrupp.
 
 När du bjuder in en användare till en organisation kan du ge användaren tillgång till produkter och produktprofiler. Du kan även delegera begränsade administrativa behörigheter till en användare. På samma sätt kan du skapa användargrupper och sedan lägga till gruppen i en produktprofil för att aktivera åtkomst.
 
-1. Klicka på [Admin Console](https://adminconsole.adobe.com/enterprise/)**[!UICONTROL Products]**.
+1. Klicka på i [Admin Console](https://adminconsole.adobe.com/enterprise/)**[!UICONTROL Products]**.
 1. Klicka på **[!UICONTROL New Profile]**.
 1. Konfigurera profilinformationen och klicka sedan på **[!UICONTROL Next]**.
 1. Klicka på **[!UICONTROL Done]**.
@@ -145,7 +145,7 @@ Mer hjälp finns här:
 
 * [Hantera produkter och profiler](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
 * [Enterprise User Permissions](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html) in Adobe Target help for more information.
-* Video: [Konfigurera Adobe Target-arbetsytor i Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
+* Video: [Konfigurera Adobe Target Workspaces i Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
 ## Tilldela behörigheter för Analytics-åtkomst till en produktprofil {#task_040673FE3E3E429B9531FBCB8B6A4391}
 
@@ -161,23 +161,23 @@ Du kan till exempel skapa en produktprofil som innehåller flera analysverktyg (
 |--- |--- |
 | Rapportsviter | Aktivera behörigheter för specifika rapportsviter. |
 | Mätvärden | Aktivera behörigheter för trafik, konvertering, anpassade händelser, lösningshändelser, innehållsmedveten osv. |
-| Dimensioner | Anpassa användaråtkomsten på detaljnivå, inklusive eVars, trafikrapporter, lösningsrapporter och sökvägsrapporter. |
+| Mått | Anpassa användaråtkomsten på detaljnivå, inklusive eVars, trafikrapporter, lösningsrapporter och sökvägsrapporter. |
 | Report Suite-verktyg | Aktivera användarbehörigheter för Web Services, Report Suite Management, Tools and Reports och Dashboard Items. |
-| Analysverktyg | Aktivera användarbehörigheter för allmänna objekt (fakturering, loggar osv.), företagshantering, verktyg, Web Service Access, Report Builder och integrering med Data Connectors. Företagsinställningar från kategorin Anpassa Admin Console har flyttats till Analytics-verktyg. |
+| Analysverktyg | Aktivera användarbehörigheter för allmänna objekt (fakturering, loggar osv.), företagshantering, verktyg, webbtjänståtkomst, Report Builder och integrering med Data Connectors. Företagsinställningar från kategorin Anpassa Admin Console har flyttats till Analytics-verktyg. |
 
 ## Delegera administrativa roller till användare {#task_3A072C4AA9734BC59FFA7E015271BC7E}
 
-På Admin Console kan du delegera begränsade administrativa rättigheter till andra i organisationen. Delegerade roller gör det möjligt för användare att administrera programåtkomst till slutanvändare, ge åtkomst till distributionsfunktioner och fungera som supportrepresentanter.
+I Admin Console kan du delegera begränsade administrativa rättigheter till andra i organisationen. Delegerade roller gör det möjligt för användare att administrera programåtkomst till slutanvändare, ge åtkomst till distributionsfunktioner och fungera som supportrepresentanter.
 
 Du kan till exempel:
 
-* Ge din creative director tillgång till Creative Cloud.
+* Ge din creative director åtkomst till Creative Cloud.
 * Tillåt marknadsföringschefen att ge åtkomst till Experience Cloud.
 * Håll de här två rollerna åtskilda så att de inte kan överlappa varandras roller.
 
 Genom att använda de här rollerna kan du delegera hantering till andra utan att ge dem mer kapacitet än de behöver.
 
-1. I Admin Console klickar du på **[!UICONTROL Users]** och sedan på användarens namn.
+1. Klicka på Admin Console **[!UICONTROL Users]** och sedan på användarens namn.
 1. Klicka på **[!UICONTROL Edit admin rights]**.
 1. Konfigurera användarens administratörsrättigheter.
 1. Klicka **[!UICONTROL Next]** för att granska inställningarna och klicka sedan på **[!UICONTROL Save]**.
@@ -186,16 +186,16 @@ Genom att använda de här rollerna kan du delegera hantering till andra utan at
 
 Webbläsare som stöds i Experience Cloud.
 
-* [!DNL Microsoft Edge] (Microsoft har [upphört med stödet](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) för Internet Explorer 8, 9 och 10. Därför kommer Adobe inte att åtgärda problem som rapporteras mot dessa specifika versioner av Internet Explorer.)
+* [!DNL Microsoft Edge] (Microsoft har [upphört med stödet](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) för Internet Explorer 8, 9 och 10. Adobe kommer därför inte att åtgärda problem som rapporterats mot dessa specifika versioner av Internet Explorer.)
 * [!DNL Google Chrome]
 * [!DNL Firefox]
 * [!DNL Safari]
 * [!DNL Opera]
 
-**Obs!** Trots att Experience Cloud-gränssnittet har stöd för dessa webbläsare kanske inte enskilda lösningar har stöd för alla webbläsare. (For example, [Analytics](https://docs.adobe.com/content/help/sv-SE/analytics/admin/sys-reqs.html) does not support [!DNL Opera], and [Adobe Target](https://docs.adobe.com/help/sv-SE/target/using/implement-target/before-implement/supported-browsers.html) does not support [!DNL Safari].)
+**Obs!** Även om Experience Cloud-gränssnittet har stöd för dessa webbläsare kanske inte enskilda lösningar har stöd för alla webbläsare. (For example, [Analytics](https://docs.adobe.com/content/help/sv-SE/analytics/admin/sys-reqs.html) does not support [!DNL Opera], and [Adobe Target](https://docs.adobe.com/help/sv-SE/target/using/implement-target/before-implement/supported-browsers.html) does not support [!DNL Safari].)
 
 ### Lösningar och produktkrav
 
-* [Analyser](https://docs.adobe.com/content/help/sv-SE/analytics/admin/sys-reqs.html)
+* [Analytics](https://docs.adobe.com/content/help/sv-SE/analytics/admin/sys-reqs.html)
 * [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
 * [Adobe Target](https://docs.adobe.com/help/sv-SE/target/using/implement-target/before-implement/supported-browsers.html)
