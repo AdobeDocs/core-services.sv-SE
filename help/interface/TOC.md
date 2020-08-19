@@ -5,9 +5,9 @@ user-guide-description: Adobe Experience Cloud services include the People (Audi
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: a47dc66b51758ed7e6b465f35375f979b479672f
+source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
 workflow-type: tm+mt
-source-wordcount: '352'
+source-wordcount: '354'
 ht-degree: 12%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 12%
 + Experience Cloud cookies {#ec-cookies}
    + [Översikt över cookies i Experience Cloud](cookies/cookies-privacy.md)
    + [cookies från första part i Experience Cloud](cookies/cookies-first-party.md)
-   + [Analytics cookies](cookies/cookies-analytics.md)
+   + [Analytics-cookies](cookies/cookies-analytics.md)
    + [Audience Manager cookies](cookies/cookies-am.md)
    + [[!UICONTROL Data Connectors] cookies](cookies/cookies-dc.md)
    + [[!UICONTROL Data Workbench] cookies](cookies/cookies-insight.md)
@@ -37,7 +37,7 @@ ht-degree: 12%
    + [Aktivera sekretessinställningar för webbläsarcookies](cookies/browser-cookie-settings.md)
    + [Hur ändringar av cookie-support från tredje part påverkar kunder](cookies/cookies-thirdparty.md)
 + User and product management {#manage-users-and-products}
-   + [Hantera användaridentitet och -produkter för Experience Cloud (Admin Console)](admin-getting-started/admin-getting-started.md)
+   + [Hantera användaridentitet och -produkter i Experience Cloud (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Visa användarinformation för Experience Cloud (administrationsverktyget)](admin-getting-started/admin-tool-experience-cloud.md)
    + [Vanliga frågor](admin-getting-started/faq.md)
    + [Logga in och hantera dina profilinställningar](admin-getting-started/getting-started-experience-cloud.md)
@@ -45,16 +45,16 @@ ht-degree: 12%
    + [Uppgradera till Analytics Premium och Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
 + Aktivering av Experience Cloud {#activation}
    + [Aktiveringsöversikt](activation/activation.md)
-   + [Starta användarhandboken](https://docs.adobe.com/content/help/en/launch/using/overview.html)
+   + [Användarhandbok för Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html)
    + [Användarhandbok för Dynamic Tag Manager](https://docs.adobe.com/content/help/sv-SE/dtm/using/dtm-home.html)
    + [Utlösare](activation/triggers.md)
 + Experience Cloud assets {#assets}
    + [Översikt över Experience Cloud-resurser](experience-cloud-assets/experience-cloud-assets.md)
-   + [Dela mappar och resurser i Experience Cloud med Creative Cloud](experience-cloud-assets/creative-cloud.md)
+   + [Dela Experience Cloud-mappar och -resurser med Creative Cloud](experience-cloud-assets/creative-cloud.md)
    + [Hantera Creative Cloud-användare](experience-cloud-assets/t-admin-add-cc-user.md)
    + [Dela en Experience Cloud-resursmapp](experience-cloud-assets/t-share-creative-cloud.md)
-   + [Överföra en resurs till en delad mapp från Creative Cloud-webbläsaren](experience-cloud-assets/t-upload-asset-cc.md)
-   + [Överföra en resurs till en delad mapp från Creative Cloud-datorprogrammet](experience-cloud-assets/t-cc-asset-upload-thor.md)
+   + [Överföra en resurs till en delad mapp från webbläsaren Creative Cloud](experience-cloud-assets/t-upload-asset-cc.md)
+   + [Överföra en resurs till en delad mapp från skrivbordet i Creative Cloud](experience-cloud-assets/t-cc-asset-upload-thor.md)
    + [Resursfilkrav för delning](experience-cloud-assets/assets-file-reqs.md)
    + [Beteende för delade mappar](experience-cloud-assets/asset-behavior.md)
 + Målgrupper i Experience Cloud {#audiences}
