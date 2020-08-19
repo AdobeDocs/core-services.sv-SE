@@ -7,9 +7,9 @@ solution: Experience Cloud
 title: 'Visa Experience Cloud-användare och användarinformation '
 index: true
 translation-type: tm+mt
-source-git-commit: 7b34db76f3091c895863ebe771fb3c0baa05b13e
+source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1202'
 ht-degree: 1%
 
 ---
@@ -17,13 +17,17 @@ ht-degree: 1%
 
 # Visa användare och profiler för Experience Cloud i administrationsverktyget
 
-Administratörer kan visa en sorterbar och filterbar lista över alla användare och profiler i Experience Cloud med information i Admin Tool. Användarinformationen innehåller information om en användares produktåtkomst, roller och den senast öppnade informationen. Principinformationen omfattar användare, grupp, utvecklare, integrering och administratörslista för en princip (produktprofil) samt detaljerad behörighet och resursinformation för principen. (**Obs!** Användar- och produkthantering är konfigurerad i [Admin Console](admin-getting-started.md).)
+Administratörer kan visa en sorterbar och filterbar lista över alla användare och profiler i Experience Cloud med information i Admin Tool. Användarinformationen innehåller information om en användares produktåtkomst, roller och den senast öppnade informationen. Principinformationen omfattar användare, grupp, utvecklare, integrering och administratörslista för en princip (produktprofil) samt detaljerad behörighet och resursinformation för principen.
+
+>[!NOTE]
+>
+>Användar- och produkthantering är konfigurerad i [Admin Console](admin-getting-started.md).
 
 1. Logga in på `https://experience.adobe.com/.`
 
    ![](assets/admin-tool.png)
 
-1. I startsidan för Experience Cloud klickar du på **[!UICONTROL Admin Tool.]**
+1. Under [!UICONTROL Quick Access]klickar du **[!UICONTROL Admin Tool.]**
 
    (I hemsidans URL kan du även ersätta _hemsidan_ med _admin._)
 
@@ -65,7 +69,7 @@ Klicka på användarens e-postadress om du vill visa information för en använd
 
 En detaljerad vy över varje användare visar viktig information om användarens lösningsåtkomst, admin- och produktroller samt information om den senaste åtkomsten.
 
-## Om avsnitt
+## Avsnittet Om
 
 I det här avsnittet visas en sammanfattning av användarkontot, inklusive:
 
@@ -97,6 +101,8 @@ I det här avsnittet visas en fullständig lista över alla produktprofilmedlems
 
 På den här sidan visas en fullständig lista över policyer för Experience Cloud i din organisation. Det innehåller information om produkter, instanser, användare och utvecklare. Du kan söka efter, sortera och filtrera efter anpassade vyer i principlistan.
 
+![](assets/admin-tool-policies.png)
+
 | Element | Beskrivning |
 |---|---|
 | [!UICONTROL Product Profile] | Namnet på produktprofilen. Kolumnen kan sorteras A->Z, Z->A. Klicka på en produktprofils namn för att se mer information om profilen. |
@@ -122,7 +128,14 @@ Du kan söka efter, sortera eller filtrera kolumnerna för att anpassa principli
 
 Om du vill visa information om en profil på [!UICONTROL Policies] sidan klickar du på produktprofilens namn.
 
-En detaljerad vy över varje produktprofil innehåller viktig information om ämnen (användare, grupper osv.) och behörigheter och resurser som har aktiverats i produktprofilen.  Information om produktprofilen kan exporteras till CSV-filer.  Alternativet [!UICONTROL Export CSV] ger 2 CSV-filer: Subject details (Users, User Groups, Developers, Integrations, Administrators) and Permissions and Resources items.
+![](assets/admin-tool-policy-detail.png)
+
+En detaljerad vy över varje produktprofil innehåller viktig information om ämnen i produktprofilen (användare, grupper och så vidare). Här visas även behörigheter och resurser som har aktiverats av produktprofilen.
+
+Information om produktprofilen kan exporteras till CSV-filer. Alternativet [!UICONTROL Export CSV] skapar två CSV-filer:
+
+* Ämnesinformation (användare, användargrupper, utvecklare, integreringar, administratörer)
+* Behörighets- och resursobjekt
 
 ## Sammanfattningsavsnitt
 
@@ -134,7 +147,6 @@ I det här avsnittet visas en sammanfattning av produktprofilen, inklusive:
 * Antal integreringar
 * Associerade produkter
 * Instans
-
 
 ## Detaljerad ämneslista
 
@@ -148,7 +160,6 @@ I det här avsnittet visas en fullständig lista över alla användare, använda
 | [!UICONTROL Integrations] | Lista över integreringar som är associerade med produktprofilen. |
 | [!UICONTROL Administrators] | Lista med administratörer som är associerade med produktprofilen. |
 
-## Detaljerade behörigheter och resurslistor
+## Detaljerade behörighetslistor och resurslistor
 
-I det här avsnittet visas en fullständig lista över de behörigheter och resurser som är tillgängliga för produktprofilen. Behörigheter och resurser som har inkluderats i produktprofilen har markerats med ett &quot; ✔&quot;.  Listorna med behörigheter och resurser har kategoriserats i flikar och kolumner så att de blir lättare att visa.  På flikar och kolumner visas en lista med avsnitt som gäller för den aktuella produkten.
-
+I det här avsnittet visas en fullständig lista över de behörigheter och resurser som är tillgängliga för produktprofilen. Behörigheter och resurser som har inkluderats i produktprofilen har markerats med ett &quot; ✔&quot;. Listorna med behörigheter och resurser har kategoriserats i flikar och kolumner så att de blir lättare att visa. På flikar och kolumner visas en lista med avsnitt som gäller för den aktuella produkten.
