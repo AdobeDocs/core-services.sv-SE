@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Hantera Experience Cloud-användare och -produkter
 index: true
 translation-type: tm+mt
-source-git-commit: 1d3f4449f1f3b939e5dc61ad9838475be73f0cfa
+source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
 workflow-type: tm+mt
 source-wordcount: '1428'
 ht-degree: 6%
@@ -71,7 +71,7 @@ I Analytics kan du till exempel konfigurera en samling rapporteringsverktyg, som
 
 [Delegera begränsade administrationsbehörigheter](../admin-getting-started/admin-getting-started.md#task_3A072C4AA9734BC59FFA7E015271BC7E)
 
-## Analytics {#section_97DE101F92CD494AB073893680992F1A}
+## Analytics{#section_97DE101F92CD494AB073893680992F1A} 
 
 Hantera användar- och produktbehörigheter för Analytics i Admin Console.
 
@@ -94,6 +94,7 @@ Efter migreringen loggar användare in med sin Adobe ID (eller Enterprise ID) oc
 I Adobe Target är en arbetsyta en produktprofil. Det gör att en organisation kan tilldela en viss uppsättning användare till en viss uppsättning egenskaper. På många sätt liknar en arbetsyta en rapportserie i Adobe Analytics.
 
 Se:
+
 * [Enterprise-användarbehörigheter](https://docs.adobe.com/content/help/en/target/using/administer/manage-users/enterprise/property-channel.html)
 * [Hantera produkter och profiler](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
 * Video: [Konfigurera Adobe Target Workspaces i Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
@@ -196,6 +197,6 @@ Webbläsare som stöds i Experience Cloud.
 
 ### Lösningar och produktkrav
 
-* [Analytics](https://docs.adobe.com/content/help/sv-SE/analytics/admin/sys-reqs.html)
+* [Analytics](https://docs.adobe.com/content/help/sv-SE/analytics/admin/sys-reqs.html) 
 * [Report Builder](https://docs.adobe.com/content/help/en/analytics/analyze/report-builder/report-builder-setup/system-requirements.html)
 * [Adobe Target](https://docs.adobe.com/help/sv-SE/target/using/implement-target/before-implement/supported-browsers.html)
