@@ -7,9 +7,9 @@ solution: Experience Cloud
 title: Dokumentationsuppdateringar - Experience Cloud
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
 translation-type: tm+mt
-source-git-commit: 39e3b77f19020cffd1bc0218f120f306d676380b
+source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,10 @@ ht-degree: 0%
 # Dokumentationsuppdateringar - Experience Cloud
 
 Information om uppdateringar av produktdokumentationen för Experience Cloud.
+
+**Uppdaterat: 8/19/2020**
+
+Uppdaterad [Visa användarinformation för Experience Cloud (Admin Tool)](admin-getting-started/admin-tool-experience-cloud.md) med principinformation.
 
 **Uppdaterat: 5/19/2020**
 
@@ -36,7 +40,7 @@ Uppdaterad [Verifiera vidarebefordran](cookies/cookies-first-party.md#validate) 
 
 **Uppdaterat: 2/20/2020**
 
-Lagt till [Visa Experience Cloud-användarinformation (Admin Tool)](admin-getting-started/admin-tool-experience-cloud.md).
+Lagt till [Visa användarinformation för Experience Cloud (Admin Tool)](admin-getting-started/admin-tool-experience-cloud.md).
 
 **Uppdaterat: 9/5/2018**
 
@@ -68,7 +72,7 @@ Uppdaterade definitionen av Raw Analytics-data i [Skapa en publik](audience-libr
 
 **Uppdaterat: 2/23/2017**
 
-Lagt till [Experience Cloud-utlösare](activation/triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB).
+Added [Experience Cloud Triggers](activation/triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB).
 
 **Uppdaterat: 2/1/2017**
 
@@ -76,11 +80,11 @@ Rapportsvitens [mappning](core-services/core-services.md#concept_apg_zq2_rw) har
 
 **Uppdaterat: 5/9/2016**
 
-Lagt till [Experience Cloud Integrations](marketing-cloud-integrations.md#concept_9E6D3E37D1E3452E8CCCFA92AF034F90), en sammanfattning av integreringsdokumentationen.
+Experience Cloud Integrations [,](marketing-cloud-integrations.md#concept_9E6D3E37D1E3452E8CCCFA92AF034F90), en komplett integrationsdokumentation.
 
 **Uppdaterat: 2/11/2016**
 
-Lagt till [Experience Cloud Assets](experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0).
+Lagt till [Experience Cloud-resurser](experience-cloud-assets/experience-cloud-assets.md#concept_DDA5224C907D4A4F817D795DA0ED64D0).
 
 **Uppdaterat: 3/2/2015**
 
@@ -88,11 +92,11 @@ Lagt till [Aktivera lösningar för bastjänster](core-services/core-services.md
 
 **Uppdaterat: 1/15/2015**
 
-De tillagda Experience Cloud-användarna kan nu dela mappar i Creative Cloud och synkronisera resurser och kommentarer mellan de två molnen. Se [Resursdelning](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
+Med tillagda Experience Cloud-användare kan du nu dela mappar på Creative Cloud och synkronisera resurser och kommentarer mellan de två molnen. Se [Resursdelning](experience-cloud-assets/creative-cloud.md#concept_3E5A34C3459047D5965F900788A9BA68).
 
 **Uppdaterat: 7/17/2014**
 
-Lagt till vanliga frågor om [Experience Cloud](admin-getting-started/faq.md#concept_13219B4E51784577B6FF78AAA203DE91) för administratörer.
+Vanliga frågor [om](admin-getting-started/faq.md#concept_13219B4E51784577B6FF78AAA203DE91) Experience Cloud har lagts till för administratörer.
 
 **Uppdaterat: 5/22/2014**
 
@@ -102,7 +106,7 @@ Se [målgrupper](audience-library/audience-library.md#topic_679810123CAA4E0CA4FA
 
 **Uppdaterat: 5/22/2014**
 
-Uppdaterat [Hantera Experience Cloud-användare och -produkter](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) för information om hur du blir administratör i Experience Cloud.
+Uppdaterat [Hantera användare och produkter](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) i Experience Cloud för information om att bli administratör i Experience Cloud.
 
 **Uppdaterat: 5/22/2014**
 
