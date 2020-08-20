@@ -7,10 +7,10 @@ solution: Adobe Experience Cloud
 title: Experience Cloud och bastjänster
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: f3c71939325689efa64f5bb8b3a4ff62bbbebed0
+source-git-commit: 8e165bb47d7e947b817c51e496c3e493cb02d4fc
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 25%
+source-wordcount: '380'
+ht-degree: 26%
 
 ---
 
@@ -26,7 +26,7 @@ Den här sidan ger tillgång till produktdokumentation för följande funktioner
 * [[!UICONTROL Audience Library]](audience-library/audience-library.md)
 * [[!UICONTROL Customer Attributes]](attributes/attributes.md)
 * [[!UICONTROL Triggers]](activation/triggers.md)
-* [Experience Cloud assets](experience-cloud-assets/experience-cloud-assets.md)
+* [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets/experience-cloud-assets.md)
 * [Experience Cloud cookies](cookies/cookies-privacy.md)
 
 ## Användar- och produktadministration
@@ -37,8 +37,7 @@ Den här sidan ger tillgång till produktdokumentation för följande funktioner
 * [Organisationer och kontolänkning](admin-getting-started/organizations.md)
 * [Integreringar](marketing-cloud-integrations.md)
 * [Integrera Adobe Target med Experience Cloud](https://docs.adobe.com/content/help/sv-SE/target/using/integrate/a4t/a4t.html)
-* [Experience Cloud sekretess och säkerhet - översikt](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
-* [Profilhantering i Adobe Experience Cloud](https://theblog.adobe.com/profile-management-adobe-marketing-cloud-comes-together/) (blogg)
+* [Experience Cloud sekretess- och säkerhetsöversikt](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS-förhämtning](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
 ## Hjälp om relaterade Experience Cloud
@@ -55,14 +54,11 @@ Den här sidan ger tillgång till produktdokumentation för följande funktioner
 
 * [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 * [[!UICONTROL Audiences]](https://docs.adobe.com/content/help/sv-SE/core-services/interface/audiences/audience-library.html)
-* [Assets](experience-cloud-assets/experience-cloud-assets.md)
-* [Kundattribut](https://docs.adobe.com/content/help/sv-SE/core-services/interface/customer-attributes/attributes.html)
+* [[!UICONTROL Customer Attributes]](https://docs.adobe.com/content/help/sv-SE/core-services/interface/customer-attributes/attributes.html)
 * [Device Co-op](https://docs.adobe.com/content/help/sv-SE/device-co-op/using/home.html)
-* [Dynamisk tagghantering](https://docs.adobe.com/content/help/sv-SE/dtm/using/dtm-home.html)
 * [Exchange](https://experiencecloud.adobeexchange.com/)
 * [Experience Cloud ID-tjänst](https://docs.adobe.com/content/help/sv-SE/id-service/using/home.html)
 * [Experience Platform Launch](https://docs.adobelaunch.com/)
 * [Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)
 * [Allmänt API för dataskyddsförordningen (GDPR)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-
-
+* [[!UICONTROL Dynamic Tag Management]](https://docs.adobe.com/content/help/sv-SE/dtm/using/dtm-home.html)
