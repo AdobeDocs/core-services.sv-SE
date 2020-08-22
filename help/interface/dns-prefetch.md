@@ -6,7 +6,10 @@ solution: Experience Cloud
 title: Använda DNS-förhämtning med olika lösningar och tjänster
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 3e86fe7ee638158b5f9d6fa4405caaeb9b092430
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 0%
 
 ---
 
@@ -21,9 +24,9 @@ Webbläsare använder DNS-förhämtning för att automatiskt matcha domännamn s
 
 ## DNS-förhämtning och Adobe Experience Cloud-lösningar {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
-DNS-förhämtning fungerar automatiskt med statiska, inbäddade länkar på en sida. Detta innebär också att automatisk DNS-förhämtning inte fungerar med olika [!UICONTROL Experience Cloud] -lösningar och -tjänster eftersom:
+DNS-förhämtning fungerar automatiskt med statiska, inbäddade länkar på en sida. Detta innebär också att automatisk DNS-förhämtning inte fungerar med olika [!UICONTROL Experience Cloud] lösningar och tjänster eftersom:
 
-* Varje Experience Cloud-lösning eller -tjänst genererar DNS-anrop dynamiskt när sidan läses in.
+* Varje Experience Cloud-lösning eller tjänst genererar DNS-anrop dynamiskt när sidan läses in.
 * Webbläsaren kan inte matcha domännamn med IP-adress innan dessa anrop görs.
 
 Du kan dock implementera DNS-förhämtning manuellt med dina Experience Cloud-lösningar. Det gör du genom att lägga till HTML- `<dns-prefetch>` taggen i sidkodens `<head>` avsnitt enligt nedan. DNS-förhämtning kan spara några millisekunder av sidinläsningstiden när den implementeras på rätt sätt.
@@ -32,7 +35,7 @@ Du kan dock implementera DNS-förhämtning manuellt med dina Experience Cloud-l�
 
 I följande exempel visas hur du gör DNS-förhämtningsanrop till olika [!DNL Experience Cloud] lösningar och tjänster. Vissa förhämtningsanrop kräver ditt företags-ID eller din spårningsserverinformation [!DNL Adobe] . I de här exemplen representerar koden i *kursiv stil* en variabelplatshållare. Du skulle ersätta koden med ditt eget partner-ID, kundkod eller spårningsserverinformation, osv. [!DNL Adobe]
 
-* **Analyser:** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
+* **Analytics:** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
 
    Lägg till en separat tagg för varje DNS-namn om du använder icke-säkra och säkra spårningsservrar.
 
@@ -48,9 +51,9 @@ I följande exempel visas hur du gör DNS-förhämtningsanrop till olika [!DNL E
    * `<link rel="dns-prefetch" href="//cm.everesttechnet">`
 
 
-* **[!DNL Target]:**`<link rel="dns-prefetch" href="//insert customer code here.tt.omtrdc.net">`
+* **[!DNL Target]:** `<link rel="dns-prefetch" href="//insert customer code here.tt.omtrdc.net">`
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [DNS-förhämtning](https://www.chromium.org/developers/design-documents/dns-prefetching)
 
