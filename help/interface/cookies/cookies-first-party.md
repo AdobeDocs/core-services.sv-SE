@@ -8,7 +8,7 @@ title: Cookies från första part
 index: y
 snippet: y
 translation-type: tm+mt
-source-git-commit: f9e58c6d2054a5d53ea24831bf5979c2fc3dc53b
+source-git-commit: b34cec87be58b9a4df3e9b061010689e5db4adb6
 workflow-type: tm+mt
 source-wordcount: '1462'
 ht-degree: 0%
@@ -110,7 +110,7 @@ Om du har konfigurerat en CNAME och har installerat certifikatet kan du använda
 
 ### Validera med [!DNL curl]
 
-Adobe rekommenderar att du använder [!DNL [curl](https://curl.haxx.se/)] från kommandoraden. ([!DNL Windows] användare kan installera [!DNL curl] från: <https://curl.haxx.se/windows/>)
+Adobe rekommenderar att du använder [[!DNL curl]](https://curl.haxx.se/) från kommandoraden. ([!DNL Windows] användare kan installera [!DNL curl] från: <https://curl.haxx.se/windows/>)
 
 Om du har en CNAME men inget certifikat är installerat kör du:
 `curl -k https://sstats.adobe.com/_check`
