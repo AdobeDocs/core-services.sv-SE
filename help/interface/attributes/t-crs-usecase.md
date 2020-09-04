@@ -7,10 +7,10 @@ solution: Experience Cloud
 title: Skapa en kundattributkälla och överför datafilen
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
-source-git-commit: af5201da6eac644e150783195bdbc8f93760c3f1
+source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
 workflow-type: tm+mt
 source-wordcount: '1121'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -35,7 +35,7 @@ När datakällan är aktiv kan du:
 
 >[!IMPORTANT]
 >
->För att få tillgång till den här funktionen måste användarna tilldelas till produktprofilen för kundattribut (kundattribut - standardåtkomst). Navigera till **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Om *kundattribut* visas som ett av [!UICONTROL Product Profiles]alternativen är du redo att börja. Användare som läggs till i gruppen Kundattribut ser [!UICONTROL Customer Attributes] menyn till vänster i Experience Cloud-gränssnittet.
+>För att få tillgång till den här funktionen måste användarna tilldelas till produktprofilen för kundattribut (kundattribut - standardåtkomst). Navigera till **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Om *kundattribut* visas som ett av [!UICONTROL Product Profiles]alternativen är du redo att börja. Användare som läggs till i gruppen Kundattribut ser [!UICONTROL Customer Attributes] menyn till vänster i Experience Cloud.
 >
 >Om du vill använda funktionen Kundattribut måste användarna även tillhöra lösningsnivågrupper (Analytics eller [!DNL Target]).
 
@@ -64,7 +64,7 @@ Utför dessa steg på sidan Skapa ny källa för kundattribut i Experience Cloud
 
 >[!IMPORTANT]
 >
->När du skapar, ändrar eller tar bort kundattributskällor är det en fördröjning på upp till en timme innan ID:n börjar synkronisera med den nya datakällan. Du måste ha administratörsbehörighet i Audience Manager för att skapa eller ändra källor för kundattribut. Kontakta Audience Manager Customer Care eller konsult för att få administratörsrättigheter.
+>När du skapar, ändrar eller tar bort kundattributskällor är det en fördröjning på upp till en timme innan ID:n börjar synkronisera med den nya datakällan. Du måste ha administratörsbehörighet i Audience Manager för att kunna skapa eller ändra källor för kundattribut. Kontakta Audience Manager kundtjänst eller konsult för att få administrationsrättigheter.
 
 1. Klicka på [!DNL Experience Cloud]ikonen Meny i ![](assets/menu-icon.png) .
 1. Klicka **[!DNL Experience Platform]** under **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**.
@@ -81,7 +81,7 @@ Utför dessa steg på sidan Skapa ny källa för kundattribut i Experience Cloud
 
    * **[!UICONTROL Description:]** (Valfritt) En beskrivning av datakällan för dataattribut.
 
-   * **[!UICONTROL Alias ID:]** Representerar en källa för kundattributdata, t.ex. ett specifikt CRM-system. Ett unikt ID som används i källkoden för kundattributet. ID:t ska vara unikt, med gemener, utan blanksteg. Det värde som anges i fältet Alias ID för en kundattributkälla i Experience Cloud-gränssnittet bör matcha de värden som skickas från implementeringen (oavsett om det är via dynamisk tagghantering eller JavaScript för Mobile SDK.)
+   * **[!UICONTROL Alias ID:]** Representerar en källa för kundattributdata, t.ex. ett specifikt CRM-system. Ett unikt ID som används i källkoden för kundattributet. ID:t ska vara unikt, med gemener, utan blanksteg. Det värde som anges i fältet Alias ID för en kundattributkälla i användargränssnittet i Experience Cloud bör matcha de värden som skickas från implementeringen (oavsett om det är via dynamisk tagghantering eller JavaScript för Mobile SDK.)
 
       Alias-ID motsvarar vissa områden där du anger ytterligare värden för Kund-ID. Exempel:
 
@@ -89,19 +89,19 @@ Utför dessa steg på sidan Skapa ny källa för kundattribut i Experience Cloud
 
       * **Besökar-API:** Alias-ID motsvarar de ytterligare [kund-ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) som du kan koppla till varje besökare.
 
-         Till exempel *&quot;crm_id&quot;* i:
+         Exempel: *&quot;crm_id&quot;* i:
 
          ```
          "crm_id":"67312378756723456"
          ```
 
-      * **iOS:** Alias-ID motsvarar *&quot;idType&quot;* i [visitorSyncIdentifiers:identifiers](https://docs.adobe.com/content/help/en/mobile-services/ios/overview.html).
+      * **iOS:** Alias-ID motsvarar *&quot;idType&quot;* i [visitorSyncIdentifiers:identifiers](https://docs.adobe.com/content/help/sv-SE/mobile-services/ios/overview.html).
 
          Exempel:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android:** Alias-ID motsvarar *&quot;idType&quot;* i [syncIdentifiers](https://docs.adobe.com/content/help/en/mobile-services/android/overview.html).
+      * **Android:** Alias-ID motsvarar *&quot;idType&quot;* i [syncIdentifiers](https://docs.adobe.com/content/help/sv-SE/mobile-services/android/overview.html).
 
          Exempel:
 
@@ -125,7 +125,7 @@ Utför dessa steg på sidan Skapa ny källa för kundattribut i Experience Cloud
 
    * **[!UICONTROL Customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]** Visar hur många ID:n som har alias för Experience Cloud Visitor ID:n.
 
-   * **[!UICONTROL Customer-Provided IDs with High Alias Counts:]** Visar antalet kundtillhandahållna ID:n med 500 eller fler aliaserade Experience Cloud-besökar-ID:n. Dessa kundtillhandahållna ID:n representerar förmodligen inte individer utan snarare någon typ av delad inloggning. Systemet distribuerar de attribut som är kopplade till dessa ID:n till de 500 senast aliaserade Experience Cloud Visitor ID:n, tills aliasantalet når 10 000. Då blir det kundens ID ogiltigt och distribuerar inte längre tillhörande attribut.
+   * **[!UICONTROL Customer-Provided IDs with High Alias Counts:]** Visar antalet kundtillhandahållna ID:n med 500 eller fler Experience Cloud-besökar-ID:n med alias. Dessa kundtillhandahållna ID:n representerar förmodligen inte individer utan snarare någon typ av delad inloggning. Attributen som är kopplade till dessa ID:n distribueras till de 500 senaste aliaserade Experience Cloud-besökar-ID:n, tills aliasantalet är 10 000. Då blir det kundens ID ogiltigt och distribuerar inte längre tillhörande attribut.
 
 
 
@@ -158,16 +158,13 @@ På sidan [!UICONTROL Create New [or Edit] Customer Attribute Source] letar du r
 
 ## Använd kundattribut i Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
-Med data som nu finns i lösningar som
-<keyword>
-Adobe Analytics
-</keyword>kan ni rapportera om data, analysera dem och vidta lämpliga åtgärder i era marknadsföringskampanjer.
+Med de data som nu finns i lösningar som Adobe Analytics kan ni rapportera data, analysera dem och vidta lämpliga åtgärder i era marknadsföringskampanjer.
 
 I följande exempel visas ett [!DNL Analytics] segment baserat på de överförda attributen. I det här segmentet visas [!DNL Photoshop Lightroom] prenumeranter vars mest lanserade produkt är Photoshop.
 
 ![](assets/08_crs_usecase.png)
 
-När du publicerar ett segment till Experience Cloud blir det tillgängligt i Experience Cloud-målgrupper och Audience Manager.
+När du publicerar ett segment på Experience Cloud blir det tillgängligt i Experience Cloud Publiker och Audience Manager.
 
 Mer information finns i [Kundattributrapport](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) i Analytics-hjälpen.
 
