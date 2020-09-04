@@ -1,15 +1,15 @@
 ---
-description: Om du inte överför via dra och släpp kan du överföra kundattributdata via FTP till Experience Cloud.
+description: Om du inte överför med dra och släpp kan du överföra kundattributdata via FTP till Experience Cloud.
 keywords: Customer Attributes;core services
-seo-description: Om du inte överför via dra och släpp kan du överföra kundattributdata via FTP till Experience Cloud.
+seo-description: Om du inte överför med dra och släpp kan du överföra kundattributdata via FTP till Experience Cloud.
 seo-title: Valfritt - Överför datafilen via FTP
 solution: Experience Cloud
 title: Valfritt - Överför datafilen via FTP
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '290'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Valfritt - Överför datafilen via FTP
 
-Om du inte överför via dra och släpp kan du överföra kundattributdata via FTP till Experience Cloud.
+Om du inte överför med dra och släpp kan du överföra kundattributdata via FTP till Experience Cloud.
 
 Du kan överföra data när du har skapat en kundattributskälla och ett FTP-konto i Experience Cloud. Du skapar ett FTP-konto per attributkälla. De överförda filerna lagras i kontots rotmapp. Data måste vara i `.csv` format, med en andra `.fin` fil för att indikera att överföringen är slutförd.
 
@@ -34,7 +34,7 @@ Filöverföring till FTP-webbplatsen för kundattribut kan göras via FTP eller 
 
 1. [Skapa en kundattributskälla och överför datafilen..](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
 
-   Se till att du är inloggad på FTP-webbplatsen på [!DNL ftp.adobe.com/<sftpname>].
+   Se till att du är inloggad på FTP-platsen på `ftp.adobe.com/<sftpname>`.
 
 1. Klicka på **[!UICONTROL Actions]** > **[!UICONTROL File Upload]**.
 
