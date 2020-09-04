@@ -7,7 +7,7 @@ solution: Experience Cloud
 title: Möjliggör era lösningar för bastjänsterna
 index: true
 translation-type: tm+mt
-source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
 workflow-type: tm+mt
 source-wordcount: '2312'
 ht-degree: 2%
@@ -101,7 +101,7 @@ Om du inte använder [!UICONTROL Experience Platform Launch] eller [!UICONTROL D
 
 ## Analytics &amp; Adobe Target - synkronisera kund-ID {#section_AD473A6A21C1446498E700363F9A8437}
 
-Som en del av konfigurationen av tjänsten Experience Cloud ID rekommenderar Adobe för Analytics och [!DNL Target] att du synkroniserar dina [kund-ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) med Experience Cloud.
+Som en del av konfigurationen av Experience Cloud ID-tjänsten rekommenderar Adobe för Analytics och [!DNL Target] att du synkroniserar dina [kund-ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) med Experience Cloud.
 
 I Adobe Target `mbox3rdpartyid` måste kunden hämta sitt ID och skicka det till [!DNL Target]. (Se [Arbeta med kundattribut](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) i [!DNL Target].)
 
@@ -136,7 +136,7 @@ Kontrollera att du använder regional datainsamling. Om din datainsamlingsdomän
 
 Vi rekommenderar att du moderniserar din Analytics-implementering genom att uppdatera dina JavaScript-bibliotek, inklusive Visitor API. Det enkla sättet att uppnå detta är att lägga till ett [!DNL Adobe Analytics] verktyg i Dynamic Tag Management, som anger *`Automatic`* som konfigurationsmetod.
 
-Klicka [!UICONTROL Dynamic Tag Management]på **[!UICONTROL <Web Property Name>]**>**[!UICONTROL Overview]**>**[!UICONTROL Add a Tool]**>**[!UICONTROL Adobe Analytics]**. Mer distributionsinformation finns i[Adobe Analytics-inställningar](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html)i Dynamic Tag Management.
+I [!UICONTROL Dynamic Tag Management]klickar du på **`<Web Property Name>`** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]**. Mer distributionsinformation finns i [Adobe Analytics-inställningar](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html) i Dynamic Tag Management.
 
 ## Steg 5. (Adobe Target) Uppdatera er Adobe Target-implementering {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
