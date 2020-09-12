@@ -1,11 +1,12 @@
 ---
 audience: end-user
 user-guide-title: Användarhandbok för Experience Cloud-gränssnitt
+breadcrumb-title: Interface Guide
 user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+source-git-commit: 1833bae7ecf422e2cddae87df9311a40ecea4a0e
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 12%
@@ -55,7 +56,7 @@ ht-degree: 12%
    + [Dela en Experience Cloud-resursmapp](experience-cloud-assets/t-share-creative-cloud.md)
    + [Överföra en resurs till en delad mapp från webbläsaren Creative Cloud](experience-cloud-assets/t-upload-asset-cc.md)
    + [Överföra en resurs till en delad mapp från skrivbordet i Creative Cloud](experience-cloud-assets/t-cc-asset-upload-thor.md)
-   + [Resursfilkrav för delning](experience-cloud-assets/assets-file-reqs.md)
+   + [Krav för resursfiler för delning](experience-cloud-assets/assets-file-reqs.md)
    + [Beteende för delade mappar](experience-cloud-assets/asset-behavior.md)
 + Målgrupper i Experience Cloud {#audiences}
    + [Översikt över målgrupper](audience-library/audience-library.md)
