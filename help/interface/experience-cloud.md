@@ -7,30 +7,27 @@ solution: Adobe Experience Cloud
 title: Experience Cloud och bastjänster
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 8e165bb47d7e947b817c51e496c3e493cb02d4fc
+source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 26%
+source-wordcount: '426'
+ht-degree: 18%
 
 ---
 
 
-# Gränssnittsdokumentation för Experience Cloud
+# Gränssnittshandbok för Experience Cloud
 
 Experience Cloud är en integrerad familj av lösningar och tjänster för digital marknadsföring i Adobe. Det är också ett intuitivt gränssnitt som gör att du snabbt kan komma åt dina molnlösningar och bastjänster.
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-Den här sidan ger tillgång till produktdokumentation för följande funktioner och tjänster:
+Den här guiden innehåller produktdokumentation för användar- och produkthantering i Experience Cloud samt kundattribut och Experience Cloud-målgrupper (Audience Library). Artiklar i den här handboken omfattar:
 
 * [[!UICONTROL Audience Library]](audience-library/audience-library.md)
 * [[!UICONTROL Customer Attributes]](attributes/attributes.md)
 * [[!UICONTROL Triggers]](activation/triggers.md)
 * [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets/experience-cloud-assets.md)
 * [Experience Cloud cookies](cookies/cookies-privacy.md)
-
-## Användar- och produktadministration
-
 * [Hantering](admin-getting-started/admin-getting-started.md) av användare och produkter (Admin Console)
 * [Möjliggör era lösningar för bastjänsterna](core-services/core-services.md)
 * [Vanliga frågor](admin-getting-started/admin-getting-started.md)
@@ -40,7 +37,28 @@ Den här sidan ger tillgång till produktdokumentation för följande funktioner
 * [Experience Cloud sekretess- och säkerhetsöversikt](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS-förhämtning](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
-## Hjälp om relaterade Experience Cloud
+## Stödlinjer
+
+Stödlinjer för Experience Cloud:
+
+* [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
+* [Device Co-op](https://docs.adobe.com/content/help/sv-SE/device-co-op/using/home.html)
+* [Exchange](https://experiencecloud.adobeexchange.com/)
+* [Experience Cloud ID-tjänst](https://docs.adobe.com/content/help/sv-SE/id-service/using/home.html)
+* [Experience Platform Launch](https://docs.adobelaunch.com/)
+* [Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)
+* [Allmänt API för dataskyddsförordningen (GDPR)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+* [[!UICONTROL Dynamic Tag Management]](https://docs.adobe.com/content/help/sv-SE/dtm/using/dtm-home.html)
+
+## Självstudiekurser
+
+Självhjälp och snabba guider i Experience League:
+
+* [Alla självstudiekurser i Experience League](https://experienceleague.corp.adobe.com/?lang=en#quick-how-tos)
+* [Självstudiekurser för Experience Platform](https://experienceleague.corp.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
+* [Kunddataplattform i realtid](https://experienceleague.corp.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
+
+## Versionsinformation och tillhörande Experience Cloud-hjälp
 
 * [Produktdokumentation för alla Experience Cloud-lösningar](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) - Bläddra efter hjälp på Experience Cloud studiematerial och support
 * [Versionsinformation och produktuppdateringar](https://docs.adobe.com/content/help/sv-SE/release-notes/experience-cloud/current.html) - Nyheter i Experience Cloud och prenumerera för att få uppdateringar
@@ -49,16 +67,3 @@ Den här sidan ger tillgång till produktdokumentation för följande funktioner
 * [Utbildning](https://helpx.adobe.com/se/learning.html?promoid=KAUDK) - Samarbeta med Adobe för att få ut det mesta av våra produkter
 * [Kundupplevelsebloggen](https://theblog.adobe.com/customer-experience/) - Läs Experience Cloud-bloggen
 * [Kundtjänst](https://helpx.adobe.com/se/contact/enterprise-support.ec.html) - kontakta Adobe kundtjänst
-
-## Dokumentation om Experience Platform
-
-* [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
-* [[!UICONTROL Audiences]](https://docs.adobe.com/content/help/sv-SE/core-services/interface/audiences/audience-library.html)
-* [[!UICONTROL Customer Attributes]](https://docs.adobe.com/content/help/sv-SE/core-services/interface/customer-attributes/attributes.html)
-* [Device Co-op](https://docs.adobe.com/content/help/sv-SE/device-co-op/using/home.html)
-* [Exchange](https://experiencecloud.adobeexchange.com/)
-* [Experience Cloud ID-tjänst](https://docs.adobe.com/content/help/sv-SE/id-service/using/home.html)
-* [Experience Platform Launch](https://docs.adobelaunch.com/)
-* [Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)
-* [Allmänt API för dataskyddsförordningen (GDPR)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-* [[!UICONTROL Dynamic Tag Management]](https://docs.adobe.com/content/help/sv-SE/dtm/using/dtm-home.html)
