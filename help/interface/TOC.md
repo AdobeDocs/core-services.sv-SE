@@ -2,21 +2,21 @@
 audience: end-user
 user-guide-title: Gränssnittshandbok för Experience Cloud
 breadcrumb-title: Interface Guide
-user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and Mobile Services.
+user-guide-description: Adobe Experience Cloud services include the People (Audiences and Customer Attributes), Offers, Experience Platform Launch, and user and product management.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
+source-git-commit: dc1c43ddd5cf0328257cb559ac9706cfd004e631
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '353'
 ht-degree: 12%
 
 ---
 
 
-# Experience Cloud-gränssnittshjälp {#interface}
+# Gränssnittshandbok för Experience Cloud {#interface}
 
-+ [Experience Cloud och produktdokumentation](experience-cloud.md)
++ [Gränssnittshandbok för Experience Cloud](experience-cloud.md)
 + Programtjänster i Experience Cloud {#about-core-services}
    + [Översikt över programtjänster](core-services-landing.md)
    + [Aktivera implementeringen för tjänster som omfattar flera lösningar](core-services/core-services.md)
