@@ -1,23 +1,23 @@
 ---
-description: I takt med att stödet för cookies från tredje part har blivit allt mer begränsat i olika webbläsare har Adobe arbetat på nya lösningar som noggrant balanserar kundens krav med konsumentens rätt till integritet i alla Adobe Experience Cloud-lösningar.
+description: I takt med att stödet för cookies från tredje part har blivit allt mer begränsat i olika webbläsare har Adobe arbetat med nya lösningar som noggrant balanserar kundens krav med konsumentens rätt till integritet i alla Adobe Experience Cloud-lösningar.
 keywords: cookies;privacy
-seo-description: I takt med att stödet för cookies från tredje part har blivit allt mer begränsat i olika webbläsare har Adobe arbetat på nya lösningar som noggrant balanserar kundens krav med konsumentens rätt till integritet i alla Adobe Experience Cloud-lösningar.
+seo-description: I takt med att stödet för cookies från tredje part har blivit allt mer begränsat i olika webbläsare har Adobe arbetat med nya lösningar som noggrant balanserar kundens krav med konsumentens rätt till integritet i alla Adobe Experience Cloud-lösningar.
 seo-title: Hur ändringar i stödet för cookies från tredje part påverkar kunderna
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Target
 title: Hur ändringar i stödet för cookies från tredje part påverkar kunderna
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 translation-type: tm+mt
-source-git-commit: f65132e291ba925ded39d75e92b24cf707d520b5
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
 workflow-type: tm+mt
 source-wordcount: '368'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
 # Hur ändringar i stödet för cookies från tredje part påverkar kunderna{#how-changes-to-third-party-cookie-support-impacts-customers}
 
-I takt med att stödet för cookies från tredje part har blivit allt mer begränsat i olika webbläsare har Adobe arbetat på nya lösningar som noggrant balanserar kundens krav med konsumentens rätt till integritet i alla Adobe Experience Cloud-lösningar.
+I takt med att stödet för cookies från tredje part har blivit allt mer begränsat i olika webbläsare har Adobe arbetat med nya lösningar som noggrant balanserar kundens krav med konsumentens rätt till integritet i alla Adobe Experience Cloud-lösningar.
 
 Följande lista visar hur stöd för cookies från tredje part påverkar aktuella implementeringar av Adobe Experience Cloud-lösningar:
 
@@ -28,7 +28,7 @@ Följande lista visar hur stöd för cookies från tredje part påverkar aktuell
 
 ## Adobe Experience Manager
 
-* Eftersom Adobe Experience Manager är helt och hållet verksamt inom kundens område finns det minimal interaktion med cookies från tredje part och därför minimal eller ingen påverkan.
+* Eftersom Adobe Experience Manager arbetar helt och hållet inom kundens område finns det minimal interaktion med cookies från tredje part och därför minimalt eller oslagbart.
 
 ## Adobe Social
 
@@ -38,7 +38,7 @@ Följande lista visar hur stöd för cookies från tredje part påverkar aktuell
 
 * Sökning:
 
-   * Om sökningen optimeras baserat på Adobe Analytics-data påverkas sökningen på samma sätt som i Adobe Analytics.
+   * Om sökningen optimeras baserat på Adobe Analytics data påverkas sökningen på samma sätt som Adobe Analytics.
    * Samlingen av konverteringsdata bör inte påverkas.
 
 * Visa:
