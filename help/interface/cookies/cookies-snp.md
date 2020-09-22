@@ -1,20 +1,23 @@
 ---
-description: Search&Promote använder cookies för att förstå och förutse besökarens sökmetod.
+description: Search & Promote använder cookies för att förstå och förutse besökarens sökmetod.
 keywords: cookies;privacy
-seo-description: Search&Promote använder cookies för att förstå och förutse besökarens sökmetod.
+seo-description: Search & Promote använder cookies för att förstå och förutse besökarens sökmetod.
 seo-title: Sök efter och marknadsför cookies
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Target
 title: Sök efter och marknadsför cookies
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
+source-wordcount: '132'
+ht-degree: 1%
 
 ---
 
 
 # Sök efter och marknadsför cookies{#search-and-promote-cookies}
 
-Search&amp;Promote använder cookies för att förstå och förutse besökarens sökmetod.
+Search &amp; Promote använder cookies för att förstå och förutse besökarens sökmetod.
 
 ## Cookie-namn: vsrecentsearches {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
@@ -32,7 +35,7 @@ Search&amp;Promote använder cookies för att förstå och förutse besökarens 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Förfaller </p> </td> 
-   <td colname="col2"> <p>Kan konfigureras i Sök&amp;Befordra (<span class="uicontrol"> Design</span> &gt; <span class="uicontrol"> Navigering</span> &gt; <span class="uicontrol"> Senaste sökningar</span>). Du kan välja bland följande alternativ för förfallodatum för cookie: </p> <p> 
+   <td colname="col2"> <p>Kan konfigureras i Search &amp; Promote (<span class="uicontrol"> Design</span> &gt; <span class="uicontrol"> Navigering</span> &gt; <span class="uicontrol"> Senaste sökningar</span>). Du kan välja bland följande alternativ för förfallodatum för cookie: </p> <p> 
      <ul id="ul_28F564A6337D497699D5247F755981B8"> 
       <li id="li_6478BB5AF82341F787F92D03E277DBBB">Sessionens slut </li> 
       <li id="li_AF88B165365D4A63A82CB6ADD4542D66"> 3 timmar </li> 
