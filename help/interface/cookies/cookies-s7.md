@@ -3,11 +3,14 @@ description: Scene7 använder cookies för att lagra användbar information som 
 keywords: cookies;privacy
 seo-description: Scene7 använder cookies för att lagra användbar information som kan användas för att leverera dynamiska medier till webbläsaren.
 seo-title: Scene7 Cookies
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Target
 title: Scene7 Cookies
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
+source-wordcount: '429'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +26,7 @@ För AS2-visningsprogram, cookies:
 * Spåra en användares sessionstillstånd, t.ex. aktuell sida och bild som visas, aktuell zoomnivå osv.
 * Bestäm hur länge det har varit sedan användarens föregående session. Visningsprogrammet använder den här informationen för att avgöra om en tidigare session ska fortsätta eller om en ny ska startas. Den här informationen skickas också till Scene7-servrarna, men den används inte.
 
-För AS2 Flash eCatalog-visningsprogrammet, cookies:
+Cookies för visningsprogrammet för AS2 Flash eCatalog:
 
 * Lagra användargenererat innehåll (mest märkbart innehåll som användaren matar in i funktionen &quot;notislappar&quot; i visningsprogrammet för e-kataloger). Innehållet återställs när användaren återupptar en session.
 * När användaren initierar ett e-postmeddelande för att dela katalogen med en annan användare, kopieras anteckningsinnehållet från den andra AS2-visningsprogrampunkten till våra servrar för att ge mottagaren det. När mottagaren initierar visningsprogramsessionen hämtas anteckningsinnehållet från servern och kopieras till en cookie. Den här funktionen används sällan, så den upphör inte att gälla och inaktuellt innehåll tas inte bort. För närvarande finns den kvar på servrarna på obestämd tid.
