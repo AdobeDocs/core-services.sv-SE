@@ -2,12 +2,12 @@
 description: Adobe Analytics använder cookies för att skilja på begäranden från olika webbläsare och för att lagra användbar information som ett program kan använda senare. De kan också användas för att koppla webbinformation till kundposter.
 keywords: cookies;privacy
 seo-description: Adobe Analytics använder cookies för att skilja på begäranden från olika webbläsare och för att lagra användbar information som ett program kan använda senare. De kan också användas för att koppla webbinformation till kundposter.
-seo-title: Analytics Cookies
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
-title: Analytics Cookies
+seo-title: Analytics-cookies
+solution: Experience Cloud,Analytics,Adobe Target,Adobe Social
+title: Analytics-cookies
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 translation-type: tm+mt
-source-git-commit: bd118685e1dd65b51a171abdfa4e034dd5b9e181
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 2%
@@ -15,11 +15,11 @@ ht-degree: 2%
 ---
 
 
-# Analytics Cookies{#analytics-cookies}
+# Analytics-cookies{#analytics-cookies}
 
 Adobe Analytics använder cookies för att skilja på begäranden från olika webbläsare och för att lagra användbar information som ett program kan använda senare. De kan också användas för att koppla webbinformation till kundposter.
 
-I synnerhet använder Analytics cookies för att anonymt definiera nya besökare, hjälpa till att analysera klickströmsdata och spåra historiska aktiviteter på webbplatsen, som respons på särskilda kampanjer eller säljcykelns längd.
+Analytics använder i synnerhet cookies för att anonymt definiera nya besökare, hjälpa till att analysera klickströmsdata och spåra historik på webbplatsen, som respons på särskilda kampanjer eller säljcykelns längd.
 
 * [Cookie-namn: s_ecid](../cookies/cookies-mc.md#section-32fd753c3fa54452acd62b021434919a)
 * [Cookie-namn: AMCV_###@AdobeOrg](../cookies/cookies-mc.md#section-a12aa2a9296940ae82d8921b381b8fb0)
@@ -39,7 +39,7 @@ Mer information finns i Analytics-hjälpen om [cookies](/help/interface/cookies/
 | Information lagrad | Innehåller en kopia av Experience Cloud ID (ECID) eller MID. MID lagras i ett nyckelvärdepar som följer syntaxen s_ecid=MCMID | `<ECID>` |
 | Förfaller | 2 år |
 | Användning | Denna cookie anges av kundens domän efter att AMCV-cookien har angetts av klienten. Syftet med denna cookie är att tillåta beständig ID-spårning i parttillståndet 1^st^ och används som referens-ID om AMCV-cookien har upphört att gälla. Mer information finns i AMCV-cookie här. |
-| Plats | Endast CNAME-kunder. Gäller inte för tredjepartsscenarier. Cookie lagras på din domän, samma domän som används av CNAME och din Analytics-bildbegäran. |
+| Plats | Endast CNAME-kunder. Gäller inte för tredjepartsscenarier. Cookie lagras på din domän, samma domän som används av CNAME och din bildförfrågan från Analytics. |
 | Storlek | 45 byte |
 
 ## Cookie-namn: s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
@@ -56,7 +56,7 @@ Mer information finns i Analytics-hjälpen om [cookies](/help/interface/cookies/
 
 | Attribut | Beskrivning |
 |--- |--- |
-| Information lagrad | Denna cookie ställs in och läses av JavaScript-koden när ClickMap-funktionen eller Activity Map-funktionen är aktiverad. den innehåller information om den föregående länken som användaren klickade på |
+| Information lagrad | Denna cookie ställs in och läses av JavaScript-koden när funktionaliteten ClickMap eller Activity Map är aktiverad. den innehåller information om den föregående länken som användaren klickade på |
 | Förfaller | Denna cookie är en sessionscookie som upphör när webbläsaren stängs |
 | Användning | Endast en cookie för alla konton |
 | Plats | Denna cookie lagras i sidans domän |
@@ -74,7 +74,7 @@ Mer information finns i Analytics-hjälpen om [cookies](/help/interface/cookies/
 
 >[!NOTE]
 >
->Varje besökar-ID från Analytics är kopplat till en besökarprofil på Adobes servrar. Besökarprofiler tas bort efter 1 års inaktivitet, oavsett om en cookie-fil för besöks-ID har gått ut eller inte.
+>Varje besökar-ID för Analytics är kopplat till en besökarprofil på Adobe-servrar. Besökarprofiler tas bort efter 1 års inaktivitet, oavsett om en cookie-fil för besöks-ID har gått ut eller inte.
 
 ## Cookie-namn: s_fd {#section-65e33f9bfc264959ac1513e2f4b10ac7}
 
@@ -88,7 +88,7 @@ Mer information finns i Analytics-hjälpen om [cookies](/help/interface/cookies/
 
 ## Cookie-flaggor
 
-I följande tabell beskrivs flaggorna för Analytics cookies:
+I följande tabell beskrivs flaggorna för Analytics-cookies:
 
 | Cookie (anges av) | httpOnly | Säker | SameSite |
 |--- |--- |--- |--- |
@@ -100,10 +100,10 @@ I följande tabell beskrivs flaggorna för Analytics cookies:
 
 >[!NOTE]
 >
->Om du använder en enda CNAME för att spåra över flera domäner eller egenskaper ska SameSite anges till None för `s_vi`. Kontakta kundtjänst om du behöver hjälp med att ändra inställningarna för Analytics cookie.
+>Om du använder en enda CNAME för att spåra över flera domäner eller egenskaper ska SameSite anges till None för `s_vi`. Kontakta kundtjänst om du behöver hjälp med att ändra inställningarna för Analytics-cookies.
 
 ## Cookies angivna av plugin-program {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
-Ytterligare cookies kan anges beroende på hur Analytics plugin-program används. Dessa cookies är kodfragment som är tillgängliga för klienten för användning under olika omständigheter. Dessa omständigheter omfattar följande: hämta värden från webbadressen, sammanfogning av värden som ska överföras till Analytics, hämta in formuläravhopp och så vidare. Om du vill ha mer information om cookies som anges av varje plugin-program kontaktar du ClientCare. Ett exempel är den cookie som används med plugin-programmen [!DNL s_vh] Set Once Per *och* Set och Get Last Value ** .
+Ytterligare cookies kan anges beroende på hur Analytics-plugin-program används. Dessa cookies är kodfragment som är tillgängliga för klienten för användning under olika omständigheter. Dessa omständigheter omfattar följande: hämta värden från webbadressen, sammanfogning av värden som ska överföras till Analytics, hämta in formuläravhopp och så vidare. Om du vill ha mer information om cookies som anges av varje plugin-program kontaktar du ClientCare. Ett exempel är den cookie som används med plugin-programmen [!DNL s_vh] Set Once Per *och* Set och Get Last Value ** .
 
 Konverteringsvariabler (eVarX) som skickas på en bildbegäran utan JavaScript, till exempel kod som placeras i ett e-postmeddelande, tilldelas bara korrekt om e-postklienten och webbläsaren delar samma cookie-utrymme.
