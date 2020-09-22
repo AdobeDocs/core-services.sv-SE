@@ -1,20 +1,23 @@
 ---
-description: Adobe Experience Cloud använder cookies för att lagra ett besökar-ID som används i alla Experience Cloud-lösningar.
+description: Adobe Experience Cloud använder cookies för att lagra ett besökar-ID som används mellan Experience Cloud Solutions.
 keywords: cookies;privacy
-seo-description: Adobe Experience Cloud använder cookies för att lagra ett besökar-ID som används i alla Experience Cloud-lösningar.
+seo-description: Adobe Experience Cloud använder cookies för att lagra ett besökar-ID som används mellan Experience Cloud Solutions.
 seo-title: Experience Cloud Cookies
-solution: Marketing Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Target
 title: Experience Cloud Cookies
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
+source-wordcount: '294'
+ht-degree: 7%
 
 ---
 
 
 # Experience Cloud Cookies{#experience-cloud-cookies}
 
-Adobe Experience Cloud använder cookies för att lagra ett besökar-ID som används i alla Experience Cloud-lösningar.
+Adobe Experience Cloud använder cookies för att lagra ett besökar-ID som används mellan Experience Cloud Solutions.
 
 **Cookie-namn: s_ecid**
 
@@ -51,9 +54,9 @@ Adobe Experience Cloud använder cookies för att lagra ett besökar-ID som anv�
 
 **Cookie-namn: AMCV_###@AdobeOrg**
 
-I [Experience Platform ID-tjänsten](https://docs.adobe.com/content/help/en/id-service/using/home.html) används JavaScript för att lagra ett unikt besökar-ID i en `AMCV_###@AdobeOrg` cookie på den aktuella webbplatsens domän, där `###` representerar en slumpmässig teckensträng, till exempel `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+I [Experience Platform ID-tjänsten](https://docs.adobe.com/content/help/sv-SE/id-service/using/home.html) används JavaScript för att lagra ett unikt besökar-ID i en `AMCV_###@AdobeOrg` cookie på den aktuella webbplatsens domän, där `###` representerar en slumpmässig teckensträng, till exempel `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-Se även [cookies och ID-tjänsten](https://docs.adobe.com/content/help/en/id-service/using/intro/cookies.html).
+Se även [cookies och ID-tjänsten](https://docs.adobe.com/content/help/sv-SE/id-service/using/intro/cookies.html).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
