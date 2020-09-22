@@ -3,11 +3,11 @@ description: Adobe Analytics använder cookies för att skilja på begäranden f
 keywords: cookies;privacy
 seo-description: Adobe Analytics använder cookies för att skilja på begäranden från olika webbläsare och för att lagra användbar information som ett program kan använda senare. De kan också användas för att koppla webbinformation till kundposter.
 seo-title: Analytics-cookies
-solution: Experience Cloud,Analytics,Adobe Target,Adobe Social
+solution: Experience Cloud,Analytics,Target
 title: Analytics-cookies
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: c9d9a69193a877c553db73d230723f1c24dbfed6
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 2%
