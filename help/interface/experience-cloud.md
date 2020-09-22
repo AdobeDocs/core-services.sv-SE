@@ -7,9 +7,9 @@ solution: Adobe Experience Cloud
 title: Experience Cloud och bastjänster
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
+source-git-commit: dbcfb3ae9e1a5fb620f6794f42d567641b9ef838
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '425'
 ht-degree: 18%
 
 ---
@@ -21,7 +21,7 @@ Experience Cloud är en integrerad familj av lösningar och tjänster för digit
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-Den här guiden innehåller produktdokumentation för användar- och produkthantering i Experience Cloud samt kundattribut och Experience Cloud-målgrupper (Audience Library). Artiklar i den här handboken omfattar:
+Adobe Experience Cloud Administration Guide innehåller hjälp om Experience Cloud och produktadministration, målgruppsbibliotek, kundattribut och Experience Cloud. Artiklar i den här handboken omfattar:
 
 * [[!UICONTROL Audience Library]](audience-library/audience-library.md)
 * [[!UICONTROL Customer Attributes]](attributes/attributes.md)
