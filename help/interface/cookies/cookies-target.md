@@ -3,11 +3,14 @@ description: Target använder cookies för att ge webbplatsoperatörerna möjlig
 keywords: cookies;privacy
 seo-description: Target använder cookies för att ge webbplatsoperatörerna möjlighet att testa vilket onlineinnehåll och vilka erbjudanden som är mer relevanta för besökarna.
 seo-title: Målcookies
-solution: Marketing Cloud,Analytics,Target,Social
+solution: Experience Cloud,Analytics,Target,Social
 title: Målcookies
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 1%
 
 ---
 
@@ -53,7 +56,7 @@ Du kan ändra de här inställningarna om det behövs, med undantag för cookie-
 >
 >Om något av dina domännamn innehåller en landskod, t.ex. [!DNL mycompany.co.uk], kan du samarbeta med dina klienttjänster för att konfigurera dina domäner [!DNL mbox.js] så att de stöder detta.
 
-Denna cookie har ett antal värden för att hantera hur besökarna upplever Adobe Target-kampanjer:
+Denna cookie har ett antal värden för att hantera hur besökarna upplever Adobe Target kampanjer:
 
 <table id="table_5245F72A2D5A4322B40ABB10B7DFB338"> 
  <thead> 
