@@ -6,9 +6,9 @@ solution: Experience Cloud
 title: Experience Cloud Publiker - översikt
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
+source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '824'
 ht-degree: 4%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 4%
 
 # Experience Cloud Publiker - översikt {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
-Målgrupper är samlingar med besökare (en lista med besökar-ID:n). Adobe hanterar översättningen av besöksdata till målgruppssegmentering. Att skapa och hantera målgrupper liknar alltså att skapa och använda segment, med möjlighet att dela målgruppssegmentet till [!DNL Experience Cloud]målgruppen.
+Målgrupper är samlingar med besökare (en lista med besökar-ID:n). Med Adobe Audience Library kan ni hantera översättning av besöksdata till målgruppssegmentering. Att skapa och hantera målgrupper liknar alltså att skapa och använda segment, med möjlighet att dela målgruppssegmentet till produkter och tjänster i [!DNL Experience Cloud].
 
 ![](assets/audiences.png)
 
