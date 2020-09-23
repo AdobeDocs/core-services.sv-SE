@@ -1,14 +1,14 @@
 ---
 audience: admin
 user-guide-title: Experience Cloud Administration, målgrupper och kundattribut
-breadcrumb-title: Experience Cloud Interface Guide
+breadcrumb-title: Experience Cloud Administration, Audiences, and Customer Attributes
 user-guide-description: Adobe Experience Cloud Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, and Experience Cloud assets.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
 workflow-type: tm+mt
-source-wordcount: '362'
+source-wordcount: '363'
 ht-degree: 12%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 12%
    + [Överföra en resurs till en delad mapp från skrivbordet i Creative Cloud](experience-cloud-assets/t-cc-asset-upload-thor.md)
    + [Krav för resursfiler för delning](experience-cloud-assets/assets-file-reqs.md)
    + [Beteende för delade mappar](experience-cloud-assets/asset-behavior.md)
-+ Experience Cloud Audiences {#audiences}
++ Experience Cloud målgruppsbibliotek {#audiences}
    + [Experience Cloud Publiker - översikt](audience-library/audience-library.md)
    + [Skapa en målgrupp](audience-library/t-audience-create.md)
    + [Publicera ett målgruppssegment i Analytics](audience-library/t-publish-audience-segment.md)
