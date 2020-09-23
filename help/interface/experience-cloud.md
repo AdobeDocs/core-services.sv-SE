@@ -1,27 +1,27 @@
 ---
-description: Självhjälp, produktdokumentation och teknisk dokumentation för Adobe Experience Cloud. Experience Cloud är en integrerad familj av lösningar och tjänster för digital marknadsföring i Adobe.
-keywords: core services
-seo-description: Den här sidan innehåller självhjälp, produktdokumentation och teknisk dokumentation för Experience Cloud.
-seo-title: Adobe Experience Cloud och bastjänsterna - hjälp och produktdokumentation.
-solution: Experience Cloud
-title: Experience Cloud och bastjänster
+description: Självhjälp, produktdokumentation och teknisk dokumentation för Adobe Experience Cloud. Inkluderar användar- och produktadministration i Admin Console, möjliggör lösningar för plattformstjänster och hjälp om målgruppsbiblioteket, kundattribut, Experience Cloud Assets med flera.
+keywords: platform services
+seo-description: Hjälp med användar- och produktadministration i Admin Console, aktivera lösningar för plattformstjänster och hjälp om Audience Library, Customer Attributes, Experience Cloud Assets med flera.
+seo-title: Adobe Experience Cloud och plattformstjänster hjälper och produktdokumentation.
+solution: Adobe Experience Cloud
+title: Experience Cloud och plattformstjänster
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 18%
+source-wordcount: '466'
+ht-degree: 16%
 
 ---
 
 
-# Gränssnittshandbok för Experience Cloud
+# Experience Cloud Administration, målgrupper och kundattribut
 
 Experience Cloud är en integrerad familj av lösningar och tjänster för digital marknadsföring i Adobe. Det är också ett intuitivt gränssnitt som gör att du snabbt kan komma åt dina molnlösningar och bastjänster.
 
 ![Experience Cloud](assets/cloud-pulldown.png)
 
-Adobe Experience Cloud Administration Guide innehåller hjälp om Experience Cloud och produktadministration, målgruppsbibliotek, kundattribut och Experience Cloud. Artiklar i den här handboken omfattar:
+Den här guiden ger hjälp om Experience Cloud och produktadministration i Admin Console, vilket möjliggör lösningar för plattformstjänster. Du kan även få hjälp via Audience Library, Customer Attributes, Experience Cloud Assets med flera:
 
 * [[!UICONTROL Audience Library]](audience-library/audience-library.md)
 * [[!UICONTROL Customer Attributes]](attributes/attributes.md)
