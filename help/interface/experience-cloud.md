@@ -7,15 +7,15 @@ solution: Experience Cloud
 title: Experience Cloud och plattformstjänster
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: a32b5e9f8d3bed89b0001a40aa159591880dd84c
+source-git-commit: 1493c77ce1adc4bae3f70c4b0c0b82acde90ee47
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '465'
 ht-degree: 16%
 
 ---
 
 
-# Experience Cloud Administration, målgrupper och kundattribut
+# Experience Cloud programtjänster och administration
 
 Experience Cloud är en integrerad familj av lösningar och tjänster för digital marknadsföring i Adobe. Det är också ett intuitivt gränssnitt som gör att du snabbt kan komma åt dina molnlösningar och bastjänster.
 
