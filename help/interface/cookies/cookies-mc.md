@@ -7,10 +7,10 @@ solution: Experience Cloud,Analytics,Target
 title: Experience Cloud Cookies
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 7bd5b20d24d6ed1bcf2ea8cd1555af217013127e
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 7%
+source-wordcount: '368'
+ht-degree: 5%
 
 ---
 
@@ -49,6 +49,10 @@ Adobe Experience Cloud använder cookies för att lagra ett besökar-ID som anv�
    <td colname="col1"> <p> Storlek </p> </td> 
    <td colname="col2"> <p>45 byte </p> </td> 
   </tr> 
+  <tr> 
+   <td colname="col1"> <p> SameSite=Lax </p> </td> 
+   <td colname="col2"> <p>Cookies med den här inställningen skickas bara när domänen som visas i webbläsarens URL matchar cookie-domänen. Det här är det nya standardvärdet för cookies i Chrome.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -85,6 +89,10 @@ Se även [cookies och ID-tjänsten](https://docs.adobe.com/content/help/sv-SE/id
   <tr> 
    <td colname="col1"> <p> Storlek </p> </td> 
    <td colname="col2"> <p> De flesta kunder kan förvänta sig att den här cookien ska vara ca 200 byte lång. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Inget värde har lagts till. Chrome får standardvärdet Lax. </p> </td> 
+   <td colname="col2"> <p> Cookies med den här inställningen skickas bara när domänen som visas i webbläsarens URL matchar cookie-domänen. Det här är det nya standardvärdet för cookies i Chrome. </p> </td> 
   </tr> 
  </tbody> 
 </table>
