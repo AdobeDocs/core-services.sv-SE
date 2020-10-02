@@ -7,15 +7,15 @@ solution: Experience Cloud
 title: Möjliggör era lösningar för bastjänsterna
 index: true
 translation-type: tm+mt
-source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
+source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
 workflow-type: tm+mt
-source-wordcount: '2312'
+source-wordcount: '2313'
 ht-degree: 2%
 
 ---
 
 
-# Aktivera implementeringen för tjänster som omfattar flera lösningar
+# Aktivera implementeringen av Experience Cloud-tjänster
 
 Om du nyligen har implementerat Experience Cloud med Experience Platform Launch har du redan ställt in kundattribut och Experience Cloud målgrupper. Du kan också hantera användare och produkter i Admin Console.
 
