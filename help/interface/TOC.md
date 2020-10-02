@@ -1,24 +1,24 @@
 ---
 audience: admin
-user-guide-title: Experience Cloud programtjänster och administration
-breadcrumb-title: Experience Cloud Application Services and Administration
-user-guide-description: Adobe Experience Cloud Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, and Experience Cloud assets.
+user-guide-title: Experience Cloud Services och administration
+breadcrumb-title: Experience Cloud Services and Administration
+user-guide-description: Adobe Experience Cloud Services and Administration Guide includes help on Experience Cloud user and product administration, the Audience Library, Customer Attributes, cookies, and Experience Cloud assets.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 1493c77ce1adc4bae3f70c4b0c0b82acde90ee47
+source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '356'
 ht-degree: 12%
 
 ---
 
 
-# Experience Cloud programtjänster och administration {#interface}
+# Experience Cloud Services och administration {#interface}
 
-+ [Experience Cloud Admin, målgrupper och kundattribut](experience-cloud.md)
-+ Programtjänster i Experience Cloud {#about-core-services}
-   + [Översikt över programtjänster](core-services-landing.md)
++ [Experience Cloud Services och administration](experience-cloud.md)
++ Experience Cloud {#about-core-services}
+   + [Experience Cloud services overview](core-services-landing.md)
    + [Aktivera implementeringen för tjänster som omfattar flera lösningar](core-services/core-services.md)
    + [Mappa rapportsviter till en organisation](core-services/report-suite-mapping.md)
    + [Om de nya molnnamnen i Experience Cloud](solutions-core-services.md)
