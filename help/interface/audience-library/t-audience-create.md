@@ -7,7 +7,10 @@ solution: Experience Cloud
 title: Skapa en målgrupp
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 translation-type: tm+mt
-source-git-commit: f7ec8bf6087a18be41c9efbf05f60e6cfd24e566
+source-git-commit: cc523480327172c89d590065e4321cf1d5f9ab6e
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 3%
 
 ---
 
@@ -31,45 +34,46 @@ Varje cirkel representerar en regel som definierar målgruppsmedlemskap. Besöka
 >[!NOTE]
 >
 >Publiken definieras helt efter att datainsamlingen för den angivna perioden har slutförts.
-I följande exempel visas hur du skapar regler för en sammansatt målgrupp. Målgruppen är:
+
+I följande exempel visas hur du skapar regler för en sammansatt målgrupp. Denna målgrupp består av:
 
 * Avsnittet Hem och Garden är härlett från siddata eller råanalysdata.
 * Chrome- och Safari-användare härleds från ett [!DNL Adobe Analytics] segment som [publicerats](../audience-library/audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) i [!DNL Experience Cloud].
 
    ![](assets/audience_create.png)
 
-1. I [!DNL Experience Cloud], under [!DNL Experience Platform], klickar du på **[!UICONTROL Personer]** > **[!UICONTROL Audience Library].**
-1. På sidan [!UICONTROL Publiker] klickar du på **[!UICONTROL Nytt]**. ![](assets/add_icon_small.png)
+1. Klicka på [!DNL Experience Cloud]> i [!DNL Experience Platform]under **[!UICONTROL People]** **[!UICONTROL Audience Library].**
+1. På sidan [!UICONTROL Audiences] klickar du på **[!UICONTROL New]**.![](assets/add_icon_small.png)
 
    ![Stegresultat](assets/audience_create_new.png)
 
-1. Ange en rubrik och beskrivning på sidan [!UICONTROL Skapa ny publik] .
-1. Välj en attributkälla under [!UICONTROL Regler]:
+1. Ange en rubrik och beskrivning på [!UICONTROL Create New Audience] sidan.
+1. Under [!UICONTROL Rules]väljer du en attributkälla:
 
-   * **[!UICONTROL Realtidsanalysdata:]** (eller Raw-data) Detta är attributdata som härletts från bildbegäranden i realtid med Analytics, och innehåller data som eVars och events. Du måste välja en rapportserie när du använder den här attributkällan och definiera dimensionen eller händelsen som ska inkluderas. Rapportsvitens urval innehåller den variabelstruktur som används av rapportsviten.
+   * **[!UICONTROL Real-Time Analytics Data:]** (eller Raw-data) Detta är attributdata som härletts från bildbegäranden i realtid med Analytics, och innehåller data som eVars och events. Du måste välja en rapportserie när du använder den här attributkällan och definiera dimensionen eller händelsen som ska inkluderas. Rapportsvitens urval innehåller den variabelstruktur som används av rapportsviten.
    >[!NOTE]
    >
    >På grund av cachelagring kräver borttagna rapportsviter i Analytics 12 timmar innan borttagningen visas i Experience Cloud.
 
    * **[!UICONTROL Experience Cloud:]** Attributdata härledda från [!DNL Experience Cloud] källorna. Detta kan till exempel vara data från målgruppssegment som du skapar i [!DNL Analytics]eller data från [!DNL Audience Manager].
 
-1. Definiera målgruppsregler och klicka sedan på **[!UICONTROL Spara].**
+1. Definiera målgruppsregler och klicka sedan **[!UICONTROL Save].**
 
 >[!NOTE]
 >
 >Ni bör förstå era implementeringsvariabler när ni definierar målgruppsregler.
 
-Definiera [!UICONTROL attributval under]Regler *`Home & Garden`* :
+Under [!UICONTROL Rules]definierar du *`Home & Garden`* attributval:
 
-* **[!UICONTROL Attributkälla:]** Råanalysdata
+* **[!UICONTROL Attribute Source:]** Råanalysdata
 * **[!UICONTROL Report Suite:]** Report Suite 31
-* Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Lika med]** > **[!UICONTROL Hem &amp; Garden]**
+* Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home & Garden]**
 
 ![](assets/home_garden.png)
 
 Besökarna *i* Chrome och Safari är ett målgruppssegment som delas av Analytics:
 
-* **[!UICONTROL Attributkälla:]** Experience Cloud
+* **[!UICONTROL Attribute Source:]** Experience Cloud
 * **[!UICONTROL Dimension:]** Besökare i Chrome och Safari
 
 ![](assets/chrome_safari.png)
@@ -83,8 +87,8 @@ Den resulterande regeln är en definierad målgrupp som omfattar Chrome- och Saf
 ![](assets/defined_audience.png)
 
 * **Historisk uppskattning:** (Prickad cirkel) Representerar regler som skapats utifrån [!DNL Analytics] data.
-* **Faktisk publik:** (Helfylld cirkel) En regel som har skapats med 30 dagars data från Audience Manager. När data för Audience Manager når 30 dagar blir raden heldragen och representerar faktiska tal.
+* **Faktisk publik:** (Helfylld cirkel) En regel som har skapats med 30 dagars data från Audience Manager. När data från Audience Manager når 30 dagar blir raden heldragen och representerar faktiska tal.
 
-När datainsamlingen har slutförts för den angivna perioden kombineras cirklarna för att visa en definierad målgrupp.
+När datainsamlingen har slutförts för den angivna perioden visas en definierad målgrupp i cirklarna.
 
-När målgruppen har sparats är den tillgänglig för andra lösningar. Du kan till exempel inkludera en delad publik i en Adobe Target-aktivitet.
+När målgruppen har sparats är den tillgänglig för andra lösningar. Du kan till exempel inkludera en delad målgrupp i en Adobe Target-aktivitet.
