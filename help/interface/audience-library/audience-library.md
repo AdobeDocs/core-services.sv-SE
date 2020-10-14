@@ -1,20 +1,20 @@
 ---
-description: Hantera översättning av besöksdata till målgruppssegmentering i Experience Cloud Audience Library.
-seo-description: Hantera översättning av besöksdata till målgruppssegmentering i Experience Cloud Audience Library.
-seo-title: Experience Cloud Publiker - översikt
+description: Hantera översättning av besöksdata till målgruppssegmentering i Experience Cloud Audience-tjänsten.
+seo-description: Hantera översättning av besöksdata till målgruppssegmentering i Experience Cloud Audience-tjänsten.
+seo-title: Experience Cloud Publiktjänst
 solution: Experience Cloud
-title: Experience Cloud Publiker - översikt
+title: 'Experience Cloud målgrupper '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: 1809543ce26ed0e6dc2bf973de46384a2ef13c32
+source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '822'
 ht-degree: 4%
 
 ---
 
 
-# Experience Cloud Publiker - översikt {#topic_679810123CAA4E0CA4FA3417FB0100C7}
+# Experience Cloud Audiences {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
 Målgrupper är samlingar med besökare (en lista med besökar-ID:n). Med Adobe Audience Library kan ni hantera översättning av besöksdata till målgruppssegmentering. Att skapa och hantera målgrupper liknar alltså att skapa och använda segment, med möjlighet att dela målgruppssegmentet till produkter och tjänster i [!DNL Experience Cloud].
 
