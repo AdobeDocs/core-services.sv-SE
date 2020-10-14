@@ -2,20 +2,20 @@
 description: Översikt och förutsättningar för överföring av kundattribut till Experience Cloud.
 keywords: core services;Customer Attributes
 seo-description: Översikt och förutsättningar för överföring av kundattribut till Experience Cloud.
-seo-title: Kundattribut
+seo-title: Experience Cloud kundattribut
 solution: Experience Cloud
-title: Kundattribut
+title: Experience Cloud kundattribut
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 014e04cdf7e6d80909c988c6e3e961736fd30f13
+source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 3%
+source-wordcount: '450'
+ht-degree: 2%
 
 ---
 
 
-# Översikt över kundattribut
+# Experience Cloud kundattribut
 
 Navigera till **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
