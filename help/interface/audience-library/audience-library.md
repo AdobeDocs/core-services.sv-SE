@@ -6,9 +6,9 @@ solution: Experience Cloud
 title: 'Experience Cloud målgrupper '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
+source-git-commit: e59e70b4c07a18456d9cd6651ef94029870d65f3
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '818'
 ht-degree: 4%
 
 ---
@@ -72,6 +72,6 @@ Det [!DNL Experience Cloud] innehåller ett bibliotek för att skapa och hantera
 | Nytt | [Skapa en målgrupp](../audience-library/audience-library.md). |
 | Titel och beskrivning | En kolumnrubrik som identifierar och beskriver målgruppen. |
 | Författare | Personen som skapade målgruppssegmentet. |
-| Källa | Identifierar var målgruppen skapades.<ul><li>**Analyser:** Ett segment som skapats i rapporter och analyser eller ad hoc-analyser och sedan [publicerats på Experience Cloud](../audience-library/audience-library.md).</li><li>**Experience Cloud:** En ny publik [som skapats i Experience Cloud Publiker](../audience-library/audience-library.md).</li><li>**Audience Manager:** Publiker som skapats Audience Manager visas automatiskt i Experience Cloud Publiker.</li></ul> |
+| Källa | Identifierar var målgruppen skapades.<ul><li>**Analyser:** Ett segment som skapats i Adobe Analytics och sedan [publicerats i Experience Cloud](../audience-library/audience-library.md).</li><li>**Experience Cloud:** En ny publik [som skapats i Experience Cloud Publiker](../audience-library/audience-library.md).</li><li>**Audience Manager:** Publiker som skapats Audience Manager visas automatiskt i Experience Cloud Publiker.</li></ul> |
 | Aktuell storlek | Den aktuella målgruppsstorleken. |
 | Aktiv | Segmentets aktiva status. |
