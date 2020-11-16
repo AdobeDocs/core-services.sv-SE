@@ -1,23 +1,31 @@
 ---
-description: Vanliga frågor och svar för administratörer i Experience Cloud.
+description: Webbläsarstöd, vanliga frågor och svar för administratörer i Experience Cloud.
 keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
-seo-description: Vanliga frågor och svar för administratörer i Experience Cloud.
+seo-description: Webbläsarstöd, vanliga frågor och svar för administratörer i Experience Cloud.
 seo-title: Frågor och svar om Experience Cloud bastjänster.
 solution: Experience Cloud
 title: Frågor och svar
 index: true
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: ddf8943a18c9826acfb240192f6a3db987d31a0e
 workflow-type: tm+mt
-source-wordcount: '731'
-ht-degree: 3%
+source-wordcount: '780'
+ht-degree: 8%
 
 ---
 
 
 # Frågor och svar om Experience Cloud
 
-Vanliga frågor och svar för administratörer i Experience Cloud.
+Läs mer om webbläsarstöd och vanliga frågor och svar för administratörer i Experience Cloud.
+
+## Vilka webbläsare stöds i Experience Cloud?
+
+* Microsoft Edge (aktuell och två bakåtkompatibla versioner)
+* Google Chrome (aktuell och två bakåtkompatibla versioner)
+* Mozilla Firefox (aktuell och två bakåtkompatibla versioner)
+* Safari (nuvarande och två bakomliggande versioner)
+* Opera (aktuell och två bakåtkompatibla versioner)
 
 ## Hur vet jag om mina lösningar är aktiverade för bastjänster?
 
@@ -81,7 +89,7 @@ Se [Hantera användarkonton](../admin-getting-started/organizations.md#topic_C31
 
 ## Vad är en organisation?
 
-En *organisation* är den enhet som gör det möjligt för en administratör att konfigurera grupper och användare samt att styra enkel inloggning i Experience Cloud. Organisationen fungerar som ett inloggningsföretag som omfattar alla produkter och lösningar från Experience Cloud. Oftast är en organisation ditt företagsnamn. Ett företag kan dock ha många organisationer.
+An *organization* is the entity that enables an administrator to configure groups and users, and to control single sign-on in the Experience Cloud. Organisationen fungerar som ett inloggningsföretag som omfattar alla produkter och lösningar i Experience Cloud. Oftast är en organisation ditt företagsnamn. Ett företag kan dock ha många organisationer.
 
 ## Var hittar jag mitt IMS-organisations-ID?
 
