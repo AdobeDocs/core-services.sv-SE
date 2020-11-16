@@ -6,7 +6,7 @@ solution: Experience Cloud
 title: 'Experience Cloud målgrupper '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: e59e70b4c07a18456d9cd6651ef94029870d65f3
+source-git-commit: a2dfb2e14fdb7173fb859f45228fb9b1c997e172
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 4%
