@@ -6,9 +6,9 @@ user-guide-description: Adobe Experience Cloud Services and Administration Guide
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
+source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '389'
 ht-degree: 11%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 11%
    + [Skapa en målgrupp](audience-library/t-audience-create.md)
    + [Publicera ett målgruppssegment i Analytics](audience-library/t-publish-audience-segment.md)
 + Experience Cloud kundattribut {#customer-attributes}
-   + [Tjänsten Kundattribut](attributes/attributes.md)
+   + [Kundattribut i Adobe Experience Cloud](attributes/attributes.md)
    + [Vanliga frågor, begränsningar och bästa praxis](attributes/faq-crs.md)
    + [Om datafiler och datakällor för kundattribut](attributes/crs-data-file.md)
    + [Skapa en kundattributskälla och överför datafilen](attributes/t-crs-usecase.md)
