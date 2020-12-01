@@ -1,21 +1,21 @@
 ---
-description: Översikt och förutsättningar för överföring av kundattribut till Experience Cloud.
-keywords: core services;Customer Attributes
+description: Översikt och krav för överföring av kundattribut till Adobe Experience Cloud.
+keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
 seo-description: Översikt och förutsättningar för överföring av kundattribut till Experience Cloud.
 seo-title: Experience Cloud kundattribut
 solution: Experience Cloud
-title: Experience Cloud kundattribut
+title: Adobe Experience Cloud - Customer Attributes service
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 5a11e4e3d033ea36b6af10a51f29c8a94b5252f4
+source-git-commit: 9763e6f9c2521574e6c4e3d2bc4e96195eeec9f9
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '454'
 ht-degree: 2%
 
 ---
 
 
-# Experience Cloud kundattribut
+# Kundattribut i Adobe Experience Cloud
 
 Navigera till **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
