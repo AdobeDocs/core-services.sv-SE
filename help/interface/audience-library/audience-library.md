@@ -1,14 +1,14 @@
 ---
-description: Hantera översättning av besöksdata till målgruppssegmentering i Experience Cloud Audience-tjänsten.
+description: Lär dig hur du hanterar översättning av besöksdata till målgruppssegmentering i tjänsten Adobe Experience Cloud Audience.
 seo-description: Hantera översättning av besöksdata till målgruppssegmentering i Experience Cloud Audience-tjänsten.
 seo-title: Experience Cloud Publiktjänst
 solution: Experience Cloud
-title: 'Experience Cloud målgrupper '
+title: 'Adobe Experience Cloud-målgrupper '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: a2dfb2e14fdb7173fb859f45228fb9b1c997e172
+source-git-commit: e7d297820dbb666308c5906eca01a0c248e35fe3
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '819'
 ht-degree: 4%
 
 ---
@@ -16,21 +16,21 @@ ht-degree: 4%
 
 # Experience Cloud Audiences {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
-Målgrupper är samlingar med besökare (en lista med besökar-ID:n). Med Adobe Audience Library kan ni hantera översättning av besöksdata till målgruppssegmentering. Att skapa och hantera målgrupper liknar alltså att skapa och använda segment, med möjlighet att dela målgruppssegmentet till produkter och tjänster i [!DNL Experience Cloud].
+Målgrupper är samlingar med besökare (en lista med besökar-ID:n). Med Adobe Audience Library kan ni hantera översättning av besöksdata till målgruppssegmentering. Att skapa och hantera målgrupper liknar alltså att skapa och använda segment. Du kan också dela målgruppssegmentet med produkter och tjänster i [!DNL Experience Cloud].
 
 ![](assets/audiences.png)
 
 Målgrupper kan skapas eller härledas från olika källor, till exempel:
 
 * Nya som skapats i [!DNL Experience Cloud]
-* Från [!DNL Analytics] segment som publiceras till [!DNL Experience Cloud]
-* From [!DNL Audience Manager]
+* [!DNL Analytics] segment som publicerats i [!DNL Experience Cloud]
+* [!DNL Audience Manager]
 
 **Realtid kontra historiska målgrupper**
 
 Alla målgrupper, oavsett var de finns, är tillgängliga för användning i realtid med målinriktning. Målgrupper som delas från Analytics till Audience Manager är dock inte tillgängliga för målgruppsanpassning i realtid. Systemet utvärderar målgrupper på två sätt:
 
-* Historiska målgrupper från Analytics utvärderas var fjärde timme. Total tid att bearbeta och dela kan ta upp till 8 timmar.  Historiska målgrupper omfattar alltid återkommande besökare.
+* Historiska målgrupper från Analytics utvärderas var fjärde timme. Total tid att bearbeta och dela kan ta upp till 8 timmar. Historiska målgrupper omfattar alltid återkommande besökare.
 * Målgrupper i realtid hämtas från Experience Cloud och utvärderas i realtid.
 
 ## Hur lösningar använder målgrupper {#concept_01EB9345C5344597BC94A864EDD38EE1}
