@@ -10,7 +10,7 @@ snippet: y
 translation-type: tm+mt
 source-git-commit: b34cec87be58b9a4df3e9b061010689e5db4adb6
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1460'
 ht-degree: 0%
 
 ---
