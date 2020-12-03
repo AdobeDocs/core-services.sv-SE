@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: c8d38647750747212c2b825feff600419c1f3352
 workflow-type: tm+mt
 source-wordcount: '944'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -36,13 +36,13 @@ Logga in och verifiera att du är i rätt [organisation](../admin-getting-starte
 
 | Element | Beskrivning |
 |--- |--- |
-| [Admin Console Basics](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | Läs mer om de första stegen du måste ta för att komma igång med Experience Cloud. |
+| [Grundläggande om Admin Console](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | Läs mer om de första stegen du måste ta för att komma igång med Experience Cloud. |
 | [Ställ in identitet](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | Definiera och konfigurera ett identitetssystem som slutanvändarna ska autentiseras mot. |
-| [Användarhantering](https://helpx.adobe.com/enterprise/using/users.html) | Läs om hur du loggar in på Admin Console och hanterar användarbehörigheter och produktprofiler för Experience Cloud. |
-| [Starta Admin Console](../admin-getting-started/admin-getting-started.md) | Admin Console är den centrala platsen för hantering av Adobe-användare och produktbehörigheter i hela organisationen.<br>Du kan även logga in på Admin Console via en [direktlänk](https://adminconsole.adobe.com). |
-| [Hantera Creative Cloud-användare](../experience-cloud-assets/t-admin-add-cc-user.md) | Med Experience Cloud Assets kan marknadsförarna dela, synkronisera och samarbeta i mappar med designers och andra kreativa resurser med hjälp av Creative Cloud. Du kan hantera de Creative Cloud-användare som är godkända för att samarbeta med din organisation här. |
-| [Kartlägg dina rapportsviter](../core-services/core-services.md) | (Endast Analytics) Experience Cloud bastjänster är kopplade till en organisation i stället för till en enskild rapportserie. För att dessa tjänster ska fungera på rätt sätt måste varje Analytics rapporteringsprogram mappas till en organisation. (Denna uppgift ingår i ett större arbetsflöde för att [möjliggöra Analytics för bastjänster](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
-| [Organisations-ID](../admin-getting-started/organizations.md) | Organisations- *ID* finns längst ned på administrationssidan. Detta ID är det associerade ID:t med ditt tilldelade Experience Cloud-företag. Detta ID är en 24 tecken lång alfanumerisk sträng som följs av (och måste innehålla) @AdobeOrg. |
+| [Användarhantering](https://helpx.adobe.com/se/enterprise/using/users.html) | Läs om hur du loggar in på Admin Console och hanterar användarbehörigheter och produktprofiler för Experience Cloud. |
+| [Starta Admin Console](../admin-getting-started/admin-getting-started.md) | Admin Console är den centrala platsen för hantering av användare i Adobe och produktbehörigheter i hela organisationen.<br>Du kan också logga in på Admin Console med en [direktlänk](https://adminconsole.adobe.com). |
+| [Hantera Creative Cloud-användare](../experience-cloud-assets/t-admin-add-cc-user.md) | Med Experience Cloud Assets kan marknadsförarna dela, synkronisera och samarbeta i mappar med designers och andra kreativa resurser med Creative Cloud. Du kan hantera de Creative Cloud-användare som är godkända för att samarbeta med din organisation här. |
+| [Kartlägg dina rapportsviter](../core-services/core-services.md) | (Endast analyser) Experience Cloud bastjänster är kopplade till en organisation i stället för till en enskild rapportserie. För att dessa tjänster ska fungera på rätt sätt måste varje analysrapportsserie mappas till en organisation. (Den här uppgiften ingår i ett större arbetsflöde för att [aktivera Analytics för bastjänster](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
+| [Organisations-ID](../admin-getting-started/organizations.md) | Organisations- *ID* finns längst ned på administrationssidan. Detta ID är det associerade ID:t med ditt tilldelade Experience Cloud-företag. Detta ID är en alfanumerisk sträng med 24 tecken, följt av (och måste innehålla) @AdobeOrg. |
 
 ## Logga in på Experience Cloud (användare) {#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
@@ -52,7 +52,7 @@ Hjälp för icke-administrativa användare som loggar in på Experience Cloud.
 1. Kontrollera med administratören att din [organisation](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF) har etablerats i Experience Cloud.
 
 
-1. Navigera till [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
+1. Gå till [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
 1. Klicka på **[!UICONTROL Sign In With Adobe ID]**.
 
    Din Experience Cloud-administratör kan hjälpa dig att fastställa kontotypen (Adobe ID eller Enterprise ID).
@@ -77,11 +77,11 @@ Du kan redigera personuppgifter och ange en standard [organisations](../admin-ge
 
 ## Aktivera meddelanden {#concept_0105453AD71847B8BFCAF4A40915F157}
 
-Få meddelanden (via e-post eller i produkten) om systemuppdateringar, underhållsmeddelanden, inlägg, omnämnanden och delade resurser. Du kan också ange de produkter och lösningar som du vill få meddelanden om, inklusive överföringsstatus för kundattribut.
+Få meddelanden (via e-post eller i produkten) om systemuppdateringar, underhållsmeddelanden, meddelanden, omnämnanden och delade resurser. Du kan också ange de produkter och lösningar som du vill få meddelanden om, inklusive överföringsstatus för kundattribut.
 
 Om du vill navigera till Meddelanden klickar du på **[!UICONTROL Notifications]** ikonen ![](assets/notifications-icon.png)och sedan på **[!UICONTROL Settings]** ikonen ![](assets/icon_edit_board.png).
 
-Du kan sortera meddelandevisningen baserat på de meddelandetyper som är viktiga för dig och söka efter meddelanden. Du kan också:
+Du kan sortera meddelandevisningen baserat på de meddelandetyper som är viktiga för dig och söka efter meddelanden. Du kan även:
 
 * Sortera efter de meddelandetyper som är viktiga för dig.
 * Sök efter meddelanden.
@@ -129,11 +129,11 @@ Du kan redigera din Experience Cloud-profil, ange en standardorganisation och en
 
    Lösenordslänkningsproblem för Experience Cloud bör åtgärdas genom att ett lösenord återställs.
 
-   För användare av Adobe Analytics går du till [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html).
+   För Adobe Analytics-användare går du till [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html).
 
 ## Konfigurera lösningens inloggning med en direktlänk {#concept_8BE493A08786469B88B210E13F78FF2F}
 
-Du kan även logga in på en viss sida i en lösning med hjälp av autentisering från Experience Cloud-gränssnittet.
+Du kan också logga in på en viss sida i en lösning med hjälp av autentisering från Experience Cloud-gränssnittet.
 
 ### URL-mall
 
