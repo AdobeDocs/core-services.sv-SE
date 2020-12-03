@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
 workflow-type: tm+mt
 source-wordcount: '3914'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -27,7 +27,7 @@ Versionsinformation om alla lösningar finns i [Experience Cloud Versionsinforma
 
 | Funktion | Beskrivning |
 | -----------| ---------- |
-| Administratörsverktyg - policyer | På den här sidan visas en fullständig lista över policyer för Experience Cloud i din organisation. Det innehåller information om produkter, instanser, användare och utvecklare. Du kan söka efter, sortera och filtrera efter anpassade vyer i principlistan. Mer information finns i hjälpen för [Experience Cloud Admin Tool](../admin-getting-started/admin-tool-experience-cloud.md) . |
+| Administratörsverktyg - policyer | På den här sidan visas en fullständig lista över policyer för Experience Cloud i din organisation. Det innehåller information om produkter, instanser, användare och utvecklare. Du kan söka efter, sortera och filtrera efter anpassade vyer i principlistan. Mer information finns i hjälpen för [Experience Cloud Admin Tool](../admin-getting-started/admin-tool-experience-cloud.md). |
 
 ## April - 2020
 
@@ -38,7 +38,7 @@ Versionsinformation om alla lösningar finns i [Experience Cloud Versionsinforma
 
 | Funktion | Beskrivning |
 | -----------| ---------- |
-| Administratörsverktyg - visa användarinformation | Administratörer kan visa en sorterbar och filterbar lista över alla Experience Cloud-användare och deras information i det nya administrationsverktyget. Användarinformationen innehåller information om en användares produktåtkomst, roller och den senast öppnade informationen. Mer information finns i hjälpen för [Experience Cloud Admin Tool](../admin-getting-started/admin-tool-experience-cloud.md) . |
+| Administratörsverktyg - visa användarinformation | Administratörer kan visa en sorterbar och filterbar lista över alla Experience Cloud-användare och deras information i det nya administrationsverktyget. Användarinformationen innehåller information om en användares produktåtkomst, roller och den senast öppnade informationen. Mer information finns i hjälpen för [Experience Cloud Admin Tool](../admin-getting-started/admin-tool-experience-cloud.md). |
 
 **Korrigeringar**
 
@@ -356,7 +356,7 @@ Nya funktioner och korrigeringar i samarbets- och delningsgränssnittet [!DNL Ad
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Redigera användarbehörigheter </p> </td> 
-   <td colname="col2"> <p>Styrelsemedlemmar kan nu redigera användarbehörigheter på den aktuella ritytan. </p> <p> 
+   <td colname="col2"> <p>Styrelsemedlemmar kan nu redigera användarbehörigheter på den specifika ritytan. </p> <p> 
      <ol id="ol_B12251C510744538AF9BCE60ACB04016"> 
       <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">Klicka på <span class="uicontrol"> Inställningar</span>. </li> 
       <li id="li_0F4786B0E1E743069D082E7DC488A031">Ange <span class="uicontrol"> Ägare</span>, <span class="uicontrol"> Visningsprogram</span>eller <span class="uicontrol"> Redigerare</span>bredvid varje ägare. </li> 
@@ -531,7 +531,7 @@ Nya funktioner och korrigeringar i samarbets- och delningsgränssnittet [!DNL Ad
 * Alternativ i kombinationsrutor som används för att lägga till nya användare försvinner tillfälligt när du skriver.
 * Det gick inte att klicka på kommentarlänken i resurskortvyn.
 * När du har lagt till en anpassad tagg i en resurs, bevaras inga andra metadataändringar.
-* När en bild tas bort varnar Assets inte om bilden används i Adobe Target Essentials.
+* När du tar bort en bild visas ingen varning om bilden används i Adobe Target Essentials.
 * Långsam [!UICONTROL Experience Cloud] gränssnittsprestanda vid parallell användning av många användare.
 * När du tog bort en bild i [!UICONTROL Experience Cloud Assets] utlöstes ingen varning om bilden användes i [!DNL Adobe Target Essentials].
 * När användaren inte **[!UICONTROL remember me]** valdes under inloggningen loggades användaren ut efter 15 minuter.
