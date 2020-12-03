@@ -9,7 +9,7 @@ uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 translation-type: tm+mt
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '513'
 ht-degree: 0%
 
 ---
@@ -37,13 +37,13 @@ På [!UICONTROL Validate Schema] sidan representerar varje rad i schemat en kolu
 
 * **[!UICONTROL FTP Setup:]** [Överför data via FTP](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
 
-* **[!UICONTROL ID Lookup:]** Ange ett kund-ID (CID) från ditt `.csv` konto för att söka efter Experience Cloud-information för ID:t. Den här funktionen är användbar för att felsöka varför attributdata inte visas för en besökare:
+* **[!UICONTROL ID Lookup:]** Ange ett kund-ID (CID) från ditt `.csv` konto för att söka efter information om Experience Cloud för ID:t. Den här funktionen är användbar för att felsöka varför attributdata inte visas för en besökare:
 
-   * **[!UICONTROL ECID (Experience Cloud ID):]** Visar om du använder den senaste Experience Cloud ID-tjänsten. Om du är med i MCID-tjänsten men det inte finns några ID:n listade här, har Experience Cloud inte fått något alias för det CID:t. Det innebär att besökaren inte har loggat in eller att implementeringen inte skickar det ID:t till.
+   * **[!UICONTROL ECID (Experience Cloud ID):]** Visar om du använder den senaste Experience Cloud ID-tjänsten. Om du är i MCID-tjänsten men det inte finns några ID:n i listan här, har Experience Cloud inte fått något alias för det CID:t. Det innebär att besökaren inte har loggat in eller att implementeringen inte skickar det ID:t till.
 
-   * **[!UICONTROL CID (Customer ID):]** De attribut som är associerade med detta CID. Om du använder en prop eller eVar för att överföra CID:n (AVID), och du ser attribut som visas men inget AVID, indikerar detta att besökaren inte har loggat in på din plats.
+   * **[!UICONTROL CID (Customer ID):]** De attribut som är associerade med detta CID. Om du använder ett utkast eller en eVar för att överföra CID:n (AVID), och du ser attribut som visas men inget AVID, indikerar detta att besökaren inte har loggat in på din webbplats.
 
-   * **[!UICONTROL AVID (Analytics visitor ID):]** Visar om du använder en prop eller eVar för att överföra CID:n. Om dessa ID:n skickas till Experience Cloud visas alla besökar-ID:n som är kopplade till det CID du angav här.
+   * **[!UICONTROL AVID (Analytics visitor ID):]** Visar om du använder en säljare eller eVar för att överföra CID:n. Om dessa ID:n skickas till Experience Cloud visas alla besökar-ID:n som är kopplade till det CID du angav här.
 
 Du kan också överföra data via FTP när du har skapat en kundattributkälla och ett FTP-konto i Experience Cloud. Du skapar ett FTP-konto per attributkälla. De överförda filerna lagras i kontots rotmapp. Data måste vara i .csv-format, med en andra .fin-fil som anger att överföringen är slutförd
 
