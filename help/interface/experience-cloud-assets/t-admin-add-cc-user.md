@@ -8,13 +8,16 @@ title: Hantera Creative Cloud-användare
 uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
 translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 2%
 
 ---
 
 
 # Hantera Creative Cloud-användare
 
-Experience Cloud innehåller administrationsverktyg för hantering av godkända Creative Cloud-användare. Dessa användare kan bjudas in ad hoc-till en kampanjmapp. Endast användare som har lagts till i listan av en administratör kan bjudas in till en kampanj. De tillagda användarna visas i listan över användare som fylls i automatiskt i Experience Cloud.
+Experience Cloud har administrationsverktyg för hantering av godkända användare i Creative Cloud. Dessa användare kan bjudas in ad hoc-till en kampanjmapp. Endast användare som har lagts till i listan av en administratör kan bjudas in till en kampanj. De tillagda användarna visas i listan över användare som fylls i automatiskt i Experience Cloud.
 
 >[!NOTE]
 >
