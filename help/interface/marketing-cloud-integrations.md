@@ -146,7 +146,7 @@ Integrera Adobe Target med Adobe Analytics och andra Experience Cloud-lösningar
 * Analyser: [Adobe Analytics som rapportkälla för Adobe Target](https://docs.adobe.com/content/help/sv-SE/target/using/integrate/a4t/a4t.html)
 * Dynamisk tagghantering: [Bästa tillvägagångssätt för att implementera Adobe Target med DTM](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)
 * Audience Manager: [Adobe Target dataintegrering med Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)
-* Campaign: [Integrera Adobe Target med Campaign](https://docs.adobe.com/content/help/en/target/using/integrate/campaign-and-target.html)
+* Campaign: [Integrera Adobe Target med Campaign](https://docs.adobe.com/content/help/sv-SE/target/using/integrate/campaign-and-target.html)
 
 ## Integreringar med Experience Manager {#section_32FB010EF8B4429FBC63C8DC2A9BE98F}
 
