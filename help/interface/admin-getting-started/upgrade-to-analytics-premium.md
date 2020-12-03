@@ -10,8 +10,8 @@ uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 translation-type: tm+mt
 source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '672'
+ht-degree: 6%
 
 ---
 
@@ -22,20 +22,20 @@ Administratörer kan lära sig mer om kraven och vad de kan förvänta sig när 
 
 ## Analytics Premium {#section_7F50AD7906544F899B844BE31D3BB507}
 
-Uppgradera till Adobe Analytics Premium och få alla funktioner och produkter som finns i Analytics Standard, inklusive Data Warehouse, Ad Hoc Analysis, Report Builder och Data Connectors. (Dessa produkter såldes separat till kunder med punktlösningen SiteCatalyst.)
+Uppgradera till Adobe Analytics Premium och få alla funktioner och produkter som finns i Analytics Standard, inklusive Data warehouse, Ad Hoc Analysis, Report Builder och Data Connectors. (Dessa produkter såldes separat till kunder som använde punktlösningen SiteCatalyst.)
 
 Med Analytics Premium får ni:
 
 * Tillgång till 250 konverteringsvariabler (eVars)
 * [Mobilappsanalys](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
-* Data Workbench (visuell datafråga); regelbaserad attribuering, flerkanalsanalys)
+* Data Workbench (Visual data query; regelbaserad attribuering, flerkanalsanalys)
 
 >[!NOTE]
 >
 >Ingen migrering är nödvändig vid uppgradering, men det finns några saker att tänka på:
 >
->* Variablerna 76-250 (SiteCatalyst) och 100-250 (Standard) visas i Admin Tools, men är inte aktiverade.>
->* Contribute Analysis aktiveras av Adobe. Platsen ändras inte (den är fortfarande tillgänglig på sidan Anomalidentifiering), men nu börjar analysen av alla datapunkter automatiskt.>
+>* Variablerna 76-250 (SiteCatalyst) och 100-250 (Standard) visas i Admin Tools, men kommer inte att vara aktiverade.>
+>* Bidragsanalys aktiveras av Adobe. Platsen ändras inte (den är fortfarande tillgänglig på Anomaly Detection-sidan), men nu börjar analysen av alla datapunkter automatiskt.>
 
 
 ## Analytics Premium Complete {#section_BFAD815EDF364845A52B340B2FD5B64C}
@@ -70,9 +70,9 @@ Uppgradera till Customer 360 med [Analytics Premium](../admin-getting-started/up
 
 ## Avancerad attribuering {#section_9E4986A8389946CCAA7D003268343296}
 
-Avancerad attribuering ger tillgång till [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507), plus algoritmisk attribuering i Data Workbench (25 % serveranropsvolym).
+Avancerad attribuering ger tillgång till [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507), plus algoritmisk attribuering i Datan Workbench (25 % serveranropsvolym).
 
-## Krav för Data Workbench {#section_D959CA68D6DB42C38707F8E0CA3654CC}
+## Krav på Data Workbench {#section_D959CA68D6DB42C38707F8E0CA3654CC}
 
 De användare som stöds kan begära att alla klientlicenser uppdateras för att återspegla Premium genom att skicka ett e-postmeddelande `dwb@adobe.com`. Detta aktiverar funktioner som algoritmisk attribuering.
 
@@ -80,17 +80,17 @@ TechOps granskar ditt avtalsåtagande och fastställer rätt hanterad infrastruk
 
 Alla program som körs lokalt måste inaktiveras. Detta inkluderar sensorer, vilket innebär att ni måste säkerställa korrekt spårning med Analytics-taggar.
 
-## Experience Cloud - administrera användare och produkter {#section_6471C54454024301B2E0B687F79F6738}
+## Experience Cloud - Administrera användare och produkter {#section_6471C54454024301B2E0B687F79F6738}
 
-Användare av Analytics Standard och Premium kan få tillgång till tjänsterna i Experience Cloud och Core, förutsatt att du har följt den modernisering av implementeringen som beskrivs i [Komma igång - aktivera lösningar för bastjänsterna](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (Denna process hjälper er att modernisera implementeringen och gör att ni kan bli administratör i Experience Cloud.)
+Experience Cloud och bastjänster är tillgängliga för användare av Analytics Standard och Premium, förutsatt att du har följt den implementeringsmodernisering som beskrivs i [Komma igång - aktivera lösningar för bastjänster](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (Denna process hjälper dig att modernisera implementeringen och gör att du kan bli administratör i Experience Cloud.)
 
-När du har gått med i Experience Cloud kan du logga in via Experience Cloud på [!DNL experiencecloud.adobe.com] och börja använda bastjänsterna (inklusive kundattribut, målgrupper och mobilappsanalyser).
+När du har gått med i Experience Cloud kan du logga in via Experience Cloud på [!DNL experiencecloud.adobe.com] och börja använda bastjänster (inklusive kundattribut, målgrupper och mobilappsanalyser).
 
 ### Administrera användare och grupper
 
 Användarhantering utförs i [Adobe Admin Console](https://helpx.adobe.com/enterprise/help/aedash.html) (produktlänk).
 
-Du kan skapa en 1:1-karta mellan en grupp som skapats i Adobe Admin Console och en lösningsgrupp (till exempel Adobe Analytics). Därefter kommer en ny användare som läggs till i den mappade Admin Console-gruppen att automatiskt skapa ett Analytics-lösningskonto som länkas till användarens Adobe ID. (Befintliga användare måste manuellt länka sina autentiseringsuppgifter för lösningskonton för att få tillgång till lösningar via Experience Cloud-inloggningen.)
+Du kan skapa en 1:1-karta mellan en grupp som skapats i Adobe Admin Console och en lösningsgrupp (till exempel Adobe Analytics). Därefter kommer en ny användare som läggs till i den mappade Admin Console-gruppen att få ett Analytics-lösningskonto automatiskt skapat och länkat till användarens Adobe ID. (Befintliga användare måste manuellt länka sina autentiseringsuppgifter för lösningskonton för att få tillgång till lösningar via inloggningen till Experience Cloud.)
 
 >[!NOTE]
 >
