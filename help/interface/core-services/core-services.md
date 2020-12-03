@@ -89,7 +89,7 @@ Det enklaste sättet att aktivera Experience Cloud bastjänster är att aktivera
 
 Fullständig hjälp om Experience Cloud ID-tjänsten (tidigare besökar-ID) finns [här](https://docs.adobe.com/content/help/sv-SE/id-service/using/home.html).
 
-**Använder du inte[!UICONTROL Experience Platform Launch]eller[!UICONTROL Dynamic Tag Management]?**
+**Använder du inte [!UICONTROL Experience Platform Launch] eller [!UICONTROL Dynamic Tag Management]?**
 
 Om du inte använder [!UICONTROL Experience Platform Launch] eller [!UICONTROL Dynamic Tag Management]implementerar du ID-tjänsten manuellt via JavaScript Deployment ([!DNL VisitorAPI.js]) enligt följande:
 
