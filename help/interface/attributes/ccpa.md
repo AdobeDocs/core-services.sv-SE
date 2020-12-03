@@ -5,7 +5,7 @@ translation-type: tm+mt
 source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 0%
+ht-degree: 4%
 
 ---
 
@@ -20,13 +20,13 @@ Den här sidan beskriver [!UICONTROL Customer Attributes'] stödet för Californ
 
 CCPA är Kaliforniens nya integritetslagstiftning som träder i kraft den 1 januari 2020. CCPA ger invånare i Kalifornien nya rättigheter när det gäller personuppgifter och ålägger dataskyddsansvar för vissa enheter som bedriver verksamhet i Kalifornien. CCPA ger konsumenterna rätt att få tillgång till och radera sina personuppgifter samt rätt att avanmäla vissa aktiviteter som kvalificerar som &quot;sälja&quot; personuppgifter till tredje part.
 
-Som företag avgör ni vilka personuppgifter Adobe Experience Cloud behandlar och lagrar å era vägnar.
+Som företag avgör du vilka personuppgifter Adobe Experience Cloud behandlar och lagrar å dina vägnar.
 
-Som tjänsteleverantör tillhandahåller Adobe Experience Cloud support så att ert företag kan uppfylla sina skyldigheter enligt CCPA som är tillämpliga på användningen av Experience Cloud-produkter och -tjänster, inklusive hantering av begäranden om åtkomst och radering av personuppgifter.
+Som tjänsteleverantör tillhandahåller Adobe Experience Cloud support för ditt företag så att det kan uppfylla sina skyldigheter enligt CCPA som är tillämpliga på användningen av produkter och tjänster från Experience Cloud, inklusive hantering av förfrågningar om åtkomst och radering av personuppgifter.
 
-I det här dokumentet beskrivs hur [!UICONTROL Customer Attributes] stöd för de registrerade för CCPA-dataåtkomst och -borttagning finns i API:t för Adobe Experience Platform Privacy Service och gränssnittet för integritetstjänsten.
+I det här dokumentet beskrivs hur du [!UICONTROL Customer Attributes] stöder de registrerade personernas CCPA-dataåtkomst och borttagningsrättigheter med hjälp av Adobe Experience Platform Privacy Service API och Privacy Servicens användargränssnitt.
 
-Mer information om Adobes sekretessavtal för CCPA finns i [Adobes sekretesscenter](https://www.adobe.com/privacy/ccpa.html).
+Mer information om sekretessavtal för CCPA för Adobe finns i [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html).
 
 ## Nödvändig konfiguration för att skicka begäranden [!UICONTROL Customer Attributes]
 
@@ -37,7 +37,8 @@ Om du vill begära åtkomst till och ta bort data för [!UICONTROL Customer Attr
    * IMS-organisations-ID
    * Alias-ID för CRS-datakälla som du vill använda
    * CRM-ID för profilen som du vill använda
-   Ett IMS-organisations-ID är en 24 tecken lång alfanumerisk sträng som läggs till med @AdobeOrg. Om marknadsföringsteamet eller den interna Adobe-systemadministratören inte känner till din organisations IMS-organisation kan du kontakta Adobes kundtjänst på gdprsupport@adobe.com. Du måste ha IMS-organisations-ID för att kunna skicka begäranden till sekretess-API:t.
+
+   Ett IMS-organisations-ID är en 24 tecken lång alfanumerisk sträng som läggs till med @AdobeOrg. Om ditt marknadsföringsteam eller den interna systemadministratören i Adobe inte känner till din organisations IMS-organisation kan du kontakta Adobe kundtjänst på gdprsupport@adobe.com. Du måste ha IMS-organisations-ID för att kunna skicka begäranden till sekretess-API:t.
 
 1. I [!UICONTROL Privacy Service]kan du skicka in begäran om åtkomst och borttagning till kundattribut och kontrollera status för befintliga begäranden.
 
@@ -62,7 +63,7 @@ företagskontext:
 
    * &quot;value&quot;: &lt;*CRM-ID*>
 
-* &quot;include&quot;: **CRS** (som är den Adobe-produkt som gäller för begäran)
+* &quot;include&quot;: **CRS** (som är den Adobe-produkt som är tillämplig på begäran)
 
 * reglering: **ccpa** (som är den sekretessregel som gäller för begäran)
 
