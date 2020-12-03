@@ -40,7 +40,7 @@ De nyare AS3-visningsprogrammen implementerar inte sessionens beständighet.
 | Information lagrad | Anger sessionscookie. Det AuthFilter som är inbäddat i IPS ImageServer (IS, IR och även SWF-filer/skal och videokontexter) använder cookien för åtkomstauktorisering. Om det finns tillåter det att HTTP-begäranden skickas igenom. Annars returneras obehörig. |
 | Förfaller | Denna cookie är en sessionscookie. Den aktuella sessionens förfallotid är inställd på 45 minuter i Scene7 IPS [!DNL web.xml]. |
 
-**Cookie-namn: s7js.flyout.InfoMessage.displayed`assetId`.state**
+**Cookie-namn: s7js.flyout.InfoMessage.displayed `assetId`.state**
 
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
