@@ -21,7 +21,7 @@ Experience Cloud Assets utgör ett enda centralt arkiv av marknadsföringsmateri
 Tillgångstjänster:
 
 * Resurslagring, hanteringsgränssnitt, inbäddat urvalsgränssnitt (nås via lösningar).
-* Integrering med lösningarna Creative Cloud, Experience Cloud och Experience Cloud.
+* Integrering med Creative Cloud, Experience Cloud och Experience Cloud.
 
 Genom att använda mediefiler blir det enhetligare och varumärkeskommunikationen effektivare och kortare time-to-market. Ni kan effektivisera arbetsflödena i lösningar:
 
