@@ -1,6 +1,9 @@
 ---
 source-git-commit: 58ccef353b492b1c2adfbb8c2471e1f92263e6e4
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '329'
+ht-degree: 2%
 
 ---
 # Instruktioner
@@ -24,7 +27,7 @@ translation-type: tm+mt
 
 ## Metadata för användarhandboksnivå
 
-+ Metadata som beskriver användarhandboken lagras i `TOC.md`. Detta omfattar följande:
++ Metadata som beskriver användarhandboken lagras i `TOC.md`. Det inkluderar:
    + product - product/capabilities.
    + cloud - molnet som den här produkten tillhör.
    + målgrupp - målgrupp eller arketyp som guiden riktar sig till.
@@ -32,13 +35,13 @@ translation-type: tm+mt
 
 ## Metadata för sidnivå
 
-+ Metadata som krävs för att beskriva ett dokument lagras som en del av varje enskild sida. Detta omfattar följande:
++ Metadata som krävs för att beskriva ett dokument lagras som en del av varje enskild sida. Det inkluderar:
    + title - sidans titel.
    + description - description of page.
    + seo-title - seo alternativ titel.
    + seo-description - alternativ titel för SEO-ändamål.
    + short-title - (valfritt fält).
-   + index - ja/nej - kommer sidan att indexeras av Adobes sökplattform.
+   + index - ja/nej - kommer sidan att indexeras av Adobe sökplattform.
    + translate - yes / no - will this page be localized.
    + version - används främst för AEM och Campaign för att ange produktversionen.
    + private-feature-pack - används främst för AEM.
