@@ -8,6 +8,9 @@ title: Beteende för delade mappar
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
+workflow-type: tm+mt
+source-wordcount: '571'
+ht-degree: 0%
 
 ---
 
@@ -18,7 +21,7 @@ Regler för hur delade mappar fungerar när de flyttas, tas bort och återställ
 
 >[!NOTE]
 >
->Delade Experience Cloud-mappar och resurser speglas till Creative Cloud-datorprogrammet i en personlig relation. Om en Experience Cloud-användare ändrar en mapp (tar bort, lägger till eller tar bort delning) speglas åtgärden i Creative Cloud-datorprogrammet och på webben. Om en mapp inte delas tas mappen och resurserna bort från den lokala datorn. När delningen har tagits bort flyttas mappen och dess innehåll till papperskorgen på den lokala datorn, där du kan återställa dem manuellt till datorn.
+>Delade Experience Cloud-mappar och -resurser speglas till skrivbordet i Creative Cloud i en 1:1-relation. Om en Experience Cloud-användare ändrar en mapp (tar bort, lägger till eller tar bort delning) speglas åtgärden i Creative Cloud på skrivbordet och webben. Om en mapp inte delas tas mappen och resurserna bort från den lokala datorn. När delningen har tagits bort flyttas mappen och dess innehåll till papperskorgen på den lokala datorn, där du kan återställa dem manuellt till datorn.
 
 ## Odelad mapp i delad mapp {#section_A9BAC1A244A246A984AC62660E61E0C0}
 
