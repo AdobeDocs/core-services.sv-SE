@@ -9,7 +9,7 @@ uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 translation-type: tm+mt
 source-git-commit: ed423c20afaefe1bd0c463d8400e772916709ba7
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1113'
 ht-degree: 2%
 
 ---
@@ -152,7 +152,7 @@ Se [Konfigurera prenumerationer](../attributes/subscription.md#concept_ECA3C44FA
 
 **Så här aktiverar du en attributkälla**
 
-På sidan [!UICONTROL Create New [or Edit] Customer Attribute Source] letar du reda på [!UICONTROL Activate] rubriken och klickar sedan på **[!UICONTROL Active]**.
+Leta upp rubriken på [!UICONTROL Create New [or Edit] Customer Attribute Source] sidan och klicka sedan på [!UICONTROL Activate] rubriken **[!UICONTROL Active]**.
 
 ![Stegresultat](assets/activate_attribute_source.png)
 
