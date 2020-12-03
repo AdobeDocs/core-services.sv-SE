@@ -7,6 +7,9 @@ title: Om de nya molnnamnen i Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
 source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
+workflow-type: tm+mt
+source-wordcount: '667'
+ht-degree: 9%
 
 ---
 
@@ -21,15 +24,15 @@ Lär dig mer om de senaste varumärkesuppdateringarna för molnen, hur du navige
 
 De senaste molnnamnen och lösningarna i varje moln:
 
-[Experience Cloud](https://www.adobe.com/experience-cloud.html?promoid=FZPQZ2HS&mv=other)
+[Experience Cloud](https://www.adobe.com/experience-cloud.html?promoid=FZPQZ2HS&amp;mv=other)
 
-Ersätter *Marketing Cloud* som överordnat molnnamn för alla Adobes lösningar och tjänster för digitala upplevelser.
+Ersätter *Marketing Cloud* som överordnat molnnamn för alla Adobe digitala upplevelselösningar och -tjänster.
 
 >[!NOTE]
 >
->Du kan fortsätta att se referenser till *Marketing Cloud* i dess tidigare, bredare kontext tills alla lösningsgränssnitt har varumärkesändrats till *Enterprise Cloud.*
+>Du kan fortsätta att se referenser till *Marketing Cloud* i dess tidigare, bredare sammanhang tills alla lösningsgränssnitt har varumärkesändrats till *Enterprise Cloud.*
 
-[Marketing Cloud](https://www.adobe.com/marketing-cloud.html)
+[Marketing Cloud](https://www.adobe.com/se/marketing-cloud.html)
 
 Innehåller följande lösningar:
 
@@ -54,12 +57,12 @@ Innefattar Media Optimizer och TubeMogul.
 
 Följande information beskriver kortfattat lösningarna och ger länkar till hjälp. [Det finns också fallrecept](https://helpx.adobe.com/marketing-cloud/how-to/use-cases.html) som kan hjälpa er med arbetsflöden för digital marknadsföring.
 
-[Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html)
+[Adobe Analytics](https://docs.adobe.com/content/help/sv-SE/analytics/landing/home.html)
 
 Så här kommer du igång med Analytics:
 
 1. Skapa din första analysrapportssvit (datalager) enligt anvisningarna i [Komma igång med Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html).
-1. Distribuera sedan Analytics-kod med [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
+1. Distribuera sedan Analytics-koden med [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
 
 Experience Platform Launch är nästa generation av tagghantering och ger er ett enkelt sätt att driftsätta och hantera alla analys-, marknadsförings- och annonstaggar.
 
@@ -70,22 +73,22 @@ Se även:
 
 [Adobe Target](https://docs.adobe.com/content/help/en/target/using/target-home.html)
 
-Adobe Target integreras med Analytics och andra bastjänster i Experience Cloud. Användbara ämnen för att komma igång:
+Adobe Target kan integreras med Analytics och andra bastjänster från Experience Cloud. Användbara ämnen för att komma igång:
 
 * [Konfigurera mål](https://docs.adobe.com/content/help/en/target/using/administer/administrating-target.html)
 * [Så här fungerar Adobe Target](https://docs.adobe.com/content/help/en/target/using/introduction/how-target-works.html)
 * [Administratörssteg](https://docs.adobe.com/content/help/en/target/using/administer/start-target.html)
-* [Använd Analytics som rapportkälla för Adobe Target](https://docs.adobe.com/content/help/en/target/using/integrate/a4t/a4t.html)
+* [Använd Analytics som rapportkälla för Adobe Target](https://docs.adobe.com/content/help/sv-SE/target/using/integrate/a4t/a4t.html)
 
-[Adobe Experience Manager](https://helpx.adobe.com/support/experience-manager/6-5.html)
+[Adobe Experience Manager](https://helpx.adobe.com/se/support/experience-manager/6-5.html)
 
 Adobe Experience Manager är en innehållshanteringslösning som gör det enkelt att hantera resurser och innehåll för webbplatser, mobilappar, communities och formulär.
 
-Se [Adobe Experience Manager 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html) om du behöver hjälp.
+Se [Adobe Experience Manager 6.5](https://helpx.adobe.com/se/support/experience-manager/6-5.html) .
 
 [Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
 
-Adobe Audience Manager är en plattform för datahantering som hjälper er att skapa unika målgruppsprofiler, så att ni kan identifiera och inrikta er på era mest värdefulla kundsegment i alla kanaler.
+Adobe Audience Manager är en plattform för datahantering och hjälper er att skapa unika målgruppsprofiler så att ni kan identifiera och inrikta er på era mest värdefulla kundsegment i alla kanaler.
 
 [Adobe Advertising Cloud](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html#adcloud)
 
