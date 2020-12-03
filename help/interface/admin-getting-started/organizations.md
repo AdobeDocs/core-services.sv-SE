@@ -10,7 +10,7 @@ translation-type: tm+mt
 source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 1%
+ht-degree: 9%
 
 ---
 
@@ -21,7 +21,7 @@ Lär dig hur du hanterar organisationer och länkar lösningskonton till Experie
 
 ## Identifiera er organisation {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-En *organisation* är den enhet som gör det möjligt för en administratör att konfigurera grupper och användare samt att styra enkel inloggning i Experience Cloud. Organisationen fungerar som ett inloggningsföretag som omfattar alla produkter och lösningar från Experience Cloud. Oftast är en organisation ditt företagsnamn. Ett företag kan dock ha många organisationer.
+An *organization* is the entity that enables an administrator to configure groups and users, and to control single sign-on in the Experience Cloud. Organisationen fungerar som ett inloggningsföretag som omfattar alla produkter och lösningar i Experience Cloud. Oftast är en organisation ditt företagsnamn. Ett företag kan dock ha många organisationer.
 
 Du kan också behöva hitta ditt organisations-ID för support. Du kan verifiera att du är i rätt organisation eller växla mellan organisationer via **[!UICONTROL Organization]** menyn.
 
