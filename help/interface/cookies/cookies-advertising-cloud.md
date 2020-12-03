@@ -1,18 +1,21 @@
 ---
-description: Advertising Cloud använder cookies för att mappa annonsengagemangshändelser till konverteringshändelser och, eventuellt, för att använda den informationen för att optimera annonserbjudanden.
-seo-description: Advertising Cloud använder cookies för att mappa annonsengagemangshändelser till konverteringshändelser och, eventuellt, för att använda den informationen för att optimera annonserbjudanden.
+description: Advertising Cloud använder cookies för att mappa annonsengagemang till konverteringshändelser och, eventuellt, för att använda informationen för att optimera annonserbjudanden.
+seo-description: Advertising Cloud använder cookies för att mappa annonsengagemang till konverteringshändelser och, eventuellt, för att använda informationen för att optimera annonserbjudanden.
 seo-title: Advertising Cloud Cookies
 title: Advertising Cloud Cookies
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 translation-type: tm+mt
 source-git-commit: d7d1a659bbdbc7a4221243d88410492351ab9055
+workflow-type: tm+mt
+source-wordcount: '544'
+ht-degree: 2%
 
 ---
 
 
 # Advertising Cloud Cookies{#advertising-cloud-cookies}
 
-Advertising Cloud använder cookies för att mappa annonsengagemangshändelser till konverteringshändelser och, eventuellt, för att använda den informationen för att optimera annonserbjudanden.
+Advertising Cloud använder cookies för att mappa annonsengagemang till konverteringshändelser och, eventuellt, för att använda informationen för att optimera annonserbjudanden.
 
 ## Cookie-namn: lcc
 
@@ -59,7 +62,7 @@ Advertising Cloud använder cookies för att mappa annonsengagemangshändelser t
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Information lagrad </p> </td> 
-   <td colname="col2"> <p>Kodade ID:n och tidsstämplar för annonsinsatser med hjälp av Advertising Cloud DSP tracking </p> </td> 
+   <td colname="col2"> <p>Kodade ID:n och tidsstämplar för annonsinsatser med Advertising Cloud DSP tracking </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Förfaller </p> </td> 
@@ -100,7 +103,7 @@ Advertising Cloud använder cookies för att mappa annonsengagemangshändelser t
   </tr> 
   <tr> 
    <td colname="col1"> <p>Användning </p> </td> 
-   <td colname="col2"> <p>En cookie från första part som kopplar surfer-ID till relevanta målgruppssegment och konverteringar </p> <p> Information om det senaste besöket används för att optimera sidladdningstiden genom att man undviker onödiga förfrågningar till Adobes servrar. </p> <p>Information om den senaste klickningen hjälper till att avgöra om en konverteringshändelse är resultatet av en klickning eller en genomgång (konvertering som är ett resultat av visningar men inga klick). </p> </td> 
+   <td colname="col2"> <p>En cookie från första part som kopplar surfer-ID till relevanta målgruppssegment och konverteringar </p> <p> Information om det senaste besöket används för att optimera sidladdningstiden genom att undvika onödiga förfrågningar till Adobe-servrar. </p> <p>Information om den senaste klickningen hjälper till att avgöra om en konverteringshändelse är resultatet av en klickning eller en genomgång (konvertering som är ett resultat av visningar men inga klick). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Plats </p> </td> 
@@ -135,7 +138,7 @@ Advertising Cloud använder cookies för att mappa annonsengagemangshändelser t
   </tr> 
   <tr> 
    <td colname="col1"> <p>Användning </p> </td> 
-   <td colname="col2"> <p>En tredjeparts, annonsspecifik cookie som synkroniserar Advertising Cloud surfer ID med partnerannonsutbytet. Den skapas för nya surferingar och skickar en synkroniseringsbegäran när den har gått ut. </p> </td> 
+   <td colname="col2"> <p>En tredjeparts-annonsspecifik cookie som synkroniserar Advertising Cloud surfer ID med partnerannonsutbytet. Den skapas för nya surferingar och skickar en synkroniseringsbegäran när den har gått ut. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Plats </p> </td> 
@@ -234,7 +237,7 @@ Advertising Cloud använder cookies för att mappa annonsengagemangshändelser t
   </tr> 
   <tr> 
    <td colname="col1"> <p>Användning </p> </td> 
-   <td colname="col2"> <p>En cookie från tredje part som lagrar det DSP-ID som motsvarar det surfer-ID som finns i cookien everest_g_v2 </p> </td> 
+   <td colname="col2"> <p>En cookie från tredje part som lagrar det DSP-ID som motsvarar surfer-ID:t i cookie-filen everest_g_v2 </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Plats </p> </td> 
