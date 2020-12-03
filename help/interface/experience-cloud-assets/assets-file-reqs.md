@@ -2,23 +2,26 @@
 description: Tillåtna filtyper och storleksbegränsningar för delning av resurser mellan Experience Cloud och Creative Cloud.
 keywords: asset sharing;Creative Cloud;core services
 seo-description: Tillåtna filtyper och storleksbegränsningar för delning av resurser mellan Experience Cloud och Creative Cloud.
-seo-title: Resursfilkrav för delning
+seo-title: Krav för resursfiler för delning
 solution: Experience Cloud
-title: Resursfilkrav för delning
+title: Krav för resursfiler för delning
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
 translation-type: tm+mt
 source-git-commit: af5339fe58ce884345804574c209907d6504a483
+workflow-type: tm+mt
+source-wordcount: '142'
+ht-degree: 0%
 
 ---
 
 
-# Resursfilkrav för delning
+# Krav för resursfiler för delning
 
 Tillåtna filtyper och storleksbegränsningar för delning av resurser mellan Experience Cloud och Creative Cloud.
 
 ## Filtyper som tillåts för överföring {#section_52B6A40BB00B45BC944C01C49B4BB590}
 
-De filtyper du kan överföra är bland annat bilder, dokument och multimedia. Mer information om filformat i [Resurser finns i Format](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal-supported-formats.html) som stöds [!DNL Experience Cloud] .
+Filtyper som du kan överföra är bland annat bilder, dokument och multimedia. Mer information om filformat i [Resurser finns i Format](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal-supported-formats.html) som stöds [!DNL Experience Cloud] .
 
 ## Begränsningar för filstorlek {#section_410ED8E24DBD4136830AE679C6B10D88}
 
