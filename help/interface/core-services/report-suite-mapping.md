@@ -1,13 +1,11 @@
 ---
-description: Lär dig hur du mappar en eller flera rapportsviter till en organisation.
-seo-description: Lär dig hur du mappar en eller flera rapportsviter till en organisation.
-seo-title: Mappa rapportsviter till en organisation
-title: Mappa rapportsviter till en organisation
+description: Lär dig hur du mappar en eller flera rapportsviter till en organisation i Experience Cloud.
+title: Mappa rapportsviter till en organisation | Adobe Experience Cloud
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 translation-type: tm+mt
-source-git-commit: c8d38647750747212c2b825feff600419c1f3352
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1155'
 ht-degree: 1%
 
 ---
