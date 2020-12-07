@@ -1,15 +1,15 @@
 ---
-description: 'null'
+description: Läs mer om villkoren i Adobe Experience Cloud och hur de skiljer sig åt i Creative Cloud.
 keywords: asset sharing;audience services;Creative Cloud;core services
 seo-description: 'null'
 seo-title: Terminologi
 solution: Experience Cloud
-title: Terminologi
+title: Terminologi | Adobe Experience Cloud
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
 translation-type: tm+mt
-source-git-commit: 34c8fa5bbc7524e2193be688e9cda68e134be467
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1484'
 ht-degree: 4%
 
 ---
