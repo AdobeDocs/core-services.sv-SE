@@ -1,10 +1,10 @@
 ---
-title: Customer Attributes Support for California Consumer Privacy Act
+title: Customer Attributes Support for California Consumer Privacy Act | Adobe Experience Cloud
 description: Customer Attributes Support for California Consumer Privacy Act
 translation-type: tm+mt
-source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '424'
 ht-degree: 4%
 
 ---
