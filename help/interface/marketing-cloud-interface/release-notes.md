@@ -1,15 +1,13 @@
 ---
 description: Funktioner, versionsinformation och kända fel i Experience Cloud-gränssnittet.
 keywords: core services
-seo-description: Funktioner, versionsinformation och kända fel i Experience Cloud-gränssnittet.
-seo-title: Ackumulerade versionsinformation
 solution: Experience Cloud
-title: Ackumulerade versionsinformation
+title: Ackumulerade versionsinformation | Adobe Experience Cloud
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 translation-type: tm+mt
-source-git-commit: fa03e384d1dc878d45ef4b8d1f6fe269734ea891
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '3914'
+source-wordcount: '3903'
 ht-degree: 3%
 
 ---
@@ -219,7 +217,7 @@ Ingen information finns tillgänglig
      <li id="li_6E98974CCB094ABBAB57C51ED56C3F00"> <span class="wintitle"> Admin Console</span> </li> 
      <li id="li_8CDAB6301FD44C3999EE4EEB1A0A2FD6">Stöd för Enterprise ID och Federated ID </li> 
     </ul> </td> 
-   <td colname="col2"> <p>Funktionen för användar- och grupphantering har flyttats till Admin Console. Den nya navigeringssökvägen är: </p> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> Administration</span> &gt; <span class="uicontrol"> Starta Admin Console</span></p> <p> Stöd för Enterprise ID och Federated ID har lagts till. Du kan använda Enterprise ID:n, Federated ID:n och Adobe ID:n i samma företagsdistribution. Använd till exempel Adobe ID:n för användare som kan använda andra produkter och tjänster från Adobe. Använd Enterprise ID eller Federated ID för användare där du vill hantera deras konton strikt. </p> </td> 
+   <td colname="col2"> <p>Funktionen för användar- och grupphantering har flyttats till Admin Console. Den nya navigeringssökvägen är: </p> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> Administration</span> &gt; <span class="uicontrol"> Launch Admin Console</span></p> <p> Stöd för Enterprise ID och Federated ID har lagts till. Du kan använda Enterprise ID:n, Federated ID:n och Adobe ID:n i samma företagsdistribution. Använd till exempel Adobe ID:n för användare som kan använda andra produkter och tjänster från Adobe. Använd Enterprise ID eller Federated ID för användare där du vill hantera deras konton strikt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -356,7 +354,7 @@ Nya funktioner och korrigeringar i samarbets- och delningsgränssnittet [!DNL Ad
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Redigera användarbehörigheter </p> </td> 
-   <td colname="col2"> <p>Styrelsemedlemmar kan nu redigera användarbehörigheter på den specifika ritytan. </p> <p> 
+   <td colname="col2"> <p>Styrelsemedlemmar kan nu redigera användarbehörigheter på den aktuella ritytan. </p> <p> 
      <ol id="ol_B12251C510744538AF9BCE60ACB04016"> 
       <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">Klicka på <span class="uicontrol"> Inställningar</span>. </li> 
       <li id="li_0F4786B0E1E743069D082E7DC488A031">Ange <span class="uicontrol"> Ägare</span>, <span class="uicontrol"> Visningsprogram</span>eller <span class="uicontrol"> Redigerare</span>bredvid varje ägare. </li> 
