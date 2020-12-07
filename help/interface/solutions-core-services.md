@@ -3,12 +3,12 @@ description: Lär dig mer om de senaste varumärkesuppdateringarna för molnen, 
 seo-description: Lär dig mer om de senaste varumärkesuppdateringarna för molnen, hur du navigerar i gränssnittet och var du kan hitta hjälp för lösningar och bastjänster.
 seo-title: Om de nya molnnamnen i Experience Cloud
 solution: Experience Cloud
-title: Om de nya molnnamnen i Experience Cloud
+title: Om de nya molnnamnen i Experience Cloud | Adobe Experience Cloud
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
 translation-type: tm+mt
-source-git-commit: 3a2bc2faef572328b69f5828749c990a0083bd1f
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '670'
 ht-degree: 9%
 
 ---
