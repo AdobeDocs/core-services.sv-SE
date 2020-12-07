@@ -1,14 +1,12 @@
 ---
-description: Implementera DNS-förhämtning för att minska sidinläsningstiden med olika lösningar och tjänster.
-seo-description: Implementera DNS-förhämtning för att minska sidinläsningstiden med olika lösningar och tjänster.
-seo-title: Använda DNS-förhämtning med olika lösningar och tjänster
+description: Implementera DNS-förhämtning för att minska sidinläsningstiden med olika lösningar och tjänster i Adobe Experience Cloud.
 solution: Experience Cloud
-title: Använda DNS-förhämtning med olika lösningar och tjänster
+title: Använda DNS-förhämtning med olika lösningar och tjänster | Adobe Experience Cloud
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 translation-type: tm+mt
-source-git-commit: 3e86fe7ee638158b5f9d6fa4405caaeb9b092430
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
