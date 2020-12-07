@@ -3,7 +3,7 @@ description: Läs om Adobe Experience Cloud hantering av användare och produkte
 solution: Experience Cloud
 title: Översikt över Experience Cloud tjänster | Adobe Experience Cloud
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 7dbf1fa59ac856d84309bff6fabe3462bf49ccf1
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 13%
@@ -15,7 +15,9 @@ ht-degree: 13%
 
 Adobe Experience Cloud tjänster omfattar [!UICONTROL People] (målgrupper och kundattribut), Experience Platform Launch och Mobile Services. Du kan även hitta hjälp om användarhantering och produkthantering i Experience Cloud.
 
-Klicka på **[!UICONTROL Application Selector]** om du vill få åtkomst till tjänsterna i Experience Cloud ![](assets/menu-icon.png).
+Om du vill få tillgång till de här tjänsterna i Experience Cloud klickar du på **[!UICONTROL Application Selector]**
+
+![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
 
