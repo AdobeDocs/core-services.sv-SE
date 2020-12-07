@@ -1,13 +1,11 @@
 ---
-description: Så här tar du bort och ersätter attribut i schemat.
-seo-description: Så här tar du bort och ersätter attribut i schemat.
-seo-title: Uppdatera schemat (ta bort ett attribut)
-title: Uppdatera schemat (ta bort ett attribut)
+description: Så här tar du bort och ersätter attribut i schemat i Adobe Experience Cloud.
+title: Uppdatera schemat (ta bort ett attribut) | Adobe Experience Cloud
 uuid: a465fa89-6c7f-4c07-aa59-84c968a82917
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '61'
+source-wordcount: '53'
 ht-degree: 0%
 
 ---
