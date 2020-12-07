@@ -1,13 +1,11 @@
 ---
-description: Många av Adobe Experience Cloud-tjänsterna använder cookies. En cookie är en liten datadel som presenteras av en webbplats för en webbläsare. Webbläsaren lagrar dessa data och returnerar dem sedan till webbplatsen som tillhandahöll dem. Den här åtgärden utförs för varje efterföljande begäran om sidor och bilder.
-seo-description: Många av Adobe Experience Cloud-tjänsterna använder cookies. En cookie är en liten datadel som presenteras av en webbplats för en webbläsare. Webbläsaren lagrar dessa data och returnerar dem sedan till webbplatsen som tillhandahöll dem. Den här åtgärden utförs för varje efterföljande begäran om sidor och bilder.
-seo-title: Cookies som används i Experience Cloud
-title: Cookies som används i Experience Cloud
+description: Läs om hur lösningar och tjänster i Adobe Experience Cloud använder cookies.
+title: Hur cookies används i Experience Cloud | Adobe Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
 translation-type: tm+mt
-source-git-commit: 012283d79bda42f9dabb20b25903927b075f6d54
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '177'
 ht-degree: 0%
 
 ---
