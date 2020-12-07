@@ -1,16 +1,14 @@
 ---
-description: Lär dig mer om att logga in på Admin Console, hantera användarbehörigheter och produktprofiler för Experience Cloud samt webbläsarstöd.
-keywords: core services
-seo-description: Lär dig mer om att logga in på Admin Console, hantera användarbehörigheter och produktprofiler för Experience Cloud samt webbläsarstöd.
-seo-title: Hantera Experience Cloud-användare och -produkter
-solution: Experience Cloud
-title: Hantera Experience Cloud-användare och -produkter
+description: Läs om hur du loggar in på Adobe Admin Console, hanterar användarbehörigheter och produktprofiler för Experience Cloud samt webbläsarstöd.
+keywords: Experience Cloud services
+solution: Adobe Experience Cloud
+title: Lär dig hantera användare och produkter | Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 2f3de19bed1085035785955ee72c94201270fe01
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1428'
-ht-degree: 6%
+source-wordcount: '1408'
+ht-degree: 5%
 
 ---
 
