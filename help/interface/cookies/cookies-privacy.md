@@ -1,15 +1,13 @@
 ---
-description: Att upprätthålla kundens integritet och datasäkerhet är de viktigaste prioriteringarna på Adobe. Adobe deltar i flera integritetsorganisationer och samarbetar med integritetsreglerande organ och självreglerande principer (t.ex. Digital Advertising Alliance AdChoices-programmet) för att förse kunderna med information om hur deras information används och val av hur den används.
+description: Läs om cookies och sekretess i Adobe Experience Cloud lösningar och tjänster.
 keywords: cookies;privacy
-seo-description: Att upprätthålla kundens integritet och datasäkerhet är de viktigaste prioriteringarna på Adobe. Adobe deltar i flera integritetsorganisationer och samarbetar med integritetsreglerande organ och självreglerande principer (t.ex. Digital Advertising Alliance AdChoices-programmet) för att förse kunderna med information om hur deras information används och val av hur den används.
-seo-title: Om cookies och sekretess
 solution: Experience Cloud,Analytics,Target
-title: Om cookies och sekretess
+title: Översikt över cookies och sekretess | Adobe Experience Cloud
 uuid: 7fb36845-6282-438a-bbc6-0c3cf95de1c9
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
