@@ -1,15 +1,13 @@
 ---
-description: I takt med att stödet för cookies från tredje part har blivit allt mer begränsat i olika webbläsare har Adobe arbetat med nya lösningar som noggrant balanserar kundens krav med konsumentens rätt till integritet i alla Adobe Experience Cloud-lösningar.
+description: Läs om hur stödet för cookies från tredje part har blivit allt mer begränsat i olika webbläsare.
 keywords: cookies;privacy
-seo-description: I takt med att stödet för cookies från tredje part har blivit allt mer begränsat i olika webbläsare har Adobe arbetat med nya lösningar som noggrant balanserar kundens krav med konsumentens rätt till integritet i alla Adobe Experience Cloud-lösningar.
-seo-title: Hur ändringar i stödet för cookies från tredje part påverkar kunderna
 solution: Experience Cloud,Analytics,Target
-title: Hur ändringar i stödet för cookies från tredje part påverkar kunderna
+title: Hur ändringar av cookie-support från tredje part påverkar kunderna | Adobe Experience Cloud
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '298'
 ht-degree: 1%
 
 ---
