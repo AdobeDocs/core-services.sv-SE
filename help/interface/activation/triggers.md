@@ -4,12 +4,12 @@ keywords: integrations;Triggers
 seo-description: Så här konfigurerar du Experience Cloud-utlösare.
 seo-title: Utlösare
 solution: Experience Cloud
-title: Utlösare
+title: Översikt över utlösare | Adobe Experience Cloud
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '666'
 ht-degree: 1%
 
 ---
