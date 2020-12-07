@@ -1,16 +1,14 @@
 ---
 description: Ta bort användare som har blockerat alla cookies i webbläsare på datorer och mobila enheter. Den här sekretessinställningen exkluderar användare som avanmäler sig från datainsamlingen i Analytics.
 keywords: cookies;privacy
-seo-description: Ta bort användare som har blockerat alla cookies i webbläsare på datorer och mobila enheter. Den här sekretessinställningen exkluderar användare som avanmäler sig från datainsamlingen i Analytics.
-seo-title: Aktivera sekretessinställningar för webbläsarcookies
 solution: Experience Cloud, Analytics, Target, Social
-title: Aktivera sekretessinställningar för webbläsarcookies
+title: Aktivera sekretessinställningar för webbläsarcookies | Adobe Experience Cloud
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 0%
+source-wordcount: '294'
+ht-degree: 1%
 
 ---
 
