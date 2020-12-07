@@ -1,11 +1,11 @@
 ---
-title: Publicera ett målgruppssegment i Analytics
-description: Publicera ett målgruppssegment i Analytics för Experience Cloud och Adobe Target för målgruppsmarknadsföringsaktiviteter.
+title: Publicera ett målgruppssegment i Analytics | Adobe Experience Cloud
+description: Publicera ett Adobe Analytics-segment för målgruppsmarknadsföring i Experience Cloud och Adobe Target.
 translation-type: tm+mt
-source-git-commit: 631cf29b724c6edd8027c772789df72ae2ab5eb8
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 16%
+source-wordcount: '68'
+ht-degree: 14%
 
 ---
 
