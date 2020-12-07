@@ -1,15 +1,13 @@
 ---
-description: Audience Manager förlitar sig på några enkla cookies för att utföra olika funktioner. Det kan vara till exempel att tilldela ID:n, spela in datainanrop, felspårning och testa om cookies kan anges. I det här avsnittet listas och beskrivs de olika cookies som har angetts av Audience Manager.
+description: Läs mer om Audience Manager cookies i Adobe Experience Cloud.
 keywords: cookies
-seo-description: Audience Manager förlitar sig på några enkla cookies för att utföra olika funktioner. Det kan vara till exempel att tilldela ID:n, spela in datainanrop, felspårning och testa om cookies kan anges. I det här avsnittet listas och beskrivs de olika cookies som har angetts av Audience Manager.
-seo-title: Audience Manager Cookies
 solution: Experience Cloud, Audience Manager
-title: Audience Manager Cookies
+title: Audience Manager Cookies | Adobe Experience Cloud
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 translation-type: tm+mt
-source-git-commit: 11ce83401a12c25853cd6412413b8abf98dd6612
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '611'
 ht-degree: 2%
 
 ---
