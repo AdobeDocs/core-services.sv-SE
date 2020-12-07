@@ -1,15 +1,13 @@
 ---
-description: Med valideringsprocessen kan du mappa visningsnamn och beskrivningar till överförda attribut (strängar, heltal, tal och så vidare). Ett schema skapas baserat på dessa inställningar. Schemat används för att validera alla framtida data som överförs till den här datakällan. Denna mappningsprocess ändrar inte originaldata.
-keywords: Customer Attributes;core services
-seo-description: Med valideringsprocessen kan du mappa visningsnamn och beskrivningar till överförda attribut (strängar, heltal, tal och så vidare). Ett schema skapas baserat på dessa inställningar. Schemat används för att validera alla framtida data som överförs till den här datakällan. Denna mappningsprocess ändrar inte originaldata.
-seo-title: Validera schemat
+description: Lär dig hur du validerar kundattributschemat i Adobe Experience Cloud.
+keywords: Customer Attributes;Experience Cloud services
 solution: Experience Cloud
-title: Validera schemat
+title: Så här validerar du kundattributschemat | Adobe Experience Cloud
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '429'
 ht-degree: 0%
 
 ---
