@@ -1,15 +1,13 @@
 ---
-description: Datafilskrav och flera datakällor för överföring av kundattribut till Experience Cloud.
+description: Datafilskrav och flera datakällor för överföring av kundattribut till Adobe Experience Cloud.
 keywords: Customer Attributes;core services
-seo-description: Datafilskrav och flera datakällor för överföring av kundattribut till Experience Cloud.
-seo-title: Om datafiler och datakällor för kundattribut
 solution: Experience Cloud
-title: Om datafiler och datakällor för kundattribut
+title: Läs mer om datafiler och datakällor för kundattribut | Adobe Experience Cloud
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: 0bc7032d0052ba03beac1140dfbfd630e1802bfd
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
