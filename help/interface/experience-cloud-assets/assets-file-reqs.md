@@ -1,21 +1,19 @@
 ---
-description: Tillåtna filtyper och storleksbegränsningar för delning av resurser mellan Experience Cloud och Creative Cloud.
+description: Läs om tillåtna filtyper och storleksbegränsningar för delning av resurser mellan Adobe Experience Cloud och Creative Cloud.
 keywords: asset sharing;Creative Cloud;core services
-seo-description: Tillåtna filtyper och storleksbegränsningar för delning av resurser mellan Experience Cloud och Creative Cloud.
-seo-title: Krav för resursfiler för delning
 solution: Experience Cloud
-title: Krav för resursfiler för delning
+title: Filkrav för delning av resurser | Adobe Experience Cloud
 uuid: 1621accf-c407-437b-ae12-61f13cc338d0
 translation-type: tm+mt
-source-git-commit: af5339fe58ce884345804574c209907d6504a483
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
 
 
-# Krav för resursfiler för delning
+# Filkrav för delning av resurser
 
 Tillåtna filtyper och storleksbegränsningar för delning av resurser mellan Experience Cloud och Creative Cloud.
 
