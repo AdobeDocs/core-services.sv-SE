@@ -1,14 +1,12 @@
 ---
-description: Dela mappar och resurser mellan Experience Cloud och Creative Cloud. Samarbeta, kommentera i delade resurser och använd dem i Experience Cloud-lösningar som Adobe Social och Adobe Target. Den delade mappen måste komma från Experience Cloud.
+description: 'Lär dig hur du delar mappar och resurser mellan Experience Cloud och Creative Cloud. '
 keywords: asset sharing;Creative Cloud;core services
-seo-description: Dela mappar och resurser mellan Experience Cloud och Creative Cloud. Samarbeta, kommentera i delade resurser och använd dem i Experience Cloud-lösningar som Adobe Social och Adobe Target. Den delade mappen måste komma från Experience Cloud.
-seo-title: Dela Experience Cloud-mappar och -resurser med Creative Cloud
 solution: Experience Cloud
-title: Dela Experience Cloud-mappar och -resurser med Creative Cloud
+title: Dela Experience Cloud-mappar och -resurser med Creative Cloud | Adobe Experience Cloud
 translation-type: tm+mt
-source-git-commit: 31811e718be130612c8688e80084cb7579e94f47
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---
