@@ -1,10 +1,10 @@
 ---
-title: Kundattribut Stöd för allmänna dataskyddsregler
-description: Kundattribut Stöd för allmänna dataskyddsregler
+title: Kundattribut Stöd för allmänna dataskyddsregler | Adobe Experience Cloud
+description: Läs mer om stöd för kundattribut i den allmänna dataskyddsförordningen
 translation-type: tm+mt
-source-git-commit: 4223f9260865756842ad43b99d2509908f4d6572
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '425'
 ht-degree: 1%
 
 ---
