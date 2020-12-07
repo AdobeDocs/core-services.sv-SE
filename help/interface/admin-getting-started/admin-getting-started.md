@@ -1,11 +1,11 @@
 ---
 description: Läs om hur du loggar in på Adobe Admin Console, hanterar användarbehörigheter och produktprofiler för Experience Cloud samt webbläsarstöd.
 keywords: Experience Cloud services
-solution: Adobe Experience Cloud
+solution: Experience Cloud
 title: Lär dig hantera användare och produkter | Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: dae4bbecc05ed6a78470354f82e4e3cd8f003660
 workflow-type: tm+mt
 source-wordcount: '1408'
 ht-degree: 5%
