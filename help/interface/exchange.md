@@ -1,16 +1,14 @@
 ---
-description: Exchange Marketplace är en enda målplats där du kan söka, bläddra bland, välja ut, betala och hämta tillägg för digital marknadsföring via appar. Apparna innehåller dataanslutningar, anpassade konfigurationer för Adobe Core-produkter, program från tredje part och rapporter.
+description: Läs mer om Exchange Marketplace, en enda målplats där du kan söka, bläddra bland, välja ut, betala och hämta tillägg för digital marknadsföring via appar.
 keywords: core services
-seo-description: Exchange Marketplace är en enda målplats där du kan söka, bläddra bland, välja ut, betala och hämta tillägg för digital marknadsföring via appar. Apparna innehåller dataanslutningar, anpassade konfigurationer för Adobe Core-produkter, program från tredje part och rapporter.
-seo-title: Exchange Marketplace
 solution: Experience Cloud
-title: Exchange Marketplace
+title: Exchange Marketplace | Adobe Experience Cloud
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 7dbf1fa59ac856d84309bff6fabe3462bf49ccf1
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 5%
+source-wordcount: '131'
+ht-degree: 3%
 
 ---
 
