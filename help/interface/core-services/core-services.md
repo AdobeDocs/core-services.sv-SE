@@ -1,15 +1,13 @@
 ---
-description: Implementera Experience Cloud och bli administratör. Den här processen moderniserar era lösningar för funktioner som kundattribut och målgrupper.
+description: Lär dig hur du implementerar Adobe Experience Cloud och blir administratör.
 keywords: core services;Customer Attributes
-seo-description: Implementera Experience Cloud och bli administratör. Den här processen moderniserar era lösningar för funktioner som kundattribut och målgrupper.
-seo-title: Möjliggör era Experience Cloud-lösningar för kundattribut och målgrupper
 solution: Experience Cloud
-title: Möjliggör era lösningar för bastjänsterna
+title: Möjliggör era lösningar för bastjänsterna | Adobe Experience Cloud
 index: true
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2278'
 ht-degree: 2%
 
 ---
