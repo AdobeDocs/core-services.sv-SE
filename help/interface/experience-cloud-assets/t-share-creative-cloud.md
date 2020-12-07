@@ -1,15 +1,13 @@
 ---
-description: Dela en resursmapp för Experience Cloud med Creative Cloud-användare.
+description: Så här delar du en resursmapp för Experience Cloud med Creative Cloud-användare.
 keywords: asset sharing;Creative Cloud;core services
-seo-description: Dela en resursmapp för Experience Cloud med Creative Cloud-användare.
-seo-title: Dela en Experience Cloud-resursmapp
 solution: Experience Cloud
-title: Dela en Experience Cloud-resursmapp
+title: Dela en Experience Cloud-resursmapp | Adobe Experience Cloud
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 translation-type: tm+mt
-source-git-commit: 43de353155c640b3ddc519147c94d7e9ffcafe4e
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '287'
 ht-degree: 2%
 
 ---
