@@ -1,16 +1,14 @@
 ---
-description: Självhjälp, produktdokumentation och teknisk dokumentation för Adobe Experience Cloud. Inkluderar användar- och produktadministration i Admin Console, möjliggör lösningar för plattformstjänster och hjälp om målgruppsbiblioteket, kundattribut, Experience Cloud Assets med flera.
-keywords: platform services
-seo-description: Hjälp med användar- och produktadministration i Admin Console, aktivera lösningar för plattformstjänster och hjälp om Audience Library, Customer Attributes, Experience Cloud Assets med flera.
-seo-title: Adobe Experience Cloud och plattformstjänster hjälper och produktdokumentation.
+description: Läs mer om användar- och produktadministration i Adobe Admin Console, aktivera lösningar för Experience Cloud och läs mer om Audience Library, Customer Attributes, Experience Cloud Assets med flera.
+keywords: Adobe Experience Cloud services, customer attributes, audiences, user and product administration
 solution: Experience Cloud
-title: Experience Cloud och plattformstjänster
+title: Experience Cloud och administration | Adobe Experience Cloud
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 translation-type: tm+mt
-source-git-commit: 570cf3bd7cb86a701006e64d14ddf45c4cd24426
+source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 18%
+source-wordcount: '420'
+ht-degree: 20%
 
 ---
 
