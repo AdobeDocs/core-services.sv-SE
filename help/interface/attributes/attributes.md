@@ -1,23 +1,23 @@
 ---
-description: Lär dig kundattribut i Adobe Experience Cloud.
+description: Lär dig mer om tjänsten Customer Attributes i Adobe Experience Cloud och hur du överför data för användning i Analytics och Target.
 keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
 solution: Experience Cloud
-title: Tjänsten Kundattribut | Adobe Experience Cloud
+title: Så här använder du kundattribut | Adobe Experience Cloud
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: efa3c21a7d93cf1f81d0529be18235e833b02769
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 2%
+source-wordcount: '472'
+ht-degree: 1%
 
 ---
 
 
-# Kundattribut i Adobe Experience Cloud
+# Så här använder du kundattribut i Adobe Experience Cloud
+
+Med kundattribut i Adobe Experience Cloud kan du överföra dina hämtade företagsdata från en CRM-databas (customer relationship management). Du kan överföra data till en datakälla för kundattribut i Experience Cloud och sedan använda data i Adobe Analytics och Adobe Target.
 
 Navigera till **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
-
-Om du samlar in data om företagskunder i en CRM-databas (customer relationship management) kan du överföra dessa data till en datakälla för kundattribut i Experience Cloud. När data har överförts kan du utnyttja dem i [!DNL Adobe Analytics] och [!DNL Adobe Target].
 
 ![](assets/custom_reports.png)
 
@@ -31,7 +31,7 @@ Om du samlar in data om företagskunder i en CRM-databas (customer relationship 
 
    Användare som läggs till i kundattributen ser menyalternativet till vänster i Experience Cloud-gränssnittet [!UICONTROL Customer Attributes] .
 
-* **Adobe Target** [!DNL at.js] (valfri version) eller [!DNL mbox.js] version 58 eller senare krävs för kundattribut.
+* **Adobe Target** `at.js` (valfri version) eller `mbox.js` version 58 eller senare krävs för kundattribut.
 
    Se [Så här distribuerar du at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) eller implementering [av](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)Mbox.js.
 
@@ -47,7 +47,7 @@ När du har skapat datafilen kan du överföra den till kundattributkällan som 
 
 Mer information om det här arbetsflödet finns i [Överför kundattributdata](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) .
 
-## Användningsexempel för lösning {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
+## Exempel på kundattribut i Analytics och Target {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
 När data finns i Experience Cloud kan ni anpassa dem och dela dem till lösningar för rapportering, segmentering, aktiviteter och kampanjer.
 
