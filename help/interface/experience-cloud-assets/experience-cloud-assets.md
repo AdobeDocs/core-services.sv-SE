@@ -1,12 +1,12 @@
 ---
-description: Läs mer om Experience Cloud Assets.
+description: Lär dig mer om Experience Cloud Assets som du kan dela mellan olika lösningar.
 solution: Experience Cloud
 title: Översikt över Experience Cloud Assets | Adobe Experience Cloud
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 2376fa2edf0477515f6e0cfe31af4821c9c6b86c
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
