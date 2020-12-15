@@ -2,12 +2,12 @@
 description: Hur Adobe Scene7 använder cookies för att lagra användbar information som kan användas för att leverera dynamiska medier till webbläsaren.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: Scene7 Cookies | Adobe Experience Cloud
+title: 'Scene7 Cookies '
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '411'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ För AS2-visningsprogram, cookies:
 
 Cookies för visningsprogrammet för AS2 Flash eCatalog:
 
-* Lagra användargenererat innehåll (mest märkbart innehåll som användaren matar in i funktionen&quot;klisterlappar&quot; i visningsprogrammet). Innehållet återställs när användaren återupptar en session.
+* Lagra användargenererat innehåll (mest märkbart innehåll som användaren matar in i funktionen &quot;notislappar&quot; i visningsprogrammet för e-kataloger). Innehållet återställs när användaren återupptar en session.
 * När användaren initierar ett e-postmeddelande för att dela katalogen med en annan användare, kopieras anteckningsinnehållet från den andra AS2-visningsprogrampunkten till våra servrar för att ge mottagaren det. När mottagaren initierar visningsprogramsessionen hämtas anteckningsinnehållet från servern och kopieras till en cookie. Den här funktionen används sällan, så den upphör inte att gälla och inaktuellt innehåll tas inte bort. För närvarande finns den kvar på servrarna på obestämd tid.
 
 De nyare AS3-visningsprogrammen implementerar inte sessionens beständighet.
