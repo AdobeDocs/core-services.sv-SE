@@ -2,13 +2,13 @@
 description: Lär dig hur du använder attributregler för att skapa en målgrupp och definiera en sammansatt målgrupp i Adobe Experience Cloud.
 keywords: core services
 solution: Experience Cloud
-title: Skapa en målgrupp | Adobe Experience Cloud
+title: 'Skapa en målgrupp '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 translation-type: tm+mt
-source-git-commit: dae4bbecc05ed6a78470354f82e4e3cd8f003660
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 2%
+source-wordcount: '443'
+ht-degree: 3%
 
 ---
 
