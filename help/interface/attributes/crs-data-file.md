@@ -2,12 +2,12 @@
 description: Datafilskrav och flera datakällor för överföring av kundattribut till Adobe Experience Cloud.
 keywords: Customer Attributes;core services
 solution: Experience Cloud
-title: Läs mer om datafiler och datakällor för kundattribut | Adobe Experience Cloud
+title: 'Läs mer om datafiler och datakällor för kundattribut '
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1191'
 ht-degree: 0%
 
 ---
