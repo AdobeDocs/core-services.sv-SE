@@ -2,12 +2,12 @@
 description: Läs om Adobe Analytics cookies i Adobe Experience Cloud.
 keywords: cookies;privacy
 solution: Experience Cloud,Analytics,Target
-title: Så här använder du Adobe Analytics Cookies | Adobe Experience Cloud
+title: 'Så här använder du Adobe Analytics Cookies '
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '757'
 ht-degree: 2%
 
 ---
