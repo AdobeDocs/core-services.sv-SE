@@ -2,12 +2,12 @@
 description: Överväganden och bästa praxis gällande personligt identifierbar information (PII) som överförts och används i Adobe Experience Cloud.
 keywords: Customer Attributes;core services
 solution: Experience Cloud
-title: Sekretessöverväganden för kundattribut | Adobe Experience Cloud
+title: 'Sekretessöverväganden för kundattribut '
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '515'
 ht-degree: 0%
 
 ---
