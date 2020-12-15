@@ -2,12 +2,12 @@
 description: Om du inte överför med dra och släpp kan du överföra kundattributdata via FTP till Experience Cloud.
 keywords: Customer Attributes;core services
 solution: Experience Cloud
-title: Överför kundattributdatafilen via FTP | Adobe Experience Cloud
+title: 'Överför kundattributdatafilen via FTP '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '265'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Du kan överföra data när du har skapat en kundattributskälla och ett FTP-kon
 >
 >Granska [datafilskraven för överföring av kundattribut](../attributes/crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) innan du överför filen.
 
-Filöverföring till FTP-webbplatsen för kundattribut kan göras via FTP eller SFTP.
+Filöverföring till FTP-webbplatsen för kundattribut kan göras via FTP eller SFTP:
 
 * Du behöver en klient som stöder SFTP-anslutningar.
 * Du kan ansluta med SFTP med antingen användarnamn/lösenord eller utan lösenord, vilket beskrivs [här](https://docs.adobe.com/help/en/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
