@@ -2,12 +2,12 @@
 description: Lär dig hur du implementerar Adobe Experience Cloud och blir administratör.
 keywords: core services;Customer Attributes
 solution: Experience Cloud
-title: Möjliggör era lösningar för bastjänsterna | Adobe Experience Cloud
+title: 'Möjliggör era lösningar för bastjänsterna '
 index: true
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '2278'
+source-wordcount: '2272'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ För befintliga kunder kan ni behöva modernisera era lösningar och implementer
 
 ## Steg 1. Gå med i Experience Cloud och bli administratör {#section_2423F0BD3DF642658103310EE5EA6154}
 
-Vad du behöver göra för att gå med i Experience Cloud:
+Vad du måste göra för att gå med i Experience Cloud:
 
 ![](assets/step1_icon.png) Kontrollera att du har rätt SKU för Adobe Analytics eller Adobe Target.
 
@@ -94,7 +94,7 @@ Om du inte använder [!UICONTROL Experience Platform Launch] eller [!UICONTROL D
 | Uppgift | Beskrivning |
 | -----------| ---------- |  
 | [Implementera Experience Cloud ID-tjänsten för analys](https://docs.adobe.com/content/help/en/id-service/using/implementation/setup-analytics.html) | Adobe rekommenderar även att du anger ytterligare [kund-ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). Dessa ID:n är kopplade till varje besökare och aktiverar nuvarande och framtida funktioner i Experience Cloud. |
-| Uppdatera din befintliga version [!DNL s_code] till version H.27.3 eller senare, eller din befintliga [!DNL AppMeasurement.js] till version 1.4 eller senare. | De här filerna är tillgängliga för hämtning i [kodhanteraren](https://docs.adobe.com/content/help/sv-SE/analytics/admin/admin-tools/code-manager-admin.html) i administrationsverktygen för analyser.  (Handboken för [JavaScript-implementering](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) finns tillgänglig om du behöver mer information om [!DNL AppMeasurement.js].) |
+| Uppdatera din befintliga version [!DNL s_code] till version H.27.3 eller senare, eller din befintliga [!DNL AppMeasurement.js] till version 1.4 eller senare. | De här filerna är tillgängliga för hämtning i [kodhanteraren](https://docs.adobe.com/content/help/sv-SE/analytics/admin/admin-tools/code-manager-admin.html) i administrationsverktygen för analyser. (Handboken för [JavaScript-implementering](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) finns tillgänglig om du behöver mer information om [!DNL AppMeasurement.js].) |
 | Synkronisera kund-ID för Analytics | Se [Analytics - synching the customer ID](../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437) (below). |
 
 ## Analytics &amp; Adobe Target - synkronisera kund-ID {#section_AD473A6A21C1446498E700363F9A8437}
@@ -173,7 +173,7 @@ När du har distribuerat Experience Cloud ID-tjänsten får nya besökare inte l
 
 Om supportavsnittet på webbplatsen till exempel hanteras i ett separat CMS-system kan du ha en annan Analytics JavaScript-fil för det här avsnittet. Om du distribuerar Experience Cloud ID på huvudwebbplatsen innan du distribuerar ID-tjänsten till supportwebbplatsen får nya besökare ett äldre Analytics ID när de besöker supportavsnittet, och besök som sträcker sig över båda webbplatsavsnitten rapporteras som olika besök.
 
-Om du distribuerar Experience Cloud ID-tjänsten på webbplatser som använder flera JavaScript-filer eller andra tekniker (till exempel Flash) kan det orsaka problem med samordningen eftersom du måste aktivera Experience Cloud ID-tjänsten på alla delar av platsen samtidigt. Genom att konfigurera en respitperiod kan nya besökare fortsätta att ta emot ett besökar-ID för Analytics från ID-tjänsten, så att besökare kan identifieras på ett konsekvent sätt på delar av webbplatsen som inte har uppgraderats för att använda besökar-ID-tjänsten.
+Om du distribuerar Experience Cloud ID-tjänsten på webbplatser som använder flera JavaScript-filer eller andra tekniker (till exempel Flash) kan det orsaka samordningsproblem eftersom du måste aktivera Experience Cloud ID-tjänsten på alla delar av platsen samtidigt. Genom att konfigurera en respitperiod kan nya besökare fortsätta att ta emot ett besökar-ID för Analytics från ID-tjänsten, så att besökare kan identifieras på ett konsekvent sätt på delar av webbplatsen som inte har uppgraderats för att använda besökar-ID-tjänsten.
 
 ## Steg 7. Hantera användare och produkter {#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF}
 
@@ -212,7 +212,7 @@ När man utnyttjar bastjänsterna som tillhandahålls via [!UICONTROL People] tj
 * [!DNL Analytics] nyckel-/värdepar (props, eVars, list-var o.s.v.). Som standard innehåller loggraderna IP-adress, inklusive IP-adressens sista oktett (förutsatt att IP-adressen inte har ändrats av inställningarna för IP-förfalskning i Adobe [!DNL Analytics]).
 * Fackar och segment som besökare är kvalificerade för baserat på regler som har upprättats i Audience Manager.
 * (Valfritt) Ett eller flera av dina ID:n. Beroende på din implementering av ID-tjänsten kan du även skicka in ett eller flera av dina ID:n, till exempel CRM-ID:n eller hash-kodade e-postadresser. Om dessa data skickas till Adobe [!DNL Analytics]överförs de till Adobe målgruppshantering. Adobe rekommenderar att man inte lämnar personuppgifter till Adobe [!DNL Analytics]. Använd i stället en envägshash för att maskera data innan de skickas till Adobe.
-* Segment som härrör från [!DNL Analytics] segmentdelning via bakomliggande segment.
+* Segment som härrör från [!DNL Analytics] segmentdelning via back-end
 * Cookien demdex.net anges om cookies från tredje part inte blockeras. Den första `AMCV_###@AdobeOrg` -parts-cookien ställs alltid in med Experience Cloud ID-tjänsten.
 
 Alla dessa dataelement levereras till Adobe Audience Manager i form av loggfiler. Audience Manager bearbetar och lagrar dessa data i USA. Audience Manager har inget alternativ för att lagra eller bearbeta dessa data utanför USA.
