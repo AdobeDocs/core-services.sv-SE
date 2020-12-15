@@ -4,12 +4,12 @@ keywords: asset sharing;audience services;Creative Cloud;core services
 seo-description: 'null'
 seo-title: Terminologi
 solution: Experience Cloud
-title: Terminologi | Adobe Experience Cloud
+title: 'Terminologi '
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '1484'
+source-wordcount: '1481'
 ht-degree: 4%
 
 ---
