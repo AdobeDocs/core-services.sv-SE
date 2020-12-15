@@ -4,12 +4,12 @@ keywords: core services
 seo-description: Aktiveringen innehåller den senaste tagghanteringsprodukten som kallas Experience Platform Launch. Dynamic Tag Management (DTM) och Triggers.
 seo-title: Aktivering
 solution: Experience Cloud
-title: Aktiveringstjänster i Experience Cloud | Adobe Experience Cloud
+title: Aktiveringstjänster i Experience Cloud
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 4%
 
 ---
