@@ -1,11 +1,11 @@
 ---
 description: Läs om Adobe Ad Cloud cookies för att mappa annonsevenemang till konverteringshändelser och, eventuellt, använda informationen för att optimera annonsinbjudandena.
-title: Advertising Cloud Cookies | Adobe Experience Cloud
+title: 'Advertising Cloud Cookies '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '521'
 ht-degree: 3%
 
 ---
