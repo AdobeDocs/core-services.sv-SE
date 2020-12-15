@@ -2,12 +2,12 @@
 description: Läs om hur Adobe Data Connectors använder cookies för att förse annonsörer med optimerade mått för kampanjprestanda och konverteringsprestanda över flera annonskanaler.
 keywords: cookies;privacy
 solution: Experience Cloud, Analytics, Target
-title: Cookies för dataanslutningar | Adobe Experience Cloud
+title: 'Cookies för dataanslutningar '
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '75'
+source-wordcount: '72'
 ht-degree: 1%
 
 ---
