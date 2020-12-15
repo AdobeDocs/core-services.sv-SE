@@ -2,12 +2,12 @@
 description: Lär dig mer om lösningsdatakällor och hur du konfigurerar prenumerationer. Prenumerationer möjliggör dataflöde mellan Experience Cloud och lösningar för kundattribut (Analytics och Target).
 keywords: Customer Attributes;core services
 solution: Experience Cloud
-title: Konfigurera prenumerationer | Adobe Experience Cloud
+title: 'Konfigurera prenumerationer '
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
 translation-type: tm+mt
-source-git-commit: 4bea0c29afa580dc63b21535ce5c275cd649c9a5
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
