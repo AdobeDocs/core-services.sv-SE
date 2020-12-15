@@ -2,12 +2,12 @@
 description: Lär dig mer om tjänsten Customer Attributes i Adobe Experience Cloud och hur du överför data för användning i Analytics och Target.
 keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
 solution: Experience Cloud
-title: Så här använder du kundattribut | Adobe Experience Cloud
+title: 'Så här använder du kundattribut '
 uuid: 1621402d-990f-46f9-981a-473280559069
 translation-type: tm+mt
-source-git-commit: aceb1ddf150795cc76f246f8a54e9740ebed8916
+source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '469'
 ht-degree: 1%
 
 ---
