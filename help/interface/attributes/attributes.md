@@ -1,13 +1,13 @@
 ---
-description: Lär dig mer om tjänsten Customer Attributes i Adobe Experience Cloud och hur du överför data för användning i Analytics och Target.
-keywords: core services;Customer Attributes; Adobe Experience Cloud; Analytics; Target
+title: Så här använder du kundattribut
+description: Läs mer om tjänsten Customer Attributes i Adobe Experience Cloud. Ta reda på hur du kan överföra data för användning i Adobe Analytics och Adobe Target.
 solution: Experience Cloud
-title: 'Så här använder du kundattribut '
-uuid: 1621402d-990f-46f9-981a-473280559069
+feature: Customer Attributes
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 654b13b2053df2c91b4c539b4d37b66c6008d759
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '473'
 ht-degree: 1%
 
 ---
@@ -21,19 +21,19 @@ Navigera till **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UIC
 
 ![](assets/custom_reports.png)
 
-## Krav för överföring av kundattribut {#section_BD38693AFBF34926BA28E964963B4EA0}
+## Krav för att överföra kundattribut {#section_BD38693AFBF34926BA28E964963B4EA0}
 
-* **Aktivera lösning:** [Använd era lösningar för Experience Platform-tjänster](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
+* **Aktivera lösningar:** [Aktivera lösningar för Experience Platform-tjänster](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C).
 
-* **Gruppmedlemskap:** Om du vill överföra kundattributdata måste användarna vara medlemmar i gruppen [](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)Kundattribut. Du måste också tillhöra en Adobe Analytics-grupp eller en Adobe Target-grupp.
+* **Gruppmedlemskap:** För att kunna överföra kundattributdata måste användarna vara medlemmar i gruppen [ ](../admin-getting-started/admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9)Kundattribut. Du måste också tillhöra en Adobe Analytics-grupp eller en Adobe Target-grupp.
 
-   Om du vill veta om ditt företag har tillgång till kundattribut bör din [!DNL Experience Cloud] administratör logga in på [Experience Cloud](https://experience.adobe.com). Navigera till **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Om *kundattribut* visas som ett av [!UICONTROL Product Profiles]alternativen är du redo att börja.
+   Om du vill veta om ditt företag har tillgång till kundattribut ska [!DNL Experience Cloud]-administratören logga in på [Experience Cloud](https://experience.adobe.com). Navigera till **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Om *kundattribut* visas som en av [!UICONTROL Product Profiles] är du redo att börja.
 
-   Användare som läggs till i kundattributen ser menyalternativet till vänster i Experience Cloud-gränssnittet [!UICONTROL Customer Attributes] .
+   Användare som läggs till i kundattributen kan se menyalternativet [!UICONTROL Customer Attributes] till vänster om Experience Cloud.
 
-* **Adobe Target** `at.js` (valfri version) eller `mbox.js` version 58 eller senare krävs för kundattribut.
+* **Adobe Target** `at.js`  (valfri version) eller  `mbox.js` version 58 eller senare krävs för kundattribut.
 
-   Se [Så här distribuerar du at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) eller implementering [av](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html)Mbox.js.
+   Se [Så här distribuerar du at.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/deploy-at-js/how-to-deployatjs.html) eller [implementering av Mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mbox-download.html).
 
 ## Vad är företagsdata? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
@@ -43,9 +43,9 @@ Följande bild är ett exempel på en datafil som visar prenumerationsdata för 
 
 ![](assets/01_crs_usecase.png)
 
-När du har skapat datafilen kan du överföra den till kundattributkällan som du skapar i **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]**.
+När du har skapat datafilen kan du överföra den till kundattributskällan som du skapar i **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]**.
 
-Mer information om det här arbetsflödet finns i [Överför kundattributdata](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78) .
+Mer information om det här arbetsflödet finns i [Överför kundattributdata](../attributes/t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
 
 ## Exempel på kundattribut i Analytics och Target {#section_4E77650F6CEE4C4ABCD0B3221A5AE5D9}
 
