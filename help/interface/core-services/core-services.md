@@ -5,9 +5,9 @@ solution: Experience Cloud
 title: 'Möjliggör era lösningar för bastjänsterna '
 index: true
 translation-type: tm+mt
-source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '2271'
 ht-degree: 2%
 
 ---
@@ -32,21 +32,21 @@ För befintliga kunder kan ni behöva modernisera era lösningar och implementer
 
 Vad du måste göra för att gå med i Experience Cloud:
 
-![](assets/step1_icon.png) Kontrollera att du har rätt SKU för Adobe Analytics eller Adobe Target.
+1. Kontrollera att du har rätt SKU för Adobe Analytics eller Adobe Target.
 
-* **Adobe Analytics:** Standard eller Premium (inte den äldre  [!DNL SiteCatalyst] SKU:n).
-* **Adobe Target:** Standard eller Premium.
+   * **Adobe Analytics:** Standard eller Premium (inte den äldre  [!DNL SiteCatalyst] SKU:n).
+   * **Adobe Target:** Standard eller Premium.
 
->[!NOTE]
->
->För [!DNL Target] migrerar du till at.js från [!DNL mbox.js]. Se [Uppgradera från at.js 1. x till at.js 2. x](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
+   >[!NOTE]
+   >
+   >För [!DNL Target] migrerar du till at.js från [!DNL mbox.js]. Se [Uppgradera från at.js 1. x till at.js 2. x](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
 
-![](assets/step2_icon.png) Modernisera implementeringen och få status som administratör.
+1. Modernisera implementeringen och få status som administratör.
 
-1. Följ stegen nedan i [Distribuera [!UICONTROL Experience Cloud ID Service]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354).
-1. Kontakta din kontohanterare och starta provisioneringsprocessen för Experience Cloud.
+   * Följ stegen nedan i [Implementera [!UICONTROL Experience Cloud ID Service]](../core-services/core-services.md#section_3C9F6DF37C654D939625BB4D485E4354).
+   * Kontakta din kontohanterare och starta provisioneringsprocessen för Experience Cloud.
 
-![](assets/step3_icon.png) Hantera användare och produkter i  [!UICONTROL Admin Console].
+1. Hantera användare och produkter i [!UICONTROL Admin Console].
 
 ### Administratörsinloggning
 
@@ -54,18 +54,18 @@ När du är administratör kan du logga in på [experienceCloud.adobe.com](https
 
 Länken **[!UICONTROL Administration]** visas i navigeringen på Experience Cloud-menyn.
 
-Mer information finns i [Experience Cloud-användare och produktadministration](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
+Mer information finns i [Experience Cloud och produktadministration](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
 
 ### Användarinloggning
 
 För att kunna logga in på Experience Cloud måste dina användare:
 
-1. Ha en Adobe ID (eller ett Enterprise ID för ditt företag).
-1. Logga in på [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com).
-1. Tillhör en lösningsgrupp som är mappad till en företagsgrupp.
-1. Länka vid behov deras lösningskonton till deras Adobe ID (beskrivs nedan).
+* Ha en Adobe ID (eller ett Enterprise ID för ditt företag).
+* Logga in på [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com).
+* Tillhör en lösningsgrupp som är mappad till en företagsgrupp.
+* Länka vid behov deras lösningskonton till deras Adobe ID (beskrivs nedan).
 
-![](assets/step4_icon.png) Valfritt: Länka befintliga användarkonton.
+### Valfritt: Länka befintliga användarkonton.
 
 Troligen har du användare som redan är medlemmar i lösningsgrupper, till exempel en Analytics-grupp som du tidigare har hanterat i [!UICONTROL Analytics] > [!UICONTROL Admin Tools].
 
