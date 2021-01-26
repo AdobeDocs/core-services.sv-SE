@@ -1,12 +1,12 @@
 ---
-audience: admin
+audience: administrator
 user-guide-title: 'Adobe Experience Cloud Services och administration '
 breadcrumb-title: Experience Cloud Services och administration
 user-guide-description: Lär dig hur du hanterar användare och produkter i Adobe Experience Cloud och hur du använder kundattribut och målgruppsbibliotek. Läs också om cookies och Experience Cloud Assets.
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 11%
@@ -17,7 +17,7 @@ ht-degree: 11%
 # Experience Cloud Services och administration {#interface}
 
 + [Experience Cloud Services och administration](experience-cloud.md)
-+ Experience Cloud {#about-core-services}
++ Experience Cloud services {#about-core-services}
    + [Experience Cloud services overview](core-services-landing.md)
    + [Aktivera implementeringen för tjänster som omfattar flera lösningar](core-services/core-services.md)
    + [Mappa rapportsviter till en organisation](core-services/report-suite-mapping.md)
@@ -37,7 +37,7 @@ ht-degree: 11%
    + [[!DNL Target] cookies](cookies/cookies-target.md)
    + [Aktivera sekretessinställningar för webbläsarcookies](cookies/browser-cookie-settings.md)
    + [Hur ändringar av cookie-support från tredje part påverkar kunder](cookies/cookies-thirdparty.md)
-+ User and product management {#manage-users-and-products}
++ Hantering av användare och produkter {#manage-users-and-products}
    + [Hantera användaridentitet och -produkter i Experience Cloud (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Visa användarinformation för Experience Cloud (administrationsverktyget)](admin-getting-started/admin-tool-experience-cloud.md)
    + [Vanliga frågor](admin-getting-started/faq.md)
@@ -49,7 +49,7 @@ ht-degree: 11%
    + [Användarhandbok för Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html)
    + [Användarhandbok för Dynamic Tag Manager](https://docs.adobe.com/content/help/sv-SE/dtm/using/dtm-home.html)
    + [Utlösare](activation/triggers.md)
-+ Experience Cloud assets {#assets}
++ Experience Cloud-resurser {#assets}
    + [Översikt över Experience Cloud-resurser](experience-cloud-assets/experience-cloud-assets.md)
    + [Dela Experience Cloud-mappar och -resurser med Creative Cloud](experience-cloud-assets/creative-cloud.md)
    + [Hantera Creative Cloud-användare](experience-cloud-assets/t-admin-add-cc-user.md)
