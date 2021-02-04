@@ -1,15 +1,15 @@
 ---
 description: Aktiveringen innehåller den senaste tagghanteringsprodukten som kallas Experience Platform Launch. Dynamic Tag Management (DTM) och Triggers.
-keywords: core services
+keywords: bastjänster
 seo-description: Aktiveringen innehåller den senaste tagghanteringsprodukten som kallas Experience Platform Launch. Dynamic Tag Management (DTM) och Triggers.
 seo-title: Aktivering
-solution: Experience Cloud
+solution: Experience Cloud Services
 title: Aktiveringstjänster i Experience Cloud
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 119bbd98e78fe55ae30ef874e2125fa196221363
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '439'
 ht-degree: 4%
 
 ---
@@ -25,9 +25,9 @@ Driftsätt och hantera de analyser, marknadsförings- och annonstaggar som behö
 
 Se [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
 
-## Dynamic Tag Management {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
+## Dynamisk tagghantering {#section_C7E000EEF3E6459FB4B6D4A8960DD8F0}
 
-Om du vill starta Dynamic Tag Management klickar du på **[!UICONTROL Activation]** och skickar en begäran till Adobe Provisioning Team. Du bör få inloggningsuppgifterna inom en till två arbetsdagar.
+Om du vill starta Dynamic Tag Management klickar du på **[!UICONTROL Activation]** och skickar en begäran till Adobe provisioneringsteam. Du bör få inloggningsuppgifterna inom en till två arbetsdagar.
 
 <table id="table_3241FF7CA0B242BFAFC68362A62AA0C7"> 
  <thead> 
@@ -38,15 +38,15 @@ Om du vill starta Dynamic Tag Management klickar du på **[!UICONTROL Activation
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html" format="html" scope="external"> Distribuera Adobe Analytics </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html" format="html" scope="external"> Distribuera Adobe Analytics  </a> </p> </td> 
    <td colname="col2"> <p> Stegvisa instruktioner för att lägga till Adobe Analytics med Adobe Dynamic Tag Management </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Implementeringsguider för tjänsten Experience Cloud ID </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/implementation-guides.html" format="html" scope="external"> Implementeringsguider för tjänsten Experience Cloud ID  </a> </p> </td> 
    <td colname="col2"> <p>Experience Cloud ID-tjänsten möjliggör grundläggande funktionalitet i alla Experience Cloud-lösningar (inklusive kundattribut, målgruppsdelning och triggers). Adobe rekommenderar starkt att du implementerar ID-tjänsten och utnyttjar dessa funktioner. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/sv-SE/dtm/using/dtm-home.html" format="https" scope="external"> Produktdokumentation för dynamisk tagghantering </a> </p> </td> 
+   <td colname="col1"> <p> <a href="https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html" format="https" scope="external"> Produktdokumentation för dynamisk tagghantering  </a> </p> </td> 
    <td colname="col2"> <p>Lär dig mer om att driftsätta Experience Cloud-lösningar med dynamisk tagghantering. </p> </td>
   </tr> 
  </tbody> 
@@ -56,7 +56,7 @@ Om du vill ha hjälp med att implementera dynamisk tagghantering rekommenderar v
 
 ## Utlösare i Experience Cloud{#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
-*Utlösare* gör det möjligt för marknadsförare att definiera och övervaka viktiga konsumentbeteenden och sedan generera kommunikation mellan olika lösningar för användning i realtidsbeslut och personalisering.
+*Marknadsförarna* kan definiera och övervaka viktiga konsumentbeteenden och sedan generera kommunikation mellan olika lösningar för användning i realtidsbeslut och personalisering.
 
 <table id="table_AF6842470172429EA97C9B02163BD0C3"> 
  <thead> 
@@ -67,7 +67,7 @@ Om du vill ha hjälp med att implementera dynamisk tagghantering rekommenderar v
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <a href="../activation/triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB" format="dita" scope="local"> Skapa utlösare för Experience Cloud </a> </p> </td> 
+   <td colname="col1"> <p> <a href="../activation/triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB" format="dita" scope="local"> Skapa utlösare för Experience Cloud  </a> </p> </td> 
    <td colname="col2"> <p> Stegvisa instruktioner för att skapa utlösare för Experience Cloud med Adobe Analytics-data. </p> <p>Experience Cloud-utlösare är tillgängliga för användning i Adobe Campaign. </p> </td>
   </tr>
   <tr> 
@@ -82,4 +82,4 @@ Om du vill ha hjälp med att implementera dynamisk tagghantering rekommenderar v
 
 Adobe Experience Cloud Debugger-tillägget för Chrome undersöker dina webbsidor och hjälper dig att hitta problem med hur dina Experience Cloud-lösningar implementeras.
 
-Se [Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html) för hjälp.
+Mer information finns i [Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html).
