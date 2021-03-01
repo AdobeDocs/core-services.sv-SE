@@ -3,10 +3,10 @@ description: Läs om Adobe Ad Cloud cookies för att mappa annonsevenemang till 
 title: 'Advertising Cloud Cookies '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 26b2af2196253632f1590efc3e5d1e208436b7d6
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 3%
+source-wordcount: '538'
+ht-degree: 4%
 
 ---
 
@@ -97,7 +97,7 @@ Advertising Cloud använder cookies för att mappa annonsengagemang till konvert
   </tr> 
   <tr> 
    <td colname="col1"> <p>Förfaller </p> </td> 
-   <td colname="col2"> <p>2 år </p> </td> 
+   <td colname="col2"> <p>Cookies som sätts den 24 februari 2021 eller tidigare upphör att gälla efter 730 dagar. Cookies som sätts den 25 februari 2021 eller senare upphör att gälla efter 364 dagar.</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Användning </p> </td> 
