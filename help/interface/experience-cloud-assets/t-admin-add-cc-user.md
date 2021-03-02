@@ -1,14 +1,18 @@
 ---
 description: 'Lär dig mer om administrationsverktyg för hantering av godkända Creative Cloud-användare i Experience Cloud. '
-keywords: asset sharing;Creative Cloud;core services
+keywords: resursdelning;Creative Cloud;bastjänster
 solution: Experience Cloud
 title: 'Hantera Creative Cloud-användare '
 uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
+feature: Assets
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 2%
+source-wordcount: '116'
+ht-degree: 4%
 
 ---
 
