@@ -2,13 +2,15 @@
 title: Så här använder du kundattribut
 description: Läs mer om tjänsten Customer Attributes i Adobe Experience Cloud. Lär dig hur du överför kundattributdata för användning i Adobe Analytics och Adobe Target.
 solution: Experience Cloud
-feature: Experience Cloud Customer Attributes
-role: Administrator
+feature: Kundattribut
+role: Administratör
+topic: Administrering
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 87676bd0159ec0a4505799b0ca6b70a604f0a61f
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 1%
+source-wordcount: '473'
+ht-degree: 2%
 
 ---
 
@@ -55,5 +57,5 @@ Exempel:
 
 | Lösning | Fördelar och användningsområden |
 |--- |--- |
-| Adobe Analytics | Marknadsförare och analytiker kan förstå:<ul><li>De onlinekampanjer som är mest effektiva för era kunder på guldnivå.</li><li>De produkter som kunder på guldnivå söker efter jämfört med produkter som kunder på platinanivå söker efter.</li><li>Om omdesignen av webbplatsen har en positiv inverkan på konverteringsgraden för äldre kunder.</li><li>Vilka produkter har kunder med lågt livstidsvärde en tendens att hitta på min webbplats.</li></ul> |
+| Adobe Analytics | Marknadsförare och analytiker kan förstå:<ul><li>De onlinekampanjer som är mest effektiva för era kunder på guldnivå.</li><li>De produkter som kunder på guldnivå söker efter jämfört med produkter som kunder på platinanivå söker efter.</li><li>Huruvida omdesignen av webbplatsen har en positiv inverkan på konverteringsgraden för äldre kunder.</li><li>Vilka produkter har kunder med lågt livstidsvärde en tendens att hitta på min webbplats.</li></ul> |
 | Adobe Target | Med attributdata kan Adobe Target-användare:<ul><li>Visa specialrabatter och erbjudanden för medlemmar i lojalitetsklubben.</li><li>Rekommendera dyrare produkter till era lyxkunder.</li><li>För kunder som redan får e-postmeddelanden kan du visa ett merförsäljningserbjudande i det utrymme som normalt är reserverat för e-postregistreringar</li></ul> |
