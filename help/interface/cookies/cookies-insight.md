@@ -1,14 +1,18 @@
 ---
 description: Hur Data Workbench använder cookies för att analysera stora mängder snabbt föränderliga data i realtid.
-keywords: cookies;privacy
+keywords: cookies;sekretess
 solution: Experience Cloud,Analytics,Target
 title: 'Data Workbench Cookies '
 uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
+feature: Cookies
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 2%
+source-wordcount: '93'
+ht-degree: 5%
 
 ---
 
