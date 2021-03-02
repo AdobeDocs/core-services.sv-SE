@@ -1,12 +1,16 @@
 ---
 description: Lär dig mer om Experience Cloud Assets som du kan dela mellan olika lösningar.
 solution: Experience Cloud
-title: 'Översikt över Experience Cloud Assets '
+title: Översikt över resurser
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
+feature: Assets
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
