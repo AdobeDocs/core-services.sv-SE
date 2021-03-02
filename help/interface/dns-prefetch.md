@@ -1,13 +1,17 @@
 ---
-description: Implementera DNS-förhämtning för att minska sidinläsningstiden med olika lösningar och tjänster i Adobe Experience Cloud.
+description: Lär dig hur du implementerar DNS-förhämtning för att minska sidinläsningstiden med olika lösningar och tjänster i Experience Cloud.
 solution: Experience Cloud
 title: 'Använda DNS-förhämtning med olika lösningar och tjänster '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
+feature: '"Kundattribut, målgruppsbibliotek, Admin Console"'
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 0%
+source-wordcount: '387'
+ht-degree: 1%
 
 ---
 
@@ -16,22 +20,22 @@ ht-degree: 0%
 
 Implementera DNS-förhämtning för att minska sidinläsningstiden med olika lösningar och tjänster.
 
-## Om DNS-förhämtning {#section_772BF9CB7C4141DE9B0355146E2CD962}
+## DNS-förhämtning {#section_772BF9CB7C4141DE9B0355146E2CD962}
 
 Webbläsare använder DNS-förhämtning för att automatiskt matcha domännamn som är länkade på en webbsida med deras motsvarande IP-adresser. Förhämtningsprocessen startar när webbläsaren läser in en webbsida. Anta att sidan innehåller en klickbar länk till `www.adobe.com`. När en webbläsare läser in den här sidan använder den [DNS-systemet](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/) för att söka efter det länkade domännamnet och matcha det med en motsvarande numerisk IP-adress. DNS-förhämtning hjälper till att förbättra sidans prestanda eftersom domännamnet redan har matchats med en IP-adress innan en besökare klickar på länken eller knappen. DNS-förhämtningsprocessen är genomskinlig för användarna.
 
 ## DNS-förhämtning och Adobe Experience Cloud-lösningar {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
-DNS-förhämtning fungerar automatiskt med statiska, inbäddade länkar på en sida. Detta innebär också att automatisk DNS-förhämtning inte fungerar med olika [!UICONTROL Experience Cloud] lösningar och tjänster eftersom:
+DNS-förhämtning fungerar automatiskt med statiska, inbäddade länkar på en sida. Detta innebär också att automatisk DNS-förhämtning inte fungerar med olika [!UICONTROL Experience Cloud]-lösningar och -tjänster eftersom:
 
 * Varje Experience Cloud-lösning eller tjänst genererar DNS-anrop dynamiskt när sidan läses in.
 * Webbläsaren kan inte matcha domännamn med IP-adress innan dessa anrop görs.
 
-Du kan dock implementera DNS-förhämtning manuellt med dina Experience Cloud-lösningar. Det gör du genom att lägga till HTML- `<dns-prefetch>` taggen i sidkodens `<head>` avsnitt enligt nedan. DNS-förhämtning kan spara några millisekunder av sidinläsningstiden när den implementeras på rätt sätt.
+Du kan dock implementera DNS-förhämtning manuellt med dina Experience Cloud-lösningar. Det gör du genom att lägga till HTML-taggen `<dns-prefetch>` i `<head>`-avsnittet i sidkoden enligt nedan. DNS-förhämtning kan spara några millisekunder av sidinläsningstiden när den implementeras på rätt sätt.
 
-## Exempel på DNS-förhämtningskod {#section_E886F7B2861E48BA9EF3D8B3CE32B345}
+## DNS-förhämtningskodexempel {#section_E886F7B2861E48BA9EF3D8B3CE32B345}
 
-I följande exempel visas hur du gör DNS-förhämtningsanrop till olika [!DNL Experience Cloud] lösningar och tjänster. Vissa förhämtningsanrop kräver ditt företags-ID eller din spårningsserverinformation [!DNL Adobe] . I de här exemplen representerar koden i *kursiv stil* en variabelplatshållare. Du skulle ersätta koden med ditt eget partner-ID, kundkod eller spårningsserverinformation, osv. [!DNL Adobe]
+I följande exempel visas hur du gör DNS-förhämtningsanrop till olika [!DNL Experience Cloud]-lösningar och -tjänster. Vissa förhämtningsanrop kräver ditt [!DNL Adobe] organisations-ID eller spårningsserverinformation. I de här exemplen representerar koden i *kursiv* en variabelplatshållare. Du skulle ersätta den koden med ditt eget [!DNL Adobe] partner-ID, kundkod eller spårningsserverinformation osv.
 
 * **Analytics:** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
 
@@ -41,7 +45,7 @@ I följande exempel visas hur du gör DNS-förhämtningsanrop till olika [!DNL E
 
 * **Experience Cloud ID-tjänst:** `<link rel="dns-prefetch" href="//fast. *`infoga partner-ID här`*.demdex.net">`
 
-* **Dynamic Tag Manager** (DTM): Krävs inte. DTM-länkar är tillgängliga så snart sidan läses in.
+* **Dynamic Tag Manager**  (DTM): Krävs inte. DTM-länkar är tillgängliga så snart sidan läses in.
 
 * **Media Optimizer (Ad Cloud):**
 
