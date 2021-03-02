@@ -1,14 +1,18 @@
 ---
-description: Adobe Experience Cloud använder cookies för att lagra ett besökar-ID som används mellan Experience Cloud Solutions.
-keywords: cookies;privacy
+description: Lär dig hur ID-tjänsterna lagras och används i olika Experience Cloud-lösningar.
+keywords: cookies;sekretess
 solution: Experience Cloud,Analytics,Target
 title: 'Experience Cloud Cookies '
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
+feature: Cookies
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 6%
+source-wordcount: '350'
+ht-degree: 7%
 
 ---
 
@@ -56,9 +60,9 @@ Adobe Experience Cloud använder cookies för att lagra ett besökar-ID som anv�
 
 **Cookie-namn: AMCV_###@AdobeOrg**
 
-I [Experience Platform ID-tjänsten](https://docs.adobe.com/content/help/sv-SE/id-service/using/home.html) används JavaScript för att lagra ett unikt besökar-ID i en `AMCV_###@AdobeOrg` cookie på den aktuella webbplatsens domän, där `###` representerar en slumpmässig teckensträng, till exempel `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+I [Experience Platform ID-tjänsten](https://docs.adobe.com/content/help/sv-SE/id-service/using/home.html) används JavaScript för att lagra ett unikt besökar-ID i en `AMCV_###@AdobeOrg`-cookie på den aktuella webbplatsens domän, där `###` representerar en slumpmässig teckensträng, till exempel `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-Se även [cookies och ID-tjänsten](https://docs.adobe.com/content/help/sv-SE/id-service/using/intro/cookies.html).
+Se även [Cookies och ID-tjänsten](https://docs.adobe.com/content/help/sv-SE/id-service/using/intro/cookies.html).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
