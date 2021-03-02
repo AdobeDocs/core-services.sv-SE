@@ -1,12 +1,16 @@
 ---
 description: Ta reda på hur du hanterar användarbehörigheter och produktprofiler för Adobe Experience Cloud. Läs om hur du loggar in på Adobe Admin Console och webbläsarstöd för Experience Cloud.
 solution: Admin
-title: 'Hantera användare och produkter '
+title: 'Hantering av användare och produkter '
 index: true
+feature: Admin Console
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 119bbd98e78fe55ae30ef874e2125fa196221363
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1395'
 ht-degree: 5%
 
 ---
