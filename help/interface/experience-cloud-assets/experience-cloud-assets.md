@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: 'Översikt över Experience Cloud Assets '
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
 workflow-type: tm+mt
 source-wordcount: '321'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Översikt över Experience Cloud Assets
 
-Experience Cloud Assets utgör ett enda centralt arkiv av marknadsföringsmaterial som ni kan dela mellan olika lösningar. En resurs är ett digitalt dokument, en bild, en video eller ett ljud (eller en del av ett) som kan ha flera återgivningar och kan ha underresurser (t.ex. lager i en [!DNL Photoshop] fil, bilder i en [!DNL PowerPoint] fil, sidor i en PDF-fil, filer i en ZIP-fil).
+Experience Cloud Assets utgör ett enda centralt arkiv av marknadsföringsmaterial som ni kan dela mellan olika lösningar. En resurs är ett digitalt dokument, en bild, en video eller ett ljud (eller en del av ett) som kan ha flera återgivningar och kan ha underresurser (t.ex. lager i en [!DNL Photoshop]-fil, bilder i en [!DNL PowerPoint]-fil, sidor i en PDF-fil, filer i en ZIP-fil).
 
 Tillgångstjänster:
 
@@ -28,7 +28,7 @@ Genom att använda mediefiler blir det enhetligare och varumärkeskommunikatione
 * **[!DNL Media Optimizer]**: Utveckla annonsenheter i olika kanaler och kampanjer
 * **[!DNL Campaign]**: Lägg in resurser i nyhetsbrev och kampanjer via e-post.
 
-I [!UICONTROL Experience Cloud Assets]kan du:
+I [!UICONTROL Experience Cloud Assets] kan du:
 
 * [Navigera till Experience Cloud Assets](../experience-cloud-assets/experience-cloud-assets.md#section_3657039DD3524F2AA88753BFF4781125)
 * [Öppna verktygsfältet](../experience-cloud-assets/experience-cloud-assets.md#section_EC2E401D225148818F3753248556BE6B)
@@ -44,7 +44,7 @@ I [!UICONTROL Experience Cloud Assets]kan du:
 
 ![](assets/asset-nav.png)
 
-## Öppna verktygsfältet {#section_EC2E401D225148818F3753248556BE6B}
+## Gå till verktygsfältet {#section_EC2E401D225148818F3753248556BE6B}
 
 Navigera till en resurs (eller resurskatalog) och klicka sedan på **[!UICONTROL Select]**.
 
@@ -64,19 +64,19 @@ Redigering av en mediefil möjliggör bland annat följande funktioner:
 
 ## Sök efter resurser {#section_50FE049010B446FC9640AA6A30E5A730}
 
-Du kan söka efter nyckelord, filtyp, storlek, senaste ändring, publiceringsstatus, orientering och stil.
+Du kan söka efter nyckelord, filtyp, storlek, senaste ändring, publiceringsstatus, orientering och format.
 
 ![](assets/asset-search.png)
 
 ## Anteckna resurser {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-Klicka **[!UICONTROL Annotate]** genom att rita cirklar eller pilar på en bild och anteckna resursen för granskning av medarbetare.
+Klicka på **[!UICONTROL Annotate]** genom att rita cirklar eller pilar på en bild och anteckna resursen för granskning av medarbetare.
 
 ![](assets/assets-annotate.png)
 
 ## Visa resurser i helskärmsläge och zooma {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-Klicka **[!UICONTROL Views]** > **[!UICONTROL Image]** om du vill visa hela bilden och aktivera zoomning.
+Klicka på **[!UICONTROL Views]** > **[!UICONTROL Image]** för att visa hela resursbilden och aktivera zoomning.
 
 ![](assets/asset-zoom.png)
 
@@ -84,7 +84,7 @@ Klicka **[!UICONTROL Views]** > **[!UICONTROL Image]** om du vill visa hela bild
 
 Välj mellan kortvyn med egenskaper, listvy och kolumnvy för att enklare hitta resurser.
 
-Klicka **[!UICONTROL Views]** > **[!UICONTROL Properties]** om du vill visa en resurs egenskaper:
+Klicka på **[!UICONTROL Views]** > **[!UICONTROL Properties]** för att visa en resurs egenskaper:
 
 ![](assets/asset-properties.png)
 
