@@ -1,18 +1,22 @@
 ---
 title: 'Customer Attributes Support for California Consumer Privacy Act '
-description: Customer Attributes Support for California Consumer Privacy Act
+description: Läs mer om stöd för Kundattribut i Kaliforniens konsumentintegritetslag
+feature: Kundattribut
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 4%
+source-wordcount: '428'
+ht-degree: 5%
 
 ---
 
 
 # Customer Attributes support for California Consumer Privacy Act
 
-Den här sidan beskriver [!UICONTROL Customer Attributes'] stödet för California Consumer Privacy Act (CCPA).
+Den här sidan beskriver [!UICONTROL Customer Attributes']-stödet för California Consumer Privacy Act (CCPA).
 
 >[!IMPORTANT]
 >
@@ -24,13 +28,13 @@ Som företag avgör du vilka personuppgifter Adobe Experience Cloud behandlar oc
 
 Som tjänsteleverantör tillhandahåller Adobe Experience Cloud support för ditt företag så att det kan uppfylla sina skyldigheter enligt CCPA som är tillämpliga på användningen av produkter och tjänster från Experience Cloud, inklusive hantering av förfrågningar om åtkomst och radering av personuppgifter.
 
-I det här dokumentet beskrivs hur du [!UICONTROL Customer Attributes] stöder de registrerade personernas CCPA-dataåtkomst och borttagningsrättigheter med hjälp av Adobe Experience Platform Privacy Service API och Privacy Servicens användargränssnitt.
+Det här dokumentet beskriver hur [!UICONTROL Customer Attributes] stöder de registrerade personernas CCPA-dataåtkomst och borttagningsrättigheter med hjälp av Adobe Experience Platform Privacy Service API och Privacy Servicens användargränssnitt.
 
 Mer information om sekretessavtal för CCPA för Adobe finns i [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html).
 
-## Nödvändig konfiguration för att skicka begäranden [!UICONTROL Customer Attributes]
+## Nödvändig konfiguration för att skicka begäranden för [!UICONTROL Customer Attributes]
 
-Om du vill begära åtkomst till och ta bort data för [!UICONTROL Customer Attributes]måste du:
+Om du vill begära åtkomst till och ta bort data för [!UICONTROL Customer Attributes] måste du:
 
 1. Identifiera följande:
 
@@ -40,7 +44,7 @@ Om du vill begära åtkomst till och ta bort data för [!UICONTROL Customer Attr
 
    Ett IMS-organisations-ID är en 24 tecken lång alfanumerisk sträng som läggs till med @AdobeOrg. Om ditt marknadsföringsteam eller den interna systemadministratören i Adobe inte känner till din organisations IMS-organisation kan du kontakta Adobe kundtjänst på gdprsupport@adobe.com. Du måste ha IMS-organisations-ID för att kunna skicka begäranden till sekretess-API:t.
 
-1. I [!UICONTROL Privacy Service]kan du skicka in begäran om åtkomst och borttagning till kundattribut och kontrollera status för befintliga begäranden.
+1. I [!UICONTROL Privacy Service] kan du skicka in begäranden om åtkomst och borttagning till kundattribut och kontrollera status för befintliga begäranden.
 
 ## Obligatoriska fältvärden i [!UICONTROL Customer Attributes] JSON-begäranden
 
@@ -51,9 +55,9 @@ företagskontext:
 
 &quot;användare&quot;:
 
-* &quot;key&quot;: &lt;*vanligtvis kundens* namn>
+* &quot;key&quot;: &lt;*vanligtvis kundens namn*>
 
-* &quot;action&quot;: antingen **åtkomst** eller **radering**
+* &quot;action&quot;: antingen **åtkomst** eller **ta bort**
 
 * användar-ID:
 
@@ -63,7 +67,7 @@ företagskontext:
 
    * &quot;value&quot;: &lt;*CRM-ID*>
 
-* &quot;include&quot;: **CRS** (som är den Adobe-produkt som är tillämplig på begäran)
+* &quot;include&quot;: **CRS** (som är den Adobe-produkt som gäller för begäran)
 
 * reglering: **ccpa** (som är den sekretessregel som gäller för begäran)
 
