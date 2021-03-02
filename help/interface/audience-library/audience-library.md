@@ -3,10 +3,15 @@ solution: Experience Cloud
 type: Dokumentation
 title: 'Adobe Experience Cloud-målgrupper '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
+description: Lär dig hur du hanterar översättning av besöksdata till målgruppssegmentering i Experience Cloud Audience-tjänsten.
+feature: Målgruppsbibliotek
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '784'
+source-wordcount: '806'
 ht-degree: 4%
 
 ---
