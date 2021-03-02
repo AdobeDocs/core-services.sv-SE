@@ -1,13 +1,17 @@
 ---
 description: Lär dig mer om regler för hur delade mappar fungerar när de flyttas, tas bort och återställs i Experience Cloud.
-keywords: asset sharing;Creative Cloud;core services
+keywords: resursdelning;Creative Cloud;bastjänster
 solution: Experience Cloud
 title: 'Beteende för delade mappar '
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
+feature: Assets
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: '571'
 ht-degree: 0%
 
 ---
@@ -29,7 +33,7 @@ Du flyttar en mapp som inte delas till en delad mapp:
 
 **Resultat**: Båda mapparna delas.
 
-## Delad mapp i en mapp som inte delas {#section_8BA83001DCEC4CF084B980C4A660F59A}
+## Delad mapp i odelad mapp {#section_8BA83001DCEC4CF084B980C4A660F59A}
 
 Du flyttar en delad mapp till en mapp som inte delas.
 
@@ -45,7 +49,7 @@ Du flyttar innehåll från en mapp som inte delas till en delad mapp.
 
 **Resultat:** Innehållet delas nu och alla medarbetare kan se det. Lagringsutrymmet ökar med innehållets storlek.
 
-## Arkiverat och borttaget delat innehåll {#section_5210D5F4943A44D0BA675D8EB4EAE20F}
+## Arkiverat och tagit bort delat innehåll {#section_5210D5F4943A44D0BA675D8EB4EAE20F}
 
 Du arkiverar eller tar bort innehåll som finns i en delad mapp.
 
@@ -53,15 +57,15 @@ Du arkiverar eller tar bort innehåll som finns i en delad mapp.
 
 **Resultat:** Innehållet arkiveras för mappens ägare. Medarbetare som inte äger innehållet kan inte längre komma åt det.
 
-## Ägt delat innehåll till en mapp som inte delas {#section_3810A364B67E4B8C9CA244BC52BF91BB}
+## Ägt delat innehåll till en odelad mapp {#section_3810A364B67E4B8C9CA244BC52BF91BB}
 
 Du flyttar innehåll från en delad mapp som du äger till en mapp som inte delas.
 
 ![](assets/05_assets_move.png)
 
-**Resultat:** Innehållet delas nu inte. Medarbetarna i den delade mappen har inte längre åtkomst till innehållet.
+**Resultat:** Innehållet delas inte nu. Medarbetarna i den delade mappen har inte längre åtkomst till innehållet.
 
-## Innehåll som inte delas till en mapp som inte delas {#section_310766EBF0DC4C0BB4AB3E8A4DAEBE07}
+## Innehåll som inte delas till en odelad mapp {#section_310766EBF0DC4C0BB4AB3E8A4DAEBE07}
 
 Du flyttar innehåll från en delad mapp som ägs av någon annan till en mapp som inte delas.
 
@@ -71,7 +75,7 @@ Du flyttar innehåll från en delad mapp som ägs av någon annan till en mapp s
 
 Ägare och redigerare kan flytta innehåll som de inte äger, men tittarna kan inte det. Om ägare och redigerare flyttar innehåll är det inte tillgängligt i en delad mapp för någon användare.
 
-## Mappen har arkiverats eller tagits bort {#section_B314B13512A5409C87C49DFDB7602E14}
+## Arkiverad eller borttagen ägd mapp {#section_B314B13512A5409C87C49DFDB7602E14}
 
 Du arkiverar (via webben) eller tar bort (via skrivbordet) en delad mapp som du äger.
 
