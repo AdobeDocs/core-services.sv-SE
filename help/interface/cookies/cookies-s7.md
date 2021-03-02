@@ -1,14 +1,18 @@
 ---
 description: Hur Adobe Scene7 använder cookies för att lagra användbar information som kan användas för att leverera dynamiska medier till webbläsaren.
-keywords: cookies;privacy
+keywords: cookies;sekretess
 solution: Experience Cloud,Analytics,Target
 title: 'Scene7 Cookies '
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
+feature: Cookies
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 0%
+source-wordcount: '417'
+ht-degree: 1%
 
 ---
 
@@ -38,7 +42,7 @@ De nyare AS3-visningsprogrammen implementerar inte sessionens beständighet.
 | Information lagrad | Anger sessionscookie. Det AuthFilter som är inbäddat i IPS ImageServer (IS, IR och även SWF-filer/skal och videokontexter) använder cookien för åtkomstauktorisering. Om det finns tillåter det att HTTP-begäranden skickas igenom. Annars returneras obehörig. |
 | Förfaller | Denna cookie är en sessionscookie. Den aktuella sessionens förfallotid är inställd på 45 minuter i Scene7 IPS [!DNL web.xml]. |
 
-**Cookie-namn: s7js.flyout.InfoMessage.displayed `assetId`.state**
+**Cookie-namn: s7js.flyout.InfoMessage.displayed  `assetId`.state**
 
 <table id="table_6835D64C5D464A049F576621F2BE3FAD"> 
  <thead> 
@@ -50,7 +54,7 @@ De nyare AS3-visningsprogrammen implementerar inte sessionens beständighet.
  <tbody> 
   <tr> 
    <td colname="col1"> Information lagrad </td> 
-   <td colname="col2"> <p>&lt;assetId&gt; är namnet på resursen som visningsprogrammet arbetar med. </p> </td> 
+   <td colname="col2"> <p>&lt;assetid&gt; är namnet på resursen som visningsprogrammet arbetar med. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Förfaller </td> 
@@ -73,7 +77,7 @@ Webbläsarcookies används av äldre DHTML-visningsprogram för att lagra status
  <tbody> 
   <tr> 
    <td colname="col1"> Information lagrad </td> 
-   <td colname="col2"> <p> </p> <p> &lt;assetId&gt; är namnet på resursen som visningsprogrammet arbetar med och &lt;id&gt; är det 0-baserade anteckningsindexet. </p> </td> 
+   <td colname="col2"> <p> </p> <p> &lt;assetid&gt; är namnet på resursen som visningsprogrammet arbetar med och  &lt;id&gt; är det nollbaserade anteckningsindexet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Förfaller </td> 
