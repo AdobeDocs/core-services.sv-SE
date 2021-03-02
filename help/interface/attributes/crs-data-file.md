@@ -1,13 +1,17 @@
 ---
-description: Datafilskrav och flera datakällor för överföring av kundattribut till Adobe Experience Cloud.
-keywords: Customer Attributes;core services
+description: Läs mer om krav på datafiler och flera datakällor för överföring av kundattribut till Experience Cloud.
+keywords: Kundattribut;bastjänster
 solution: Experience Cloud
 title: 'Läs mer om datafiler och datakällor för kundattribut '
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
+feature: Kundattribut
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '1191'
+source-wordcount: '1200'
 ht-degree: 0%
 
 ---
@@ -17,9 +21,9 @@ ht-degree: 0%
 
 Datafilskrav och flera datakällor för överföring av kundattribut till Experience Cloud.
 
-Du behöver åtkomst till CRM eller liknande data från ditt företag. De data du överför till Experience Cloud måste vara en `.csv` fil. Om du överför via FTP eller sFTP överför du även en `.fin` fil.
+Du behöver åtkomst till CRM eller liknande data från ditt företag. De data som du överför till Experience Cloud måste vara en `.csv`-fil. Om du överför via FTP eller sFTP överför du även en `.fin`-fil.
 
-Kundattribut är utformat för att hantera ett fåtal filer per dag. För att minska problemet med att ha ett stort antal små filer som försenar bearbetningen dirigeras filer som skickas inom 30 minuter från en tidigare batch från samma organisation till en kö med lägre prioritet.
+Kundattribut är utformat för att hantera några filer per dag. För att minska problemet med att ha ett stort antal små filer som försenar bearbetningen dirigeras filer som skickas inom 30 minuter från en tidigare batch från samma organisation till en kö med lägre prioritet.
 
 ## Tillåtna filtyper och namnkrav {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
 
@@ -32,21 +36,21 @@ Kundattribut är utformat för att hantera ett fåtal filer per dag. För att mi
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>En fil med kommaavgränsade värden (t.ex. en som skapats i Excel). Det här är filen som innehåller kundattributdata. </p> <p> <b>Namngivningskrav:</b> Kontrollera att filnamnstilläggen inte innehåller blanksteg. </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> .csv  </span> </p> </td> 
+   <td colname="col2"> <p>En fil med kommaavgränsade värden (t.ex. en som skapats i Excel). Det här är filen som innehåller kundattributdata. </p> <p> <b>Namngivningskrav:</b> Kontrollera att filnamnstillägg inte innehåller blanksteg. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
-   <td colname="col2"> <p>(Obligatoriskt) <span class="filepath"> .fin- </span> filen talar om för systemet att du är klar med överföringen av data. Namnet på <span class="filepath"> .fin- </span> filen måste matcha namnet på <span class="filepath"> .csv- </span> filen. </p> <p>Adobe rekommenderar att du skapar en tom textfil med <span class="filepath"> tillägget .fin </span> . En tom fil sparar utrymme och laddningstid. </p> <p> <p>Obs!  Det går inte att ändra namn på en <span class="filepath"> .fin- </span> fil efter att den har överförts. FIN- <span class="filepath"></span> filen måste överföras separat och kan inte ha bytt namn, tidigare överförd fil. </p> </p> <p>När du har överfört <span class="filepath"> .fin- </span> filen i kundattributen FTP hämtar systemet data snabbt (inom en minut). Detta skiljer sig från andra Adobe FTP-baserade system, som hämtar in data mindre ofta (ungefär en gång i timmen). </p> <p>FIN- <span class="filepath"></span> filen behövs inte när du använder metoden för att dra och släppa. </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> .fin  </span> </p> </td> 
+   <td colname="col2"> <p>(Obligatoriskt) Filen <span class="filepath"> .fin </span> talar om för systemet att du är klar med överföringen av data. Namnet på filen <span class="filepath">.fin </span> måste matcha namnet på filen <span class="filepath"> .csv </span>. </p> <p>Adobe rekommenderar att du skapar en tom textfil med filnamnstillägget <span class="filepath"> .fin </span>. En tom fil sparar utrymme och laddningstid. </p> <p> <p>Obs!  Det går inte att ändra namn på en <span class="filepath"> .fin </span>-fil efter att den har överförts. Filen <span class="filepath">.fin </span> måste överföras separat och kan inte ha bytt namn, tidigare överförd fil. </p> </p> <p>När du har överfört filen <span class="filepath"> .fin </span> i kundattributens FTP hämtar systemet data snabbt (inom en minut). Detta skiljer sig från andra Adobe FTP-baserade system, som hämtar in data mindre ofta (ungefär en gång i timmen). </p> <p>Filen <span class="filepath"> .fin </span> krävs inte när du använder metoden för att dra och släppa. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> .gz </span> eller <span class="filepath"> .zip </span> </p> </td> 
-   <td colname="col2"> <p> <span class="filepath"> .gz </span> (gzip) eller <span class="filepath"> .zip </span> - för komprimerade filer. En <span class="filepath"> .zip- </span> fil får inte innehålla mer än en fil i arkivet. </p> <p> <b>Namngivningskrav:</b> Namnet på <span class="filepath"> .zip </span> eller <span class="filepath"> .gz </span> måste matcha namnet på <span class="filepath"> .csv </span>. Om <span class="filepath"> .csv- </span> filen till exempel är <span class="filepath"> crm_small.csv </span>, ska <span class="filepath"> .zip- </span> filen vara <span class="filepath"> crm_small.csv.zip </span>. </p> <p>FIN-filen måste matcha CSV-filen. </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> .gz  </span> eller  <span class="filepath"> .zip  </span> </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> .gz  </span> (gzip) eller  <span class="filepath"> .zip  </span> - för komprimerade filer. En <span class="filepath">.zip </span>-fil får inte innehålla mer än en fil i arkivet. </p> <p> <b>Namngivningskrav:</b> Namnet på  <span class="filepath"> .zip  </span> eller  <span class="filepath"> .gz  </span> ska matcha namnet på  <span class="filepath"> .csv  </span>. Om till exempel din <span class="filepath"> .csv </span>-fil är <span class="filepath"> crm_small.csv </span> ska .zip <span class="filepath">-filen vara <span class="filepath"> crm_small.csv.zip </span>.</span> </p> <p>FIN-filen måste matcha CSV-filen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Krav för attributdatafiler {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
+## Krav för attributdatafilerna {#section_169FBF5B7BBA47CE825B7A330CF3FE98}
 
 **Exempel på CSV**
 
@@ -70,11 +74,11 @@ Samma fil som visas i en textredigerare:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Dra och släppa </p> </td> 
-   <td colname="col2"> <p>Dra och släpp-filen bör vara mindre än 100 megabyte. </p> <p>FIN- <span class="filepath"></span> filen behövs inte när du använder metoden för att dra och släppa. </p> </td> 
+   <td colname="col2"> <p>Dra och släpp-filen bör vara mindre än 100 megabyte. </p> <p>Filen <span class="filepath"> .fin </span> krävs inte när du använder metoden för att dra och släppa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kund-ID, kolumn </p> </td> 
-   <td colname="col2"> <p> Den första kolumnen måste vara ett unikt kund-ID. Det ID som används ska motsvara det ID som skickas till Experience Cloud ID-tjänsten. </p> <p>För Analytics lagras ID:t i en propp eller eVar. </p> <p>För Target anger du värdet setCustomerID. (Se <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics &amp; Adobe Target - synkronisera kund-ID </a>) </p> <p> Detta kund-ID är den unika identifierare som CRM använder för varje person i din databas. De återstående kolumnerna är attribut som kommer från CRM. Du väljer hur många attribut du vill överföra. </p> <p>Ett läsbart namn rekommenderas för kolumnrubrikerna, men det behövs inte. När du validerar schemat efter överföring kan du mappa egna namn till överförda rader och kolumner. </p> <p> <b>Om Kund-ID</b> </p> <p>Ett företag använder vanligtvis ett kund-ID från ett CRM-system. Detta ID anges med <span class="codeph"> anropet setCustomerIDs </span> när en person loggar in. Detta ID används också som nyckel i CRM-filen som överförs till Experience Cloud. Ett <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> alias-ID </a> är ett eget namn för ett datalager i Audience Manager, där aliasdata lagras. Systemet skickar alias till detta datalager (via setCustomerID:n). CRM-filen används på data i det datalagret. </p> <p>Mer information om <span class="codeph"> setCustomerID: </span> finns i <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Kund-ID:n och autentiseringstillstånd </a>. </p> </td> 
+   <td colname="col2"> <p> Den första kolumnen måste vara ett unikt kund-ID. Det ID som används ska motsvara det ID som skickas till Experience Cloud ID-tjänsten. </p> <p>För Analytics lagras ID:t i en propp eller eVar. </p> <p>För Target anger du värdet setCustomerID. (Se <a href="../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics &amp; Adobe Target - synching the customer ID </a>) </p> <p> Detta kund-ID är den unika identifierare som CRM använder för varje person i din databas. De återstående kolumnerna är attribut som kommer från CRM. Du väljer hur många attribut du vill överföra. </p> <p>Ett läsbart namn rekommenderas för kolumnrubrikerna, men det behövs inte. När du validerar schemat efter överföring kan du mappa egna namn till överförda rader och kolumner. </p> <p> <b>Om Kund-ID</b> </p> <p>Ett företag använder vanligtvis ett kund-ID från ett CRM-system. Detta ID anges med <span class="codeph"> setCustomerIDs </span>-anropet när en person loggar in. Detta ID används också som nyckel i CRM-filen som överförs till Experience Cloud. Ett <a href="../attributes/t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> alias-ID </a> är ett eget namn för ett datalager i Audience Manager, där aliasdata lagras. Systemet skickar alias till detta datalager (via setCustomerID:n). CRM-filen används på data i det datalagret. </p> <p>Mer information om <span class="codeph"> setCustomerIDs </span> finns i <a href="https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Customer IDs and Authentication states </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Efterföljande rubriker och kolumner </p> </td> 
@@ -82,7 +86,7 @@ Samma fil som visas i en textredigerare:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attributgränser </p> </td> 
-   <td colname="col2"> <p>Du kan överföra hundratals <span class="filepath"> .csv- </span> kolumner till kundattributtjänsten i Experience Cloud. När du konfigurerar prenumerationer och väljer attribut gäller dock följande begränsningar beroende på vilka lösningar du har: </p> <p> 
+   <td colname="col2"> <p>Du kan överföra hundratals <span class="filepath"> .csv </span>-kolumner till kundattributstjänsten i Experience Cloud. När du konfigurerar prenumerationer och väljer attribut gäller dock följande begränsningar beroende på vilka lösningar du har: </p> <p> 
      <ul id="ul_2BB85067918D4BB3B59394F3E3E37A6D"> 
       <li id="li_93703988B9934384B4B94A839D028380"> <b>Analysstandard</b>: 3 totalt </li> 
       <li id="li_D1E5E7BD24C54591B14D15DE97447835"> <b>Analytics Premium</b>: 200 per rapportserie </li> 
@@ -109,7 +113,7 @@ Samma fil som visas i en textredigerare:
       <li id="li_84FBD455DD164A28AC16F4A5AB19E4B3">Maximal filstorlek för FTP är 4 GB för varje överföring. </li> 
       <li>Minsta filstorleksgräns för 10 MB för varje överföring. </li>
       <li>Du kan överföra en fil var halvtimme. </li>
-      <li id="li_B69A20C51D824727AA99C1F6F78537A4"> Du bör släppa <span class="filepath"> .csv-filen </span> (och <span class="filepath"> .fin-filen </span>) i FTP-platsens rotmapp. </li> 
+      <li id="li_B69A20C51D824727AA99C1F6F78537A4"> Du bör släppa filen <span class="filepath"> .csv </span> (och <span class="filepath"> .fin </span>) i FTP-platsens rotmapp. </li> 
      </ul> </p> <p> <p>Viktigt:  Det totala tillåtna utrymmet för FTP-kontot är 40 GB. Det är ditt ansvar att ta bort bearbetade filer. </p> </p> </td> 
   </tr> 
   <tr> 
@@ -152,7 +156,7 @@ Visitor.setCustomerIDs({
 });
 ```
 
-(Mer information finns i [Kund-ID och Autentiseringstillstånd](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) .)
+(Mer information finns i [Kund-ID och autentiseringstillstånd](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html).)
 
 I **[!UICONTROL Experience Cloud]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**:
 
