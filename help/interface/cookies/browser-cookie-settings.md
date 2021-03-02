@@ -1,13 +1,17 @@
 ---
-description: Ta bort användare som har blockerat alla cookies i webbläsare på datorer och mobila enheter. Den här sekretessinställningen exkluderar användare som avanmäler sig från datainsamlingen i Analytics.
-keywords: cookies;privacy
+description: Lär dig hur du aktiverar sekretessinställningar för webbläsarcookies. Du kan ta bort användare som har blockerat alla cookies i webbläsare för datorer och mobila enheter.
+keywords: cookies;sekretess
 solution: Experience Cloud, Analytics, Target, Social
-title: 'Aktivera sekretessinställningar för webbläsarcookies '
+title: 'Sekretessinställningar för webbläsarcookies '
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
+feature: Cookies
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '293'
 ht-degree: 1%
 
 ---
