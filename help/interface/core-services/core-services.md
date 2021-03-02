@@ -1,13 +1,17 @@
 ---
-description: Lär dig hur du implementerar Adobe Experience Cloud och blir administratör.
+description: '"Modernisera era era lösningar från Adobe Analytics och Adobe Target för att få tillgång till tjänster för olika lösningar. Lär dig hur du börjar använda Experience Cloud-tjänster."'
 keywords: bastjänster;Kundattribut
 solution: Experience Cloud
-title: 'Möjliggör era lösningar för bastjänsterna '
+title: '"Möjliggör lösningar för tjänster över flera lösningar"'
 index: true
+feature: Kundattribut
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '2276'
+source-wordcount: '2288'
 ht-degree: 2%
 
 ---
