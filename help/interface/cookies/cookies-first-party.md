@@ -1,14 +1,18 @@
 ---
 description: Läs om hur Adobe Analytics använder cookies för att ge information om variabler och komponenter som inte finns kvar mellan bildbegäranden och webbläsarsessioner.
-keywords: cookies;privacy
+keywords: cookies;sekretess
 solution: Experience Cloud,Analytics
-title: 'Så här använder du cookies från första part '
+title: '"cookies från första part"'
 index: y
 snippet: y
+feature: Cookies
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1447'
 ht-degree: 0%
 
 ---
@@ -43,23 +47,23 @@ Med programmet Hanterat certifikat i Adobe kan du implementera ett nytt SSL-cert
 
 Så här implementerar du ett nytt SSL-certifikat från första part för cookies från första part:
 
-1. Fyll i formuläret [för begäran om cookie från](/help/interface/cookies/assets/FPC_Request_Form.xlsx) första part och öppna en biljett där kundtjänst begär att få konfigurera cookies från första part för programmet som hanteras i Adobe. Varje fält beskrivs i dokumentet med exempel.
+1. Fyll i formuläret [Begär cookie från första part](/help/interface/cookies/assets/FPC_Request_Form.xlsx) och öppna en biljett där kundtjänst begär att få konfigurera cookies från första part i programmet Hanterad på Adobe. Varje fält beskrivs i dokumentet med exempel.
 
 1. Skapa CNAME-poster (se instruktionerna nedan).
 
    När du får biljetten ska du få ett par CNAME-poster från kundtjänst. Dessa poster måste konfigureras på företagets DNS-server innan Adobe kan köpa certifikatet åt dig. CNAMES kommer att se ut ungefär så här:
 
-   **Säker** - värdnamnet `smetrics.example.com` pekar till exempel på: `example.com.ssl.d1.omtrdc.net`.
+   **Säker**  - Värdnamnet  `smetrics.example.com` pekar till exempel på:  `example.com.ssl.d1.omtrdc.net`.
 
-   **Osäker** - värdnamnet `metrics.example.com` pekar till exempel på: `example.com.d1.omtrdc.net`.
+   **Osäker**  - Värdnamnet  `metrics.example.com` pekar till exempel på:  `example.com.d1.omtrdc.net`.
 
 1. När dessa CNAMES finns på plats kommer Adobe att arbeta med DigiCert för att köpa och installera ett certifikat på Adobe produktionsservrar.
 
-   Om du har en befintlig implementering bör du överväga att migrera besökare för att behålla befintliga besökare. När certifikatet har publicerats till Adobe produktionsmiljö kan du uppdatera dina spårningsservervariabler till de nya värdnamnen. Om platsen inte är säker (HTTP) uppdaterar du `s.trackingServer`. Om webbplatsen är säker (HTTPS) uppdaterar du både `s.trackingServer` - och `s.trackingServerSecure` -variabler.
+   Om du har en befintlig implementering bör du överväga att migrera besökare för att behålla befintliga besökare. När certifikatet har publicerats till Adobe produktionsmiljö kan du uppdatera dina spårningsservervariabler till de nya värdnamnen. Om platsen inte är säker (HTTP) uppdaterar du `s.trackingServer`. Om webbplatsen är säker (HTTPS) uppdaterar du både `s.trackingServer` och `s.trackingServerSecure` variabler.
 
-1. [Validera vidarebefordran](#validate) av värdnamn (se nedan).
+1. [Validera vidarebefordran](#validate)  av värdnamn (se nedan).
 
-1. [Uppdatera implementeringskod](#update) (se nedan).
+1. [Uppdatera implementeringskod](#update)  (se nedan).
 
 ### Underhåll och förnyelser
 
@@ -70,7 +74,7 @@ SSL-certifikat upphör att gälla varje år, vilket innebär att Adobe måste k�
 | Fråga | Svar |
 |---|---|
 | **Är den här processen säker?** | Ja, Adobe Managed är säkrare än vår gamla metod eftersom inget certifikat eller någon privat nyckel ändrar händer utanför Adobe och certifikatutfärdaren. |
-| **Hur kan Adobe köpa ett certifikat för vår domän?** | Certifikatet kan bara köpas om du har pekat det angivna värdnamnet (till exempel `smetrics.example.com`) mot ett värdnamn som ägs av Adobe. Detta innebär att värdnamnet delegeras till Adobe och att Adobe kan köpa certifikatet för din räkning. |
+| **Hur kan Adobe köpa ett certifikat för vår domän?** | Certifikatet kan bara köpas om du har pekat på det angivna värdnamnet (till exempel `smetrics.example.com`) till ett värdnamn som ägs av Adobe. Detta innebär att värdnamnet delegeras till Adobe och att Adobe kan köpa certifikatet för din räkning. |
 | **Kan jag begära att certifikatet återkallas?** | Ja, som ägare av domänen har du rätt att begära att certifikatet återkallas. Du behöver bara öppna en biljett hos Kundtjänst för att få detta färdigt. |
 | **Använder det här certifikatet SHA-2-kryptering?** | Ja, Adobe kommer att arbeta med DigiCert för att utfärda ett SHA-2-certifikat. |
 | **Kostar detta något?** | Nej, Adobe erbjuder den här tjänsten till alla nuvarande Adobe-kunder med digitala upplevelser utan extra kostnad. |
@@ -122,7 +126,7 @@ Svar: `SUCCESS`
 
 ### Validera med [!DNL nslookup]
 
-Du kan använda `nslookup` för validering. Öppna en kommandotolk `sstats.adobe.com`och skriv in `nslookup sstats.adobe.com`
+Du kan använda `nslookup` för validering. Använd `sstats.adobe.com`som exempel genom att öppna en kommandotolk och skriva `nslookup sstats.adobe.com`
 
 Om allt är klart att konfigureras visas en retur som liknar:
 
@@ -144,19 +148,19 @@ Address: 54.187.216.46
 
 Innan du redigerar kod på webbplatsen för att använda cookies från första part måste du uppfylla följande krav:
 
-* Begär ett SSL-certifikat genom att följa stegen som beskrivs ovan i avsnittet *Implementera* i [Adobe Managed Certificate Program](#adobe-managed-certificate-program).
+* Begär ett SSL-certifikat genom att följa stegen ovan i *Implementera*-avsnittet i [Adobe Managed Certificate Program](#adobe-managed-certificate-program).
 * Skapa CNAME-poster (se ovan).
 * Validera värdnamnet (se ovan).
 
 När du har verifierat att dina värdnamn svarar och vidarebefordrar till datainsamlingsservrar i Adobe kan du ändra implementeringen så att den pekar på dina egna värdnamn för datainsamling.
 
 1. Öppna JavaScript-huvudfilen (`s_code.js/AppMeasurement.js`).
-1. Om du vill uppdatera kodversionen ersätter du hela `s_code.js/AppMeasurement.js` filen med den nyare versionen och ersätter eventuella plugin-program eller anpassningar. **Eller** om du vill uppdatera koden som bara är relevant för cookies från första part ska du leta reda på variablerna s.trackingServer och s.trackingServerSecure (om du använder SSL) och peka dem mot dina nya värdnamn för datainsamling. Använda mysite.com som exempel:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
+1. Om du vill uppdatera kodversionen ersätter du hela `s_code.js/AppMeasurement.js`-filen med den nyare versionen och ersätter eventuella plugin-program eller anpassningar. **Eller** om du vill uppdatera koden som bara är relevant för cookies från första part ska du leta reda på variablerna s.trackingServer och s.trackingServerSecure (om du använder SSL) och peka dem mot dina nya värdnamn för datainsamling. Använda mysite.com som exempel:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. Överför den uppdaterade JavaScript-huvudfilen till din webbplats.
 
 1. Om du går över till cookies från en långvarig implementering, eller byter till ett annat värdnamn för en egen samling, rekommenderar vi att du migrerar besökare från den tidigare domänen till den nya domänen.
 
-Se [Besöksmigrering](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) i Analytics-implementeringshandboken.
+Se [Besökarmigrering](https://docs.adobe.com/help/en/analytics/implementation/javascript-implementation/visitor-migration.html) i Analytics Implementeringshandbok.
 
-När du har överfört JavaScript-filen konfigureras allt för insamling av cookie-data från första part. Vi rekommenderar att ni övervakar Analytics-rapporter under de kommande timmarna för att säkerställa att datainsamlingen fortsätter som vanligt. Om så inte är fallet kontrollerar du att alla ovanstående steg har slutförts och att någon av de användare i organisationen som stöds kontaktar Kundtjänst.
+När du har överfört JavaScript-filen konfigureras allt för insamling av cookie-data från första part. Vi rekommenderar att ni övervakar Analytics-rapporter under de kommande timmarna för att säkerställa att datainsamlingen fortsätter som vanligt. Om så inte är fallet kontrollerar du att alla ovanstående steg har slutförts och att någon av de användare i organisationen som stöds kontaktar kundtjänst.
