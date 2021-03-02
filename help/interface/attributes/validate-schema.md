@@ -1,13 +1,17 @@
 ---
 description: Lär dig hur du validerar kundattributschemat i Adobe Experience Cloud.
-keywords: Customer Attributes;Experience Cloud services
+keywords: Kundattribut;Experience Cloud-tjänster
 solution: Experience Cloud
 title: 'Så här validerar du kundattributschemat '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
+feature: Kundattribut
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '436'
 ht-degree: 0%
 
 ---
@@ -25,7 +29,7 @@ Med valideringsprocessen kan du mappa visningsnamn och beskrivningar till överf
 
 ![](assets/view_edit_schema.png)
 
-På [!UICONTROL Validate Schema] sidan representerar varje rad i schemat en kolumn i den överförda CSV-filen.
+På sidan [!UICONTROL Validate Schema] representerar varje rad i schemat en kolumn i den överförda CSV-filen.
 
 ![](assets/06_crs_usecase.png)
 
@@ -35,7 +39,7 @@ På [!UICONTROL Validate Schema] sidan representerar varje rad i schemat en kolu
 
 * **[!UICONTROL FTP Setup:]** [Överför data via FTP](../attributes/t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
 
-* **[!UICONTROL ID Lookup:]** Ange ett kund-ID (CID) från ditt `.csv` konto för att söka efter information om Experience Cloud för ID:t. Den här funktionen är användbar för att felsöka varför attributdata inte visas för en besökare:
+* **[!UICONTROL ID Lookup:]** Ange ett kund-ID (CID) från ditt  `.csv` konto för att söka efter Experience Cloud-information för ID:t. Den här funktionen är användbar för att felsöka varför attributdata inte visas för en besökare:
 
    * **[!UICONTROL ECID (Experience Cloud ID):]** Visar om du använder den senaste Experience Cloud ID-tjänsten. Om du är i MCID-tjänsten men det inte finns några ID:n i listan här, har Experience Cloud inte fått något alias för det CID:t. Det innebär att besökaren inte har loggat in eller att implementeringen inte skickar det ID:t till.
 
@@ -45,18 +49,18 @@ På [!UICONTROL Validate Schema] sidan representerar varje rad i schemat en kolu
 
 Du kan också överföra data via FTP när du har skapat en kundattributkälla och ett FTP-konto i Experience Cloud. Du skapar ett FTP-konto per attributkälla. De överförda filerna lagras i kontots rotmapp. Data måste vara i .csv-format, med en andra .fin-fil som anger att överföringen är slutförd
 
-De namn du anger för strängar, heltal och tal används för att skapa [!DNL Analytics] mätvärden. Mer information finns i [Kundattributrapporten](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) i [!DNL Analytics] hjälpen.
+De namn du anger för strängar, heltal och tal används för att skapa [!DNL Analytics]-mått. Mer information finns i [Kundattributrapport](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) i [!DNL Analytics]-hjälpen.
 
-* **[!UICONTROL Attribute:]** Attributdata läses från den överförda `.csv` filen.
+* **[!UICONTROL Attribute:]** Attributdata läses från den överförda  `.csv` filen.
 
 * **[!UICONTROL Type:]** Datatypen, till exempel:
 
    * **Sträng:** En teckensekvens.
 
-   * **Heltal:** Heltal.
+   * **heltal:** heltal.
 
-   * **Nummer:** Kan innehålla upp till två decimaler.
+   * **Tal:** Kan innehålla upp till två decimaler.
 
-* **[!UICONTROL Display Name:]** Ett eget namn för attributet. Du kan till exempel ändra ett attribut till *kundens ålder* till *Kund sedan*.
+* **[!UICONTROL Display Name:]** Ett eget namn för attributet. Du kan till exempel ändra attributet *kundens ålder* till *Kund Sedan*.
 
 * **[!UICONTROL Description:]** En användarvänlig beskrivning av attributet.
