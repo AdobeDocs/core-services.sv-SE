@@ -1,14 +1,18 @@
 ---
 description: Lär dig hur du överför en resurs till en delad mapp från skrivbordet Creative Cloud till Experience Cloud.
-keywords: asset sharing;Creative Cloud;core services
+keywords: resursdelning;Creative Cloud;bastjänster
 solution: Experience Cloud
 title: 'Överföra en resurs till en delad mapp från skrivbordet i Creative Cloud '
 uuid: 88e97e4d-cf9e-4b26-923b-ee60583cae1a
+feature: Assets
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 1%
+source-wordcount: '72'
+ht-degree: 4%
 
 ---
 
@@ -16,6 +20,6 @@ ht-degree: 1%
 # Överföra en resurs till en delad mapp från skrivbordet i Creative Cloud
 
 1. Aktivera delning.
-1. Starta [!DNL Creative Cloud] skrivbordet och navigera till [!UICONTROL Assets].
+1. Starta skrivbordet [!DNL Creative Cloud] och navigera till [!UICONTROL Assets].
 1. Klicka på **[!UICONTROL Open Folder].**
 1. Använd operativsystemets filbläddring för att välja eller flytta resurser.
