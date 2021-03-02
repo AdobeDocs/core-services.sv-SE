@@ -1,12 +1,12 @@
 ---
 solution: Experience Cloud
-type: Documentation
+type: Dokumentation
 title: 'Adobe Experience Cloud-målgrupper '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 translation-type: tm+mt
-source-git-commit: 7ad0ea1692ca73fce91af931dc80f0e1dc2347a1
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '784'
 ht-degree: 4%
 
 ---
@@ -43,7 +43,7 @@ I följande tabell beskrivs hur målgrupper används i Experience Cloud-lösning
 | [!DNL Target] | Med [ID-tjänsten](https://docs.adobe.com/content/help/sv-SE/id-service/using/home.html) kombineras besökar-ID:n och data i en enda användbar profil för användning i olika lösningar. Med kryssrutan [Publicera på Experience Cloud](../audience-library/audience-library.md) när du skapar segment i Adobe Analytics kan segmentet vara tillgängligt i Adobe Target anpassade målgruppsbibliotek. Ett segment som skapats i Analytics eller Audience Manager kan användas för aktiviteter i [!DNL Target]. Du kan till exempel skapa kampanjaktiviteter baserat på [!DNL Analytics] konverteringsmått och målgruppssegment som skapats i [!DNL Analytics]. |
 | Audience Manager | Delade målgrupper finns i segmentering med Audience Manager. Alla Experience Cloud-målgrupper finns i Audience Manager, vilket innebär att<ul><li>Inbyggd automatisering av hur de delas och används i lösningsarbetsflöden</li><li>Destinationer utanför webbplatsen</li><li>Look-alike-modellering</li></ul> |
 | Campaign | <ul><li>Importera delade målgrupper från olika Adobe Experience Cloud-lösningar till Adobe Campaign.</li><li>Exportera mottagarlistor i form av delade målgrupper. Dessa delade målgrupper kan användas i de olika Adobe Experience Cloud-lösningar ni använder.</li></ul> |
-| Media Optimizer | Använd målgruppen som mål. |
+| Advertising Cloud | Använd målgruppen som mål. |
 
 >[!IMPORTANT]
 >
