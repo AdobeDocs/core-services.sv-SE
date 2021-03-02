@@ -1,19 +1,23 @@
 ---
 description: Läs om hur stödet för cookies från tredje part har blivit allt mer begränsat i olika webbläsare.
-keywords: cookies;privacy
+keywords: cookies;sekretess
 solution: Experience Cloud,Analytics,Target
 title: 'Hur ändringar av cookie-support från tredje part påverkar kunderna '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
+feature: Cookies
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '301'
 ht-degree: 1%
 
 ---
 
 
-# Hur ändringar i stödet för cookies från tredje part påverkar kunderna{#how-changes-to-third-party-cookie-support-impacts-customers}
+# Hur ändringar av stöd för cookies från tredje part påverkar kunder{#how-changes-to-third-party-cookie-support-impacts-customers}
 
 I takt med att stödet för cookies från tredje part har blivit allt mer begränsat i olika webbläsare har Adobe arbetat med nya lösningar som noggrant balanserar kundens krav med konsumentens rätt till integritet i alla Adobe Experience Cloud-lösningar.
 
@@ -21,8 +25,8 @@ Följande lista visar hur stöd för cookies från tredje part påverkar aktuell
 
 ## Adobe Analytics och Adobe Target
 
-* Kunder med en [förstahandsimplementering](/help/interface/cookies/cookies-first-party.md) påverkas inte alls.
-* Kunder som inte använder förstahandsimplementering kan implementera [Experience Platform ID-tjänsten](https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html) för att lagra ID-cookien som en cookie utan förstahandsimplementering.
+* Kunder med [förstahandsimplementering](/help/interface/cookies/cookies-first-party.md) påverkas inte i någon större utsträckning.
+* Kunder som inte använder förstahandsimplementering kan implementera tjänsten [Experience Platform ID](https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html) för att lagra ID-cookien som en cookie för första part utan en förstahandsimplementering.
 
 ## Adobe Experience Manager
 
