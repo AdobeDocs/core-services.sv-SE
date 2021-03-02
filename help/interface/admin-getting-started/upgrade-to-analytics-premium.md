@@ -1,15 +1,18 @@
 ---
-description: Administratörer kan lära sig mer om kraven och vad de kan förvänta sig när de uppgraderar till Analytics Premium, och var de kan få hjälp som Experience Cloud-administratör.
-keywords: Adobe Analytics Premium upgrade
+description: Läs mer om kraven och vad du kan förvänta dig när du uppgraderar till Analytics Premium.
+keywords: Uppgradering av Adobe Analytics Premium
 solution: Experience Cloud
-title: 'Så här uppgraderar du till Analytics Premium och Experience Cloud '
-topic: Premium
+title: 'Uppgradera till Analytics Premium och Experience Cloud '
+topic: Administrering
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
+feature: Admin Console
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 6%
+source-wordcount: '636'
+ht-degree: 7%
 
 ---
 
@@ -42,13 +45,13 @@ I Analytics Premium Complete får du alla funktioner i [Analytics Premium](../ad
 
 | Produkt | Uppgraderingar |
 |--- |--- |
-| Rapporter och analyser | <ul><li>[Bidragsanalys](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html)</li><li>[Kundattribut](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1) (upp till 200)</li></ul> |
+| Rapporter och analyser | <ul><li>[Bidragsanalys](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html)</li><li>[Kundattribut](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)  (upp till 200)</li></ul> |
 | Data Workbench | <ul><li>Algoritmisk attribuering</li><li>Fördefinierade arbetsytor</li></ul> |
-| Analytics Platform | [Live-ström](https://helpx.adobe.com/analytics/kb/getting-started-with-livestream-api.html) (rådata, instrumentpaneler, utlösare) |
+| Analytics Platform | [Live Stream](https://helpx.adobe.com/analytics/kb/getting-started-with-livestream-api.html)  (rådata, instrumentpaneler, utlösare) |
 
-## Prediktiv intelligens {#section_B407932C07A7476F83FB0275C3FB63DC}
+## Predictive Intelligence {#section_B407932C07A7476F83FB0275C3FB63DC}
 
-Uppgradera till Predictive Intelligence så får du [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) plus:
+Uppgradera till Predictive Intelligence och [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) plus:
 
 | Produkt | Uppgraderingar |
 |---|---|
@@ -58,7 +61,7 @@ Uppgradera till Predictive Intelligence så får du [Analytics Premium](../admin
 
 ## Kund 360 {#section_3B2AC245388248688067DC9A48957AFB}
 
-Uppgradera till Customer 360 med [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) plus:
+Uppgradera till Customer 360 erbjuder [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) plus:
 
 | Produkt | Uppgraderingar |
 |--- |--- |
@@ -68,11 +71,11 @@ Uppgradera till Customer 360 med [Analytics Premium](../admin-getting-started/up
 
 ## Avancerad attribuering {#section_9E4986A8389946CCAA7D003268343296}
 
-Avancerad attribuering ger tillgång till [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507), plus algoritmisk attribuering i Datan Workbench (25 % serveranropsvolym).
+Avancerad attribuering ger åtkomst till [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507), plus algoritmisk attribuering i Data Workbench (25 % serveranropsvolym).
 
-## Krav på Data Workbench {#section_D959CA68D6DB42C38707F8E0CA3654CC}
+## Krav för Data Workbench {#section_D959CA68D6DB42C38707F8E0CA3654CC}
 
-De användare som stöds kan begära att alla klientlicenser uppdateras för att återspegla Premium genom att skicka ett e-postmeddelande `dwb@adobe.com`. Detta aktiverar funktioner som algoritmisk attribuering.
+De användare som stöds kan begära att alla klientlicenser uppdateras för att återspegla Premium genom att skicka ett e-postmeddelande till `dwb@adobe.com`. Detta aktiverar funktioner som algoritmisk attribuering.
 
 TechOps granskar ditt avtalsåtagande och fastställer rätt hanterad infrastruktur, ökar eller minskar kapaciteten, och sedan koordinerar de med dig via kontohanteraren eller konsulten för att driftsätta eventuella ändringar.
 
@@ -80,9 +83,9 @@ Alla program som körs lokalt måste inaktiveras. Detta inkluderar sensorer, vil
 
 ## Experience Cloud - Administrera användare och produkter {#section_6471C54454024301B2E0B687F79F6738}
 
-Experience Cloud och bastjänster är tillgängliga för användare av Analytics Standard och Premium, förutsatt att du har följt den implementeringsmodernisering som beskrivs i [Komma igång - aktivera lösningar för bastjänster](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (Denna process hjälper dig att modernisera implementeringen och gör att du kan bli administratör i Experience Cloud.)
+Experience Cloud och bastjänster är tillgängliga för användare av Analytics Standard och Premium, förutsatt att du har följt den modernisering av implementeringen som beskrivs i [Komma igång - aktivera lösningar för bastjänster](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (Denna process hjälper dig att modernisera implementeringen och gör att du kan bli administratör i Experience Cloud.)
 
-När du har gått med i Experience Cloud kan du logga in via Experience Cloud på [!DNL experiencecloud.adobe.com] och börja använda bastjänster (inklusive kundattribut, målgrupper och mobilappsanalyser).
+När du har gått med i Experience Cloud kan du logga in via Experience Cloud på [!DNL experiencecloud.adobe.com] och börja använda bastjänster (inklusive kundattribut, målgrupper och mobilappsanalys).
 
 ### Administrera användare och grupper
 
