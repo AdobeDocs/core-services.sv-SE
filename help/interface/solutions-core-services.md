@@ -3,12 +3,16 @@ description: Lär dig mer om de senaste varumärkesuppdateringarna för molnen, 
 seo-description: Lär dig mer om de senaste varumärkesuppdateringarna för molnen, hur du navigerar i gränssnittet och var du kan hitta hjälp för lösningar och bastjänster.
 seo-title: Om de nya molnnamnen i Experience Cloud
 solution: Experience Cloud
-title: 'Om de nya molnnamnen i Experience Cloud '
+title: 'Om molnnamnen i Experience Cloud '
 uuid: 27d022ad-50fa-485e-8f94-0959112cf3d0
+feature: Admin Console
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '671'
 ht-degree: 9%
 
 ---
@@ -30,7 +34,7 @@ Ersätter *Marketing Cloud* som överordnat molnnamn för alla Adobe digitala up
 
 >[!NOTE]
 >
->Du kan fortsätta att se referenser till *Marketing Cloud* i dess tidigare, bredare sammanhang tills alla lösningsgränssnitt har varumärkesändrats till *Enterprise Cloud.*
+>Du kan fortsätta att se referenser till *Marketing Cloud* i dess tidigare, bredare kontext tills alla lösningsgränssnitt har omprofilerats till *Enterprise Cloud.*
 
 [Marketing Cloud](https://www.adobe.com/se/marketing-cloud.html)
 
@@ -55,14 +59,14 @@ Innefattar Media Optimizer och TubeMogul.
 
 ## Vilka är lösningarna? {#concept_4F52341A45DC49B2B216824B14D54FDA}
 
-Följande information beskriver kortfattat lösningarna och ger länkar till hjälp. [Det finns också fallrecept](https://helpx.adobe.com/marketing-cloud/how-to/use-cases.html) som kan hjälpa er med arbetsflöden för digital marknadsföring.
+Följande information beskriver kortfattat lösningarna och ger länkar till hjälp. [Det finns också fallmallar ](https://helpx.adobe.com/marketing-cloud/how-to/use-cases.html) som kan hjälpa er med arbetsflöden för digital marknadsföring.
 
 [Adobe Analytics](https://docs.adobe.com/content/help/sv-SE/analytics/landing/home.html)
 
 Så här kommer du igång med Analytics:
 
-1. Skapa din första analysrapportssvit (datalager) enligt anvisningarna i [Komma igång med Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html).
-1. Distribuera sedan Analytics-koden med [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
+1. Skapa din första analysrapportsserie (datalager) enligt anvisningarna i [Komma igång med Adobe Analytics](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/home.html).
+1. Distribuera sedan Analytics-kod med [Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
 
 Experience Platform Launch är nästa generation av tagghantering och ger er ett enkelt sätt att driftsätta och hantera alla analys-, marknadsförings- och annonstaggar.
 
@@ -84,7 +88,7 @@ Adobe Target kan integreras med Analytics och andra bastjänster från Experienc
 
 Adobe Experience Manager är en innehållshanteringslösning som gör det enkelt att hantera resurser och innehåll för webbplatser, mobilappar, communities och formulär.
 
-Se [Adobe Experience Manager 6.5](https://helpx.adobe.com/se/support/experience-manager/6-5.html) .
+Se [Adobe Experience Manager 6.5](https://helpx.adobe.com/support/experience-manager/6-5.html) om du behöver hjälp.
 
 [Adobe Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)
 
@@ -104,6 +108,6 @@ Adobe Primetime är en TV-plattform för flera skärmar som hjälper medieföret
 
 ## Vad är bastjänster? {#concept_38AC4888C3F84694AE4F60311C21B9C2}
 
-[Bastjänsterna](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html) innehåller funktioner som förenklar produktimplementeringen och möjliggör arbetsflöden mellan olika lösningar, som målgruppssegmentering, överföring av kundattribut och samarbetsverktyg.
+[Bastjänsterna ](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services-landing.html) innehåller funktioner som förenklar implementeringen av produkten och möjliggör arbetsflöden mellan olika lösningar, som målgruppssegmentering, överföring av kundattribut och samarbetsverktyg.
 
 ![](assets/core-services.png)
