@@ -4,10 +4,14 @@ keywords: bastjänster
 solution: Experience Cloud
 title: 'Skapa en målgrupp '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
+feature: Målgruppsbibliotek
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '450'
 ht-degree: 3%
 
 ---
