@@ -4,11 +4,15 @@ keywords: resursdelning;Creative Cloud;bastjänster
 solution: Experience Cloud
 title: 'Dela en Experience Cloud-resursmapp '
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
+feature: Assets
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 2%
+source-wordcount: '294'
+ht-degree: 3%
 
 ---
 
