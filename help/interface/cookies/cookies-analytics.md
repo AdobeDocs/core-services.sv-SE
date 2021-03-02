@@ -1,19 +1,23 @@
 ---
 description: Läs om Adobe Analytics cookies i Adobe Experience Cloud.
-keywords: cookies;privacy
+keywords: cookies;sekretess
 solution: Experience Cloud,Analytics,Target
-title: 'Så här använder du Adobe Analytics Cookies '
+title: 'Analytics-cookies '
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
+feature: Cookies
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 2%
+source-wordcount: '759'
+ht-degree: 3%
 
 ---
 
 
-# Analytics-cookies{#analytics-cookies}
+# Analytiska cookies{#analytics-cookies}
 
 Adobe Analytics använder cookies för att skilja på begäranden från olika webbläsare och för att lagra användbar information som ett program kan använda senare. De kan också användas för att koppla webbinformation till kundposter.
 
@@ -28,7 +32,7 @@ Analytics använder i synnerhet cookies för att anonymt definiera nya besökare
 * [Cookie-namn: s_fd](../cookies/cookies-analytics.md#section-65e33f9bfc264959ac1513e2f4b10ac7)
 * [Cookies angivna av plugin-program](../cookies/cookies-analytics.md#section-a6b1cae8454945fab9eea5c7884c40fc)
 
-Mer information finns i Analytics-hjälpen om [cookies](/help/interface/cookies/cookies-first-party.md)från första part.
+Mer information finns i Analytics-hjälpen om [cookies från första part](/help/interface/cookies/cookies-first-party.md).
 
 ## Cookie-namn: s_ecid {#section-32fd753c3fa54452acd62b021434919a}
 
@@ -80,7 +84,7 @@ Mer information finns i Analytics-hjälpen om [cookies](/help/interface/cookies/
 |--- |--- |
 | Information lagrad | ID-tidsstämpel för reservens unika besökares ID |
 | Förfaller | 2 år |
-| Användning | Den här cookien används för att identifiera en unik besökare om standardcookien inte är tillgänglig på grund av cookie-begränsningar från tredje part. `s_vi` Används inte för implementeringar som använder cookies från första part. |
+| Användning | Den här cookien används för att identifiera en unik besökare om standardcookien `s_vi` inte är tillgänglig på grund av cookie-begränsningar från tredje part. Används inte för implementeringar som använder cookies från första part. |
 | Plats | Denna cookie lagras på din domän som en cookie från en annan leverantör. |
 | Storlek | 33 byte |
 
@@ -90,18 +94,18 @@ I följande tabell beskrivs flaggorna för Analytics-cookies:
 
 | Cookie (anges av) | httpOnly | Säker | SameSite |
 |--- |--- |--- |--- |
-| s_vi (http-svar) | Nej | Ja när SameSite är None och HTTPS används för anslutningen | &quot;Lax&quot; som standard när CNAME används. &quot;Ingen&quot; när du använder 2o7.net eller omtrdc.net. |
-| s_ecid (http-svar) | Nej | Nej | &quot;Lax&quot; |
+| s_vi   (http-svar) | Nej | Ja när SameSite är None och HTTPS används för anslutningen | &quot;Lax&quot; som standard när CNAME används. &quot;Ingen&quot; när du använder 2o7.net eller omtrdc.net. |
+| s_ecid   (http-svar) | Nej | Nej | &quot;Lax&quot; |
 | s_fid (Javascript) | Nej | Nej | Ta bort |
 | s_cc (JavaScript) | Nej | Nej | Ta bort |
 | s_sq (Javascript) | Nej | Nej | Ta bort |
 
 >[!NOTE]
 >
->Om du använder en enda CNAME för att spåra över flera domäner eller egenskaper ska SameSite anges till None för `s_vi`. Kontakta kundtjänst om du behöver hjälp med att ändra inställningarna för Analytics-cookies.
+>Om du använder en enda CNAME för att spåra över flera domäner eller egenskaper, ska SameSite anges till None för `s_vi`. Kontakta kundtjänst om du behöver hjälp med att ändra inställningarna för Analytics-cookies.
 
 ## Cookies angivna av plugin-program {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
-Ytterligare cookies kan anges beroende på hur Analytics-plugin-program används. Dessa cookies är kodfragment som är tillgängliga för klienten för användning under olika omständigheter. Dessa omständigheter omfattar följande: hämta värden från webbadressen, sammanfogning av värden som ska överföras till Analytics, hämta in formuläravhopp och så vidare. Om du vill ha mer information om cookies som anges av varje plugin-program kontaktar du ClientCare. Ett exempel är den cookie som används med plugin-programmen [!DNL s_vh] Set Once Per *och* Set och Get Last Value ** .
+Ytterligare cookies kan anges beroende på hur Analytics-plugin-program används. Dessa cookies är kodfragment som är tillgängliga för klienten för användning i en rad olika situationer. Dessa omständigheter omfattar följande: hämta värden från webbadressen, sammanfogning av värden som ska överföras till Analytics, hämta in formuläravhopp och så vidare. Om du vill ha mer information om cookies som anges av varje plugin-program kontaktar du ClientCare. Ett exempel är den [!DNL s_vh]-cookie som används med plugin-programmen *Set Once Per* och *Set och Get Last Value*.
 
 Konverteringsvariabler (eVarX) som skickas på en bildbegäran utan JavaScript, till exempel kod som placeras i ett e-postmeddelande, tilldelas bara korrekt om e-postklienten och webbläsaren delar samma cookie-utrymme.
