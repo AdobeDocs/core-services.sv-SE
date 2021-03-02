@@ -1,13 +1,13 @@
 ---
 description: Lär dig hur du implementerar Adobe Experience Cloud och blir administratör.
-keywords: core services;Customer Attributes
+keywords: bastjänster;Kundattribut
 solution: Experience Cloud
 title: 'Möjliggör era lösningar för bastjänsterna '
 index: true
 translation-type: tm+mt
-source-git-commit: d8b4f8c5ff963fce48adf7cd312543a98955828c
+source-git-commit: 450a2e5252f7ee14b9af3043b2eaf3c41bf30e7b
 workflow-type: tm+mt
-source-wordcount: '2271'
+source-wordcount: '2276'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 Om du nyligen har implementerat Experience Cloud med Experience Platform Launch har du redan ställt in kundattribut och Experience Cloud målgrupper. Du kan också hantera användare och produkter i Admin Console.
 
-För befintliga kunder kan ni behöva modernisera era lösningar och implementera Experience Cloud. På så sätt kan ni utnyttja kundattribut och målgruppsfunktioner i Adobe Analytics, Audience Manager och Adobe Target. För att uppnå detta ska du:
+För befintliga kunder kan ni behöva modernisera era lösningar och implementera Experience Cloud. På så sätt kan ni utnyttja kundattribut och målgruppsfunktioner i Adobe Analytics, Audience Manager och Adobe Target. För att implementera detta kommer du att:
 
 1. [Gå med i Experience Cloud och bli administratör](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Implementera tjänsten Experience Cloud ID](#section_3C9F6DF37C654D939625BB4D485E4354)
