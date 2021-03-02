@@ -1,14 +1,18 @@
 ---
 description: Läs mer om användar- och produktadministration i Adobe Admin Console, aktivera lösningar för Experience Cloud och läs mer om Audience Library, Customer Attributes, Experience Cloud Assets med flera.
-keywords: Adobe Experience Cloud services, customer attributes, audiences, user and product administration
+keywords: Adobe Experience Cloud tjänster, kundattribut, målgrupper, användar- och produktadministration
 solution: Experience Cloud
 title: 'Experience Cloud och administration '
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
+feature: '"Kundattribut, målgruppsbibliotek, Admin Console"'
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 20%
+source-wordcount: '437'
+ht-degree: 19%
 
 ---
 
@@ -24,9 +28,9 @@ Den här guiden ger hjälp om Experience Cloud och produktadministration i Admin
 * [[!UICONTROL Audience Library]](audience-library/audience-library.md)
 * [[!UICONTROL Customer Attributes]](attributes/attributes.md)
 * [[!UICONTROL Triggers]](activation/triggers.md)
-* [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets/experience-cloud-assets.md)
+* [Experience Cloud  [!UICONTROL Assets]](experience-cloud-assets/experience-cloud-assets.md)
 * [Experience Cloud cookies](cookies/cookies-privacy.md)
-* [Hantering](admin-getting-started/admin-getting-started.md) av användare och produkter (Admin Console)
+* [Hantering](admin-getting-started/admin-getting-started.md)  av användare och produkter (Admin Console)
 * [Möjliggör era lösningar för bastjänsterna](core-services/core-services.md)
 * [Vanliga frågor](admin-getting-started/admin-getting-started.md)
 * [Organisationer och kontolänkning](admin-getting-started/organizations.md)
@@ -46,7 +50,7 @@ Stödlinjer för Experience Cloud:
 * [Experience Platform Launch](https://docs.adobelaunch.com/)
 * [Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)
 * [Allmänt API för dataskyddsförordningen (GDPR)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-* [[!UICONTROL Dynamic Tag Management]](https://docs.adobe.com/content/help/sv-SE/dtm/using/dtm-home.html)
+* [[!UICONTROL Dynamic Tag Management]](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
 
 ## Självstudiekurser
 
@@ -58,10 +62,10 @@ Självhjälp och snabba guider i Experience League:
 
 ## Versionsinformation och tillhörande Experience Cloud-hjälp
 
-* [Produktdokumentation för alla Experience Cloud-lösningar](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html) - Bläddra efter hjälp på Experience Cloud studiematerial och support
-* [Versionsinformation och produktuppdateringar](https://docs.adobe.com/content/help/sv-SE/release-notes/experience-cloud/current.html) - Nyheter i Experience Cloud och prenumerera för att få uppdateringar
-* [Tutorials för implementering av bastjänster](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html) - Utforska videor och självstudiekurser om bastjänster
-* [Experthjälp på Experience League](https://landing.adobe.com/experience-league/) - få hjälp av experter och communityn
-* [Utbildning](https://helpx.adobe.com/se/learning.html?promoid=KAUDK) - Samarbeta med Adobe för att få ut det mesta av våra produkter
-* [Kundupplevelsebloggen](https://theblog.adobe.com/customer-experience/) - Läs Experience Cloud-bloggen
-* [Kundtjänst](https://helpx.adobe.com/se/contact/enterprise-support.ec.html) - kontakta Adobe kundtjänst
+* [Produktdokumentation för alla Experience Cloud-lösningar](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)  - Bläddra efter hjälp på Experience Cloud studiematerial och support
+* [Versionsinformation och produktuppdateringar](https://docs.adobe.com/content/help/sv-SE/release-notes/experience-cloud/current.html)  - Nyheter i Experience Cloud och prenumerationer för att få uppdateringar
+* [Tutorials för implementering av bastjänster](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)  - Utforska videor och självstudiekurser om bastjänster
+* [Experthjälp på Experience League](https://landing.adobe.com/experience-league/)  - Få hjälp av experter och communityn
+* [Utbildning](https://helpx.adobe.com/se/learning.html?promoid=KAUDK)  - Med Adobe får du ut det mesta av våra produkter
+* [Kundupplevelsebloggen](https://theblog.adobe.com/customer-experience/)  - Läs Experience Cloud-bloggen
+* [Kundtjänst](https://helpx.adobe.com/se/contact/enterprise-support.ec.html)  - kontakta Adobe kundtjänst
