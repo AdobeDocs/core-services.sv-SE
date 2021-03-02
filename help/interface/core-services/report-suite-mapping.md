@@ -2,10 +2,14 @@
 description: Lär dig hur du mappar en eller flera rapportsviter till en organisation i Experience Cloud.
 title: 'Mappa rapportsviter till en organisation '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
+feature: Admin Console
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1134'
 ht-degree: 1%
 
 ---
