@@ -1,14 +1,18 @@
 ---
 description: Läs om hur Adobe Target använder cookies för att ge webbplatsoperatörer möjlighet att testa vilket onlineinnehåll och vilka erbjudanden som är mer relevanta för besökarna.
-keywords: cookies;privacy
+keywords: cookies;sekretess
 solution: Experience Cloud,Analytics,Target,Social
-title: 'Så här använder du Adobe Target Cookies '
+title: 'Adobe Target Cookies '
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
+feature: Cookies
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 1%
+source-wordcount: '272'
+ht-degree: 2%
 
 ---
 
@@ -52,7 +56,7 @@ Du kan ändra de här inställningarna om det behövs, med undantag för cookie-
 
 >[!NOTE]
 >
->Om något av dina domännamn innehåller en landskod, t.ex. [!DNL mycompany.co.uk], kan du samarbeta med dina klienttjänster för att konfigurera dina domäner [!DNL mbox.js] så att de stöder detta.
+>Om något av dina domännamn innehåller en landskod, t.ex. [!DNL mycompany.co.uk], kan du tillsammans med dina klienttjänster konfigurera [!DNL mbox.js] så att de stöder detta.
 
 Denna cookie har ett antal värden för att hantera hur besökarna upplever Adobe Target kampanjer:
 
@@ -78,7 +82,7 @@ Denna cookie har ett antal värden för att hantera hur besökarna upplever Adob
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="codeph"> disable</span> </p> </td> 
-   <td colname="col2"> <p>Ange om besökarens inläsningstid överskrider den timeout som har konfigurerats i filen <span class="filepath"> mbox.js</span> . Som standard varar detta 1 timme. </p> </td> 
+   <td colname="col2"> <p>Ange om besökarens inläsningstid överskrider den tidsgräns som konfigurerats i filen <span class="filepath"> mbox.js</span>. Som standard varar detta 1 timme. </p> </td> 
   </tr> 
  </tbody> 
 </table>
