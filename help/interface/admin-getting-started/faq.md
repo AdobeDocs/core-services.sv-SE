@@ -1,13 +1,17 @@
 ---
 description: Läs mer om webbläsarstöd och få svar på vanliga frågor för administratörer i Adobe Experience Cloud.
-keywords: core services, Experience Cloud, Experience Platform, Analytics, Target, user management.
+keywords: bastjänster, Experience Cloud, Experience Platform, Analytics, Target, användarhantering.
 solution: Experience Cloud
 title: 'Frågor och svar om Experience Cloud '
 index: true
+feature: Admin Console
+topic: Administrering
+role: Administratör
+level: Erfaren
 translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '782'
 ht-degree: 7%
 
 ---
@@ -27,7 +31,7 @@ Läs mer om webbläsarstöd och vanliga frågor och svar för administratörer i
 
 ## Hur vet jag om mina lösningar är aktiverade för bastjänster?
 
-Om implementeringen inte har etablerats för bastjänster, se [Aktivera lösningar för bastjänster](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), som beskriver hur du:
+Om implementeringen inte har etablerats för bastjänster kan du läsa [Aktivera lösningar för bastjänster](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C), som beskriver hur du:
 
 1. [Gå med i Experience Cloud och bli administratör](../core-services/core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Implementera Experience Cloud ID-tjänsten med Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html).
@@ -38,7 +42,7 @@ Om implementeringen inte har etablerats för bastjänster, se [Aktivera lösning
 1. [Hantera användare och produkter](../core-services/core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
 1. [Börja använda bastjänsterna](../core-services/core-services.md#section_960C06093623462E8EA247B3E97274A1)
 
-Mer hjälp får du [av Adobe Support](https://helpx.adobe.com/marketing-cloud/contact-support.html).
+[Kontakta Adobe Support](https://helpx.adobe.com/marketing-cloud/contact-support.html) om du behöver mer hjälp.
 
 ## Tar Adobe mitt företag betalt för Experience Cloud?
 
@@ -50,7 +54,7 @@ De funktioner som finns i gränssnittet Experience Cloud ger ditt företag ett m
 
 ## Hur löser jag problemen med att migrera mitt företag?
 
-[Kontakta supporten för](https://helpx.adobe.com/marketing-cloud/contact-support.html)Adobe.
+[Kontakta supporten för](https://helpx.adobe.com/marketing-cloud/contact-support.html) Adobe.
 
 ## Vad är _etablering?_
 
@@ -63,17 +67,17 @@ Med tillhandahållande i Experience Cloud avses
 
 ## Hur hanterar jag användare och produktprofiler?
 
-* Mer information finns i användarhandboken [för](https://helpx.adobe.com/enterprise/administering/user-guide.html) Admin Console.
+* Mer information finns i [användarhandboken för Admin Console](https://helpx.adobe.com/enterprise/administering/user-guide.html).
 
 * Användarrättigheter och produkthantering utförs i [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (produktlänk).
 
-* **Viktigt:** Analysadministratörer, se [Hantera Analytics-användare i Admin Console](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html) om hur du migrerar användar-ID:n från Analytics Admin Tools till Admin Console.
+* **Viktigt:** Analysadministratörer, se  [Hantera Analytics-användare i Admin ](https://docs.adobe.com/content/help/en/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html) Console om hur du migrerar användar-ID:n från Administratörsverktyg för Analytics till Admin Console.
 
 ## Vad gör jag om någon inte kan logga in på Experience Cloud?
 
 Admin Console-administratörer kan ge användare åtkomst. Användarna får e-post med inloggningsinstruktioner.
 
-Du kan behöva [kontakta Adobe Support](https://helpx.adobe.com/marketing-cloud/contact-support.html) för att bekräfta att ditt företag har etablerats helt.
+Du kan behöva [kontakta Adobe Support](https://helpx.adobe.com/marketing-cloud/contact-support.html) för att verifiera att ditt företag har etablerats helt.
 
 ## Var kan en användare gå för att hantera kontolänkning?
 
@@ -87,15 +91,15 @@ Se [Hantera användarkonton](../admin-getting-started/organizations.md#topic_C31
 
 ## Vad är en organisation?
 
-An *organization* is the entity that enables an administrator to configure groups and users, and to control single sign-on in the Experience Cloud. Organisationen fungerar som ett inloggningsföretag som omfattar alla produkter och lösningar i Experience Cloud. Oftast är en organisation ditt företagsnamn. Ett företag kan dock ha många organisationer.
+En *organisation* är den enhet som gör det möjligt för en administratör att konfigurera grupper och användare samt att styra enkel inloggning i Experience Cloud. Organisationen fungerar som ett inloggningsföretag som omfattar alla produkter och lösningar i Experience Cloud. Oftast är en organisation ditt företagsnamn. Ett företag kan dock ha många organisationer.
 
 ## Var hittar jag mitt IMS-organisations-ID?
 
-Se [Hitta ditt företags-ID](organizations.md).
+Se [Söka efter ditt företags-ID](organizations.md).
 
-Organisations-ID:t visas på landningssidan för Experience Cloud och på landningssidan [för](https://adminconsole.adobe.com)Admin Console.
+Organisations-ID:t visas på landningssidan i Experience Cloud och på landningssidan [Admin Console](https://adminconsole.adobe.com).
 
-Administratörer kan också logga in på Admin Console (gå till [https://adminconsole.adobe.com](https://adminconsole.adobe.com#)) för en viss organisation, och du kan se ditt IMS-organisations-ID i URL:en.
+Administratörer kan också logga in på Admin Console (gå till [https://adminconsole.adobe.com](https://adminconsole.adobe.com#)) för en viss organisation och du kan se ditt IMS-organisations-ID i URL:en.
 
 I följande URL:
 
