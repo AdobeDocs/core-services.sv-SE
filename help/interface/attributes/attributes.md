@@ -7,15 +7,15 @@ role: Administratör
 topic: Administrering
 level: Erfaren
 translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '471'
 ht-degree: 2%
 
 ---
 
 
-# Kundattribut i Experience Cloud
+# Översikt över kundattribut
 
 Med kundattribut i Adobe Experience Cloud kan du överföra dina hämtade företagsdata från en CRM-databas (customer relationship management). Du kan överföra data till en datakälla för kundattribut i Experience Cloud och sedan använda data i Adobe Analytics och Adobe Target.
 
