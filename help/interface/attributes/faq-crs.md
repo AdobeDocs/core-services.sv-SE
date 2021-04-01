@@ -9,15 +9,15 @@ topic: Administrering
 role: Administratör
 level: Erfaren
 translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1231'
 ht-degree: 1%
 
 ---
 
 
-# Vanliga frågor, begränsningar och bästa praxis
+# Vanliga frågor om kundattribut
 
 Vanliga frågor och tips om kundattribut i Adobe Analytics och Adobe Target.
 
@@ -39,7 +39,7 @@ Vägledning och begränsningar när du använder [!UICONTROL Customer Attributes
 |--- |--- |
 | Kan jag få meddelanden om överföringsstatus för kundattribut? | Ja. Se [Hantera meddelanden](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/organizations.html#concept_0105453AD71847B8BFCAF4A40915F157). |
 | Vad ska jag göra för att komma igång med kundattribut? | <ol><li>Få etablerat. Om du är Analytics-kund tilldelar Adobe dig kundattribut. Om du bara använder Adobe Target och inte har Analytics, begär du etablering för bastjänsterna genom att kontakta Kundtjänst.</li> <li>Diskutera med CRM-teamet. Ta reda på vilken typ av kunddata som finns tillgängliga och som du vill använda i Analytics och i hela Experience Cloud.</li><li>Implementera bastjänster. Se [Aktivera lösningar för bastjänster](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html) för steg om hur du moderniserar implementeringen. (Se avsnittet om synkronisering av kund-ID:n för viktig information.)</li></ol> **Obs!** Administratörens Frågor och svar för implementering av bastjänster finns  [här](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/faq.html#concept_13219B4E51784577B6FF78AAA203DE91). |
-| Hur många kundattribut får jag använda? | Du kan överföra hundratals `.csv`-kolumner till kundattributtjänsten. När du konfigurerar prenumerationer och väljer attribut gäller dock följande begränsningar (per rapportsvit), beroende på vilka lösningar du äger:  <ul><li>Foundation: 0</li><li>Välj: 1</li><li>Prime: 15</li><li>Ultimate: 200</li><li>Standard: 3 totalt</li><li>Premium: 200</li><li>Adobe Target Standard: 5</li><li>Adobe Target Premium: 200</li></ul> |
+| Hur många kundattribut får jag använda? | Du kan överföra hundratals `.csv`-kolumner till kundattributtjänsten. När du konfigurerar prenumerationer och väljer attribut gäller dock följande begränsningar (per rapportsvit), beroende på vilka lösningar du äger:  <ul><li>Foundation: 0</li><li>Välj: 3</li><li>Prime: 15</li><li>Ultimate: 200</li><li>Standard: 3 totalt</li><li>Premium: 200</li><li>Adobe Target Standard: 5</li><li>Adobe Target Premium: 200</li></ul> |
 | Krävs migrering till Experience Cloud ID-tjänsten? | Migreringen beror på vilka lösningar du använder. <ul><li>Adobe Analytics: Rekommenderas starkt </li><li>Adobe Target: Obligatoriskt. </li></ul><br>Med tjänsten Experience Cloud ID får du tillgång till de senaste Experience Cloud-funktionerna, inklusive målgrupper i realtid, Adobe Target modernisering, Analytics-integrering och loggning av pulsslag. <br> Mer information finns i  [Aktivera lösningar för bastjänster](https://docs.adobe.com/content/help/en/core-services/interface/about-core-services/core-services.html). <br>**Obs!** Tjänsten  [Experience Cloud ID ](https://docs.adobe.com/content/help/en/id-service/using/intro/overview.html) är en moderniserad implementering av det som tidigare kallades  _besökar-ID för Analytics._ |
 | Hur hör kundattributsfunktionen ihop med Adobe Audience Manager? | Även om Audience Manager kan ta emot data för att utföra målgruppsidentifiering kan det inte utföra analysfunktioner som kopplar attribut till historiska beteendedata. Den innehåller inte heller de funktioner för rapportering, analys och segmentering som finns i Adobe Analytics. [!UICONTROL People] gör att omfattande data från olika lösningar kan knytas ihop och kopplas till ett enda ID för användning i hela Experience Cloud. <br>I Adobe Target visas kundattribut som enskilda attribut som kan kombineras med andra regler för att skapa målgrupper. Målgrupper som delas med [!UICONTROL People]-tjänsten är fullständiga målgrupper som inte kan ändras. |
 | **(Endast Analytics)** Hur skiljer sig den här funktionen från vad som ingår i Analytics Premium? | Tidigare har kunder som är intresserade av att kombinera kundattributdata med analysdata i stor utsträckning förlitat sig på verktyget data workbench för den här funktionen. Kundattribut exponerar denna funktionalitet för en större publik genom att tillhandahålla kundattribut som mått och mätvärden i rapporter och analyser, ad hoc-analyser och rapportverktyg. Analytics Standard-kunder får tillgång till kundattribut, men med begränsade funktioner. Den fullständiga funktionaliteten är tillgänglig för kunder som har Analytics Premium. |
