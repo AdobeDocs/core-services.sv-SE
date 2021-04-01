@@ -6,10 +6,10 @@ user-guide-description: Lär dig hur du hanterar användare och produkter i Adob
 user-guide-url: https://www.adobe.com
 index: true
 translation-type: tm+mt
-source-git-commit: 56301935a3f3e20633294d29cc01e4bcfb7924d5
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 11%
+source-wordcount: '377'
+ht-degree: 10%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 11%
    + [Aktivera implementeringen för tjänster som omfattar flera lösningar](core-services/core-services.md)
    + [Mappa rapportsviter till en organisation](core-services/report-suite-mapping.md)
    + [Om de nya molnnamnen i Experience Cloud](solutions-core-services.md)
-+ [Integrering med Experience Cloud](marketing-cloud-integrations.md)
++ [Experience Cloud-integreringar](marketing-cloud-integrations.md)
 + Experience Cloud cookies {#ec-cookies}
    + [Översikt över cookies i Experience Cloud](cookies/cookies-privacy.md)
    + [cookies från första part i Experience Cloud](cookies/cookies-first-party.md)
@@ -63,8 +63,8 @@ ht-degree: 11%
    + [Skapa en målgrupp](audience-library/t-audience-create.md)
    + [Publicera ett målgruppssegment i Analytics](audience-library/t-publish-audience-segment.md)
 + Experience Cloud kundattribut {#customer-attributes}
-   + [Kundattribut i Adobe Experience Cloud](attributes/attributes.md)
-   + [Vanliga frågor, begränsningar och bästa praxis](attributes/faq-crs.md)
+   + [Översikt över kundattribut](attributes/attributes.md)
+   + [Vanliga frågor om kundattribut](attributes/faq-crs.md)
    + [Om datafiler och datakällor för kundattribut](attributes/crs-data-file.md)
    + [Skapa en kundattributskälla och överför datafilen](attributes/t-crs-usecase.md)
    + [Valfritt - Överför datafilen via FTP](attributes/t-upload-attributes-ftp.md)
@@ -73,14 +73,12 @@ ht-degree: 11%
    + [Uppdatera schemat](attributes/t-update-schema.md)
    + [Stöd för den allmänna dataskyddsförordningen](attributes/gdpr.md)
    + [Stöd för California Consumer Privacy Act](attributes/ccpa.md)
-   + [Sekretessfrågor - kundattribut](attributes/privacy-mac.md)
+   + [Sekretessöverväganden för kundattribut](attributes/privacy-mac.md)
 + Versionsinformation för Experience Cloud {#release-notes}
    + [Nyheter i Experience Cloud](https://docs.adobe.com/content/help/sv-SE/release-notes/experience-cloud/current.html)
    + [Ackumulerade versionsinformation](marketing-cloud-interface/release-notes.md)
-+ [Exchange Marketplace](exchange.md)
-+ [Mobiltjänster](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
 + Fler resurser {#more-resources}
    + [Forum](https://forums.adobe.com/community/experience-cloud)
    + [Terminologi](terms.md)
    + [Använda DNS-förhämtning med olika lösningar och tjänster](dns-prefetch.md)
-   + [Dokumentationsuppdateringar - Experience Cloud](doc-updates.md)
+   + [Dokumentationsuppdateringar](doc-updates.md)
