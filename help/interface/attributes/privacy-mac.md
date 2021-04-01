@@ -9,15 +9,15 @@ topic: Administrering
 role: Administratör
 level: Erfaren
 translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '519'
 ht-degree: 1%
 
 ---
 
 
-# Sekretessöverväganden för kundattribut i Experience Cloud
+# Sekretessöverväganden för kundattribut
 
 Överväganden och bästa praxis gällande personligt identifierbar information (PII) som överförts och används i Adobe Experience Cloud.
 
