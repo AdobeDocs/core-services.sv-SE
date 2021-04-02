@@ -4,14 +4,14 @@ keywords: bastjänster
 solution: Experience Cloud
 title: 'Ackumulerade versionsinformation '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-feature: '"Kundattribut, målgruppsbibliotek, Admin Console"'
+feature: '"Kundattribut"'
 topic: Administrering
 role: Administratör
 level: Erfaren
 translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
 workflow-type: tm+mt
-source-wordcount: '3919'
+source-wordcount: '3915'
 ht-degree: 3%
 
 ---
