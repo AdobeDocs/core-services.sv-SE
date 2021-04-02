@@ -6,14 +6,14 @@ seo-title: Terminologi
 solution: Experience Cloud
 title: 'Terminologi '
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
-feature: '"Kundattribut, målgruppsbibliotek, Admin Console"'
+feature: '"Kundattribut"'
 topic: Administrering
 role: Administratör
 level: Erfaren
 translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
 workflow-type: tm+mt
-source-wordcount: '1498'
+source-wordcount: '1494'
 ht-degree: 4%
 
 ---
