@@ -9,9 +9,9 @@ topic: Administrering
 role: Administratör
 level: Erfaren
 translation-type: tm+mt
-source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+source-git-commit: 97117dc558240eabd0687f416ea4be7a45783048
 workflow-type: tm+mt
-source-wordcount: '3915'
+source-wordcount: '3912'
 ht-degree: 3%
 
 ---
@@ -505,7 +505,7 @@ Nya funktioner och korrigeringar i [!DNL Adobe Experience Cloud] samarbets- och 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Exchange </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt;  <span class="uicontrol"> Hjälp</span>  &gt;  <span class="uicontrol"> Exchange</span></p> <p><span class="keyword"> Experience Cloud</span><span class="wintitle"> Exchange</span> är ett enda mål där du kan söka efter, bläddra bland, välja ut, betala och hämta tillägg för digital marknadsföring via appar. </p> <p>Apparna innehåller dataanslutningar, anpassade konfigurationer för Adobe Core-produkter, program från tredje part, rapporter och <span class="keyword"> Experience Cloud</span>-kort. </p> <p>Se <a href="../exchange.md#concept_E07F16F070544B82B56527A845C41D59" format="dita" scope="local"> Exchange Marketplace</a>. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt;  <span class="uicontrol"> Hjälp</span>  &gt;  <span class="uicontrol"> Exchange</span></p> <p><span class="keyword"> Experience Cloud</span><span class="wintitle"> Exchange</span> är ett enda mål där du kan söka efter, bläddra bland, välja ut, betala och hämta tillägg för digital marknadsföring via appar. </p> <p>Apparna innehåller dataanslutningar, anpassade konfigurationer för Adobe Core-produkter, program från tredje part, rapporter och <span class="keyword"> Experience Cloud</span>-kort. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud målgrupper </p> </td> 
