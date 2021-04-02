@@ -1,4 +1,6 @@
 ---
+title: Experience Cloud UI Components and Services
+description: Läs mer om användargränssnittskomponenter, användar- och produktadministration i Adobe Admin Console, Audience Library, Customer Attributes, Experience Cloud Assets med flera.
 cloud: Experience Cloud
 product: core-services
 solution: Experience Cloud Services
@@ -12,10 +14,10 @@ tutorials-title: Självstudiekurser
 tutorials-url: https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/core-services.sv-SE
 translation-type: tm+mt
-source-git-commit: 6949b419fc4182e09dfa3b473d3a96e56528c629
+source-git-commit: 4a7576d234936ba1dd1a6a1b54a5fd34ddeb24ae
 workflow-type: tm+mt
-source-wordcount: '172'
-ht-degree: 70%
+source-wordcount: '200'
+ht-degree: 60%
 
 ---
 
@@ -40,5 +42,5 @@ I filen TOC.md
 
 | metadata | vad gör den |
 |--- |--- |
-| användar-handbok-titel | Används i artikelrubriken som en länk |
+| user-guide-title | Används i artikelrubriken som en länk |
 | användar-handbok-url | Öppnar den centrala helpx-sidan |
