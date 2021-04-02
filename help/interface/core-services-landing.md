@@ -2,15 +2,15 @@
 description: Läs om Adobe Experience Cloud hantering av användare och produkter, människor (målgrupper och kundattribut), Journey Orchestration, erbjudanden, platser, Experience Platform Launch och mobiltjänster.
 solution: Experience Cloud
 title: 'Översikt över Experience Cloud tjänster '
-feature: '"Kundattribut, målgruppsbibliotek"'
+feature: Kundattribut
 topic: Administrering
 role: Administratör
 level: Erfaren
 translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: 28353aab8d473192e2ebee03196cf14929b50892
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 13%
+source-wordcount: '464'
+ht-degree: 14%
 
 ---
 
