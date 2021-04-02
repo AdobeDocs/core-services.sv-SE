@@ -3,15 +3,15 @@ description: Lär dig hur du implementerar DNS-förhämtning för att minska sid
 solution: Experience Cloud
 title: 'Använda DNS-förhämtning med olika lösningar och tjänster '
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
-feature: '"Kundattribut, målgruppsbibliotek, Admin Console"'
+feature: Kundattribut
 topic: Administrering
 role: Administratör
 level: Erfaren
 translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 1%
+source-wordcount: '383'
+ht-degree: 2%
 
 ---
 
