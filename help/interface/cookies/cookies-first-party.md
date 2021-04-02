@@ -10,9 +10,9 @@ topic: Administrering
 role: Administratör
 level: Erfaren
 translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f67e207cb130ee057471d3fc13845f1df66376b6
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1444'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,9 @@ Det finns två alternativ för att implementera cookies från första part:
 * Experience Platform ID-tjänsten. ID-tjänsten kan ställa in cookien i förstahandskontexten med JavaScript.
 * DNS-poster på ditt företags DNS-server för att konfigurera ett CNAME-alias för en värddomän i Adobe. Observera att även om olika Adobe-produkter stöder användning av CNAME används CNAME i samtliga fall för att skapa en tillförlitlig förstapartsslutpunkt för en viss kund och ägs av den kunden. Om den kunden kontrollerar flera domäner kan de använda en enda CNAME-slutpunkt för att spåra användare över sina domäner, men eftersom detta kräver cookies från tredje part för alla domäner utanför CNAME:s domän fungerar det inte när cookies från tredje part blockeras och rekommenderas därför inte. Adobe CNAME används aldrig för att spåra en individ eller enhet över domäner som ägs av olika kunder.
 
-Även om du använder det första alternativet med Experience Cloud ID-tjänsten kommer Apples ITP att göra cookies från första part kortlivade, så det är bäst att använda tillsammans med det andra alternativet.
+>[!NOTE]
+>
+>För båda alternativen gör Apples ITP-program (Intelligent Tracking Prevention) att förstapartscookies blir kortlivade i webbläsare som styrs av ITP, som inkluderar Safari i MacOS och alla webbläsare i iOS och iPadOS. Från och med november 2020 har båda typerna av cookies sju dagar på sig. Reservation för ändringar.
 
 För det andra alternativet med CNAME kan du, om webbplatsen har säkra sidor med HTTPS-protokollet, arbeta med Adobe för att erhålla ett SSL-certifikat för att implementera cookies från första part. Adobe rekommenderar starkt att du endast använder HTTPS för datainsamling eftersom vi kommer att släppa stödet för HTTP-samling under andra halvåret 2020.
 
@@ -94,7 +96,7 @@ Så länge implementeringskoden inte ändras kommer det här steget inte att på
 
 >[!NOTE]
 >
->Experience Cloud Visitor ID-tjänsten är ett alternativ till att konfigurera en CNAME för att aktivera cookies från första part, men på grund av de senaste ändringarna i Apple ITP rekommenderar vi fortfarande att du allokerar en CNAME även när du använder tjänsten Experience Cloud ID.
+>Experience Cloud Visitor ID-tjänsten är ett alternativ till att konfigurera en CNAME så att cookies från första part aktiveras.
 
 ## Verifiera vidarebefordran av värdnamn {#validate}
 
