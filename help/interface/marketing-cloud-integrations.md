@@ -6,16 +6,16 @@ title: 'Integrering med Experience Cloud '
 uuid: a9893c6b-bccc-4fb5-b724-724644c7def5
 feature: Admin Console
 topic: Administrering
-role: Administratör
-level: Erfaren
+role: Administrator
+level: Experienced
+exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
 translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: f081265eaa759756712c12254b9048c1fddf8e40
 workflow-type: tm+mt
-source-wordcount: '1514'
-ht-degree: 9%
+source-wordcount: '1531'
+ht-degree: 8%
 
 ---
-
 
 # Experience Cloud-integreringar
 
@@ -72,6 +72,10 @@ Skapa och hantera målgrupper i Experience Cloud Audience Library. Målgrupper k
 
 Hjälp: [Kundattribut](attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
+>[!NOTE]
+>
+>Customer Attributes är en äldre bastjänst som nu är under efterbehandling.
+
 Om du samlar in data om företagskunder i en CRM-databas (customer relationship management) kan du överföra dessa data till en datakälla för kundattribut i Experience Cloud. När du har överfört data kan du använda dessa i [!DNL Adobe Analytics] och [!DNL Adobe Target].
 
 **Tillämpliga lösningar eller tjänster**
@@ -82,6 +86,10 @@ Om du samlar in data om företagskunder i en CRM-databas (customer relationship 
 ## Experience Cloud Assets {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
 
 Hjälp: [Dela Experience Cloud-mappar med Creative Cloud](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html)
+
+>[!NOTE]
+>
+>Resurser är en äldre bastjänst som nu är under tillsyn.
 
 Dela mappar och resurser mellan Experience Cloud och Creative Cloud. Samarbeta, kommentera i delade resurser och använd dem i Experience Cloud-lösningar som [!DNL Social] och [!DNL Target].
 
