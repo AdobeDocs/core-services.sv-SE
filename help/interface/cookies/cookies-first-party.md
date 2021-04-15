@@ -7,16 +7,16 @@ index: y
 snippet: y
 feature: Cookies
 topic: Administrering
-role: Administratör
-level: Erfaren
+role: Administrator
+level: Experienced
+exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
 translation-type: tm+mt
-source-git-commit: 04f23f3b36b246aa1fe6d672aaeef1dc9140ef3a
+source-git-commit: 4e3d6e605df4d1861f1dffb4cde5311eea283ee3
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1499'
 ht-degree: 0%
 
 ---
-
 
 # Om cookies från första part
 
@@ -49,23 +49,25 @@ Med programmet Hanterat certifikat i Adobe kan du implementera ett nytt SSL-cert
 
 Så här implementerar du ett nytt SSL-certifikat från första part för cookies från första part:
 
-1. Fyll i formuläret [Begär cookie från första part](/help/interface/cookies/assets/FPC_Request_Form.xlsx) och öppna en biljett där kundtjänst begär att få konfigurera cookies från första part i programmet Hanterad på Adobe. Varje fält beskrivs i dokumentet med exempel.
+1. Fyll i formuläret [Begär cookie från första part](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) och öppna en biljett där kundtjänst begär att få konfigurera cookies från första part i programmet Hanterad på Adobe. Varje fält beskrivs i dokumentet med exempel.
 
-1. Skapa CNAME-poster (se instruktionerna nedan).
+2. Skapa CNAME-poster (se instruktionerna nedan).
 
-   När du får biljetten ska du få ett par CNAME-poster från kundtjänst. Dessa poster måste konfigureras på företagets DNS-server innan Adobe kan köpa certifikatet åt dig. CNAMES kommer att se ut ungefär så här:
+   När du fått biljetten ska en kundtjänstrepresentant ge dig en CNAME-post. Dessa poster måste konfigureras på företagets DNS-server innan Adobe kan köpa certifikatet åt dig. CNAME kommer att likna följande:
 
-   **Säker**  - Värdnamnet  `smetrics.example.com` pekar till exempel på:  `example.com.ssl.d1.omtrdc.net`.
+   **Säker**  - Värdnamnet  `smetrics.example.com` pekar till exempel på:  `example.com.adobedc.net`.
 
-   **Osäker**  - Värdnamnet  `metrics.example.com` pekar till exempel på:  `example.com.d1.omtrdc.net`.
+>[!NOTE]
+> Tidigare har vi rekommenderat att kunderna konfigurerar två CNAME en för HTTPS och en för HTTP. Eftersom det är en god praxis att kryptera trafik och de flesta webbläsare avråder från HTTP rekommenderar vi inte längre att du konfigurerar en CNAME för HTTP. Om du behöver det skulle det se ut så här:
+>    **Osäker** — värdnamnet `metrics.example.com` pekar på: `example.com.adobedc.net`.
 
-1. När dessa CNAMES finns på plats kommer Adobe att arbeta med DigiCert för att köpa och installera ett certifikat på Adobe produktionsservrar.
+1. När CNAME finns på plats arbetar Adobe med DigiCert för att köpa och installera ett certifikat på Adobe produktionsservrar.
 
    Om du har en befintlig implementering bör du överväga att migrera besökare för att behålla befintliga besökare. När certifikatet har publicerats till Adobe produktionsmiljö kan du uppdatera dina spårningsservervariabler till de nya värdnamnen. Om platsen inte är säker (HTTP) uppdaterar du `s.trackingServer`. Om webbplatsen är säker (HTTPS) uppdaterar du både `s.trackingServer` och `s.trackingServerSecure` variabler.
 
-1. [Validera vidarebefordran](#validate)  av värdnamn (se nedan).
+2. [Validera vidarebefordran](#validate)  av värdnamn (se nedan).
 
-1. [Uppdatera implementeringskod](#update)  (se nedan).
+3. [Uppdatera implementeringskod](#update)  (se nedan).
 
 ### Underhåll och förnyelser
 
@@ -76,7 +78,7 @@ SSL-certifikat upphör att gälla varje år, vilket innebär att Adobe måste k�
 | Fråga | Svar |
 |---|---|
 | **Är den här processen säker?** | Ja, Adobe Managed är säkrare än vår gamla metod eftersom inget certifikat eller någon privat nyckel ändrar händer utanför Adobe och certifikatutfärdaren. |
-| **Hur kan Adobe köpa ett certifikat för vår domän?** | Certifikatet kan bara köpas om du har pekat på det angivna värdnamnet (till exempel `smetrics.example.com`) till ett värdnamn som ägs av Adobe. Detta innebär att värdnamnet delegeras till Adobe och att Adobe kan köpa certifikatet för din räkning. |
+| **Hur kan Adobe köpa ett certifikat för vår domän?** | Certifikatet kan bara köpas om du har pekat på det angivna värdnamnet (till exempel `telemetry.example.com`) till ett värdnamn som ägs av Adobe. Detta innebär att värdnamnet delegeras till Adobe och att Adobe kan köpa certifikatet för din räkning. |
 | **Kan jag begära att certifikatet återkallas?** | Ja, som ägare av domänen har du rätt att begära att certifikatet återkallas. Du behöver bara öppna en biljett hos Kundtjänst för att få detta färdigt. |
 | **Använder det här certifikatet SHA-2-kryptering?** | Ja, Adobe kommer att arbeta med DigiCert för att utfärda ett SHA-2-certifikat. |
 | **Kostar detta något?** | Nej, Adobe erbjuder den här tjänsten till alla nuvarande Adobe-kunder med digitala upplevelser utan extra kostnad. |
@@ -85,12 +87,16 @@ SSL-certifikat upphör att gälla varje år, vilket innebär att Adobe måste k�
 
 Organisationens nätverksteam bör konfigurera dina DNS-servrar genom att skapa nya CNAME-poster. Varje värdnamn vidarebefordrar data till Adobe datainsamlingsservrar.
 
-FPC-specialisten ger dig konfigurerade värdnamn och vilka CNAME som de ska peka på. Exempel:
+FPC-specialisten ger dig det konfigurerade värdnamnet och vilken CNAME de ska peka på. Exempel:
 
 * **SSL-värdnamn**:`smetrics.mysite.com`
-* **SSL CNAME**:`mysite.com.ssl.sc.omtrdc.net`
-* **Värdnamn** som inte är SSL:`metrics.mysite.com`
-* **CNAME** som inte är SSL:`mysite.com.sc.omtrdc.net`
+* **SSL CNAME**:`mysite.com.adobedc.net`
+
+>[!NOTE]
+> Om du fortfarande använder osäker kommer det att se ut så här.
+> * **Värdnamn** som inte är SSL:`metrics.mysite.com`
+> * **CNAME** som inte är SSL:`mysite.com.adobedc.net`
+
 
 Så länge implementeringskoden inte ändras kommer det här steget inte att påverka datainsamlingen och kan utföras när som helst efter att implementeringskoden har uppdaterats.
 
@@ -106,7 +112,7 @@ Följande metoder är tillgängliga för validering:
 
 Om du har konfigurerat en CNAME och har installerat certifikatet kan du använda webbläsaren för validering:
 
-`https://sstats.adobe.com/_check`
+`https://smetrics.adobe.com/_check`
 
 >[!NOTE]
 >
@@ -117,27 +123,27 @@ Om du har konfigurerat en CNAME och har installerat certifikatet kan du använda
 Adobe rekommenderar att du använder [[!DNL curl]](https://curl.haxx.se/) från kommandoraden. ([!DNL Windows] användare kan installera [!DNL curl] från: <https://curl.haxx.se/windows/>)
 
 Om du har en CNAME men inget certifikat är installerat kör du:
-`curl -k https://sstats.adobe.com/_check`
+`curl -k https://smetrics.adobe.com/_check`
 Svar: `SUCCESS`
 
 (Värdet `-k` inaktiverar säkerhetsvarningen.)
 
 Om du har konfigurerat en CNAME och certifikatet är installerat kör du:
-`curl https://sstats.adobe.com/_check`
+`curl https://smetrics.adobe.com/_check`
 Svar: `SUCCESS`
 
 ### Validera med [!DNL nslookup]
 
-Du kan använda `nslookup` för validering. Använd `sstats.adobe.com`som exempel genom att öppna en kommandotolk och skriva `nslookup sstats.adobe.com`
+Du kan använda `nslookup` för validering. Använd `smetrics.adobe.com`som exempel genom att öppna en kommandotolk och skriva `nslookup smetrics.adobe.com`
 
 Om allt är klart att konfigureras visas en retur som liknar:
 
 ```
-nslookup sstats.adobe.com
+nslookup smetrics.adobe.com
 Server:             10.30.7.247
 Address:     10.30.7.247#53
 
-sstats.adobe.com    canonical name = adobe.com.ssl.d1.sc.omtrdc.net.
+smetrics.adobe.com    canonical name = adobe.com.ssl.d1.sc.omtrdc.net.
 Name:  adobe.com.ssl.d1.sc.omtrdc.net
 Address: 54.218.180.161
 Name:  adobe.com.ssl.d1.sc.omtrdc.net
