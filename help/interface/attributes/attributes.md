@@ -3,19 +3,23 @@ title: Så här använder du kundattribut
 description: Läs mer om tjänsten Customer Attributes i Adobe Experience Cloud. Lär dig hur du överför kundattributdata för användning i Adobe Analytics och Adobe Target.
 solution: Experience Cloud
 feature: Kundattribut
-role: Administratör
+role: Administrator
 topic: Administrering
-level: Erfaren
+level: Experienced
+exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 translation-type: tm+mt
-source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
+source-git-commit: 67203aa4f9442ec9c6ada1f1b031677802c416fe
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '479'
 ht-degree: 2%
 
 ---
 
-
 # Översikt över kundattribut
+
+>[!NOTE]
+>
+>Customer Attributes är en äldre bastjänst som nu är under efterbehandling.
 
 Med kundattribut i Adobe Experience Cloud kan du överföra dina hämtade företagsdata från en CRM-databas (customer relationship management). Du kan överföra data till en datakälla för kundattribut i Experience Cloud och sedan använda data i Adobe Analytics och Adobe Target.
 
