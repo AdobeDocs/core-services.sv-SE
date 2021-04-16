@@ -6,84 +6,46 @@ title: 'Adobe Target Cookies '
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 feature: Cookies
 topic: Administrering
-role: Administratör
-level: Erfaren
+role: Administrator
+level: Experienced
+exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
 translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+source-git-commit: dcb6fa5d8458995cba66bc2f89c954aa6bcd5923
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 2%
+source-wordcount: '410'
+ht-degree: 1%
 
 ---
-
 
 # Adobe Target Cookies{#target-cookies}
 
 Adobe Target använder cookies för att ge webbplatsoperatörerna möjlighet att testa vilket onlineinnehåll och vilka erbjudanden som är mer relevanta för besökarna.
 
-Du kan ändra de här inställningarna om det behövs, med undantag för cookie-varaktighet. Kontakta din kontorepresentant när du ändrar cookie-inställningarna.
+Du kan ändra de här inställningarna om det behövs, förutom för cookie-varaktighet. Kontakta din kontorepresentant när du ändrar cookie-inställningarna.
 
 >[!NOTE]
 >
 >Adobe Target-användare kan också skapa anpassade cookies från tredje part.
 
-<table id="table_54B402C6E19C4A70B1E27BC9DFF776EB"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Inställning </th> 
-   <th colname="col2" class="entry"> Information </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p>Cookie-namn </p> </td> 
-   <td colname="col2"> <p>mbox. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Cookie-domän </p> </td> 
-   <td colname="col2"> <p>Den andra och övre nivån i de domäner som du använder mbox från. Eftersom cookie används av ditt företags domän är den en cookie från första part. Exempel: <span class="filepath"> mycompany.com</span>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Serverdomän </p> </td> 
-   <td colname="col2"> <p> <span class="filepath"> clientcode.tt.omtrdc.net</span>, använda klientkoden för ditt Adobe Target-konto. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>Cookie-varaktighet </p> </td> 
-   <td colname="col2"> <p>Cookien finns kvar i besökarens webbläsare två år efter hans eller hennes senaste inloggning. Du kan inte ändra varaktighet för cookie-filen. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Inställning | Information |
+| --- | --- |
+| Cookie-namn | mbox. |
+| Cookie-domän | Den andra och övre nivån i de domäner som du använder mbox från. Eftersom cookie används av ditt företags domän är den en cookie från första part. Exempel: `mycompany.com`. |
+| Serverdomän | `clientcode.tt.omtrdc.net`, med hjälp av klientkoden för ditt  [!DNL Adobe Target] konto. |
+| Cookie-varaktighet | Cookien finns kvar i besökarens webbläsare två år efter hans eller hennes senaste inloggning. Du kan inte ändra varaktighet för cookie-filen. |
+
+
 
 >[!NOTE]
 >
->Om något av dina domännamn innehåller en landskod, t.ex. [!DNL mycompany.co.uk], kan du tillsammans med dina klienttjänster konfigurera [!DNL mbox.js] så att de stöder detta.
+>Om något av dina domännamn innehåller en landskod, t.ex. `mycompany.co.uk`, kan du tillsammans med dina klienttjänster konfigurera [!DNL at.js] så att de stöder detta.
 
 Denna cookie har ett antal värden för att hantera hur besökarna upplever Adobe Target kampanjer:
 
-<table id="table_5245F72A2D5A4322B40ABB10B7DFB338"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Värde </th> 
-   <th colname="col2" class="entry"> Definition </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> sessions-ID</span> </p> </td> 
-   <td colname="col2"> <p>Ett unikt ID för en användarsession. Som standard varar detta 30 minuter. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> pc-ID</span> </p> </td> 
-   <td colname="col2"> <p>Ett halvpermanent ID för en besökares webbläsare. Varar tills cookies tas bort manuellt. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> check</span> </p> </td> 
-   <td colname="col2"> <p>Ett enkelt testvärde som används för att avgöra om en besökare stöder cookies. Ange varje gång en besökare begär en sida. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> disable</span> </p> </td> 
-   <td colname="col2"> <p>Ange om besökarens inläsningstid överskrider den tidsgräns som konfigurerats i filen <span class="filepath"> mbox.js</span>. Som standard varar detta 1 timme. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| Värde | Definition |
+| --- | --- |
+| sessions-ID | En unik identifierare för en given användarsession. Som standard går sessionen ut efter 30 minuters inaktivitet. Om du genererar sessionId själv (till exempel för implementeringar på serversidan) ska du kontrollera följande:<ul><li>Sessions-ID kan vara vilken utskrivbar sträng som helst förutom blanksteg, frågetecken ( ? ) eller ett snedstreck ( / ).</li><li>* Sessions-ID:t måste vara mellan 1 och 128 tecken långt.</li><li>För en viss session måste dess värde vara detsamma för flera begäranden</li><li>Du bör aldrig ha parallella sessioner (distinkta sessions-ID) för en viss besökare vid något tillfälle.</li></ul>Routning till en viss nod i edge-klustret görs med sessions-ID.<ul><li>Sessionen är aktiv i 30 minuter på serversidan. Du bör därför inte använda ett annat sessions-ID för en viss `tntId/thirdPartyId` inom 30 minuter från den senaste begäran som gjordes med `tntId/thirdPartyId`. Annars kan ändringar i profilen vara inkonsekventa och oförutsägbara.</li><li>Om du använder samma sessions-ID med flera `tntIds/thirdPartyIds` kan det medföra oförutsägbara ändringar i profilerna som identifieras av `tntId/thirdPartyIDs`.</li></ul> |
+| pc-ID | Ett halvpermanent ID för en besökares webbläsare. Varar tills cookies tas bort manuellt. |
+| check | Ett enkelt testvärde som används för att avgöra om en besökare stöder cookies. Ange varje gång en besökare begär en sida. |
+| disable | Ange om besökarens inläsningstid överskrider den timeout som har konfigurerats i filen at.js. Som standard varar detta 1 timme. |
 
