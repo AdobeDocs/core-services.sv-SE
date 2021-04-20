@@ -4,10 +4,10 @@ keywords: Experience Cloud
 solution: Experience Cloud
 title: Dokumentationsuppdateringar
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-feature: Kundattribut
-topic: Administrering
-role: Administratör
-level: Erfaren
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 25c9bb8908ca4df0997aa5bcb8a3039e8207ac29
 workflow-type: tm+mt

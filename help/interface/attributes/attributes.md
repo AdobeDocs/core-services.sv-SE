@@ -2,9 +2,9 @@
 title: Så här använder du kundattribut
 description: Läs mer om tjänsten Customer Attributes i Adobe Experience Cloud. Lär dig hur du överför kundattributdata för användning i Adobe Analytics och Adobe Target.
 solution: Experience Cloud
-feature: Kundattribut
+feature: Customer Attributes
 role: Administrator
-topic: Administrering
+topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 translation-type: tm+mt

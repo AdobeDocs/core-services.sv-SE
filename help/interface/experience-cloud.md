@@ -4,10 +4,10 @@ keywords: Adobe Experience Cloud tjänster, kundattribut, målgrupper, användar
 solution: Experience Cloud
 title: 'Experience Cloud och administration '
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: '"Kundattribut"'
-topic: Administrering
-role: Administratör
-level: Erfaren
+feature: "Customer Attributes"
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
 workflow-type: tm+mt

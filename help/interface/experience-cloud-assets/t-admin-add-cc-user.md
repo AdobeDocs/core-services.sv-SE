@@ -5,9 +5,9 @@ solution: Experience Cloud
 title: 'Hantera Creative Cloud-användare '
 uuid: 11c4de67-40c5-4438-92fc-e23761be3f18
 feature: Assets
-topic: Administrering
-role: Administratör
-level: Erfaren
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt

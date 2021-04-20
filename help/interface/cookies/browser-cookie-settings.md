@@ -5,9 +5,9 @@ solution: Experience Cloud, Analytics, Target, Social
 title: 'Sekretessinställningar för webbläsarcookies '
 uuid: f6a56e8b-b021-49db-8eb4-6c14af0c7243
 feature: Cookies
-topic: Administrering
-role: Administratör
-level: Erfaren
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt

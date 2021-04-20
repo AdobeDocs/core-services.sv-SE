@@ -4,10 +4,10 @@ keywords: Kundattribut;bastjänster
 solution: Experience Cloud
 title: 'Konfigurera prenumerationer '
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
-feature: Kundattribut
-topic: Administrering
-role: Administratör
-level: Erfaren
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt

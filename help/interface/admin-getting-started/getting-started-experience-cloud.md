@@ -5,9 +5,9 @@ solution: Experience Cloud
 title: 'Logga in och hantera dina Experience Cloud-profilinställningar '
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 feature: Admin Console
-topic: Administrering
-role: Administratör
-level: Erfaren
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt

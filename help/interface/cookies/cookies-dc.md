@@ -5,9 +5,9 @@ solution: Experience Cloud, Analytics, Target
 title: 'Cookies för dataanslutningar '
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
 feature: Cookies
-topic: Administrering
-role: Administratör
-level: Erfaren
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt

@@ -1,10 +1,10 @@
 ---
 title: 'Kundattribut Stöd för allmänna dataskyddsregler '
 description: Läs mer om stöd för kundattribut i den allmänna dataskyddsförordningen
-feature: Kundattribut
-topic: Administrering
-role: Administratör
-level: Erfaren
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt

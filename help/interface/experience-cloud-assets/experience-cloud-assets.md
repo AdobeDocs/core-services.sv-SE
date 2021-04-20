@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Översikt över resurser
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
-topic: Administrering
+topic: Administration
 role: Administrator
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4

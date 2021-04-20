@@ -5,9 +5,9 @@ solution: Experience Cloud
 title: 'Överföra en resurs till en delad mapp från skrivbordet i Creative Cloud '
 uuid: 88e97e4d-cf9e-4b26-923b-ee60583cae1a
 feature: Assets
-topic: Administrering
-role: Administratör
-level: Erfaren
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt

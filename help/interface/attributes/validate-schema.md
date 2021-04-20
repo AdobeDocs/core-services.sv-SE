@@ -4,10 +4,10 @@ keywords: Kundattribut;Experience Cloud-tjänster
 solution: Experience Cloud
 title: 'Så här validerar du kundattributschemat '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-feature: Kundattribut
-topic: Administrering
-role: Administratör
-level: Erfaren
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt

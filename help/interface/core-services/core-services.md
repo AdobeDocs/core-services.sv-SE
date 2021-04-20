@@ -4,10 +4,10 @@ keywords: bastjänster;Kundattribut
 solution: Experience Cloud
 title: Möjliggör lösningar för tjänster som omfattar flera lösningar
 index: true
-feature: Kundattribut
-topic: Administrering
-role: Administratör
-level: Erfaren
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
 workflow-type: tm+mt

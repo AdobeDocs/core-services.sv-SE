@@ -5,9 +5,9 @@ solution: Experience Cloud, Audience Manager
 title: 'Audience Manager Cookies '
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 feature: Cookies
-topic: Administrering
-role: Administratör
-level: Erfaren
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt

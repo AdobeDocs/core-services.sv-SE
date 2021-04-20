@@ -5,9 +5,9 @@ solution: Experience Cloud,Analytics,Target
 title: 'Data Workbench Cookies '
 uuid: c15013f4-c47d-4950-aa19-be9afd25cd5f
 feature: Cookies
-topic: Administrering
-role: Administratör
-level: Erfaren
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt

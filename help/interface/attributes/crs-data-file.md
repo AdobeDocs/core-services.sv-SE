@@ -4,10 +4,10 @@ keywords: Kundattribut;bastjänster
 solution: Experience Cloud
 title: 'Läs mer om datafiler och datakällor för kundattribut '
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
-feature: Kundattribut
-topic: Administrering
-role: Administratör
-level: Erfaren
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
 workflow-type: tm+mt

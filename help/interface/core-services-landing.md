@@ -2,10 +2,10 @@
 description: Läs om Adobe Experience Cloud hantering av användare och produkter, människor (målgrupper och kundattribut), Journey Orchestration, erbjudanden, platser, Experience Platform Launch och mobiltjänster.
 solution: Experience Cloud
 title: 'Översikt över Experience Cloud tjänster '
-feature: Kundattribut
-topic: Administrering
-role: Administratör
-level: Erfaren
+feature: Customer Attributes
+topic: Administration
+role: Administrator
+level: Experienced
 translation-type: tm+mt
 source-git-commit: 97117dc558240eabd0687f416ea4be7a45783048
 workflow-type: tm+mt
