@@ -6,7 +6,7 @@ title: '"cookies från första part"'
 index: y
 snippet: y
 feature: Cookies
-topic: Administration
+topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
