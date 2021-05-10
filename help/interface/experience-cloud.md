@@ -4,18 +4,18 @@ keywords: Adobe Experience Cloud tjänster, kundattribut, målgrupper, användar
 solution: Experience Cloud
 title: 'Experience Cloud och administration '
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: "Customer Attributes"
-topic: Administration
+feature: '"Kundattribut"'
+topic: Administrering
 role: Administrator
 level: Experienced
+exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
 translation-type: tm+mt
-source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+source-git-commit: 30989be46132eef4d8bcf5ccaf3032f0606c7de4
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '432'
 ht-degree: 20%
 
 ---
-
 
 # Experience Cloud Services and Administration Guide
 
@@ -56,9 +56,9 @@ Stödlinjer för Experience Cloud:
 
 Självhjälp och snabba guider i Experience League:
 
-* [Alla självstudiekurser i Experience League](https://experienceleague.corp.adobe.com/?lang=en#quick-how-tos)
-* [Självstudiekurser för Experience Platform](https://experienceleague.corp.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
-* [Kunddataplattform i realtid](https://experienceleague.corp.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
+* [Alla självstudiekurser i Experience League](https://experienceleague.adobe.com/?lang=en#quick-how-tos)
+* [Självstudiekurser för Experience Platform](https://experienceleague.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
+* [Kunddataplattform i realtid](https://experienceleague.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
 
 ## Versionsinformation och tillhörande Experience Cloud-hjälp
 
