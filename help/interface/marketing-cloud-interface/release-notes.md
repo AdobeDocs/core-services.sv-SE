@@ -4,18 +4,17 @@ keywords: bastjänster
 solution: Experience Cloud
 title: 'Ackumulerade versionsinformation '
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
-feature: "Customer Attributes"
-topic: Administration
+feature: '"Kundattribut"'
+topic: Administrering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 97117dc558240eabd0687f416ea4be7a45783048
+exl-id: b71d144c-a097-4cdb-9721-671519d38aff
+source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
 workflow-type: tm+mt
-source-wordcount: '3912'
+source-wordcount: '4056'
 ht-degree: 3%
 
 ---
-
 
 # Ackumulerade versionsinformation
 
@@ -24,6 +23,16 @@ Funktioner, versionsinformation och kända fel i Experience Cloud-gränssnittet.
 En lista över dokumentationsuppdateringar finns i [Experience Cloud](../doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Versionsinformation om alla lösningar finns i [Versionsinformation för Experience Cloud](https://docs.adobe.com/content/help/sv-SE/release-notes/experience-cloud/current.html).
+
+## Maj - 2021
+
+| Funktion | Datum | Beskrivning |
+| ------- | ------- | ------- |
+| Experience Cloud Header &amp; Navigation | 20 maj 2021 | Adobe Experience Cloud-uppdateringarna innehåller en ändring av det ljusa temat för rubriken, med möjlighet att enkelt växla tillbaka till det mörka temat och länka för att styra ytterligare inställningar från användarens avatar i Experience Cloud-huvudet. Även om inte alla program i Experience Cloud stöder teman, låser den här funktionen upp det framtida temastödet. |
+| Global sökning i Experience Cloud | 20 maj 2021 | I den här versionen kan du använda Experience Cloud globala sökning för att söka i någon av [Experience League](https://experienceleague.adobe.com/#home)-dokumentationen, kurserna och självstudiekurserna. (För närvarande är global sökning bara tillgänglig för användare av Experience Platform. Med global sökning efter [!UICONTROL Platform] kan du söka efter alla affärsobjekt i Experience Cloud, t.ex. segment, datauppsättningar, scheman med mera.) |
+| Inställningar för Experience Cloud | 20 maj 2021 | Den här uppdateringen innehåller möjligheten att ställa in önskade språk i Experience Cloud [Inställningar](https://experience.adobe.com/preferences). |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Augusti - 2020
 
@@ -60,7 +69,7 @@ Versionsinformation om alla lösningar finns i [Versionsinformation för Experie
 
 ## April-2019
 
-* Appväxlaren har uppdaterat så att den inkluderar Marketo i Experience Cloud och varumärkesuppdateringar i Experience Platform. (MCUI-6529)
+* Appväljaren har uppdaterats så att Marketo ingår i Experience Cloud-lösningssviten och varumärkesuppdateringar för Experience Platform ingår. (MCUI-6529)
 * Experience Cloud Home har uppdaterats med navigeringslänkar till sidorna Feed och Administration. (MCUI-6682)
 * Korrigerade ett fel i [!UICONTROL Trigger]-definitionen för korrekt användning av &quot;like&quot;-satsen. (MCUI-6611)
 * Förbättringar av kundattribut för bättre inloggning i prenumerationstjänsten. (MCUI-6519)
@@ -205,7 +214,7 @@ Ingen information finns tillgänglig
 * Ett problem som gjorde att [Adobe Target produktdokumentation](https://docs.adobe.com/content/help/sv-SE/target/using/integrate/a4t/a4t.html) inte kunde visas på japanska har åtgärdats.
 * Ett problem som förhindrade användning av japansk text i kommentarer mellan [!DNL Creative Cloud] och [!DNL Experience Cloud] har åtgärdats.
 
-## Version 15.4.1 - 8 april 2015 {#section_75634120CC934B3381EDEA7F6F976F0A}
+## Version 15.4.1-8 april 2015 {#section_75634120CC934B3381EDEA7F6F976F0A}
 
 <table id="table_3A6FBAE36558425A803B078150862C92"> 
  <thead> 
@@ -652,4 +661,4 @@ Version 14.3.1 är en underhållsrelease som fokuserar på hastighet, stabilitet
 * Ett problem som gjorde att delade [!DNL Analytics]-rapporter inte kunde använda segmentfilter har korrigerats.
 * Ett problem som gjorde att lösningar visades på [!UICONTROL Experience Cloud Solutions]-sidan som länkade har korrigerats, även om lösningskontona inte var länkade.
 * Korrigerade ett fel som gjorde att [!DNL Adobe Target]-kunder i Asien inte kunde klicka på knappen **[!UICONTROL Continue to Experience Cloud]** på den länkade sidan.
-* Ett problem som förhindrade delning av YouTube-videor har korrigerats.
+* Ett problem som gjorde att YouTube-videor inte kunde delas har åtgärdats.
