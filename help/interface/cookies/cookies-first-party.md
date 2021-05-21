@@ -10,24 +10,25 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-translation-type: tm+mt
-source-git-commit: 4e3d6e605df4d1861f1dffb4cde5311eea283ee3
+source-git-commit: 05548387f82e58a87d5133254da30215fbd6c827
 workflow-type: tm+mt
-source-wordcount: '1499'
+source-wordcount: '1629'
 ht-degree: 0%
 
 ---
 
 # Om cookies från första part
 
-Analytics använder cookies för att ge information om variabler och komponenter som inte finns kvar mellan bildbegäranden och webbläsarsessioner. Dessa ofarliga cookies, som härstammar från en domän som är värd för Adobe, kallas cookies från tredje part.
+Analytics använder cookies för att ge information om variabler och komponenter som inte finns kvar mellan bildbegäranden och webbläsarsessioner. Där det är möjligt använder Adobe cookies från första part för att registrera aktiviteter på din webbplats. För att spela in aktivitet på olika webbplatser, t.ex. andra domäner som du äger, krävs cookies från tredje part.
 
-Många webbläsare och antispionprogram är utformade för att avvisa och ta bort cookies från tredje part, bland annat de som används vid datainsamling i Analytics. För att hjälpa er att spåra hur besökarna interagerar med er webbplats kan ni implementera cookies från första part.
+Många webbläsare och antispionprogram är utformade för att avvisa och ta bort cookies från tredje part, bland annat de som används vid datainsamling i Analytics. För att underlätta spårningen av hur besökarna interagerar med webbplatsen bör du se till att du har konfigurerat din datainsamling så att den använder cookies från första part:
 
 Det finns två alternativ för att implementera cookies från första part:
 
-* Experience Platform ID-tjänsten. ID-tjänsten kan ställa in cookien i förstahandskontexten med JavaScript.
-* DNS-poster på ditt företags DNS-server för att konfigurera ett CNAME-alias för en värddomän i Adobe. Observera att även om olika Adobe-produkter stöder användning av CNAME används CNAME i samtliga fall för att skapa en tillförlitlig förstapartsslutpunkt för en viss kund och ägs av den kunden. Om den kunden kontrollerar flera domäner kan de använda en enda CNAME-slutpunkt för att spåra användare över sina domäner, men eftersom detta kräver cookies från tredje part för alla domäner utanför CNAME:s domän fungerar det inte när cookies från tredje part blockeras och rekommenderas därför inte. Adobe CNAME används aldrig för att spåra en individ eller enhet över domäner som ägs av olika kunder.
+* Om du använder Experience Platform Identity Service (även ECID Service) ställs cookies in automatiskt i förstahandskontexten med JavaScript.
+* Om du använder äldre Analytics-identifierare (s_vi-cookien) beror det på hur du har konfigurerat din datainsamlingsserver. Om datainsamlingsservern matchar webbplatsens domän kommer cookies att anges som första part. Om samlingsservern inte matchar din aktuella domän kommer cookies att anges som tredjepartsservrar. I det här fallet, om cookies från tredje part blockeras, kommer Analytics att ställa in ett [reservid (&quot;s_fid&quot;)](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-analytics.html?lang=en#section-65e33f9bfc264959ac1513e2f4b10ac7) i stället för standardcookien &quot;s_vi&quot;.
+
+För att din samlingsserver ska matcha webbplatsens domän kan du använda en CNAME-implementering som tillåter att cookies ställs in i en förstapartskontext. Detta innebär ändringar av företagets DNS-inställningar för att konfigurera ett CNAME-alias så att det pekar mot en värddomän som ligger Adobe. Observera att även om olika Adobe-produkter stöder användning av CNAME används CNAME i samtliga fall för att skapa en tillförlitlig förstapartsslutpunkt för en viss kund och ägs av den kunden. Om du kontrollerar flera domäner kan de använda en enda CNAME-slutpunkt för att spåra användare i sina domäner, men där webbplatsdomänen inte matchar CNAME-domäncookies anges som tredje part.
 
 >[!NOTE]
 >
