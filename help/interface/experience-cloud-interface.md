@@ -6,9 +6,9 @@ feature: '"Komponenter i det centrala gränssnittet"'
 topic: Administrering
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c3ce6e07c17e126cd2becdf65c40ccbe9398f012
+source-git-commit: a2fd27582268ae2865e6074b8c84d55f8c31fb8a
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '392'
 ht-degree: 1%
 
 ---
@@ -44,7 +44,7 @@ Menyn [!UICONTROL Help] ger dig även åtkomst till:
 * **[!UICONTROL Support]:** Skapa en supportanmälan eller kontakta  [!UICONTROL Support] Twitter.
 * **[!UICONTROL Feedback]:** Kontakta Adobe med feedback och berätta vad du tycker.
 * **[!UICONTROL Status]:** Navigera till  `https://status.adobe.com/experience_cloud` och kontrollera produktdriftsstatus och  [!UICONTROL Manage Subscriptions].
-* **[!UICONTROL Developer Connection]:** Navigera till  [Adobe I/](adobe.io) Ooch hitta dokumentation för utvecklare.
+* **[!UICONTROL Developer Connection]:** Navigera till  `adobe.io` och hitta dokumentation för utvecklare.
 
 ## ![](assets/preferences-icon.png) Kontoinställningar  {#account-menu}
 
