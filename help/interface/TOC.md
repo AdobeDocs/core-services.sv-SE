@@ -5,7 +5,7 @@ breadcrumb-title: Experience Cloud Services och administration
 user-guide-description: Lär dig hur du hanterar användare och produkter i Adobe Experience Cloud och hur du använder kundattribut och målgruppsbibliotek. Läs också om cookies och Experience Cloud Assets.
 user-guide-url: https://www.adobe.com
 index: true
-source-git-commit: c3ce6e07c17e126cd2becdf65c40ccbe9398f012
+source-git-commit: c0a01f126e7ccdd8e6f320a449935c282dc1ca8c
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 10%
@@ -17,6 +17,7 @@ ht-degree: 10%
 
 + [Experience Cloud Services och administration](experience-cloud.md)
 + [Experience Cloud centrala gränssnittskomponenter](experience-cloud-interface.md)
+   + [Logga in och hantera dina profilinställningar](admin-getting-started/getting-started-experience-cloud.md)
 + Experience Cloud services {#about-core-services}
    + [Experience Cloud services overview](core-services-landing.md)
    + [Aktivera implementeringen för tjänster som omfattar flera lösningar](core-services/core-services.md)
@@ -41,7 +42,7 @@ ht-degree: 10%
    + [Hantera användaridentitet och -produkter i Experience Cloud (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Visa användarinformation för Experience Cloud (administrationsverktyget)](admin-getting-started/admin-tool-experience-cloud.md)
    + [Frågor och svar](admin-getting-started/faq.md)
-   + [Logga in och hantera dina profilinställningar](admin-getting-started/getting-started-experience-cloud.md)
+
    + [Organisationer och kontolänkning](admin-getting-started/organizations.md)
    + [Uppgradera till Analytics Premium och Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
 + Aktivering av Experience Cloud {#activation}
