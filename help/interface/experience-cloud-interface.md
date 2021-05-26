@@ -6,14 +6,14 @@ feature: '"Komponenter i det centrala gränssnittet"'
 topic: Administrering
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c0a01f126e7ccdd8e6f320a449935c282dc1ca8c
+source-git-commit: 46198d6fb4a940e9323b65ddd5105c74e01b879e
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 2%
+source-wordcount: '411'
+ht-degree: 1%
 
 ---
 
-# Experience Cloud-gränssnitt 
+# Experience Cloud-gränssnittshjälp
 
 Experience Cloud centrala gränssnittskomponenter innehåller funktioner som gör att du kan:
 
@@ -43,11 +43,7 @@ Klicka på programväljaren ![](assets/menu-icon.png) för att komma åt de Expe
 
 ## Söka och få support i Experience Cloud {#search}
 
-Med Experience Cloud-sökning kan du söka efter hjälp (dokumentation, självstudiekurser och kurser) på [Experience League](https://experienceleague.adobe.com/#home). Du kan också söka efter affärsobjekt, t.ex. segment, datauppsättningar, scheman och annat.
-
->[!NOTE]
->
->Business objects search is available only to Experience Platform users.
+Med Experience Cloud-sökning kan du söka efter hjälp (dokumentation, självstudiekurser och kurser) på [Experience League](https://experienceleague.adobe.com/#home).
 
 ![](assets/search-menu.png)
 
@@ -69,7 +65,7 @@ På kontoinställningsmenyn kan du:
 
 ### Hantera Experience Cloud [!UICONTROL Preferences] {#preferences}
 
-Inställningarna för Experience Cloud omfattar meddelanden, prenumerationer och varningar. Du kan konfigurera hur
+Inställningarna för Experience Cloud omfattar meddelanden, prenumerationer och varningar.
 
 Klicka på **[!UICONTROL Preferences]** på din kontomeny ![](assets/preferences-icon-sm.png) om du vill hantera inställningarna.
 
