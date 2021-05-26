@@ -4,17 +4,16 @@ solution: Admin
 title: 'Hantering av användare och produkter '
 index: true
 feature: Admin Console
-topic: Administration
+topic: Administrering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
+source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1386'
 ht-degree: 5%
 
 ---
-
 
 # Hantera Experience Cloud-användare och -produkter {#topic_3FCB4099640647E3B2411ADBFCE81909}
 
@@ -24,7 +23,7 @@ Lär dig mer om att logga in på Admin Console, hantera användarbehörigheter o
 >
 >När du hanterar användare i Admin Console introduceras nya termer, gränssnitt och navigering. Följande information beskriver dessa ändringar och innehåller länkar till ytterligare hjälpresurser. Den här hjälpen kompletterar informationen i [användarhandboken för företagsadministration](https://helpx.adobe.com/enterprise/managing/user-guide.html) för alla molnprodukter från Adobe.
 
-## Nyheter i användarhantering för Experience Cloud {#concept_06A0A13362F644FB90F947238407637A}
+## Nyheter inom användarhantering i Experience Cloud {#concept_06A0A13362F644FB90F947238407637A}
 
 Läs om de senaste funktionerna för användare och produkthantering i Experience Cloud.
 
@@ -60,9 +59,7 @@ Du kan också gå till Experience Cloud-menyn ( ![](assets/menu-icon.png)) och k
 
 [Administrationsanvändarhandbok ](https://helpx.adobe.com/se/enterprise/using/users.html) för Creative Cloud och Document Cloud. Viss information är relevant för användarhantering i Experience Cloud, till exempel [hantering av identitetstyper](https://helpx.adobe.com/enterprise/help/identity.html).
 
-[Logga in och hantera dina profilinställningar](../admin-getting-started/getting-started-experience-cloud.md#topic_AC564B6795334DE39359ADD87F52F2E0).
-
-## Produktprofiler och grupper {#section_AB50558124D541CF80A0D3D76D35A4BF}
+## Produktprofiler och produktgrupper {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
 Tillägget av produktprofiler innebär en förändring från hur produkter och tjänster tidigare hanterades (med grupper). I Admin Console baseras behörigheter på produktprofiler, som är grupper av produkter och tjänster som du kan tilldela användare.
 
@@ -72,7 +69,7 @@ I Analytics kan du till exempel konfigurera en samling rapporteringsverktyg, som
 
 Se [Delegera begränsad administrationsbehörighet](../admin-getting-started/admin-getting-started.md#task_3A072C4AA9734BC59FFA7E015271BC7E) på den här sidan.
 
-## Analytics{#section_97DE101F92CD494AB073893680992F1A} 
+## Analytics  {#section_97DE101F92CD494AB073893680992F1A}
 
 Hantera användar- och produktbehörigheter för Analytics i Admin Console.
 
@@ -100,7 +97,7 @@ Se:
 * [Hantera produkter och profiler](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)
 * Video: [Konfigurera Adobe Target Workspaces i Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
-## Kampanj - produktprofiler, innehavare och säkerhetsgrupper {#section_09CDF75366444CF5810CF321B7C712F3}
+## Campaign - produktprofiler, hyresgäster och säkerhetsgrupper {#section_09CDF75366444CF5810CF321B7C712F3}
 
 En *klientorganisation* i Campaign visas som en *produkt* på Admin Console-produktsidan.
 
@@ -184,7 +181,7 @@ Genom att använda de här rollerna kan du delegera hantering till andra utan at
 1. Konfigurera användarens administratörsrättigheter.
 1. Klicka på **[!UICONTROL Next]** för att granska inställningarna och klicka sedan på **[!UICONTROL Save]**.
 
-## Webbläsare som stöds och systemkrav {#concept_CDC4371EB9BF433E9534F8716DC8A088}
+## Webbläsare och systemkrav som stöds {#concept_CDC4371EB9BF433E9534F8716DC8A088}
 
 Webbläsare som stöds i Experience Cloud.
 
