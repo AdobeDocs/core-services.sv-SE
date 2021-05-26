@@ -4,22 +4,25 @@ keywords: Experience Cloud
 solution: Experience Cloud
 title: Dokumentationsuppdateringar
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-feature: Customer Attributes
-topic: Administration
+feature: Kundattribut
+topic: Administrering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 25c9bb8908ca4df0997aa5bcb8a3039e8207ac29
+exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
+source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '240'
 ht-degree: 2%
 
 ---
 
-
 # Dokumentationsuppdateringar - Experience Cloud
 
 Information om uppdateringar av produktdokumentationen för Experience Cloud.
+
+**Uppdaterat: 5/26/2021**
+
+[Experience Cloud-gränssnitt](experience-cloud-interface.md) har lagts till för hjälp med att komma åt Experience Cloud, global sökning, inställningar och meddelanden.
 
 **Uppdaterat: 8/19/2020**
 
@@ -55,10 +58,6 @@ Uppdaterade [Om datafiler och datakällor för kundattribut](attributes/crs-data
 **Uppdaterat: 6/6/2018**
 
 Allmänna uppdateringar av innehåll och skärmar.
-
-**Uppdaterat: 2/6/2018**
-
-Uppdateringar av [Hantera användare och produkter av Experience Cloud](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
 
 **Uppdaterat: 1/17/2018**
 
@@ -105,7 +104,3 @@ Lade till [Vanliga frågor om Experience Cloud](admin-getting-started/faq.md#con
 Lagt till dokumentation för målgrupper
 
 Se [Målgrupper](audience-library/audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
-
-**Uppdaterat: 5/22/2014**
-
-[Hantera användare och produkter av Experience Cloud](admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) har uppdaterats för information om hur du blir administratör i Experience Cloud.
