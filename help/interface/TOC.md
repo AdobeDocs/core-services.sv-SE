@@ -5,7 +5,7 @@ breadcrumb-title: Experience Cloud Services och administration
 user-guide-description: Lär dig hur du hanterar användare och produkter i Adobe Experience Cloud och hur du använder kundattribut och målgruppsbibliotek. Läs också om cookies och Experience Cloud Assets.
 user-guide-url: https://www.adobe.com
 index: true
-source-git-commit: 35072268615b7a657cdabacfe7dbcd5fd3ffc81f
+source-git-commit: c30f510951e01abd5ec06822547b3048ea32a3c2
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 11%
@@ -41,7 +41,6 @@ ht-degree: 11%
    + [Hantera användaridentitet och -produkter i Experience Cloud (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Visa användarinformation för Experience Cloud (administrationsverktyget)](admin-getting-started/admin-tool-experience-cloud.md)
    + [Frågor och svar](admin-getting-started/faq.md)
-
    + [Organisationer och kontolänkning](admin-getting-started/organizations.md)
    + [Uppgradera till Analytics Premium och Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
 + Aktivering av Experience Cloud {#activation}
