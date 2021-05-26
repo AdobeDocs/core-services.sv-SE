@@ -5,7 +5,7 @@ breadcrumb-title: Experience Cloud Services och administration
 user-guide-description: Lär dig hur du hanterar användare och produkter i Adobe Experience Cloud och hur du använder kundattribut och målgruppsbibliotek. Läs också om cookies och Experience Cloud Assets.
 user-guide-url: https://www.adobe.com
 index: true
-source-git-commit: c30f510951e01abd5ec06822547b3048ea32a3c2
+source-git-commit: 6744ddeeaad42054497230e1214033f36746b8e3
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 11%
@@ -81,4 +81,3 @@ ht-degree: 11%
    + [Terminologi](terms.md)
    + [Använda DNS-förhämtning med olika lösningar och tjänster](dns-prefetch.md)
    + [Dokumentationsuppdateringar](doc-updates.md)
-
