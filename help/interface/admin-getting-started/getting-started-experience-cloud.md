@@ -5,17 +5,16 @@ solution: Experience Cloud
 title: 'Logga in och hantera dina Experience Cloud-profilinställningar '
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 feature: Admin Console
-topic: Administration
+topic: Administrering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
+source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '926'
 ht-degree: 3%
 
 ---
-
 
 # Logga in och hantera dina Experience Cloud-profilinställningar
 
@@ -51,7 +50,7 @@ Logga in och verifiera att du är i rätt [organisation](../admin-getting-starte
 Hjälp för icke-administrativa användare som loggar in på Experience Cloud.
 
 
-1. Kontrollera med administratören att din [organisation](../admin-getting-started/getting-started-experience-cloud.md#concept_384D169B0B724B799D573B8ECB5C39BF) har etablerats i Experience Cloud.
+1. Kontrollera med administratören att din [organisation](../admin-getting-started/organizations.md) har etablerats i Experience Cloud.
 
 
 1. Navigera till [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
@@ -65,7 +64,7 @@ Hjälp för icke-administrativa användare som loggar in på Experience Cloud.
 
    Vilka lösningar och tjänster som visas på den här menyn beror på vilka programbehörigheter din [administratör](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909) har.
 
-## Konfigurera standardinställningar för personligt konto {#task_73CBCAE6C91749D19C95421E5AC311BA}
+## Konfigurera standardinställningar för personliga konton {#task_73CBCAE6C91749D19C95421E5AC311BA}
 
 Du kan redigera personlig information och ange en standardsida för [organisation](../admin-getting-started/admin-getting-started.md#concept_705C626560A54CA2A4215F1C870C42B2) och en landningssida som ska visas när du har loggat in på Experience Cloud.
 
@@ -115,16 +114,16 @@ Du kan sortera meddelandevisningen baserat på de meddelandetyper som är viktig
 
 Du kan redigera din Experience Cloud-profil, ange en standardorganisation och en landningssida med mera.
 
-1. [Logga in på Experience Cloud](../admin-getting-started/getting-started-experience-cloud.md#task_1BFE87E20DCB44078CAC82F3CD44B985).
+1. Logga in på Experience Cloud.
 
-1. Klicka på din profilbild på menyn Experience Cloud.
+1. Klicka på din profilbild på Experience Cloud.
 
    ![](assets/edit-profile.png)
 1. Klicka på **[!UICONTROL Edit Profile]**.
 
    Fyll i fälten och alternativen under Personlig information på sidan Profil och lösenord.
 
-## Återställ ditt lösenord {#task_46541A2806164CB1A4AE8239604E4EB1}
+## Återställa lösenordet {#task_46541A2806164CB1A4AE8239604E4EB1}
 
 1. Gå till inloggningssidan för lösningen.
 1. Klicka på **[!UICONTROL Forgot Password]**.
@@ -133,7 +132,7 @@ Du kan redigera din Experience Cloud-profil, ange en standardorganisation och en
 
    För Adobe Analytics-användare går du till [https://sc2.omniture.com/password_recovery.html](https://sc2.omniture.com/password_recovery.html).
 
-## Konfigurera lösningsinloggning med en direktlänk {#concept_8BE493A08786469B88B210E13F78FF2F}
+## Konfigurera lösningens inloggning med en direktlänk {#concept_8BE493A08786469B88B210E13F78FF2F}
 
 Du kan också logga in på en viss sida i en lösning med hjälp av autentisering från Experience Cloud-gränssnittet.
 
