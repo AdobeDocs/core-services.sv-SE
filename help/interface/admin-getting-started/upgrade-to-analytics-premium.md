@@ -3,19 +3,18 @@ description: Läs mer om kraven och vad du kan förvänta dig när du uppgradera
 keywords: Uppgradering av Adobe Analytics Premium
 solution: Experience Cloud
 title: 'Uppgradera till Analytics Premium och Experience Cloud '
-topic: Administration
+topic: Administrering
 uuid: 450a601c-d199-4e90-b525-19bd9f9576d2
 feature: Admin Console
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '634'
 ht-degree: 7%
 
 ---
-
 
 # Uppgradera till Analytics Premium och Experience Cloud
 
@@ -49,7 +48,7 @@ I Analytics Premium Complete får du alla funktioner i [Analytics Premium](../ad
 | Data Workbench | <ul><li>Algoritmisk attribuering</li><li>Fördefinierade arbetsytor</li></ul> |
 | Analytics Platform | [Live Stream](https://helpx.adobe.com/analytics/kb/getting-started-with-livestream-api.html)  (rådata, instrumentpaneler, utlösare) |
 
-## Predictive Intelligence {#section_B407932C07A7476F83FB0275C3FB63DC}
+## Prediktiv intelligens {#section_B407932C07A7476F83FB0275C3FB63DC}
 
 Uppgradera till Predictive Intelligence och [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) plus:
 
@@ -73,7 +72,7 @@ Uppgradera till Customer 360 erbjuder [Analytics Premium](../admin-getting-start
 
 Avancerad attribuering ger åtkomst till [Analytics Premium](../admin-getting-started/upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507), plus algoritmisk attribuering i Data Workbench (25 % serveranropsvolym).
 
-## Krav för Data Workbench {#section_D959CA68D6DB42C38707F8E0CA3654CC}
+## Krav på Data Workbench {#section_D959CA68D6DB42C38707F8E0CA3654CC}
 
 De användare som stöds kan begära att alla klientlicenser uppdateras för att återspegla Premium genom att skicka ett e-postmeddelande till `dwb@adobe.com`. Detta aktiverar funktioner som algoritmisk attribuering.
 
@@ -85,7 +84,7 @@ Alla program som körs lokalt måste inaktiveras. Detta inkluderar sensorer, vil
 
 Experience Cloud och bastjänster är tillgängliga för användare av Analytics Standard och Premium, förutsatt att du har följt den modernisering av implementeringen som beskrivs i [Komma igång - aktivera lösningar för bastjänster](../core-services/core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C). (Denna process hjälper dig att modernisera implementeringen och gör att du kan bli administratör i Experience Cloud.)
 
-När du har gått med i Experience Cloud kan du logga in via Experience Cloud på [!DNL experiencecloud.adobe.com] och börja använda bastjänster (inklusive kundattribut, målgrupper och mobilappsanalys).
+När du har gått med i Experience Cloud kan du logga in via Experience Cloud på [!DNL experience.adobe.com] och börja använda bastjänster (inklusive kundattribut, målgrupper och mobilappsanalys).
 
 ### Administrera användare och grupper
 
