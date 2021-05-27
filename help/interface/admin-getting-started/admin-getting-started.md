@@ -8,7 +8,7 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+source-git-commit: dc1d672c352396f919c239bf44e2162ff1deafb6
 workflow-type: tm+mt
 source-wordcount: '1386'
 ht-degree: 5%
@@ -81,7 +81,7 @@ Det finns ett verktyg för migrering av användar-ID:n i Analytics som kan hjäl
 
 Kontomigreringen introduceras till kunder i faser. Adobe meddelar och hjälper dig när det är dags att migrera befintliga användarkonton från **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** till Admin Console.
 
-Efter migreringen loggar användare in med sin Adobe ID (eller Enterprise ID) och autentiserar till sina Experience Cloud-lösningar och -tjänster på [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com). Om användare försöker logga in via äldre inloggningar ([!DNL my.omniture.com] och [!DNL sc.omniture.com]) dirigeras de om till [!DNL experiencecloud.adobe.com].
+Efter migreringen loggar användare in med sin Adobe ID (eller Enterprise ID) och autentiserar till sina Experience Cloud-lösningar och -tjänster på [experience.adobe.com](https://experience.adobe.com). Om användare försöker logga in via äldre inloggningar ([!DNL my.omniture.com], [!DNL sc.omniture.com] och [!DNL experiencecloud.adobe.com]) dirigeras de om till [!DNL experience.adobe.com].
 
 **Relaterad hjälp**
 
