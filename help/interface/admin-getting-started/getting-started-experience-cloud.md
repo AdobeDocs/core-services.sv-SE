@@ -9,7 +9,7 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
 source-wordcount: '926'
 ht-degree: 3%
@@ -53,7 +53,7 @@ Hjälp för icke-administrativa användare som loggar in på Experience Cloud.
 1. Kontrollera med administratören att din [organisation](../admin-getting-started/organizations.md) har etablerats i Experience Cloud.
 
 
-1. Navigera till [Adobe Experience Cloud](https://experiencecloud.adobe.com) ([!DNL experiencecloud.adobe.com]).
+1. Navigera till [Adobe Experience Cloud](https://experience.adobe.com) ([!DNL experience.adobe.com]).
 1. Klicka på **[!UICONTROL Sign In With Adobe ID]**.
 
    Din Experience Cloud-administratör kan hjälpa dig att fastställa kontotypen (Adobe ID eller Enterprise ID).
@@ -78,7 +78,7 @@ Du kan redigera personlig information och ange en standardsida för [organisatio
 
 ## Aktivera meddelanden {#concept_0105453AD71847B8BFCAF4A40915F157}
 
-Få meddelanden (via e-post eller i produkten) om systemuppdateringar, underhållsmeddelanden, inlägg, omnämnanden och delade resurser. Du kan också ange de produkter och lösningar som du vill få meddelanden om, inklusive överföringsstatus för kundattribut.
+Få meddelanden (via e-post eller i produkten) om systemuppdateringar, underhållsmeddelanden, meddelanden, omnämnanden och delade resurser. Du kan också ange de produkter och lösningar som du vill få meddelanden om, inklusive överföringsstatus för kundattribut.
 
 Om du vill navigera till Meddelanden klickar du på ikonen **[!UICONTROL Notifications]** ![](assets/notifications-icon.png) och sedan på ikonen **[!UICONTROL Settings]** ![](assets/icon_edit_board.png).
 
@@ -138,11 +138,11 @@ Du kan också logga in på en viss sida i en lösning med hjälp av autentiserin
 
 ### URL-mall
 
-`https://<tenantId>.experiencecloud.adobe.com/<solutionname>?destURL=<fullURL>`
+`https://experience.adobe.com/#/@<tenantId>/<solutionname>?destURL=<fullURL>`
 
 Exempel-URL:
 
-`https://aem62tenant.experiencecloud.adobe.com/analytics?destURL=https%3A%2F%2Fsc.omniture.com%2Freports%2F11562.html`
+`https://experience.adobe.com/#/@aem62tenant/analytics?destURL=https%3A%2F%2Fsc.omniture.com%2Freports%2F11562.html`
 
 >[!NOTE]
 >
