@@ -5,17 +5,16 @@ solution: Experience Cloud,Analytics,Target
 title: 'Hur ändringar av cookie-support från tredje part påverkar kunderna '
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 feature: Cookies
-topic: Administration
+topic: Administrering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
+source-git-commit: ef6196c3096ac7b26633eb4b1b9b2db26237732a
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 1%
+source-wordcount: '275'
+ht-degree: 2%
 
 ---
-
 
 # Hur ändringar av stöd för cookies från tredje part påverkar kunder{#how-changes-to-third-party-cookie-support-impacts-customers}
 
@@ -25,8 +24,7 @@ Följande lista visar hur stöd för cookies från tredje part påverkar aktuell
 
 ## Adobe Analytics och Adobe Target
 
-* Kunder med [förstahandsimplementering](/help/interface/cookies/cookies-first-party.md) påverkas inte i någon större utsträckning.
-* Kunder som inte använder förstahandsimplementering kan implementera tjänsten [Experience Platform ID](https://docs.adobe.com/content/help/en/id-service/using/implementation/implementation-guides.html) för att lagra ID-cookien som en cookie för första part utan en förstahandsimplementering.
+* Analyserna och Target påverkas inte i någon större utsträckning eftersom samma webbplatsaktivitet endast bygger på cookies från första part. Det krävs cookies från tredje part för att förstå användaraktivitet i olika domäner. För webbläsare där cookies från tredje part är blockerade går det inte att spåra domäner med hjälp av cookies.
 
 ## Adobe Experience Manager
 
@@ -49,8 +47,3 @@ Följande lista visar hur stöd för cookies från tredje part påverkar aktuell
    * Visningen är också mycket beroende av tillgängligheten av olika annonsnätverks-cookies för synkronisering.
    * Den övergripande effekten är okänd. Men, per första punkt påverkas visningen mer än andra tjänster.
    * Vi arbetar internt och tillsammans med våra annonseringspartners för att utvärdera i vilken utsträckning annonserna påverkar resultatet.
-
-* Socialt:
-
-   * Marknadsföringsannonser på Facebook påverkas inte.
-   * Facebook Exchange (FBX) påverkas på samma sätt som leverans av displayannonser.
