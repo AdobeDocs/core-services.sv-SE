@@ -4,18 +4,17 @@ keywords: bastjänster;Kundattribut
 solution: Experience Cloud
 title: Möjliggör lösningar för tjänster som omfattar flera lösningar
 index: true
-feature: Customer Attributes
-topic: Administration
+feature: Kundattribut
+topic: Administrering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 042f7caed2f1bace05f59c6c2824c286a13934fe
+exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
-source-wordcount: '2288'
+source-wordcount: '2286'
 ht-degree: 2%
 
 ---
-
 
 # Aktivera implementeringen av Experience Cloud-tjänster
 
@@ -54,9 +53,9 @@ Vad du måste göra för att gå med i Experience Cloud:
 
 ### Administratörsinloggning
 
-När du är administratör kan du logga in på [experienceCloud.adobe.com](https://experiencecloud.adobe.com).
+När du är administratör kan du logga in på [experience.adobe.com](https://experience.adobe.com).
 
-Länken **[!UICONTROL Administration]** visas i navigeringen på Experience Cloud-menyn.
+Länken **[!UICONTROL Admin Console]** visas i navigeringen på Experience Cloud-menyn.
 
 Mer information finns i [Experience Cloud och produktadministration](../admin-getting-started/admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
 
@@ -65,7 +64,7 @@ Mer information finns i [Experience Cloud och produktadministration](../admin-ge
 För att kunna logga in på Experience Cloud måste dina användare:
 
 * Ha en Adobe ID (eller ett Enterprise ID för ditt företag).
-* Logga in på [ExperienceCloud.adobe.com](https://experiencecloud.adobe.com).
+* Logga in på [experience.adobe.com](https://experience.adobe.com).
 * Tillhör en lösningsgrupp som är mappad till en företagsgrupp.
 * Länka vid behov deras lösningskonton till deras Adobe ID (beskrivs nedan).
 
@@ -144,7 +143,7 @@ Vi rekommenderar att du moderniserar din Analytics-implementering genom att uppd
 
 I [!UICONTROL Dynamic Tag Management] klickar du på **`<Web Property Name>`** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]**. Mer distributionsinformation finns i [Adobe Analytics Settings](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html) i Dynamic Tag Management.
 
-## Uppdatera din Adobe Target-implementering {#section_C2F4493C7A36406DAE2266B429A4BD24}
+## Uppdatera implementeringen av Adobe Target {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
 * Vi rekommenderar att du lägger till ett [Adobe Target-tillägg](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html) i [!UICONTROL Experience Platform Launch] så att bibliotekshämtningen är automatisk. Du kan också ställa in [Experience Cloud ID-tjänsttillägget](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) för Adobe Target (och andra lösningar) med [!UICONTROL Experience Platform Launch]. [!UICONTROL Experience Cloud ID Service]-uppdateringen **krävs** för att Adobe Target ska kunna använda bastjänsterna. (Om du använder [!UICONTROL Dynamic Tag Management] lägger du till ett [Adobe Target-verktyg](https://docs.adobe.com/content/help/en/dtm/using/tools/target.html). Du kan också använda [!UICONTROL Dynamic Tag Management] för att distribuera Experience Cloud ID-tjänsten för Adobe Target.)
 * Om du inte använder [!UICONTROL Experience Platform Launch] eller [!UICONTROL Dynamic Tag Management] ska du [uppdatera mbox-biblioteket](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html) manuellt.
