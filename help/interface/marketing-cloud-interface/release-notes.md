@@ -9,7 +9,7 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 6b6dd0fd0ac51d485877e20bd94322415e80e65e
+source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
 workflow-type: tm+mt
 source-wordcount: '4056'
 ht-degree: 3%
@@ -395,7 +395,7 @@ Nya funktioner och korrigeringar i [!DNL Adobe Experience Cloud] samarbets- och 
 
 **Korrigeringar och förbättringar**
 
-* När du navigerar till [!DNL experiencecloud.adobe.com] är inloggningsupplevelsen nu densamma som inloggningen på Adobe Creative Cloud.
+* När du navigerar till [!DNL experience.adobe.com] är inloggningsupplevelsen nu densamma som inloggningen på Adobe Creative Cloud.
 * På sidan Hantera organisationer är länkningen (efter att en inbjudan har tagits emot) nu konsekvent för varje lösning.
 
 **Kända fel**
