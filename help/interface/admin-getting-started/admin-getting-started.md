@@ -8,9 +8,9 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: c32cc6783b53cc6e57bba0810a49038561ac9dcd
+source-git-commit: 2f315b2daa4e9d73b0adb1cf75fd7ff2417fd0c2
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1238'
 ht-degree: 2%
 
 ---
@@ -111,15 +111,15 @@ Du kan till exempel skapa en produktprofil som innehåller flera analysverktyg (
 | Report Suite-verktyg | Aktivera användarbehörigheter för Web Services, Report Suite Management, Tools and Reports och Dashboard Items. |
 | Analysverktyg | Aktivera användarbehörigheter för allmänna objekt (fakturering, loggar o.s.v.), företagshantering, verktyg, webbtjänståtkomst, Report Builder och integrering med Data Connectors. Företagsinställningar från kategorin Anpassa Admin Console har flyttats till Analytics-verktyg. |
 
-<!-- **User Account Migration**
+**Migrering av användarkonto**
 
-An Analytics user ID migration tool is available to help Analytics administrators migrate user accounts from Analytics User Management to the [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/).
+Det finns ett verktyg för migrering av användar-ID:n i Analytics som kan hjälpa Analytics-administratörer att migrera användarkonton från Analytics-användarhantering till [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/).
 
-The account migration is being rolled out to customers in phases. Adobe will notify and assist you when it is your time to migrate existing user accounts from **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** to the Admin Console.
+Kontomigreringen introduceras till kunder i faser. Adobe meddelar och hjälper dig när det är dags att migrera befintliga användarkonton från **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** till Admin Console.
 
-After the migration, users sign in using their Adobe ID (or Enterprise ID) and authenticate to their Experience Cloud solutions and services at [experience.adobe.com](https://experience.adobe.com). If users attempt to sign in via legacy logins ([!DNL my.omniture.com], [!DNL sc.omniture.com] and [!DNL experiencecloud.adobe.com]) they are redirected to [!DNL experience.adobe.com].
+Efter migreringen loggar användare in med sin Adobe ID (eller Enterprise ID) och autentiserar till sina Experience Cloud-lösningar och -tjänster på [experience.adobe.com](https://experience.adobe.com). Om användare försöker logga in via äldre inloggningar ([!DNL my.omniture.com], [!DNL sc.omniture.com] och [!DNL experiencecloud.adobe.com]) dirigeras de om till [!DNL experience.adobe.com].
 
-**Related help**  -->
+**Relaterad hjälp**
 
 Mer information finns i [Migrering av användar-ID för analys](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en)
 
@@ -151,9 +151,9 @@ Se [Användarbehörigheter](https://experienceleague.adobe.com/docs/launch/using
 
 ## Experience Manager as a Cloud Service
 
-Adobe Enterprise-kunder representeras som organisationer i Adobe [!UICONTROL Admin Console]. Experience Manager (AEM)-kunder kan använda Adobe [!UICONTROL Admin Console] för att hantera produktberättiganden och IMS-autentisering till Experience Manager som en [!UICONTROL Cloud Service].
+Adobe Enterprise-kunder representeras som organisationer i Adobe [!UICONTROL Admin Console]. Experience Manager-kunder kan använda Adobe [!UICONTROL Admin Console] för att hantera produktberättiganden och IMS-autentisering till Experience Manager som en [!UICONTROL Cloud Service].
 
-Se [IMS-stöd för AEM som en Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=en).
+Se [IMS-stöd för Experience Manager som en Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=en).
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
