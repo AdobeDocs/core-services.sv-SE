@@ -5,21 +5,20 @@ solution: Experience Cloud, Analytics, Target
 title: 'Cookies för dataanslutningar '
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
 feature: Cookies
-topic: Administration
+topic: Administrering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: 54f77e67-1bcf-4d01-b70b-af85bac3f449
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '78'
-ht-degree: 3%
+source-wordcount: '74'
+ht-degree: 4%
 
 ---
 
-
 # Cookies för dataanslutningar{#data-connectors-cookies}
 
-Dataanslutningar använder cookies för att förse annonsörer med optimerade mått för kampanjprestanda och konverteringsprestanda över flera annonskanaler.
+[!UICONTROL Data Connectors] använder cookies för att förse annonsörer med optimerade mått för kampanjprestanda och konverteringsprestanda över flera annonskanaler.
 
 <table id="table_54B402C6E19C4A70B1E27BC9DFF776EB"> 
  <thead> 
@@ -39,4 +38,3 @@ Dataanslutningar använder cookies för att förse annonsörer med optimerade m�
   </tr> 
  </tbody> 
 </table>
-
