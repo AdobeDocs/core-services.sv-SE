@@ -4,18 +4,17 @@ keywords: bastjänster
 solution: Experience Cloud
 title: 'Skapa en målgrupp '
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
-feature: Audience Library
-topic: Administration
+feature: Målgruppsbibliotek
+topic: Administrering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '447'
 ht-degree: 3%
 
 ---
-
 
 # Skapa en målgrupp
 
@@ -52,7 +51,7 @@ I följande exempel visas hur du skapar regler för en sammansatt målgrupp. Den
 1. På sidan [!UICONTROL Create New Audience] anger du en titel och beskrivning.
 1. Välj en attributkälla under [!UICONTROL Rules]:
 
-   * **[!UICONTROL Real-Time Analytics Data:]** (eller Raw-data) Detta är attributdata som härletts från bildbegäranden i realtid med Analytics, och innehåller data som eVars och events. Du måste välja en rapportserie när du använder den här attributkällan och definiera dimensionen eller händelsen som ska inkluderas. Rapportsvitens urval innehåller den variabelstruktur som används av rapportsviten.
+   * **[!UICONTROL Real-Time Analytics Data:]** (eller Raw-data) Detta är attributdata som härleds från Real-Time Analytics bildbegäranden och innehåller data som eVars och events. Du måste välja en rapportserie när du använder den här attributkällan och definiera dimensionen eller händelsen som ska inkluderas. Rapportsvitens urval innehåller den variabelstruktur som används av rapportsviten.
    >[!NOTE]
    >
    >På grund av cachelagring kräver borttagna rapportsviter i Analytics 12 timmar innan borttagningen visas i Experience Cloud.
