@@ -4,18 +4,17 @@ type: Documentation
 title: 'Adobe Experience Cloud-målgrupper '
 uuid: 92faf3a8-1375-4e32-905b-74cad48144d3
 description: Lär dig hur du hanterar översättning av besöksdata till målgruppssegmentering i Experience Cloud Audience-tjänsten.
-feature: Audience Library
-topic: Administration
+feature: Målgruppsbibliotek
+topic: Administrering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
 source-wordcount: '806'
-ht-degree: 4%
+ht-degree: 2%
 
 ---
-
 
 # Experience Cloud målgrupper {#topic_679810123CAA4E0CA4FA3417FB0100C7}
 
@@ -33,19 +32,19 @@ Målgrupper kan skapas eller härledas från olika källor, till exempel:
 
 Alla målgrupper, oavsett var de finns, är tillgängliga för användning i realtid med målinriktning. Målgrupper som delas från Analytics till Audience Manager är dock inte tillgängliga för målgruppsanpassning i realtid. Systemet utvärderar målgrupper på två sätt:
 
-* Historiska målgrupper från Analytics utvärderas var fjärde timme. Total tid att bearbeta och dela kan ta upp till 8 timmar. Historiska målgrupper omfattar alltid återkommande besökare.
+* Historiska målgrupper från Analytics utvärderas var fjärde timme. Total tid att bearbeta och dela tar upp till åtta timmar. Historiska målgrupper omfattar alltid återkommande besökare.
 * Målgrupper i realtid hämtas från Experience Cloud och utvärderas i realtid.
 
-## Så här använder lösningar målgrupper {#concept_01EB9345C5344597BC94A864EDD38EE1}
+## Hur lösningar använder målgrupper {#concept_01EB9345C5344597BC94A864EDD38EE1}
 
 I följande tabell beskrivs hur målgrupper används i Experience Cloud-lösningar:
 
 | Lösning | Beskrivning |
 |--- |--- |
-| Experience Cloud målgrupper | Skapa, hantera och dela målgrupper direkt med gränssnittet [Audience Library](../audience-library/audience-library.md). Ni kan:<ul><li>Använd målgrupper i realtid med råanalysattribut</li><li>Kombinera målgrupper för att skapa sammansatta, sammanfogade realtids- och historiska data</li><li>Se grafiska vyer av uppskattad målgruppsstorlek</li></ul><br>Information om vilken typ av målgrupp du vill skapa finns i:  [Experience Cloud målgrupper](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html). |
-| Analytics  | Vid segmentering kan du skapa ett segment, kombinera det med en rapportsvit och sedan publicera segmentet på Experience Cloud. När du publicerar segmentet visas det på [!UICONTROL Audience Library]-sidan i Experience Cloud. (Mer information finns i [Publicera segment på Experience Cloud](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/seg-publish.html) i hjälpen för Analytics.) Publiken finns också som målgrupp för en kampanjupplevelse som levereras av Adobe Target och i Audience Manager. När en målgrupp har delats från Adobe Analytics och valts ut för användning i en aktiv kampanj skickas alla besökarprofiler som uppfyllde villkoren för segmentdefinitionen för de senaste 90 dagarna till plattformen Experience Cloud [!UICONTROL Audience Services]. Gränsen för delade målgrupper har ökat till 75. Målgrupper som delas till Experience Cloud från Analytics får inte överstiga 20 miljoner unika medlemmar. På grund av cachelagring kräver borttagna rapportsviter i Analytics 12 timmar innan borttagningen visas i Experience Cloud. |
+| Experience Cloud målgrupper | Skapa, hantera och dela målgrupper direkt med gränssnittet [Audience Library](../audience-library/audience-library.md). Ni kan:<ul><li>Använd målgrupper i realtid med råanalysattribut</li><li>Kombinera målgrupper för att skapa sammansatta, sammanfogade realtids- och historiska data</li><li>Se grafiska vyer av uppskattad målgruppsstorlek</li></ul><br>Information om vilken typ av målgrupp du vill skapa finns i:  [Experience Cloud målgrupper](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en). |
+| Analytics  | Vid segmentering kan du skapa ett segment, kombinera det med en rapportsvit och sedan publicera segmentet på Experience Cloud. När du publicerar segmentet visas det på [!UICONTROL Audience Library]-sidan i Experience Cloud. (Mer information finns i [Publicera segment på Experience Cloud](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/seg-publish.html?lang=en) i hjälpen för Analytics.) Publiken finns också som målgrupp för en kampanjupplevelse som levereras av Adobe Target och i Audience Manager. När du delar en målgrupp från Adobe Analytics och väljer den för användning i en aktiv kampanj skickas de besöksprofiler som uppfyller villkoren för segmentdefinitionen för de senaste 90 dagarna till [!UICONTROL Audience Services]. Gränsen för delade målgrupper har ökat till 75. Målgrupper som delas till Experience Cloud från Analytics får inte överstiga 20 miljoner unika medlemmar. På grund av cachelagring kräver borttagna rapportsviter i Analytics 12 timmar innan borttagningen visas i Experience Cloud. |
 | Mobiltjänster | Analysera mobiltrafik med solbränsvisualisering i [!UICONTROL Device Types]-rapporten. |
-| [!DNL Target] | Med [ID-tjänsten](https://docs.adobe.com/content/help/sv-SE/id-service/using/home.html) kombineras besökar-ID:n och data i en enda användbar profil för användning i olika lösningar. Med kryssrutan [Publicera på Experience Cloud](../audience-library/audience-library.md) när du skapar segment i Adobe Analytics kan segmentet vara tillgängligt i Adobe Target anpassade målgruppsbibliotek. Ett segment som skapats i Analytics eller Audience Manager kan användas för aktiviteter i [!DNL Target]. Du kan till exempel skapa kampanjaktiviteter baserat på [!DNL Analytics] konverteringsmått och målgruppssegment som skapats i [!DNL Analytics]. |
+| [!DNL Target] | Med [ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) kombineras besökar-ID:n och data i en enda användbar profil för användning i olika lösningar. Med kryssrutan [Publicera på Experience Cloud](../audience-library/audience-library.md) när du skapar segment i Adobe Analytics kan segmentet vara tillgängligt i Adobe Target anpassade målgruppsbibliotek. Ett segment som skapats i Analytics eller Audience Manager kan användas för aktiviteter i [!DNL Target]. Du kan till exempel skapa kampanjaktiviteter baserat på [!DNL Analytics] konverteringsmått och målgruppssegment som skapats i [!DNL Analytics]. |
 | Audience Manager | Delade målgrupper finns i segmentering med Audience Manager. Alla Experience Cloud-målgrupper finns i Audience Manager, vilket innebär att<ul><li>Inbyggd automatisering av hur de delas och används i lösningsarbetsflöden</li><li>Destinationer utanför webbplatsen</li><li>Look-alike-modellering</li></ul> |
 | Campaign | <ul><li>Importera delade målgrupper från olika Adobe Experience Cloud-lösningar till Adobe Campaign.</li><li>Exportera mottagarlistor i form av delade målgrupper. Dessa delade målgrupper kan användas i de olika Adobe Experience Cloud-lösningar ni använder.</li></ul> |
 | Advertising Cloud | Använd målgruppen som mål. |
@@ -54,15 +53,15 @@ I följande tabell beskrivs hur målgrupper används i Experience Cloud-lösning
 >
 >När en besökare kvalificerar sig för den målgrupp som delas från Analytics, sker en 4-8 timmars fördröjning innan den informationen kan användas i [!DNL Target], Ad Cloud och Campaign Standard.
 
-## Mer hjälp - frågor, vägledning och användningsexempel {#section_C7F151644D8A45F7B6FC54F58845635D}
+## Mer hjälp - frågor, vägledning och användningsfall {#section_C7F151644D8A45F7B6FC54F58845635D}
 
 | Hjälp med | Resurs |
 |--- |--- |
-| Hittar du inte publiker? | Se till att du är etablerad. Se [Komma igång - aktivera lösningar för bastjänster](../core-services/core-services.md).<br>Klicka  [](https://www.adobe.com/go/audiences) här för att begära åtkomst till profiler och målgrupper (provisioneringsformulär för integreringar). |
-| Användningsfall | Mer information om vilken lösning som ska användas finns i [Alternativ för målgruppsskapande](https://helpx.adobe.com/marketing-cloud-core/kb/People/Audience-Creation-Options.html) i kunskapsbasen. |
-| Forum | [Målgruppsforumet](https://forums.adobe.com/community/experience-cloud/platform/core-services/people-service/audiences) är en extra resurs för att få hjälp med målgrupper. |
+| Hittar du inte publiker? | Se till att du är etablerad. Se [Komma igång - aktivera lösningar för bastjänster](../core-services/core-services.md).<br>Klicka  [](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) här för att begära åtkomst till profiler och målgrupper (provisioneringsformulär för integreringar). |
+| Användningsfall | Mer information om vilken lösning som ska användas finns i [Alternativ för målgruppsskapande](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en) i kunskapsbasen. |
+| Forum | [Målgruppsforumet](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community) är en annan resurs för att få hjälp med målgrupper. |
 
-## Gränssnittselement för målgruppsbibliotek {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
+## Gränssnittselement i målgruppsbiblioteket {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
 
 [!DNL Experience Cloud] innehåller ett bibliotek för att skapa och hantera målgrupper med inbyggd målgruppsidentifiering i realtid.
 
