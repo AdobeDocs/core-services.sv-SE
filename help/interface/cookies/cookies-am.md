@@ -5,17 +5,16 @@ solution: Experience Cloud, Audience Manager
 title: 'Audience Manager Cookies '
 uuid: 8b384c38-b85a-4e93-b00e-41a9d3ae2b21
 feature: Cookies
-topic: Administration
+topic: Administrering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 3%
+source-wordcount: '611'
+ht-degree: 2%
 
 ---
-
 
 # Audience Manager Cookies{#audience-manager-cookies}
 
@@ -33,11 +32,11 @@ Audience Manager förlitar sig på några enkla cookies för att utföra olika f
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Syfte</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager  </span> ställer in den här cookien så att den tilldelar ett unikt ID till en besökare. Cookien <span class="wintitle"> demdex </span> hjälper <span class="keyword"> Audience Manger </span> att utföra grundläggande funktioner som besökaridentifiering, ID-synkronisering, segmentering, modellering, rapportering osv. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager  </span> ställer in den här cookien så att den tilldelar ett unikt ID till en besökare. Cookien <span class="wintitle"> demdex </span> hjälper <span class="keyword"> Audience Manger </span> att utföra grundläggande funktioner som besökaridentifiering, ID-synkronisering, segmentering, modellering, rapportering och så vidare. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Innehåll</b> </p> </td> 
-   <td colname="col2"> <p>Cookien <span class="wintitle"> demonstrationen </span> innehåller ett unikt användar-ID (UUID) enligt exemplet nedan: </p> <p> <span class="codeph"> 061513042277697204303923517820449977  </span> </p> <p>Se även <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external"> ID-index i Audience Manager </a>. </p> </td> 
+   <td colname="col2"> <p>Cookien <span class="wintitle"> demonstrationen </span> innehåller ett unikt användar-ID (UUID) enligt exemplet nedan: </p> <p> <span class="codeph"> 061513042277697204303923517820449977  </span> </p> <p>Se även <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=en" format="https" scope="external"> ID-index i Audience Manager </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Andra attribut</b> </p> </td> 
@@ -85,7 +84,7 @@ Audience Manager förlitar sig på några enkla cookies för att utföra olika f
 
 dextp Cookie-datasyntax:
 
-I följande tabell visas och definieras elementen i en [!DNL dextp]-cookie efter plats i datasträngen.
+I följande tabell visas och definieras elementen i en `dextp`-cookie efter plats i datasträngen.
 
 <table id="table_BE00604B97F24F5A94AA4F566063D785"> 
  <thead> 
@@ -130,7 +129,7 @@ I följande tabell visas och definieras elementen i en [!DNL dextp]-cookie efter
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Syfte</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager  </span> ställer in denna cookie när ett fel uppstår när data skickas till ett  <a href="https://docs.adobe.com/content/help/en/audience-manager/user-guide/features/destinations/destinations.html#purposes" format="https" scope="external"> mål  </a>. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager  </span> ställer in denna cookie när ett fel uppstår när data skickas till ett  <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=en" format="https" scope="external"> mål  </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Innehåll</b> </p> </td> 
@@ -153,4 +152,4 @@ I följande tabell visas och definieras elementen i en [!DNL dextp]-cookie efter
 
 **_dp Cookie**
 
-Det här är en tillfällig cookie. [!DNL Audience Manager] försöker att ställa in  [!DNL _dp] cookien för att avgöra om den kan ställa in andra cookies i domänen demdex.net i en tredjepartskontext. När [!DNL _dp] är inställt innehåller det värdet 1. [!DNL Audience Manager] läser det här värdet och tar omedelbart bort cookien. Om cookien [!DNL _dp] inte finns vet [!DNL Audience Manager] att den inte kan ange cookies.
+Den här kakan är tillfällig. [!DNL Audience Manager] försöker att ställa in  `_dp` cookien för att avgöra om den kan ställa in andra cookies i domänen demdex.net i en tredjepartskontext. När `_dp` är inställt innehåller det värdet 1. [!DNL Audience Manager] läser det här värdet och tar omedelbart bort cookien. Om cookien `_dp` inte finns vet [!DNL Audience Manager] att den inte kan ange cookies.
