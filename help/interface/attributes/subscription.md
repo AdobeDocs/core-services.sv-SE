@@ -4,22 +4,21 @@ keywords: Kundattribut;bastjänster
 solution: Experience Cloud
 title: 'Konfigurera prenumerationer '
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
-feature: Customer Attributes
-topic: Administration
+feature: Kundattribut
+topic: Administrering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '377'
 ht-degree: 1%
 
 ---
 
-
 # Konfigurera prenumerationer i Experience Cloud
 
-Lär dig mer om lösningsdatakällor och hur du konfigurerar prenumerationer. Prenumerationer möjliggör dataflöde mellan Experience Cloud och lösningar för kundattribut (Analytics och [!DNL Target]).
+Lär dig mer om lösningsdatakällor och hur du konfigurerar prenumerationer. Prenumerationer möjliggör dataflöde för kundattribut mellan Experience Cloud och lösningar ([!DNL Analytics] och [!DNL Target]).
 
 En Adobe Analytics-prenumeration kan t.ex. aktivera attributdata i rapporter. Om du använder Adobe Target kan du överföra kundattribut för målgruppsanpassning och segmentering.
 
