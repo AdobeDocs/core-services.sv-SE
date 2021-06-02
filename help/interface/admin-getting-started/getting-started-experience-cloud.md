@@ -9,9 +9,9 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '926'
+source-wordcount: '934'
 ht-degree: 3%
 
 ---
@@ -37,7 +37,7 @@ Logga in och verifiera att du är i rätt [organisation](../admin-getting-starte
 
 | Element | Beskrivning |
 |--- |--- |
-| [Grundläggande om Admin Console](https://helpx.adobe.com/marketing-cloud/how-to/first-time-setup.html) | Läs mer om de första stegen du måste ta för att komma igång med Experience Cloud. |
+| [Grundläggande om Admin Console](https://experienceleague.adobe.com/docs/core-services/interface/experience-cloud.html) | Läs mer om de första stegen du måste ta för att komma igång med lösningar från Experience Cloud. |
 | [Ställ in identitet](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | Definiera och konfigurera ett identitetssystem som slutanvändarna ska autentiseras mot. |
 | [Användarhantering](https://helpx.adobe.com/se/enterprise/using/users.html) | Läs om hur du loggar in på Admin Console och hanterar användarbehörigheter och produktprofiler för Experience Cloud. |
 | [Starta Admin Console](../admin-getting-started/admin-getting-started.md) | Admin Console är den centrala platsen för hantering av användare i Adobe och produktbehörigheter i hela organisationen.<br>Du kan också logga in på Admin Console med en  [direktlänk](https://adminconsole.adobe.com). |
@@ -151,5 +151,5 @@ Exempel-URL:
 | Parameter | Beskrivning | Exempel | Obligatoriskt/valfritt |
 |--- |--- |--- |--- |
 | tenantId | Namnet på innehavaren som användaren ska logga in på. | aem62tenant | Valfritt |
-| destURL | Den fullständiga URL:en till den plats där användaren ska tas till. | https://sc.omniture.com/x/1_7xxzf | Valfritt |
-| lösningens namn | Namnet på MAC-lösningen som är ägare av parametern destURL. Den används för att verifiera att användaren har åtkomst till lösningen som är URL-adressens ägare.  Lösningarna måste se till att lösningens namn är synkroniserat med parametern destURL.  Till exempel: Om URL:en innehåller lösningens namn som social och den angivna destURL:en är en analys-URL:en, kommer användaren att omdirigeras till URL:en även om han eller hon inte har tillgång till analyser. MAC verifierar INTE vädret som ägaren av destURL är synkroniserad med lösningens namn. | analys | Obligatoriskt om destURL-param används. |
+| destURL | Den fullständiga URL:en till den plats där användaren ska tas till. | https://sc.omniture.com/login?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | Valfritt |
+| lösningens namn | Namnet på MAC-lösningen som är ägare av parametern destURL. Den används för att verifiera att användaren har åtkomst till lösningen som är URL-adressens ägare.  Lösningarna måste se till att lösningens namn är synkroniserat med parametern destURL.  Till exempel: Om URL:en innehåller lösningens namn som social och den angivna destURL:en är en analys-URL:en, kommer användaren att omdirigeras till URL:en även om han eller hon inte har tillgång till analyser. MAC verifierar INTE om ägaren av destURL är synkroniserad med lösningens namn. | analys | Obligatoriskt om destURL-param används. |
