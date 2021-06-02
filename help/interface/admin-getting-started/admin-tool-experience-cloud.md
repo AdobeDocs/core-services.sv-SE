@@ -5,17 +5,16 @@ solution: Experience Cloud
 title: 'Visa Experience Cloud-användare och användarinformation '
 index: true
 feature: Admin Console
-topic: Administration
+topic: Administrering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
+source-git-commit: b80ee031d4cfa7083a91140d7f5b0b78d21fb931
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1179'
 ht-degree: 1%
 
 ---
-
 
 # Visa användare och profiler för Experience Cloud i administrationsverktyget
 
@@ -54,8 +53,8 @@ På den här sidan visas en fullständig lista över användare som har tillgån
 Du kan söka efter, sortera eller filtrera kolumnerna för att anpassa användarlistan.
 
 * Sök efter användare efter namn eller e-post. Sökningar matchar textsträngen som du skriver.
-* Sortera kolumnen efter stigande eller fallande värden. Detta gäller för [!UICONTROL Name,] [!UICONTROL Email,] och [!UICONTROL Last Login] kolumner.
-* Klicka på ikonen **[!UICONTROL Filter By]** om du vill använda flera filter för att lista användare med specifika villkor. När flera filterkategorier används innehåller sökningarna e-postdomänen `AND` ID TYPE `AND` Solution.
+* Sortera kolumnen efter stigande eller fallande värden. Den här sorteringen gäller för [!UICONTROL Name,] [!UICONTROL Email,] och [!UICONTROL Last Login] kolumner.
+* Om du vill använda flera filter för att lista användare med särskilda villkor klickar du på ikonen **[!UICONTROL Filter By]**. När flera filterkategorier används innehåller sökningarna e-postdomänen `AND` ID TYPE `AND` Solution.
 
 | Element | Beskrivning |
 |---------|----------|
@@ -96,7 +95,7 @@ I det här avsnittet visas en fullständig lista över alla produktprofilmedlems
 | [!UICONTROL Product] | Namn på den produkt som är associerad med produktprofilen. |
 | [!UICONTROL Instance] | Namn på den instans (till exempel inloggningsföretag eller innehavare) som är associerad med produkt- och produktprofilen. |
 | [!UICONTROL Product Profile] | Unikt namn på produktprofilen. |
-| [!UICONTROL Assigned by Group] | Namnet på den användargrupp som associerar användaren med en produktprofil. Tomma resultat indikerar att användaren har tilldelats produktprofilen direkt, inte via en grupp. |
+| [!UICONTROL Assigned by Group] | Namnet på den användargrupp som associerar användaren med en produktprofil. Tomma resultat indikerar att användaren tilldelades produktprofilen direkt, inte via en grupp. |
 | [!UICONTROL Product Roles] | Rolltilldelning av användaren i produktprofilen. För närvarande gäller dessa uppgifter endast Adobe Target produktprofiler. |
 
 ## Sidan Profiler
@@ -107,9 +106,9 @@ På den här sidan visas en fullständig lista över policyer för Experience Cl
 
 | Element | Beskrivning |
 |---|---|
-| [!UICONTROL Product Profile] | Namnet på produktprofilen. Kolumnen kan sorteras A->Z, Z->A. Klicka på en produktprofils namn för att se mer information om profilen. |
+| [!UICONTROL Product Profile] | Namnet på produktprofilen. Kolumnen kan sorteras A->Z, Z->A. Klicka på en produktprofils namn om du vill se mer information om profilen. |
 | [!UICONTROL Product] | Den produkt som är associerad med produktprofilen. Kolumnen kan sorteras A->Z, Z->A. |
-| [!UICONTROL Instance] | Den instans (t.ex. klient- eller inloggningsföretag) som är associerad med produktprofilen. Produkter som inte har unika instanser eller innehavare visas med &quot; -&quot; för värdet. Kolumnen kan sorteras A->Z, Z->A. |
+| [!UICONTROL Instance] | Den instans (till exempel klient- eller inloggningsföretag) som är associerad med produktprofilen. Produkter som inte har unika instanser eller innehavare visas med &quot; -&quot; som värde. Kolumnen kan sorteras A->Z, Z->A. |
 | [!UICONTROL Number of Users] | Unikt antal användare som är associerade med produktprofilen, inklusive direkttilldelning och grupptilldelning. Kolumnen kan sorteras från minsta till största eller från största till minsta. |
 | [!UICONTROL Number of Developers] | Antal utvecklarroller som är associerade med produktprofilen. Kolumnen kan sorteras från minsta till största eller från största till minsta. |
 
@@ -118,7 +117,7 @@ På den här sidan visas en fullständig lista över policyer för Experience Cl
 Du kan söka efter, sortera eller filtrera kolumnerna för att anpassa principlistan.
 
 * Sök efter produktprofiler efter namn. Sökningar matchar textsträngen som du skriver.
-* Sortera kolumnen efter stigande eller fallande värden. Detta gäller för [!UICONTROL Product Profile,] [!UICONTROL Product,] [!UICONTROL Instance,] [!UICONTROL Number of users,] och [!UICONTROL Number of Developers,] kolumner.
+* Sortera kolumnen efter stigande eller fallande värden. Den här sorteringen gäller för [!UICONTROL Product Profile,] [!UICONTROL Product,] [!UICONTROL Instance,] [!UICONTROL Number of users,] och [!UICONTROL Number of Developers,] kolumner.
 * Klicka på ikonen **[!UICONTROL Filter By]** om du vill använda flera filter för att lista produktprofiler med specifika villkor. När flera filterkategorier används innehåller sökningarna grupper som är associerade med `AND`-instansen `AND`-lösningen.
 
 | Element | Beskrivning |
