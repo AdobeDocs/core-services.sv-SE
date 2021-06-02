@@ -8,7 +8,7 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: b80ee031d4cfa7083a91140d7f5b0b78d21fb931
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 2%
@@ -63,11 +63,12 @@ Menyn [!UICONTROL Help] ger dig även åtkomst till:
 
 ## Sök globalt efter objekt och enheter
 
-Med den globala sökningen kan du hitta alla sökbara affärsobjekt eller entiteter på ett smidigt och enhetligt sätt med ett enda klick. Den här sökningen visar de objekt du nyligen har använt.
+Med den globala sökningen kan du söka efter sökbara affärsobjekt eller entiteter på ett smidigt och enhetligt sätt med ett enda klick. Den här sökningen visar de objekt du nyligen har använt.
 
 ![](assets/platform-search.png)
 
-Den här sökningen är endast tillgänglig för användare av Experience Platform.
+>!![NOTE]
+Den globala sökningen är bara tillgänglig för användare av Experience Platform.
 
 ## Hantera kontoinställningar {#preferences}
 
@@ -122,9 +123,9 @@ Stödlinjer för Experience Cloud:
 
 * [Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)
 * [Experience Platform Co-op Graph](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=en)
-* [Exchange](https://www.adobeexchange.com/experiencecloud)
+* [Exchange](https://exchange.adobe.com/experiencecloud)
 * [Experience Cloud ID-tjänst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
-* [Experience Platform datainsamling/start](https://experienceleague.corp.adobe.com/docs/launch.html?lang=en)
+* [Experience Platform datainsamling/start](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en)
 * [Allmänt API för dataskyddsförordningen (GDPR)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
 * [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en)
@@ -139,10 +140,10 @@ Självhjälp och snabba guider i Experience League:
 
 ## Versionsinformation och tillhörande Experience Cloud-hjälp
 
-* [Produktdokumentation för alla Experience Cloud-lösningar](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=en)  - Bläddra efter hjälp på Experience Cloud studiematerial och support
+* [Produktdokumentation för alla Experience Cloud-lösningar](https://experienceleague.adobe.com/docs/home.html?lang=en)  - Bläddra efter hjälp på Experience Cloud studiematerial och support
 * [Versionsinformation och produktuppdateringar](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)  - Nyheter i Experience Cloud och prenumerationer för att få uppdateringar
-* [Tutorials för implementering av bastjänster](https://experienceleague.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)  - Utforska videor och självstudiekurser om bastjänster
+* [Tutorials för implementering av bastjänster](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en)  - Utforska videor och självstudiekurser om bastjänster
 * [Experthjälp på Experience League](https://experienceleague.adobe.com/)  - Få hjälp av experter och communityn
 * [Utbildning](https://helpx.adobe.com/se/learning.html?promoid=KAUDK)  - Ta kontakt med Adobe för att få ut det mesta av Adobe produkter
-* [Kundupplevelsebloggen](https://blog.adobe.com/customer-experience/)  - Läs Experience Cloud-bloggen
+* [Kundupplevelsebloggen](https://blog.adobe.com/en/topics/digital-transformation.html)  - Läs Experience Cloud-bloggen
 * [Kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)  - kontakta Adobe kundtjänst
