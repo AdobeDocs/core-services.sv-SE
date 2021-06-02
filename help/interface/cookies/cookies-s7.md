@@ -5,17 +5,16 @@ solution: Experience Cloud,Analytics,Target
 title: 'Scene7 Cookies '
 uuid: f9b9d13a-17e5-4139-8c84-6fe5d22c4196
 feature: Cookies
-topic: Administration
+topic: Administrering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: ecb8d17f-f752-44ca-8877-44752c28dc70
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '413'
 ht-degree: 1%
 
 ---
-
 
 # Scene7 Cookies{#scene-cookies}
 
@@ -30,8 +29,8 @@ För AS2-visningsprogram, cookies:
 
 Cookies för visningsprogrammet för AS2 Flash eCatalog:
 
-* Lagra användargenererat innehåll (mest märkbart innehåll som användaren matar in i funktionen &quot;notislappar&quot; i visningsprogrammet för e-kataloger). Innehållet återställs när användaren återupptar en session.
-* När användaren initierar ett e-postmeddelande för att dela katalogen med en annan användare, kopieras anteckningsinnehållet från den andra AS2-visningsprogrampunkten till våra servrar för att ge mottagaren det. När mottagaren initierar visningsprogramsessionen hämtas anteckningsinnehållet från servern och kopieras till en cookie. Den här funktionen används sällan, så den upphör inte att gälla och inaktuellt innehåll tas inte bort. För närvarande finns den kvar på servrarna på obestämd tid.
+* Lagra användargenererat innehåll (mest märkbart innehåll som användaren matar in i funktionen&quot;klisterlappar&quot; i visningsprogrammet). Innehållet återställs när användaren återupptar en session.
+* När användaren initierar ett e-postmeddelande för att dela katalogen med en annan användare, kopieras anteckningsinnehållet från den andra AS2-visningsprogrampunkten till våra servrar för att ge mottagaren det. När mottagaren initierar visningsprogramsessionen hämtas anteckningsinnehållet från servern och kopieras till en cookie. Den här funktionen används sällan, så den upphör inte att gälla och inaktuellt innehåll tas inte bort. För närvarande finns den kvar på servrarna i oändlighet.
 
 De nyare AS3-visningsprogrammen implementerar inte sessionens beständighet.
 
@@ -85,4 +84,3 @@ Webbläsarcookies används av äldre DHTML-visningsprogram för att lagra status
   </tr> 
  </tbody> 
 </table>
-
