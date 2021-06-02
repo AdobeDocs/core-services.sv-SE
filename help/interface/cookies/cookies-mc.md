@@ -5,17 +5,16 @@ solution: Experience Cloud,Analytics,Target
 title: 'Experience Cloud Cookies '
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 feature: Cookies
-topic: Administration
+topic: Administrering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 7%
+source-wordcount: '347'
+ht-degree: 2%
 
 ---
-
 
 # Experience Cloud Cookies{#experience-cloud-cookies}
 
@@ -60,9 +59,9 @@ Adobe Experience Cloud använder cookies för att lagra ett besökar-ID som anv�
 
 **Cookie-namn: AMCV_###@AdobeOrg**
 
-I [Experience Platform ID-tjänsten](https://docs.adobe.com/content/help/sv-SE/id-service/using/home.html) används JavaScript för att lagra ett unikt besökar-ID i en `AMCV_###@AdobeOrg`-cookie på den aktuella webbplatsens domän, där `###` representerar en slumpmässig teckensträng, till exempel `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+I [Experience Platform ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) används JavaScript för att lagra ett unikt besökar-ID i en `AMCV_###@AdobeOrg`-cookie på den aktuella webbplatsens domän, där `###` representerar en slumpmässig teckensträng, till exempel `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-Se även [Cookies och ID-tjänsten](https://docs.adobe.com/content/help/sv-SE/id-service/using/intro/cookies.html).
+Se även [Cookies och ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=en).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
@@ -93,7 +92,7 @@ Se även [Cookies och ID-tjänsten](https://docs.adobe.com/content/help/sv-SE/id
    <td colname="col2"> <p> De flesta kunder kan förvänta sig att den här cookien ska vara ca 200 byte lång. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Inget värde har lagts till. Chrome får standardvärdet Lax. </p> </td> 
+   <td colname="col1"> <p>Inget värde har lagts till. Krom är som standard Lax. </p> </td> 
    <td colname="col2"> <p> Cookies med den här inställningen skickas bara när domänen som visas i webbläsarens URL matchar cookie-domänen. Det här är det nya standardvärdet för cookies i Chrome. </p> </td> 
   </tr> 
  </tbody> 
