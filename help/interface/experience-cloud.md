@@ -1,41 +1,118 @@
 ---
-description: Läs mer om användar- och produktadministration i Adobe Admin Console, aktivera lösningar för Experience Cloud och läs mer om Audience Library, Customer Attributes, Experience Cloud Assets med flera.
-keywords: Adobe Experience Cloud tjänster, kundattribut, målgrupper, användar- och produktadministration
+description: Lär dig mer om centrala gränssnittskomponenter för Experience Cloud. I den här hjälpen ingår användar- och produktadministration i Admin Console, aktivering av program för Experience Cloud-tjänster samt hjälp om Audience Library, Customer Attributes, Experience Cloud Assets med flera.
 solution: Experience Cloud
-title: 'Experience Cloud och administration '
+title: Hjälp och dokumentation för Experience Cloud-gränssnittet
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: '"Kundattribut"'
 topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-translation-type: tm+mt
-source-git-commit: 30989be46132eef4d8bcf5ccaf3032f0606c7de4
+source-git-commit: b80ee031d4cfa7083a91140d7f5b0b78d21fb931
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 20%
+source-wordcount: '877'
+ht-degree: 2%
 
 ---
 
-# Experience Cloud Services and Administration Guide
+# Gränssnittskomponenter i Experience Cloud
 
-Experience Cloud är en integrerad familj av lösningar och tjänster för digital marknadsföring i Adobe. Det är också ett intuitivt gränssnitt som gör att du snabbt kan komma åt dina molnlösningar och bastjänster.
+[Experience ](https://experience.adobe.com) Cloudis Adobe integrerade en serie program, produkter och tjänster för digital marknadsföring. Från det intuitiva gränssnittet får du snabbt tillgång till dina molnprogram, produktfunktioner och tjänster.
 
-![Experience Cloud](assets/cloud-pulldown.png)
+![Experience Cloud](assets/landing.png)
+
+Från Experience Cloud kan du:
+
+* Få tillgång till dina program och tjänster
+* Sök efter produktdokumentation, självstudiekurser och communityinlägg
+* Sök efter affärsobjekt globalt med hjälp av en global sökning (endast Experience Platform)
+* Hantera dina kontoinställningar (aviseringar, aviseringar och prenumerationer)
+
+## Logga in på Experience Cloud
+
+Logga in och verifiera att du är i rätt [organisation](admin-getting-started/organizations.md).
+
+1. Navigera till [Adobe Experience Cloud](https://experience.adobe.com).
+1. Klicka på **[!UICONTROL Sign in with an Adobe ID]**.
+1. På Adobe Experience Cloud klickar du på din organisation.
+
+   ![](assets/organizations-menu.png)
+
+   Administratören kan hjälpa dig att verifiera att du är i rätt [organisation](admin-getting-started/organizations.md).
+
+## Använd Experience Cloud {#navigation}
+
+När du har loggat in på Experience Cloud kan du snabbt komma åt alla program, tjänster och organisationer från det enhetliga huvudet.
+
+Klicka på programväljaren ![](assets/menu-icon.png) om du vill få åtkomst till Experience Cloud-tjänster som du äger.
+
+![](assets/platform-core-services.png)
+
+## Få hjälp och support {#search}
+
+Enhetlig hjälp är en plats i produkten där du kan söka efter och komma åt hjälpinnehåll (dokumentation, självstudiekurser och kurser) på [Experience League](https://experienceleague.adobe.com/#home). Du kan även skicka in öppen feedback och skapa prioriterade supportärenden.
+
+![](assets/search-menu.png)
+
+Menyn [!UICONTROL Help] ger dig även åtkomst till:
+
+* **[!UICONTROL Support]:** Skapa en supportanmälan eller kontakta  [!UICONTROL Support] Twitter.
+* **[!UICONTROL Feedback]:** Dela feedback om Experience Cloud. Dina synpunkter används för att förbättra Adobe produkter och tjänster.
+* **[!UICONTROL Status]:** Navigera till  `https://status.adobe.com/experience_cloud` och kontrollera produktdriftsstatus och  [!UICONTROL Manage Subscriptions].
+* **[!UICONTROL Developer Connection]:** Navigera till  `adobe.io` och hitta dokumentation för utvecklare.
+
+## Sök globalt efter objekt och enheter
+
+Med den globala sökningen kan du hitta alla sökbara affärsobjekt eller entiteter på ett smidigt och enhetligt sätt med ett enda klick. Den här sökningen visar de objekt du nyligen har använt.
+
+![](assets/platform-search.png)
+
+Den här sökningen är endast tillgänglig för användare av Experience Platform.
+
+## Hantera kontoinställningar {#preferences}
+
+Inställningarna för Experience Cloud omfattar meddelanden, prenumerationer och varningar. På kontoinställningsmenyn kan du:
+
+* Ange ett mörkt tema (alla program stöder inte det här temat)
+* Sök efter [organisationer](admin-getting-started/organizations.md)
+* Logga ut
+* Konfigurera kontoinställningar, meddelanden och prenumerationer
+
+Om du vill hantera inställningar klickar du på **[!UICONTROL Preferences]** på din kontomeny ![](assets/preferences-icon-sm.png).
+
+![](assets/preferences-page.png)
+
+På [!UICONTROL Experience Cloud preferences] kan du konfigurera följande funktioner:
+
+| Funktion | Beskrivning |
+|--- |--- |
+| Standardorganisation[organisation](admin-getting-started/organizations.md) | Välj den organisation som du vill se när du startar Experience Cloud. |
+| [!UICONTROL Subscriptions] | Välj de produkter och kategorier som du vill prenumerera på. Meddelanden i popup-fönstret [!UICONTROL Notifications] och i ditt e-postmeddelande. |
+| [!UICONTROL Priority] | Välj de kategorier som du vill ska ha hög prioritet. Dessa kategorier är markerade med en hög tagg och kan konfigureras för leverans som varningar. |
+| [!UICONTROL Alerts] | Välj de meddelanden som du vill visa aviseringar för i webbläsaren. Varningar visas i fönstrets övre högra hörn under några sekunder. |
+| E-post | Ange hur ofta du vill få e-postmeddelanden. (Inte skickat, direkt, dagligen eller varje vecka.) |
+
+## Meddelanden
+
+Klicka på **[!UICONTROL Notifications]** om du vill få meddelanden om relevanta och åtgärdbara uppdateringar, inklusive produktreleaser, underhållsmeddelanden, delade objekt och godkännandebegäranden.
+
+![](assets/notifications-menu-small.png)
+
+## Få hjälp med administration och programövergripande tjänster
 
 Den här guiden ger hjälp om Experience Cloud och produktadministration i Admin Console, vilket möjliggör lösningar för plattformstjänster. Du kan även få hjälp via Audience Library, Customer Attributes, Experience Cloud Assets med flera:
 
 * [[!UICONTROL Audience Library]](audience-library/audience-library.md)
 * [[!UICONTROL Customer Attributes]](attributes/attributes.md)
 * [[!UICONTROL Triggers]](activation/triggers.md)
-* [Experience Cloud  [!UICONTROL Assets]](experience-cloud-assets/experience-cloud-assets.md)
+* [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets/experience-cloud-assets.md)
 * [Experience Cloud cookies](cookies/cookies-privacy.md)
 * [Hantering](admin-getting-started/admin-getting-started.md)  av användare och produkter (Admin Console)
 * [Möjliggör era lösningar för bastjänsterna](core-services/core-services.md)
-* [Vanliga frågor](admin-getting-started/admin-getting-started.md)
+* [Frågor och svar](admin-getting-started/admin-getting-started.md)
 * [Organisationer och kontolänkning](admin-getting-started/organizations.md)
 * [Integreringar](marketing-cloud-integrations.md)
-* [Integrera Adobe Target med Experience Cloud](https://docs.adobe.com/content/help/sv-SE/target/using/integrate/a4t/a4t.html)
+* [Integrera Adobe Target med Experience Cloud](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)
 * [Experience Cloud sekretess- och säkerhetsöversikt](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS-förhämtning](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
@@ -43,29 +120,29 @@ Den här guiden ger hjälp om Experience Cloud och produktadministration i Admin
 
 Stödlinjer för Experience Cloud:
 
-* [Adobe Mobile](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)
-* [Experience Platform Co-op Graph](https://docs.adobe.com/content/help/sv-SE/device-co-op/using/home.html)
-* [Exchange](https://experiencecloud.adobeexchange.com/)
-* [Experience Cloud ID-tjänst](https://docs.adobe.com/content/help/sv-SE/id-service/using/home.html)
-* [Experience Platform Launch](https://docs.adobelaunch.com/)
-* [Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)
+* [Adobe Mobile](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)
+* [Experience Platform Co-op Graph](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=en)
+* [Exchange](https://www.adobeexchange.com/experiencecloud)
+* [Experience Cloud ID-tjänst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
+* [Experience Platform datainsamling/start](https://experienceleague.corp.adobe.com/docs/launch.html?lang=en)
+* [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en)
 * [Allmänt API för dataskyddsförordningen (GDPR)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
-* [[!UICONTROL Dynamic Tag Management]](https://docs.adobe.com/content/help/en/dtm/using/dtm-home.html)
+* [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en)
 
 ## Självstudiekurser
 
 Självhjälp och snabba guider i Experience League:
 
 * [Alla självstudiekurser i Experience League](https://experienceleague.adobe.com/?lang=en#quick-how-tos)
-* [Självstudiekurser för Experience Platform](https://experienceleague.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)
-* [Kunddataplattform i realtid](https://experienceleague.adobe.com/docs/platform-learn/tutorials/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
+* [Självstudiekurser för Experience Platform](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en)
+* [Kunddataplattform i realtid](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
 
 ## Versionsinformation och tillhörande Experience Cloud-hjälp
 
-* [Produktdokumentation för alla Experience Cloud-lösningar](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)  - Bläddra efter hjälp på Experience Cloud studiematerial och support
-* [Versionsinformation och produktuppdateringar](https://docs.adobe.com/content/help/sv-SE/release-notes/experience-cloud/current.html)  - Nyheter i Experience Cloud och prenumerationer för att få uppdateringar
-* [Tutorials för implementering av bastjänster](https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html)  - Utforska videor och självstudiekurser om bastjänster
-* [Experthjälp på Experience League](https://landing.adobe.com/experience-league/)  - Få hjälp av experter och communityn
-* [Utbildning](https://helpx.adobe.com/se/learning.html?promoid=KAUDK)  - Med Adobe får du ut det mesta av våra produkter
-* [Kundupplevelsebloggen](https://theblog.adobe.com/customer-experience/)  - Läs Experience Cloud-bloggen
-* [Kundtjänst](https://helpx.adobe.com/se/contact/enterprise-support.ec.html)  - kontakta Adobe kundtjänst
+* [Produktdokumentation för alla Experience Cloud-lösningar](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=en)  - Bläddra efter hjälp på Experience Cloud studiematerial och support
+* [Versionsinformation och produktuppdateringar](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)  - Nyheter i Experience Cloud och prenumerationer för att få uppdateringar
+* [Tutorials för implementering av bastjänster](https://experienceleague.adobe.com/docs/core-services-learn/tutorials/overview.html?lang=en)  - Utforska videor och självstudiekurser om bastjänster
+* [Experthjälp på Experience League](https://experienceleague.adobe.com/)  - Få hjälp av experter och communityn
+* [Utbildning](https://helpx.adobe.com/se/learning.html?promoid=KAUDK)  - Ta kontakt med Adobe för att få ut det mesta av Adobe produkter
+* [Kundupplevelsebloggen](https://blog.adobe.com/customer-experience/)  - Läs Experience Cloud-bloggen
+* [Kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support)  - kontakta Adobe kundtjänst
