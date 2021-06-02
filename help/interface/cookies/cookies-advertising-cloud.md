@@ -3,17 +3,16 @@ description: Läs om Adobe Ad Cloud cookies för att mappa annonsevenemang till 
 title: 'Advertising Cloud Cookies '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 feature: Cookies
-topic: Administration
+topic: Administrering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 6eab2decc39f250d48e3355b8c63c5a0c868944c
+exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '538'
 ht-degree: 4%
 
 ---
-
 
 # Advertising Cloud Cookies{#advertising-cloud-cookies}
 
@@ -132,11 +131,11 @@ Advertising Cloud använder cookies för att mappa annonsengagemang till konvert
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Information lagrad </p> </td> 
-   <td colname="col2"> <p>Det datum då synkroniseringen ska utföras, i formatet åååmmdd </p> </td> 
+   <td colname="col2"> <p>Det datum då synkronisering utförs, i formatet åååmmdd </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Förfaller </p> </td> 
-   <td colname="col2"> <p>Det datum då synkroniseringen ska utföras, i formatet åååmmdd </p> </td> 
+   <td colname="col2"> <p>Det datum då synkronisering utförs, i formatet åååmmdd </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Användning </p> </td> 
