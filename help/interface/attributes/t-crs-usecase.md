@@ -4,18 +4,17 @@ keywords: Kundattribut;bastjänster
 solution: Experience Cloud
 title: 'Skapa en kundattributkälla och överför datafilen '
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
-feature: Customer Attributes
-topic: Administration
+feature: Kundattribut
+topic: Administrering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 3%
+source-wordcount: '1105'
+ht-degree: 1%
 
 ---
-
 
 # Skapa en kundattributkälla och överför datafilen
 
@@ -87,9 +86,9 @@ Utför dessa steg på sidan Skapa ny källa för kundattribut i Experience Cloud
 
       Alias-ID motsvarar vissa områden där du anger ytterligare värden för Kund-ID. Exempel:
 
-      * **Dynamisk tagghantering:** Alias-ID motsvarar  *Integration* Codevalue under  [!UICONTROL Customer Settings], i  [Experience Cloud ID ](https://docs.adobe.com/content/help/en/dtm/using/tools/macid.html) Service Tool.
+      * **Dynamisk tagghantering:** Alias-ID motsvarar  *Integration* Codevalue under  [!UICONTROL Customer Settings], i  [Experience Cloud ID ](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=en) Service Tool.
 
-      * **Besökar-API:t:** Alias-ID:t motsvarar de ytterligare  [kund-ID:n ](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) som du kan associera med varje besökare.
+      * **Besökar-API:t:** Alias-ID:t motsvarar de ytterligare  [kund-ID:n ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) som du kan associera med varje besökare.
 
          Till exempel *&quot;crm_id&quot;* i:
 
@@ -97,13 +96,13 @@ Utför dessa steg på sidan Skapa ny källa för kundattribut i Experience Cloud
          "crm_id":"67312378756723456"
          ```
 
-      * **iOS:** Alias-ID motsvarar  *&quot;idType&quot;* i  [visitorSyncIdentifiers:Identifiers](https://docs.adobe.com/content/help/sv-SE/mobile-services/ios/overview.html).
+      * **iOS:** Alias-ID motsvarar  *&quot;idType&quot;* i  [visitorSyncIdentifiers:Identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=en).
 
          Exempel:
 
          `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android:** Alias-ID motsvarar  *&quot;idType&quot;* i  [syncIdentifiers](https://docs.adobe.com/content/help/sv-SE/mobile-services/android/overview.html).
+      * **Android™:** Alias-ID motsvarar  *&quot;idType&quot;* i  [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=en).
 
          Exempel:
 
@@ -127,11 +126,11 @@ Utför dessa steg på sidan Skapa ny källa för kundattribut i Experience Cloud
 
    * **[!UICONTROL Customer-Provided IDs Aliased to Experience Cloud Visitor IDs:]** Visar hur många ID:n som har alias för Experience Cloud Visitor ID:n.
 
-   * **[!UICONTROL Customer-Provided IDs with High Alias Counts:]** Visar antalet kundtillhandahållna ID:n med 500 eller fler Experience Cloud-besökar-ID:n med alias. Dessa kundtillhandahållna ID:n representerar förmodligen inte individer utan snarare någon typ av delad inloggning. Attributen som är kopplade till dessa ID:n distribueras till de 500 senaste aliaserade Experience Cloud-besökar-ID:n, tills aliasantalet är 10 000. Då blir det kundens ID ogiltigt och distribuerar inte längre tillhörande attribut.
+   * **[!UICONTROL Customer-Provided IDs with High Alias Counts:]** Visar antalet kundtillhandahållna ID:n med 500 eller fler Experience Cloud-besökar-ID:n med alias. Dessa kundtillhandahållna ID:n representerar förmodligen inte individer utan snarare någon typ av delad inloggning. Attributen som är kopplade till dessa ID:n distribueras till de 500 senaste aliaserade Experience Cloud-besökar-ID:n, tills aliasantalet är 10 000. Systemet gör sedan kundens ID ogiltigt och distribuerar inte längre tillhörande attribut.
 
 
 
-## Verifiera schemat {#task_404AAC411B0D4E129AB3AC8B7BE85859}
+## Validera schemat {#task_404AAC411B0D4E129AB3AC8B7BE85859}
 
 Med valideringsprocessen kan du mappa visningsnamn och beskrivningar till överförda attribut (strängar, heltal, tal och så vidare). Du kan även ta bort attribut genom att uppdatera schemat.
 
@@ -168,7 +167,7 @@ I följande exempel visas ett [!DNL Analytics]-segment baserat på de överförd
 
 När du publicerar ett segment på Experience Cloud blir det tillgängligt i Experience Cloud Publiker och Audience Manager.
 
-Mer information finns i [Kundattributrapport](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) i Analytics-hjälpen.
+Mer information finns i [Kundattributrapport](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-customer-attributes.html?lang=en) i Analytics-hjälpen.
 
 ## Använd kundattribut i Adobe Target {#task_FC5F9D9059114027B62DB9B1C7D9E257}
 
@@ -176,4 +175,4 @@ I [!DNL Target] kan du välja ett kundattribut i [!UICONTROL Visitor Profile]-av
 
 ![](assets/crs-add-attribute-target.png)
 
-Se [Skapa en ny publik](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html) i [!DNL Target]-hjälpen.
+Se [Skapa en ny publik](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=en) i [!DNL Target]-hjälpen.
