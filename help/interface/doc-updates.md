@@ -9,7 +9,7 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: ea7db50d4af151ff47049fc648b8e77c11ec2ee4
+source-git-commit: 9a1dea42b5ae6ab4ea822d56c14cdb330bb8ef95
 workflow-type: tm+mt
 source-wordcount: '240'
 ht-degree: 2%
@@ -20,9 +20,9 @@ ht-degree: 2%
 
 Information om uppdateringar av produktdokumentationen för Experience Cloud.
 
-**Uppdaterat: 5/26/2021**
+**Uppdaterat: 6/1/2021**
 
-[Experience Cloud-gränssnitt](experience-cloud-interface.md) har lagts till för hjälp med att komma åt Experience Cloud, global sökning, inställningar och meddelanden.
+Uppdaterad [landningssida](experience-cloud.md) med ny hjälp för att komma åt Experience Cloud, global sökning, inställningar och meddelanden.
 
 **Uppdaterat: 8/19/2020**
 
