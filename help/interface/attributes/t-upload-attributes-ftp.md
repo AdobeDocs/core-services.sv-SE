@@ -4,18 +4,17 @@ keywords: Kundattribut;bastjänster
 solution: Experience Cloud
 title: 'Överför kundattributdatafilen via FTP '
 uuid: 5df565dd-b6f8-420e-981f-4b6fc6f7d0e4
-feature: Customer Attributes
-topic: Administration
+feature: Kundattribut
+topic: Administrering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 1%
 
 ---
-
 
 # Valfritt - Överför datafilen via FTP
 
@@ -30,7 +29,7 @@ Du kan överföra data när du har skapat en kundattributskälla och ett FTP-kon
 Filöverföring till FTP-webbplatsen för kundattribut kan göras via FTP eller SFTP:
 
 * Du behöver en klient som stöder SFTP-anslutningar.
-* Du kan ansluta till SFTP med antingen användarnamn/lösenord eller utan lösenord, vilket beskrivs [här](https://docs.adobe.com/help/en/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
+* Du kan ansluta till SFTP med antingen användarnamn/lösenord eller utan lösenord, vilket beskrivs [här](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=en).
 
 **Så här överför du datafilen via FTP**
 
