@@ -1,19 +1,18 @@
 ---
 audience: administrator
-user-guide-title: 'Adobe Experience Cloud Services och administration '
-breadcrumb-title: Experience Cloud Services och administration
-user-guide-description: Lär dig hur du hanterar användare och produkter i Adobe Experience Cloud och hur du använder kundattribut och målgruppsbibliotek. Läs också om cookies och Experience Cloud Assets.
-user-guide-url: https://www.adobe.com
+user-guide-title: 'Gränssnittskomponenter i Experience Cloud '
+breadcrumb-title: Gränssnittskomponenter i Experience Cloud
+user-guide-description: Läs mer om Experience Cloud gränssnitt, konfigurera inställningar, sök efter hjälp och affärsobjekt. Få hjälp med användar- och produkthantering, kundattribut, målgruppsbibliotek, cookies och Experience Cloud Assets.
 index: true
-source-git-commit: b80ee031d4cfa7083a91140d7f5b0b78d21fb931
+source-git-commit: 9a1dea42b5ae6ab4ea822d56c14cdb330bb8ef95
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '368'
 ht-degree: 10%
 
 ---
 
 
-# Experience Cloud Services och administration {#interface}
+# Gränssnittskomponenter i Experience Cloud {#interface}
 
 + [Gränssnittskomponenter i Experience Cloud](experience-cloud.md)
 + Experience Cloud services {#about-core-services}
