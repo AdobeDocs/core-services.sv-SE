@@ -4,18 +4,17 @@ keywords: Kundattribut;bastjänster
 solution: Experience Cloud
 title: 'Sekretessöverväganden för kundattribut '
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
-feature: Customer Attributes
-topic: Administration
+feature: Kundattribut
+topic: Administrering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: b466cffbbb37eec39266d90cb6a849562d608cd9
+exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '517'
 ht-degree: 1%
 
 ---
-
 
 # Sekretessöverväganden för kundattribut
 
