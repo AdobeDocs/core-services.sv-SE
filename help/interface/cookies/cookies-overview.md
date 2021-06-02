@@ -2,10 +2,9 @@
 description: Läs om hur lösningar och tjänster i Adobe Experience Cloud använder cookies.
 title: 'Hur cookies används i Experience Cloud '
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
-translation-type: tm+mt
-source-git-commit: 3f26c1af19a0838913eec2b4135304f5f3fcf0b4
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -19,6 +18,6 @@ Cookies tillhandahålls för att upprätthålla information under och ibland mel
 
 >[!NOTE]
 >
->Lagar, bestämmelser och självreglerande principer kan kräva att du får besökarnas samtycke innan du kan lagra eller hämta information på en dator eller annan webbansluten enhet. Vi föreslår att du tillsammans med ditt ombud granskar vilka lagar, regler och principer som styr din användning av cookies.
+>Lagar, bestämmelser och självreglerande principer kan kräva att du får besökarnas samtycke innan du kan lagra eller hämta information på en dator eller annan webbansluten enhet. Adobe föreslår att ni tillsammans med ert ombud granskar vilka lagar, förordningar och principer som styr er användning av cookies.
 
 I den här dokumentationen beskrivs de cookies som används av Suite och den har förberetts för att hjälpa dig förstå dina skyldigheter i samband med ditt samtycke.
