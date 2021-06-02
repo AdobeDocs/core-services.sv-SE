@@ -9,10 +9,10 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '2286'
-ht-degree: 2%
+source-wordcount: '2270'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 Om du nyligen har implementerat Experience Cloud med Experience Platform Launch har du redan ställt in kundattribut och Experience Cloud målgrupper. Du kan också hantera användare och produkter i Admin Console.
 
-För befintliga kunder kan ni behöva modernisera era lösningar och implementera Experience Cloud. På så sätt kan ni utnyttja kundattribut och målgruppsfunktioner i Adobe Analytics, Audience Manager och Adobe Target. För att implementera detta kommer du att:
+Befintliga kunder kan modernisera sina lösningar och implementera Experience Cloud. På så sätt kan ni använda kundattribut och målgruppsfunktioner i Adobe Analytics, Audience Manager och Adobe Target. För att implementera detta kommer du att:
 
 1. [Gå med i Experience Cloud och bli administratör](#section_2423F0BD3DF642658103310EE5EA6154)
 1. [Implementera tjänsten Experience Cloud ID](#section_3C9F6DF37C654D939625BB4D485E4354)
@@ -42,7 +42,7 @@ Vad du måste göra för att gå med i Experience Cloud:
 
    >[!NOTE]
    >
-   >För [!DNL Target] migrerar du till at.js från [!DNL mbox.js]. Se [Uppgradera från at.js 1. x till at.js 2. x](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/upgrading-from-atjs-1x-to-atjs-20.html).
+   >För [!DNL Target] migrerar du till at.js från [!DNL mbox.js]. Se [Uppgradera från at.js 1. x till at.js 2. x](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=en).
 
 1. Modernisera implementeringen och få status som administratör.
 
@@ -96,15 +96,15 @@ Om du inte använder [!UICONTROL Experience Platform Launch] eller [!UICONTROL D
 
 | Uppgift | Beskrivning |
 | -----------| ---------- |  
-| [Implementera Experience Cloud ID-tjänsten för analys](https://docs.adobe.com/content/help/en/id-service/using/implementation/setup-analytics.html) | Adobe rekommenderar även att du anger ytterligare [kund-ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html). Dessa ID:n är kopplade till varje besökare och aktiverar nuvarande och framtida funktioner i Experience Cloud. |
-| Uppdatera din befintliga [!DNL s_code] till version H.27.3 eller senare, eller din befintliga [!DNL AppMeasurement.js] till version 1.4 eller senare. | Dessa filer kan hämtas i [Code Manager](https://docs.adobe.com/content/help/sv-SE/analytics/admin/admin-tools/code-manager-admin.html) i Analytics Admin Tools. (Guiden [JavaScript-implementering](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) är tillgänglig om du behöver mer information om [!DNL AppMeasurement.js].) |
+| [Implementera Experience Cloud ID-tjänsten för analys](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-analytics.html?lang=en) | Adobe rekommenderar även att du anger ytterligare [kund-ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en). Dessa ID:n är kopplade till varje besökare och aktiverar nuvarande och framtida funktioner i Experience Cloud. |
+| Uppdatera din befintliga [!DNL s_code] till version H.27.3 eller senare, eller din befintliga [!DNL AppMeasurement.js] till version 1.4 eller senare. | Dessa filer kan hämtas i [Code Manager](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=en) i Analytics Admin Tools. (Guiden [JavaScript-implementering](https://experienceleague.corp.adobe.com/docs/analytics/implementation/js/overview.html?lang=en#js) är tillgänglig om du behöver mer information om [!DNL AppMeasurement.js].) |
 | Synkronisera kund-ID för Analytics | Se [Analys - synkronisera kund-ID](../core-services/core-services.md#section_AD473A6A21C1446498E700363F9A8437) (nedan). |
 
 ### Analytics &amp; Adobe Target - synkronisera kund-ID {#section_AD473A6A21C1446498E700363F9A8437}
 
-Som en del av konfigurationen av tjänsten Experience Cloud ID rekommenderar Adobe att du synkroniserar dina [kund-ID](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) med Experience Cloud för Analytics och [!DNL Target].
+Som en del av konfigurationen av tjänsten Experience Cloud ID rekommenderar Adobe att du synkroniserar dina [kund-ID](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) med Experience Cloud för Analytics och [!DNL Target].
 
-I Adobe Target måste `mbox3rdpartyid` hämta kund-ID:t och skicka det till [!DNL Target]. (Se [Arbeta med kundattribut](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) i [!DNL Target].)
+I Adobe Target måste `mbox3rdpartyid` hämta kund-ID:t och skicka det till [!DNL Target]. (Se [Arbeta med kundattribut](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=en) i [!DNL Target].)
 
 När en besökare autentiserar sig på din webbplats, eller på annat sätt identifierar sig själv, måste din implementering visa den personens CRM-kund-ID för sidan eller appen. Sedan kan du använda rätt funktionsanrop för att synkronisera ditt kund-ID med Experience Cloud. Den här synkroniseringen lagrar besökarens CRM-kund-ID i Experience Cloud och aktiverar kundens attribut för användning i Experience Cloud.
 
@@ -117,7 +117,7 @@ Kund-ID måste anges för varje [!DNL Analytics]-serveranrop där Kund-ID är k�
 
 ### SDK för mobiler
 
-I *Experience Cloud ID-tjänsten* finns syntaxexempel på hur du anger ytterligare kund-ID i [Android](https://docs.adobe.com/content/help/sv-SE/mobile-services/android/overview.html) och [iOS](https://docs.adobe.com/content/help/sv-SE/mobile-services/ios/overview.html)-mobilprogram.
+I *Experience Cloud ID-tjänsten* finns syntaxexempel på hur du anger ytterligare kund-ID i [Android™](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=en) och [iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=en)-mobilprogram.
 
 ### Aktivera attribut för historiska data
 
@@ -137,17 +137,17 @@ Se [Mappa rapportsviter till en organisation](report-suite-mapping.md).
 
 ## Uppdatera din Analytics AppMeasurement-kod {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
-Om du använder Analytics bör du kontrollera att du använder regional datainsamling (RDC). Om din datainsamlingsdomän är [!DNL omtrdc.net], eller om CNAME är mappad till [!DNL omtrdc.net], använder du RDC. Mer information finns i [Övergång till RDC](https://docs.adobe.com/content/help/en/analytics/technotes/rdc/regional-data-collection.html). Om du använder cookies från första part läser du [CNAME och Experience Cloud ID-tjänsten](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html) för information om CNAME för datainsamling och spårning mellan domäner.
+Om du använder Analytics bör du kontrollera att du använder regional datainsamling (RDC). Om din datainsamlingsdomän är [!DNL omtrdc.net], eller om CNAME är mappad till [!DNL omtrdc.net], använder du RDC. Mer information finns i [Övergång till RDC](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en). Om du använder cookies från första part läser du [CNAME och Experience Cloud ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en) för information om CNAME för datainsamling och spårning mellan domäner.
 
-Vi rekommenderar att du moderniserar din Analytics-implementering genom att uppdatera dina JavaScript-bibliotek, inklusive Visitor API. Det enkla sättet att uppnå detta är att lägga till ett [!DNL Adobe Analytics]-verktyg i Dynamic Tag Management och ange *`Automatic`* som konfigurationsmetod.
+Vi rekommenderar att du moderniserar din Analytics-implementering genom att uppdatera dina JavaScript-bibliotek, inklusive Visitor API. Det enkla sättet att uppnå +632581 är att lägga till ett [!DNL Adobe Analytics]-verktyg i Dynamic Tag Management och ange *`Automatic`* som konfigurationsmetod.
 
-I [!UICONTROL Dynamic Tag Management] klickar du på **`<Web Property Name>`** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]**. Mer distributionsinformation finns i [Adobe Analytics Settings](https://docs.adobe.com/content/help/en/dtm/using/tools/analytics-dtm.html) i Dynamic Tag Management.
+I [!UICONTROL Dynamic Tag Management] klickar du på **`<Web Property Name>`** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]**. Mer distributionsinformation finns i [Adobe Analytics Settings](https://experienceleague.adobe.com/docs/dtm/using/tools/analytics-dtm.html?lang=en) i Dynamic Tag Management.
 
 ## Uppdatera implementeringen av Adobe Target {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* Vi rekommenderar att du lägger till ett [Adobe Target-tillägg](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html) i [!UICONTROL Experience Platform Launch] så att bibliotekshämtningen är automatisk. Du kan också ställa in [Experience Cloud ID-tjänsttillägget](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html) för Adobe Target (och andra lösningar) med [!UICONTROL Experience Platform Launch]. [!UICONTROL Experience Cloud ID Service]-uppdateringen **krävs** för att Adobe Target ska kunna använda bastjänsterna. (Om du använder [!UICONTROL Dynamic Tag Management] lägger du till ett [Adobe Target-verktyg](https://docs.adobe.com/content/help/en/dtm/using/tools/target.html). Du kan också använda [!UICONTROL Dynamic Tag Management] för att distribuera Experience Cloud ID-tjänsten för Adobe Target.)
-* Om du inte använder [!UICONTROL Experience Platform Launch] eller [!UICONTROL Dynamic Tag Management] ska du [uppdatera mbox-biblioteket](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html) manuellt.
-* Begär åtkomst att använda Adobe Analytics som rapportkälla för [!DNL Adobe Target]. [!DNL Target] och  [!DNL Analytics] data kombineras på samma serveranrop under bearbetningen så att besökarna är sammankopplade mellan de två lösningarna. Se [Analys för målimplementering](https://docs.adobe.com/content/help/sv-SE/target/using/integrate/a4t/a4t.html).
+* Vi rekommenderar att du lägger till ett [Adobe Target-tillägg](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html?lang=en) i [!UICONTROL Experience Platform Launch] så att bibliotekshämtningen är automatisk. Du kan också ställa in [Experience Cloud ID-tjänsttillägget](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en) för Adobe Target (och andra lösningar) med [!UICONTROL Experience Platform Launch]. [!UICONTROL Experience Cloud ID Service]-uppdateringen **krävs** för att Adobe Target ska kunna använda bastjänsterna. (Om du använder [!UICONTROL Dynamic Tag Management] lägger du till ett [Adobe Target-verktyg](https://experienceleague.adobe.com/docs/dtm/using/tools/target.html?lang=en). Du kan också använda [!UICONTROL Dynamic Tag Management] för att distribuera Experience Cloud ID-tjänsten för Adobe Target.)
+* Om du inte använder [!UICONTROL Experience Platform Launch] eller [!UICONTROL Dynamic Tag Management] ska du [uppdatera mbox-biblioteket](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html?lang=en) manuellt.
+* Begär åtkomst att använda Adobe Analytics som rapportkälla för [!DNL Adobe Target]. [!DNL Target] och  [!DNL Analytics] data kombineras på samma serveranrop under bearbetningen så att besökarna är sammankopplade mellan de två lösningarna. Se [Analys för målimplementering](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en).
 
    >[!IMPORTANT]
    >
@@ -157,7 +157,7 @@ I [!UICONTROL Dynamic Tag Management] klickar du på **`<Web Property Name>`** >
 
 Använd följande process för att säkerställa att Experience Cloud ID-tjänsten implementeras korrekt på din webbplats.
 
-1. Rensa cookies för din webbplats så att du kan se begäran till Experience Cloud ID-tjänsten (begäran görs vid det första besöket och sedan ungefär en gång per besökare per vecka).
+1. Rensa cookies för din webbplats så att du kan se begäran till Experience Cloud ID-tjänsten (begäran görs vid första besöket och sedan en gång per besökare per vecka).
 1. Använd en paketanalyserare eller nätverkspanelen i en webbläsarfelsökare och leta efter en begäran som ska gå till [!DNL dpm.demdex.net].
 1. Kontrollera att svaret innehåller `d_mid` och ett värde, till exempel: `_setMarketingCloudFields({"d_mid":"4235...`
 1. Kontrollera att Analytics-begäran innehåller parametern `mid` (Experience Cloud-ID). Under respitperioden (om den är aktiverad) ska du även se en `aid`-parameter (Analytics-besökar-ID).
@@ -178,9 +178,9 @@ Experience Cloud ID i mbox-begäran:
 
 När du har distribuerat Experience Cloud ID-tjänsten får nya besökare inte längre något Experience Cloud-ID för Analytics från din datainsamlingsserver. Om delar av din webbplats ännu inte har implementerat Experience Cloud ID-tjänsten identifieras inte Experience Cloud ID:t när besökare bläddrar till de här avsnitten och besökarna tilldelas ett äldre besökar-ID för Analytics. Detta kan orsaka potentiella problem, inklusive dubblettbesök och felaktig attribuering.
 
-Om supportavsnittet på webbplatsen till exempel hanteras i ett separat CMS-system kan du ha en annan Analytics JavaScript-fil för det här avsnittet. Om du distribuerar Experience Cloud ID på huvudwebbplatsen innan du distribuerar ID-tjänsten till supportwebbplatsen får nya besökare ett äldre Analytics ID när de besöker supportavsnittet, och besök som sträcker sig över båda webbplatsavsnitten rapporteras som olika besök.
+Om supportavsnittet på webbplatsen till exempel hanteras i ett separat CMS-system kan du ha en annan Analytics JavaScript-fil för det här avsnittet. Om du distribuerar Experience Cloud ID på huvudwebbplatsen innan du distribuerar ID-tjänsten till supportwebbplatsen får nya besökare ett äldre Analytics ID när de besöker supportavsnittet. Besök som spänner över båda webbplatsavsnitten rapporteras som olika besök.
 
-Om du distribuerar Experience Cloud ID-tjänsten på webbplatser som använder flera JavaScript-filer eller andra tekniker (till exempel Flash) kan det orsaka samordningsproblem eftersom du måste aktivera Experience Cloud ID-tjänsten på alla delar av platsen samtidigt. Genom att konfigurera en respitperiod kan nya besökare fortsätta att ta emot ett besökar-ID för Analytics från ID-tjänsten, så att besökare kan identifieras på ett konsekvent sätt på delar av webbplatsen som inte har uppgraderats för att använda besökar-ID-tjänsten.
+Distribuering av Experience Cloud ID-tjänsten på webbplatser som använder flera JavaScript-filer eller andra tekniker (till exempel Flash) kan orsaka problem med samordningen. Dessa problem uppstår eftersom du måste aktivera Experience Cloud ID-tjänsten på alla delar av platsen samtidigt. Genom att konfigurera en respitperiod kan nya besökare fortsätta att ta emot ett besökar-ID för Analytics från ID-tjänsten. Besökare kan identifieras på ett konsekvent sätt i avsnitt på platsen som inte har uppgraderats för att använda besökar-ID-tjänsten.
 
 ## Hantera användare och produkter {#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF}
 
@@ -192,7 +192,7 @@ Se [Experience Cloud och produkthantering](../admin-getting-started/admin-gettin
 
 ### Kundattribut
 
-Användare som läggs till i [!UICONTROL Customer Attributes]-gruppen ser menyalternativet [!UICONTROL Customer Attributes] till vänster om Experience Cloud.
+Användare som läggs till i [!UICONTROL Customer Attributes]-gruppen kan se menyalternativet [!UICONTROL Customer Attributes] till vänster om Experience Cloud.
 
 ## Börja dela attribut och målgruppsdata {#section_960C06093623462E8EA247B3E97274A1}
 
@@ -200,7 +200,7 @@ Utnyttja följande funktioner.
 
 ### [!UICONTROL People] > [!UICONTROL Customer Attributes]
 
-Om du samlar in data om företagskunder i en CRM-databas (customer relationship management) kan du överföra dessa data till en datakälla för kundattribut i Experience Cloud. När du har överfört data kan du använda dessa i [!DNL Adobe Analytics] och [!DNL Adobe Target].
+Om du samlar in data om företagskunder i en CRM-databas (customer relationship management) kan du överföra dessa data till en datakälla för kundattribut i Experience Cloud. Använd data i [!DNL Adobe Analytics] och [!DNL Adobe Target] när de har överförts.
 
 Se [Kundattribut](../attributes/attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
@@ -212,9 +212,9 @@ Se [Målgrupper](../audience-library/audience-library.md#topic_679810123CAA4E0CA
 
 ## Datalagring och sekretess
 
-Om ni använder målgruppsprofilering i realtid och andra bastjänster i Adobe [!DNL Experience Cloud] kan användningen av dessa tjänster påverka vilket datacenter (och land) som era data finns i. Eftersom bastjänsterna i Adobe [!DNL Experience Cloud] utnyttjar Adobe Audience Manager måste data som används i tjänsten [!UICONTROL People] finnas på Audience Manager-servrar i USA.
+Om du använder målgruppsprofilering i realtid och andra bastjänster i Adobe [!DNL Experience Cloud], kan användningen av dessa tjänster påverka vilket datacenter (och land) dina data finns i. Eftersom [!DNL Experience Cloud] använder Audience Manager måste data som används i [!UICONTROL People]-tjänsten finnas på Audience Manager-servrar i USA.
 
-När man utnyttjar bastjänsterna som görs tillgängliga via tjänsten [!UICONTROL People] är de typer av data som skickas från andra Adobe-produkter till målgruppshantering:
+När du använder tjänster som är tillgängliga via tjänsten [!UICONTROL People] är de typer av data som skickas från andra Adobe-produkter till målgruppshantering:
 
 * [!DNL Analytics] nyckel-/värdepar (props, eVars, list-var o.s.v.). Som standard innehåller loggraderna IP-adress, inklusive IP-adressens sista oktett (förutsatt att IP-adressen inte ändrades av inställningarna för IP-ofuscation i Adobe [!DNL Analytics]).
 * Fackar och segment som besökare är kvalificerade för baserat på regler som har upprättats i Audience Manager.
@@ -226,10 +226,10 @@ Alla dessa dataelement levereras till Adobe Audience Manager i form av loggfiler
 
 ### Cookies och Opt-Outs
 
-Användning av målgruppsprofilering i realtid utnyttjar cookie-filen för Audience Manager, utöver de cookies som används för [!DNL Analytics] och [!DNL Target].
+Vid användning av målgruppsprofilering i realtid används Audience Manager-cookien, förutom de cookies som används för [!DNL Analytics] och [!DNL Target].
 
 Om du vill ha rätt avanmälningsmöjlighet måste besökare på din webbplats lägga till avanmälan från Audience Manager i din befintliga avanmälningsprocess.
 
-Se [Adobe Experience Cloud - Implementera Adobe Opt-Outs](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/data-collection/opt-out.html) för instruktioner.
+Se [Adobe Experience Cloud - Implementera Adobe Opt-Outs](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/data-collection/opt-out.html?lang=en) för instruktioner.
 
-Se [CNAME för datainsamling och spårning mellan domäner](https://docs.adobe.com/content/help/en/id-service/using/reference/analytics-reference/cname.html) för att aktivera spårning mellan domäner.
+Se [CNAME för datainsamling och spårning mellan domäner](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en) för att aktivera spårning mellan domäner.
