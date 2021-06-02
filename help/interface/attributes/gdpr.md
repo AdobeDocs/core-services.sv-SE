@@ -1,36 +1,35 @@
 ---
 title: 'Kundattribut Stöd för allmänna dataskyddsregler '
 description: Läs mer om stöd för kundattribut i den allmänna dataskyddsförordningen
-feature: Customer Attributes
-topic: Administration
+feature: Kundattribut
+topic: Administrering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 2%
+source-wordcount: '422'
+ht-degree: 1%
 
 ---
 
-
 # Kundattribut stöd för den allmänna dataskyddsförordningen
 
-Den här sidan beskriver hur kundattribut stöder allmänna dataskyddsförordningen (GDPR).
+Den här sidan beskriver hur [!UICONTROL Customer Attributes] stöder allmänna dataskyddsförordningen (GDPR).
 
 >[!IMPORTANT]
 >
 >Innehållet i detta dokument är inte juridisk rådgivning eller avsett att ersätta juridisk rådgivning. Kontakta ditt juridiska ombud för råd om GDPR.
 
-Den [allmänna dataskyddsförordningen](https://www.adobe.com/privacy/general-data-protection-regulation/what-is-gdpr.html), en lag som gäller den 25 maj 2018, ger alla individer (registrerade) inom EU:s gränser kontroll över sina personuppgifter. Det förenklar också regelmiljön för internationell verksamhet. Denna lag gäller alla företag (registeransvariga) som erbjuder varor eller tjänster för att övervaka, övervaka eller samla in personuppgifter från enskilda personer inom EU:s gränser vid den tidpunkt då deras personuppgifter behandlas, oavsett var den registeransvarige befinner sig.
+Den [allmänna dataskyddsförordningen](https://business.adobe.com/privacy/general-data-protection-regulation.html), en lag som gäller den 25 maj 2018, ger alla individer (registrerade) inom EU:s gränser kontroll över sina personuppgifter. Det förenklar också regelmiljön för internationell verksamhet. Denna lag gäller alla företag (registeransvariga) som erbjuder varor eller tjänster för att övervaka, övervaka eller samla in personuppgifter från enskilda personer inom EU:s gränser vid den tidpunkt då deras personuppgifter behandlas, oavsett var den registeransvarige befinner sig.
 
 Adobe Experience Cloud fungerar som personuppgiftsbiträde för alla personuppgifter som de tar emot och lagrar för sina kunders räkning. Som personuppgiftsansvarig avgör du vilka personuppgifter Adobe Experience Cloud behandlar och lagrar å dina vägnar.
 
 I det här dokumentet beskrivs hur [!UICONTROL Customer Attributes] stöder de registrerade personernas GDPR-dataåtkomst och borttagningsrättigheter med hjälp av Adobe Experience Platform Privacy Service API och Privacy Servicens användargränssnitt.
 
-Mer information om vad GDPR innebär för ditt företag finns i [GDPR och Ditt företag](https://www.adobe.com/se/privacy/general-data-protection-regulation.html).
+Mer information om vad GDPR innebär för ditt företag finns i [GDPR och Ditt företag](https://business.adobe.com/privacy/general-data-protection-regulation.html).
 
-## Nödvändiga inställningar för att skicka begäranden för [!UICONTROL Customer Attributes]
+## Nödvändig konfiguration för att skicka begäranden för [!UICONTROL Customer Attributes]
 
 Om du vill begära åtkomst till och ta bort data för [!UICONTROL Customer Attributes] måste du:
 
