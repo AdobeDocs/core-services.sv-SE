@@ -4,10 +4,10 @@ user-guide-title: 'Gränssnittskomponenter i Experience Cloud '
 breadcrumb-title: Gränssnittskomponenter i Experience Cloud
 user-guide-description: Läs mer om Experience Cloud gränssnitt, konfigurera inställningar, sök efter hjälp och affärsobjekt. Få hjälp med användar- och produkthantering, kundattribut, målgruppsbibliotek, cookies och Experience Cloud Assets.
 index: true
-source-git-commit: 9a1dea42b5ae6ab4ea822d56c14cdb330bb8ef95
+source-git-commit: 51137ed0eb8cced37cc5779ca327a33ebf30e65a
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 10%
+source-wordcount: '366'
+ht-degree: 4%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 10%
    + [[!DNL Search and Promote] cookies](cookies/cookies-snp.md)
    + [[!DNL Target] cookies](cookies/cookies-target.md)
    + [Aktivera sekretessinställningar för webbläsarcookies](cookies/browser-cookie-settings.md)
-   + [Hur ändringar av cookie-support från tredje part påverkar kunder](cookies/cookies-thirdparty.md)
+   + [Hur ändringar i stödet för cookies från tredje part påverkar kunderna](cookies/cookies-thirdparty.md)
 + Hantering av användare och produkter {#manage-users-and-products}
    + [Hantera användaridentitet och -produkter i Experience Cloud (Admin Console)](admin-getting-started/admin-getting-started.md)
    + [Visa användarinformation för Experience Cloud (administrationsverktyget)](admin-getting-started/admin-tool-experience-cloud.md)
@@ -43,8 +43,8 @@ ht-degree: 10%
    + [Uppgradera till Analytics Premium och Experience Cloud](admin-getting-started/upgrade-to-analytics-premium.md)
 + Aktivering av Experience Cloud {#activation}
    + [Aktiveringsöversikt](activation/activation.md)
-   + [Användarhandbok för Experience Platform Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html)
-   + [Användarhandbok för Dynamic Tag Manager](https://docs.adobe.com/content/help/sv-SE/dtm/using/dtm-home.html)
+   + [Användarhandbok för Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=en)
+   + [Användarhandbok för Dynamic Tag Manager](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en)
    + [Utlösare](activation/triggers.md)
 + Experience Cloud-resurser {#assets}
    + [Översikt över Experience Cloud-resurser](experience-cloud-assets/experience-cloud-assets.md)
@@ -72,10 +72,10 @@ ht-degree: 10%
    + [Stöd för California Consumer Privacy Act](attributes/ccpa.md)
    + [Sekretessöverväganden för kundattribut](attributes/privacy-mac.md)
 + Versionsinformation för Experience Cloud {#release-notes}
-   + [Nyheter i Experience Cloud](https://docs.adobe.com/content/help/sv-SE/release-notes/experience-cloud/current.html)
+   + [Nyheter i Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
    + [Ackumulerade versionsinformation](marketing-cloud-interface/release-notes.md)
 + Fler resurser {#more-resources}
-   + [Forum](https://forums.adobe.com/community/experience-cloud)
+   + [Forum](https://experienceleaguecommunities.adobe.com/)
    + [Terminologi](terms.md)
    + [Använda DNS-förhämtning med olika lösningar och tjänster](dns-prefetch.md)
    + [Dokumentationsuppdateringar](doc-updates.md)
