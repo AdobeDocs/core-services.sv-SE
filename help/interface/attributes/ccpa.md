@@ -1,18 +1,17 @@
 ---
 title: 'Customer Attributes Support for California Consumer Privacy Act '
 description: Läs mer om stöd för Kundattribut i Kaliforniens konsumentintegritetslag
-feature: Customer Attributes
-topic: Administration
+feature: Kundattribut
+topic: Administrering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
+source-git-commit: b968ca3a2751ab9af27e86595447f84f3cb20d68
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '425'
 ht-degree: 5%
 
 ---
-
 
 # Customer Attributes support for California Consumer Privacy Act
 
@@ -22,13 +21,13 @@ Den här sidan beskriver [!UICONTROL Customer Attributes']-stödet för Californ
 >
 >Innehållet i detta dokument är inte juridisk rådgivning och är inte avsett att ersätta juridisk rådgivning. Kontakta ditt juridiska ombud för råd om (CCPA).
 
-CCPA är Kaliforniens nya integritetslagstiftning som träder i kraft den 1 januari 2020. CCPA ger invånare i Kalifornien nya rättigheter när det gäller personuppgifter och ålägger dataskyddsansvar för vissa enheter som bedriver verksamhet i Kalifornien. CCPA ger konsumenterna rätt att få tillgång till och radera sina personuppgifter samt rätt att avanmäla vissa aktiviteter som kvalificerar som &quot;sälja&quot; personuppgifter till tredje part.
+CCPA är Kaliforniens nya integritetslagstiftning som träder i kraft den 1 januari 2020. CCPA ger invånare i Kalifornien nya rättigheter när det gäller personuppgifter och ålägger dataskyddsansvar för vissa enheter som bedriver verksamhet i Kalifornien. CCPA ger konsumenterna rätt att få tillgång till och radera sina personuppgifter och rätt att avanmäla vissa aktiviteter som kvalificerar som &quot;sälja&quot; personuppgifter till tredje part.
 
 Som företag avgör du vilka personuppgifter Adobe Experience Cloud behandlar och lagrar å dina vägnar.
 
-Som tjänsteleverantör tillhandahåller Adobe Experience Cloud support för ditt företag så att det kan uppfylla sina skyldigheter enligt CCPA som är tillämpliga på användningen av produkter och tjänster från Experience Cloud, inklusive hantering av förfrågningar om åtkomst och radering av personuppgifter.
+Som tjänsteleverantör tillhandahåller Adobe Experience Cloud support för ert företag för att uppfylla de skyldigheter enligt CCPA som gäller för användning av Experience Cloud produkter och tjänster. Supporten omfattar hantering av förfrågningar om åtkomst och radering av personlig information.
 
-Det här dokumentet beskriver hur [!UICONTROL Customer Attributes] stöder de registrerade personernas CCPA-dataåtkomst och borttagningsrättigheter med hjälp av Adobe Experience Platform Privacy Service API och Privacy Servicens användargränssnitt.
+Det här dokumentet beskriver hur [!UICONTROL Customer Attributes] stöder de registrerade personernas CCPA-behörighet för dataåtkomst och borttagning med Adobe Experience Platform Privacy Service API och Privacy Servicens användargränssnitt.
 
 Mer information om sekretessavtal för CCPA för Adobe finns i [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html).
 
