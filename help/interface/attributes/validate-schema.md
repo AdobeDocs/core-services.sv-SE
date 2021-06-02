@@ -4,22 +4,21 @@ keywords: Kundattribut;Experience Cloud-tjänster
 solution: Experience Cloud
 title: 'Så här validerar du kundattributschemat '
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
-feature: Customer Attributes
-topic: Administration
+feature: Kundattribut
+topic: Administrering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
 
-
 # Validera schemat
 
-Med valideringsprocessen kan du mappa visningsnamn och beskrivningar till överförda attribut (strängar, heltal, tal och så vidare). Ett schema skapas baserat på dessa inställningar. Schemat används för att validera alla framtida data som överförs till den här datakällan. Denna mappningsprocess ändrar inte originaldata.
+Med valideringsprocessen kan du mappa visningsnamn och beskrivningar till överförda attribut (strängar, heltal, tal och så vidare). Ett schema skapas baserat på dessa inställningar. Schemat används för att validera alla framtida data som överförs till den här datakällan. Mappningsprocessen ändrar inte originaldata.
 
 >[!NOTE]
 >
@@ -47,9 +46,9 @@ På sidan [!UICONTROL Validate Schema] representerar varje rad i schemat en kolu
 
    * **[!UICONTROL AVID (Analytics visitor ID):]** Visar om du använder en säljare eller eVar för att överföra CID:n. Om dessa ID:n skickas till Experience Cloud visas alla besökar-ID:n som är kopplade till det CID du angav här.
 
-Du kan också överföra data via FTP när du har skapat en kundattributkälla och ett FTP-konto i Experience Cloud. Du skapar ett FTP-konto per attributkälla. De överförda filerna lagras i kontots rotmapp. Data måste vara i .csv-format, med en andra .fin-fil som anger att överföringen är slutförd
+Du kan också överföra data via FTP när du har skapat en kundattributkälla och ett FTP-konto i Experience Cloud. Du skapar ett FTP-konto per attributkälla. De överförda filerna lagras i kontots rotmapp. Data måste vara i formatet `.csv`, med en andra `.fin`-fil för att indikera att överföringen är slutförd
 
-De namn du anger för strängar, heltal och tal används för att skapa [!DNL Analytics]-mått. Mer information finns i [Kundattributrapport](https://docs.adobe.com/help/en/analytics/components/variables/dimensions-reports/reports-customer-attributes.html) i [!DNL Analytics]-hjälpen.
+De namn du anger för strängar, heltal och tal används för att skapa [!DNL Analytics]-mått. Mer information finns i [Kundattributrapport](https://experienceleague.adobe.com/docs/analytics/components/variables/dimensions-reports/reports-customer-attributes.html?lang=en) i [!DNL Analytics]-hjälpen.
 
 * **[!UICONTROL Attribute:]** Attributdata läses från den överförda  `.csv` filen.
 
@@ -61,6 +60,6 @@ De namn du anger för strängar, heltal och tal används för att skapa [!DNL An
 
    * **Tal:** Kan innehålla upp till två decimaler.
 
-* **[!UICONTROL Display Name:]** Ett eget namn för attributet. Du kan till exempel ändra attributet *kundens ålder* till *Kund Sedan*.
+* **[!UICONTROL Display Name:]** Ett eget namn för attributet. Du kan till exempel ändra attributet *kundens ålder* till *Kund sedan*.
 
 * **[!UICONTROL Description:]** En användarvänlig beskrivning av attributet.
