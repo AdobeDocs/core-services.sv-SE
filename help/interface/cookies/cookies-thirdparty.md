@@ -9,22 +9,22 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
-source-git-commit: ef6196c3096ac7b26633eb4b1b9b2db26237732a
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '267'
 ht-degree: 2%
 
 ---
 
 # Hur ändringar av stöd för cookies från tredje part påverkar kunder{#how-changes-to-third-party-cookie-support-impacts-customers}
 
-I takt med att stödet för cookies från tredje part har blivit allt mer begränsat i olika webbläsare har Adobe arbetat med nya lösningar som noggrant balanserar kundens krav med konsumentens rätt till integritet i alla Adobe Experience Cloud-lösningar.
+Stödet för cookies från tredje part har blivit mer begränsat i olika webbläsare. Adobe har därför arbetat med nya lösningar som noggrant balanserar kundens krav med konsumentens rätt till integritet mellan olika Experience Cloud-tillämpningar.
 
-Följande lista visar hur stöd för cookies från tredje part påverkar aktuella implementeringar av Adobe Experience Cloud-lösningar:
+Följande lista visar hur stöd för cookies från tredje part påverkar nuvarande implementeringar av Experience Cloud-program:
 
 ## Adobe Analytics och Adobe Target
 
-* Analyserna och Target påverkas inte i någon större utsträckning eftersom samma webbplatsaktivitet endast bygger på cookies från första part. Det krävs cookies från tredje part för att förstå användaraktivitet i olika domäner. För webbläsare där cookies från tredje part är blockerade går det inte att spåra domäner med hjälp av cookies.
+* Analyserna och Target påverkas inte särskilt mycket eftersom samma webbplatsaktivitet endast bygger på cookies från första part. Det krävs cookies från tredje part för att förstå användaraktivitet i olika domäner. För webbläsare där cookies från tredje part blockeras går det inte att spåra domäner med hjälp av cookies.
 
 ## Adobe Experience Manager
 
@@ -46,4 +46,4 @@ Följande lista visar hur stöd för cookies från tredje part påverkar aktuell
    * Dagens återmarknadsföring av displayannonser är helt beroende av användningen av cookies från tredje part.
    * Visningen är också mycket beroende av tillgängligheten av olika annonsnätverks-cookies för synkronisering.
    * Den övergripande effekten är okänd. Men, per första punkt påverkas visningen mer än andra tjänster.
-   * Vi arbetar internt och tillsammans med våra annonseringspartners för att utvärdera i vilken utsträckning annonserna påverkar resultatet.
+   * Adobe arbetar internt och tillsammans med våra annonspartners för att utvärdera i vilken utsträckning annonserna påverkar resultatet.
