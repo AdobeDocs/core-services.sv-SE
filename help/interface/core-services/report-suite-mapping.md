@@ -3,17 +3,16 @@ description: Lär dig hur du mappar en eller flera rapportsviter till en organis
 title: 'Mappa rapportsviter till en organisation '
 uuid: b983d5a6-b3d0-4137-ac53-bc5681d3e58b
 feature: Admin Console
-topic: Administration
+topic: Administrering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: 61d60273e933c637dfe4400da78257e1c80015b3
+exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
+source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 1%
+source-wordcount: '1131'
+ht-degree: 0%
 
 ---
-
 
 # Mappa rapportsviter till en organisation {#topic_7C4740559EAC4E0FA5F8DEF886B580DA}
 
@@ -28,13 +27,13 @@ Experience Cloud-tjänster (som Experience Cloud ID-tjänsten och [!UICONTROL Pe
 
 ## Krav
 
-Du måste vara Analytics-administratör för ett inloggningsföretag som har tillgång till den rapportserie som du vill mappa. Dessutom måste det här kontot vara [länkat till en Experience Cloud-organisation](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) för att kunna mappa rapportsviter till den organisationen.
+Du måste vara Analytics-administratör för ett inloggningsföretag som har tillgång till den rapportserie som du vill mappa. Kontot måste också vara [länkat till en Experience Cloud-organisation](../admin-getting-started/organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1) för att kunna mappa rapportsviter till den organisationen.
 
 Organisationer är nedtonade om du inte har administratörsbehörighet för Analytics för ett inloggningsföretag inom den organisationen som har åtkomst till den angivna rapportsviten.
 
-## Mappa en rapportsvit till en organisation {#task_23993FE78DF6455FA8D7BE60686EA16C}
+## Avbilda en rapportsvit till en organisation {#task_23993FE78DF6455FA8D7BE60686EA16C}
 
-1. Navigera till Report Suites for Data Governance på [!DNL Analytics] > **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** (se [Visa/hantera Report Suites inställning för datastyrning](https://docs.adobe.com/help/en/analytics/admin/data-governance/gdpr-view-settings.html))
+1. Navigera till Report Suites for Data Governance på [!DNL Analytics] > **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** (se [Visa/hantera Report Suites inställning för datastyrning](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=en))
 
 1. Klicka på **[!UICONTROL Visible to Login Companies]** om du vill visa de inloggningsföretag som har åtkomst till de olika rapportsviterna.
 
@@ -64,29 +63,29 @@ Det här avsnittet innehåller tips som hjälper dig att välja den Experience C
 
 ### Vilken organisation ska jag välja?
 
-Om Experience Cloud ID-tjänsten för närvarande är distribuerad till rapportsviten kontrollerar du att den organisation du har valt i verktyget för mappning av rapportsviten har samma organisation som anges i [!DNL visitorAPI.js]-filen på din plats. Du kan använda instruktionerna i [Testa och verifiera Experience Cloud ID-tjänsten](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/test-verify.html) för att hitta det organisations-ID som används av Visitor ID-tjänsten.
+Om Experience Cloud ID-tjänsten distribueras till rapportsviten kontrollerar du att den organisation du valt i verktyget för mappning av rapportsviten är densamma som anges i [!DNL visitorAPI.js]-filen på din plats. Du kan använda instruktionerna i [Testa och verifiera Experience Cloud ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/implementation-guides/test-verify.html?lang=en) för att hitta det organisations-ID som används av Visitor ID-tjänsten.
 
-Om besökar-ID-tjänsten ännu inte har distribuerats på webbplatser som samlar in data för rapportsviten måste du, om du i framtiden distribuerar Experience Cloud Visitor ID-tjänsten, se till att distributionen matchar den organisation du valde i verktyget för mappning av rapportsviten.
+Om besökar-ID-tjänsten ännu inte har distribuerats på de webbplatser som samlar in data för rapportsviten kontrollerar du att distributionen matchar den organisation du valde i verktyget för mappning av rapportsviten om du distribuerar Experience Cloud Visitor-ID i framtiden.
 
 ### Varför är vissa organisationer nedtonade?
 
-Detta anger att du inte har tillräcklig behörighet för att mappa till den nedtonade rapportsviten. Titta på följande exempel:
+Om du tar bort en organisation betyder det att du inte har tillräcklig behörighet för att mappa till den nedtonade rapportsviten. Titta på följande exempel:
 
 ![](assets/rs-mapping.png)
 
 I det här diagrammet anger den blå tangenten administratörsbehörighet. De grå linjerna visar synlighet.
 
-Den här användaren har åtkomst till två Experience Cloud-organisationer. Han har utfört följande:
+Den här användaren har åtkomst till två Experience Cloud-organisationer. De har utfört följande:
 
-* Länkade sitt administratörskonto i [!UICONTROL chapek] Analytics-inloggningsföretaget till hans [!UICONTROL Chapek] Corp Experience Cloud-organisationskonto.
-* Länkade sitt icke-administratörskonto i [!UICONTROL doohan] Analytics-inloggningsföretaget till hans [!UICONTROL Chapek] Corp Experience Cloud-organisationskonto.
-* Länkade sitt icke-administratörskonto i nigel Analytics-inloggningsföretaget till hans Nigel Inc Experience Cloud org-konto.
+* Länkade sitt administratörskonto i [!UICONTROL chapek] Analytics-inloggningsföretaget till deras [!UICONTROL Chapek] Corp Experience Cloud-organisationskonto.
+* Länkade sitt icke-administratörskonto i [!UICONTROL doohan] Analytics-inloggningsföretaget till deras [!UICONTROL Chapek] Corp Experience Cloud-organisationskonto.
+* Länkade sitt icke-administratörskonto i inloggningsföretaget nigel Analytics till deras Nigel Inc Experience Cloud org-konto.
 
 I följande punkter visas mappningsåtgärder som den här användaren kan och inte kan utföra för dessa rapportsviter:
 
 * [!UICONTROL Chapek-prod] kan mappas till  [!UICONTROL Chapek] Corp-organisationen eftersom den här användaren är administratör för ett länkat inloggningsföretag för Analytics ([!UICONTROL chapek]) och det här kontot är länkat till den här organisationen.
 * [!UICONTROL Nigel-prod] rapportsviten kan inte länkas av den här användaren eftersom han/hon inte är administratör i något inloggningsföretag som den här rapportsviten är synlig för.
-* [!UICONTROL Doohan-prod] kan mappas till  [!UICONTROL Chapek Corp] eftersom den här användaren är administratör för ett inloggningsföretag ([!UICONTROL chapek]) som är länkat till Experience Cloud-organisationen (observera att han/hon inte är administratör för inloggningsföretaget för Adobe Analytics). Det är viktigt att vara medveten om att [!UICONTROL doohan-prod]-rapportsviten också kan mappas till Nigel Inc Experience Cloud org, även om den här användaren inte kan utföra mappningen. I det här fallet visas båda Experience Cloud-organisationerna i listan, men [!UICONTROL Nigel Inc] är nedtonade. Före mappningen bör den här användaren rådfråga en administratör för nollinloggningsföretaget för att avgöra vilken organisation som är bäst lämpad för mappning. Gränssnittet visar en varning om möjlig konflikt om du väljer en organisation som det här är en annan än den organisation som rapportsviten ursprungligen skapades i.
+* [!UICONTROL Doohan-prod] kan mappas till  [!UICONTROL Chapek Corp] eftersom den här användaren är administratör för ett inloggningsföretag ([!UICONTROL chapek]) som är länkat till Experience Cloud-organisationen (observera att han/hon inte är administratör för inloggningsföretaget för Adobe Analytics). Det är viktigt att vara medveten om att [!UICONTROL doohan-prod]-rapportsviten också kan mappas till Nigel Inc Experience Cloud org, även om den här användaren inte kan utföra mappningen. I det här fallet visas båda Experience Cloud-organisationerna i listan, men [!UICONTROL Nigel Inc] är nedtonade. Före mappningen bör den här användaren rådfråga en administratör för nollinloggningsföretaget för att avgöra vilken organisation som är bäst lämpad för mappning. Gränssnittet visar en varning om möjlig konflikt om du väljer en organisation som skiljer sig från den organisation som rapportsviten ursprungligen skapades i.
 
 ## Vanliga frågor {#section_099E485805994C929FF9C9F75219BEE1}
 
@@ -108,11 +107,11 @@ Detta är ett meddelande som hjälper dig att fatta ett välgrundat beslut om ma
 
 ### Hur vet jag om en rapportsserie är mappad?
 
-Mappade rapportsviter visas i ett format som inte kan redigeras. Kontakta kundtjänst om du behöver ändra en karta.
+Mappade rapportsviter visas i ett format som inte kan redigeras. Kontakta kundtjänst om du måste ändra mappningen.
 
 ### Vad händer om jag bara känner till organisationsnumret för min Experience Cloud-organisation? Hur söker jag efter namnet på mitt Org ID?
 
-Du hittar ditt organisationsnamn i [Organisationer och Kontoinställningar](https://docs.adobe.com/content/help/sv-SE/core-services/interface/manage-users-and-products/organizations.html).
+Du hittar ditt organisationsnamn i [Organisationer och Kontoinställningar](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/organizations.html?lang=en).
 
 ### Jag ser ett datum i kolumnen &quot;Datummappning&quot;. Vem mappade det där?
 
