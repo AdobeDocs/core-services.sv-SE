@@ -6,7 +6,7 @@ feature: '"Komponenter i det centrala gränssnittet"'
 topic: Administrering
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 5a9b2f287253d8a405e6a530a3b91cfdad7f092a
+source-git-commit: b6282dfdfc37e2767802d4ce50bdd734141b521e
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 1%
@@ -23,7 +23,7 @@ Experience Cloud centrala gränssnittskomponenter innehåller funktioner som gö
 
 ## Logga in på Experience Cloud
 
-Logga in och verifiera att du är i rätt [organisation](admin-getting-started/organizations.md).
+Logga in och verifiera att du är i rätt [organisation](organizations.md).
 
 1. Navigera till [Adobe Experience Cloud](https://experience.adobe.com).
 1. Klicka på **[!UICONTROL Sign in with an Adobe ID]**.
@@ -31,7 +31,7 @@ Logga in och verifiera att du är i rätt [organisation](admin-getting-started/o
 
    ![](assets/organizations-menu.png)
 
-   Administratören kan hjälpa dig att verifiera att du är i rätt [organisation](admin-getting-started/organizations.md).
+   Administratören kan hjälpa dig att verifiera att du är i rätt [organisation](organizations.md).
 
 ## Använd Experience Cloud {#navigation}
 
@@ -59,7 +59,7 @@ Menyn [!UICONTROL Help] ger dig även åtkomst till:
 På kontoinställningsmenyn kan du:
 
 * Ange ett mörkt tema (alla program stöder inte det här temat)
-* Sök efter [organisationer](admin-getting-started/organizations.md)
+* Sök efter [organisationer](organizations.md)
 * Logga ut
 * Konfigurera konto [inställningar, meddelanden och prenumerationer](#preferences)
 
@@ -75,7 +75,7 @@ På [!UICONTROL Experience Cloud preferences] kan du konfigurera följande funkt
 
 | Funktion | Beskrivning |
 |--- |--- |
-| Standardorganisation[organisation](admin-getting-started/organizations.md) | Välj den organisation som du vill se när du startar Experience Cloud. |
+| Standardorganisation[organisation](organizations.md) | Välj den organisation som du vill se när du startar Experience Cloud. |
 | [!UICONTROL Subscriptions] | Välj de produkter och kategorier som du vill prenumerera på. Meddelanden i popup-fönstret [!UICONTROL Notifications] och i ditt e-postmeddelande. |
 | [!UICONTROL Priority] | Välj de kategorier som du vill ska ha hög prioritet. Dessa kategorier är markerade med en hög tagg och kan konfigureras för leverans som varningar. |
 | [!UICONTROL Alerts] | Välj de meddelanden som du vill visa aviseringar för i webbläsaren. Varningar visas i fönstrets övre högra hörn under några sekunder. |
