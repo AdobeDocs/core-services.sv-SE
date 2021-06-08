@@ -9,7 +9,7 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 1%
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 # Valfritt - Överför datafilen via FTP
 
-Om du inte överför med dra och släpp kan du överföra kundattributdata via FTP till Experience Cloud.
+Om du inte överför via dra och släpp kan du överföra kundattributdata via FTP till Experience Cloud.
 
 Du kan överföra data när du har skapat en kundattributskälla och ett FTP-konto i Experience Cloud. Du skapar ett FTP-konto per attributkälla. De överförda filerna lagras i kontots rotmapp. Data måste vara i formatet `.csv`, med en andra `.fin`-fil för att indikera att överföringen är slutförd.
 
