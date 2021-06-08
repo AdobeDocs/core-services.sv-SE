@@ -9,7 +9,7 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '806'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Målgrupper kan skapas eller härledas från olika källor, till exempel:
 * [!DNL Analytics] segment som publicerats i  [!DNL Experience Cloud]
 * [!DNL Audience Manager]
 
-**Realtid kontra historiska målgrupper**
+**Realtidsanvändare kontra historiska målgrupper**
 
 Alla målgrupper, oavsett var de finns, är tillgängliga för användning i realtid med målinriktning. Målgrupper som delas från Analytics till Audience Manager är dock inte tillgängliga för målgruppsanpassning i realtid. Systemet utvärderar målgrupper på två sätt:
 
