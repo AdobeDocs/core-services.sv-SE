@@ -8,7 +8,7 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: f720e37b693da2c657cb1efab45620c60bfa81a4
+source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 2%
@@ -30,7 +30,7 @@ Från Experience Cloud kan du:
 
 ## Logga in på Experience Cloud
 
-Logga in och verifiera att du är i rätt [organisation](admin-getting-started/organizations.md).
+Logga in och verifiera att du är i rätt [organisation](organizations.md).
 
 1. Navigera till [Adobe Experience Cloud](https://experience.adobe.com).
 1. Klicka på **[!UICONTROL Sign in with an Adobe ID]**.
@@ -38,7 +38,7 @@ Logga in och verifiera att du är i rätt [organisation](admin-getting-started/o
 
    ![](assets/organizations-menu.png)
 
-   Administratören kan hjälpa dig att verifiera att du är i rätt [organisation](admin-getting-started/organizations.md).
+   Administratören kan hjälpa dig att verifiera att du är i rätt [organisation](organizations.md).
 
 ## Använd Experience Cloud {#navigation}
 
@@ -75,7 +75,7 @@ Den globala sökningen är bara tillgänglig för användare av Experience Platf
 Inställningarna för Experience Cloud omfattar meddelanden, prenumerationer och varningar. På kontoinställningsmenyn kan du:
 
 * Ange ett mörkt tema (alla program stöder inte det här temat)
-* Sök efter [organisationer](admin-getting-started/organizations.md)
+* Sök efter [organisationer](organizations.md)
 * Logga ut
 * Konfigurera kontoinställningar, meddelanden och prenumerationer
 
@@ -87,13 +87,13 @@ På [!UICONTROL Experience Cloud preferences] kan du konfigurera följande funkt
 
 | Funktion | Beskrivning |
 |--- |--- |
-| Standardorganisation[organisation](admin-getting-started/organizations.md) | Välj den organisation som du vill se när du startar Experience Cloud. |
+| Standardorganisation[organisation](organizations.md) | Välj den organisation som du vill se när du startar Experience Cloud. |
 | [!UICONTROL Subscriptions] | Välj de produkter och kategorier som du vill prenumerera på. Meddelanden i popup-fönstret [!UICONTROL Notifications] och i ditt e-postmeddelande. |
 | [!UICONTROL Priority] | Välj de kategorier som du vill ska ha hög prioritet. Dessa kategorier är markerade med en hög tagg och kan konfigureras för leverans som varningar. |
 | [!UICONTROL Alerts] | Välj de meddelanden som du vill visa aviseringar för i webbläsaren. Varningar visas i fönstrets övre högra hörn under några sekunder. |
 | E-post | Ange hur ofta du vill få e-postmeddelanden. (Inte skickat, direkt, dagligen eller varje vecka.) |
 
-## Meddelanden
+## Meddelanden {#notifications}
 
 Klicka på **[!UICONTROL Notifications]** om du vill få meddelanden om relevanta och åtgärdbara uppdateringar, inklusive produktreleaser, underhållsmeddelanden, delade objekt och godkännandebegäranden.
 
@@ -103,19 +103,19 @@ Klicka på **[!UICONTROL Notifications]** om du vill få meddelanden om relevant
 
 Den här guiden ger hjälp om Experience Cloud och produktadministration i Admin Console, vilket möjliggör lösningar för plattformstjänster. Du kan även få hjälp via Audience Library, Customer Attributes, Experience Cloud Assets med flera:
 
-* [[!UICONTROL Audience Library]](audience-library/audience-library.md)
-* [[!UICONTROL Customer Attributes]](attributes/attributes.md)
-* [[!UICONTROL Triggers]](activation/triggers.md)
-* [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets/experience-cloud-assets.md)
-* [Experience Cloud cookies](cookies/cookies-privacy.md)
-* [Hantering](admin-getting-started/admin-getting-started.md)  av användare och produkter (Admin Console)
-* [Möjliggör era lösningar för bastjänsterna](core-services/core-services.md)
-* [Frågor och svar](admin-getting-started/admin-getting-started.md)
-* [Organisationer och kontolänkning](admin-getting-started/organizations.md)
+* [[!UICONTROL Audience Library]](audience-library.md)
+* [[!UICONTROL Customer Attributes]](attributes.md)
+* [[!UICONTROL Triggers]](triggers.md)
+* [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets.md)
+* [Experience Cloud cookies](cookies-privacy.md)
+* [Hantering](admin-getting-started.md)  av användare och produkter (Admin Console)
+* [Möjliggör era lösningar för bastjänsterna](core-services.md)
+* [Frågor och svar](admin-getting-started.md)
+* [Organisationer och kontolänkning](organizations.md)
 * [Integreringar](marketing-cloud-integrations.md)
 * [Integrera Adobe Target med Experience Cloud](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)
 * [Experience Cloud sekretess- och säkerhetsöversikt](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
-* [DNS-förhämtning](admin-getting-started/admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
+* [DNS-förhämtning](admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
 ## Stödlinjer
 
