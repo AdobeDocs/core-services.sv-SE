@@ -8,14 +8,14 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '878'
 ht-degree: 2%
 
 ---
 
-# Gränssnittskomponenter i Experience Cloud
+# Handbok för gränssnittskomponenter i Experience Cloud Central
 
 [Experience ](https://experience.adobe.com) Cloudis Adobe integrerade en serie program, produkter och tjänster för digital marknadsföring. Från det intuitiva gränssnittet får du snabbt tillgång till dina molnprogram, produktfunktioner och tjänster.
 
