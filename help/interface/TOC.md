@@ -4,7 +4,7 @@ user-guide-title: 'Gränssnittskomponenter i Experience Cloud '
 breadcrumb-title: Gränssnittskomponenter i Experience Cloud
 user-guide-description: Läs mer om Experience Cloud gränssnitt, konfigurera inställningar, sök efter hjälp och affärsobjekt. Få hjälp med användar- och produkthantering, kundattribut, målgruppsbibliotek, cookies och Experience Cloud Assets.
 index: true
-source-git-commit: c703868b03b3383237c3aed2c8a39434db42436c
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 4%
@@ -14,12 +14,12 @@ ht-degree: 4%
 
 # Gränssnittskomponenter i Experience Cloud {#interface}
 
-+ [Experience Cloud centrala gränssnittskomponenter](experience-cloud.md)
++ [Handbok för gränssnittskomponenter i Experience Cloud Central](experience-cloud.md)
 + Experience Cloud services {#services}
-   + [Experience Cloud services overview](core-services-landing.md)
+   + [Experience Cloud](core-services-landing.md)
    + [Aktivera implementeringen för tjänster som omfattar flera lösningar](core-services.md)
-   + Experience Cloud målgrupper {#audiences}
-      + [Experience Cloud Publiktjänst](audience-library.md)
+   + Experience Cloud målgruppsbibliotek {#audiences}
+      + [Experience Cloud målgrupper](audience-library.md)
       + [Skapa en målgrupp](t-audience-create.md)
       + [Publicera ett målgruppssegment i Analytics](t-publish-audience-segment.md)
    + Experience Cloud kundattribut {#customer-attributes}
