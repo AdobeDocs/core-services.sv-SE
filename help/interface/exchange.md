@@ -4,15 +4,14 @@ keywords: bastjänster
 solution: Experience Cloud
 title: 'Exchange Marketplace '
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
-feature: "Customer Attributes"
-topic: Administration
+feature: '"Kundattribut"'
+topic: Administrering
 role: Administrator
 level: Experienced
-translation-type: tm+mt
-source-git-commit: ea8f36313940d7c5c12d753084a4fb8d0a4379bc
+source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
 workflow-type: tm+mt
-source-wordcount: '135'
-ht-degree: 8%
+source-wordcount: '132'
+ht-degree: 7%
 
 ---
 
