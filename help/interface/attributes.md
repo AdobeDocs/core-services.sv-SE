@@ -1,13 +1,13 @@
 ---
 title: Så här använder du kundattribut
-description: Läs mer om tjänsten Customer Attributes i Adobe Experience Cloud. Lär dig hur du överför kundattributdata för användning i Adobe Analytics och Adobe Target.
+description: Läs mer om tjänsten Customer Attributes i Adobe Experience Cloud. Upptäck hur du överför kundattributdata för användning i Adobe Analytics och Adobe Target.
 solution: Experience Cloud
 feature: Kundattribut
 role: Administrator
 topic: Administrering
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
 workflow-type: tm+mt
 source-wordcount: '472'
 ht-degree: 2%
@@ -20,7 +20,7 @@ ht-degree: 2%
 >
 >[!UICONTROL Customer Attributes] är en äldre tjänst som nu är under efterbehandling.
 
-[!UICONTROL Customer Attributes] i Experience Cloud kan du överföra dina hämtade företagsdata från en CRM-databas (customer relationship management). Du kan överföra data till en datakälla för kundattribut i Experience Cloud och sedan använda data i Adobe Analytics och Adobe Target.
+[!UICONTROL Customer Attributes] i Experience Cloud kan du överföra dina hämtade företagsdata från en CRM-databas (customer relationship management). Du kan överföra data till en Customer Attribute-datakälla i Experience Cloud och sedan använda data i Adobe Analytics och Adobe Target.
 
 Navigera till **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
@@ -48,7 +48,7 @@ Följande bild är ett exempel på en datafil som visar prenumerationsdata för 
 
 ![](assets/01_crs_usecase.png)
 
-När du har skapat datafilen kan du överföra den till kundattributskällan som du skapar i **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]**.
+När du har skapat datafilen kan du överföra den till den Customer Attribute-källa som du skapar i **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]**.
 
 Mer information om det här arbetsflödet finns i [Överför kundattributdata](t-crs-usecase.md#task_BCC327B2A0EF4A1BBB2934013AB92B78).
 
