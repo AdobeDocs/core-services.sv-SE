@@ -9,20 +9,27 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: f28f7f7824981b76fd05b8fb4eab874b04312712
 workflow-type: tm+mt
-source-wordcount: '4039'
+source-wordcount: '4133'
 ht-degree: 2%
 
 ---
 
 # Ackumulerade versionsinformation
 
-Funktioner, versionsinformation och kända fel i Experience Cloud-gränssnittet.
+Funktioner, versionsinformation och kända fel för gränssnittskomponenterna i Experience Cloud Central.
 
 En lista över dokumentationsuppdateringar finns i [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Versionsinformation om alla lösningar finns i [Versionsinformation för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en).
+
+## Juni - 2021
+
+| Funktion | Datum | Beskrivning |
+| ------- | ------- | ------- |
+| Stöd för enkel inloggning för Adobe Federated ID:n | 17 juni 2021 | Om du använder Federated ID:n kan du logga in på Experience Cloud utan att behöva ange en e-postadress eller ett lösenord. Om du vill använda den här funktionen lägger du till `#/sso:@domain` i Experience Cloud-URL:en. <br>Anta till exempel att du äger domänen  `adobecustomer.com` och vill logga in på Adobe Analytics. URL:en skulle vara: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
+| Experience League Search | 1 juni 2021 | Experience League dokumentationssökning har förbättrats. Navigera till [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en) och använd fältet **[!UICONTROL Search]** för att hitta självstudiekurser, dokumentation, kurser med mera. |
 
 ## Maj - 2021
 
