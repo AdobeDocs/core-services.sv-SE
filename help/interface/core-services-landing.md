@@ -7,9 +7,9 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 62c49148ec5dfc945f946cea9a5948a8be781111
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '416'
 ht-degree: 6%
 
 ---
@@ -38,3 +38,5 @@ I den här hjälpen beskrivs följande produkter och tjänster:
 | [Platstjänst](https://experienceleague.adobe.com/docs/places/using/home.html?lang=en) | Adobe [!UICONTROL Experience Platform Location Service] är en geopositioneringstjänst. Det gör det möjligt för mobilappar med platsmedvetenhet att förstå platskontexten genom att använda avancerade och lättanvända SDK-gränssnitt tillsammans med en flexibel databas med intressepunkter (POI). |
 | [Mobiltjänster](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en) | Adobe Mobile Services innehåller funktioner för mobilmarknadsföring för mobilappar från hela Experience Cloud, vilket gör att ni kan förstå och förbättra användarinteraktionen med era mobilappar. |
 | Personer | Skapa en heltäckande bild av enskilda kunder genom att koppla samman data från Adobe och andra företag i era Experience Cloud-lösningar. Ta reda på vad som betyder mest för dem när de interagerar via olika kontaktytor. Känn igen välbekanta konsumenter när de besöker hemlösa enheter. Du kan till och med gruppera användare i målgrupper för riktade marknadsföringssatsningar.<br>[Målgrupper](audience-library.md)  - Kategorisera olika typer av kunder i målgrupper och dela sedan dessa målgrupper mellan olika Experience Cloud-program.<br>[Kundattribut](attributes.md)  - målgruppsberikning som gör att ni kan koppla samman konsumentinformation som samlats in utanför Experience Cloud. |
+
+{style=&quot;table-layout:auto&quot;}
