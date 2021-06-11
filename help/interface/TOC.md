@@ -4,9 +4,9 @@ user-guide-title: 'Gränssnittskomponenter i Experience Cloud '
 breadcrumb-title: Gränssnittskomponenter i Experience Cloud
 user-guide-description: Läs mer om Experience Cloud gränssnitt, konfigurera inställningar, sök efter hjälp och affärsobjekt. Få hjälp med användar- och produkthantering, kundattribut, målgruppsbibliotek, cookies och Experience Cloud Assets.
 index: true
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 62c49148ec5dfc945f946cea9a5948a8be781111
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '340'
 ht-degree: 4%
 
 ---
@@ -70,8 +70,8 @@ ht-degree: 4%
       + [Aktivera sekretessinställningar för webbläsarcookies](browser-cookie-settings.md)
       + [Hur ändringar i stödet för cookies från tredje part påverkar kunderna](cookies-thirdparty.md)
 + Versionsinformation för användargränssnittet för Experience Cloud {#release-notes}
-   + [Nyheter i Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
-   + [Ackumulerade versionsinformation](release-notes.md)
+   + [Versionsinformation för centrala gränssnittskomponenter](release-notes.md)
+   + [Versionsinformation för alla Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
 + Fler resurser {#more-resources}
    + [Forum](https://experienceleaguecommunities.adobe.com/)
    + [Terminologi](terms.md)
