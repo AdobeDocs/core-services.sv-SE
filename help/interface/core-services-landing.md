@@ -7,36 +7,38 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 62c49148ec5dfc945f946cea9a5948a8be781111
+source-git-commit: 6a9a3068d2831be28f4cbe859d93eb1ad580897f
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 6%
+source-wordcount: '361'
+ht-degree: 4%
 
 ---
 
 # Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Adobe Experience Cloud tjänster omfattar [!UICONTROL People] (Målgrupper och kundattribut), Experience Platform Launch och Mobile Services. Du kan även hitta hjälp om användarhantering och produkthantering i Experience Cloud.
+Den här dokumentationen gäller funktioner i det enhetliga huvudet i Experience Cloud, till exempel [!UICONTROL People]-tjänsten (målgrupper och kundattribut), användar- och produkthantering för Experience Cloud, cookies, kontoinställningar, meddelanden och så vidare.
 
 Klicka på **[!UICONTROL Application Selector]** om du vill få åtkomst till de här tjänsterna i Experience Cloud
 ![](assets/menu-icon.png).
 
 ![](assets/platform-core-services.png)
 
->[!NOTE]
->
->Produktdokumentation för Experience Platform finns [här](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=en). Teknisk dokumentation för [!UICONTROL Experience Platform]-utvecklare finns på [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html).
-
 I den här hjälpen beskrivs följande produkter och tjänster:
 
 | Bastjänst | Beskrivning |
 |--- |--- |
-| [Aktivering](activation.md) | Tagghanteringssystem (Experience Platform Launch och dynamisk tagghantering).<br>Utlösare gör att du kan vidta åtgärder i realtid i Adobe Campaign baserat på insikter från Adobe Analytics. |
-| [Assets](experience-cloud-assets.md) | Lagra, synkronisera och dela enkelt alla digitala resurser på en central plats för att spara tid och leverera en mer enhetlig kundupplevelse. |
-| [Experience Platform Launch/datainsamling](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) | [!UICONTROL Experience Platform Launch] är nästa generation av datainsamling och teknikimplementering för webbplatser och appar. [!UICONTROL Experience Platform Launch] ger kunderna ett enkelt sätt att driftsätta och hantera alla analys-, marknadsförings- och annonstaggar som behövs för att skapa relevanta kundupplevelser. |
-| [Journey Orchestration](https://experienceleague.adobe.com/docs/journeys/using/journey-orchestration-home.html?lang=sv) | Bygg upp användningsfall för realtidssamordning med hjälp av kontextuella data lagrade i händelser eller datakällor. [!UICONTROL Journey Orchestration] är en programtjänst som är integrerad i Experience Platform. |
+| [Komponenter i det centrala gränssnittet](experience-cloud.md) | Få åtkomst till kontoinställningar, sök efter produkthjälp och få tillgång till program och tjänster. |
+| [Aktivera implementeringen av Experience Cloud-tjänster](core-services.md) | Befintliga kunder kan modernisera sina lösningar och implementera Experience Cloud. På så sätt kan ni använda kundattribut och målgruppsfunktioner i Adobe Analytics, Audience Manager och Adobe Target. |
+| [Folk - målgruppsbibliotek](audience-library.md) | Målgrupper är samlingar med besökare (en lista med besökar-ID:n). Med Adobe’s Audience Library kan ni hantera översättningen av besöksdata till målgruppssegmentering. Som |
+| [Personer - kundattribut](attributes.md) | Bygg upp användningsfall för realtidssamordning med hjälp av kontextuella data lagrade i händelser eller datakällor. [!UICONTROL Journey Orchestration] är en programtjänst som är integrerad i Experience Platform. |
 | [Platstjänst](https://experienceleague.adobe.com/docs/places/using/home.html?lang=en) | Adobe [!UICONTROL Experience Platform Location Service] är en geopositioneringstjänst. Det gör det möjligt för mobilappar med platsmedvetenhet att förstå platskontexten genom att använda avancerade och lättanvända SDK-gränssnitt tillsammans med en flexibel databas med intressepunkter (POI). |
-| [Mobiltjänster](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en) | Adobe Mobile Services innehåller funktioner för mobilmarknadsföring för mobilappar från hela Experience Cloud, vilket gör att ni kan förstå och förbättra användarinteraktionen med era mobilappar. |
-| Personer | Skapa en heltäckande bild av enskilda kunder genom att koppla samman data från Adobe och andra företag i era Experience Cloud-lösningar. Ta reda på vad som betyder mest för dem när de interagerar via olika kontaktytor. Känn igen välbekanta konsumenter när de besöker hemlösa enheter. Du kan till och med gruppera användare i målgrupper för riktade marknadsföringssatsningar.<br>[Målgrupper](audience-library.md)  - Kategorisera olika typer av kunder i målgrupper och dela sedan dessa målgrupper mellan olika Experience Cloud-program.<br>[Kundattribut](attributes.md)  - målgruppsberikning som gör att ni kan koppla samman konsumentinformation som samlats in utanför Experience Cloud. |
+| [Aktivering](activation.md) | Aktiveringen innehåller den senaste tagghanteringsprodukten Experience Platform Data Collection (Launch) och Experience Cloud Triggers. |
+| [Assets](experience-cloud-assets.md) | Experience Cloud Assets utgör ett enda centralt arkiv av marknadsföringsmaterial som ni kan dela mellan olika lösningar. (Resurser är en äldre tjänst som nu är under tillsyn.) |
+| [Administrering](admin-getting-started.md) | Lär dig mer om att logga in på Admin Console, hantera användarbehörigheter och produktprofiler för Experience Cloud samt webbläsarstöd. |
+| [Cookies](cookies-privacy.md) | Att upprätthålla kundens integritet och datasäkerhet är de viktigaste prioriteringarna på Adobe. Adobe deltar i flera integritetsorganisationer och samarbetar med integritetsreglerande organ och självreglerande principer. |
 
 {style=&quot;table-layout:auto&quot;}
+
+>[!NOTE]
+>
+>Produktdokumentation för Experience Platform finns [här](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=en). Teknisk dokumentation för [!UICONTROL Experience Platform]-utvecklare finns på [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html).
