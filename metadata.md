@@ -11,13 +11,12 @@ solution-icon: help/interface/assets/experience-cloud-logo-24.png
 getting-started-title: Komma igång
 getting-started-url: https://helpx.adobe.com/experience-cloud-core-services/get-started.html
 tutorials-title: Självstudiekurser
-tutorials-url: https://docs.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
+tutorials-url: https://experienceleague.adobe.com/content/help/en/core-services-learn/tutorials/overview.html
 git-repo: https://git.corp.adobe.com/AdobeDocs/core-services.sv-SE
-translation-type: tm+mt
-source-git-commit: 92879002608cc720b69cb323f9d4c12eee2181d5
+source-git-commit: 918c72e675be85f1309dc697a668771b97bef324
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 60%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,19 +27,19 @@ Filen metadata.md innehåller metadata på arkivnivå som skickas till användar
 
 | metadata | vad gör den |
 |--- |--- |
-| lösning-titel | Används i artikelrubriken som en länk |
-| lösning-hubb-url | Öppnar den centrala helpx-sidan |
-| lösning-ikon | Visar lösningsikonen bredvid lösningstiteln Inte implementerat ännu |
+| solution-title | Används i artikelrubriken som en länk |
+| solution-hub-url | Öppnar den centrala helpx-sidan |
+| solution-icon | Visar lösningsikonen bredvid lösningstiteln Inte implementerat ännu |
 | getting-started-title | Används sällan när Tutorials inte är lämpligt |
-| komma-igång-url | Länk till startsidan i helpx |
+| getting-started-url | Länk till startsidan i helpx |
 | självstudiekurser-titel | Används sällan när Tutorials inte är lämpligt |
-| självstudiekurser-url | Länk till videosjälvstudiekurser – antingen helpx-självstudiekurser eller KT-självstudiekurser |
-| mini-toc-nivåer | Anger antalet rubriknivåer som visas i det högra fältet. standard är två |
-| git-arkiv | Anger platsen för samarbetssvaret. Använd github.com-spegeln för offentliga dokument |
+| tutorials-url | Länk till videosjälvstudiekurser – antingen helpx-självstudiekurser eller KT-självstudiekurser |
+| mini-toc-levels | Anger antalet rubriknivåer som visas i det högra fältet. standard är två |
+| git-repo | Anger platsen för samarbetssvaret. Använd github.com-spegeln för offentliga dokument |
 
 I filen TOC.md
 
 | metadata | vad gör den |
 |--- |--- |
 | user-guide-title | Används i artikelrubriken som en länk |
-| användar-handbok-url | Öppnar den centrala helpx-sidan |
+| user-guide-url | Öppnar den centrala helpx-sidan |
