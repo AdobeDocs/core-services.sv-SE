@@ -9,7 +9,7 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 1%
@@ -82,7 +82,7 @@ Utför dessa steg på sidan Skapa ny källa för kundattribut i Experience Cloud
 
    * **[!UICONTROL Description:]** (Valfritt) En beskrivning av datakällan för dataattribut.
 
-   * **[!UICONTROL Alias ID:]** Representerar en källa för kundattributdata, t.ex. ett specifikt CRM-system. Ett unikt ID som används i källkoden för kundattributet. ID:t ska vara unikt, med gemener, utan blanksteg. Värdet som anges i fältet Alias ID för en kundattributskälla i användargränssnittet för Experience Cloud bör matcha värdena som skickas från implementeringen (oavsett om det är via dynamisk tagghantering eller JavaScript för Mobile SDK.)
+   * **[!UICONTROL Alias ID:]** Representerar en källa för kundattributdata, t.ex. ett specifikt CRM-system. [!UICONTROL Alias ID] är ett unikt ID som används i din källkod för kundattribut. ID:t ska vara unikt, med gemener, utan blanksteg. Värdet som anges i fältet [!UICONTROL Alias ID] för en kundattributkälla i Experience Cloud ska matcha värdena som skickas från implementeringen (oavsett om det är via Datainsamling (Launch), Dynamic Tag Management eller JavaScript för Mobile SDK.)
 
       Alias-ID motsvarar vissa områden där du anger ytterligare värden för Kund-ID. Exempel:
 
