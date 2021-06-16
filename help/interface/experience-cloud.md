@@ -8,9 +8,9 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '881'
 ht-degree: 2%
 
 ---
@@ -93,6 +93,8 @@ På [!UICONTROL Experience Cloud preferences] kan du konfigurera följande funkt
 | [!UICONTROL Alerts] | Välj de meddelanden som du vill visa aviseringar för i webbläsaren. Varningar visas i fönstrets övre högra hörn under några sekunder. |
 | E-post | Ange hur ofta du vill få e-postmeddelanden. (Inte skickat, direkt, dagligen eller varje vecka.) |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Meddelanden {#notifications}
 
 Klicka på **[!UICONTROL Notifications]** om du vill få meddelanden om relevanta och åtgärdbara uppdateringar, inklusive produktreleaser, underhållsmeddelanden, delade objekt och godkännandebegäranden.
@@ -132,7 +134,7 @@ Stödlinjer för Experience Cloud:
 
 ## Självstudiekurser
 
-Självhjälp och snabba guider i Experience League:
+Självstudiekurser och snabba guider i Experience League:
 
 * [Alla självstudiekurser i Experience League](https://experienceleague.adobe.com/?lang=en#quick-how-tos)
 * [Självstudiekurser för Experience Platform](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en)
