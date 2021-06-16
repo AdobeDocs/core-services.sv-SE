@@ -6,9 +6,9 @@ seo-title: Nyheter i Experience Cloud
 solution: Experience Cloud
 title: 'Nyheter i Experience Cloud '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '651'
 ht-degree: 6%
 
 ---
@@ -53,6 +53,8 @@ Nya funktioner och korrigeringar i gränssnittet [!DNL Adobe Experience Cloud].
 |--- |--- |
 | Ny startsida för administration | När du loggar in på Experience Cloud och navigerar till administrationssidan finns det ett nytt intuitivt gränssnitt som hjälper dig att snabbt komma åt dina Experience Cloud-lösningar och bastjänster. |
 
+{style=&quot;table-layout:auto&quot;}
+
 **Korrigeringar**
 
 * Ett problem där bildöverföringen misslyckades på grund av en Scene7-uppdatering har åtgärdats. (CORE-12746)
@@ -72,6 +74,8 @@ Många av underhållsmeddelandena runt schemalagt underhåll/produktuppdateringa
 | Meddelanden - Underhållsmeddelanden | I Meddelandeinställningarna kan du aktivera underhållsmeddelanden för produkter och lösningar. |
 | Admin Console för Experience Cloud Solutions | Nya Experience Cloud-kunder kan börja använda Admin Console, en central plats för hantering av Adobe i hela organisationen.<br>Migreringen till Admin Console för användarhantering fortsätter i vågor. Adobe kontaktar dig (systemadministratörer) när det är dags att migrera.<br>Analysadministratörer, se   [Analysmigrering](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en). |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## 22 maj 2017 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
 | Funktion | Beskrivning |
@@ -79,11 +83,15 @@ Många av underhållsmeddelandena runt schemalagt underhåll/produktuppdateringa
 | Massrapportsvitmappning | I Administration > Rapportsvitsmappning kan du nu välja flera rapportsviter och sedan mappa dem till en organisation. (Tidigare var du tvungen att mappa dem individuellt.)  <br>[Genom att mappa rapportsviterna ](core-services.md) till en enda organisation blir det enklare att aktivera funktioner och tjänster för olika lösningar i Experience Cloud. |
 | Uppdateringar till Experience Cloud-målgrupper | **Använda**<br> rapportsviterNu kan du använda en rapportsvit för alla  [målgruppsregler](t-audience-create.md). (Tidigare var du tvungen att ange en rapportserie i varje regeldefinition.) <br>**Props och**<br> VariablesNu kan du inkludera utkast från analyser och standardvariabler (utöver eVars och händelser) i målgrupper i realtid. |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## 8 november 2016-16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
 | Funktion | Beskrivning |
 |--- |--- |
 | Uppdatera till profil och lösenord | Användare kan inte längre redigera information om IMS-användarprofiler under Personlig information i Redigera profil > Profil och lösenord. I stället omdirigeras användare till `accounts.adobe.com`. Uppdateringen gäller alla identitetstyper (Adobe ID, Enterprise och Federated). |
+
+{style=&quot;table-layout:auto&quot;}
 
 **Korrigeringar**
 
