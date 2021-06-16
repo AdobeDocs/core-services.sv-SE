@@ -8,9 +8,9 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1239'
 ht-degree: 2%
 
 ---
@@ -159,7 +159,7 @@ Se [IMS-stöd för Experience Manager som en Cloud Service](https://experiencele
 
 Skapa Audience Manager-användare och tilldela dem till grupper. Du kan också visa gränser (egenskaper, segment, mål och [!DNL AlgoModel]).
 
-Se [Administration](https://experienceleague.adobe.com/docs/dtm/using/admin/users.html?lang=en) i hjälpen för Audience Manager.
+Se [Administration](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/administration/administration-overview.html?lang=en) i hjälpen för Audience Manager.
 
 ## Webbläsare i Experience Cloud som stöds
 
