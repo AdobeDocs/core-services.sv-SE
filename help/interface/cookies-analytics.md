@@ -9,9 +9,9 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: c714a5549bc5377c584721404b11a394625c519f
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '769'
 ht-degree: 3%
 
 ---
@@ -43,6 +43,8 @@ Mer information finns i Analytics-hjälpen om [cookies från första part](cooki
 | Plats | Endast CNAME-kunder. Gäller inte för tredjepartsscenarier. Cookie lagras på din domän, samma domän som används av CNAME och din bildförfrågan från Analytics. |
 | Storlek | 45 byte |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Cookie-namn: s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
 | Attribut | Beskrivning |
@@ -52,6 +54,8 @@ Mer information finns i Analytics-hjälpen om [cookies från första part](cooki
 | Användning | Endast en cookie för alla konton |
 | Plats | Denna cookie lagras i sidans domän |
 | Storlek | 4 byte |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Cookie-namn: s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
@@ -63,6 +67,8 @@ Mer information finns i Analytics-hjälpen om [cookies från första part](cooki
 | Plats | Denna cookie lagras i sidans domän |
 | Storlek | Varierar beroende på sidans URL-storlek, men vanligtvis 100-200 byte |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Cookie-namn: s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
 | Attribut | Beskrivning |
@@ -72,6 +78,8 @@ Mer information finns i Analytics-hjälpen om [cookies från första part](cooki
 | Användning | Denna cookie används för att identifiera en unik besökare |
 | Plats | Denna cookie lagras i domänen för bildbegäran - vanligtvis en kundspecifik underdomän i 2o7.net eller omtrdc.net om du använder cookies från tredje part eller om din domän använder cookies från första part. |
 | Storlek | 44 byte |
+
+{style=&quot;table-layout:auto&quot;}
 
 >[!NOTE]
 >
@@ -87,6 +95,8 @@ Mer information finns i Analytics-hjälpen om [cookies från första part](cooki
 | Plats | Denna cookie lagras på din domän som en cookie från en annan leverantör. |
 | Storlek | 33 byte |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Cookie-flaggor
 
 I följande tabell beskrivs flaggorna för Analytics-cookies:
@@ -98,6 +108,8 @@ I följande tabell beskrivs flaggorna för Analytics-cookies:
 | s_fid (Javascript) | Nej | Nej | Ta bort |
 | s_cc (JavaScript) | Nej | Nej | Ta bort |
 | s_sq (Javascript) | Nej | Nej | Ta bort |
+
+{style=&quot;table-layout:auto&quot;}
 
 >[!NOTE]
 >
