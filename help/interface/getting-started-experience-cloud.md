@@ -9,9 +9,9 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '921'
 ht-degree: 3%
 
 ---
@@ -44,6 +44,8 @@ Logga in och verifiera att du är i rätt [organisation](organizations.md#topic_
 | [Hantera Creative Cloud-användare](t-admin-add-cc-user.md) | Med Experience Cloud Assets kan marknadsförarna dela, synkronisera och samarbeta i mappar med designers och andra kreativa resurser med Creative Cloud. Du kan hantera de Creative Cloud-användare som är godkända för att samarbeta med din organisation här. |
 | [Kartlägg dina rapportsviter](core-services.md) | (Endast analyser) Experience Cloud bastjänster är kopplade till en organisation i stället för till en enskild rapportserie. För att dessa tjänster ska fungera på rätt sätt måste varje analysrapportsserie mappas till en organisation. (Den här uppgiften ingår i ett större arbetsflöde för att [aktivera Analytics för bastjänster](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
 | [Organisations-ID](organizations.md) | *Organisations-ID* finns längst ned på administrationssidan. Detta ID är det associerade ID:t med ditt tilldelade Experience Cloud-företag. Detta ID är en alfanumerisk sträng med 24 tecken, följt av (och måste innehålla) @AdobeOrg. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Logga in på Experience Cloud (användare) {#task_1BFE87E20DCB44078CAC82F3CD44B985}
 
@@ -150,3 +152,5 @@ Exempel-URL:
 | `tenantId` | Namnet på innehavaren som användaren ska logga in på. | aem62tenant | Valfritt |
 | `destURL` | Den fullständiga URL:en till den plats där användaren ska tas till. | http://sc.omniture.com/login/?r=%2Fx%2F1_7xxzf&amp;tenantId=obuengsc&amp;company=OBU+Eng+SC | Valfritt |
 | `solutionname` | Namnet på MAC-lösningen som är ägare av parametern `destURL`. Den används för att verifiera att användaren har åtkomst till lösningen som är URL-adressens ägare.  Lösningarna måste se till att `solutionname` är synkroniserat med parametern `destURL`.  Till exempel: Om URL:en innehåller `solutionname` som social och `destURL` som anges är en analys-URL:en, kommer användaren att omdirigeras till URL:en även om han eller hon inte har tillgång till analyser. MAC kontrollerar INTE om ägaren av `destURL` är synkroniserad med lösningsnamnet. | analys | Krävs om parametern `destURL` används. |
+
+{style=&quot;table-layout:auto&quot;}
