@@ -9,9 +9,9 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '414'
 ht-degree: 1%
 
 ---
@@ -33,6 +33,8 @@ Du kan ändra de här inställningarna om det behövs, förutom för cookie-vara
 | Serverdomän | `clientcode.tt.omtrdc.net`, med hjälp av klientkoden för ditt  [!DNL Adobe Target] konto. |
 | Cookie-varaktighet | Cookien finns kvar i besökarens webbläsare två år efter deras senaste inloggning. Du kan inte ändra varaktighet för cookie-filen. |
 
+{style=&quot;table-layout:auto&quot;}
+
 >[!NOTE]
 >
 >Om något av dina domännamn innehåller en landskod, t.ex. `mycompany.co.uk`, bör du tillsammans med klienttjänsterna konfigurera `at.js` så att koden stöds.
@@ -46,3 +48,4 @@ Denna cookie ger vissa värderingar när det gäller att hantera hur besökarna 
 | check | Ett enkelt testvärde som används för att avgöra om en besökare stöder cookies. Ange varje gång en besökare begär en sida. |
 | disable | Ange om besökarens inläsningstid överskrider den timeout som har konfigurerats i filen at.js. Som standard varar den här tidsgränsen 1 timme. |
 
+{style=&quot;table-layout:auto&quot;}
