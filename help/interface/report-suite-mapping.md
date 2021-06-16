@@ -7,7 +7,7 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: 978f2214cd802562880a3aff82677e033229c0a4
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 0%
@@ -63,7 +63,7 @@ Det här avsnittet innehåller tips som hjälper dig att välja den Experience C
 
 ### Vilken organisation ska jag välja?
 
-Om Experience Cloud ID-tjänsten distribueras till rapportsviten kontrollerar du att den organisation du valt i verktyget för mappning av rapportsviten är densamma som anges i [!DNL visitorAPI.js]-filen på din plats. Du kan använda instruktionerna i [Testa och verifiera Experience Cloud ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/implementation/test-verify.html) för att hitta det organisations-ID som används av Visitor ID-tjänsten.
+Om Experience Cloud ID-tjänsten distribueras till rapportsviten kontrollerar du att den organisation du valt i verktyget för mappning av rapportsviten är densamma som anges i [!DNL visitorAPI.js]-filen på din plats. Du kan använda instruktionerna i [Testa och verifiera Experience Cloud ID-tjänsten](https://experienceleague.corp.adobe.com/docs/id-service/using/implementation/test-verify.html) för att hitta det organisations-ID som används av Visitor ID-tjänsten.
 
 Se till att distributionen matchar den organisation du valde i verktyget för mappning av rapportsviten.
 
