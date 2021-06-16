@@ -9,9 +9,9 @@ feature: Admin Console
 role: Administrator
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '625'
 ht-degree: 3%
 
 ---
@@ -48,6 +48,8 @@ I Analytics Premium Complete får du alla funktioner i [Analytics Premium](upgra
 | Data Workbench | <ul><li>Algoritmisk attribuering</li><li>Fördefinierade arbetsytor</li></ul> |
 | Analytics Platform | [Live Stream](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/index.md)  (rådata, instrumentpaneler, utlösare) |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Prediktiv intelligens {#section_B407932C07A7476F83FB0275C3FB63DC}
 
 Uppgradera till Predictive Intelligence och [Analytics Premium](upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) plus:
@@ -58,6 +60,8 @@ Uppgradera till Predictive Intelligence och [Analytics Premium](upgrade-to-analy
 | Data Workbench | Färdiga arbetsytor för målgruppskvalifikationer och prediktiv marknadsföring. |
 | Analytics Platform | Live Stream (instrumentpaneler och utlösare) |
 
+{style=&quot;table-layout:auto&quot;}
+
 ## Kund 360 {#section_3B2AC245388248688067DC9A48957AFB}
 
 Uppgradera till Customer 360 erbjuder [Analytics Premium](upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507) plus:
@@ -67,6 +71,8 @@ Uppgradera till Customer 360 erbjuder [Analytics Premium](upgrade-to-analytics-p
 | [Kundattribut](attributes.md) | Kundattribut (analys och segmentdelning) |
 | Data Workbench | <ul><li>Härledda kundattribut</li><li>Färdiga arbetsytor för målgruppsidentifiering</li></ul> |
 | Analytics Platform | [Kundattribut](attributes.md) |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Avancerad attribuering {#section_9E4986A8389946CCAA7D003268343296}
 
