@@ -9,9 +9,9 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '815'
 ht-degree: 2%
 
 ---
@@ -49,6 +49,8 @@ I följande tabell beskrivs hur målgrupper används i Experience Cloud-lösning
 | Campaign | <ul><li>Importera delade målgrupper från olika Adobe Experience Cloud-lösningar till Adobe Campaign.</li><li>Exportera mottagarlistor i form av delade målgrupper. Dessa delade målgrupper kan användas i de olika Adobe Experience Cloud-lösningar ni använder.</li></ul> |
 | Advertising Cloud | Använd målgruppen som mål. |
 
+{style=&quot;table-layout:auto&quot;}
+
 >[!IMPORTANT]
 >
 >När en besökare kvalificerar sig för den målgrupp som delas från Analytics, sker en 4-8 timmars fördröjning innan den informationen kan användas i [!DNL Target], Ad Cloud och Campaign Standard.
@@ -60,6 +62,8 @@ I följande tabell beskrivs hur målgrupper används i Experience Cloud-lösning
 | Hittar du inte publiker? | Se till att du är etablerad. Se [Komma igång - aktivera lösningar för bastjänster](core-services.md).<br>Klicka  [](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) här för att begära åtkomst till profiler och målgrupper (provisioneringsformulär för integreringar). |
 | Användningsfall | Mer information om vilken lösning som ska användas finns i [Alternativ för målgruppsskapande](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en) i kunskapsbasen. |
 | Forum | [Målgruppsforumet](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community) är en annan resurs för att få hjälp med målgrupper. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Gränssnittselement i målgruppsbiblioteket {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
 
@@ -77,3 +81,5 @@ I följande tabell beskrivs hur målgrupper används i Experience Cloud-lösning
 | Källa | Identifierar var målgruppen skapades.<ul><li>**Analys:** Ett segment som skapats i Adobe Analytics och sedan  [publicerats på Experience Cloud](audience-library.md).</li><li>**Experience Cloud:** En ny publik  [som skapats i Experience Cloud Publiker](audience-library.md).</li><li>**Audience Manager:** Publiker som skapats Audience Manager visas automatiskt i Experience Cloud Publiker.</li></ul> |
 | Aktuell storlek | Den aktuella målgruppsstorleken. |
 | Aktiv | Segmentets aktiva status. |
+
+{style=&quot;table-layout:auto&quot;}
