@@ -9,9 +9,9 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: f00cbf4d-ece0-4827-a65f-e3b7068d680c
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '95'
 ht-degree: 5%
 
 ---
@@ -29,3 +29,5 @@ Datan Workbench använder cookies för att analysera stora volymer snabbt förä
 | Användning | Denna cookie används för att identifiera en unik besökare. |
 | Plats | Denna cookie lagras på sidans domän. |
 | Storlek | 8 byte, eller 13 byte om du inkluderar delen &quot;name =&quot; (v1st=) |
+
+{style=&quot;table-layout:auto&quot;}
