@@ -11,9 +11,9 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: 253a6df12e603713a282b3c000311b0d67d0ccda
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '1460'
+source-wordcount: '1463'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ En terminologisk referens för Experience Cloud-användare och hur dessa termer 
 
 | Term | Creative Cloud | Experience Cloud |
 |--- |----- |---- |
-| Tillgång | I Creative Cloud är en resurs vanligtvis en bildfil.<br>Resurserna kan vara lager i en Photoshop-fil, bilder i en PowerPoint-fil, sidor i en PDF-fil samt filer i en ZIP-fil. | I Experience Cloud är en resurs ett digitalt dokument, en bild, en video eller ett ljud som kan ha flera återgivningar och kan ha underresurser. Exempel:<ul><li>Fil</li><li>Dokument</li><li>Bild</li><li>Video</li><li>Ljudklipp</li><li>Presentation</li><li>Bildmall</li><li>Videomall</li></ul> |
+| Tillgång | I Creative Cloud är en resurs vanligtvis en bildfil.<br>Resurserna kan vara lager i en Photoshop-fil, bilder i en PowerPoint-fil, sidor i en PDF-fil samt filer i en ZIP-fil. | I Experience Cloud är en resurs ett digitalt dokument, bild, video eller ljud som kan ha flera återgivningar och kan ha underresurser. Exempel:<ul><li>Fil</li><li>Dokument</li><li>Bild</li><li>Video</li><li>Ljudklipp</li><li>Presentation</li><li>Bildmall</li><li>Videomall</li></ul> |
 | Attribut |  | Vad andra har gemensamt om de kvalificerar sig för ett [segment](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html?lang=en). (Liknar en [egenskap](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html?lang=en) i Audience Manager.) |
 | Målgrupper | I Creative Cloud kan en viss publik vara den person som tittar på en video. | I Experience Cloud är målgrupper samlingar av personer som ni kan inrikta er på i kampanjaktiviteter.<br>Medlemskapet i en målgrupp kan fastställas utifrån en uppsättning regler, utifrån besökarens kontext eller utifrån en fast lista. Till exempel en lista över e-postprenumeranter eller medlemmar i en Facebook-grupp.<br>I  [Experience Cloud-målgrupper](audience-library.md) liknar det att skapa och hantera målgrupper att skapa och använda segment, och man kan dessutom dela dem med Experience Cloud.<br>**Adobe**<br> TargetI Adobe Target kallades tidigare målgrupper för segment.<br>**Adobe**<br> AnalyticsI Analytics kan målgrupper ses som besökare på en webbplats. Ni kan skapa målgruppssegment och publicera målgruppen på Experience Cloud. |
 | Kampanjer | I Creative Cloud kan man tänka sig en kampanj som är en marknadsföringskampanj som använder bildresurser i Creative Cloud. | I Experience Cloud avgör kampanjer vilket innehåll som visas för publiken. Det avgör också var (plats) innehållet visas och när. En kampanj har ett specifikt mål som spåras av statistik.<br>För att kunna köra en kampanj måste besökarens kontext matchas med reglerna som anges i kampanjen, och innehållsleveransen måste ske enligt de tekniska begränsningarna för platsens kanal.<br>I Adobe Target är termerna kampanj och aktivitet synonyma. |
@@ -49,3 +49,5 @@ En terminologisk referens för Experience Cloud-användare och hur dessa termer 
 | Delning | I Creative Cloud kan du dela filer externt på olika plattformar (sociala nätverk, communities, e-post och så vidare). | I Experience Cloud kan du dela en resurs som ett kort, inuti ritytor inuti gränssnittet. Delning är tillgänglig för dem som är inloggade på webbplatsen. |
 | Lösning | Ingen speciell användning. | I Experience Cloud kallas lösningar för produkter som Adobe Analytics, Adobe Social, Adobe Target och så vidare. |
 | Trait | Ej tillämpligt | Ett nyckelvärdepar, till exempel color=blue. I Audience Manager används [traits](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html?lang=en) för att skapa segment. |
+
+{style=&quot;table-layout:auto&quot;}
