@@ -11,9 +11,9 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: cd0f9a975732c6c8c3db8ddca6e702449b0efeed
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '676'
 ht-degree: 1%
 
 ---
@@ -68,6 +68,8 @@ Skapa en utlösare och konfigurera villkoren för utlösaren. Du kan till exempe
    | Besök måste innehålla<br>Besök får inte innehålla<br>Utlösare efter ingen åtgärd<br>Inkludera metadata | Du kan definiera villkor eller besökarbeteenden som du vill ska inträffa och beteenden som du inte vill ska inträffa. Regler för en enkel utlösare för övergivna varukorgar kan till exempel vara:<ul><li>Besök måste omfatta följande: [!UICONTROL Cart Addition] (metrisk) och [!UICONTROL Exists]. (Du kan förfina regeln ytterligare med en viss produktvy eller med dimensioner som webbläsartyper.)</li><li>Besök får inte omfatta  [!UICONTROL Checkout].</li><li>Utlös efter ingen åtgärd för:  10 minuter.</li><li>[!UICONTROL Include Meta Data]: Gör att du kan lägga till en viss  [!DNL Campaign] dimension eller variabler som är relevanta för en besökares beteende. Det här fältet kan vara användbart för Adobe Campaign att skapa rätt e-postmeddelande för återmarknadsföring.</li></ul><br>Du kan ange   [!UICONTROL Any]eller   [!UICONTROL And]    [!UICONTROL Or] logik i eller mellan behållare, beroende på vilka kriterier du anger är viktiga för regeln. |
    | [!UICONTROL Container] | [!UICONTROL Containers] är där du anger och lagrar regler, villkor eller filter som definierar en utlösare. Om du vill att händelser ska inträffa samtidigt placerar du dem i samma behållare. Det innebär att varje behållare bearbetas oberoende på träffnivå. Om du till exempel har två behållare som förenas med operatorn And kan du förvänta dig att reglerna kvalificeras när två träffar uppfyller kraven. |
    | Starta ny session efter | Skapa en utlösare för händelser för sessionsstart och sessionsslut. |
+
+   {style=&quot;table-layout:auto&quot;}
 
 5. Klicka på **[!UICONTROL Save]**.
 6. Använd utlösare för [remarketing](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=en) i realtid i [!DNL Adobe Campaign].
