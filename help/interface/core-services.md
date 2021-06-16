@@ -9,9 +9,9 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
 workflow-type: tm+mt
-source-wordcount: '2252'
+source-wordcount: '2208'
 ht-degree: 0%
 
 ---
@@ -135,16 +135,14 @@ Experience Cloud-tjänster (som Experience Cloud ID-tjänsten och [!UICONTROL Pe
 
 ## Uppdatera din Analytics AppMeasurement-kod {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
-Om du använder Analytics bör du kontrollera att du använder regional datainsamling (RDC). Om din datainsamlingsdomän är [!DNL omtrdc.net], eller om CNAME är mappad till [!DNL omtrdc.net], använder du RDC. Mer information finns i [Övergång till RDC](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en). Om du använder cookies från första part läser du [CNAME och Experience Cloud ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en) för information om CNAME för datainsamling och spårning mellan domäner.
+Om du använder Analytics bör du kontrollera att du använder regional datainsamling (RDC). Om din datainsamlingsdomän är `omtrdc.net`, eller om CNAME är mappad till `omtrdc.net`, använder du RDC. Mer information finns i [Övergång till RDC](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en). Om du använder cookies från första part läser du [CNAME och Experience Cloud ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en) för information om CNAME för datainsamling och spårning mellan domäner.
 
-Vi rekommenderar att du moderniserar din Analytics-implementering genom att uppdatera dina JavaScript-bibliotek, inklusive Visitor API. Det enkla sättet att uppnå +632581 är att lägga till ett [!DNL Adobe Analytics]-verktyg i Dynamic Tag Management och ange *`Automatic`* som konfigurationsmetod.
-
-I [!UICONTROL Dynamic Tag Management] klickar du på **`<Web Property Name>`** > **[!UICONTROL Overview]** > **[!UICONTROL Add a Tool]** > **[!UICONTROL Adobe Analytics]**. Mer distributionsinformation finns i [Adobe Analytics Settings](https://experienceleague.adobe.com/docs/dtm/using/tools/analytics-dtm.html?lang=en) i Dynamic Tag Management.
+Vi rekommenderar att du moderniserar din Analytics-implementering genom att uppdatera dina JavaScript-bibliotek, inklusive Visitor API. Det enkla sättet att uppnå detta är att lägga till ett [Adobe Analytics-tillägg](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=en) i Experience Platform Data Collection (Launch).
 
 ## Uppdatera implementeringen av Adobe Target {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* Vi rekommenderar att du lägger till ett [Adobe Target-tillägg](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html?lang=en) i [!UICONTROL Experience Platform Launch] så att bibliotekshämtningen är automatisk. Du kan också ställa in [Experience Cloud ID-tjänsttillägget](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en) för Adobe Target (och andra lösningar) med [!UICONTROL Experience Platform Launch]. [!UICONTROL Experience Cloud ID Service]-uppdateringen **krävs** för att Adobe Target ska kunna använda bastjänsterna. (Om du använder [!UICONTROL Dynamic Tag Management] lägger du till ett [Adobe Target-verktyg](https://experienceleague.adobe.com/docs/dtm/using/tools/target.html?lang=en). Du kan också använda [!UICONTROL Dynamic Tag Management] för att distribuera Experience Cloud ID-tjänsten för Adobe Target.)
-* Om du inte använder [!UICONTROL Experience Platform Launch] eller [!UICONTROL Dynamic Tag Management] ska du [uppdatera mbox-biblioteket](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html?lang=en) manuellt.
+* Vi rekommenderar att du lägger till ett [Adobe Target-tillägg](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html?lang=en) i [!UICONTROL Experience Platform Launch] så att bibliotekshämtningen är automatisk. Du kan också ställa in [Experience Cloud ID-tjänsttillägget](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en) för Adobe Target (och andra lösningar) med [!UICONTROL Experience Platform Launch]. [!UICONTROL Experience Cloud ID Service]-uppdateringen **krävs** för att Adobe Target ska kunna använda bastjänsterna.
+* Om du inte använder [!UICONTROL Experience Platform Launch] ska du [uppdatera mbox-biblioteket](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html?lang=en) manuellt.
 * Begär åtkomst att använda Adobe Analytics som rapportkälla för [!DNL Adobe Target]. [!DNL Target] och  [!DNL Analytics] data kombineras på samma serveranrop under bearbetningen så att besökarna är sammankopplade mellan de två lösningarna. Se [Analys för målimplementering](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en).
 
    >[!IMPORTANT]
