@@ -9,9 +9,9 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 5e8e5a0f70393460442be247b2d9bf7548a32114
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '4134'
+source-wordcount: '4143'
 ht-degree: 2%
 
 ---
@@ -29,14 +29,16 @@ Versionsinformation om alla lösningar finns i [Versionsinformation för Experie
 | Funktion | Datum | Beskrivning |
 | ------- | ------- | ------- |
 | Stöd för enkel inloggning för Adobe Federated ID:n | 17 juni 2021 | Om du använder Federated ID:n kan du logga in på Experience Cloud utan att behöva ange en e-postadress eller ett lösenord. Om du vill använda den här funktionen lägger du till `#/sso:@domain` i Experience Cloud-URL:en. <br>Anta till exempel att du äger domänen  `adobecustomer.com` och vill logga in på Adobe Analytics. URL:en skulle vara: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Experience League Search | 1 juni 2021 | Experience League dokumentationssökning har förbättrats. Navigera till [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en) och använd fältet **[!UICONTROL Search]** för att hitta självstudiekurser, dokumentation, kurser med mera. |
+| Experience League Search | 1 juni 2021 | Dokumentationssökningen i Experience League har förbättrats. Navigera till [Experience League](https://experienceleague.corp.adobe.com/docs/?lang=en) och använd fältet **[!UICONTROL Search]** för att hitta självstudiekurser, dokumentation, kurser med mera. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Maj - 2021
 
 | Funktion | Datum | Beskrivning |
 | ------- | ------- | ------- |
 | Experience Cloud Header &amp; Navigation | 20 maj 2021 | Adobe Experience Cloud-uppdateringarna innehåller en ändring av det ljusa temat för rubriken, med möjlighet att enkelt växla tillbaka till det mörka temat och länka för att styra ytterligare inställningar från användarens avatar i Experience Cloud-huvudet. Även om inte alla program i Experience Cloud stöder teman, låser den här funktionen upp det framtida temastödet. |
-| Global sökning i Experience Cloud | 20 maj 2021 | I den här versionen kan du använda Experience Cloud globala sökning för att söka i någon av [Experience League](https://experienceleague.adobe.com/#home)-dokumentationen, kurserna och självstudiekurserna. (För närvarande är global sökning bara tillgänglig för användare av Experience Platform. Med global sökning efter [!UICONTROL Platform] kan du söka efter alla affärsobjekt i Experience Cloud, t.ex. segment, datauppsättningar, scheman med mera.) |
+| Global sökning i Experience Cloud | 20 maj 2021 | I den här versionen kan du använda Experience Cloud globala sökning för att söka i dokumentation, kurser och självstudiekurser för [Experience League](https://experienceleague.adobe.com/#home). (För närvarande är global sökning bara tillgänglig för användare av Experience Platform. Med global sökning efter [!UICONTROL Platform] kan du söka efter alla affärsobjekt i Experience Cloud, t.ex. segment, datauppsättningar, scheman med mera.) |
 | Inställningar för Experience Cloud | 20 maj 2021 | Den här uppdateringen innehåller möjligheten att ställa in önskade språk i Experience Cloud [Inställningar](https://experience.adobe.com/preferences). |
 
 {style=&quot;table-layout:auto&quot;}
@@ -46,6 +48,8 @@ Versionsinformation om alla lösningar finns i [Versionsinformation för Experie
 | Funktion | Beskrivning |
 | -----------| ---------- |
 | Administratörsverktyg - policyer | På den här sidan visas en fullständig lista över policyer för Experience Cloud i din organisation. Det innehåller information om produkter, instanser, användare och utvecklare. Du kan söka efter, sortera och filtrera efter anpassade vyer i principlistan. Mer information finns i hjälpen för [Experience Cloud Admin Tool](admin-tool-experience-cloud.md). |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## April - 2020
 
@@ -57,6 +61,8 @@ Versionsinformation om alla lösningar finns i [Versionsinformation för Experie
 | Funktion | Beskrivning |
 | -----------| ---------- |
 | Administratörsverktyg - visa användarinformation | Administratörer kan visa en sorterbar och filterbar lista över alla Experience Cloud-användare och deras information i det nya administrationsverktyget. Användarinformationen innehåller information om en användares produktåtkomst, roller och den senast öppnade informationen. Mer information finns i hjälpen för [Experience Cloud Admin Tool](admin-tool-experience-cloud.md). |
+
+{style=&quot;table-layout:auto&quot;}
 
 **Korrigeringar**
 
