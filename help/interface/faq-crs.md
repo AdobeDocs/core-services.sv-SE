@@ -9,9 +9,9 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '1152'
+source-wordcount: '1158'
 ht-degree: 1%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 1%
 
 Vanliga frågor och metodtips för [!UICONTROL Customer Attributes] i Adobe Analytics och Adobe Target.
 
-## Bästa praxis och begränsningar {#section_7F5189B3DAA84EE6865B91D2026EE05A}
+## God praxis och begränsningar {#section_7F5189B3DAA84EE6865B91D2026EE05A}
 
 Vägledning och begränsningar när du använder [!UICONTROL Customer Attributes].
 
@@ -31,6 +31,8 @@ Vägledning och begränsningar när du använder [!UICONTROL Customer Attributes
 | Begränsning av överföring av frekvens per dag | Adobe rekommenderar att du bara uppdaterar kundattribut en gång om dagen. Du måste vänta minst 24 timmar för att överföra ytterligare en kundprofildatafil för samma uppsättning profiler. |
 | ID för anpassad analys (`s.visitorID`) | Att ange ett kund-ID med `s.visitorID` är ett sätt att identifiera användare i Analytics. Integrationer där [!DNL Analytics]-data exporteras eller importeras med ID-tjänsten fungerar emellertid inte när en besökare identifieras med `s.visitorID.`<br>Detta inkluderar, men är inte begränsat till, delade målgrupper, [!DNL Analytics] för Adobe Target (A4T) och [!UICONTROL Customer Attributes].<br>För dessa integreringar stöds inte inställning av ett anpassat analys-ID. |
 | Begränsningar av teckenlängd i [!DNL Analytics] | När du skapar en [!DNL Analytics]-prenumeration trunkeras fältlängderna för de överförda filerna till 255. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Frågor och svar om kundattribut {#section_E47866EEA83348E09FE43CEC5E44C461}
 
@@ -49,3 +51,5 @@ Vägledning och begränsningar när du använder [!UICONTROL Customer Attributes
 | **(Endast Adobe Target)** Kan jag rikta in mig på de data som överförs i kundattribut omedelbart efter det att besökaren har identifierats av kund-ID:t? | Ja. På serveranropet till Adobe Target, som innehåller mbox-ID:t, finns alla kundattributsdata tillgängliga. |
 | **(Endast Adobe Target)** Vad representerar  **[!UICONTROL Sync Status]** kolumnen för filer som överförs i källan för kundattribut? | Du kan visa antalet poster som publicerats och synkroniserats av Adobe Target genom att klicka på ikonen Synkroniseringsstatus mot en viss attributfil. `Sync %` är ett realtidsmått som anger procentandelen profiler som har synkroniserats i Adobe Target.<br> **Obs!** Det kan ta upp till 24 timmar innan attribut synkroniseras med Adobe Target. |
 | Vad representerar mätvärdena för filöverföring i kundattributskällan? | Du kan kontrollera statusen för attribut som överförts till kundattribut med hjälp av följande mått: <ul><li>Poster:  Antal poster i attributfilen.</li><li>**Nya poster:** Antal nya poster i attributfilen.</li> <li>**Uppdaterade poster:** Antal poster i kundattribut med uppdaterade värden i filen.</li><li>**Alla data (poster):** Totalt antal poster som har överförts till kundattribut.</li></ul> |
+
+{style=&quot;table-layout:auto&quot;}
