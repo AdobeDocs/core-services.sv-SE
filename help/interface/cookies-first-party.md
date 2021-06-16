@@ -10,9 +10,9 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 11b999ef0c0d4f258e8665eb9c5bf427f5d618c4
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '1576'
+source-wordcount: '1579'
 ht-degree: 0%
 
 ---
@@ -83,6 +83,8 @@ SSL-certifikat upphör att gälla varje år, vilket innebär att Adobe måste k�
 | **Kan jag begära att certifikatet återkallas?** | Ja, som ägare av domänen har du rätt att begära att certifikatet återkallas. Du behöver bara öppna en biljett hos Kundtjänst för att få detta färdigt. |
 | **Använder det här certifikatet SHA-2-kryptering?** | Ja, Adobe kommer att arbeta med DigiCert för att utfärda ett SHA-2-certifikat. |
 | **Kostar detta något?** | Nej, Adobe erbjuder den här tjänsten till alla nuvarande Adobe-kunder med digitala upplevelser utan extra kostnad. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Skapa CNAME-poster
 
@@ -172,4 +174,4 @@ När du har verifierat att dina värdnamn svarar och vidarebefordrar till datain
 
 Se [Besökarmigrering](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/visitor-migration.html?lang=en) i Analytics Implementeringshandbok.
 
-När du har överfört JavaScript-filen konfigureras allt för insamling av cookie-data från första part. Adobe rekommenderar att ni övervakar Analytics-rapporter under de kommande timmarna för att säkerställa att datainsamlingen fortsätter som vanligt. Om så inte är fallet kontrollerar du att alla ovanstående steg har slutförts och att någon av de användare i organisationen som stöds kontaktar kundtjänst.
+När du har överfört JavaScript-filen konfigureras allt för insamling av cookie-data från första part. Adobe rekommenderar att ni övervakar Analytics-rapporter under de kommande timmarna för att säkerställa att datainsamlingen fortsätter som vanligt. Om så inte är fallet kontrollerar du att alla ovanstående steg har slutförts och att någon av de användare i organisationen som stöds kontaktar Kundtjänst.
