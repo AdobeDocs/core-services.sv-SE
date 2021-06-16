@@ -9,9 +9,9 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1396'
 ht-degree: 1%
 
 ---
@@ -127,7 +127,7 @@ Hjälp: [Komma igång](https://experienceleague.adobe.com/docs/launch/using/get-
 
 Använd aktiveringslösningarna för Experience Cloud för att konfigurera och felsöka dina Experience Cloud-lösningar.
 
-1. Använd [Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) eller [Dynamisk tagghantering](https://experienceleague.adobe.com/docs/dtm/using/dtm-home.html?lang=en) för att infoga kod som aktiverar Experience Cloud-program på dina sidor.
+1. Använd [Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/home.html?lang=en) för att infoga kod som aktiverar Experience Cloud-program på dina sidor.
 1. Använd [Adobe Cloud Platform Auditor](https://experienceleague.adobe.com/docs/auditor/using/overview.html?lang=en) för att testa implementeringarna.
 
 Använd tillägget Adobe Experience Cloud Debugger för att felsöka problem som Auditor har hittat eller för att undersöka annan information om implementeringarna.
@@ -135,7 +135,7 @@ Använd tillägget Adobe Experience Cloud Debugger för att felsöka problem som
 **Tillämpliga lösningar eller tjänster**
 
 * [Analyser](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=en)
-* [Audience Manager](https://experienceleague.adobe.com/docs/dtm/using/tools/audiencemgmt.html?lang=en)
+* [Audience Manager](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/audience-manager/overview.html?lang=en)
 * [Media Optimizer](https://experienceleague.adobe.com/docs/dtm/using/tools/media-optimizer.html?lang=en)
 * [Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools/target.html?lang=en)
 * [MAC ID-tjänst](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=en)
