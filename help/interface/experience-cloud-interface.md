@@ -6,9 +6,9 @@ feature: '"Komponenter i det centrala gränssnittet"'
 topic: Administrering
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: b6282dfdfc37e2767802d4ce50bdd734141b521e
+source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '412'
 ht-degree: 1%
 
 ---
@@ -80,6 +80,8 @@ På [!UICONTROL Experience Cloud preferences] kan du konfigurera följande funkt
 | [!UICONTROL Priority] | Välj de kategorier som du vill ska ha hög prioritet. Dessa kategorier är markerade med en hög tagg och kan konfigureras för leverans som varningar. |
 | [!UICONTROL Alerts] | Välj de meddelanden som du vill visa aviseringar för i webbläsaren. Varningar visas i fönstrets övre högra hörn under några sekunder. |
 | E-post | Ange hur ofta du vill få e-postmeddelanden. (Inte skickat, direkt, dagligen eller varje vecka.) |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Meddelanden
 
