@@ -9,7 +9,7 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 55cbcc6663ca22bbcd13e76411433912d6132eed
 workflow-type: tm+mt
 source-wordcount: '4143'
 ht-degree: 2%
@@ -414,7 +414,7 @@ Nya funktioner och korrigeringar i [!DNL Adobe Experience Cloud] samarbets- och 
 **Kända fel**
 
 * Ändringar av grupper och tillstånd som görs i användarhantering börjar gälla först efter en ny inloggning.
-* Vissa användare kan inte skapa ett kort från en PDF-fil och dela det med en anslagstavla.
+* Vissa användare kan inte skapa ett kort från en PDF-fil och dela det till en anslagstavla.
 * Vissa användare kan ha problem med att överföra resurser till en styrelse.
 * Vissa användare kan ta bort en inaktuell resurs i stället för att få ett felmeddelande.
 * Användare kan inte dela PowerPoint-filer på ritytor.
