@@ -9,7 +9,7 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '380'
 ht-degree: 8%
@@ -32,7 +32,7 @@ Du kan också behöva hitta ditt organisations-ID för support. Du kan verifiera
 
 **Organisations-ID** är det ID som är associerat med ditt tilldelade Experience Cloud-företag. Detta ID är en alfanumerisk sträng med 24 tecken, följt av (och måste innehålla) @AdobeOrg.
 
-Om du vill visa ditt organisations-ID går du till startsidan för Experience Cloud eller klickar på ( ![](assets/menu-icon.png)) och sedan på **[!UICONTROL Administration]**. Du kan hitta organisations-ID:t längst ned på sidan [!UICONTROL Getting Started with the Experience Cloud] eller på sidan [!UICONTROL Administration].
+Om du vill visa ditt organisations-ID går du till startsidan för Experience Cloud eller väljer ( ![](assets/menu-icon.png)) och sedan **[!UICONTROL Administration]**. Du kan hitta organisations-ID:t längst ned på sidan [!UICONTROL Getting Started with the Experience Cloud] eller på sidan [!UICONTROL Administration].
 
 ![](assets/administration-page.png)
 
@@ -42,23 +42,23 @@ Administratörer i Experience Cloud ger oftast tillgång till lösningar och tj�
 
 1. Följ stegen i din e-postinbjudan till Experience Cloud.
 1. Logga in med ditt Adobe ID eller Enterprise ID.
-1. Klicka på lösningsväljaren. ( ![](assets/menu-icon.png)).
+1. Välj lösningsväljaren. ( ![](assets/menu-icon.png)).
 
    ![](assets/solutions-active.png)
 
    De lösningar du har tillgång till är färglagda.
-1. Klicka på önskad lösning.
+1. Välj önskad lösning.
 
    ![](assets/analytics-link-accounts.png)
 
    Den här typen av meddelande visas om du tillhör rätt grupp (och har behörighet till lösningen) men ännu inte har länkat dina kontoinloggningsuppgifter till din Adobe ID.
-1. Klicka på **[!UICONTROL Link Account]** och ange dina autentiseringsuppgifter.
+1. Välj **[!UICONTROL Link Account]** och ange dina autentiseringsuppgifter.
 
 ## Ange en standardorganisation och landningssida {#concept_6A191B42A9874A9780882903BA18F071}
 
 Du kan ange vilken standardorganisation och landningssida som ska användas när du loggar in.
 
-Klicka på **[!UICONTROL Edit Profile]** i din profil.
+Välj **[!UICONTROL Edit Profile]** i din profil.
 
 ![](assets/edit-profile.png)
 
