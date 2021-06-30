@@ -9,10 +9,10 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 5d852e0e-4004-4f94-a6f7-3a14a96cd42f
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 1%
+source-wordcount: '286'
+ht-degree: 2%
 
 ---
 
@@ -23,7 +23,7 @@ Du kan ta bort användare som har blockerat alla cookies i webbläsare för dato
 **Aktivera sekretessinställningar för webbläsarcookies**
 
 1. Navigera till **[!UICONTROL Admin Tools]** > **[!UICONTROL Report Suites]**.
-1. Klicka på **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Privacy Settings]**.
+1. Gå till **[!UICONTROL Edit Settings]** > **[!UICONTROL General]** > **[!UICONTROL Privacy Settings]**.
 1. Aktivera **[!UICONTROL Privacy Settings]** (för dator eller mobil).
 
 >[!IMPORTANT]
