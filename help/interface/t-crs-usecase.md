@@ -9,7 +9,7 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 1%
@@ -67,13 +67,13 @@ Utför dessa steg på sidan Skapa ny källa för kundattribut i Experience Cloud
 >
 >När du skapar, ändrar eller tar bort kundattributskällor är det en fördröjning på upp till en timme innan ID:n börjar synkronisera med den nya datakällan. Du måste ha administratörsbehörighet i Audience Manager för att kunna skapa eller ändra källor för kundattribut. Kontakta Audience Manager kundtjänst eller konsult för att få administrationsrättigheter.
 
-1. Klicka på ikonen Meny ![](assets/menu-icon.png) i [!DNL Experience Cloud].
-1. Klicka på **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]** under **[!DNL Experience Platform]**.
+1. I [!DNL Experience Cloud] väljer du menyikonen ![](assets/menu-icon.png).
+1. Under **[!DNL Experience Platform]** väljer du **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**.
 
    På sidan [!UICONTROL Customer Attributes] kan du hantera och redigera befintliga attributdatakällor.
 
    ![Stegresultat](assets/03_crs_usecase.png)
-1. Klicka på **[!UICONTROL New]**.
+1. Välj **[!UICONTROL New]**.
 
    ![Stegresultat](assets/04_crs_usecase.png)
 1. Konfigurera följande fält på [!UICONTROL Edit Customer Attribute Source]-sidan:
@@ -153,7 +153,7 @@ Se [Konfigurera prenumerationer](subscription.md#concept_ECA3C44FA6D540C89CC04BA
 
 **Så här aktiverar du en attributkälla**
 
-På sidan [!UICONTROL Create New [or Edit] Customer Attribute Source] letar du reda på rubriken [!UICONTROL Activate] och klickar sedan på **[!UICONTROL Active]**.
+På sidan [!UICONTROL Create New [or Edit] Customer Attribute Source] letar du reda på rubriken [!UICONTROL Activate] och väljer sedan **[!UICONTROL Active]**.
 
 ![Stegresultat](assets/activate_attribute_source.png)
 
