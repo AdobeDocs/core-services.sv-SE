@@ -9,7 +9,7 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 1%
@@ -37,7 +37,7 @@ Filöverföring till FTP-webbplatsen för kundattribut kan göras via FTP eller 
 
    Kontrollera att du är inloggad på FTP-platsen på `ftp.adobe.com/<sftpname>`.
 
-1. Klicka på **[!UICONTROL Actions]** > **[!UICONTROL File Upload]**.
+1. Välj **[!UICONTROL Actions]** > **[!UICONTROL File Upload]**.
 
 1. Överför en `.fin`-fil så att filen kan hämtas.
 
