@@ -8,7 +8,7 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: ebefd433e96da422674e7ee71c8988d4011fed11
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -53,7 +53,7 @@ I [!UICONTROL Experience Cloud Assets] kan du:
 
 ## Öppna verktygsfältet {#section_EC2E401D225148818F3753248556BE6B}
 
-Navigera till en resurs (eller resurskatalog) och klicka sedan på **[!UICONTROL Select]**.
+Navigera till en resurs (eller resurskatalog) och välj sedan **[!UICONTROL Select]**.
 
 Verktygsfältet ger snabb åtkomst till funktioner som sökning, tidslinje, återgivning, redigering, anteckning och hämtning.
 
@@ -77,13 +77,13 @@ Du kan söka efter nyckelord, filtyp, storlek, senaste ändring, publiceringssta
 
 ## Anteckna resurser {#section_67FE1DFAAB744DA5B1CD3AD3CCEABF7A}
 
-Klicka på **[!UICONTROL Annotate]** genom att rita cirklar eller pilar på en bild och anteckna resursen för granskning av medarbetare.
+Välj **[!UICONTROL Annotate]** genom att rita cirklar eller pilar på en bild och anteckna resursen för granskning av medarbetare.
 
 ![](assets/assets-annotate.png)
 
 ## Visa resurser i helskärmsläge och zooma {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-Klicka på **[!UICONTROL Views]** > **[!UICONTROL Image]** för att visa hela resursbilden och aktivera zoomning.
+Välj **[!UICONTROL Views]** > **[!UICONTROL Image]** om du vill visa hela resursbilden och aktivera zoomning.
 
 ![](assets/asset-zoom.png)
 
@@ -91,7 +91,7 @@ Klicka på **[!UICONTROL Views]** > **[!UICONTROL Image]** för att visa hela re
 
 Välj mellan kortvyn med egenskaper, listvy och kolumnvy för att enklare hitta resurser.
 
-Klicka på **[!UICONTROL Views]** > **[!UICONTROL Properties]** för att visa en resurs egenskaper:
+Välj **[!UICONTROL Views]** > **[!UICONTROL Properties]** om du vill visa en resurs egenskaper:
 
 ![](assets/asset-properties.png)
 
@@ -99,6 +99,6 @@ Klicka på **[!UICONTROL Views]** > **[!UICONTROL Properties]** för att visa en
 
 Se antalet användare, använt lagringsutrymme och totalt antal resurser.
 
-Klicka på **[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**
+Välj **[!UICONTROL Tools]** > **[!UICONTROL Reports]** > **[!UICONTROL Usage Report]**
 
 ![](assets/assets-usage-report.png)
