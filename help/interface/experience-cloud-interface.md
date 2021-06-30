@@ -6,7 +6,7 @@ feature: '"Komponenter i det centrala gränssnittet"'
 topic: Administrering
 role: Administrator, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 1%
@@ -26,8 +26,8 @@ Experience Cloud centrala gränssnittskomponenter innehåller funktioner som gö
 Logga in och verifiera att du är i rätt [organisation](organizations.md).
 
 1. Navigera till [Adobe Experience Cloud](https://experience.adobe.com).
-1. Klicka på **[!UICONTROL Sign in with an Adobe ID]**.
-1. På Adobe Experience Cloud klickar du på din organisation.
+1. Välj **[!UICONTROL Sign in with an Adobe ID]**.
+1. På Adobe Experience Cloud väljer du din organisation.
 
    ![](assets/organizations-menu.png)
 
@@ -37,7 +37,7 @@ Logga in och verifiera att du är i rätt [organisation](organizations.md).
 
 När du har loggat in på Experience Cloud kan du snabbt komma åt alla program, tjänster och organisationer från det enhetliga huvudet.
 
-Klicka på programväljaren ![](assets/menu-icon.png) för att komma åt de Experience Cloud-tjänster som du äger.
+Markera programväljaren ![](assets/menu-icon.png) för att komma åt de Experience Cloud-tjänster som du äger.
 
 ![](assets/platform-core-services.png)
 
@@ -67,7 +67,7 @@ På kontoinställningsmenyn kan du:
 
 Inställningarna för Experience Cloud omfattar meddelanden, prenumerationer och varningar.
 
-Klicka på **[!UICONTROL Preferences]** på din kontomeny ![](assets/preferences-icon-sm.png) om du vill hantera inställningarna.
+Välj **[!UICONTROL Preferences]** på din kontomeny ![](assets/preferences-icon-sm.png) om du vill hantera inställningarna.
 
 ![](assets/preferences-page.png)
 
@@ -85,7 +85,7 @@ På [!UICONTROL Experience Cloud preferences] kan du konfigurera följande funkt
 
 ## Meddelanden
 
-Klicka på **[!UICONTROL Notifications]** för att se meddelanden som är viktiga för dig och meddelanden från Adobe.
+Välj **[!UICONTROL Notifications]** om du vill visa meddelanden som är viktiga för dig och meddelanden från Adobe.
 
 ![](assets/notifications-menu-small.png)
 
