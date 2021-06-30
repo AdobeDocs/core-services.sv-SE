@@ -7,7 +7,7 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 4%
@@ -30,7 +30,7 @@ Advertising Cloud använder cookies för att mappa annonsengagemang till konvert
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Information lagrad </p> </td> 
-   <td colname="col2"> <p>ID:n och tidsstämplar (i formatet yyyymd) för visningsklickningar</p> </td> 
+   <td colname="col2"> <p>ID:n och tidsstämplar (i formatet yyymmdd) för visningsmarkeringar</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Förfaller </p> </td> 
@@ -38,7 +38,7 @@ Advertising Cloud använder cookies för att mappa annonsengagemang till konvert
   </tr> 
   <tr> 
    <td colname="col1"> <p>Användning </p> </td> 
-   <td colname="col2"> <p>En cookie från tredje part som används för att avgöra om en klickhändelse på en displayannons gäller för en Adobe Analytics-träff </p> </td> 
+   <td colname="col2"> <p>En cookie från tredje part som används för att avgöra om en select-händelse på en visningsannons gäller för en Adobe Analytics-träff </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Plats </p> </td> 
@@ -96,7 +96,7 @@ Advertising Cloud använder cookies för att mappa annonsengagemang till konvert
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Information lagrad </p> </td> 
-   <td colname="col2"> <p>Tidsstämplar för surfens senaste besök på annonsörens webbplats och surfens senaste sökklick samt det ef_id som skapades när användaren klickade på en annons</p> </td> 
+   <td colname="col2"> <p>Tidsstämplar för surfens senaste besök på annonsörens webbplats och surfens senaste sökning samt det ef_id som skapades när användaren valde en annons</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Förfaller </p> </td> 
