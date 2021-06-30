@@ -8,9 +8,9 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '882'
 ht-degree: 2%
 
 ---
@@ -33,8 +33,8 @@ Från Experience Cloud kan du:
 Logga in och verifiera att du är i rätt [organisation](organizations.md).
 
 1. Navigera till [Adobe Experience Cloud](https://experience.adobe.com).
-1. Klicka på **[!UICONTROL Sign in with an Adobe ID]**.
-1. På Adobe Experience Cloud klickar du på din organisation.
+1. Välj **[!UICONTROL Sign in with an Adobe ID]**.
+1. På Adobe Experience Cloud väljer du din organisation.
 
    ![](assets/organizations-menu.png)
 
@@ -44,7 +44,7 @@ Logga in och verifiera att du är i rätt [organisation](organizations.md).
 
 När du har loggat in på Experience Cloud kan du snabbt komma åt alla program, tjänster och organisationer från det enhetliga huvudet.
 
-Klicka på programväljaren ![](assets/menu-icon.png) om du vill få åtkomst till Experience Cloud-tjänster som du äger.
+Gå till programväljaren ![](assets/menu-icon.png) om du vill få åtkomst till Experience Cloud-tjänster som du äger.
 
 ![](assets/platform-core-services.png)
 
@@ -79,7 +79,7 @@ Inställningarna för Experience Cloud omfattar meddelanden, prenumerationer och
 * Logga ut
 * Konfigurera kontoinställningar, meddelanden och prenumerationer
 
-Om du vill hantera inställningar klickar du på **[!UICONTROL Preferences]** på din kontomeny ![](assets/preferences-icon-sm.png).
+Om du vill hantera inställningar väljer du **[!UICONTROL Preferences]** på din kontomeny ![](assets/preferences-icon-sm.png).
 
 ![](assets/preferences-page.png)
 
@@ -97,7 +97,7 @@ På [!UICONTROL Experience Cloud preferences] kan du konfigurera följande funkt
 
 ## Meddelanden {#notifications}
 
-Klicka på **[!UICONTROL Notifications]** om du vill få meddelanden om relevanta och åtgärdbara uppdateringar, inklusive produktreleaser, underhållsmeddelanden, delade objekt och godkännandebegäranden.
+Välj **[!UICONTROL Notifications]** om du vill få meddelanden om relevanta och åtgärdbara uppdateringar, inklusive produktreleaser, underhållsmeddelanden, delade objekt och godkännandebegäranden.
 
 ![](assets/notifications-menu-small.png)
 
