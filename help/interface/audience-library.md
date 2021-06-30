@@ -9,7 +9,7 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 2%
@@ -59,7 +59,7 @@ I följande tabell beskrivs hur målgrupper används i Experience Cloud-lösning
 
 | Hjälp med | Resurs |
 |--- |--- |
-| Hittar du inte publiker? | Se till att du är etablerad. Se [Komma igång - aktivera lösningar för bastjänster](core-services.md).<br>Klicka  [](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) här för att begära åtkomst till profiler och målgrupper (provisioneringsformulär för integreringar). |
+| Hittar du inte publiker? | Se till att du är etablerad. Se [Komma igång - aktivera lösningar för bastjänster](core-services.md).<br>Gå  [](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES) hit och begär åtkomst till profiler och målgrupper (formulär för etablering av integreringar). |
 | Användningsfall | Mer information om vilken lösning som ska användas finns i [Alternativ för målgruppsskapande](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en) i kunskapsbasen. |
 | Forum | [Målgruppsforumet](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community) är en annan resurs för att få hjälp med målgrupper. |
 
