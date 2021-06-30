@@ -1,8 +1,8 @@
 ---
-source-git-commit: 918c72e675be85f1309dc697a668771b97bef324
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '424'
-ht-degree: 86%
+ht-degree: 79%
 
 ---
 # Artikel om att bidra
@@ -21,7 +21,7 @@ Hur du bidrar beror på vem du är och vilken typ av ändringar du vill bidra me
 
 ### Mindre ändringar
 
-Om du bidrar med mindre uppdateringar, för att du helt enkelt vill, bör du gå till artikeln och klicka på länken **Redigera** i den som sedan tar dig till artikelns GitHub-källa. Använd sedan helt enkelt GitHub-gränssnittet för att göra uppdateringarna. Mer information finns i den allmänna [guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Om du bidrar med mindre uppdateringar ur ditt hjärta kan du gå till artikeln och välja länken **Redigera** i artikeln som går till artikelns GitHub-källa. Använd sedan helt enkelt GitHub-gränssnittet för att göra uppdateringarna. Mer information finns i den allmänna [guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
 Mindre korrigeringar och förtydliganden som du lämnar in för dokumentation och kodexempel i den här databasen omfattas av Adobes användarvillkor.
 
