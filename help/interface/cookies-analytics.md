@@ -9,14 +9,14 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 3%
 
 ---
 
-# Analytiska cookies{#analytics-cookies}
+# Analytics-cookies{#analytics-cookies}
 
 Adobe Analytics använder cookies för att skilja på begäranden från olika webbläsare och för att lagra användbar information som ett program kan använda senare. De kan även användas för att koppla webbinformation till kundposter.
 
@@ -61,7 +61,7 @@ Mer information finns i Analytics-hjälpen om [cookies från första part](cooki
 
 | Attribut | Beskrivning |
 |--- |--- |
-| Information lagrad | Denna cookie ställs in och läses av JavaScript-koden när funktionaliteten ClickMap eller Activity Map är aktiverad. den innehåller information om den föregående länken som användaren klickade på |
+| Information lagrad | Denna cookie ställs in och läses av JavaScript-koden när funktionen SelectMap eller Activity Map är aktiverad. den innehåller information om den föregående länken som användaren valde |
 | Förfaller | Denna cookie är en sessionscookie som upphör när webbläsaren stängs |
 | Användning | Endast en cookie för alla konton |
 | Plats | Denna cookie lagras i sidans domän |
