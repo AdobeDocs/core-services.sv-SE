@@ -9,10 +9,10 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: d2ff52ce1a591c7c607598b5f2892dbcca74594b
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -45,8 +45,8 @@ I följande exempel visas hur du skapar regler för en sammansatt målgrupp. Den
 
 **Skapa en publik**
 
-1. I [!DNL Experience Cloud], under [!DNL Experience Platform], klickar du på **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
-1. På sidan [!UICONTROL Audiences] klickar du på **[!UICONTROL New]**.![](assets/add_icon_small.png)
+1. I [!DNL Experience Cloud], under [!DNL Experience Platform], väljer du **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
+1. Välj **[!UICONTROL New]** på sidan [!UICONTROL Audiences]. ![](assets/add_icon_small.png)
 
    ![Stegresultat](assets/audience_create_new.png)
 
@@ -60,7 +60,7 @@ I följande exempel visas hur du skapar regler för en sammansatt målgrupp. Den
 
    * **[!UICONTROL Experience Cloud:]** Attributdata härledda från  [!DNL Experience Cloud] källorna. Detta kan till exempel vara data från målgruppssegment som du skapar i [!DNL Analytics] eller data från [!DNL Audience Manager].
 
-1. Definiera målgruppsregler och klicka sedan på **[!UICONTROL Save].**
+1. Definiera målgruppsregler och välj sedan **[!UICONTROL Save].**
 
 >[!NOTE]
 >
