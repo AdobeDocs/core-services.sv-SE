@@ -9,7 +9,7 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 55cbcc6663ca22bbcd13e76411433912d6132eed
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '4143'
 ht-degree: 2%
@@ -294,7 +294,7 @@ Ingen information finns tillgänglig
   </tr> 
   <tr> 
    <td colname="col1"> <p>Aktivering </p> </td> 
-   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> Aktiveringen </a> visas nu till vänster i  <span class="keyword"> Experience Cloud</span>. <span class="wintitle"> Aktivering är </span> en  <span class="keyword"> Experience </span> Cloud-tjänst som för närvarande består av den dynamiska tagghanteringstekniken och dirigerar dig dit när du klickar på den. </p> </td> 
+   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> Aktiveringen </a> visas nu till vänster i  <span class="keyword"> Experience Cloud</span>. <span class="wintitle"> Activation </span> är en  <span class="keyword"> Experience </span> Cloud-tjänst som för närvarande består av den dynamiska tagghanteringstekniken och dirigerar dig dit när du väljer ut den. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dokumentationsuppdateringar - bastjänster </p> </td> 
@@ -382,7 +382,7 @@ Nya funktioner och korrigeringar i [!DNL Adobe Experience Cloud] samarbets- och 
    <td colname="col1"> <p>Redigera användarbehörigheter </p> </td> 
    <td colname="col2"> <p>Styrelsemedlemmar kan nu redigera användarbehörigheter på den specifika ritytan. </p> <p> 
      <ol id="ol_B12251C510744538AF9BCE60ACB04016"> 
-      <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">Klicka på <span class="uicontrol"> Inställningar</span>. </li> 
+      <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">Välj <span class="uicontrol"> Inställningar</span>. </li> 
       <li id="li_0F4786B0E1E743069D082E7DC488A031">Ange <span class="uicontrol"> ägare</span>, <span class="uicontrol"> visningsprogram</span> eller <span class="uicontrol"> redigerare</span> bredvid varje ägare. </li> 
      </ol> </p> </td> 
   </tr> 
@@ -553,7 +553,7 @@ Nya funktioner och korrigeringar i [!DNL Adobe Experience Cloud] samarbets- och 
 * [!DNL Experience Cloud] länkades inte till  [!DNL Adobe Target]. Problemet uppstod om inloggningen [!DNL Adobe Target] kan användas på flera [!DNL Target]-servrar.
 * [!DNL Adobe Media Optimizer] skapar inte användare automatiskt när användaren har skapats i  [!DNL Experience Cloud].
 * Alternativ i kombinationsrutor som används för att lägga till nya användare försvinner tillfälligt när du skriver.
-* Det gick inte att klicka på kommentarlänken i resurskortvyn.
+* Kommentarslänken i resurskortvyn kunde inte markeras.
 * När du har lagt till en anpassad tagg i en resurs, bevaras inga andra metadataändringar.
 * När en bild tas bort varnar Assets inte om bilden används i Adobe Target Essentials.
 * Sakta [!UICONTROL Experience Cloud]-gränssnittets prestanda när det används parallellt av många användare.
@@ -580,9 +580,9 @@ Nya funktioner och korrigeringar i [!DNL Adobe Experience Cloud] samarbets- och 
    <td colname="col1"> <p>Skapa kort från hjälpavsnitt </p> </td> 
    <td colname="col2"> <p>När du har aktiverat funktionen Dela till Adobe Experience Cloud i webbläsarens bokmärkesverktygsfält kan du nu dela hjälpsidor från mikrowebbplatsens URL. </p> <p> <b>Dela ett hjälpavsnitt</b> </p> 
     <ol id="ol_F94B816121494B0FA16CC07B0E96AED8"> 
-     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>Klicka på <span class="uicontrol"> Administration</span> i <span class="keyword"> Experience Cloud.</span> </p> </li> 
+     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>I <span class="keyword"> Experience Cloud</span> väljer du <span class="uicontrol"> Administration</span>. </p> </li> 
      <li id="li_94EF58E7A4974B63951E14F72A710183"> <p>Dra knappen <span class="uicontrol"> Dela till Adobe Experience Cloud</span> till bokmärkets verktygsfält. </p> </li> 
-     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>Navigera till en hjälpsida (eller stanna kvar på den här) och klicka sedan på <span class="uicontrol"> Dela till Adobe Experience Cloud</span> i webbläsarens bokmärkesverktygsfält. </p> <p>I det här steget skapas ett kort som du kan visa i Experience Cloud<span class="wintitle">.</span> </p> </li> 
+     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>Gå till en hjälpsida (eller stanna kvar på den här) och välj <span class="uicontrol"> Dela till Adobe Experience Cloud</span> i webbläsarens bokmärkesverktygsfält. </p> <p>I det här steget skapas ett kort som du kan visa i Experience Cloud<span class="wintitle">.</span> </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -596,7 +596,7 @@ Nya funktioner och korrigeringar i [!DNL Adobe Experience Cloud] samarbets- och 
 * [!DNL Analytics] på startsidan för lösningen visas formateringsfel.
 * Användarna måste logga ut och logga in igen för att alla ändringar i behörighet och tillstånd ska börja gälla.
 * Om du tar bort en bild varnar [!UICONTROL Assets] inte om bilden används i [!DNL Adobe Target Essentials].
-* Det går inte att klicka på kommentarlänken i resurskortvyn.
+* Kommentarslänken i resurskortvyn kan inte markeras.
 * Alternativ i kombinationsrutor för att lägga till nya användare försvinner tillfälligt när du skriver.
 * Det tar längre tid än en sekund att logga in på [!DNL Experience Cloud].
 * Data som delas från [!DNL Media Optimizer] är felrepresenterade i [!DNL Experience Cloud].
@@ -629,7 +629,7 @@ Version 14.3.1 är en underhållsrelease som fokuserar på hastighet, stabilitet
 * Användarna måste logga ut och logga in igen för att alla ändringar i behörighet och tillstånd ska börja gälla.
 * När *`Remember me`* inte har valts under inloggningen loggas användaren ut efter 15 minuter.
 * [!DNL Analytics] på startsidan för lösningen visas formateringsfel.
-* Länken Kommentarer i resurskortvyn går inte att klicka på.
+* Länken Kommentarer i resurskortvyn kan inte markeras.
 * Experience Cloud-gränssnittet kan bli långsammare när många användare använder det parallellt
 * Experience Cloud kan inte länkas till [!DNL Adobe Target] om inloggningen [!DNL Adobe Target] kan användas på flera målservrar.
 * Det tar längre tid än en sekund att logga in i Experience Cloud.
@@ -673,5 +673,5 @@ Version 14.3.1 är en underhållsrelease som fokuserar på hastighet, stabilitet
 
 * Ett problem som gjorde att delade [!DNL Analytics]-rapporter inte kunde använda segmentfilter har korrigerats.
 * Ett problem som gjorde att lösningar visades på [!UICONTROL Experience Cloud Solutions]-sidan som länkade har korrigerats, även om lösningskontona inte var länkade.
-* Korrigerade ett fel som gjorde att [!DNL Adobe Target]-kunder i Asien inte kunde klicka på knappen **[!UICONTROL Continue to Experience Cloud]** på den länkade sidan.
+* Korrigerade ett problem som gjorde att [!DNL Adobe Target]-kunder i Asien inte kunde välja knappen **[!UICONTROL Continue to Experience Cloud]** på den länkade sidan.
 * Ett problem som gjorde att YouTube-videor inte kunde delas har åtgärdats.
