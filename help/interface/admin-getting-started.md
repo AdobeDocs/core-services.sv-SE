@@ -8,9 +8,9 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1237'
 ht-degree: 2%
 
 ---
@@ -40,10 +40,10 @@ Du kan skapa en produktprofil och tilldela den till en behörighetsgrupp.
 
 När du bjuder in en användare till en organisation kan du ge användaren tillgång till produkter och produktprofiler. Du kan även delegera begränsade administrativa behörigheter till en användare. På samma sätt kan du skapa användargrupper och sedan lägga till gruppen i en produktprofil för att aktivera åtkomst.
 
-1. Klicka på **[!UICONTROL Products]** i [Admin Console](https://adminconsole.adobe.com/enterprise/).
-1. Klicka på ditt organisationsnamn.
-1. Klicka på **[!UICONTROL New Profile]**.
-1. Konfigurera profilinformationen och klicka sedan på **[!UICONTROL Save]**.
+1. I [Admin Console](https://adminconsole.adobe.com/enterprise/) väljer du **[!UICONTROL Products]**.
+1. Välj organisationsnamn.
+1. Välj **[!UICONTROL New Profile]**.
+1. Konfigurera profilinformationen och välj sedan **[!UICONTROL Save]**.
 
 Mer information (och om du vill ha hjälp med Creative Cloud och Document Cloud produkthantering) finns i [Identitet](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/identity.ug.html) i [Användarhandbok för administration](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html).
 
@@ -82,16 +82,16 @@ Du kan till exempel:
 
 Genom att använda de här rollerna kan du delegera hantering till andra utan att ge dem mer kapacitet än de behöver.
 
-1. Klicka på **[!UICONTROL Users]** i Admin Console och sedan på användarens namn.
+1. I Admin Console väljer du **[!UICONTROL Users]** och sedan användarens namn.
 
    ![](assets/edit-admin-rights.png)
 
-1. Klicka på **[!UICONTROL Edit admin rights]**.
+1. Välj **[!UICONTROL Edit admin rights]**.
 
    ![](assets/edit-admin-rights-page.png)
 
 1. Ange användarens administratörsbehörighet.
-1. Klicka på **[!UICONTROL Save]**.
+1. Välj **[!UICONTROL Save]**.
 
 ## Hantera Analytics-användare och -produkter {#section_97DE101F92CD494AB073893680992F1A}
 
@@ -99,8 +99,8 @@ Du kan tilldela åtkomstbehörigheter för analysrapporter (rapportsviter, mätv
 
 Du kan till exempel skapa en produktprofil som innehåller flera analysverktyg ([!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics] och [!UICONTROL Report Builder]). Dessa profiler innehåller behörigheter till specifika mått och mått (inklusive eVars) och funktioner som att skapa segment eller beräknade mätvärden.
 
-1. Logga in på [Admin Console](https://adminconsole.adobe.com/enterprise) och klicka sedan på **[!UICONTROL Products]**.
-1. Klicka på produkten på sidan [!UICONTROL Products], klicka sedan på **[!UICONTROL Permissions]** (endast för administratörer).
+1. Logga in på [Admin Console](https://adminconsole.adobe.com/enterprise) och välj sedan **[!UICONTROL Products]**.
+1. På sidan [!UICONTROL Products] väljer du produkten och sedan **[!UICONTROL Permissions]** (endast för administratörer).
 1. Konfigurera profilens behörigheter:
 
 | Element | Beskrivning |
