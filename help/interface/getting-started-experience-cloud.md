@@ -9,7 +9,7 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '921'
 ht-degree: 3%
@@ -28,12 +28,12 @@ Om du loggar in på Experience Cloud (i stället för att logga in i en enda lö
 
 Logga in och verifiera att du är i rätt [organisation](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1).
 
-1. Klicka på menyn Experience Cloud ( ![](assets/menu-icon.png)) och sedan på **[!UICONTROL Administration]**.
+1. Markera Experience Cloud-menyn ( ![](assets/menu-icon.png)) och välj **[!UICONTROL Administration]**.
 
    Om länken **[!UICONTROL Administration]** inte visas är du inte Experience Cloud-administratör för den visade [organisationen](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1). Om du behöver hjälp med att bli administratör kontaktar du kundtjänst eller en befintlig Experience Cloud-administratör i ditt företag.
-1. Klicka på **[!UICONTROL Administration]**.
+1. Välj **[!UICONTROL Administration]**.
 
-1. Fortsätt genom att klicka på någon av följande länkar:
+1. Fortsätt genom att välja någon av följande länkar:
 
 | Element | Beskrivning |
 |--- |--- |
@@ -56,11 +56,11 @@ Hjälp för icke-administrativa användare som loggar in på Experience Cloud.
 
 
 1. Navigera till [Adobe Experience Cloud](https://experience.adobe.com) ([!DNL experience.adobe.com]).
-1. Klicka på **[!UICONTROL Sign In With Adobe ID]**.
+1. Välj **[!UICONTROL Sign In With Adobe ID]**.
 
    Din Experience Cloud-administratör kan hjälpa dig att fastställa kontotypen (Adobe ID eller Enterprise ID).
 
-1. På landningssidan klickar du på väljarikonen ![](assets/menu-icon.png) för att öppna den nedrullningsbara menyn.
+1. På landningssidan väljer du väljarikonen ![](assets/menu-icon.png) för att öppna den nedrullningsbara menyn.
 
    ![](assets/experience-cloud-core-services.png)
 
@@ -70,19 +70,19 @@ Hjälp för icke-administrativa användare som loggar in på Experience Cloud.
 
 Du kan redigera personlig information och ange en standardsida för [organisation](admin-getting-started.md#concept_705C626560A54CA2A4215F1C870C42B2) och en landningssida som ska visas när du har loggat in på Experience Cloud.
 
-1. Logga in på Experience Cloud och klicka sedan på din profilikon.
+1. Logga in på Experience Cloud och välj sedan din profilikon.
 
    ![](assets/edit-profile.png)
-1. Klicka på **[!UICONTROL Edit Profile]**.
+1. Välj **[!UICONTROL Edit Profile]**.
 
    ![](assets/default-organization.png)
-1. Fortsätt konfigurera och redigera personlig information och klicka sedan på **[!UICONTROL Save Changes]**.
+1. Fortsätt konfigurera och redigera personlig information och välj sedan **[!UICONTROL Save Changes]**.
 
 ## Aktivera meddelanden {#concept_0105453AD71847B8BFCAF4A40915F157}
 
 Få meddelanden (via e-post eller i produkten) om systemuppdateringar, underhållsmeddelanden, meddelanden, omnämnanden och delade resurser. Du kan också ange de produkter och lösningar som du vill få meddelanden om, inklusive överföringsstatus för kundattribut.
 
-Om du vill navigera till Meddelanden klickar du på ikonen **[!UICONTROL Notifications]** ![](assets/notifications-icon.png) och sedan på ikonen **[!UICONTROL Settings]** ![](assets/icon_edit_board.png).
+Om du vill navigera till Meddelanden väljer du ikonen **[!UICONTROL Notifications]** ![](assets/notifications-icon.png) och väljer sedan ikonen **[!UICONTROL Settings]** ![](assets/icon_edit_board.png).
 
 Du kan sortera meddelandevisningen baserat på de meddelandetyper som är viktiga för dig och söka efter meddelanden. Du kan även:
 
@@ -115,17 +115,17 @@ Du kan redigera din Experience Cloud-profil, ange en standardorganisation och en
 
 1. Logga in på Experience Cloud.
 
-1. Klicka på din profilbild på Experience Cloud.
+1. På Experience Cloud väljer du din profilbild.
 
    ![](assets/edit-profile.png)
-1. Klicka på **[!UICONTROL Edit Profile]**.
+1. Välj **[!UICONTROL Edit Profile]**.
 
    Fyll i fälten och alternativen under Personlig information på sidan Profil och lösenord.
 
 ## Återställa lösenordet {#task_46541A2806164CB1A4AE8239604E4EB1}
 
 1. Gå till inloggningssidan för lösningen.
-1. Klicka på **[!UICONTROL Forgot Password]**.
+1. Välj **[!UICONTROL Forgot Password]**.
 
    Lösenordslänkningsproblem för Experience Cloud bör åtgärdas genom att ett lösenord återställs.
 
