@@ -7,7 +7,7 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 4e9f0f7a-8e16-4473-af4a-3e74ad50c044
-source-git-commit: 978f2214cd802562880a3aff82677e033229c0a4
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1085'
 ht-degree: 0%
@@ -35,17 +35,17 @@ Organisationer är nedtonade om du inte har administratörsbehörighet för Anal
 
 1. Navigera till Report Suites for Data Governance på [!DNL Analytics] > **[!UICONTROL Admin]** > **[!UICONTROL Data Governance]** (se [Visa/hantera Report Suites inställning för datastyrning](https://experienceleague.adobe.com/docs/analytics/admin/data-governance/gdpr-view-settings.html?lang=en))
 
-1. Klicka på **[!UICONTROL Visible to Login Companies]** om du vill visa de inloggningsföretag som har åtkomst till de olika rapportsviterna.
+1. Om du vill visa de inloggningsföretag som har åtkomst till varje rapportserie väljer du **[!UICONTROL Visible to Login Companies]**.
 
    Den här vyn är avsedd att hjälpa dig att fatta ett välgrundat beslut om mappningen.
 
-1. Klicka på listrutan i kolumnen **[!UICONTROL Mapped Organization]** bredvid en rapportserie och välj den organisation som du vill mappa till.
+1. Markera listrutan i kolumnen **[!UICONTROL Mapped Organization]** bredvid en rapportserie och välj den organisation som du vill mappa till.
 
    Tips om hur du väljer en Experience Cloud-organisation finns i nästa avsnitt.
 
 ## Mappa flera rapportsviter till en organisation {#task_94955B0D8ABA4CB1A38746ECF8E32711}
 
-1. Klicka på **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suite Mapping]**.
+1. Välj **[!UICONTROL Experience Cloud]** > **[!UICONTROL Administration]** > **[!UICONTROL Report Suite Mapping]**.
 
 1. Välj de rapportsviter som du vill mappa.
 
@@ -55,7 +55,7 @@ Organisationer är nedtonade om du inte har administratörsbehörighet för Anal
 
    Tips om hur du väljer en Experience Cloud-organisation finns i nästa avsnitt.
 
-1. Klicka på **[!UICONTROL Save Mapping]**.
+1. Välj **[!UICONTROL Save Mapping]**.
 
 ## Tips för att välja en Experience Cloud-organisation {#mapping-tips}
 
