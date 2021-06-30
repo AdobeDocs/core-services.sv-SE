@@ -9,7 +9,7 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: 6031e544-822b-4843-b3d8-98a36a3c40e8
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 1%
@@ -49,7 +49,7 @@ Vägledning och begränsningar när du använder [!UICONTROL Customer Attributes
 | **(Endast Adobe Target)** Hur fungerar  [!UICONTROL Customer Attributes] funktionerna jämfört med Adobe Target massprofils-API? | Massprofilens API gör att Adobe Target-profiler kan uppdateras direkt via API:t, antingen för en enskild profil eller gruppvis. Funktionen liknar kundattribut, med följande viktiga skillnader:<ul><li>Profil-API är ett REST API-anrop och kundattribut använder FTP.</li><li>Adobe Target profil-API skickar bara data till Adobe Target i stället för till hela Experience Cloud.</li><li>Kundattribut är ett enkelt gränssnitt för att skapa och hantera externa data.</li></ul> |
 | **(Endast Adobe Target)** förlänger överföringen av data från kundattribut till Adobe Target Adobe Target-besökarens profillivslängd? | Ja. Se [Livstid för besöksprofil](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/visitor-profile.html?lang=en) i hjälpen för Adobe Target. |
 | **(Endast Adobe Target)** Kan jag rikta in mig på de data som överförs i kundattribut omedelbart efter det att besökaren har identifierats av kund-ID:t? | Ja. På serveranropet till Adobe Target, som innehåller mbox-ID:t, finns alla kundattributsdata tillgängliga. |
-| **(Endast Adobe Target)** Vad representerar  **[!UICONTROL Sync Status]** kolumnen för filer som överförs i källan för kundattribut? | Du kan visa antalet poster som publicerats och synkroniserats av Adobe Target genom att klicka på ikonen Synkroniseringsstatus mot en viss attributfil. `Sync %` är ett realtidsmått som anger procentandelen profiler som har synkroniserats i Adobe Target.<br> **Obs!** Det kan ta upp till 24 timmar innan attribut synkroniseras med Adobe Target. |
+| **(Endast Adobe Target)** Vad representerar  **[!UICONTROL Sync Status]** kolumnen för filer som överförs i källan för kundattribut? | Du kan visa antalet poster som publicerats och synkroniserats av Adobe Target genom att välja ikonen Synkroniseringsstatus mot en viss attributfil. `Sync %` är ett realtidsmått som anger procentandelen profiler som har synkroniserats i Adobe Target.<br> **Obs!** Det kan ta upp till 24 timmar innan attribut synkroniseras med Adobe Target. |
 | Vad representerar mätvärdena för filöverföring i kundattributskällan? | Du kan kontrollera statusen för attribut som överförts till kundattribut med hjälp av följande mått: <ul><li>Poster:  Antal poster i attributfilen.</li><li>**Nya poster:** Antal nya poster i attributfilen.</li> <li>**Uppdaterade poster:** Antal poster i kundattribut med uppdaterade värden i filen.</li><li>**Alla data (poster):** Totalt antal poster som har överförts till kundattribut.</li></ul> |
 
 {style=&quot;table-layout:auto&quot;}
