@@ -8,7 +8,7 @@ topic: Administrering
 role: Administrator
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 1%
@@ -21,7 +21,7 @@ Implementera DNS-förhämtning för att minska sidinläsningstiden med olika lö
 
 ## Om DNS-förhämtning {#section_772BF9CB7C4141DE9B0355146E2CD962}
 
-Webbläsare använder DNS-förhämtning för att automatiskt matcha domännamn som är länkade på en webbsida med deras motsvarande IP-adresser. Förhämtningsprocessen startar när webbläsaren läser in en webbsida. Anta till exempel att sidan innehåller en klickbar länk till `www.adobe.com`. När en webbläsare läser in den här sidan använder den [DNS-systemet](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/) för att söka efter det länkade domännamnet och matcha det med en motsvarande numerisk IP-adress. DNS-förhämtning hjälper till att förbättra sidans prestanda eftersom domännamnet redan har matchats med en IP-adress innan en besökare klickar på länken eller knappen. DNS-förhämtningsprocessen är genomskinlig för användarna.
+Webbläsare använder DNS-förhämtning för att automatiskt matcha domännamn som är länkade på en webbsida med deras motsvarande IP-adresser. Förhämtningsprocessen startar när webbläsaren läser in en webbsida. Anta till exempel att sidan innehåller en markeringsbar länk till `www.adobe.com`. När en webbläsare läser in den här sidan använder den [DNS-systemet](https://www.networksolutions.com/support/what-is-a-domain-name-server-dns-and-how-does-it-work/) för att söka efter det länkade domännamnet och matcha det med en motsvarande numerisk IP-adress. DNS-förhämtning hjälper till att förbättra sidans prestanda eftersom domännamnet redan har matchats med en IP-adress innan en besökare klickar på länken eller knappen. DNS-förhämtningsprocessen är genomskinlig för användarna.
 
 ## DNS-förhämtning och Adobe Experience Cloud-lösningar {#section_202A07F9F79F4ABDA44B98BA1DDCD516}
 
