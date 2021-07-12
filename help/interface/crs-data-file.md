@@ -6,12 +6,12 @@ title: 'Läs mer om datafiler och datakällor för kundattribut '
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 feature: Kundattribut
 topic: Administrering
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: eef7326f9f04f68eefb60b5d9fd4cc91cbe52119
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
-source-wordcount: '1193'
+source-wordcount: '1187'
 ht-degree: 0%
 
 ---
@@ -121,7 +121,7 @@ Samma fil som visas i en textredigerare:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Flera filer </p> </td> 
-   <td colname="col2"> <p>När du överför kundattributdata, och om du har flera filer som du vill överföra i snabb följd, och särskilt om filerna är stora, bör du kontrollera att den föregående filen har bearbetats innan du överför nästa fil. Du kan övervaka detta genom att kontrollera när den tidigare filen har flyttats till den bearbetade eller misslyckade mappen i FTP-kontot för [!UICONTROL Customer Attributes]. </p> <p> Att dela upp en stor fil i mindre filer och skicka in dem i snabb följd kan i själva verket göra bearbetningen långsammare, såvida du inte kan säkerställa att varje fil bearbetas innan du skickar in nästa. </p> </td> 
+   <td colname="col2"> <p>När du överför kundattributdata, och om du har flera filer som du vill överföra i snabb följd, och särskilt om filerna är stora, bör du kontrollera att den föregående filen har bearbetats innan du överför nästa fil. Du kan övervaka detta genom att kontrollera när den föregående filen har flyttats till den bearbetade eller misslyckade mappen i ditt [!UICONTROL Customer Attributes] FTP-konto. </p> <p> Att dela upp en stor fil i mindre filer och skicka in dem i snabb följd kan i själva verket göra bearbetningen långsammare, såvida du inte kan säkerställa att varje fil bearbetas innan du skickar in nästa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Teckenkodning </p> </td> 
@@ -129,7 +129,7 @@ Samma fil som visas i en textredigerare:
   </tr> 
    <tr> 
    <td colname="col1"> <p>Historiska data </p> </td> 
-   <td colname="col2"> <p> Kundattribut är knutna till den underliggande besökarprofilen i [!DNL Analytics]. Därför är [!UICONTROL-kundattribut] associerade med besökaren under hela besökarprofilens livstid i [!DNL Analytics]. Den här profilen innehåller beteenden som inträffade innan kunden loggade in för första gången. </p> <p> Om du använder metoden för bakåtfyllnad i Data warehouse är data knutna till en post_visid_high/low som är baserad på analys-ID (AID). Om du använder Experience Cloud ID-tjänsten är data knutna till en post_visid_high/low som är baserad på Experience Cloud ID (MID). </p> </td> 
+   <td colname="col2"> <p> Kundattribut är knutna till den underliggande besökarprofilen i [!DNL Analytics]. Därför är [!UICONTROL Customer Attributes] associerat med besökaren under hela besökarprofilens livstid i [!DNL Analytics]. Den här profilen innehåller beteenden som inträffade innan kunden loggade in för första gången. </p> <p> Om du använder metoden för bakåtfyllnad i Data warehouse är data knutna till en post_visid_high/low som är baserad på analys-ID (AID). Om du använder Experience Cloud ID-tjänsten är data knutna till en post_visid_high/low som är baserad på Experience Cloud ID (MID). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dataflöden </p> </td> 
