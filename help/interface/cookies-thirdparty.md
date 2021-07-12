@@ -6,17 +6,17 @@ title: 'Hur ändringar i stödet för cookies från tredje part påverkar kunder
 uuid: 27332e0d-6932-4a6e-b97b-0adeced0b050
 feature: Cookies
 topic: Administrering
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 3d12a1b1-c952-4b42-815d-f64b31429cec
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '267'
 ht-degree: 2%
 
 ---
 
-# Hur ändringar av stöd för cookies från tredje part påverkar kunder{#how-changes-to-third-party-cookie-support-impacts-customers}
+# Hur ändringar i stödet för cookies från tredje part påverkar kunderna{#how-changes-to-third-party-cookie-support-impacts-customers}
 
 Stödet för cookies från tredje part har blivit mer begränsat i olika webbläsare. Adobe har därför arbetat med nya lösningar som noggrant balanserar kundens krav med konsumentens rätt till integritet mellan olika Experience Cloud-tillämpningar.
 
