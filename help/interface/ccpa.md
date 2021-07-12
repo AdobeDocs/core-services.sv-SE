@@ -3,10 +3,10 @@ title: 'Customer Attributes Support for California Consumer Privacy Act '
 description: Läs mer om stöd för Kundattribut i Kaliforniens konsumentintegritetslag
 feature: Kundattribut
 topic: Administrering
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: 40fd81f8a293dc5bca3b41e8f6e708d1be4bae5d
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 5%
