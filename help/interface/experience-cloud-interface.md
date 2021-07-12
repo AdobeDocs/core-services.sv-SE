@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: 'Experience Cloud centrala gränssnittskomponenter '
 feature: '"Komponenter i det centrala gränssnittet"'
 topic: Administrering
-role: Administrator, User
+role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 1%
