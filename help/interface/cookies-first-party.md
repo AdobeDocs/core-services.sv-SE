@@ -7,10 +7,10 @@ index: y
 snippet: y
 feature: Cookies
 topic: Administrering
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 0%
@@ -174,4 +174,4 @@ När du har verifierat att dina värdnamn svarar och vidarebefordrar till datain
 
 Se [Besökarmigrering](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/visitor-migration.html?lang=en) i Analytics Implementeringshandbok.
 
-När du har överfört JavaScript-filen konfigureras allt för insamling av cookie-data från första part. Adobe rekommenderar att ni övervakar Analytics-rapporter under de kommande timmarna för att säkerställa att datainsamlingen fortsätter som vanligt. Om så inte är fallet kontrollerar du att alla ovanstående steg har slutförts och att någon av de användare i organisationen som stöds kontaktar Kundtjänst.
+När du har överfört JavaScript-filen konfigureras allt för insamling av cookie-data från första part. Adobe rekommenderar att ni övervakar Analytics-rapporter under de kommande timmarna för att säkerställa att datainsamlingen fortsätter som vanligt. Om så inte är fallet kontrollerar du att alla ovanstående steg har slutförts och att någon av de användare i organisationen som stöds kontaktar kundtjänst.
