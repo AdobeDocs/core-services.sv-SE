@@ -8,10 +8,10 @@ title: Aktiveringstjänster i Experience Cloud
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
 feature: Admin Console
 topic: Administrering
-role: Administrator
+role: Admin
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
-source-git-commit: 0069c8b06cbacca6cd9fbdb898d4445931384ebb
+source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 1%
