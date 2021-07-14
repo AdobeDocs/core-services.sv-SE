@@ -8,7 +8,7 @@ topic: Administrering
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: ac15aa02eded86f4f64191e22e7cafc4bb6258ad
+source-git-commit: e198879b806aa0765034d6d0cc2fcf2a6f5e856a
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 2%
@@ -67,8 +67,9 @@ Med den globala sökningen kan du söka efter sökbara affärsobjekt eller entit
 
 ![](assets/platform-search.png)
 
->!![NOTE]
-Den globala sökningen är endast tillgänglig för användare av Experience Platform och Journey Orchestration.
+>[!NOTE]
+>
+>Den globala sökningen är endast tillgänglig för användare av Experience Platform och Journey Orchestration.
 
 ## Hantera kontoinställningar {#preferences}
 
