@@ -9,9 +9,9 @@ topic: Administrering
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 31cfb3a85c255b72cbe5599aca09494c22fe4301
 workflow-type: tm+mt
-source-wordcount: '4143'
+source-wordcount: '4168'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,10 @@ Funktioner, versionsinformation och kända fel för gränssnittskomponenterna i 
 En lista över dokumentationsuppdateringar finns i [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Versionsinformation om alla lösningar finns i [Versionsinformation för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en).
+
+## Juli-2021
+
+Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience League. Tidigare var den här funktionen bara tillgänglig för Experience Platform.
 
 ## Juni - 2021
 
