@@ -9,9 +9,9 @@ topic: Administrering
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '1396'
+source-wordcount: '1378'
 ht-degree: 1%
 
 ---
@@ -70,10 +70,6 @@ Skapa och hantera målgrupper i Experience Cloud Audience Library. Målgrupper k
 
 Hjälp: [Kundattribut](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1)
 
->[!NOTE]
->
->Kundattribut är en äldre tjänst som nu är under efterbehandling.
-
 Om du samlar in data om företagskunder i en CRM-databas (customer relationship management) kan du överföra dessa data till en datakälla för kundattribut i Experience Cloud. Använd data i [!DNL Adobe Analytics] och [!DNL Adobe Target] när de har överförts.
 
 **Tillämpliga lösningar eller tjänster**
@@ -84,10 +80,6 @@ Om du samlar in data om företagskunder i en CRM-databas (customer relationship 
 ## Experience Cloud Assets {#section_92BC5DFDB0E0499CB0DD34B85E06F79A}
 
 Hjälp: [Dela Experience Cloud-mappar med Creative Cloud](creative-cloud.md)
-
->[!NOTE]
->
->Resurser är en äldre bastjänst som nu är under tillsyn.
 
 Dela mappar och resurser mellan Experience Cloud och Creative Cloud. Samarbeta, kommentera i delade resurser och använd dem i Experience Cloud-lösningar som [!DNL Social] och [!DNL Target].
 
