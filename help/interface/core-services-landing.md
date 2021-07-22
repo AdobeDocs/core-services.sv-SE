@@ -7,9 +7,9 @@ topic: Administrering
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '353'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ I den här hjälpen beskrivs följande produkter och tjänster:
 | [Personer - kundattribut](attributes.md) | Bygg upp användningsfall för realtidssamordning med hjälp av kontextuella data lagrade i händelser eller datakällor. [!UICONTROL Journey Orchestration] är en programtjänst som är integrerad i Experience Platform. |
 | [Platstjänst](https://experienceleague.adobe.com/docs/places/using/home.html?lang=en) | Adobe [!UICONTROL Experience Platform Location Service] är en geopositioneringstjänst. Det gör det möjligt för mobilappar med platsmedvetenhet att förstå platskontexten genom att använda avancerade och lättanvända SDK-gränssnitt tillsammans med en flexibel databas med intressepunkter (POI). |
 | [Aktivering](activation.md) | Aktiveringen innehåller den senaste tagghanteringsprodukten Experience Platform Data Collection (Launch) och Experience Cloud Triggers. |
-| [Assets](experience-cloud-assets.md) | Experience Cloud Assets utgör ett enda centralt arkiv av marknadsföringsmaterial som ni kan dela mellan olika lösningar. (Resurser är en äldre tjänst som nu är under tillsyn.) |
+| [Assets](experience-cloud-assets.md) | Experience Cloud Assets utgör ett enda centralt arkiv av marknadsföringsmaterial som ni kan dela mellan olika lösningar. |
 | [Administrering](admin-getting-started.md) | Lär dig mer om att logga in på Admin Console, hantera användarbehörigheter och produktprofiler för Experience Cloud samt webbläsarstöd. |
 | [Cookies](cookies-privacy.md) | Att upprätthålla kundens integritet och datasäkerhet är de viktigaste prioriteringarna på Adobe. Adobe deltar i flera integritetsorganisationer och samarbetar med integritetsreglerande organ och självreglerande principer. |
 
