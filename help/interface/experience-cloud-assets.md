@@ -8,18 +8,14 @@ topic: Administrering
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: aa50cf84ce4e1406d1222f416d9193ff2361fbee
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
 
 # Översikt över Experience Cloud Assets
-
->[!NOTE]
->
->Resurser är en äldre bastjänst som nu är under tillsyn.
 
 Experience Cloud Assets utgör ett enda centralt arkiv av marknadsföringsmaterial som ni kan dela mellan olika lösningar. En resurs är ett digitalt dokument, en bild, en video eller ett ljud (eller en del av ett) som kan ha flera återgivningar och kan ha underresurser (t.ex. lager i en [!DNL Photoshop]-fil, bilder i en [!DNL PowerPoint]-fil, sidor i en PDF-fil, filer i en ZIP-fil).
 
