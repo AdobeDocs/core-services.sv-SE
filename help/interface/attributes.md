@@ -7,20 +7,16 @@ role: Admin
 topic: Administrering
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 12b2758155885386cdc3e6fc7e1a77f2b8e74b6e
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '470'
 ht-degree: 2%
 
 ---
 
 # Översikt över kundattribut
 
->[!IMPORTANT]
->
->[!UICONTROL Customer Attributes] är en äldre tjänst som nu är under efterbehandling.
-
-[!UICONTROL Customer Attributes] i Experience Cloud kan du överföra dina hämtade företagsdata från en CRM-databas (customer relationship management). Du kan överföra data till en Customer Attribute-datakälla i Experience Cloud och sedan använda data i Adobe Analytics och Adobe Target.
+Med kundattribut i Experience Cloud kan du överföra dina hämtade företagsdata från en CRM-databas (customer relationship management). Du kan överföra data till en Customer Attribute-datakälla i Experience Cloud och sedan använda data i Adobe Analytics och Adobe Target.
 
 Navigera till **[!DNL Experience Platform]** > **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**
 
