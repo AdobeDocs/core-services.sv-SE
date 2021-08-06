@@ -10,9 +10,9 @@ topic: Administrering
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 9a232162008524d900e3655716a84961c287c773
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1617'
 ht-degree: 0%
 
 ---
@@ -21,20 +21,18 @@ ht-degree: 0%
 
 Analytics använder cookies för att ge information om variabler och komponenter som inte finns kvar mellan bildbegäranden och webbläsarsessioner. Där det är möjligt använder Adobe cookies från första part för att registrera aktiviteter på din webbplats. För att spela in aktivitet på olika webbplatser, t.ex. andra domäner som du äger, krävs cookies från tredje part.
 
-Många webbläsare och antispionprogram är utformade för att avvisa och ta bort cookies från tredje part, inklusive cookies som används i [!DNL Analytics]-datainsamling. För att underlätta spårningen av hur besökarna interagerar med webbplatsen bör du se till att du har konfigurerat din datainsamling så att den använder cookies från första part:
+Många webbläsare och antispionprogram är utformade för att avvisa och ta bort cookies från tredje part. Adobe ser till att cookies alltid kan anges även om cookies från tredje part blockeras. Det specifika beteendet varierar beroende på om du använder Experience Platform Identity Service (ECID Service) eller Analytics äldre identifierare (s_vi cookie):
 
-Det finns två alternativ för att implementera cookies från första part:
+* [Experience Platform Identity Service (ECID Service)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en) ställer automatiskt in cookies från första part oavsett om din samlingsdomän matchar din webbplatsdomän eller inte. Om de inte matchar använder identitetstjänsten JavaScript för att ange cookies i webbplatsens domän.
+* Om du använder [Analysera äldre identifierare](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en) (även `s_vi`-cookien) beror det på hur du har konfigurerat din datainsamlingsserver. Om datainsamlingsservern matchar webbplatsens domän anges cookies som förstapartsserver. Om samlingsservern inte matchar din aktuella domän anges cookies som tredje part. I det här fallet, om cookies från tredje part blockeras, ställer Analytics in ett [reservid (s_fid)](cookies-analytics.md) i stället för standardcookien &quot;s_vi&quot;.
 
-* Om du använder Experience Platform Identity Service (ECID Service) anges cookies automatiskt i förstahandskontexten med JavaScript.
-* Om du använder [!DNL Analytics] äldre identifierare (kallas `s_vi`-cookie) beror det på hur du har konfigurerat din datainsamlingsserver. Om datainsamlingsservern matchar webbplatsens domän anges cookies som förstapartsserver. Om samlingsservern inte matchar din aktuella domän anges cookies som tredje part. Om cookies från tredje part blockeras ställer [!DNL Analytics] in ett [återgångs-ID (s_fid)](cookies-analytics.md) som förstahandsval i stället för standardcookien &quot;s_vi&quot;.
-
-Om du vill vara säker på att din samlingsserver matchar webbplatsens domän kan du använda en CNAME-implementering som tillåter att cookies ställs in i en förstapartskontext. Detta innebär ändringar av företagets DNS-inställningar för att konfigurera ett CNAME-alias så att det pekar mot en värddomän som ligger Adobe. Observera att även om olika Adobe-produkter stöder användning av CNAME används CNAME i samtliga fall för att skapa en tillförlitlig förstapartsslutpunkt för en viss kund och ägs av den kunden. Om du kontrollerar flera domäner kan de använda en enda CNAME-slutpunkt för att spåra användare över sina domäner, men där platsdomänen inte matchar CNAME-domäncookies anges som tredje part.
+Om du vill vara säker på att samlingsservern matchar webbplatsens domän kan du använda en CNAME-implementering som möjliggör vidarebefordran från en anpassad domän som anges i CNAME-implementeringen till Adobe samlingsservrar. Detta innebär ändringar av företagets DNS-inställningar för att konfigurera ett CNAME-alias så att det pekar mot en värddomän som ligger Adobe. Observera att även om olika Adobe-produkter stöder användning av CNAME används CNAME i samtliga fall för att skapa en tillförlitlig förstapartsslutpunkt för en viss kund och ägs av den kunden. Om du kontrollerar flera domäner kan de använda en enda CNAME-slutpunkt för att spåra användare över sina domäner, men där platsdomänen inte matchar CNAME-domäncookies anges som tredje part.
 
 >[!NOTE]
 >
->För båda alternativen gör Apples ITP-program (Intelligent Tracking Prevention) att förstapartscookies är kortlivade i webbläsare som styrs av ITP, som inkluderar Safari i macOS och alla webbläsare i iOS och iPadOS. Från och med november 2020 har båda typerna av cookies sju dagar på sig. Reservation för ändringar.
+>Oavsett om din samlingsdomän matchar din webbplatsdomän så gör Apples ITP-program (Intelligent Tracking Prevention) de cookies från första part som anges av Adobe kortlivade i webbläsare som styrs av ITP, som inkluderar Safari på macOS och alla webbläsare på iOS och iPadOS. Från november 2020 har cookies som anges via CNAME också samma förfallodatum som cookies som anges via JavaScript. Reservation för ändringar.
 
-För det andra alternativet med CNAME kan du, om webbplatsen har säkra sidor med HTTPS-protokollet, arbeta med Adobe för att erhålla ett SSL-certifikat för att implementera cookies från första part. Adobe rekommenderar starkt att du endast använder HTTPS för datainsamling eftersom Adobe släpper stöd för HTTP-samling under andra halvåret 2020.
+Om du vill upprätta en CNAME för datainsamling och om webbplatsen har säkra sidor med HTTPS-protokollet, kan du arbeta med Adobe för att få ett SSL-certifikat.
 
 SSL-certifikatutfärdandeprocessen kan ofta vara förvirrande och tidskrävande. Adobe har därför upprättat ett partnerskap med DigiCert, en branschledande certifikatutfärdare (CA), och utvecklat en integrerad process genom vilken inköp och hantering av dessa certifikat automatiseras.
 
@@ -42,15 +40,15 @@ Med ditt tillstånd arbetar vi med CA för att utfärda, distribuera och hantera
 
 ## Adobe-hanterat certifikatprogram
 
-Adobe Managed Certificate Program rekommenderas för implementering av ett nytt SSL-certifikat för cookies från första part.
+Adobe Managed Certificate Program är den rekommenderade processen för att konfigurera SSL-certifikat från första part som krävs för en CNAME-implementering som ser till att Adobe-samlingsservern matchar din webbplatsdomän.
 
-Med programmet Hanterat certifikat i Adobe kan du implementera ett nytt SSL-certifikat från första part för cookies från första part utan extra kostnad (för dina första 100 CNAME). Om du för närvarande har ett eget kundhanterat SSL-certifikat kan du tala med Adobe kundtjänst om hur du migrerar till det Adobe-hanterade certifikatprogrammet.
+Med programmet Hanterat certifikat i Adobe kan du implementera ett nytt SSL-certifikat från första part utan extra kostnad (för dina första 100 CNAME). Om du för närvarande har ett eget kundhanterat SSL-certifikat kan du tala med Adobe kundtjänst om hur du migrerar till det Adobe-hanterade certifikatprogrammet.
 
 ### Implementera
 
-Så här implementerar du ett nytt SSL-certifikat från första part för cookies från första part:
+Så här implementerar du ett nytt SSL-certifikat från första part för datainsamling:
 
-1. Fyll i formuläret [Begär cookie från första part](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) och öppna en biljett där kundtjänst begär att få konfigurera cookies från första part i programmet som hanteras av Adobe. Varje fält beskrivs i dokumentet med exempel.
+1. Fyll i formuläret [Förste part domain request](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) och öppna en biljett där Customer Care begär att få ställa in förstapartsdatainsamling för det Adobe-hanterade programmet. Varje fält beskrivs i dokumentet med exempel.
 
 2. Skapa CNAME-poster (se instruktionerna nedan).
 
@@ -103,10 +101,6 @@ FPC-specialisten ger dig det konfigurerade värdnamnet och vilken CNAME de ska p
 
 Så länge implementeringskoden inte ändras kommer det här steget inte att påverka datainsamlingen och kan utföras när som helst efter att implementeringskoden har uppdaterats.
 
->[!NOTE]
->
->Experience Cloud Visitor ID-tjänsten är ett alternativ till att konfigurera en CNAME så att cookies från första part aktiveras.
-
 ## Verifiera vidarebefordran av värdnamn {#validate}
 
 Följande metoder är tillgängliga för validering:
@@ -157,7 +151,7 @@ Address: 54.187.216.46
 
 ## Uppdatera implementeringskod {#update}
 
-Innan du redigerar kod på din webbplats för att använda cookies från första part måste du uppfylla följande krav:
+Innan du redigerar kod på din webbplats för att använda datainsamling från första part måste du uppfylla följande krav:
 
 * Begär ett SSL-certifikat genom att följa stegen ovan i *Implementera*-avsnittet i [Adobe-hanterat certifikatprogram](#adobe-managed-certificate-program).
 * Skapa CNAME-poster (se ovan).
@@ -166,12 +160,12 @@ Innan du redigerar kod på din webbplats för att använda cookies från första
 När du har verifierat att dina värdnamn svarar och vidarebefordrar till datainsamlingsservrar i Adobe kan du ändra implementeringen så att den pekar på dina egna värdnamn för datainsamling.
 
 1. Öppna JavaScript-huvudfilen (`s_code.js/AppMeasurement.js`).
-1. Om du vill uppdatera kodversionen ersätter du hela `s_code.js/AppMeasurement.js`-filen med den nyare versionen och ersätter eventuella plugin-program eller anpassningar. **Eller** om du vill uppdatera koden som bara är relevant för cookies från första part ska du leta reda på variablerna s.trackingServer och s.trackingServerSecure (om du använder SSL) och peka dem mot dina nya värdnamn för datainsamling. Använda mysite.com som exempel:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
+1. Om du vill uppdatera kodversionen ersätter du hela `s_code.js/AppMeasurement.js`-filen med den nyare versionen och ersätter eventuella plugin-program eller anpassningar. **Eller** om du vill uppdatera koden som bara är relevant för datainsamling från första part ska du leta reda på variablerna s.trackingServer och s.trackingServerSecure (om du använder SSL) och peka dem mot dina nya värdnamn för datainsamling. Använda mysite.com som exempel:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
 
 1. Överför den uppdaterade JavaScript-huvudfilen till din webbplats.
 
-1. Om du går över till cookies från en långvarig implementering, eller byter till ett annat värdnamn för en egen samling, rekommenderar Adobe att du migrerar besökare från den tidigare domänen till den nya domänen.
+1. Om du övergår till en datainsamling från en långvarig implementering, eller byter till ett annat värdnamn för en egen samling, rekommenderar Adobe att du migrerar besökare från den tidigare domänen till den nya domänen.
 
 Se [Besökarmigrering](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/visitor-migration.html?lang=en) i Analytics Implementeringshandbok.
 
-När du har överfört JavaScript-filen konfigureras allt för insamling av cookie-data från första part. Adobe rekommenderar att ni övervakar Analytics-rapporter under de kommande timmarna för att säkerställa att datainsamlingen fortsätter som vanligt. Om så inte är fallet kontrollerar du att alla ovanstående steg har slutförts och att någon av de användare i organisationen som stöds kontaktar kundtjänst.
+När du har överfört JavaScript-filen konfigureras allt för insamling av förstahandsdata. Adobe rekommenderar att ni övervakar Analytics-rapporter under de kommande timmarna för att säkerställa att datainsamlingen fortsätter som vanligt. Om så inte är fallet kontrollerar du att alla ovanstående steg har slutförts och att någon av de användare i organisationen som stöds kontaktar kundtjänst.
