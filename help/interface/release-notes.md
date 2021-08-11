@@ -9,9 +9,9 @@ topic: Administrering
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 31cfb3a85c255b72cbe5599aca09494c22fe4301
+source-git-commit: 1ab2027e60dd0cd6d62986dfd18922bd8c3de2d3
 workflow-type: tm+mt
-source-wordcount: '4168'
+source-wordcount: '4219'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,12 @@ Funktioner, versionsinformation och kända fel för gränssnittskomponenterna i 
 En lista över dokumentationsuppdateringar finns i [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Versionsinformation om alla lösningar finns i [Versionsinformation för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en).
+
+## Augusti - 2021
+
+| Funktion | Datum | Beskrivning |
+| ------- | ------- | -------|
+| [!UICONTROL Unified Recents] - Utökat stöd för nyligen använda affärsobjekt | 10 augusti 2021 | [!UICONTROL Unified Recents] utvidgas till att omfatta ytterligare affärsobjekt i Journey Optimizer och Experience Platform. Journey Optimizer-kunder kan hitta sina nyligen använda objekt (meddelanden, resor, segment, scheman, datauppsättningar, datakällor, händelser, åtgärder, källor och destinationer) från Adobe Journey Optimizer hemsida. |
 
 ## Juli-2021
 
