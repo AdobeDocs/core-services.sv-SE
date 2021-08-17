@@ -9,9 +9,9 @@ topic: Administrering
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '2211'
+source-wordcount: '2208'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ I följande avsnitt beskrivs hur du moderniserar implementeringen. Genom att mod
 
 [!UICONTROL Experience Cloud ID Service] tillhandahåller ett gemensamt ID för integrering mellan lösningar. Det ger identifiering av besökare över domäner och en sökväg för målinriktning och personalisering mellan olika enheter/webbläsare baserat på CRM-data som överförts via [!UICONTROL Customer Attributes].
 
-Det enklaste sättet att aktivera Experience Cloud bastjänster är att aktivera det automatiskt för Analytics och Adobe Target via [Experience Cloud ID-tjänsttillägget](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en#extensions-ref) i [!UICONTROL Experience Platform Launch].
+Det enklaste sättet att aktivera Experience Cloud bastjänster är att aktivera det automatiskt för Analytics och Adobe Target via [Experience Cloud ID-tjänsttillägget](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en) i [!UICONTROL Experience Platform Launch].
 
 Fullständig hjälp om Experience Cloud ID-tjänsten (tidigare besökar-ID) finns [här](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en#intro).
 
@@ -139,12 +139,12 @@ Experience Cloud-tjänster (som Experience Cloud ID-tjänsten och [!UICONTROL Pe
 
 Om du använder Analytics bör du kontrollera att du använder regional datainsamling (RDC). Om din datainsamlingsdomän är `omtrdc.net`, eller om CNAME är mappad till `omtrdc.net`, använder du RDC. Mer information finns i [Övergång till RDC](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html?lang=en). Om du använder cookies från första part läser du [CNAME och Experience Cloud ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html?lang=en) för information om CNAME för datainsamling och spårning mellan domäner.
 
-Vi rekommenderar att du moderniserar din Analytics-implementering genom att uppdatera dina JavaScript-bibliotek, inklusive Visitor API. Det enkla sättet att uppnå detta är att lägga till ett [Adobe Analytics-tillägg](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/analytics-extension/overview.html?lang=en) i Experience Platform Data Collection (Launch).
+Vi rekommenderar att du moderniserar din Analytics-implementering genom att uppdatera dina JavaScript-bibliotek, inklusive Visitor API. Det enkla sättet att uppnå detta är att lägga till ett [Adobe Analytics-tillägg](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html?lang=en) i Experience Platform Data Collection (Launch).
 
 ## Uppdatera implementeringen av Adobe Target {#section_C2F4493C7A36406DAE2266B429A4BD24}
 
-* Vi rekommenderar att du lägger till ett [Adobe Target-tillägg](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/targetv2-extension/adobe-target-extension-v2.html?lang=en) i [!UICONTROL Experience Platform Launch] så att bibliotekshämtningen är automatisk. Du kan också ställa in [Experience Cloud ID-tjänsttillägget](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/id-service-extension/overview.html?lang=en) för Adobe Target (och andra lösningar) med [!UICONTROL Experience Platform Launch]. [!UICONTROL Experience Cloud ID Service]-uppdateringen **krävs** för att Adobe Target ska kunna använda bastjänsterna.
-* Om du inte använder [!UICONTROL Experience Platform Launch] ska du [uppdatera mbox-biblioteket](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/mbox-implement/target-download-config-mbox.html?lang=en) manuellt.
+* Vi rekommenderar att du lägger till ett [Adobe Target-tillägg](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target-v2/overview.html?lang=en) i [!UICONTROL Experience Platform Launch] så att bibliotekshämtningen är automatisk. Du kan också ställa in [Experience Cloud ID-tjänsttillägget](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/id-service/overview.html?lang=en) för Adobe Target (och andra lösningar) med [!UICONTROL Experience Platform Launch]. [!UICONTROL Experience Cloud ID Service]-uppdateringen **krävs** för att Adobe Target ska kunna använda bastjänsterna.
+* Om du inte använder [!UICONTROL Experience Platform Launch] ska du [uppdatera mbox-biblioteket](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/implement-target-for-client-side-web.html?lang=en) manuellt.
 * Begär åtkomst att använda Adobe Analytics som rapportkälla för [!DNL Adobe Target]. [!DNL Target] och  [!DNL Analytics] data kombineras på samma serveranrop under bearbetningen så att besökarna är sammankopplade mellan de två lösningarna. Se [Analys för målimplementering](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en).
 
    >[!IMPORTANT]
@@ -153,7 +153,7 @@ Vi rekommenderar att du moderniserar din Analytics-implementering genom att uppd
 
 ## Verifiera implementeringen {#section_E641782A0F4F44AF8C9C91216BE330D5}
 
-Använd följande process för att säkerställa att Experience Cloud ID-tjänsten implementeras korrekt på din webbplats.
+Använd följande process för att se till att Experience Cloud ID-tjänsten implementeras korrekt på din webbplats.
 
 1. Rensa cookies för din webbplats så att du kan se begäran till Experience Cloud ID-tjänsten (begäran görs vid första besöket och sedan en gång per besökare per vecka).
 1. Använd en paketanalyserare eller nätverkspanelen i en webbläsarfelsökare och leta efter en begäran som ska gå till [!DNL dpm.demdex.net].
