@@ -11,7 +11,7 @@ topic: Administrering
 role: Admin
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 1%
@@ -26,7 +26,7 @@ Aktiveringen innehåller den senaste tagghanteringsprodukten som heter Experienc
 
 Driftsätt och hantera de analyser, marknadsförings- och annonstaggar som behövs för att skapa relevanta kundupplevelser.
 
-Se [Experience Platform Launch QuickStart Guide](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html?lang=en).
+Se [Experience Platform Launch QuickStart Guide](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en).
 
 ## Experience Cloud [!UICONTROL Triggers] {#section_EEA3A8B5EFCB4F8BABC4ADAF3DD41831}
 
