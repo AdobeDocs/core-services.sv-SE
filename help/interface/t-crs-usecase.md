@@ -9,9 +9,9 @@ topic: Administrering
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1083'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ Utför dessa steg på sidan Skapa ny källa för kundattribut i Experience Cloud
 
       Alias-ID motsvarar vissa områden där du anger ytterligare värden för Kund-ID. Exempel:
 
-      * **Dynamisk tagghantering:** Alias-ID motsvarar  *Integration* Codevalue under  [!UICONTROL Customer Settings], i  [Experience Cloud ID ](https://experienceleague.adobe.com/docs/dtm/using/tools/macid.html?lang=en) Service Tool.
+      * **Dynamisk tagghantering:** Alias-ID motsvarar  *Integration* Codevalue under  [!UICONTROL Customer Settings], i  [Experience Cloud ID ](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) Service Tool.
 
       * **Besökar-API:t:** Alias-ID:t motsvarar de ytterligare  [kund-ID:n ](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en) som du kan associera med varje besökare.
 
