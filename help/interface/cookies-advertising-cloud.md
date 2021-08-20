@@ -7,9 +7,9 @@ topic: Administrering
 role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 1f2dd42b4803517e6c513038c00b2070c08a51bb
 workflow-type: tm+mt
-source-wordcount: '538'
+source-wordcount: '571'
 ht-degree: 4%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 4%
 # Advertising Cloud Cookies{#advertising-cloud-cookies}
 
 Advertising Cloud använder cookies för att mappa annonsengagemang till konverteringshändelser och, eventuellt, för att använda informationen för att optimera annonserbjudanden.
+
+>[!NOTE]
+>
+>Den betatagg-tagg för Advertising Cloud Javascript som använder [Adobe Experience Cloud ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) skapar [cookies för första part-Experience Cloud s_ecid](cookies-first-party.md), inte Advertising Cloud-cookies.
 
 ## Cookie-namn: lcc
 
