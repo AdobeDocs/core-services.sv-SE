@@ -8,7 +8,7 @@ topic: Administrering
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
+source-git-commit: 4534f764ea821576c3ac5cd1959d387a3689e837
 workflow-type: tm+mt
 source-wordcount: '1273'
 ht-degree: 2%
@@ -89,7 +89,7 @@ Alla programteam arbetar för globalt språkstöd, men alla program finns inte p
 
 ## Få hjälp och support {#support}
 
-Lär dig mer och hjälp med hjälpikonen (![resurs](assets\help-icon.png)) i sidhuvudet, inklusive hjälpinnehåll (dokumentation, självstudiekurser och kurser) på [Experience League](https://experienceleague.adobe.com/#home), samt ytterligare resurser för enskilda program. Du kan även skicka in öppen feedback och skapa prioriterade supportärenden.
+Lär dig mer och hjälp med hjälpikonen (![resurs](assets/help-icon.png)) i sidhuvudet, inklusive hjälpinnehåll (dokumentation, självstudiekurser och kurser) på [Experience League](https://experienceleague.adobe.com/#home), samt ytterligare resurser för enskilda program. Du kan även skicka in öppen feedback och skapa prioriterade supportärenden.
 
 ![](assets/search-menu.png)
 
