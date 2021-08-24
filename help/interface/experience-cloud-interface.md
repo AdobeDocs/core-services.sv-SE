@@ -1,14 +1,14 @@
 ---
-description: 'Lär dig mer om komponenterna i det centrala gränssnittet i Experience Cloud, inklusive global sökning, dina kontoinställningar, navigering i gränssnittet och hämtning av hjälp. '
+description: 'Lär dig hur du loggar in och om de centrala gränssnittskomponenterna i Experience Cloud. Lär dig mer om global sökning, dina kontoinställningar och hur du navigerar i gränssnittet och får hjälp. '
 solution: Experience Cloud
 title: 'Experience Cloud centrala gränssnittskomponenter '
 feature: '"Komponenter i det centrala gränssnittet"'
 topic: Administrering
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '693'
 ht-degree: 1%
 
 ---
@@ -21,17 +21,54 @@ Experience Cloud centrala gränssnittskomponenter innehåller funktioner som gö
 * Söka efter produkthjälp och affärsobjekt med en global sökning
 * Hantera dina kontoinställningar (aviseringar, aviseringar och prenumerationer)
 
-## Logga in på Experience Cloud
+## Stöd för webbläsare i Experience Cloud {#browser}
+
+För bästa prestanda är Experience Cloud optimerat för de vanligaste webbläsarna, inklusive den senaste versionen, plus de två tidigare.
+
+* Krom
+* Edge
+* Firefox
+* Opera
+* Safari
+
+Om webbläsaren inte finns med i listan kanske den fortfarande stöds, men du bör använda en av webbläsarna i listan.
+
+>[!NOTE]
+>
+>Alla program som körs på Experience Cloud har inte stöd för alla webbläsare. Om du är osäker läser du dokumentationen för ett specifikt program.
+
+## Språkstöd i Experience Cloud {#languages}
+
+Experience Cloud har stöd för de språk som varje användare föredrar, enligt inställningarna för ditt Adobe-användarkonto. Språk som stöds är:
+
+* Kinesiska
+* Engelska
+* Franska
+* Tyska
+* Italienska
+* Japanska
+* Koreanska
+* Portugisiska
+* Spanska
+* Taiwanesiska
+
+Alla programteam arbetar för globalt språkstöd, men alla program finns inte på alla språk som anges ovan. Om ditt primära språk inte stöds i ett Experience Cloud-program kan du även ange ett sekundärt språk som standard till när det är tillämpligt. Detta kan du göra i [användarinställningarna för Experience Cloud](https://experience.adobe.com/preferences).
+
+## Logga in på Experience Cloud {#signin}
 
 Logga in och verifiera att du är i rätt [organisation](organizations.md).
 
 1. Navigera till [Adobe Experience Cloud](https://experience.adobe.com).
 1. Välj **[!UICONTROL Sign in with an Adobe ID]**.
-1. På Adobe Experience Cloud väljer du din organisation.
+1. Kontrollera att du är i rätt organisation.
 
    ![](assets/organizations-menu.png)
 
-   Administratören kan hjälpa dig att verifiera att du är i rätt [organisation](organizations.md).
+   Verifiera att du har loggat in på rätt [organisation](organizations.md) genom att klicka på din profilavatar för att visa organisationsnamnet. Om du har tillgång till mer än en organisation kan du även visa och växla till en annan organisation direkt i sidhuvudsfältet.
+
+   Om din organisation använder Federated ID:n kan du med Experience Cloud logga in med din organisations inloggning utan att behöva ange din e-postadress och ditt lösenord. Om du vill göra det lägger du till `#/sso:@domain` i Experience Cloud-URL:en (`https://experience.adobe.com`).
+
+   För en organisation med Federated ID och domänen `adobecustomer.com` anger du URL-länken till `https://experience.adobe.com/#/sso:@adobecustomer.com`. Du kan också gå direkt till ett specifikt program genom att skapa ett bokmärke för den här URL:en, som bifogas med programsökvägen. (För Adobe Analytics t.ex. `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
 ## Använd Experience Cloud {#navigation}
 
@@ -83,7 +120,7 @@ På [!UICONTROL Experience Cloud preferences] kan du konfigurera följande funkt
 
 {style=&quot;table-layout:auto&quot;}
 
-## Meddelanden
+## Meddelanden {#notifications}
 
 Välj **[!UICONTROL Notifications]** om du vill visa meddelanden som är viktiga för dig och meddelanden från Adobe.
 
