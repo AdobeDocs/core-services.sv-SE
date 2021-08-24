@@ -8,9 +8,9 @@ topic: Administrering
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
+source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '1273'
 ht-degree: 2%
 
 ---
@@ -28,29 +28,68 @@ Från Experience Cloud kan du:
 * Sök efter affärsobjekt globalt med hjälp av en global sökning (endast Experience Platform)
 * Hantera dina kontoinställningar (aviseringar, aviseringar och prenumerationer)
 
-## Logga in på Experience Cloud
+## Logga in på Experience Cloud {#signin}
 
 Logga in och verifiera att du är i rätt [organisation](organizations.md).
 
 1. Navigera till [Adobe Experience Cloud](https://experience.adobe.com).
 1. Välj **[!UICONTROL Sign in with an Adobe ID]**.
-1. På Adobe Experience Cloud väljer du din organisation.
+1. Kontrollera att du är i rätt organisation.
 
    ![](assets/organizations-menu.png)
 
-   Administratören kan hjälpa dig att verifiera att du är i rätt [organisation](organizations.md).
+   **Verifiera din organisation**
+
+   Verifiera att du har loggat in på rätt [organisation](organizations.md) genom att klicka på din profilavatar för att visa organisationsnamnet. Om du har tillgång till mer än en organisation kan du även visa och växla till en annan organisation direkt i sidhuvudsfältet.
+
+   Om din organisation använder Federated ID:n kan du med Experience Cloud logga in med din organisations inloggning utan att behöva ange din e-postadress och ditt lösenord. Om du vill göra det lägger du till `#/sso:@domain` i Experience Cloud-URL:en (`https://experience.adobe.com`).
+
+   För en organisation med Federated ID och domänen `adobecustomer.com` anger du URL-länken till `https://experience.adobe.com/#/sso:@adobecustomer.com`. Du kan också gå direkt till ett specifikt program genom att skapa ett bokmärke för den här URL:en, som bifogas med programsökvägen. (För Adobe Analytics t.ex. `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
 ## Använd Experience Cloud {#navigation}
 
 När du har loggat in på Experience Cloud kan du snabbt komma åt alla program, tjänster och organisationer från det enhetliga huvudet.
 
-Gå till programväljaren ![](assets/menu-icon.png) om du vill få åtkomst till Experience Cloud-tjänster som du äger.
+Gå till programväljaren ![](assets/menu-icon.png) för att få åtkomst till Experience Cloud-program och -tjänster som har etablerats för dig inom din organisation.
 
 ![](assets/platform-core-services.png)
 
-## Få hjälp och support {#search}
+## Stöd för webbläsare i Experience Cloud {#browser}
 
-Enhetlig hjälp är en plats i produkten där du kan söka efter och komma åt hjälpinnehåll (dokumentation, självstudiekurser och kurser) på [Experience League](https://experienceleague.adobe.com/#home). Du kan även skicka in öppen feedback och skapa prioriterade supportärenden.
+För bästa prestanda är Experience Cloud optimerat för de vanligaste webbläsarna, inklusive den senaste versionen, plus de två tidigare.
+
+* Krom
+* Edge
+* Firefox
+* Opera
+* Safari
+
+Om webbläsaren inte finns med i listan kanske den fortfarande stöds, men du bör använda en av webbläsarna i listan.
+
+>[!NOTE]
+>
+>Alla program som körs på Experience Cloud har inte stöd för alla webbläsare. Om du är osäker läser du dokumentationen för ett specifikt program.
+
+## Språkstöd i Experience Cloud {#languages}
+
+Experience Cloud har stöd för de språk som varje användare föredrar, enligt inställningarna för ditt Adobe-användarkonto. Språk som stöds är:
+
+* Kinesiska
+* Engelska
+* Franska
+* Tyska
+* Italienska
+* Japanska
+* Koreanska
+* Portugisiska
+* Spanska
+* Taiwanesiska
+
+Alla programteam arbetar för globalt språkstöd, men alla program finns inte på alla språk som anges ovan. Om ditt primära språk inte stöds i ett Experience Cloud-program kan du även ange ett sekundärt språk som standard till när det är tillämpligt. Detta kan du göra i [användarinställningarna för Experience Cloud](https://experience.adobe.com/preferences).
+
+## Få hjälp och support {#support}
+
+Lär dig mer och hjälp med hjälpikonen (![resurs](assets\help-icon.png)) i sidhuvudet, inklusive hjälpinnehåll (dokumentation, självstudiekurser och kurser) på [Experience League](https://experienceleague.adobe.com/#home), samt ytterligare resurser för enskilda program. Du kan även skicka in öppen feedback och skapa prioriterade supportärenden.
 
 ![](assets/search-menu.png)
 
@@ -61,7 +100,7 @@ Menyn [!UICONTROL Help] ger dig även åtkomst till:
 * **[!UICONTROL Status]:** Navigera till  `https://status.adobe.com/experience_cloud` och kontrollera produktdriftsstatus och  [!UICONTROL Manage Subscriptions].
 * **[!UICONTROL Developer Connection]:** Navigera till  `adobe.io` och hitta dokumentation för utvecklare.
 
-## Sök globalt efter objekt och enheter
+## Sök globalt efter objekt och enheter {#search}
 
 Med den globala sökningen kan du söka efter sökbara affärsobjekt eller entiteter på ett smidigt och enhetligt sätt med ett enda klick. Den här sökningen visar de objekt du nyligen har använt.
 
@@ -69,9 +108,12 @@ Med den globala sökningen kan du söka efter sökbara affärsobjekt eller entit
 
 >[!NOTE]
 >
->Den globala sökningen är endast tillgänglig för Experience Platform, Journey Optimizer, Offers och Experience League.
+>Den globala sökningen är inte tillgänglig i alla Experience Cloud-program, men allt eftersom mer innehåll indexeras läggs det till i relevanta program. Tillgänglighet från och med juli 2021:
 
-## Hantera kontoinställningar {#preferences}
+* Experience Platform
+* Journey Optimizer
+
+## Användarprofil och kontoinställningar {#preferences}
 
 Inställningarna för Experience Cloud omfattar meddelanden, prenumerationer och varningar. På kontoinställningsmenyn kan du:
 
@@ -101,6 +143,17 @@ På [!UICONTROL Experience Cloud preferences] kan du konfigurera följande funkt
 Välj **[!UICONTROL Notifications]** om du vill få meddelanden om relevanta och åtgärdbara uppdateringar, inklusive produktreleaser, underhållsmeddelanden, delade objekt och godkännandebegäranden.
 
 ![](assets/notifications-menu-small.png)
+
+## Experience Cloud domäner {#domains}
+
+Experience Cloud använder följande värdar för att leverera programmet, förbättra prestanda och produktupplevelse. Adobe rekommenderar att du lägger till dessa domäner i tillåtelselista i din brandvägg för att få en optimal upplevelse. Ytterligare domäner kan också användas för särskilda Experience Cloud-program, som Adobe Analytics. Mer information finns i dokumentationen för dessa program.
+
+| Teknik | Domäner |
+|--- |--- |
+| Adobe Experience Cloud domäner | `adobe.com`, `adobe.net`, `adobe.io` |
+| Adobe Identity Management Service (IMS) | `adobelogin.com` |
+| Experience Cloud-teckensnitt | `typekit.net` |
+| Gainsight (för produktvägledning och hjälp) | `esp.aptrinsic.com` |
 
 ## Få hjälp med administration och programövergripande tjänster
 
