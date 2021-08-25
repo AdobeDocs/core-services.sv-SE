@@ -1,20 +1,20 @@
 ---
 description: Läs mer om villkoren i Adobe Experience Cloud och hur de skiljer sig åt i Creative Cloud.
 keywords: resursdelning;målgruppstjänster;Creative Cloud;bastjänster
-seo-description: 'null'
-seo-title: Terminologi
+seo-description: null
+seo-title: Terminology
 solution: Experience Cloud
 title: 'Terminologi '
 uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
-feature: '"Kundattribut"'
-topic: Administrering
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: 2419501884d5cdfc4b418973c52045330abc562f
+source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 2%
+source-wordcount: '1445'
+ht-degree: 1%
 
 ---
 
@@ -40,7 +40,7 @@ En terminologisk referens för Experience Cloud-användare och hur dessa termer 
 | [!UICONTROL Experience Platform Identity Service] | Ingen speciell användning. | Tjänsten som länkar identiteter. Det är en enhetslänkningstjänst för personbaserad upplevelsehantering. |
 | Länkar | Ingen speciell användning. Länkning avser hyperlänksnavigering och länkar till objekt som teckensnitt, egenskaper, lager och så vidare. | I Experience Cloud avser länkning vanligtvis att länka olika lösningskonton till gränssnittet.<br>Se  [Organisationer och kontolänkning](organizations.md).<br>Länkning hänvisar också till vanliga URL:er för analysrapporter som skickas till andra användare. |
 | Platser | I Creative Cloud avser plats filplatser eller en plats i en öppen bild eller ett öppet dokument. | I Experience Cloud är det platser där målgrupperna kan se (och interagera med) innehåll. Kopplingen mellan platser och innehåll kan vara mer eller mindre statisk, eller hanteras dynamiskt enligt reglerna i en kampanj. En plats tillhör alltid en viss kanal som avgör hur innehåll kan levereras och hur mätvärden kan samlas in.<br>Exempel:<ul><li>Sites</li><li>Egenskaper (sociala medier)</li><li>Visa lager</li><li>Landningssidor</li><li>Mobilappar</li><li>Platser (video)</li></ul> |
-| Mätvärden | Används inte i Creative Cloud. | Sammanställ siffror om viktiga koncept och mål. I Analytics är mätvärden kvantitativ information om besökaraktivitet, till exempel Vyer, Genomstrykningar, Läs in igen, Genomsnittlig tid, Enheter, Beställningar och Intäkter. Se [Måttbeskrivningar](https://experienceleague.adobe.com/docs/analytics/components/variables/metrics/metricslist.html?lang=en). |
+| Mätvärden | Används inte i Creative Cloud. | Sammanställ siffror om viktiga koncept och mål. I Analytics är mätvärden kvantitativ information om besökaraktivitet, till exempel Vyer, Genomstrykningar, Läs in igen, Genomsnittlig tid, Enheter, Beställningar och Intäkter. |
 | Organisation | Används inte i Creative Cloud. | En organisation är Experience Cloud som gör det möjligt för en administratör att konfigurera användare och produkter samt att styra enkel inloggning i Experience Cloud. Oftast är det faktureringsföretaget som är organisationen. |
 | Portfolio | En sammansättning med flera filer eller resurser. | En behållare för kampanjer. |
 | Produktprofil | Se [Hantera produkter och profiler](https://helpx.adobe.com/enterprise/using/manage-products.html). | För att en användare ska ha rätt att använda en produkt eller tjänst måste användaren ingå i en produktprofil. Produktadministratören tilldelar licenser till en produktprofil genom att associera den med en plan som du har köpt.<br>En användare kan tillhöra flera produktprofiler där varje produktprofil ger användaren olika licenser. En användares sammanlagda behörighet är kombinationen av alla licenser som följer av varje produktprofil för användaren. |
