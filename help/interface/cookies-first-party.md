@@ -6,13 +6,13 @@ title: '"cookies från första part"'
 index: y
 snippet: y
 feature: Cookies
-topic: Administrering
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 9a232162008524d900e3655716a84961c287c773
+source-git-commit: 1e7c4c02b08a17b2666afc7a82ea44d598675b3c
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1614'
 ht-degree: 0%
 
 ---
@@ -166,6 +166,6 @@ När du har verifierat att dina värdnamn svarar och vidarebefordrar till datain
 
 1. Om du övergår till en datainsamling från en långvarig implementering, eller byter till ett annat värdnamn för en egen samling, rekommenderar Adobe att du migrerar besökare från den tidigare domänen till den nya domänen.
 
-Se [Besökarmigrering](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/visitor-migration.html?lang=en) i Analytics Implementeringshandbok.
+Se [Besökarmigrering](https://experienceleague.adobe.com/docs/analytics/technotes/visitor-migration.html?lang=en) i Analytics Implementeringshandbok.
 
 När du har överfört JavaScript-filen konfigureras allt för insamling av förstahandsdata. Adobe rekommenderar att ni övervakar Analytics-rapporter under de kommande timmarna för att säkerställa att datainsamlingen fortsätter som vanligt. Om så inte är fallet kontrollerar du att alla ovanstående steg har slutförts och att någon av de användare i organisationen som stöds kontaktar kundtjänst.
