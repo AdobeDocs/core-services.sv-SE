@@ -1,18 +1,16 @@
 ---
 description: Information om uppdateringar av hjälpen för Adobe Experience Cloud.
 keywords: Experience Cloud
-solution: Experience Cloud
-title: Dokumentationsuppdateringar
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
-feature: Kundattribut
-topic: Administrering
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: c9a6059b0af9c6229fd72580f997c1c6f2dfbbe4
+source-git-commit: 6b639f6159a800a9d0fee0325a21035884fc2656
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 1%
+source-wordcount: '270'
+ht-degree: 0%
 
 ---
 
