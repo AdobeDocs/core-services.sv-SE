@@ -4,20 +4,20 @@ keywords: resursdelning;Creative Cloud;bastjänster
 solution: Experience Cloud
 title: 'Dela Experience Cloud-mappar och -resurser med Creative Cloud '
 feature: Assets
-topic: Administrering
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 1%
+source-wordcount: '176'
+ht-degree: 0%
 
 ---
 
 # Dela Experience Cloud-mappar och -resurser med Creative Cloud
 
-Dela mappar och resurser mellan Experience Cloud och Creative Cloud. Samarbeta, kommentera i delade resurser och använd dem i Experience Cloud-lösningar som Adobe Social och Adobe Target. Den delade mappen måste komma från Experience Cloud.
+Dela mappar och resurser mellan Experience Cloud och Creative Cloud. Samarbeta, kommentera i delade resurser och använd dem i Experience Cloud-program som Adobe Social och Adobe Target. Den delade mappen måste komma från Experience Cloud.
 
 ## Fördelar med delning {#section_4AA9939F38064280BB181D5F9E1FDEEE}
 
@@ -31,6 +31,6 @@ Innan användare av Creative Cloud har tillgång till resurser måste de vitlist
 
 ## Om resursdelning med Adobe Target {#section_B7CD64CAB35D43A4B12957B304072DC9}
 
-När du skapar aktiviteter i [!DNL Adobe Target] kan du använda en delad bildresurs när du byter bilder i [!UICONTROL Offers Library].
+När du skapar aktiviteter i [!DNL Adobe Target]kan du använda en delad bildresurs när du byter bilder i [!UICONTROL Offers Library].
 
-Se [Erbjudandebibliotek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=en) i [!DNL Target] Hjälp.
+Se [Erbjudandebibliotek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=en) in [!DNL Target] Hjälp.

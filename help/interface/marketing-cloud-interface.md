@@ -1,15 +1,15 @@
 ---
 description: En översikt över nya funktioner och uppdateringar i Experience Cloud.
 keywords: bastjänster
-seo-description: En översikt över nya funktioner och uppdateringar i Experience Cloud.
-seo-title: Nyheter i Experience Cloud
+seo-description: An overview of new features and updates in the Experience Cloud.
+seo-title: What's new in the Experience Cloud
 solution: Experience Cloud
 title: 'Nyheter i Experience Cloud '
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-source-git-commit: 145040facf70c6bde5c6c3fae9c7ed7f520c188d
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 6%
+source-wordcount: '634'
+ht-degree: 3%
 
 ---
 
@@ -47,11 +47,11 @@ Korrigeringar och förbättringar för juni 2018.
 
 ## 10 maj 2018 {#section_498AF78DA17C4720AA0F32B51493E550}
 
-Nya funktioner och korrigeringar i gränssnittet [!DNL Adobe Experience Cloud].
+Nya funktioner och korrigeringar i [!DNL Adobe Experience Cloud] gränssnitt.
 
 | Funktion | Beskrivning |
 |--- |--- |
-| Ny startsida för administration | När du loggar in på Experience Cloud och navigerar till administrationssidan finns det ett nytt intuitivt gränssnitt som hjälper dig att snabbt komma åt dina Experience Cloud-lösningar och bastjänster. |
+| Ny startsida för administration | När du loggar in på Experience Cloud och navigerar till administrationssidan finns det ett nytt intuitivt gränssnitt som hjälper dig att snabbt komma åt dina Experience Cloud-program och bastjänster. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -70,9 +70,9 @@ Många av underhållsmeddelandena runt schemalagt underhåll/produktuppdateringa
 
 | Funktion | Beskrivning |
 |--- |--- |
-| Meddelanden - Detaljerade inställningar | Du kan aktivera meddelanden för produkthändelser och lösningsaktiviteter, inklusive meddelanden om överföringsaktivitet för [kundattribut](attributes.md). |
-| Meddelanden - Underhållsmeddelanden | I Meddelandeinställningarna kan du aktivera underhållsmeddelanden för produkter och lösningar. |
-| Admin Console för Experience Cloud Solutions | Nya Experience Cloud-kunder kan börja använda Admin Console, en central plats för hantering av Adobe i hela organisationen.<br>Migreringen till Admin Console för användarhantering fortsätter i vågor. Adobe kontaktar dig (systemadministratörer) när det är dags att migrera.<br>Analysadministratörer, se   [Analysmigrering](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en). |
+| Meddelanden - Detaljerade inställningar | Du kan aktivera meddelanden för produkthändelser och programaktiviteter, inklusive meddelanden om [Kundattribut](attributes.md) överföringsaktivitet. |
+| Meddelanden - Underhållsmeddelanden | I Meddelandeinställningarna kan du aktivera underhållsmeddelanden för produkter och program. |
+| Admin Console för Experience Cloud Solutions | Nya Experience Cloud-kunder kan börja använda Admin Console, en central plats för hantering av Adobe i hela organisationen.<br>Migreringen till Admin Console för användarhantering fortsätter i vågor. Adobe kontaktar dig (systemadministratörer) när det är dags att migrera.<br>Analysadministratörer, se  [Migrering av analyser](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en). |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -80,8 +80,8 @@ Många av underhållsmeddelandena runt schemalagt underhåll/produktuppdateringa
 
 | Funktion | Beskrivning |
 |--- |--- |
-| Massrapportsvitmappning | I Administration > Rapportsvitsmappning kan du nu välja flera rapportsviter och sedan mappa dem till en organisation. (Tidigare var du tvungen att mappa dem individuellt.)  <br>[Genom att mappa rapportsviterna ](core-services.md) till en enda organisation blir det enklare att aktivera funktioner och tjänster för olika lösningar i Experience Cloud. |
-| Uppdateringar till Experience Cloud-målgrupper | **Använda**<br> rapportsviterNu kan du använda en rapportsvit för alla  [målgruppsregler](t-audience-create.md). (Tidigare var du tvungen att ange en rapportserie i varje regeldefinition.) <br>**Props och**<br> VariablesNu kan du inkludera utkast från analyser och standardvariabler (utöver eVars och händelser) i målgrupper i realtid. |
+| Massrapportsvitmappning | I Administration > Rapportsvitsmappning kan du nu välja flera rapportsviter och sedan mappa dem till en organisation. (Tidigare var du tvungen att mappa dem individuellt.)  <br>[Mappningsrapportsviter](core-services.md) till en och samma organisation möjliggör funktioner och tjänster för olika tillämpningar i Experience Cloud. |
+| Uppdateringar till Experience Cloud-målgrupper | **Tillämpar rapportsviter**<br> Nu kan du använda en rapportsserie för alla [målgruppsregler](t-audience-create.md). (Tidigare var du tvungen att ange en rapportserie i varje regeldefinition.) <br>**Profiler och variabler**<br> Nu kan du inkludera utkast och standardvariabler för Analytics (utöver eVars och events) i målgrupper i realtid. |
 
 {style=&quot;table-layout:auto&quot;}
 
@@ -89,11 +89,11 @@ Många av underhållsmeddelandena runt schemalagt underhåll/produktuppdateringa
 
 | Funktion | Beskrivning |
 |--- |--- |
-| Uppdatera till profil och lösenord | Användare kan inte längre redigera information om IMS-användarprofiler under Personlig information i Redigera profil > Profil och lösenord. I stället omdirigeras användare till `accounts.adobe.com`. Uppdateringen gäller alla identitetstyper (Adobe ID, Enterprise och Federated). |
+| Uppdatera till profil och lösenord | Användare kan inte längre redigera information om IMS-användarprofiler under Personlig information i Redigera profil > Profil och lösenord. I stället omdirigeras användarna till `accounts.adobe.com`. Uppdateringen gäller alla identitetstyper (Adobe ID, Enterprise och Federated). |
 
 {style=&quot;table-layout:auto&quot;}
 
 **Korrigeringar**
 
 * Ett problem med tekniska lösenord som orsakade ett fel vid mappdelning mellan Creative Cloud och Experience Cloud har korrigerats. (MAC-31067, MAC-32014)
-* Korrigerade ett problem med överföringen av vissa filtyper, inklusive PDF, som hittades efter oktoberversionen i tjänsten Assets Core. (MAC-32517)
+* Korrigerade ett problem med överföringen av vissa filtyper, bland annat PDF, som hittades efter oktoberversionen i bastjänsten för Assets. (MAC-32517)

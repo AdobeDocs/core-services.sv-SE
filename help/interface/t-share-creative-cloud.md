@@ -5,14 +5,14 @@ solution: Experience Cloud
 title: 'Dela en Experience Cloud-resursmapp '
 uuid: 105cf627-0148-4bf8-ab6a-7afa612e198c
 feature: Assets
-topic: Administrering
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 3%
+source-wordcount: '322'
+ht-degree: 0%
 
 ---
 
@@ -20,47 +20,47 @@ ht-degree: 3%
 
 Dela en resursmapp för Experience Cloud med Creative Cloud-användare.
 
-1. Välj **[!UICONTROL Share to Creative Cloud]** i en resursmapp.
+1. I en resursmapp väljer du **[!UICONTROL Share to Creative Cloud]**.
 
-   ![Stegresultat](assets/asset-share-cc.png)
+   ![Dela till Creative Cloud](assets/asset-share-cc.png)
 1. På sidan Dela till Creative Cloud söker du efter användaren och väljer **[!UICONTROL Add]**.
 
-   ![](assets/asset-share-cc-page.png)
+   ![Lägg till en Creative Cloud-användare](assets/asset-share-cc-page.png)
 
 1. Välj **[!UICONTROL Share]**.
-1. Starta skrivbordet [!DNL Creative Cloud] (eller navigera till sidan [!UICONTROL Creative Cloud Files] i en webbläsare) och leta efter meddelandet om begäran.
+1. Starta [!DNL Creative Cloud] skrivbordet (eller navigera till [!UICONTROL Creative Cloud Files] sida i en webbläsare) och leta efter meddelandet om begäran.
 
-   ![](assets/cc_share_request.png)
+   ![Begär meddelande](assets/cc_share_request.png)
 1. Öppna begäran och välj **[!UICONTROL Accept]**.
 
-   ![Stegresultat](assets/cc_share_accept.png)
-1. Välj **[!UICONTROL Open Folder]** (eller **[!UICONTROL View on Web]**) om du vill komma åt mappinnehållet.
+   ![Godkänn begäran](assets/cc_share_accept.png)
+1. Om du vill komma åt mappinnehåll väljer du **[!UICONTROL Open Folder]** (eller **[!UICONTROL View on Web]**).
 
-   ![Stegresultat](assets/creative_cloud_open_folder.png)
+   ![Visa på webben](assets/creative_cloud_open_folder.png)
 1. Fortsätt genom att lägga till kommentarer i den delade resursen:
 
-   I Creative Cloud kan du markera i en bild och sedan välja **[!UICONTROL Activity]** för att lägga till en kommentar i bilden. Kommentarerna synkroniseras med resurserna i [!DNL Creative Cloud] och [!DNL Experience Cloud].
+   I Creative Cloud kan du markera i en bild och sedan markera **[!UICONTROL Activity]** om du vill lägga till en kommentar i bilden. Kommentarerna synkroniseras på resurserna i [!DNL Creative Cloud] och [!DNL Experience Cloud].
 
-   ![](assets/asset_comment_cc.png)
+   ![Lägga till en kommentar i bilden](assets/asset_comment_cc.png)
 
    I Experience Cloud markerar du en bild och väljer sedan tidslinjeikonen för att lägga till en kommentar i bilden. Kommentarerna synkroniseras på resurserna i Creative Cloud och Experience Cloud.
 
-   ![](assets/asset_comment_mac.png)
+   ![Lägga till en kommentar i bilden](assets/asset_comment_mac.png)
 
-1. Om du vill ta bort delningen av en mapp väljer du **[!UICONTROL Share Using Creative Cloud]** (liknar [Steg 3](t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996)), tar bort användare genom att markera X och väljer sedan **[!UICONTROL Share]**.
+1. Om du vill ta bort delningen av en mapp väljer du **[!UICONTROL Share Using Creative Cloud]** (liknar [Steg 3](t-share-creative-cloud.md#step_BA17CFA185284641A9B878BA29551996)), ta sedan bort användare genom att välja X och sedan markera **[!UICONTROL Share]**.
 
-![](assets/asset_remove_user.png)
+![Ta bort delning av en mapp](assets/asset_remove_user.png)
 
 När du har tagit bort alla Creative Cloud-användare delas inte mappen och Creative Cloud-användare har inte längre åtkomst.
 
 Fler sätt att använda en delad resurs är:
 
-* Använd resurser i [!UICONTROL Asset Selector] i [!DNL Adobe Social] för sociala inlägg.
-* Läs in eller byt resurser i [offertbiblioteket](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=en) i [!DNL Adobe Target] för bilder i aktiviteter.
+* Använd resurser i [!UICONTROL Asset Selector] in [!DNL Adobe Social] för sociala tjänster.
+* Läs in eller växla resurser i [Erbjudandebibliotek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=en) in [!DNL Adobe Target] för bilder i aktiviteter.
 
 När du har delat en mapp med Creative Cloud visas Creative Cloud logotypen i mappen.
 
-![](assets/asset-cc-logo.png)
+![Creative Cloud logotyp i mappen](assets/asset-cc-logo.png)
 
 Relaterad hjälp:
 

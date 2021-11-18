@@ -1,17 +1,17 @@
 ---
 description: Läs mer om administrationsverktyget i Experience Cloud. Visa en sorterbar och filterbar lista över alla användare och profiler i Experience Cloud.
 keywords: bastjänster
-solution: Experience Cloud
+application: Experience Cloud
 title: 'Visa Experience Cloud-användare och användarinformation '
 index: true
 feature: Admin Console
-topic: Administrering
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1201'
 ht-degree: 1%
 
 ---
@@ -22,30 +22,30 @@ Administratörer kan visa en sorterbar och filterbar lista över alla användare
 
 >[!NOTE]
 >
->Användar- och produkthantering är konfigurerad i [Admin Console](admin-getting-started.md).
+>Hantering av användare och produkter har konfigurerats i [Admin Console](admin-getting-started.md).
 
 1. Logga in på `https://experience.adobe.com/.`
 
-   ![](assets/admin-tool.png)
+   ![Åtkomst till Admin Console](assets/admin-tool.png)
 
 1. Under [!UICONTROL Quick Access] väljer du **[!UICONTROL Admin Tool.]**
 
    (I hemsidans URL kan du även ersätta _home_ med _admin._)
 
-   Sidan [!UICONTROL Users] visas.
+   The [!UICONTROL Users] visas.
 
 ## Sidan Användare
 
-På den här sidan visas en fullständig lista över användare som har tillgång till Experience Cloud i din organisation. Här finns information om lösningsberättigande och senaste inloggning. Du kan söka, sortera och filtrera efter anpassade vyer av användarlistan.
+På den här sidan visas en fullständig lista över användare som har tillgång till Experience Cloud i din organisation. Det innehåller information om tillstånd för program och senaste inloggning. Du kan söka, sortera och filtrera efter anpassade vyer av användarlistan.
 
-![](assets/admin-tool-users.png)
+![Admin Console Users page](assets/admin-tool-users.png)
 
 | Element | Beskrivning |
 |---|---|
-| [!UICONTROL Name] | Användarens för- och efternamn. Du kan sortera den här kolumnen från A till Z och Z till A.  Välj en användares namn för att se mer information om användaren. |
+| [!UICONTROL Name] | Användarens för- och efternamn. Du kan sortera den här kolumnen från A till Z och Z till A. Välj en användares namn för att se mer information om användaren. |
 | [!UICONTROL Email] | E-postadressen som är associerad med användaren. Kolumnen kan sorteras A->Z, Z->A. |
-| [!UICONTROL ID Type] | Identitetstypen för användarens konto. Du kan använda filter för att visa specifika ID-typer. Mer information finns i [Hantera identitetstyper](https://helpx.adobe.com/enterprise/using/identity.html). |
-| [!UICONTROL Solutions] | Sammanfattning av Experience Cloud-lösningar som användaren kan komma åt. Du kan använda filter för att begränsa listan över användare med specifik lösningsåtkomst. |
+| [!UICONTROL ID Type] | Identitetstypen för användarens konto. Du kan använda filter för att visa specifika ID-typer. Se [Hantera identitetstyper](https://helpx.adobe.com/enterprise/using/identity.html) för mer information. |
+| [!UICONTROL Solutions] | Sammanfattning av Experience Cloud-program som användaren kan komma åt. Du kan använda filter för att begränsa listan över användare med särskild programåtkomst. |
 | [!UICONTROL Last Login] | Tid och datum för den senaste användarens inloggning på Experience Cloud. Den här kolumnen kan sorteras efter stigande eller fallande datum. <br> **Viktigt:** Från och med den 13 januari 2020 sparas användarens senaste inloggningsuppgifter i 365 dagar. Denna information är avsedd att visa den aktuella inloggningsaktiviteten i Experience Cloud och inte en rekommendation om att vidta åtgärder för inaktiva konton före den 13 januari 2020. |
 
 ## Anpassa användarlistvyn
@@ -53,22 +53,22 @@ På den här sidan visas en fullständig lista över användare som har tillgån
 Du kan söka efter, sortera eller filtrera kolumnerna för att anpassa användarlistan.
 
 * Sök efter användare efter namn eller e-post. Sökningar matchar textsträngen som du skriver.
-* Sortera kolumnen efter stigande eller fallande värden. Den här sorteringen gäller för [!UICONTROL Name,] [!UICONTROL Email,] och [!UICONTROL Last Login] kolumner.
-* Om du vill använda flera filter för att lista användare med särskilda villkor väljer du ikonen **[!UICONTROL Filter By]**. När flera filterkategorier används innehåller sökningarna e-postdomänen `AND` ID TYPE `AND` Solution.
+* Sortera kolumnen efter stigande eller fallande värden. Den här sorteringen gäller för [!UICONTROL Name,] [!UICONTROL Email,] och [!UICONTROL Last Login] Kolumner.
+* Om du vill använda flera filter för att lista användare med särskilda villkor väljer du **[!UICONTROL Filter By]** ikon. När flera filterkategorier används innehåller sökningar e-postdomän `AND` ID-TYP `AND` Lösning.
 
 | Element | Beskrivning |
 |---------|----------|
 | [!UICONTROL Email Domain] filter | Sök efter teckensträngar i kolumnen E-post om du vill begränsa resultatet till en eller flera domäner. Lägg till flera filter genom att trycka på Retur efter varje sökord |
 | [!UICONTROL ID Type] filter | Välj bland tillgängliga ID-typer. Flera ID-typer kan användas som filter. |
-| [!UICONTROL Solution] filter | Välj bland tillgängliga lösningar. Flera lösningsfilter söker efter resultat som innehåller Lösning 1 `OR` Lösning 2. |
+| [!UICONTROL Solution] filter | Välj bland tillgängliga program. Sök efter resultat som innehåller lösning 1 med flera programfilter `OR` Lösning 2. |
 
 ## Visa användarinformation
 
-På sidan [!UICONTROL Users] markerar du användarens e-postadress för att visa information om en användare.
+På [!UICONTROL Users] om du vill visa information om en användare markerar du användarens e-postadress.
 
-![](assets/admin-tool-user-details.png)
+![Visa användarinformation i Admin Console](assets/admin-tool-user-details.png)
 
-En detaljerad vy över varje användare visar viktig information om användarens lösningsåtkomst, admin- och produktroller samt information om den senaste åtkomsten.
+En detaljerad vy över varje användare visar viktig information om användarens programåtkomst, admin- och produktroller samt information om den senaste åtkomsten.
 
 ## Avsnittet Om
 
@@ -84,7 +84,7 @@ I det här avsnittet visas en sammanfattning av användarkontot, inklusive:
 
 ## Sammanfattning av lösningar
 
-I det här avsnittet visas en sammanfattning av Experience Cloud-lösningar som användaren kan komma åt. Inkluderar den administrativa rollen för produkten när det är tillämpligt.
+I det här avsnittet visas en sammanfattning av Experience Cloud-program som användaren kan komma åt. Inkluderar den administrativa rollen för produkten när det är tillämpligt.
 
 ## Detaljerad lista över produktåtkomst
 
@@ -102,7 +102,7 @@ I det här avsnittet visas en fullständig lista över alla produktprofilmedlems
 
 På den här sidan visas en fullständig lista över policyer för Experience Cloud i din organisation. Det innehåller information om produkter, instanser, användare och utvecklare. Du kan söka efter, sortera och filtrera efter anpassade vyer i principlistan.
 
-![](assets/admin-tool-policies.png)
+![Profiler i Admin Console](assets/admin-tool-policies.png)
 
 | Element | Beskrivning |
 |---|---|
@@ -117,23 +117,23 @@ På den här sidan visas en fullständig lista över policyer för Experience Cl
 Du kan söka efter, sortera eller filtrera kolumnerna för att anpassa principlistan.
 
 * Sök efter produktprofiler efter namn. Sökningar matchar textsträngen som du skriver.
-* Sortera kolumnen efter stigande eller fallande värden. Den här sorteringen gäller för [!UICONTROL Product Profile,] [!UICONTROL Product,] [!UICONTROL Instance,] [!UICONTROL Number of users,] och [!UICONTROL Number of Developers,] kolumner.
-* Välj ikonen **[!UICONTROL Filter By]** om du vill använda flera filter för att lista produktprofiler med specifika villkor. När flera filterkategorier används innehåller sökningarna grupper som är associerade med `AND`-instansen `AND`-lösningen.
+* Sortera kolumnen efter stigande eller fallande värden. Den här sorteringen gäller för [!UICONTROL Product Profile,] [!UICONTROL Product,] [!UICONTROL Instance,] [!UICONTROL Number of users,] och [!UICONTROL Number of Developers,] Kolumner.
+* Välj **[!UICONTROL Filter By]** om du vill använda flera filter för att lista produktprofiler med specifika villkor. När flera filterkategorier används innehåller sökningarna associerade grupper `AND` Instance `AND` Lösning.
 
 | Element | Beskrivning |
 |---------|----------|
 | [!UICONTROL Instance] filter | Sök efter teckensträngar i instanskolumnen för att begränsa resultatet till en eller flera förekomster. Lägg till flera filter genom att trycka på Retur efter varje sökord. |
-| [!UICONTROL Solution] filter | Välj bland tillgängliga lösningar. Flera lösningsfilter söker efter resultat som innehåller Lösning 1 `OR` Lösning 2. |
+| [!UICONTROL Solution] filter | Välj bland tillgängliga program. Sök efter resultat som innehåller lösning 1 med flera programfilter `OR` Lösning 2. |
 
 ## Visa policyinformation
 
-Om du vill visa information om en princip på sidan [!UICONTROL Policies] väljer du produktprofilens namn.
+På [!UICONTROL Policies] Om du vill visa information om en profil markerar du produktprofilens namn.
 
-![](assets/admin-tool-policy-detail.png)
+![Visa policyinformation i Admin Console](assets/admin-tool-policy-detail.png)
 
 En detaljerad vy över varje produktprofil innehåller viktig information om ämnen i produktprofilen (användare, grupper och så vidare). Här visas även behörigheter och resurser som har aktiverats av produktprofilen.
 
-Information om produktprofilen kan exporteras till CSV-filer. Alternativet [!UICONTROL Export CSV] skapar två CSV-filer:
+Information om produktprofilen kan exporteras till CSV-filer. The [!UICONTROL Export CSV] Alternativet skapar två CSV-filer:
 
 * Ämnesinformation (användare, användargrupper, utvecklare, integreringar, administratörer)
 * Behörighets- och resursobjekt
@@ -155,7 +155,7 @@ I det här avsnittet visas en fullständig lista över alla användare, använda
 
 | Tabb | Beskrivning |
 |---------|----------|
-| [!UICONTROL Users] | Lista över användare som ingår i produktprofilen. Användargruppsassociationen visas i kolumnen [!UICONTROL Assigned by group]. |
+| [!UICONTROL Users] | Lista över användare som ingår i produktprofilen. Användargruppsassociationen visas i [!UICONTROL Assigned by group] kolumn. |
 | [!UICONTROL User Groups] | Lista med användargrupper som är associerade med produktprofilen. |
 | [!UICONTROL Developers] | Lista med utvecklare som är associerade med produktprofilen. |
 | [!UICONTROL Integrations] | Lista över integreringar som är associerade med produktprofilen. |

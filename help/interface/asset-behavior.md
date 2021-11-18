@@ -5,13 +5,13 @@ solution: Experience Cloud
 title: 'Beteende för delade mappar '
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 feature: Assets
-topic: Administrering
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Regler för hur delade mappar fungerar när de flyttas, tas bort och återställ
 
 Du flyttar en mapp som inte delas till en delad mapp:
 
-![](assets/01_assets_move.png)
+![Odelad mapp i delad mapp](assets/01_assets_move.png)
 
 **Resultat**: Båda mapparna delas.
 
@@ -36,7 +36,7 @@ Du flyttar en mapp som inte delas till en delad mapp:
 
 Du flyttar en delad mapp till en mapp som inte delas.
 
-![](assets/02_assets_move.png)
+![Delad mapp i en mapp som inte delas](assets/02_assets_move.png)
 
 **Resultat**: Mappen som inte delas förblir odelad. Den delade mappen förblir delad.
 
@@ -44,7 +44,7 @@ Du flyttar en delad mapp till en mapp som inte delas.
 
 Du flyttar innehåll från en mapp som inte delas till en delad mapp.
 
-![](assets/03_assets_move.png)
+![Innehåll från odelad mapp till delad mapp](assets/03_assets_move.png)
 
 **Resultat:** Innehållet delas nu och alla medarbetare kan se det. Lagringsutrymmet ökar med innehållets storlek.
 
@@ -52,7 +52,7 @@ Du flyttar innehåll från en mapp som inte delas till en delad mapp.
 
 Du arkiverar eller tar bort innehåll som finns i en delad mapp.
 
-![](assets/04_assets_move.png)
+![Arkiverat och borttaget delat innehåll](assets/04_assets_move.png)
 
 **Resultat:** Innehållet arkiveras för mappens ägare. Medarbetare som inte äger innehållet kan inte längre komma åt det.
 
@@ -60,15 +60,15 @@ Du arkiverar eller tar bort innehåll som finns i en delad mapp.
 
 Du flyttar innehåll från en delad mapp som du äger till en mapp som inte delas.
 
-![](assets/05_assets_move.png)
+![Ägt delat innehåll till en mapp som inte delas](assets/05_assets_move.png)
 
-**Resultat:** Innehållet delas inte nu. Medarbetarna i den delade mappen har inte längre åtkomst till innehållet.
+**Resultat:** Innehållet delas nu inte. Medarbetarna i den delade mappen har inte längre åtkomst till innehållet.
 
 ## Innehåll som inte delas till en mapp som inte delas {#section_310766EBF0DC4C0BB4AB3E8A4DAEBE07}
 
 Du flyttar innehåll från en delad mapp som ägs av någon annan till en mapp som inte delas.
 
-![](assets/06_assets_move.png)
+![Innehåll som inte delas till en mapp som inte delas](assets/06_assets_move.png)
 
 **Resultat:** Innehållet visas i den odelade mappen och tas bort från den delade mappen. Medarbetarna i den delade mappen har inte längre åtkomst till innehållet. Innehållet arkiveras för ägaren av den delade mappen.
 
@@ -78,7 +78,7 @@ Du flyttar innehåll från en delad mapp som ägs av någon annan till en mapp s
 
 Du arkiverar (via webben) eller tar bort (via skrivbordet) en delad mapp som du äger.
 
-![](assets/07_assets_move.png)
+![Mappen har arkiverats eller tagits bort](assets/07_assets_move.png)
 
 **Resultat:** Mappen delas inte och arkiveras sedan. Medarbetarna har inte längre åtkomst till mappen.
 
@@ -86,7 +86,7 @@ Du arkiverar (via webben) eller tar bort (via skrivbordet) en delad mapp som du 
 
 Du flyttar en delad mapp som du äger till en annan delad mapp som du kanske äger eller inte äger.
 
-![](assets/09_assets_move.png)
+![Delad mapp i en annan delad mapp](assets/09_assets_move.png)
 
 **Resultat:** När mappen flyttas till Mapp 2 delas den med de nya medarbetarna.
 
@@ -94,7 +94,7 @@ Du flyttar en delad mapp som du äger till en annan delad mapp som du kanske äg
 
 Du flyttar innehåll från en delad mapp till en annan delad mapp.
 
-![](assets/11_assets_move.png)
+![Delat innehåll till en annan delad mapp](assets/11_assets_move.png)
 
 **Resultat:** Innehållet visas i Mapp 2 och delas nu med nya medarbetare. Innehållet tas bort från Mapp 1 och ägaren ser det som arkiverat, medan andra medarbetare inte längre har tillgång till det.
 
@@ -102,6 +102,6 @@ Du flyttar innehåll från en delad mapp till en annan delad mapp.
 
 Du återställer innehåll från ett arkiv som tillhör en delad mapp. Du ägde innehållet när det arkiverades.
 
-![](assets/12_assets_move.png)
+![Återställt innehåll från arkivet](assets/12_assets_move.png)
 
 **Resultat:** Innehållet återställs till den delade mappen och alla medarbetare kan komma åt det igen. Om den delade mappen inte längre finns, placeras innehållet i en odelad kopia av dess ursprungliga överordnade mapp(ar).

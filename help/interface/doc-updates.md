@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 29af6733b7964a0e98bb664366d4c92bebdceddb
+source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 2%
@@ -118,7 +118,7 @@ Tillagd [Experience Cloud Assets](experience-cloud-assets.md#concept_DDA5224C907
 
 **Uppdaterat: 3/2/2015**
 
-Tillagd [Möjliggör era lösningar för bastjänsterna](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
+Tillagd [Aktivera era program för bastjänster](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)
 
 **Uppdaterat: 1/15/2015**
 
