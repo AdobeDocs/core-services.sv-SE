@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: 3507af336715eb3664f8ce5176ddaf74ecbd7bcd
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1243'
 ht-degree: 2%
 
 ---
@@ -121,7 +121,7 @@ Efter migreringen loggar användare in med sin Adobe ID (eller Enterprise ID) oc
 
 **Relaterad hjälp**
 
-Mer information finns i [Migrering av användar-ID för analyser](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en)
+Mer information finns i [Migrering av användar-ID för analyser](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=en)
 
 ## Hantera Adobe Target - produktprofiler jämfört med arbetsytor {#section_3860AF177C9E4C7E9C390D36A414F353}
 
