@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: c6fe48c65994a8f743c8e80a58a0fbad386ffe49
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '773'
 ht-degree: 3%
 
 ---
@@ -70,7 +70,7 @@ Med tillhandahållande i Experience Cloud avses
 
 * Användarrättigheter och produkthantering utförs i [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (produktlänk).
 
-* **Viktigt:** Analysadministratörer, se [Hantera analysanvändare i Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en) om hur du migrerar användar-ID:n från administrationsverktygen för Analytics till Admin Console.
+* **Viktigt:** Analysadministratörer, se [Hantera analysanvändare i Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=en) om hur du migrerar användar-ID:n från administrationsverktygen för Analytics till Admin Console.
 
 ## Vad gör jag om någon inte kan logga in på Experience Cloud?
 
