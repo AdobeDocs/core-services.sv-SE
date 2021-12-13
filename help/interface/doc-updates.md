@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: 3650e57eaaddbda74cd4af913a37b8dedb8b1933
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '531'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 2%
 # Dokumentationsuppdateringar - Experience Cloud
 
 Information om uppdateringar av produktdokumentationen för Experience Cloud.
+
+**Uppdaterad 12/13/2021**
+
+Uppdaterade [Vanliga frågor om administration](faq.md) med information om hur Adobe Support kan komma åt molnmiljön i Adobe för att felsöka ett problem.
 
 **Uppdaterad 2021-10-28**
 
