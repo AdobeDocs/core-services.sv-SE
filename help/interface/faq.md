@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: c6fe48c65994a8f743c8e80a58a0fbad386ffe49
+source-git-commit: 84d33be461ef26c8aadba8f47bd93875356d3ad4
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '830'
 ht-degree: 3%
 
 ---
@@ -54,6 +54,12 @@ De funktioner som finns i gränssnittet Experience Cloud ger ditt företag ett m
 ## Hur löser jag problemen med att migrera mitt företag?
 
 [Kontakta Adobe support](https://experienceleague.adobe.com/?support-solution=General#support).
+
+## Hur kan [!DNL Adobe Support] i molnmiljön i Adobe kan du felsöka ett problem -
+
+[!DNL Adobe Support] kan skicka in en personifieringsbegäran som du får ett Adobe-märkt e-postmeddelande för (exempel nedan) som efterfrågar din uttryckliga behörighet. Åtkomsten beviljas för en begränsad tid. När åtkomsten har beviljats kan du återkalla den när som helst. Adobe loggar alla åtgärder som vidtas av företrädare för Adobe.
+
+![](/help/interface/admin-getting-started/assets/support-email.png)
 
 ## Vad är _etablering?_
 
