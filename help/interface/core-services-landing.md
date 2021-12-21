@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: a4a1914856001a93967c6a63ad4d389138b33217
 workflow-type: tm+mt
 source-wordcount: '355'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 # Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Den här dokumentationen gäller för funktioner i det enhetliga huvudet i Experience Cloud, som [!UICONTROL People] tjänst (målgrupper och kundattribut), användar- och produkthantering för Experience Cloud, cookies, kontoinställningar, meddelanden och så vidare.
+Den här dokumentationen gäller funktioner i det enhetliga sidhuvudet på Experience Cloud, som [!UICONTROL People] tjänst (målgrupper och kundattribut), användar- och produkthantering för Experience Cloud, cookies, kontoinställningar, meddelanden och så vidare.
 
 Om du vill få tillgång till de här tjänsterna i Experience Cloud väljer du **[!UICONTROL Application Selector]**
 ![Tjänstväljare](assets/menu-icon.png).
