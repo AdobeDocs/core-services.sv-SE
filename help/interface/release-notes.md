@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: 786299df8f07c440e278fb1dc187fd1c9ab5db1f
 workflow-type: tm+mt
-source-wordcount: '4216'
+source-wordcount: '4459'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,27 @@ Funktioner, versionsinformation och kända fel för gränssnittskomponenterna i 
 En lista över dokumentationsuppdateringar finns på [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Versionsinformation om alla program finns i [Versionsinformation för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en).
+
+## November-2021
+
+| Funktion | Beskrivning |
+| ------- | ------- |
+| Hemsida | Information om sidfoten i Experience Cloud har flyttats till användarprofilkortet, inklusive Juridiska meddelanden och språkval i Inställningar. |
+| AEP-instrumentpaneler | [!DNL Helios Lite] innehåller diagramrekommendationer i arbetsflödet för att skapa Experience Platform-widgetar. Förutsatt ett dataurval (för närvarande ett urval av variabeldata), [!DNL Helios] rekommenderar en lämplig visualisering som medföljer valet av data. |
+| AEP-instrumentpaneler | [!DNL Instory] innehåller XML-baserad skriven berättarröst och bildtexter för diagram. Den inordnar diagram på AEP Dashboards-sidan med relevanta punkter som anropar viktiga ändringar och incidenter i grafdata. |
+
+{style=&quot;table-layout:auto&quot;}
+
+## Oktober - 2021
+
+| Funktion | Beskrivning |
+| ------- | ------- |
+| Enhetlig sökning | Enhetlig sökning fortsätter att lägga till objekttyper i sökindexet. I den här uppdateringen söker nu global sökning igenom Experience League-innehåll och följande Journey Optimizer-objekttyper: <ul><li>Datauppsättningar</li><li>Mål </li><li>Frågor</li><li>Scheman</li><li>Segment</li><li>Källor</li><li>Erbjudanden</li><li>Komponenter</li><li>Meddelanden</li><li>Resor</li></ul> |
+| Produktanvändningsdata, samtycke | Vid en första inloggning ombeds du ange inställningar för hur Adobe kan ge dig användbart, personaliserat innehåll, t.ex. självstudiekurser, guider, snabbtips, rekommendationer, utbildningsvideor med mera, baserat på dina produktanvändningsdata för Experience Cloud. Denna begäran innehåller även en uppdatering av dina inställningar för insamling och användning av dessa data på <https://experience.adobe.com/preferences>. |
+| Experience Cloud [!UICONTROL Triggers] navigering | [Experience Cloud-utlösare](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=en) är tillgängligt för direkt navigering från programväljaren i huvudet för tilldelade användare. |
+| **Obs!** Uppdatering av planerad gränssnittsnavigering | I november 2021 _[!UICONTROL Go to Launch / Data Collection]_navigeringsfunktionen kommer att tas bort från <https://experience.adobe.com/implement>. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## Augusti - 2021
 
