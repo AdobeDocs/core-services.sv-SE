@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 3507af336715eb3664f8ce5176ddaf74ecbd7bcd
+source-git-commit: 84822a497a3138e4f10a383e54ae2cc13cc4bf77
 workflow-type: tm+mt
-source-wordcount: '1243'
+source-wordcount: '1519'
 ht-degree: 2%
 
 ---
 
 # Hantera Experience Cloud-användare och -produkter
 
-Lär dig mer om att logga in på Admin Console, hantera användarbehörigheter och produktprofiler för Experience Cloud samt webbläsarstöd.
+Lär dig hur du loggar in på Admin Console, hanterar användarbehörigheter för Experience Cloud och produktprofiler samt webbläsarstöd.
 
 >[!IMPORTANT]
 >
@@ -25,9 +25,46 @@ Lär dig mer om att logga in på Admin Console, hantera användarbehörigheter o
 
 Du kan visa en sorterbar och filterbar lista över alla Experience Cloud-användare och deras information i Admin Tool. Se [Visa Experience Cloud-användare i administrationsverktyget](admin-tool-experience-cloud.md).
 
+## Autentisering av Experience Cloud-användare (planerad migrering){#migration}
+
+Från och med februari 2022 uppdaterar Adobe sitt profilhanteringssystem så att organisationer bättre kan hantera sina rättigheter till enskilda profiler. Alla användare med en personlig profil, som motsvarar en enskild Adobe ID (Type1), kommer därför att migreras till en ny affärsprofil. Den här profilen motsvarar en _Företags-ID_ (Type2e).
+
+Se [Identitetstyper på Adobe Admin Console](https://helpx.adobe.com/enterprise/using/identity.html) för information om identitetstyper.
+
+### Migreringsprocess
+
+När det är dags för din migrering får organisationens administratörer ett e-postmeddelande 30 dagar före migreringen. Det här e-postmeddelandet kommer att innehålla ditt migreringsdatum.
+
+* Migreringen planeras till kl. 10.00. - 6.00, baserat på organisationens primära tidszon eller på helgen.
+* Under migreringen kan programmet Experience Cloud vara otillgängligt i upp till 15 minuter och Admin Console kan vara otillgängligt i upp till 30 minuter. Annars kommer migreringen att vara sömlös.
+
+### Ändringar efter migreringen
+
+Admin Console
+
+* Administratörer med flera konton kan se en profilväljare när de loggar in [!UICONTROL Admin Console].
+* Enskilda Adobe ID-användare uppdateras till Business ID.
+* Arbets-ID-katalogen läggs till i **[!UICONTROL Settings]** > **[!UICONTROL Identity]** > **[!UICONTROL Directories]**.
+
+   ![Admin Console-identitet - företags-ID](assets/identity-home.png)
+
+### Logga in efter migreringen
+
+Inloggningsupplevelsen ändras inte med den här uppdateringen:
+
+1. Logga in på `experience.adobe.com` med samma inloggningsuppgifter.
+
+1. En ny profil som är associerad med ditt företags-ID skapas. Du uppmanas att **[!UICONTROL Join now]** eller **[!UICONTROL Skip]**.
+
+1. Om något av alternativen används blir landningssidan en befintlig upplevelse.
+
+1. En Adobe-profil är associerad med varje affärsplan och ger möjlighet att ordna resurser som skapats från ytterligare Adobe Cloud-erbjudanden (Creative Cloud och Document Cloud).
+
+Mer information finns i [Nu kommer Adobe-profiler](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html).
+
 ## Vad är en produktprofil? {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
-[!UICONTROL Product Profiles] är grupper av produkter och tjänster som du kan tilldela användare. I Experience Cloud baseras behörigheter på en produkts profil, inte på användaren. (Du kan dock delegera administratörsbehörighet till vissa användare.)
+_[!UICONTROL Product Profiles]_är grupper av produkter och tjänster som du kan tilldela användare. I Experience Cloud baseras behörigheter på en produkts profil, inte på användaren. (Du kan dock delegera administratörsbehörighet till vissa användare.)
 
 I Analytics kan du till exempel konfigurera en samling rapporteringsverktyg, som Analysis Workspace och Report Builder, tillsammans med rapportsviter, mätvärden och dimensioner. Du kan ge behörighet till en produktprofil genom att lägga till användare i profilen.
 
@@ -52,23 +89,6 @@ Mer information (och om du vill ha hjälp om produkthantering för Creative Clou
 * [Hantera produkter och profiler](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html) i administrationshandboken.
 * [Enterprise-användarbehörigheter](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en) i Adobe Target om du vill ha mer information.
 * Video: [Konfigurera Adobe Target Workspaces i Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
-
-<!-- ## What's new in Experience Cloud user management {#concept_06A0A13362F644FB90F947238407637A}
-
-Learn about the latest features in Experience Cloud user and product management.
-
-### Business ID type
-
-Adobe is introducing an identity type called Business ID. This identity type improves the control of user and product management. Adobe is migrating all Adobe IDs (owned by individuals) that are used for business to the new enterprise Business IDs owned by your organization.
-
-If you are an existing Experience Cloud customer, Adobe will migrate all your users with Adobe IDs in the Admin Console to Business IDs. If you are a new enterprise or teams customer, you will add users to the Admin Console using one of the available identity types: Business ID, Enterprise ID, or Federated ID.
-
-What to do
-
-* Your users will need to accept Terms of Use (TOU) changes prior to accounts being migrated to Type2e. 
-* Users that belong to multiple organizations might see a Profile Selection screen during the login workflow and need to select the correct one. This ensures that they are logging into the correct organization. (There might be multiple profiles to choose from if a user was a member of multiple organizations before the migration.)
-
-Beginning May 2020, enterprise administrators cannot use the Adobe ID for new organizations created in the Admin Console. Latest: https://wiki.corp.adobe.com/pages/viewpage.action?spaceKey=engage&title=Type2e+DX+GTM-->
 
 ## Delegera administrativa roller till användare {#delegate-rights}
 
@@ -133,7 +153,7 @@ Se:
 * [Hantera produkter och profiler](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
 * Video: [Konfigurera Adobe Target Workspaces i Adobe Admin Console](https://helpx.adobe.com/target/kb/how-to-configure-target-workspaces-in-adobe-admin-console0.html)
 
-## Hantera produktprofiler, klientorganisationer och säkerhetsgrupper för Campaign {#section_09CDF75366444CF5810CF321B7C712F3}
+## Hantera kampanjproduktprofiler, klientorganisationer och säkerhetsgrupper {#section_09CDF75366444CF5810CF321B7C712F3}
 
 A *tenant* i Campaign visas som *produkt* på Admin Console Products-sidan.
 

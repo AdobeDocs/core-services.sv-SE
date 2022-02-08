@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '951'
 ht-degree: 3%
 
 ---
@@ -43,7 +43,7 @@ Logga in och verifiera att du är rätt [organisation](organizations.md#topic_C3
 | [Starta Admin Console](admin-getting-started.md) | Admin Console är den centrala platsen för hantering av användare i Adobe och produktbehörigheter i hela organisationen.<br>Du kan även logga in på Admin Console med en [direktlänk](https://adminconsole.adobe.com). |
 | [Hantera Creative Cloud-användare](t-admin-add-cc-user.md) | Med Experience Cloud Assets kan marknadsförarna dela, synkronisera och samarbeta i mappar med designers och andra kreativa resurser med Creative Cloud. Du kan hantera de Creative Cloud-användare som är godkända för att samarbeta med din organisation här. |
 | [Kartlägg dina rapportsviter](core-services.md) | (Endast analyser) Experience Cloud bastjänster är kopplade till en organisation i stället för till en enskild rapportserie. För att dessa tjänster ska fungera på rätt sätt måste varje analysrapportsserie mappas till en organisation. (Den här uppgiften ingår i ett större arbetsflöde för att [aktivera analyser för bastjänster](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)). |
-| [Organisations-ID](organizations.md) | The *Organisations-ID* finns längst ned på administrationssidan. Detta ID är det associerade ID:t med ditt tilldelade Experience Cloud-företag. Detta ID är en alfanumerisk sträng med 24 tecken, följt av (och måste innehålla) @AdobeOrg. |
+| [Organisations-ID](organizations.md) | The *organisations-ID* finns i URL:en i Admin Console. Du kan även visa den på [!UICONTROL User Data Debugger] popup (`ctrl+i` eller `cmd+i`) från vilken sida som helst på `https://experience.adobe.com`. Detta ID är det associerade ID:t med ditt tilldelade Experience Cloud-företag. Detta ID är en alfanumerisk sträng med 24 tecken, följt av (och måste innehålla) @AdobeOrg. |
 
 {style=&quot;table-layout:auto&quot;}
 

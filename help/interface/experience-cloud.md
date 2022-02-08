@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: 540896e1127c4d2abea2bf4ca63ac85315dda8c2
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1326'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,12 @@ Från Experience Cloud kan du:
 Logga in och verifiera att du är rätt [organisation](organizations.md).
 
 1. Navigera till [Adobe Experience Cloud](https://experience.adobe.com).
-1. Välj **[!UICONTROL Sign in with an Adobe ID]**.
+1. Skriv din e-postadress för Adobe och välj **[!UICONTROL Continue]**.
+
+   Administratörer, se [Experience Cloud användarautentisering](admin-getting-started.md#migration) för viktiga uppdateringar av identitetstyper (företags-ID).
+
+1. Välj ett konto.
+1. Skriv ditt lösenord.
 1. Kontrollera att du är i rätt organisation.
 
    ![Verifiera att du är i rätt organisation](assets/organizations-menu.png)

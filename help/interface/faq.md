@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 84d33be461ef26c8aadba8f47bd93875356d3ad4
+source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 3%
+source-wordcount: '776'
+ht-degree: 2%
 
 ---
 
@@ -59,7 +59,7 @@ De funktioner som finns i gränssnittet Experience Cloud ger ditt företag ett m
 
 [!DNL Adobe Support] kan skicka in en personifieringsbegäran som du får ett Adobe-märkt e-postmeddelande för (exempel nedan) som efterfrågar din uttryckliga behörighet. Åtkomsten beviljas för en begränsad tid. När åtkomsten har beviljats kan du återkalla den när som helst. Adobe loggar alla åtgärder som vidtas av företrädare för Adobe.
 
-![](/help/interface/admin-getting-started/assets/support-email.png)
+![Adobe supportärende](assets/support-email.png)
 
 ## Vad är _etablering?_
 
@@ -96,23 +96,11 @@ Se [Hantera användarkonton](organizations.md#topic_C31CB834F109465A82ED57FF0563
 
 ## Vad är en organisation?
 
-An *organisation* är den enhet som gör det möjligt för en administratör att konfigurera grupper och användare samt att styra enkel inloggning i Experience Cloud. Organisationen fungerar som ett inloggningsföretag som omfattar alla produkter och program i Experience Cloud. Oftast är en organisation ditt företagsnamn. Ett företag kan dock ha många organisationer.
+An [organisation](organizations.md) är den enhet som gör det möjligt för en administratör att konfigurera grupper och användare samt att styra enkel inloggning i Experience Cloud. Organisationen fungerar som ett inloggningsföretag som omfattar alla produkter och program i Experience Cloud. Oftast är en organisation ditt företagsnamn. Ett företag kan dock ha många organisationer.
 
 ## Var hittar jag mitt IMS-organisations-ID?
 
-Se [Hitta ditt organisations-ID](organizations.md).
-
-Organisations-ID:t visas på landningssidan i Experience Cloud och på [Admin Console landningssida](https://adminconsole.adobe.com).
-
-Administratörer kan även logga in på Admin Console (navigera till [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) för en viss organisation och du kan se ditt IMS-org-ID i URL:en.
-
-I följande URL:
-
-`https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
-
-ID:
-
-`C538193582390300A495CC9@AdobeOrg`
+Se [Hitta ditt organisations-ID](organizations.md) för mer information.
 
 ## Vad ska jag göra när någon av mina användare lämnar mitt företag?
 
