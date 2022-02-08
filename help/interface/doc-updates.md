@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 3650e57eaaddbda74cd4af913a37b8dedb8b1933
+source-git-commit: 275588a8101e953d5087a44e4588b239be477bd3
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '541'
 ht-degree: 2%
 
 ---
@@ -19,6 +19,10 @@ ht-degree: 2%
 # Dokumentationsuppdateringar - Experience Cloud
 
 Information om uppdateringar av produktdokumentationen för Experience Cloud.
+
+**Uppdaterad 2/8/2022**
+
+Uppdateringar av hur du hittar [organisations-ID](organizations.md).
 
 **Uppdaterad 12/13/2021**
 
