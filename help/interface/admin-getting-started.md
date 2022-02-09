@@ -1,5 +1,5 @@
 ---
-title: Hantera användare och produkter
+title: Manage users and products
 description: Läs om hur du loggar in på Admin Console och hanterar användarbehörigheter och produktprofiler för Experience Cloud. Läs om hur du delegerar administratörsrättigheter till Experience Cloud och om webbläsarstöd för Experience Cloud.
 solution: Admin
 index: true
@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 84822a497a3138e4f10a383e54ae2cc13cc4bf77
+source-git-commit: 3cf359c54467b4f913f20060e9d7f9577691b90c
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1511'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ Lär dig hur du loggar in på Admin Console, hanterar användarbehörigheter fö
 
 >[!IMPORTANT]
 >
->Följande information gäller särskilt för Experience Cloud. Denna information kompletterar den vidare administrativa informationen i [Användarhandbok för företagsadministration](https://helpx.adobe.com/enterprise/admin-guide.html) för alla Adobe molnprodukter.
+>Följande information gäller särskilt för Experience Cloud. This information supplements the broader administrative information in the [Enterprise Administration User Guide](https://helpx.adobe.com/enterprise/admin-guide.html) for all Adobe cloud products.
 
 Du kan visa en sorterbar och filterbar lista över alla Experience Cloud-användare och deras information i Admin Tool. Se [Visa Experience Cloud-användare i administrationsverktyget](admin-tool-experience-cloud.md).
 
@@ -33,10 +33,10 @@ Se [Identitetstyper på Adobe Admin Console](https://helpx.adobe.com/enterprise/
 
 ### Migreringsprocess
 
-När det är dags för din migrering får organisationens administratörer ett e-postmeddelande 30 dagar före migreringen. Det här e-postmeddelandet kommer att innehålla ditt migreringsdatum.
+När det är dags för din migrering får organisationens administratörer ett e-postmeddelande 30 dagar före migreringen.
 
 * Migreringen planeras till kl. 10.00. - 6.00, baserat på organisationens primära tidszon eller på helgen.
-* Under migreringen kan programmet Experience Cloud vara otillgängligt i upp till 15 minuter och Admin Console kan vara otillgängligt i upp till 30 minuter. Annars kommer migreringen att vara sömlös.
+* Under migreringen kan programmet Experience Cloud vara otillgängligt i ungefär 15 minuter och Admin Console kan vara otillgängligt i upp till 30 minuter. Annars kommer migreringen att vara sömlös.
 
 ### Ändringar efter migreringen
 
@@ -102,7 +102,7 @@ Du kan till exempel:
 
 Genom att använda de här rollerna kan du delegera hantering till andra utan att ge dem mer kapacitet än de behöver.
 
-1. I Admin Console väljer du **[!UICONTROL Users]** väljer du sedan användarens namn.
+1. In the Admin Console, select **[!UICONTROL Users]**, then select the user&#39;s name.
 
    ![Administrativa rättigheter i Admin Console](assets/edit-admin-rights.png)
 
@@ -110,26 +110,26 @@ Genom att använda de här rollerna kan du delegera hantering till andra utan at
 
    ![Redigera administrativa rättigheter i Admin Console](assets/edit-admin-rights-page.png)
 
-1. Ange användarens administratörsbehörighet.
+1. Specify the user&#39;s admin rights.
 1. Välj **[!UICONTROL Save]**.
 
 ## Hantera Analytics-användare och -produkter {#section_97DE101F92CD494AB073893680992F1A}
 
-Du kan tilldela åtkomstbehörigheter för analysrapporter (rapportsviter, mätvärden, dimensioner och så vidare) till en produktprofil.
+You can assign Analytics report access permissions (report suites, metrics, dimensions, and so on) to a Product Profile.
 
-Du kan till exempel skapa en produktprofil som innehåller flera analysverktyg ([!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics]och [!UICONTROL Report Builder]). Dessa profiler innehåller behörigheter till specifika mått och mått (inklusive eVars) och funktioner som att skapa segment eller beräknade mätvärden.
+For example, you can create a Product Profile that contains multiple Analytics tools ([!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], and [!UICONTROL Report Builder]). These profiles contain permission to specific metrics and dimensions (including eVars), and capabilities like segments or calculated metrics creation.
 
-1. Logga in på [Admin Console](https://adminconsole.adobe.com/enterprise)väljer **[!UICONTROL Products]**.
+1. Sign in to the [Admin Console](https://adminconsole.adobe.com/enterprise), then select **[!UICONTROL Products]**.
 1. På [!UICONTROL Products] väljer du produkt och sedan **[!UICONTROL Permissions]** (endast tillgängligt för administratörer).
 1. Konfigurera profilens behörigheter:
 
 | Element | Beskrivning |
 |--- |--- |
 | Rapportsviter | Aktivera behörigheter för specifika rapportsviter. |
-| Mätvärden | Aktivera behörigheter för trafik, konvertering, anpassade händelser, programhändelser, innehållsmedveten osv. |
+| Mätvärden | Enable permissions for traffic, conversion, custom events, application events, content aware, and so on. |
 | Mått | Anpassa användaråtkomsten på detaljnivå, inklusive eVars, trafikrapporter, programrapporter och sökvägsrapporter. |
-| Report Suite-verktyg | Aktivera användarbehörigheter för Web Services, Report Suite Management, Tools and Reports och Dashboard Items. |
-| Analysverktyg | Aktivera användarbehörigheter för allmänna objekt (fakturering, loggar o.s.v.), företagshantering, verktyg, webbtjänståtkomst, Report Builder och integrering med Data Connectors. Företagsinställningar från kategorin Anpassa Admin Console har flyttats till Analytics-verktyg. |
+| Report Suite-verktyg | Enable user permissions for Web Services, Report Suite Management, Tools and Reports, and Dashboard Items. |
+| Analytics Tools | Aktivera användarbehörigheter för allmänna objekt (fakturering, loggar o.s.v.), företagshantering, verktyg, webbtjänståtkomst, Report Builder och integrering med Data Connectors. Företagsinställningar från kategorin Anpassa Admin Console har flyttats till Analytics-verktyg. |
 
 **Migrering av användarkonto**
 
