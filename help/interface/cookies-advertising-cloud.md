@@ -3,13 +3,13 @@ description: Läs om Adobe Ad Cloud cookies för att mappa annonsevenemang till 
 title: 'Advertising Cloud Cookies '
 uuid: 2eec48a3-3e81-488e-8e30-5fd62885de0b
 feature: Cookies
-topic: Administrering
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6818edea-31b1-49fc-bca2-32828c7ca78d
-source-git-commit: 1f2dd42b4803517e6c513038c00b2070c08a51bb
+source-git-commit: 854a2b298db4fab3339e2b2ea03701dc6511af8d
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '569'
 ht-degree: 4%
 
 ---
@@ -20,7 +20,7 @@ Advertising Cloud använder cookies för att mappa annonsengagemang till konvert
 
 >[!NOTE]
 >
->Den betatagg-tagg för Advertising Cloud Javascript som använder [Adobe Experience Cloud ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) skapar [cookies för första part-Experience Cloud s_ecid](cookies-first-party.md), inte Advertising Cloud-cookies.
+>Betataggen Advertising Cloud Javascript som använder [Tjänsten Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) skapar [cookies från första part i Experience Cloud s_ecid](cookies-first-party.md), inte Advertising Cloud cookies.
 
 ## Cookie-namn: lcc
 
@@ -34,7 +34,7 @@ Advertising Cloud använder cookies för att mappa annonsengagemang till konvert
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Information lagrad </p> </td> 
-   <td colname="col2"> <p>ID:n och tidsstämplar (i formatet yyymmdd) för visningsmarkeringar</p> </td> 
+   <td colname="col2"> <p>ID:n och tidsstämplar (i formatet yyyymd) för visningsklickningar</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Förfaller </p> </td> 
@@ -42,7 +42,7 @@ Advertising Cloud använder cookies för att mappa annonsengagemang till konvert
   </tr> 
   <tr> 
    <td colname="col1"> <p>Användning </p> </td> 
-   <td colname="col2"> <p>En cookie från tredje part som används för att avgöra om en select-händelse på en visningsannons gäller för en Adobe Analytics-träff </p> </td> 
+   <td colname="col2"> <p>En cookie från tredje part som används för att avgöra om en klickhändelse på en displayannons gäller för en Adobe Analytics-träff </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Plats </p> </td> 
@@ -100,7 +100,7 @@ Advertising Cloud använder cookies för att mappa annonsengagemang till konvert
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Information lagrad </p> </td> 
-   <td colname="col2"> <p>Tidsstämplar för surfens senaste besök på annonsörens webbplats och surfens senaste sökning samt det ef_id som skapades när användaren valde en annons</p> </td> 
+   <td colname="col2"> <p>Tidsstämplar för surfens senaste besök på annonsörens webbplats och surfens senaste sökklick samt det ef_id som skapades när användaren klickade på en annons</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Förfaller </p> </td> 
