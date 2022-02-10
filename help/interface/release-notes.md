@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 786299df8f07c440e278fb1dc187fd1c9ab5db1f
+source-git-commit: 3fdeeeda77f1c779aff7ecbb3a2b6e8a1ad192d8
 workflow-type: tm+mt
-source-wordcount: '4459'
+source-wordcount: '4538'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,14 @@ Funktioner, versionsinformation och kända fel för gränssnittskomponenterna i 
 En lista över dokumentationsuppdateringar finns på [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Versionsinformation om alla program finns i [Versionsinformation för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en).
+
+## Februari - 2022
+
+| Funktion | Beskrivning |
+| ------- |-------|
+| Kortkommandon (**[!UICONTROL Recents]**) har lagts till i [Experience Cloud](https://experience.adobe.com/home) home | Du kan komma åt genvägar till dina senaste Journey Optimizer- och Experience Platform-arbeten under den nya _Senaste_ på landningssidan. Uppdateringen innehåller även allmänna layoutförbättringar och förbättringar av svarstiderna. |
+| **[!UICONTROL Sandboxes]** flyttad till sidhuvudsfältet | Sandlådeindikatorn är nu integrerad i sidhuvudet för alla Experience Platform-gränssnittsprogram. Se [Sandlådor](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) i Experience Platform för mer information. |
+
 
 ## November-2021
 
