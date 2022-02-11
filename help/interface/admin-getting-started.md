@@ -1,5 +1,5 @@
 ---
-title: Manage users and products
+title: Hantera användare och produkter
 description: Läs om hur du loggar in på Admin Console och hanterar användarbehörigheter och produktprofiler för Experience Cloud. Läs om hur du delegerar administratörsrättigheter till Experience Cloud och om webbläsarstöd för Experience Cloud.
 solution: Admin
 index: true
@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 3cf359c54467b4f913f20060e9d7f9577691b90c
+source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1521'
 ht-degree: 2%
 
 ---
@@ -21,7 +21,7 @@ Lär dig hur du loggar in på Admin Console, hanterar användarbehörigheter fö
 
 >[!IMPORTANT]
 >
->Följande information gäller särskilt för Experience Cloud. This information supplements the broader administrative information in the [Enterprise Administration User Guide](https://helpx.adobe.com/enterprise/admin-guide.html) for all Adobe cloud products.
+>Följande information gäller särskilt för Experience Cloud. Denna information kompletterar den vidare administrativa informationen i [Användarhandbok för företagsadministration](https://helpx.adobe.com/enterprise/admin-guide.html) för alla Adobe molnprodukter.
 
 Du kan visa en sorterbar och filterbar lista över alla Experience Cloud-användare och deras information i Admin Tool. Se [Visa Experience Cloud-användare i administrationsverktyget](admin-tool-experience-cloud.md).
 
@@ -102,7 +102,7 @@ Du kan till exempel:
 
 Genom att använda de här rollerna kan du delegera hantering till andra utan att ge dem mer kapacitet än de behöver.
 
-1. In the Admin Console, select **[!UICONTROL Users]**, then select the user&#39;s name.
+1. I Admin Console väljer du **[!UICONTROL Users]** väljer du sedan användarens namn.
 
    ![Administrativa rättigheter i Admin Console](assets/edit-admin-rights.png)
 
@@ -110,26 +110,26 @@ Genom att använda de här rollerna kan du delegera hantering till andra utan at
 
    ![Redigera administrativa rättigheter i Admin Console](assets/edit-admin-rights-page.png)
 
-1. Specify the user&#39;s admin rights.
+1. Ange användarens administratörsbehörighet.
 1. Välj **[!UICONTROL Save]**.
 
 ## Hantera Analytics-användare och -produkter {#section_97DE101F92CD494AB073893680992F1A}
 
-You can assign Analytics report access permissions (report suites, metrics, dimensions, and so on) to a Product Profile.
+Du kan tilldela åtkomstbehörigheter för analysrapporter (rapportsviter, mätvärden, dimensioner och så vidare) till en produktprofil.
 
-For example, you can create a Product Profile that contains multiple Analytics tools ([!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics], and [!UICONTROL Report Builder]). These profiles contain permission to specific metrics and dimensions (including eVars), and capabilities like segments or calculated metrics creation.
+Du kan till exempel skapa en produktprofil som innehåller flera analysverktyg ([!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics]och [!UICONTROL Report Builder]). Dessa profiler innehåller behörigheter till specifika mått och mått (inklusive eVars) och funktioner som att skapa segment eller beräknade mätvärden.
 
-1. Sign in to the [Admin Console](https://adminconsole.adobe.com/enterprise), then select **[!UICONTROL Products]**.
+1. Logga in på [Admin Console](https://adminconsole.adobe.com/enterprise)väljer **[!UICONTROL Products]**.
 1. På [!UICONTROL Products] väljer du produkt och sedan **[!UICONTROL Permissions]** (endast tillgängligt för administratörer).
 1. Konfigurera profilens behörigheter:
 
 | Element | Beskrivning |
 |--- |--- |
 | Rapportsviter | Aktivera behörigheter för specifika rapportsviter. |
-| Mätvärden | Enable permissions for traffic, conversion, custom events, application events, content aware, and so on. |
+| Mätvärden | Aktivera behörigheter för trafik, konvertering, anpassade händelser, programhändelser, innehållsmedveten osv. |
 | Mått | Anpassa användaråtkomsten på detaljnivå, inklusive eVars, trafikrapporter, programrapporter och sökvägsrapporter. |
-| Report Suite-verktyg | Enable user permissions for Web Services, Report Suite Management, Tools and Reports, and Dashboard Items. |
-| Analytics Tools | Aktivera användarbehörigheter för allmänna objekt (fakturering, loggar o.s.v.), företagshantering, verktyg, webbtjänståtkomst, Report Builder och integrering med Data Connectors. Företagsinställningar från kategorin Anpassa Admin Console har flyttats till Analytics-verktyg. |
+| Report Suite-verktyg | Aktivera användarbehörigheter för Web Services, Report Suite Management, Tools and Reports och Dashboard Items. |
+| Analysverktyg | Aktivera användarbehörigheter för allmänna objekt (fakturering, loggar o.s.v.), företagshantering, verktyg, webbtjänståtkomst, Report Builder och integrering med Data Connectors. Företagsinställningar från kategorin Anpassa Admin Console har flyttats till Analytics-verktyg. |
 
 **Migrering av användarkonto**
 
@@ -141,7 +141,8 @@ Efter migreringen loggar användare in med sin Adobe ID (eller Enterprise ID) oc
 
 **Relaterad hjälp**
 
-Mer information finns i [Migrering av användar-ID för analyser](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=en)
+* [Analyser i Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en)
+* [Migrering av användar-ID för analyser](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=en)
 
 ## Hantera Adobe Target - produktprofiler jämfört med arbetsytor {#section_3860AF177C9E4C7E9C390D36A414F353}
 
