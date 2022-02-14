@@ -6,7 +6,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+source-git-commit: 5281aededf07508cb49ecd4f3017ccec3d4851fb
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 1%
@@ -78,7 +78,7 @@ Välj programväljaren ![](assets/menu-icon.png) för att få tillgång till Exp
 
 ![Använd Experience Cloud](assets/platform-core-services.png)
 
-## Söka och få support i Experience Cloud {#search}
+## Söka och få support i Experience Cloud {#search-support}
 
 Med Experience Cloud-sökning kan du söka efter hjälp (dokumentation, självstudiekurser och kurser) på [Experience League](https://experienceleague.adobe.com/#home).
 
