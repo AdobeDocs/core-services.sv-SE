@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: a13cc6b69955653f851aa21eb055c5c21b860791
+source-git-commit: 9ef52b69b26ceb362cc2caf9fc6a631648a98170
 workflow-type: tm+mt
 source-wordcount: '1502'
 ht-degree: 1%
@@ -156,8 +156,8 @@ Sökalgoritmer visar först de mest relevanta posterna. Vilken ordning du välje
 
 Förfina sökningen genom att klicka på något av följande:
 
-* **[!UICONTROL All Learning]**: Öppnar sökningen i Experience League
-* **[!UICONTROL Show all...]**: Förfina och filtrera resultatet ytterligare
+* **[!UICONTROL All Learning]**: Öppnar sökningen i Experience League.
+* **[!UICONTROL Show all...]**: Gör att du kan förfina och filtrera resultaten ytterligare.
 
 ## Användarprofil och kontoinställningar {#preferences}
 
