@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 9ef52b69b26ceb362cc2caf9fc6a631648a98170
+source-git-commit: cef76ac81d70488ef166fbca9a5a691fb1331a0b
 workflow-type: tm+mt
-source-wordcount: '1502'
+source-wordcount: '1501'
 ht-degree: 1%
 
 ---
@@ -139,7 +139,7 @@ Sökbara affärsobjekt:
 * Komponenter (namn, beskrivning)
 * Resor (namn, beskrivning)
 
-Om ett nyckelord matchar en navigeringssida kan du få en snabb länk till exempeldatauppsättningar för navigeringssidan.
+Om ett nyckelord matchar en navigeringssida kan du få snabb åtkomst till länken till exempeldatauppsättningar för navigeringssidan.
 
 Du hittar även hjälpartiklar från Experience League och Communities. Naturliga språkfrågor stöds.
 
@@ -229,7 +229,7 @@ Stödlinjer för Experience Cloud:
 * [Experience Cloud ID-tjänst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
 * [Experience Platform datainsamling/start](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en)
-* [Allmänt API för dataskyddsförordningen (GDPR)](https://www.adobe.io/apis/experiencecloud/gdpr.html)
+* [Allmänt API för dataskyddsförordningen (GDPR)](https://developer.adobe.com/apis/experiencecloud/gdpr.html)
 * [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 
 ## Självstudiekurser
@@ -237,15 +237,15 @@ Stödlinjer för Experience Cloud:
 Självstudiekurser och snabba guider i Experience League:
 
 * [Alla självstudiekurser i Experience League](https://experienceleague.adobe.com/?lang=en#quick-how-tos)
-* [Självstudiekurser för Experience Platform](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en)
+* [Självstudiekurser för Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en)
 * [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
 
 ## Versionsinformation och tillhörande Experience Cloud-hjälp
 
 * [Produktdokumentation för alla Experience Cloud-program](https://experienceleague.adobe.com/docs/home.html?lang=en) - Bläddra efter hjälp på Experience Cloud studiematerial och support
 * [Versionsinformation och produktuppdateringar](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) - Nyheter i Experience Cloud och prenumerera för att få uppdateringar
-* [Tutorials för att införa bastjänster](https://experienceleague.adobe.com/docs/launch-learn/tutorials/overview.html?lang=en) - Utforska videor och självstudiekurser om bastjänster
+* [Tutorials för att införa bastjänster](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) - Utforska videor och självstudiekurser om bastjänster
 * [Experthjälp på Experience League](https://experienceleague.adobe.com/) - Få guidad inlärning från experter och communityn
 * [Utbildning](https://helpx.adobe.com/se/learning.html?promoid=KAUDK) - Ta kontakt med Adobe för att få ut så mycket som möjligt av Adobe
-* [Customer Experience Blog](https://blog.adobe.com/en/topics/digital-transformation.html) - Läs Experience Cloud bloggen
+* [Customer Experience Blog](https://blog.adobe.com/en/topics/digital-transformation) - Läs Experience Cloud bloggen
 * [Kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support) - Kontakta Adobe kundtjänst
