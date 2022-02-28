@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: cef76ac81d70488ef166fbca9a5a691fb1331a0b
+source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
 workflow-type: tm+mt
-source-wordcount: '1501'
+source-wordcount: '1257'
 ht-degree: 1%
 
 ---
@@ -104,60 +104,6 @@ The [!UICONTROL Help] -menyn ger dig även tillgång till
 * **[!UICONTROL Feedback]:** Dela feedback om Experience Cloud. Dina synpunkter används för att förbättra Adobe produkter och tjänster.
 * **[!UICONTROL Status]:** Navigera till `https://status.adobe.com/experience_cloud` och kontrollera produktens driftstatus och [!UICONTROL Manage Subscriptions].
 * **[!UICONTROL Developer Connection]:** Navigera till `adobe.io` och hitta dokumentation för utvecklare.
-
-## [!UICONTROL Unified Search] för objekt och enheter {#globally-search}
-
-The [!UICONTROL Unified Search] Med hjälp av sökning kan du söka efter sökbara affärsobjekt eller entiteter på ett smidigt och enhetligt sätt med ett enda klick. Den här sökningen visar de objekt du nyligen har använt.
-
-![Sök globalt efter objekt och enheter](assets/platform-search.png)
-
-### Tillgänglighet
-
-Enhetlig sökning visas högst upp på sidan (i sidhuvudet Experience Cloud) och alltid för de produkter som stöds, som för närvarande är:
-
-* Experience Platform (AEP)
-* Journey Optimizer (AJO)
-
-När mer innehåll indexeras läggs den här funktionen till i relevanta program.
-
-### Sökbara objekt och fält
-
-När du skriver kommer de matchande toppresultaten från de objekt som du har åtkomst till att visa.
-
-![Enhetlig sökning i Experience Cloud](assets/unified-search-results.png)
-
-Sökbara affärsobjekt:
-
-* Segment (namn, beskrivning)
-* Schema (namn, beskrivning)
-* Datauppsättningar (namn, beskrivning)
-* Källor (namn, beskrivning)
-* Destinationer (namn, beskrivning)
-* Frågor (namn, beskrivning)
-* Meddelanden (namn, beskrivning)
-* Erbjudanden (namn, beskrivning)
-* Komponenter (namn, beskrivning)
-* Resor (namn, beskrivning)
-
-Om ett nyckelord matchar en navigeringssida kan du få snabb åtkomst till länken till exempeldatauppsättningar för navigeringssidan.
-
-Du hittar även hjälpartiklar från Experience League och Communities. Naturliga språkfrågor stöds.
-
-Till exempel: _Så här skapar du ett schema_ ger resultat från Experience League under _[!UICONTROL Learning]_:
-
-![Enhetlig sökning i hjälpen för Experience Cloud](assets/unified-search-learning.png)
-
-Sökalgoritmer visar först de mest relevanta posterna. Vilken ordning du väljer beror på flera faktorer, till exempel:
-
-* Användarbehörigheter för att komma åt objekt
-* Matchande procent
-* Exakta matchningar
-* The _[!UICONTROL Top Results]_-avsnittet visar de 30 viktigaste resultaten.
-
-Förfina sökningen genom att klicka på något av följande:
-
-* **[!UICONTROL All Learning]**: Öppnar sökningen i Experience League.
-* **[!UICONTROL Show all...]**: Gör att du kan förfina och filtrera resultaten ytterligare.
 
 ## Användarprofil och kontoinställningar {#preferences}
 
