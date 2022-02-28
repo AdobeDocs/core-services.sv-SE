@@ -7,9 +7,9 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Beginner
-source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
+source-git-commit: ef3da61a2894eb278d9c20a784f37607f1af0e27
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -92,14 +92,14 @@ Följande funktioner är tillgängliga i Unified Search.
 
 {style=&quot;table-layout:auto&quot;}
 
-## Hittar du inte det förväntade resultatet eller får för många resultat?
+## Hittar du den inte?
 
 Testa följande tips:
 
 * Ange ett mer specifikt sökord
 * Kontrollera stavningen
 * Försök skriva hela söktermen
-* Kontrollera att du har behörighet för objektet. Du söker efter
+* Se till att du har behörighet till objekt som du söker efter
 
 
 
