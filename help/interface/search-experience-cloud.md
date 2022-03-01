@@ -7,9 +7,9 @@ feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Beginner
-source-git-commit: ef3da61a2894eb278d9c20a784f37607f1af0e27
+source-git-commit: 7e7129fbf0c3407dac3a91b645bddc878b1a7d45
 workflow-type: tm+mt
-source-wordcount: '633'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # [!UICONTROL Unified Search] för objekt och enheter {#globally-search}
 
-The [!UICONTROL Unified Search] Med hjälp av sökning kan du söka efter sökbara affärsobjekt eller entiteter på ett smidigt och enhetligt sätt med ett enda klick. Den här sökningen visar de objekt du nyligen har använt.
+The [!UICONTROL Unified Search] Med hjälp av sökning kan du söka efter sökbara affärsobjekt eller entiteter på ett smidigt och enhetligt sätt med ett enda klick. Den här sökningen använder även dina nyligen använda objekt.
 
 ![Sök globalt efter objekt och enheter](assets/platform-search.png)
 
@@ -44,16 +44,16 @@ Din förmåga och objektbehörigheter matchar procentandelen Om det finns en exa
 
 Sökbara affärsobjekt:
 
-* Segment (namn, beskrivning)
-* Schema (namn, beskrivning)
-* Datauppsättningar (namn, beskrivning)
-* Källor (namn, beskrivning)
-* Destinationer (namn, beskrivning)
-* Frågor (namn, beskrivning)
-* Meddelanden (namn, beskrivning)
-* Erbjudanden (namn, beskrivning)
-* Komponenter (namn, beskrivning)
-* Resor (namn, beskrivning)
+* Segment (namn, beskrivning, ID)
+* Schema (namn, beskrivning, ID)
+* Datauppsättningar (namn, beskrivning, ID)
+* Källor (namn, beskrivning, ID)
+* Destinationer (namn, beskrivning, ID)
+* Frågor (namn, beskrivning, ID)
+* Meddelanden (namn, beskrivning, ID)
+* Erbjudanden (namn, beskrivning, ID)
+* Komponenter (namn, beskrivning, ID)
+* Resor (namn, beskrivning, ID)
 
 Om ett nyckelord matchar en navigeringssida kan du få snabb åtkomst till länken till exempeldatauppsättningar för navigeringssidan. I det övre resultatavsnittet visas de 30 viktigaste resultaten.
 
