@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f03a0702b1f95dd8dfafbe84afc85e48f2aa9e5c
+source-git-commit: e2d1c99e191a14622126d868fce45c5ce88e571f
 workflow-type: tm+mt
-source-wordcount: '4538'
+source-wordcount: '4571'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,12 @@ Funktioner, versionsinformation och kända fel för gränssnittskomponenterna i 
 En lista över dokumentationsuppdateringar finns på [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Versionsinformation om alla program finns i [Versionsinformation för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en).
+
+## Mars-2022
+
+| Funktion | Beskrivning |
+| ------- |-------|
+| Åtkomst [!UICONTROL Recents] över Experience Platform och Journey Optimizer via sökfältet | Användare kan nu komma åt nyligen använda objekt från alla sidor i AEP och AJO via det enhetliga sökfältet. |
 
 ## Februari - 2022
 
