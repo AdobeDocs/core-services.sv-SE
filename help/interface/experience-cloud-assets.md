@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: 77e99651b49fa411a9af941bbf73b746e05a3609
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '370'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,8 @@ Navigera till en resurs (eller resurskatalog) och välj sedan **[!UICONTROL Sele
 Verktygsfältet ger snabb åtkomst till funktioner som sökning, tidslinje, återgivning, redigering, anteckning och hämtning.
 
 ![Öppna verktygsfältet](assets/asset-tools.png)
+
+! Observera att om du vill ta bort resurser som har använts eller används i Target måste du ta bort all användning av den aktuella resursen.
 
 ## Redigera resurser {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
