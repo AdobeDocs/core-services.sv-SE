@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: e2d1c99e191a14622126d868fce45c5ce88e571f
+source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
 workflow-type: tm+mt
 source-wordcount: '4571'
 ht-degree: 2%
@@ -192,7 +192,7 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 
 **Känt fel**
 
-Om du använder dynamisk tagghantering via **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]** men ditt Dynamic Tag Management-konto är inte länkat till Experience Cloud (Adobe ID). Du kommer inte att kunna logga in på Dynamic Tag Management. Du undviker problemet genom att navigera direkt till `dtm.adobe.com` på en ny flik i webbläsaren.
+Om du använder Dynamic Tag Management via **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]** men ditt Dynamic Tag Management-konto är inte länkat till Experience Cloud (Adobe ID). Du kan inte logga in på Dynamic Tag Management. Du undviker problemet genom att navigera direkt till `dtm.adobe.com` på en ny flik i webbläsaren.
 
 ## Version 16.1 - 21 januari 2016 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -294,7 +294,7 @@ Ingen information finns tillgänglig
 
 **Korrigeringar**
 
-* Ett problem som förhindrar enkel inloggning mellan [!DNL Experience Cloud] och [!DNL Media Optimizer].
+* Ett problem som förhindrar enkel inloggning mellan [!DNL Experience Cloud] och [!DNL Advertising Cloud].
 
 **Kända fel**
 
@@ -386,7 +386,7 @@ Nya funktioner och korrigeringar i [!DNL Adobe Experience Cloud] samarbets- och 
 * Användare kan inte dela PowerPoint-filer på ritytor.
 * Ändringar av grupper och tillstånd som görs i användarhantering börjar gälla först efter en ny inloggning.
 * Vissa användare kan ha problem med att överföra stora filtyper till Experience Cloud Assets.
-* Användare kanske saknar länkar på sina Experience Cloud-kort från Media Optimizer.
+* Användare kanske saknar länkar på sina Experience Cloud-kort från Advertising Cloud.
 * Vissa administrativa användare kan få problem med att länka sina konton efter att ha accepterat en inbjudan att gå med i Experience Cloud.
 * Experience Cloud gränssnitt kan minska prestandan när flera användare använder det parallellt.
 * Vissa användare kan ta bort en inaktuell resurs i stället för att få ett felmeddelande.
@@ -595,7 +595,7 @@ Nya funktioner och korrigeringar i [!DNL Adobe Experience Cloud] samarbets- och 
 **Korrigeringar**
 
 * [!DNL Experience Cloud] länkades inte till [!DNL Adobe Target]. Problemet uppstod om [!DNL Adobe Target] inloggning kan användas på flera [!DNL Target] servrar.
-* [!DNL Adobe Media Optimizer] skapar inte användare automatiskt när användaren har skapats i [!DNL Experience Cloud].
+* [!DNL Adobe Advertising Cloud] skapar inte användare automatiskt när användaren har skapats i [!DNL Experience Cloud].
 * Alternativ i kombinationsrutor som används för att lägga till nya användare försvinner tillfälligt när du skriver.
 * Kommentarslänken i resurskortvyn kunde inte markeras.
 * När du har lagt till en anpassad tagg i en resurs, bevaras inga andra metadataändringar.
@@ -643,12 +643,12 @@ Nya funktioner och korrigeringar i [!DNL Adobe Experience Cloud] samarbets- och 
 * Kommentarslänken i resurskortvyn kan inte markeras.
 * Alternativ i kombinationsrutor för att lägga till nya användare försvinner tillfälligt när du skriver.
 * Logga in på [!DNL Experience Cloud] tar längre tid än en sekund.
-* Data som delas från [!DNL Media Optimizer] är felrepresenterad i [!DNL Experience Cloud].
-* Adobe [!DNL Media Optimizer] skapar inte användare automatiskt när användare har skapats i [!DNL Experience Cloud].
+* Data som delas från [!DNL Advertising Cloud] är felrepresenterad i [!DNL Experience Cloud].
+* Adobe [!DNL Advertising Cloud] skapar inte användare automatiskt när användare har skapats i [!DNL Experience Cloud].
 * The [!DNL Experience Cloud] kan inte länkas till [!DNL Adobe Target], om [!DNL Adobe Target] inloggning kan användas på flera [!DNL Target] servrar.
 * [!DNL Experience Cloud] gränssnitt kan göra det långsammare när det används parallellt av många användare.
 * [!DNL Search&Promote] länkningen är inte tillgänglig från [!UICONTROL Organizations & Product Access] sida.
-* [!DNL Adobe Media Optimizer] simuleringskort återges inte korrekt.
+* [!DNL Adobe Advertising Cloud] simuleringskort återges inte korrekt.
 * Filter som tillämpas på trendrapporter från [!DNL Analytics] används inte för kort i [!DNL Experience Cloud].
 * Filter som tillämpas på trendrapporter från Analytics tillämpas inte på kort i Experience Cloud.
 * Vissa Excel- eller CSV-filer kan inte överföras till en anslagstavla.
@@ -664,7 +664,7 @@ Version 14.3.1 är en underhållsrelease som fokuserar på hastighet, stabilitet
 **Korrigeringar**
 
 * Lagt till möjlighet att ta bort din avatarbild.
-* Ett problem som hindrar dig från att bryta länken till din [!DNL Adobe Media Optimizer] konton.
+* Ett problem som hindrar dig från att bryta länken till din [!DNL Adobe Advertising Cloud] konton.
 
 **Kända fel**
 
@@ -678,16 +678,16 @@ Version 14.3.1 är en underhållsrelease som fokuserar på hastighet, stabilitet
 * Experience Cloud kan inte länkas till [!DNL Adobe Target], om [!DNL Adobe Target] Inloggning kan användas på flera målservrar.
 * Det tar längre tid än en sekund att logga in i Experience Cloud.
 * När du har lagt till en anpassad tagg i en resurs kan inga andra metadataändringar sparas.
-* [!DNL Adobe Media Optimizer] skapar inte användare automatiskt när användare har skapats i Experience Cloud.
+* [!DNL Adobe Advertising Cloud] skapar inte användare automatiskt när användare har skapats i Experience Cloud.
 * Alternativ i kombinationsrutor för att lägga till nya användare försvinner tillfälligt när du skriver.
-* Data som delas från [!DNL Media Optimizer] är felrepresenterat i Experience Cloud.
+* Data som delas från [!DNL Advertising Cloud] är felrepresenterat i Experience Cloud.
 * Det går inte att dela Flickr-bilder.
 * Filter som tillämpas på trendrapporter från [!DNL Analytics] inte används på kort i Experience Cloud.
 * Ändringar av grupper och tillstånd som görs i användarhantering börjar gälla först efter en ny inloggning.
 * [!DNL Search&Promote] länkningen är inte tillgänglig från [!UICONTROL Organizations & Product Access].
 * Användarna måste uppdatera anslagstavlan för att ta bort de raderade korten.
 * Vissa Excel- eller CSV-filer kan inte överföras till en anslagstavla.
-* [!DNL Adobe Media Optimizer] simuleringskort återges inte korrekt.
+* [!DNL Adobe Advertising Cloud] simuleringskort återges inte korrekt.
 * Vissa PNG-filer kan inte återges på ett kort.
 * Betafeedback kan inte skickas.
 

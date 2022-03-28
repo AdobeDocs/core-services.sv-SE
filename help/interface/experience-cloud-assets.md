@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: 77e99651b49fa411a9af941bbf73b746e05a3609
+source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '350'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,9 @@ Tillgångstjänster:
 
 Genom att använda mediefiler blir det enhetligare och varumärkeskommunikationen effektivare och kortare time-to-market. Du kan effektivisera arbetsflöden i program:
 
-* **[!DNL Social]**: Publicera på sociala medier, Facebook, Twitter, LinkedIn, Google+
-* **[!DNL Target]**: Skapa upplevelser för A/B-tester och multivariata tester.
-* **[!DNL Media Optimizer]**: Utveckla annonsenheter i olika kanaler och kampanjer
-* **[!DNL Campaign]**: Lägg in resurser i nyhetsbrev och kampanjer via e-post.
+* **[!DNL Adobe Target]**: Skapa upplevelser för A/B-tester och multivariata tester.
+* **[!DNL Ad Cloud]**: Utveckla annonsenheter i olika kanaler och kampanjer
+* **[!DNL Adobe Campaign]**: Lägg in resurser i nyhetsbrev och kampanjer via e-post.
 
 I [!UICONTROL Experience Cloud Assets]kan du:
 
@@ -55,7 +54,9 @@ Verktygsfältet ger snabb åtkomst till funktioner som sökning, tidslinje, åte
 
 ![Öppna verktygsfältet](assets/asset-tools.png)
 
-! Observera att om du vill ta bort resurser som har använts eller används i Target måste du ta bort all användning av den aktuella resursen.
+>[!NOTE]
+>
+>Resurser måste tas bort från Adobe Target-aktiviteter innan du kan ta bort dem från [!DNL Target].
 
 ## Redigera resurser {#section_CD3C55A9D4574455B94D0955391C8FEC}
 

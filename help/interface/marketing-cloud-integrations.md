@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
 workflow-type: tm+mt
 source-wordcount: '1422'
 ht-degree: 1%
@@ -64,7 +64,7 @@ Skapa och hantera målgrupper i Experience Cloud Audience Library. Målgrupper k
 
 * [Verksamhet](https://experienceleague.adobe.com/docs/target/using/activities/activities.html?lang=en) i Adobe Target
 * [Segmentering](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=en) i Audience Manager
-* [Media Optimizer](https://enterprise.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibmxtHqnZFSOMml-n993zOBc-ovZGNZkX5vgePWqKNMoMmPSqf9PkzFeYF4UN6GqSXDVNDvwgnvv9KT8PvVxk8%3D) (inloggning krävs)
+* [Advertising Cloud](https://enterprise.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibmxtHqnZFSOMml-n993zOBc-ovZGNZkX5vgePWqKNMoMmPSqf9PkzFeYF4UN6GqSXDVNDvwgnvv9KT8PvVxk8%3D) (inloggning krävs)
 
 ## Kundattribut {#section_6A9EA6847F654F129381869E5016626C}
 
@@ -128,7 +128,7 @@ Använd tillägget Adobe Experience Cloud Debugger för att felsöka problem som
 
 * [Analyser](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html?lang=en)
 * [Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=en)
-* [Media Optimizer](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [Advertising Cloud](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 * [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 * [Mac ID-tjänst](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 * [Nielsen Tracking](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
@@ -144,7 +144,7 @@ Integrera Adobe Target med Adobe Analytics och andra Experience Cloud-program f�
 * Kundattribut: Konfigurera Adobe Target [prenumeration](subscription.md) till kundattribut
 * Experience Cloud målgrupper: [Experience Cloud målgruppsbibliotek](audience-library.md)
 * Analyser: [Adobe Analytics som rapportkälla för Adobe Target](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)
-* Dynamisk tagghantering: [Bästa tillvägagångssätt för att implementera Adobe Target med DTM](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* Dynamic Tag Management: [Bästa tillvägagångssätt för att implementera Adobe Target med DTM](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 * Audience Manager: [Adobe Target dataintegrering med Adobe Audience Manager](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=en)
 * Campaign: [Integrera Adobe Target med Campaign](https://experienceleague.adobe.com/docs/target/using/integrate/campaign-and-target.html?lang=en)
 
