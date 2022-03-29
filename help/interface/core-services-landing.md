@@ -1,5 +1,5 @@
 ---
-description: Läs om Adobe Experience Cloud hantering av användare och produkter, människor (målgrupper och kundattribut), Journey Orchestration, erbjudanden, platser, Experience Platform Launch och mobiltjänster.
+description: Läs om Adobe Experience Cloud hantering av användare och produkter, människor (målgrupper och kundattribut), Journey Orchestration, erbjudanden, platser, Experience Platform Launch och Mobile-tjänster.
 solution: Experience Cloud
 title: 'Översikt över Experience Cloud tjänster '
 feature: Customer Attributes
@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: a4a1914856001a93967c6a63ad4d389138b33217
+source-git-commit: 74d13f4467efeedb1098b627c912f8193d8ebb22
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '353'
 ht-degree: 5%
 
 ---
@@ -41,4 +41,4 @@ I den här hjälpen beskrivs följande produkter och tjänster:
 
 >[!NOTE]
 >
->Produktdokumentation för Experience Platform finns [här](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=en). Teknisk dokumentation för [!UICONTROL Experience Platform] utvecklare finns på [Adobe.io](https://www.adobe.io/apis/experienceplatform/home/services.html).
+>Produktdokumentation för Experience Platform finns [här](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=en). Teknisk dokumentation för [!UICONTROL Experience Platform] utvecklare finns på [Adobe Developer](https://developer.adobe.com/apis).

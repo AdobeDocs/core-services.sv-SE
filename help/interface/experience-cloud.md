@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: ae43fd46ec2e525656994b8d2d843d095cfe2daf
+source-git-commit: 74d13f4467efeedb1098b627c912f8193d8ebb22
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1246'
 ht-degree: 1%
 
 ---
@@ -175,7 +175,6 @@ Stödlinjer för Experience Cloud:
 * [Experience Cloud ID-tjänst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
 * [Experience Platform datainsamling/start](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en)
-* [Allmänt API för dataskyddsförordningen (GDPR)](https://developer.adobe.com/apis/experiencecloud/gdpr.html)
 * [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 
 ## Självstudiekurser
