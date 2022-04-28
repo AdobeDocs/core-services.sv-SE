@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
+source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 2%
@@ -100,7 +100,7 @@ An [organisation](organizations.md) är den enhet som gör det möjligt för en 
 
 ## Var hittar jag mitt IMS-organisations-ID?
 
-Se [Hitta ditt organisations-ID](organizations.md) för mer information.
+Se [Visa ditt organisations-ID](organizations.md) för mer information.
 
 ## Vad ska jag göra när någon av mina användare lämnar mitt företag?
 

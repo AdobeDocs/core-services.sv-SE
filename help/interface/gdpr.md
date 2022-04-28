@@ -1,15 +1,15 @@
 ---
 title: 'Kundattribut Stöd för allmänna dataskyddsregler '
 description: Läs mer om stöd för kundattribut i den allmänna dataskyddsförordningen
-feature: Kundattribut
-topic: Administrering
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 1%
+source-wordcount: '404'
+ht-degree: 0%
 
 ---
 
@@ -21,27 +21,27 @@ Den här sidan beskriver hur [!UICONTROL Customer Attributes] stöder allmänna 
 >
 >Innehållet i detta dokument är inte juridisk rådgivning eller avsett att ersätta juridisk rådgivning. Kontakta ditt juridiska ombud för råd om GDPR.
 
-Den [allmänna dataskyddsförordningen](https://business.adobe.com/privacy/general-data-protection-regulation.html), en lag som gäller den 25 maj 2018, ger alla individer (registrerade) inom EU:s gränser kontroll över sina personuppgifter. Det förenklar också regelmiljön för internationell verksamhet. Denna lag gäller alla företag (registeransvariga) som erbjuder varor eller tjänster för att övervaka, övervaka eller samla in personuppgifter från enskilda personer inom EU:s gränser vid den tidpunkt då deras personuppgifter behandlas, oavsett var den registeransvarige befinner sig.
+The [Allmän dataskyddsförordning](https://business.adobe.com/privacy/general-data-protection-regulation.html), en lag som gäller den 25 maj 2018, ger alla individer (registrerade) inom EU:s gränser kontroll över sina personuppgifter. Det förenklar också regelmiljön för internationell verksamhet. Denna lag gäller alla företag (registeransvariga) som erbjuder varor eller tjänster för att övervaka, övervaka eller samla in personuppgifter från enskilda personer inom EU:s gränser vid den tidpunkt då deras personuppgifter behandlas, oavsett var den registeransvarige befinner sig.
 
 Adobe Experience Cloud fungerar som personuppgiftsbiträde för alla personuppgifter som de tar emot och lagrar för sina kunders räkning. Som personuppgiftsansvarig avgör du vilka personuppgifter Adobe Experience Cloud behandlar och lagrar å dina vägnar.
 
-I det här dokumentet beskrivs hur [!UICONTROL Customer Attributes] stöder de registrerade personernas GDPR-dataåtkomst och borttagningsrättigheter med hjälp av Adobe Experience Platform Privacy Service API och Privacy Servicens användargränssnitt.
+Det här dokumentet beskriver hur [!UICONTROL Customer Attributes] har stöd för de registrerade i GDPR:s dataåtkomst och borttagningsrättigheter med hjälp av Adobe Experience Platform Privacy Service API och Privacy Servicens användargränssnitt.
 
-Mer information om vad GDPR innebär för ditt företag finns i [GDPR och Ditt företag](https://business.adobe.com/privacy/general-data-protection-regulation.html).
+Mer information om vad GDPR innebär för ditt företag finns i [GDPR och er verksamhet](https://business.adobe.com/privacy/general-data-protection-regulation.html).
 
-## Nödvändig konfiguration för att skicka begäranden för [!UICONTROL Customer Attributes]
+## Nödvändig konfiguration för att skicka begäranden [!UICONTROL Customer Attributes]
 
-Om du vill begära åtkomst till och ta bort data för [!UICONTROL Customer Attributes] måste du:
+Gör förfrågningar om åtkomst och borttagning av data för [!UICONTROL Customer Attributes]måste du:
 
 1. Identifiera följande:
 
-   * IMS-organisations-ID
+   * [Organisations-ID](#organizations.md)
    * Alias-ID för CRS-datakälla som du vill använda
    * CRM-ID för profilen som du vill använda
 
-   Ett IMS-organisations-ID är en 24 tecken lång alfanumerisk sträng som läggs till med @AdobeOrg. Om ditt marknadsföringsteam eller den interna systemadministratören i Adobe inte känner till din organisations IMS-organisation kan du kontakta Adobe kundtjänst på gdprsupport@adobe.com. Du behöver IMS-organisations-ID för att kunna skicka begäranden till sekretess-API:t.
+   Dina [organisations-ID](#organizations.md) är en alfanumerisk sträng med 24 tecken som läggs till med @AdobeOrg. Du behöver organisationens ID för att kunna skicka begäranden till sekretess-API:t. Kontakta Adobe kundtjänst på `gdprsupport@adobe.com` om du inte kan hitta ID:t.
 
-1. I [!UICONTROL Privacy Service] kan du skicka in begäranden om åtkomst och borttagning till kundattribut och kontrollera status för befintliga begäranden.
+1. I [!UICONTROL Privacy Service]kan du skicka in begäran om åtkomst och borttagning till kundattribut och kontrollera status för befintliga begäranden.
 
 ## Obligatoriska fältvärden i [!UICONTROL Customer Attributes] JSON-begäranden
 
@@ -54,7 +54,7 @@ företagskontext:
 
 * &quot;key&quot;: &lt;*vanligtvis kundens namn*>
 
-* &quot;action&quot;: antingen **åtkomst** eller **ta bort**
+* &quot;action&quot;: antingen **åtkomst** eller **delete**
 
 * användar-ID:
 
@@ -64,7 +64,7 @@ företagskontext:
 
    * &quot;value&quot;: &lt;*CRM-ID*>
 
-* &quot;include&quot;: **CRS** (som är den Adobe-produkt som gäller för begäran)
+* &quot;include&quot;: **CRS** (som är den Adobe-produkt som är tillämplig på ansökan)
 
 * reglering: **gdpr** (som är den sekretessregel som gäller för begäran)
 

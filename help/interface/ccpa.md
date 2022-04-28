@@ -1,72 +1,72 @@
 ---
 title: 'Customer Attributes Support for California Consumer Privacy Act '
 description: Läs mer om stöd för Kundattribut i Kaliforniens konsumentintegritetslag
-feature: Kundattribut
-topic: Administrering
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 5%
+source-wordcount: '406'
+ht-degree: 4%
 
 ---
 
 # Customer Attributes support for California Consumer Privacy Act
 
-Den här sidan beskriver [!UICONTROL Customer Attributes']-stödet för California Consumer Privacy Act (CCPA).
+Den här sidan beskriver [!UICONTROL Customer Attributes'] stöd för California Consumer Privacy Act (CCPA).
 
 >[!IMPORTANT]
 >
->Innehållet i detta dokument är inte juridisk rådgivning och är inte avsett att ersätta juridisk rådgivning. Kontakta ditt juridiska ombud för råd om (CCPA).
+>Innehållet i detta dokument är inte juridisk rådgivning och är inte avsett att ersätta juridisk rådgivning. Consult with your legal counsel for advice concerning the (CCPA).
 
-CCPA är Kaliforniens nya integritetslagstiftning som träder i kraft den 1 januari 2020. CCPA ger invånare i Kalifornien nya rättigheter när det gäller personuppgifter och ålägger dataskyddsansvar för vissa enheter som bedriver verksamhet i Kalifornien. CCPA ger konsumenterna rätt att få tillgång till och radera sina personuppgifter och rätt att avanmäla vissa aktiviteter som kvalificerar som &quot;sälja&quot; personuppgifter till tredje part.
+The CCPA is California’s new privacy law, which is effective January 1, 2020. CCPA provides California residents new rights regarding their personal information and imposes data protection responsibilities on certain entities who conduct business in California. CCPA provides consumers with the right to access and delete their personal information and the right to opt out of certain activities that qualify as “selling” personal information to a third party.
 
 Som företag avgör du vilka personuppgifter Adobe Experience Cloud behandlar och lagrar å dina vägnar.
 
-Som tjänsteleverantör tillhandahåller Adobe Experience Cloud support för ert företag för att uppfylla de skyldigheter enligt CCPA som gäller för användning av Experience Cloud produkter och tjänster. Supporten omfattar hantering av förfrågningar om åtkomst och radering av personlig information.
+Som tjänsteleverantör tillhandahåller Adobe Experience Cloud support för ert företag för att uppfylla de skyldigheter enligt CCPA som gäller för användning av Experience Cloud produkter och tjänster. This support includes managing requests to access and delete personal information.
 
-Det här dokumentet beskriver hur [!UICONTROL Customer Attributes] stöder de registrerade personernas CCPA-behörighet för dataåtkomst och borttagning med Adobe Experience Platform Privacy Service API och Privacy Servicens användargränssnitt.
+Det här dokumentet beskriver hur [!UICONTROL Customer Attributes] har stöd för åtkomst och borttagning av data från era registrerade med hjälp av Adobe Experience Platform Privacy Service API och användargränssnittet för Privacy Service.
 
-Mer information om sekretessavtal för CCPA för Adobe finns i [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html).
+For more information about the Adobe Privacy services for CCPA, see the [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html).
 
-## Nödvändig konfiguration för att skicka begäranden för [!UICONTROL Customer Attributes]
+## Nödvändig konfiguration för att skicka begäranden [!UICONTROL Customer Attributes]
 
-Om du vill begära åtkomst till och ta bort data för [!UICONTROL Customer Attributes] måste du:
+Gör förfrågningar om åtkomst och borttagning av data för [!UICONTROL Customer Attributes]måste du:
 
 1. Identifiera följande:
 
-   * IMS-organisations-ID
-   * Alias-ID för CRS-datakälla som du vill använda
-   * CRM-ID för profilen som du vill använda
+   * [Organization ID](#organizations.md)
+   * Alias ID of CRS Data Source you want to act on
+   * CRM ID of the profile you want to act on
 
-   Ett IMS-organisations-ID är en 24 tecken lång alfanumerisk sträng som läggs till med @AdobeOrg. Om ditt marknadsföringsteam eller den interna systemadministratören i Adobe inte känner till din organisations IMS-organisation kan du kontakta Adobe kundtjänst på gdprsupport@adobe.com. Du måste ha IMS-organisations-ID för att kunna skicka begäranden till sekretess-API:t.
+   Your [organization ID](#organizations.md) is a 24-character alphanumeric string appended with @AdobeOrg. Du behöver organisationens ID för att kunna skicka begäranden till sekretess-API:t. Kontakta Adobe kundtjänst på `gdprsupport@adobe.com` om du inte kan hitta ID:t.
 
-1. I [!UICONTROL Privacy Service] kan du skicka in begäranden om åtkomst och borttagning till kundattribut och kontrollera status för befintliga begäranden.
+1. In [!UICONTROL Privacy Service], you can submit Access and Delete requests to Customer Attributes, and check the status of existing requests.
 
-## Obligatoriska fältvärden i [!UICONTROL Customer Attributes] JSON-begäranden
+## Required field values in [!UICONTROL Customer Attributes] JSON Requests
 
 företagskontext:
 
 * &quot;namespace&quot;: **imsOrgID**
-* &quot;value&quot;: &lt;*ditt IMS-organisations-ID-värde*>
+* &quot;value&quot;: &lt;*ditt organisations-ID-värde*>
 
 &quot;användare&quot;:
 
 * &quot;key&quot;: &lt;*vanligtvis kundens namn*>
 
-* &quot;action&quot;: antingen **åtkomst** eller **ta bort**
+* &quot;action&quot;: antingen **åtkomst** eller **delete**
 
-* användar-ID:
+* &quot;user IDs&quot;:
 
-   * &quot;namespace&quot;: &lt;*Alias-ID för CRS-datakälla*>
+   * &quot;namespace&quot;: &lt;*Alias ID of CRS Data Source*>
 
    * &quot;type&quot;: **integrationCode**
 
    * &quot;value&quot;: &lt;*CRM-ID*>
 
-* &quot;include&quot;: **CRS** (som är den Adobe-produkt som gäller för begäran)
+* &quot;include&quot;: **CRS** (which is the Adobe product that applies to the request)
 
 * reglering: **ccpa** (som är den sekretessregel som gäller för begäran)
 

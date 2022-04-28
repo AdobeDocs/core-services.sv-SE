@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: fef91c95f8ce5c8791b345ce64c99cd61a733966
+source-git-commit: 55c81003b94b7e033cddb6854b5c1f1c1ffa199c
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '564'
 ht-degree: 3%
 
 ---
@@ -32,25 +32,35 @@ För en organisation med Federated ID och domänen `adobecustomer.com`, ange URL
 
 ![Stegresultat](assets/organization-switch.png)
 
-## Hitta ditt organisations-ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+## Visa ditt organisations-ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-Du kan behöva hitta ditt organisations-ID för support. Du kan verifiera att du är i rätt organisation, eller växla mellan organisationer, med **[!UICONTROL Organization]** -menyn.
+Du kan behöva hitta ditt tilldelade organisations-ID för support. Du kan verifiera att du är i rätt organisation, eller växla mellan organisationer, med **[!UICONTROL Organization]** -menyn.
 
 Organisations-ID är det ID som är kopplat till ditt tilldelade Experience Cloud-företag. Detta ID är en 24 tecken lång alfanumerisk sträng, följt av (och måste innehålla) `@AdobeOrg`.
 
-Du kan visa ditt organisations-ID tillsammans med annan kontoinformation med hjälp av ett kortkommando **Ctrl+i** från vilken sida som helst på `https://experience.adobe.com`klickar du på **[!UICONTROL Assigned Orgs]** i dialogrutan.
+Du kan visa ditt organisations-ID tillsammans med annan kontoinformation med hjälp av ett kortkommando **Ctrl+i** från vilken sida som helst på `https://experience.adobe.com`.
 
-![Tilldelat organisations-ID](assets/assigned-organization.png)
+**Så här visar du ditt organisations-ID**
 
-Administratörer kan även logga in på Admin Console (navigera till [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) och visa ditt IMS-org-ID i URL:en.
+1. I [Experience Cloud](https://experience.adobe.com.), tryck **Ctrl+i** på tangentbordet.
 
-I följande URL:
+   ![Tilldelat organisations-ID](assets/assigned-organization.png)
 
-`https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
+1. Klicka på **[!UICONTROL Assigned Orgs]** i dialogrutan.
 
-ID:
+1. Klicka på ditt organisationsnamn.
 
-`C538193582390300A495CC9@AdobeOrg`
+1. Sök efter **[!UICONTROL ID]**.
+
+   Administratörer kan även logga in på Admin Console (navigera till [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) och visa ditt organisations-ID i URL:en.
+
+   I följande URL:
+
+   `https://adminconsole.adobe.com/C538193582390300A495CC9@AdobeOrg/overview`
+
+   ID:
+
+   `C538193582390300A495CC9@AdobeOrg`
 
 ## Länka ett programkonto till en Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
 
