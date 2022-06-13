@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 23eee50163d309384378d9621a00d6286ad06b7b
+source-git-commit: 761a40f8beb1f9bc3ed74c0ae6c89eca2f6479bd
 workflow-type: tm+mt
-source-wordcount: '4607'
+source-wordcount: '4677'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,16 @@ Funktioner, versionsinformation och kända fel för gränssnittskomponenterna i 
 En lista över dokumentationsuppdateringar finns på [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Versionsinformation om alla program finns i [Versionsinformation för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en).
+
+## Juli-2022
+
+Planerad version: **11 juli 2022**
+
+| Funktion | Beskrivning |
+| ------- | ------- |
+| Enhetligt hem - widget för snabbåtkomst | **Navigera snabbare:** Nu kan du anpassa din hemupplevelse ytterligare och bestämma vilka program du har till hands. Använd den nya fästfunktionen för att välja vilka program som ska visas längst fram och i mitten på din [!UICONTROL Quick Access]. <br>**Håll dig informerad med smart fästning:** Dina nya program är nu enklare att hitta. Nyligen tilldelade program visar en _Nytt_ märke och automatiskt fästa på [!UICONTROL Quick Access]. |
+
+{style=&quot;table-layout:auto&quot;}
 
 ## April - 2022
 
@@ -200,7 +210,7 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 
 **Känt fel**
 
-Om du använder dynamisk tagghantering via **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]** men ditt Dynamic Tag Management-konto är inte länkat till Experience Cloud (Adobe ID). Du kommer inte att kunna logga in på Dynamic Tag Management. Du undviker problemet genom att navigera direkt till `dtm.adobe.com` på en ny flik i webbläsaren.
+Om du använder Dynamic Tag Management via **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]** men ditt Dynamic Tag Management-konto är inte länkat till Experience Cloud (Adobe ID). Du kan inte logga in på Dynamic Tag Management. Du undviker problemet genom att navigera direkt till `dtm.adobe.com` på en ny flik i webbläsaren.
 
 ## Version 16.1 - 21 januari 2016 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
