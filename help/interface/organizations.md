@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 953b5c7c058e2641bc3bcfb66a968146ea617404
+source-git-commit: 2c0814a22b501a93b4a5f2bb1ba6f13c13fc7e1a
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '567'
 ht-degree: 3%
 
 ---
@@ -22,7 +22,7 @@ Läs om hur du hanterar och byter företag i Experience Cloud.
 
 ## Identifiera er organisation {#concept_384D169B0B724B799D573B8ECB5C39BF}
 
-An *organisation* (IMS organisations-ID) är den enhet som gör det möjligt för en administratör att konfigurera grupper och användare samt att styra enkel inloggning i Experience Cloud. Organisationen fungerar som ett inloggningsföretag som omfattar alla produkter och program i Experience Cloud. Oftast är en organisation ditt företagsnamn. Ett företag kan dock ha många organisationer.
+An *organisation* (Org ID) är den enhet som gör det möjligt för en administratör att konfigurera grupper och användare samt att styra enkel inloggning i Experience Cloud. Organisationen fungerar som ett inloggningsföretag som omfattar alla produkter och program i Experience Cloud. Oftast är en organisation ditt företagsnamn. Ett företag kan dock ha många organisationer.
 
 Kontrollera att du har loggat in på rätt organisation genom att klicka på din profilavatar för att visa organisationsnamnet. Om du har tillgång till mer än en organisation kan du även visa och växla till en annan organisation direkt i sidhuvudsfältet.
 
@@ -32,7 +32,7 @@ För en organisation med Federated ID och domänen `adobecustomer.com`, ange URL
 
 ![Stegresultat](assets/organization-switch.png)
 
-## Visa ditt IMS-organisations-ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
+## Visa ditt organisations-ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
 Du kan behöva hitta ditt tilldelade organisations-ID för support. Du kan verifiera att du är i rätt organisation, eller växla mellan organisationer, med **[!UICONTROL Organization]** -menyn.
 
@@ -40,17 +40,13 @@ Organisations-ID är det ID som är kopplat till ditt tilldelade Experience Clou
 
 Du kan visa ditt organisations-ID tillsammans med annan kontoinformation med hjälp av ett kortkommando **Ctrl+i** från vilken sida som helst på `https://experience.adobe.com`.
 
-**Så här visar du ditt IMS-organisations-ID**
+**Så här visar du ditt organisations-ID**
 
 1. I [Experience Cloud](https://experience.adobe.com.), tryck **Ctrl+i** på tangentbordet.
 
    ![Tilldelat organisations-ID](assets/assigned-organization.png)
 
-1. Klicka på **[!UICONTROL Assigned Orgs]** i dialogrutan.
-
-1. Klicka på ditt organisationsnamn.
-
-1. Sök efter **[!UICONTROL ID]**.
+1. Under **[!UICONTROL User Information]**, sök efter **[!UICONTROL Current Org ID]** och du ser ditt företags-ID.
 
    Administratörer kan även logga in på Admin Console (navigera till [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) och visa ditt organisations-ID i URL:en.
 
