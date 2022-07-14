@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 2c0814a22b501a93b4a5f2bb1ba6f13c13fc7e1a
+source-git-commit: c6884ade4a793f1cedbc5d497cb9c8ea798a7408
 workflow-type: tm+mt
 source-wordcount: '567'
 ht-degree: 3%
@@ -42,7 +42,7 @@ Du kan visa ditt organisations-ID tillsammans med annan kontoinformation med hj�
 
 **Så här visar du ditt organisations-ID**
 
-1. I [Experience Cloud](https://experience.adobe.com.), tryck **Ctrl+i** på tangentbordet.
+1. I [Experience Cloud](https://experience.adobe.com), tryck **Ctrl+i** på tangentbordet.
 
    ![Tilldelat organisations-ID](assets/assigned-organization.png)
 
