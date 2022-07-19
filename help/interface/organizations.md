@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: c6884ade4a793f1cedbc5d497cb9c8ea798a7408
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '564'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ An *organisation* (Org ID) är den enhet som gör det möjligt för en administr
 
 Kontrollera att du har loggat in på rätt organisation genom att klicka på din profilavatar för att visa organisationsnamnet. Om du har tillgång till mer än en organisation kan du även visa och växla till en annan organisation direkt i sidhuvudsfältet.
 
-Om din organisation använder Federated ID:n kan du med Experience Cloud logga in med din organisations inloggning utan att behöva ange din e-postadress och ditt lösenord. Lägg till `#/sso:@domain` till Experience Cloud URL (`https://experience.adobe.com`).
+Om din organisation använder Federated ID:n kan du med Experience Cloud logga in med din organisations enkla inloggning utan att behöva ange din e-postadress och ditt lösenord. Lägg till `#/sso:@domain` till Experience Cloud URL (`https://experience.adobe.com`) för att utföra den här uppgiften.
 
 För en organisation med Federated ID och domänen `adobecustomer.com`, ange URL-länken till `https://experience.adobe.com/#/sso:@adobecustomer.com`. Du kan också gå direkt till ett specifikt program genom att skapa ett bokmärke för den här URL:en, som bifogas med programsökvägen. (Exempel: för Adobe Analytics `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
@@ -34,7 +34,7 @@ För en organisation med Federated ID och domänen `adobecustomer.com`, ange URL
 
 ## Visa ditt organisations-ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-Du kan behöva hitta ditt tilldelade organisations-ID för support. Du kan verifiera att du är i rätt organisation, eller växla mellan organisationer, med **[!UICONTROL Organization]** -menyn.
+Du kan hitta ditt tilldelade organisations-ID i supportsyfte. Du kan verifiera att du är i rätt organisation, eller växla mellan organisationer, med **[!UICONTROL Organization]** -menyn.
 
 Organisations-ID är det ID som är kopplat till ditt tilldelade Experience Cloud-företag. Detta ID är en 24 tecken lång alfanumerisk sträng, följt av (och måste innehålla) `@AdobeOrg`.
 
@@ -60,7 +60,7 @@ Du kan visa ditt organisations-ID tillsammans med annan kontoinformation med hj�
 
 ## Länka ett programkonto till en Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
 
-Administratörer i Experience Cloud ger vanligtvis tillgång till program och tjänster. I sällsynta fall kan du behöva länka programinloggningsuppgifterna till en Adobe ID.
+Administratörer i Experience Cloud ger vanligtvis tillgång till program och tjänster. I sällsynta fall kan du länka programinloggningsuppgifter till en Adobe ID.
 
 1. Följ stegen i din e-postinbjudan till Experience Cloud.
 1. Logga in med ditt Adobe ID eller Enterprise ID.

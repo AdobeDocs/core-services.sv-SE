@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 74d13f4467efeedb1098b627c912f8193d8ebb22
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 1%
+source-wordcount: '1247'
+ht-degree: 3%
 
 ---
 
@@ -47,7 +47,7 @@ Logga in och verifiera att du är rätt [organisation](organizations.md).
 
    Så här verifierar du att du har loggat in på rätt [organisation](organizations.md)klickar du på din profilavatar för att se organisationens namn. Om du har tillgång till mer än en organisation kan du även visa och växla till en annan organisation direkt i sidhuvudsfältet.
 
-   Om din organisation använder Federated ID:n kan du med Experience Cloud logga in med din organisations inloggning utan att behöva ange din e-postadress och ditt lösenord. Lägg till `#/sso:@domain` till Experience Cloud URL (`https://experience.adobe.com`).
+   Om din organisation använder Federated ID:n kan du med Experience Cloud logga in med din organisations enkla inloggning utan att behöva ange din e-postadress och ditt lösenord. Lägg till `#/sso:@domain` till Experience Cloud URL (`https://experience.adobe.com`) för att utföra den här uppgiften.
 
    För en organisation med Federated ID och domänen `adobecustomer.com`, ange URL-länken till `https://experience.adobe.com/#/sso:@adobecustomer.com`. Du kan också gå direkt till ett specifikt program genom att skapa ett bokmärke för den här URL:en, som bifogas med programsökvägen. (Exempel: för Adobe Analytics `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
@@ -182,7 +182,7 @@ Stödlinjer för Experience Cloud:
 Självstudiekurser och snabba guider i Experience League:
 
 * [Alla självstudiekurser i Experience League](https://experienceleague.adobe.com/?lang=en#quick-how-tos)
-* [Självstudiekurser för Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en)
+* [Självstudiekurser för Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=sv)
 * [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/application-services/rtcdp/understanding-the-real-time-customer-data-platform.html?lang=en)
 
 ## Versionsinformation och tillhörande Experience Cloud-hjälp

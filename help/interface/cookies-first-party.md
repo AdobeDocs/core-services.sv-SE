@@ -10,9 +10,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 8ec1639479777a67d351dff699815fde982a968e
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1604'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Så här implementerar du ett nytt SSL-certifikat från första part för datain
    **Säker** - till exempel värdnamnet `smetrics.example.com` pekar på: `example.com.adobedc.net`.
 
 >[!NOTE]
-> Tidigare har Adobe rekommenderat att kunderna ska konfigurera två CNAME, en för HTTPS och en för HTTP. Eftersom det är en god praxis att kryptera trafik och de flesta webbläsare avråder från HTTP rekommenderar vi inte längre att du konfigurerar en CNAME för HTTP. Kontakta Adobe kundtjänst om du behöver konfigurera CNAME för HTTP.
+> Tidigare har Adobe rekommenderat att kunderna ska konfigurera två CNAME, en för HTTPS och en för HTTP. Eftersom det är en god praxis att kryptera trafik och de flesta webbläsare avråder från HTTP rekommenderar vi inte längre att du konfigurerar en CNAME för HTTP. Kontakta Adobe kundtjänst om du vill konfigurera CNAME för HTTP.
 
 1. När CNAME finns på plats arbetar Adobe med DigiCert för att köpa och installera ett certifikat på Adobe produktionsservrar.
 
@@ -77,8 +77,8 @@ SSL-certifikat upphör att gälla varje år, vilket innebär att Adobe måste k�
 |---|---|
 | **Är den här processen säker?** | Ja, det Adobe-hanterade programmet är säkrare än vår gamla metod eftersom inget certifikat eller någon privat nyckel ändrar händer utanför Adobe och certifikatutfärdaren. |
 | **Hur kan Adobe köpa ett certifikat för vår domän?** | Certifikatet kan bara köpas när du har pekat på det angivna värdnamnet (till exempel `telemetry.example.com`) till ett värdnamn som ägs av Adobe. Detta innebär att värdnamnet delegeras till Adobe och att Adobe kan köpa certifikatet för din räkning. |
-| **Kan jag begära att certifikatet återkallas?** | Ja, som ägare av domänen har du rätt att begära att certifikatet återkallas. Du behöver bara öppna en biljett hos Kundtjänst för att få detta färdigt. |
-| **Använder det här certifikatet SHA-2-kryptering?** | Ja, Adobe kommer att arbeta med DigiCert för att utfärda ett SHA-2-certifikat. |
+| **Kan jag begära att certifikatet återkallas?** | Ja, som ägare av domänen har du rätt att begära att certifikatet återkallas. Öppna en biljett hos Kundtjänst om du vill att det här ska bli färdigt. |
+| **Använder det här certifikatet SHA-2-kryptering?** | Ja, Adobe arbetar med DigiCert för att utfärda ett SHA-2-certifikat. |
 | **Kostar detta något?** | Nej, Adobe erbjuder den här tjänsten till alla nuvarande Adobe-kunder med digitala upplevelser utan extra kostnad. |
 
 {style=&quot;table-layout:auto&quot;}

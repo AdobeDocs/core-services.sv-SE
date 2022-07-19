@@ -1,8 +1,8 @@
 ---
-source-git-commit: 93f5eda7229990e3645b54efa2a172d7b57dcb9b
+source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 79%
+source-wordcount: '423'
+ht-degree: 71%
 
 ---
 # Artikel om att bidra
@@ -21,13 +21,13 @@ Hur du bidrar beror på vem du är och vilken typ av ändringar du vill bidra me
 
 ### Mindre ändringar
 
-Om du bidrar med mindre uppdateringar ur ditt hjärta kan du gå till artikeln och välja länken **Redigera** i artikeln som går till artikelns GitHub-källa. Använd sedan helt enkelt GitHub-gränssnittet för att göra uppdateringarna. Mer information finns i den allmänna [guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Om du bidrar med mindre uppdateringar av ditt hjärta kan du gå till artikeln och välja **Redigera** i artikeln som går till artikelns GitHub-källa. Använd sedan helt enkelt GitHub-gränssnittet för att göra uppdateringarna. Mer information finns i den allmänna [guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
 Mindre korrigeringar och förtydliganden som du lämnar in för dokumentation och kodexempel i den här databasen omfattas av Adobes användarvillkor.
 
 ### Större ändringar eller nya artiklar från communitymedlemmar
 
-Om du är en del av Adobes community och vill skapa en ny artikel eller skicka in större ändringar ska du använda fliken Problem i Git-databasen för att skicka in ett problem och påbörja en konversation med dokumentationsteamet. När du har gått med på en plan måste du arbeta med en anställd för att skapa det nya innehållet genom en kombination av arbete i de offentliga och privata databaserna.
+Om du är en del av Adobes community och vill skapa en ny artikel eller skicka in större ändringar ska du använda fliken Problem i Git-databasen för att skicka in ett problem och påbörja en konversation med dokumentationsteamet. När du har godkänt en plan kan du arbeta med en anställd för att få in det nya innehållet genom en kombination av arbete i den offentliga och privata databasen.
 
 <!--
 If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
@@ -35,7 +35,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Stora förändringar från anställda hos Adobe
 
-Om du är teknikskribent, programchef eller utvecklare från produktteamet för en [!UICONTROL Adobe Experience Cloud]-lösning och det är ditt jobb att bidra till eller skriva tekniska artiklar, bör du använda den privata databasen på `https://git.corp.adobe.com/AdobeDocs`.
+Om du är teknikskribent, programchef eller utvecklare för en [!UICONTROL Adobe Experience Cloud] och det är ditt jobb att bidra till eller skriva tekniska artiklar, du bör använda det privata arkivet på `https://git.corp.adobe.com/AdobeDocs`.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
