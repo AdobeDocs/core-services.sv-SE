@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 761a40f8beb1f9bc3ed74c0ae6c89eca2f6479bd
+source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
 workflow-type: tm+mt
-source-wordcount: '4677'
+source-wordcount: '4694'
 ht-degree: 2%
 
 ---
@@ -25,6 +25,10 @@ En lista över dokumentationsuppdateringar finns på [Experience Cloud](doc-upda
 Versionsinformation om alla program finns i [Versionsinformation för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en).
 
 ## Juli-2022
+
+**Provisionerar uppdateringsmeddelande för administratörer**
+
+* Se [Etablerar uppdateringsmeddelande](admin-getting-started.md#provisioning) för viktiga uppdateringar av etableringen i Experience Cloud.
 
 Planerad version: **11 juli 2022**
 
