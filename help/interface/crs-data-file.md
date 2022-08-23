@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: cad3e95cc15edc7daa1ac1855c8475a6988e7026
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Samma fil som visas i en textredigerare:
   </tr> 
    <tr> 
    <td colname="col1"> <p>Historiska data </p> </td> 
-   <td colname="col2"> <p> Kundattribut är knutna till den underliggande besökarprofilen i [!DNL Analytics]. Som sådan [!UICONTROL Customer Attributes] är kopplade till besökaren under hela besökarprofilens livstid i [!DNL Analytics]. Den här profilen innehåller beteenden som inträffade innan kunden loggade in för första gången. </p> <p> Om du använder metoden för bakåtfyllnad i Data warehouse är data knutna till en post_visid_high/low som är baserad på analys-ID (AID). Om du använder Experience Cloud ID-tjänsten är data knutna till en post_visid_high/low som är baserad på Experience Cloud ID (MID). </p> </td> 
+   <td colname="col2"> <p> Kundattribut är knutna till den underliggande besökarprofilen i [!DNL Analytics]. Som sådan [!UICONTROL Customer Attributes] är kopplade till besökaren under hela besökarprofilens livstid i [!DNL Analytics]. Den här profilen innehåller beteenden som inträffade innan kunden loggade in för första gången. </p> <p> Om du använder metoden för bakåtfyllnad i Data warehouse är data knutna till en post_visid_high/low som är baserad på analys-ID (AID). Om du använder Experience Cloud ID-tjänsten är data knutna till en post_visid_high/low som är baserad på Experience Cloud ID (MID). </p> <p> Observera att metoden Data warehouse backfill inte längre är tillgänglig från och med oktober 2022. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dataflöden </p> </td> 

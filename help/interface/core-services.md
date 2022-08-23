@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: 9e700186f7385162e3892b2d42828b29f78ecd9d
 workflow-type: tm+mt
-source-wordcount: '2230'
+source-wordcount: '2317'
 ht-degree: 0%
 
 ---
@@ -116,6 +116,11 @@ Anta till exempel att Bob har ett kund-ID `52mc210tr42` i CRM-systemet. När Bob
 * Fyll i *`Customer ID (52mc210tr42)`* i en propp eller eVar.
 
 Kund-ID måste anges för varje [!DNL Analytics] serversamtal där Kund-ID:t är känt.
+
+#### Analyser: synkronisera kund-ID:t med bakåtfyllnadsmetoden i Data warehouse
+
+När kundattribut blev tillgängliga hade vissa kunder ännu inte implementerat tjänsten Experience Cloud ID och kunde inte använda kundattribut på ett enkelt sätt. För att lösa detta problem skapade Adobe ett sätt att göra en bakåtfyllning av ID-synk med Adobe Analytics data warehouse. Den här funktionen kallas för &quot;data warehouse backfill&quot;. Bakåtfyllnaden i data warehouse är nu i allmänhet inte nödvändig och därför kommer den inte längre att vara tillgänglig från och med oktober 2022.
+
 
 ### SDK för mobiler
 
