@@ -4,16 +4,16 @@ keywords: integreringar;Utlösare
 seo-description: How to configure Experience Cloud Triggers.
 seo-title: Triggers
 solution: Experience Cloud
-title: 'Översikt över utlösare '
+title: Översikt över utlösare
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '674'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ Skapa en utlösare och konfigurera villkoren för utlösaren. Du kan till exempe
 >
 >Det finns för närvarande en teknisk gräns på 100 utlösare.
 
-1. I Experience Cloud väljer du ![](assets/menu-icon.png)väljer **[!UICONTROL Data Collection/Launch]**.
+1. I Experience Cloud väljer du ![meny](assets/menu-icon.png)väljer **[!UICONTROL Data Collection/Launch]**.
 2. På [!UICONTROL Triggers] kort, välj **[!UICONTROL Manage Triggers]**.
 3. Välj **[!UICONTROL New Trigger]** anger du sedan typ av utlösare:
 

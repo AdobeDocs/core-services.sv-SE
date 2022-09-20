@@ -2,16 +2,16 @@
 description: Lär dig hur du skapar kundattributkällan och överför den till Adobe Experience Cloud.
 keywords: Kundattribut;bastjänster
 solution: Experience Cloud
-title: 'Skapa en kundattributskälla och överför datafilen '
+title: Skapa en kundattributskälla och överför datafilen
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1103'
 ht-degree: 1%
 
 ---
@@ -67,7 +67,7 @@ Utför dessa steg på sidan Skapa ny källa för kundattribut i Experience Cloud
 >
 >När du skapar, ändrar eller tar bort kundattributskällor är det en fördröjning på upp till en timme innan ID:n börjar synkronisera med den nya datakällan. Du måste ha administratörsbehörighet i Audience Manager för att kunna skapa eller ändra källor för kundattribut. Kontakta Audience Manager kundtjänst eller konsult för att få administrationsrättigheter.
 
-1. I [!DNL Experience Cloud]väljer du menyn  ![](assets/menu-icon.png) ikon.
+1. I [!DNL Experience Cloud]väljer du menyn  ![meny](assets/menu-icon.png) ikon.
 1. Under **[!DNL Experience Platform]** väljer du **[!UICONTROL People]** > **[!UICONTROL Customer Attributes]**.
 
    The [!UICONTROL Customer Attributes] sidan är där du kan hantera och redigera befintliga attributdatakällor.
@@ -82,7 +82,7 @@ Utför dessa steg på sidan Skapa ny källa för kundattribut i Experience Cloud
 
    * **[!UICONTROL Description:]** (Valfritt) En beskrivning av datakällan för dataattribut.
 
-   * **[!UICONTROL Alias ID:]** Representerar en källa för kundattributdata, t.ex. ett specifikt CRM-system. [!UICONTROL Alias ID] är ett unikt ID som används i din källkod för kundattribut. ID:t ska vara unikt, med gemener, utan blanksteg. Värdet som anges i [!UICONTROL Alias ID] fältet för en Customer Attribute-källa i Experience Cloud ska matcha de värden som skickas från implementeringen (oavsett om det är via Datainsamling (Launch), Dynamic Tag Management eller JavaScript för Mobile SDK.)
+   * **[!UICONTROL Alias ID:]** Representerar en källa för kundattributdata, t.ex. ett specifikt CRM-system. [!UICONTROL Alias ID] är ett unikt ID som används i din källkod för kundattribut. ID:t ska vara unikt, med gemener, utan blanksteg. Värdet som anges i [!UICONTROL Alias ID] fältet för en Customer Attribute-källa i Experience Cloud ska matcha de värden som skickas från implementeringen (oavsett om det är via Data Collection (Launch), Dynamic Tag Management eller JavaScript för Mobile SDK.)
 
       Alias-ID motsvarar vissa områden där du anger ytterligare värden för Kund-ID. Exempel:
 
@@ -120,7 +120,7 @@ Utför dessa steg på sidan Skapa ny källa för kundattribut i Experience Cloud
 
       **Filöverföring - grafik**
 
-      ![](assets/file_upload_attributes.png)
+      ![attributes](assets/file_upload_attributes.png)
 
    * **[!UICONTROL Unique Customer ID:]** Visar hur många unika ID:n du har överfört till den här attributkällan.
 

@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: a0fd3904711305148f768be8afb3e9b3395af472
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '1255'
+source-wordcount: '1257'
 ht-degree: 3%
 
 ---
@@ -55,7 +55,7 @@ Logga in och verifiera att du är rätt [organisation](organizations.md).
 
 När du har loggat in på Experience Cloud kan du snabbt komma åt alla program, tjänster och organisationer från det enhetliga huvudet.
 
-Gå till programväljaren för att få åtkomst till Experience Cloud-program och -tjänster som du har fått i din organisation ![](assets/menu-icon.png).
+Gå till programväljaren för att få åtkomst till Experience Cloud-program och -tjänster som du har fått i din organisation ![meny](assets/menu-icon.png).
 
 ![Använd Experience Cloud](assets/platform-core-services.png)
 
@@ -114,7 +114,7 @@ Inställningarna för Experience Cloud omfattar meddelanden, prenumerationer och
 * Logga ut
 * Konfigurera kontoinställningar, meddelanden och prenumerationer
 
-Om du vill hantera inställningar väljer du **[!UICONTROL Preferences]** från din kontomeny ![](assets/preferences-icon-sm.png).
+Om du vill hantera inställningar väljer du **[!UICONTROL Preferences]** från din kontomeny ![inställningar](assets/preferences-icon-sm.png).
 
 ![Användarprofil och kontoinställningar](assets/preferences-page.png)
 

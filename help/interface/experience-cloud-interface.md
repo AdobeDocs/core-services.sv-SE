@@ -1,14 +1,14 @@
 ---
-description: 'Lär dig hur du loggar in och om de centrala gränssnittskomponenterna i Experience Cloud. Lär dig mer om global sökning, dina kontoinställningar och hur du navigerar i gränssnittet och får hjälp. '
+description: Lär dig hur du loggar in och om de centrala gränssnittskomponenterna i Experience Cloud. Lär dig mer om global sökning, dina kontoinställningar och hur du navigerar i gränssnittet och får hjälp.
 solution: Experience Cloud
-title: 'Experience Cloud centrala gränssnittskomponenter '
-feature: Central Interface Components
+title: Experience Cloud centrala gränssnittskomponenter
+feature: "Central Interface Components"
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '711'
 ht-degree: 1%
 
 ---
@@ -74,7 +74,7 @@ Logga in och verifiera att du är rätt [organisation](organizations.md).
 
 När du har loggat in på Experience Cloud kan du snabbt komma åt alla program, tjänster och organisationer från det enhetliga huvudet.
 
-Välj programväljaren ![](assets/menu-icon.png) för att få tillgång till Experience Cloud-tjänster som du äger.
+Välj programväljaren ![meny](assets/menu-icon.png) för att få tillgång till Experience Cloud-tjänster som du äger.
 
 ![Använd Experience Cloud](assets/platform-core-services.png)
 
@@ -104,7 +104,7 @@ På kontoinställningsmenyn kan du:
 
 Inställningarna för Experience Cloud omfattar meddelanden, prenumerationer och varningar.
 
-Välj **[!UICONTROL Preferences]** från din kontomeny ![](assets/preferences-icon-sm.png) för att hantera inställningar.
+Välj **[!UICONTROL Preferences]** från din kontomeny ![inställningar](assets/preferences-icon-sm.png) för att hantera inställningar.
 
 ![Hantera Experience Cloud](assets/preferences-page.png)
 

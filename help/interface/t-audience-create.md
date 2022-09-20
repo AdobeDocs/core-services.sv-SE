@@ -2,16 +2,16 @@
 description: Lär dig hur du använder attributregler för att skapa en målgrupp och definiera en sammansatt målgrupp i Adobe Experience Cloud.
 keywords: bastjänster
 solution: Experience Cloud
-title: 'Skapa en målgrupp '
+title: Skapa en målgrupp
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '480'
 ht-degree: 2%
 
 ---
@@ -46,7 +46,7 @@ I följande exempel visas hur du skapar regler för en sammansatt målgrupp. Den
 **Skapa en publik**
 
 1. I [!DNL Experience Cloud], under [!DNL Experience Platform], markera **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
-1. På [!UICONTROL Audiences] sida, markera **[!UICONTROL New]**. ![](assets/add_icon_small.png)
+1. På [!UICONTROL Audiences] sida, markera **[!UICONTROL New]**. ![add](assets/add_icon_small.png)
 
    ![Stegresultat](assets/audience_create_new.png)
 

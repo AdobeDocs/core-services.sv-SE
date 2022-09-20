@@ -2,16 +2,16 @@
 description: Lär dig hur du loggar in på Adobe Experience Cloud, hanterar lösenord och meddelanden och anger en standardstartsida.
 keywords: bastjänster, logga in på Experience Cloud
 solution: Experience Cloud
-title: 'Logga in och hantera dina Experience Cloud-profilinställningar '
+title: Logga in och hantera dina Experience Cloud-profilinställningar
 uuid: c1e13b99-0069-4fdb-8d72-ddcec3ed1121
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 12addbb6-a29b-4d20-ac8f-77e0846150b5
-source-git-commit: 542d3b9a246ca9616a853f4b6711efea290398d7
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '956'
 ht-degree: 3%
 
 ---
@@ -28,7 +28,7 @@ Om du loggar in på Experience Cloud (i stället för att logga in i ett enda pr
 
 Logga in och verifiera att du är rätt [organisation](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1).
 
-1. Välj menyn Experience Cloud ( ![](assets/menu-icon.png)) och sedan väljer **[!UICONTROL Administration]**.
+1. Välj menyn Experience Cloud ( ![inställningar](assets/menu-icon.png)) och sedan väljer **[!UICONTROL Administration]**.
 
    Om **[!UICONTROL Administration]** länken visas inte, du är inte Experience Cloud-administratör för den visade [organisation](organizations.md#topic_C31CB834F109465A82ED57FF0563B3F1). Om du behöver hjälp med att bli administratör kontaktar du kundtjänst eller en befintlig Experience Cloud-administratör i ditt företag.
 1. Välj **[!UICONTROL Administration]**.
@@ -60,9 +60,9 @@ Hjälp för icke-administrativa användare som loggar in på Experience Cloud.
 
    Din Experience Cloud-administratör kan hjälpa dig att fastställa kontotypen (Adobe ID eller Enterprise ID).
 
-1. På landningssidan väljer du väljarikonen  ![](assets/menu-icon.png) för att öppna listrutan.
+1. På landningssidan väljer du väljarikonen  ![meny](assets/menu-icon.png) för att öppna listrutan.
 
-   ![](assets/experience-cloud-core-services.png)
+   ![meny](assets/experience-cloud-core-services.png)
 
    Vilka program och tjänster som visas på den här menyn beror på vilka programbehörigheter du har angett för [administratör](admin-getting-started.md#topic_3FCB4099640647E3B2411ADBFCE81909).
 
@@ -82,7 +82,7 @@ Du kan redigera personlig information och ange ett standardvärde [organisation]
 
 Få meddelanden (via e-post eller i produkten) om systemuppdateringar, underhållsmeddelanden, inlägg, omnämnanden och delade resurser. Du kan också ange för vilka produkter och program du vill ha meddelanden, inklusive överföringsstatus för kundattribut.
 
-Om du vill navigera till Meddelanden väljer du **[!UICONTROL Notifications]** icon  ![](assets/notifications-icon.png)väljer du **[!UICONTROL Settings]** icon  ![](assets/icon_edit_board.png).
+Om du vill navigera till Meddelanden väljer du **[!UICONTROL Notifications]** icon  ![meddelanden](assets/notifications-icon.png)väljer du **[!UICONTROL Settings]** icon  ![redigera](assets/icon_edit_board.png).
 
 Du kan sortera meddelandevisningen baserat på de meddelandetyper som är viktiga för dig och söka efter meddelanden. Du kan även:
 

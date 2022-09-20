@@ -2,17 +2,17 @@
 description: Lär dig mer om organisationer (IMS:s organisations-ID) och hur du länkar lösningskonton till Experience Cloud.
 keywords: Adobe Experience Cloud-tjänster
 solution: Experience Cloud
-title: 'Organisationer och kontolänkning '
+title: Organisationer och kontolänkning
 uuid: ae47ad18-ac33-4efa-8b68-2bfaf77397aa
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '565'
+ht-degree: 3%
 
 ---
 
@@ -64,7 +64,7 @@ Administratörer i Experience Cloud ger vanligtvis tillgång till program och tj
 
 1. Följ stegen i din e-postinbjudan till Experience Cloud.
 1. Logga in med ditt Adobe ID eller Enterprise ID.
-1. Välj programväljaren. ( ![](assets/menu-icon.png)).
+1. Välj programväljaren. ( ![meny](assets/menu-icon.png)).
 
    ![Länka ett programkonto till en Adobe ID](assets/solutions-active.png)
 
