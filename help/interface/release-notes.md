@@ -1,17 +1,16 @@
 ---
-description: '"De senaste funktionerna, versionsinformationen och kända fel för Experience Cloud-tjänster som kundattribut, målgrupper och användarhantering."'
-keywords: bastjänster
+description: Läs om de senaste funktionerna, versionsinformationen och kända fel för Experience Cloud-tjänster som kundattribut, målgrupper och användarhantering.
 solution: Experience Cloud
-title: 'Ackumulerade versionsinformation '
+title: Ackumulerade versionsinformation
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 271d8496ee617f55741cb2e636eecc869e1ec284
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '4694'
+source-wordcount: '4695'
 ht-degree: 2%
 
 ---
@@ -104,7 +103,7 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 | Funktion | Datum | Beskrivning |
 | ------- | ------- | ------- |
 | Experience Cloud Header &amp; Navigation | 20 maj 2021 | Adobe Experience Cloud uppdateringar innehåller en ändring av det ljusa temat för sidhuvudet, med möjlighet att enkelt växla tillbaka till det mörka temat och länka för att styra ytterligare inställningar från användarens avatar i sidhuvudet på Experience Cloud. Även om inte alla program i Experience Cloud stöder teman, låser den här funktionen upp det framtida temastödet. |
-| Global sökning i Experience Cloud | 20 maj 2021 | Med den här versionen av Experience Cloud kan du söka i alla [Experience League](https://experienceleague.adobe.com/#home) dokumentation, kurser och självstudiekurser. (För närvarande är global sökning bara tillgänglig för användare av Experience Platform. Global sökning efter [!UICONTROL Platform] Med kan du söka efter alla affärsobjekt i Experience Cloud, t.ex. segment, datauppsättningar, scheman och annat.) |
+| Global sökning i Experience Cloud | 20 maj 2021 | I den här versionen av Experience Cloud kan du söka i alla [Experience League](https://experienceleague.adobe.com/#home) dokumentation, kurser och självstudiekurser. (För närvarande är global sökning bara tillgänglig för användare av Experience Platform. Global sökning efter [!UICONTROL Platform] Med kan du söka efter alla affärsobjekt i Experience Cloud, t.ex. segment, datauppsättningar, scheman och annat.) |
 | Inställningar för Experience Cloud | 20 maj 2021 | I den här uppdateringen finns möjligheten att ställa in vilka språk du vill använda i Experience Cloud [Inställningar](https://experience.adobe.com/preferences). |
 
 {style=&quot;table-layout:auto&quot;}

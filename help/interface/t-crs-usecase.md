@@ -1,6 +1,5 @@
 ---
-description: Lär dig hur du skapar kundattributkällan och överför den till Adobe Experience Cloud.
-keywords: Kundattribut;bastjänster
+description: Skapa en Customer Attribute-källa och ladda upp den till Adobe Experience Cloud.
 solution: Experience Cloud
 title: Skapa en kundattributskälla och överför datafilen
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
@@ -9,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '1103'
+source-wordcount: '1096'
 ht-degree: 1%
 
 ---

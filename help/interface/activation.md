@@ -1,8 +1,5 @@
 ---
 description: Läs om den senaste tagghanteringsprodukten som heter Experience Platform Launch.
-keywords: bastjänster
-seo-description: Activation includes the latest tag management product called Experience Platform Launch. Dynamic Tag Management (DTM);and Triggers.
-seo-title: Activation
 solution: Experience Cloud Services
 title: Aktiveringstjänster i Experience Cloud
 uuid: 54ada638-3592-49ee-930a-9f44bcc5e5d3
@@ -11,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '235'
 ht-degree: 0%
 
 ---

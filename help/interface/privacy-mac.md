@@ -1,18 +1,17 @@
 ---
-description: Överväganden och bästa praxis när det gäller personligt identifierbar information (PII) som överförts och används i Experience Cloud.
-keywords: Kundattribut;bastjänster
+description: Lär dig de överväganden och bästa metoderna som gäller personligt identifierbar information (PII) som överförts och används i Experience Cloud.
 solution: Experience Cloud
-title: 'Sekretessöverväganden för kundattribut '
+title: Sekretessöverväganden för kundattribut
 uuid: 5666dc4e-55fa-4196-9985-cf530cfb9247
-feature: Kundattribut
-topic: Administrering
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 1%
+source-wordcount: '513'
+ht-degree: 0%
 
 ---
 

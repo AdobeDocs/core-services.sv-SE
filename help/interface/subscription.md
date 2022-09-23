@@ -1,17 +1,16 @@
 ---
 description: Lär dig mer om lösningsdatakällor och hur du konfigurerar prenumerationer. Prenumerationer möjliggör dataflödet för kundattribut mellan Experience Cloud och program (Analytics och Target).
-keywords: Kundattribut;bastjänster
-application: Experience Cloud
-title: 'Konfigurera prenumerationer '
+solution: Experience Cloud
+title: Konfigurera prenumerationer
 uuid: f74a8155-0a21-46b3-9b1e-4c838f72f24f
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '378'
 ht-degree: 0%
 
 ---

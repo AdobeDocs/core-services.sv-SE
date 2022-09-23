@@ -1,19 +1,15 @@
 ---
 description: Läs mer om villkoren i Adobe Experience Cloud och hur de skiljer sig åt i Creative Cloud.
-keywords: resursdelning;målgruppstjänster;Creative Cloud;bastjänster
-seo-description: null
-seo-title: Terminology
 solution: Experience Cloud
-title: 'Terminologi '
-uuid: 30253c0d-944b-4e15-b9af-093afa3ddc17
+title: Terminologi
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1437'
 ht-degree: 1%
 
 ---

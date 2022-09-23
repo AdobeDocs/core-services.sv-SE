@@ -1,8 +1,7 @@
 ---
 description: Läs om hur Adobe Analytics använder cookies för att ge information om variabler och komponenter som inte finns kvar mellan bildbegäranden och webbläsarsessioner.
-keywords: cookies;sekretess
 solution: Experience Cloud,Analytics
-title: '"cookies från första part"'
+title: "cookies från första part"
 index: y
 snippet: y
 feature: Cookies
@@ -10,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1602'
 ht-degree: 0%
 
 ---
@@ -26,7 +25,7 @@ Många webbläsare och antispionprogram är utformade för att avvisa och ta bor
 * The [Experience Platform identitetstjänst (ECID-tjänst)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=en) konfigurerar automatiskt cookies från första part oavsett om din samlingsdomän matchar din webbplatsdomän. Om de inte matchar använder identitetstjänsten JavaScript för att ange cookies i webbplatsens domän.
 * Om du använder [Analysera äldre identifierare](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-analytics.html?lang=en) (även `s_vi` cookie) beror på hur du har konfigurerat din datainsamlingsserver. Om datainsamlingsservern matchar webbplatsens domän anges cookies som förstapartsserver. Om samlingsservern inte matchar din aktuella domän anges cookies som tredje part. I det här fallet, om cookies från tredje part blockeras, ställer Analytics in en första part [fallback-id (s_fid)](cookies-analytics.md) i stället för standardcookien&quot;s_vi&quot;.
 
-Om du vill vara säker på att samlingsservern matchar webbplatsens domän kan du använda en CNAME-implementering som möjliggör vidarebefordran från en anpassad domän som anges i CNAME-implementeringen till Adobe samlingsservrar. Detta innebär ändringar av företagets DNS-inställningar för att konfigurera ett CNAME-alias så att det pekar mot en värddomän som ligger Adobe. Observera att även om olika Adobe-produkter stöder användning av CNAME används CNAME i samtliga fall för att skapa en tillförlitlig förstapartsslutpunkt för en viss kund och ägs av den kunden. Om du kontrollerar flera domäner kan de använda en enda CNAME-slutpunkt för att spåra användare över sina domäner, men där platsdomänen inte matchar CNAME-domäncookies anges som tredje part.
+Om du vill vara säker på att din samlingsserver matchar webbplatsens domän kan du använda en CNAME-implementering som möjliggör vidarebefordran från en anpassad domän som anges i din CNAME-implementering till Adobe-samlingsservrar. Detta innebär ändringar av företagets DNS-inställningar för att konfigurera ett CNAME-alias så att det pekar mot en värddomän som ligger Adobe. Observera att även om olika Adobe-produkter stöder användning av CNAME används CNAME i samtliga fall för att skapa en tillförlitlig förstapartsslutpunkt för en viss kund och ägs av den kunden. Om du kontrollerar flera domäner kan de använda en enda CNAME-slutpunkt för att spåra användare över sina domäner, men där platsdomänen inte matchar CNAME-domäncookies anges som tredje part.
 
 >[!NOTE]
 >

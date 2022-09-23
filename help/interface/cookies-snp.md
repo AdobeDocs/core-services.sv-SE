@@ -1,18 +1,17 @@
 ---
 description: Lär dig hur Search & Promote använder cookies för att förstå och förutse besökarsökningsmetod.
-keywords: cookies;sekretess
 solution: Experience Cloud,Analytics,Target
-title: 'Sök efter och marknadsför cookies '
+title: Sök efter och marknadsför cookies
 uuid: 65bf24e0-0564-4dc2-b652-9fd9db57d23f
 feature: Cookies
-topic: Administrering
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 2e35668d-bf36-4f17-ae44-c2b9313c6c1f
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 4%
+source-wordcount: '118'
+ht-degree: 2%
 
 ---
 

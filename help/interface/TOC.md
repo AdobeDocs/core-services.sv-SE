@@ -1,20 +1,21 @@
 ---
 audience: administrator
-user-guide-title: 'Gränssnittskomponenter i Experience Cloud '
+user-guide-title: Gränssnittskomponenter i Experience Cloud
 breadcrumb-title: Gränssnittskomponenter i Experience Cloud
-user-guide-description: Läs mer om Experience Cloud gränssnitt, konfigurera inställningar, sök efter hjälp och affärsobjekt. Få hjälp med användar- och produkthantering, kundattribut, målgruppsbibliotek, cookies och Experience Cloud Assets.
+title: Experience Cloud Interface and Administration Guide
+description: Läs mer om gränssnittet och inställningarna för användarkonton i Experience Cloud. Lär dig hur du söker efter affärsobjekt och hanterar användare och produkter. Konfigurera kundattribut, målgruppsbibliotek, cookies och dela Experience Cloud Assets.
 index: true
-source-git-commit: ce728958df73605700a11c7aa2b95479a5632f9e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '354'
+ht-degree: 4%
 
 ---
 
 
 # Gränssnittskomponenter i Experience Cloud {#interface}
 
-+ [Handbok för gränssnittskomponenter i Experience Cloud Central](experience-cloud.md)
++ [Guide för gränssnittskomponenter i Experience Cloud Central](experience-cloud.md)
 + Experience Cloud {#services}
    + [Experience Cloud](core-services-landing.md)
    + [Enhetlig sökning i Experience Cloud](search-experience-cloud.md)

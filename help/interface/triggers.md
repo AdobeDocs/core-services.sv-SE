@@ -1,8 +1,5 @@
 ---
 description: Lär dig hur du konfigurerar utlösare för Experience Cloud.
-keywords: integreringar;Utlösare
-seo-description: How to configure Experience Cloud Triggers.
-seo-title: Triggers
 solution: Experience Cloud
 title: Översikt över utlösare
 uuid: dab536e3-1969-4661-919e-5b15f423fecd
@@ -11,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '674'
+source-wordcount: '672'
 ht-degree: 1%
 
 ---

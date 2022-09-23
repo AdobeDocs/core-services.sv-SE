@@ -1,14 +1,11 @@
 ---
-description: En översikt över nya funktioner och uppdateringar i Experience Cloud.
-keywords: bastjänster
-seo-description: An overview of new features and updates in the Experience Cloud.
-seo-title: What's new in the Experience Cloud
+description: Läs om nya funktioner och uppdateringar i Experience Cloud.
 solution: Experience Cloud
-title: 'Nyheter i Experience Cloud '
+title: Nyheter i Experience Cloud
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '631'
 ht-degree: 3%
 
 ---

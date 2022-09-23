@@ -1,16 +1,15 @@
 ---
-description: 'Lär dig hur du delar mappar och resurser mellan Experience Cloud och Creative Cloud. '
-keywords: resursdelning;Creative Cloud;bastjänster
+description: Lär dig hur du delar mappar och resurser mellan Experience Cloud och Creative Cloud.
 solution: Experience Cloud
-title: 'Dela Experience Cloud-mappar och -resurser med Creative Cloud '
+title: Dela Experience Cloud-mappar och -resurser med Creative Cloud
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 41290ea3-86ce-4e9d-8c3c-bbe30c337c4c
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '170'
 ht-degree: 0%
 
 ---

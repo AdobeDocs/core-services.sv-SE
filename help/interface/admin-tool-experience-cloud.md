@@ -1,18 +1,17 @@
 ---
 description: Läs mer om administrationsverktyget i Experience Cloud. Visa en sorterbar och filterbar lista över alla användare och profiler i Experience Cloud.
-keywords: bastjänster
 application: Experience Cloud
-title: 'Visa Experience Cloud-användare och användarinformation '
+title: Visa Experience Cloud-användare och användarinformation
 index: true
 feature: Admin Console
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '1201'
-ht-degree: 1%
+source-wordcount: '1199'
+ht-degree: 2%
 
 ---
 

@@ -2,11 +2,11 @@
 description: Lär dig hur du loggar in och om de centrala gränssnittskomponenterna i Experience Cloud. Lär dig mer om global sökning, dina kontoinställningar och hur du navigerar i gränssnittet och får hjälp.
 solution: Experience Cloud
 title: Experience Cloud centrala gränssnittskomponenter
-feature: "Central Interface Components"
+feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: cb0f1fcfe0334f64ee38b659a0d4ef5c8dd3ab1e
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 1%

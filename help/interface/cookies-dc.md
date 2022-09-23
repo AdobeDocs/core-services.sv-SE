@@ -1,22 +1,21 @@
 ---
-description: Läs om hur Adobe Data Connectors använder cookies för att förse annonsörer med optimerade mått för kampanjprestanda och konverteringsprestanda över flera annonskanaler.
-keywords: cookies;sekretess
+description: Läs om hur Adobe Data Connectors använder cookies för att förse annonsörer med optimerad kampanjstatistik och konverteringsprestandamätningar över flera annonskanaler.
 solution: Experience Cloud, Analytics, Target
-title: 'Cookies för dataanslutningar '
+title: Data Connectors Cookies
 uuid: 5d27ba66-e640-4513-befc-69e8502de941
 feature: Cookies
-topic: Administrering
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: 54f77e67-1bcf-4d01-b70b-af85bac3f449
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '74'
-ht-degree: 4%
+source-wordcount: '70'
+ht-degree: 1%
 
 ---
 
-# Cookies för dataanslutningar{#data-connectors-cookies}
+# Data Connectors Cookies{#data-connectors-cookies}
 
 [!UICONTROL Data Connectors] använder cookies för att förse annonsörer med optimerade mått för kampanjprestanda och konverteringsprestanda över flera annonskanaler.
 
@@ -34,7 +33,7 @@ ht-degree: 4%
   </tr> 
   <tr> 
    <td colname="col1"> <p>get_started </p> </td> 
-   <td colname="col2"> <p>Gör att dataanslutningar kan känna till om sidan <span class="wintitle"> Komma igång</span> ska visas. </p> </td> 
+   <td colname="col2"> <p>Tillåter att dataanslutningar vet om de ska visa <span class="wintitle"> Komma igång</span> sida. </p> </td> 
   </tr> 
  </tbody> 
 </table>

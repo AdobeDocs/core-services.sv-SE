@@ -1,18 +1,17 @@
 ---
 description: Lär dig hur ID-tjänsten lagras och används i olika Experience Cloud-program.
-keywords: cookies;sekretess
 solution: Experience Cloud,Analytics,Target
-title: 'Experience Cloud Cookies '
+title: Experience Cloud Cookies
 uuid: a4788c1c-0402-4fc8-b894-cd24fa794f4f
 feature: Cookies
-topic: Administrering
+topic: Administration
 role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 2%
+source-wordcount: '345'
+ht-degree: 1%
 
 ---
 
@@ -32,7 +31,7 @@ Adobe Experience Cloud använder cookies för att lagra ett besökar-ID som anv�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Information lagrad </p> </td> 
-   <td colname="col2"> <p> Innehåller en kopia av Experience Cloud ID (ECID) eller MID. MID lagras i ett nyckelvärdepar som följer syntaxen s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
+   <td colname="col2"> <p> Innehåller en kopia av Experience Cloud ID (ECID) eller MID. MID lagras i ett nyckelvärdepar som följer syntaxen s_ecid=MCMID|&lt;ecid&gt; </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Förfaller </p> </td> 
@@ -59,7 +58,7 @@ Adobe Experience Cloud använder cookies för att lagra ett besökar-ID som anv�
 
 **Cookie-namn: AMCV_###@AdobeOrg**
 
-I [Experience Platform ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) används JavaScript för att lagra ett unikt besökar-ID i en `AMCV_###@AdobeOrg`-cookie på den aktuella webbplatsens domän, där `###` representerar en slumpmässig teckensträng, till exempel `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+The [Experience Platform ID-tjänst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en) använder JavaScript för att lagra ett unikt besökar-ID i en `AMCV_###@AdobeOrg` cookie på den aktuella webbplatsens domän, där `###` representerar en slumpmässig teckensträng, som `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
 Se även [Cookies och ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=en).
 

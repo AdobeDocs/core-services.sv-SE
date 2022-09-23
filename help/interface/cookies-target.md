@@ -1,17 +1,16 @@
 ---
 description: Läs om hur Adobe Target använder cookies för att ge webbplatsoperatörer möjlighet att testa vilket onlineinnehåll och vilka erbjudanden som är mer relevanta för besökarna.
-keywords: cookies;sekretess
 solution: Experience Cloud,Analytics,Target,Social
-title: 'Adobe Target Cookies '
+title: Adobe Target Cookies
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 feature: Cookies
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
-source-git-commit: f787840475b2ac1dd585b1bd9cf21589ea077717
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '448'
 ht-degree: 1%
 
 ---

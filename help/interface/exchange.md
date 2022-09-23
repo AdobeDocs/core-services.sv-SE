@@ -1,17 +1,16 @@
 ---
 description: Läs mer om Exchange Marketplace, en enda målplats där du kan söka, bläddra bland, välja ut, betala och hämta tillägg för digital marknadsföring via appar.
-keywords: bastjänster
 solution: Experience Cloud
-title: 'Exchange Marketplace '
+title: Exchange Marketplace
 uuid: 73db5cc5-5fb2-43a2-a164-5cbca9e9a206
-feature: '"Kundattribut"'
-topic: Administrering
+feature: Customer Attributes
+topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: 1fb1abc7311573f976f7e6b6ae67f60ada10a3e7
+source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 7%
+source-wordcount: '127'
+ht-degree: 5%
 
 ---
 
@@ -36,4 +35,4 @@ Exchange Marketplace är en enda målplats där du kan söka, bläddra bland, v�
 
 * Sök och filtrera efter kategori, företag, typ, användare med mera.
 
-Mer information finns i [Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html).
+Se [Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html) för mer information.
