@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 52796154e260648eb2fc57cc2b45453e9cb3227a
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1615'
 ht-degree: 0%
 
 ---
@@ -43,34 +43,38 @@ Adobe Managed Certificate Program är den rekommenderade processen för att konf
 
 Med programmet Hanterat certifikat i Adobe kan du implementera ett nytt SSL-certifikat från första part utan extra kostnad (för dina första 100 CNAME). Om du för närvarande har ett eget kundhanterat SSL-certifikat kan du tala med Adobe kundtjänst om hur du migrerar till det Adobe-hanterade certifikatprogrammet.
 
-### Implementera
+### Implementering
 
 Så här implementerar du ett nytt SSL-certifikat från första part för datainsamling:
 
-1. Fyll i [Formulär för begäran om domäner från första part](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) och öppna en biljett där kundtjänst ber att få ställa in insamling av data från första part i programmet som hanteras av Adobe. Varje fält beskrivs i dokumentet med exempel.
+1. Fyll i [Formulär för begäran om domäner från första part](/help/interface/cookies/assets/First_Part_Domain_Request_Form.xlsx) och öppna en biljett där kundtjänst ber att få ställa in insamling av data från första part i programmet som hanteras av Adobe.
 
-2. Skapa CNAME-poster (se instruktionerna nedan).
+   Varje fält beskrivs i dokumentet med exempel.
+
+1. Skapa CNAME-poster (se instruktionerna nedan).
 
    När du fått biljetten ska en kundtjänstrepresentant ge dig en CNAME-post. Dessa poster måste konfigureras på företagets DNS-server innan Adobe kan köpa certifikatet åt dig. CNAME liknar följande:
 
    **Säker** - till exempel värdnamnet `smetrics.example.com` pekar på: `example.com.adobedc.net`.
 
->[!NOTE]
-> Tidigare har Adobe rekommenderat att kunderna ska konfigurera två CNAME, en för HTTPS och en för HTTP. Eftersom det är en god praxis att kryptera trafik och de flesta webbläsare avråder från HTTP rekommenderar vi inte längre att du konfigurerar en CNAME för HTTP. Kontakta Adobe kundtjänst om du vill konfigurera CNAME för HTTP.
+   >[!NOTE]
+   > Tidigare har Adobe rekommenderat att kunderna ska konfigurera två CNAME, en för HTTPS och en för HTTP. Eftersom det är en bra metod att kryptera trafik, och de flesta webbläsare avråder från HTTP, rekommenderar vi inte längre att du konfigurerar en CNAME för HTTP. Kontakta Adobe kundtjänst om du vill konfigurera CNAME för HTTP.
 
 1. När CNAME finns på plats arbetar Adobe med DigiCert för att köpa och installera ett certifikat på Adobe produktionsservrar.
 
    Om du har en befintlig implementering bör du överväga att migrera besökare för att behålla befintliga besökare. När certifikatet har publicerats till Adobe produktionsmiljö kan du uppdatera dina spårningsservervariabler till de nya värdnamnen. Om platsen inte är säker (HTTP) uppdaterar du `s.trackingServer`. Om webbplatsen är säker (HTTPS) uppdaterar du båda `s.trackingServer` och `s.trackingServerSecure` variabler.
 
-2. [Verifiera vidarebefordran av värdnamn](#validate) (se nedan).
+1. [Verifiera vidarebefordran av värdnamn](#validate) (se nedan).
 
-3. [Uppdatera implementeringskod](#update) (se nedan).
+1. [Uppdatera implementeringskod](#update) (se nedan).
 
 ### Underhåll och förnyelser
 
-SSL-certifikat upphör att gälla varje år, vilket innebär att Adobe måste köpa ett nytt certifikat för varje implementering på årsbasis. Alla användare i organisationen som stöds får ett e-postmeddelande varje gång en implementering håller på att upphöra. För att Adobe ska kunna förnya ditt värdnamn måste en användare som stöds svara på e-postmeddelandet från Adobe och ange att du tänker fortsätta använda det förfallande värdnamnet för datainsamling. Då köper och installerar Adobe automatiskt ett nytt certifikat.
+Trettio dagar innan ditt förstapartscertifikat upphör att gälla validerar Adobe om CNAME fortfarande är giltigt och används. I så fall antar Adobe att du vill fortsätta använda tjänsten och automatiskt förnya certifikatet för din räkning.
 
-### Vanliga frågor
+Om CNAME har tagits bort och inte längre är giltigt, förnyar inte Adobe certifikatet och posten i vårt system markeras för borttagning. Om CNAME har tagits bort vet Adobe att det inte har hänt någon spårning med den URL:en och att den därför är säker att ta bort.
+
+### Frågor och svar
 
 | Fråga | Svar |
 |---|---|
