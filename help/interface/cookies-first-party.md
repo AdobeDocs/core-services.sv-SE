@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 52796154e260648eb2fc57cc2b45453e9cb3227a
+source-git-commit: f5cead10ecfeefeb560e92881524650e55bd938d
 workflow-type: tm+mt
-source-wordcount: '1615'
+source-wordcount: '1636'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Så här implementerar du ett nytt SSL-certifikat från första part för datain
    **Säker** - till exempel värdnamnet `smetrics.example.com` pekar på: `example.com.adobedc.net`.
 
    >[!NOTE]
-   > Tidigare har Adobe rekommenderat att kunderna ska konfigurera två CNAME, en för HTTPS och en för HTTP. Eftersom det är en bra metod att kryptera trafik, och de flesta webbläsare avråder från HTTP, rekommenderar vi inte längre att du konfigurerar en CNAME för HTTP. Kontakta Adobe kundtjänst om du vill konfigurera CNAME för HTTP.
+   > Tidigare har Adobe rekommenderat att kunderna ska konfigurera två CNAME, en för HTTPS och en för HTTP. Eftersom det är en bra metod att kryptera trafik, och de flesta webbläsare avråder från HTTP, rekommenderar vi inte längre att du konfigurerar en CNAME för HTTP. Det anses nu som bästa praxis att ange båda `trackingServer` och `trackingServerSecure` med samma CNAME. Till exempel, båda `trackingServer` och `trackingServerSecure` ställs in på `smetrics.example.com`. HTTP tillåts bara för värdnamn från tredje part.
 
 1. När CNAME finns på plats arbetar Adobe med DigiCert för att köpa och installera ett certifikat på Adobe produktionsservrar.
 
