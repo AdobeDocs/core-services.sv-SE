@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: f5cead10ecfeefeb560e92881524650e55bd938d
+source-git-commit: 86e1ed26209244fd9c8c228c812b744e18e4b8fc
 workflow-type: tm+mt
-source-wordcount: '1636'
+source-wordcount: '1622'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,8 @@ Så här implementerar du ett nytt SSL-certifikat från första part för datain
 
 Trettio dagar innan ditt förstapartscertifikat upphör att gälla validerar Adobe om CNAME fortfarande är giltigt och används. I så fall antar Adobe att du vill fortsätta använda tjänsten och automatiskt förnya certifikatet för din räkning.
 
-Om CNAME har tagits bort och inte längre är giltigt, förnyar inte Adobe certifikatet och posten i vårt system markeras för borttagning. Om CNAME har tagits bort vet Adobe att det inte har hänt någon spårning med den URL:en och att den därför är säker att ta bort.
+>[!NOTE]
+> Om CNAME har tagits bort och/eller inte längre är giltig (mappas inte till det angivna Adobe SSL-värdnamnet) kan Adobe inte förnya certifikatet och posten i vårt system markeras för borttagning utan ytterligare kommunikation.
 
 ### Frågor och svar
 
