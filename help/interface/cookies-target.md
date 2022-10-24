@@ -8,22 +8,22 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: bce174f8a1211dbf15383b733238b31305d1b53e
 workflow-type: tm+mt
-source-wordcount: '448'
+source-wordcount: '444'
 ht-degree: 1%
 
 ---
 
 # Adobe Target Cookies{#target-cookies}
 
-Adobe Target använder cookies för att ge webbplatsoperatörerna möjlighet att testa vilket onlineinnehåll och vilka erbjudanden som är mer relevanta för besökarna.
+[!DNL Adobe Target] använder cookies för att ge webbplatsoperatörer möjlighet att testa vilket onlineinnehåll och vilka erbjudanden som är mer relevanta för besökarna.
 
 Du kan ändra de här inställningarna om det behövs, förutom för cookie-varaktighet. Kontakta din kontorepresentant när du ändrar cookie-inställningarna.
 
 >[!NOTE]
 >
->Adobe Target-användare kan också skapa anpassade cookies från tredje part.
+>[!DNL Adobe Target] -användare kan också skapa anpassade cookies från tredje part.
 
 | Inställning | Information |
 | --- | --- |
@@ -42,7 +42,7 @@ Denna cookie ger vissa värderingar när det gäller att hantera hur besökarna 
 
 | Värde | Definition |
 | --- | --- |
-| sessions-ID | En unik identifierare för en given användarsession. Som standard går sessionen ut efter 30 minuters inaktivitet. Om du genererar sessionId själv (till exempel för implementeringar på serversidan) ska du kontrollera följande:<ul><li>Sessions-ID kan vara vilken utskrivbar sträng som helst förutom blanksteg, frågetecken ( ? ) eller ett snedstreck ( / ).</li><li>Sessions-ID:t måste vara mellan 1 och 128 tecken långt.</li><li>För en viss session måste dess värde vara detsamma för flera begäranden</li><li>Du bör aldrig ha parallella sessioner (distinkta sessions-ID) för en viss besökare vid något tillfälle.</li></ul>Routning till en viss nod i edge-klustret görs med sessions-ID.<ul><li>Sessionen är aktiv i 30 minuter på serversidan. Därför bör du inte använda ett annat sessions-ID för ett visst `tntId/thirdPartyId` inom 30 minuter från den senaste begäran som gjorts med `tntId/thirdPartyId`. Annars kan ändringar i profilen vara inkonsekventa och oförutsägbara.</li><li>Ett nytt sessions-ID måste användas efter trettio minuters inaktivitet från en besökare.</li><li>Använda samma sessions-ID med flera `tntIds/thirdPartyIds` kan orsaka oförutsägbara ändringar i de profiler som identifieras av `tntId/thirdPartyIDs`.</li></ul>**Anteckning**: Se [gräns för antal samtidiga begäranden](https://experienceleague.adobe.com/docs/target/using/troubleshoot/target-limits.html?lang=en#content-delivery) för ett visst sessions-ID. |
+| sessions-ID | En unik identifierare för en given användarsession. Som standard går sessionen ut efter 30 minuters inaktivitet. Om du genererar sessionId själv (till exempel för implementeringar på serversidan) ska du kontrollera följande:<ul><li>Sessions-ID kan vara vilken utskrivbar sträng som helst förutom blanksteg, frågetecken ( ? ) eller ett snedstreck ( / ).</li><li> Sessions-ID:t måste vara mellan 1 och 128 tecken långt.</li><li>För en viss session måste dess värde vara detsamma för flera begäranden</li><li>Du bör aldrig ha parallella sessioner (distinkta sessions-ID) för en viss besökare vid något tillfälle.</li><li>Ett nytt sessions-ID måste användas efter trettio minuters inaktivitet från en besökare.</li></ul>Routning till en viss nod i edge-klustret görs med sessions-ID.<ul><li>Sessionen är aktiv i 30 minuter på serversidan. Därför bör du inte använda ett annat sessions-ID för ett visst `tntId/thirdPartyId` inom 30 minuter från den senaste begäran som gjorts med `tntId/thirdPartyId`. Annars kan ändringar i profilen vara inkonsekventa och oförutsägbara.</li><li>Använda samma sessions-ID med flera `tntIds/thirdPartyIds` kan orsaka oförutsägbara ändringar i de profiler som identifieras av `tntId/thirdPartyIDs`.</li></ul>**Anteckning**: Se [gräns för antal samtidiga begäranden](https://experienceleague.adobe.com/docs/target/using/troubleshoot/target-limits.html?lang=en#content-delivery) för ett visst sessions-ID. |
 | pc-ID | Ett halvpermanent ID för en besökares webbläsare. Varar tills cookies tas bort manuellt. |
 | check | Ett enkelt testvärde som används för att avgöra om en besökare stöder cookies. Ange varje gång en besökare begär en sida. |
 | disable | Ange om besökarens inläsningstid överskrider den timeout som har konfigurerats i filen at.js. Som standard varar den här tidsgränsen 1 timme. |
