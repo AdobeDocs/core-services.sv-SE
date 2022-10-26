@@ -5,9 +5,9 @@ breadcrumb-title: Gränssnittskomponenter i Experience Cloud
 title: Experience Cloud Interface and Administration Guide
 description: Läs mer om gränssnittet och inställningarna för användarkonton i Experience Cloud. Lär dig hur du söker efter affärsobjekt och hanterar användare och produkter. Konfigurera kundattribut, målgruppsbibliotek, cookies och dela Experience Cloud Assets.
 index: true
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '359'
 ht-degree: 4%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 4%
    + [Experience Cloud](core-services-landing.md)
    + [Enhetlig sökning i Experience Cloud](search-experience-cloud.md)
    + [Aktivera implementeringen för tjänster mellan program](core-services.md)
+   + [Experience Cloud personaliserade utbildningsinställningar](personalized-learning-preferences.md)
    + Experience Cloud målgruppsbibliotek {#audiences}
       + [Experience Cloud målgrupper](audience-library.md)
       + [Skapa en målgrupp](t-audience-create.md)
