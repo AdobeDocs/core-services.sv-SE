@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Experience Cloud personaliserade utbildningsinställningar
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: d4cbde45df379d2e90b401f4ebc097a5d587d389
+source-git-commit: 77dbd73a741396b638958042d8ef7278be044581
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '410'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Du kan välja att tillåta oss att förse dig med användbart innehåll som är 
 * Funktioner som du troligtvis kommer att använda
 * Och mycket mer!
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="200"}
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
 Du kan när som helst uppdatera dina val i [Inställningar för användarinställningar](https://experience.adobe.com/preferences/).
@@ -37,8 +37,6 @@ Du kan när som helst uppdatera dina val i [Inställningar för användarinstäl
 <tbody>
   <tr>
     <td colspan="3">Få relevanta tips och råd, praktiska tips och tricks, praktiska genomgångar med mera baserat på hur du använder dina Adobe-produkter på dessa tre sätt..</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>I dina Adobe-produkter..<br></td>
@@ -51,7 +49,7 @@ Du kan när som helst uppdatera dina val i [Inställningar för användarinstäl
   </tr>
   <tr>
     <td>I e-post skickar Adobe dig ...</td>
-    <td>Se utbildningsinnehåll som relaterar till ditt arbete i dina produkter</td>
+    <td>Se utbildningsinnehåll som relaterar till ditt arbete i dina produkter.</td>
   </tr>
   <tr>
     <td>I Experience League Communities...</td>
@@ -72,8 +70,6 @@ Du kan när som helst uppdatera dina val i [Inställningar för användarinstäl
 <tbody>
   <tr>
     <td colspan="3">Få skräddarsydda möjligheter för utbildningstillfällen, forskningssessioner och integreringar baserade på ditt arbete på dessa tre sätt...</td>
-    <td></td>
-    <td></td>
   </tr>
   <tr>
     <td>I dina Adobe-produkter..<br></td>
@@ -97,6 +93,9 @@ Du kan när som helst uppdatera dina val i [Inställningar för användarinstäl
 </table>
 
 
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+
+
 ## Se exempel på hur denna anpassade inlärningsinformation kan se ut.
 
 
@@ -111,3 +110,5 @@ Du kan när som helst uppdatera dina val i [Inställningar för användarinstäl
 ### I Experience League Communities
 
 ![](assets/personalized-learning-communities.png){width="800"}
+
+[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
