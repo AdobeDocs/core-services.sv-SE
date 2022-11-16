@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Experience Cloud personaliserade utbildningsinställningar
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 77dbd73a741396b638958042d8ef7278be044581
+source-git-commit: 7d115f64105cf24faaa467ab542362663b6e4602
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -26,18 +26,15 @@ Du kan välja att tillåta oss att förse dig med användbart innehåll som är 
 Du kan när som helst uppdatera dina val i [Inställningar för användarinställningar](https://experience.adobe.com/preferences/).
 
 
+
+
+
 ## Personaliserade utbildnings- och supportrekommendationer för produkter och tjänster från Adobe
 
+Få relevanta tips och råd, praktiska tips och tricks, praktiska genomgångar med mera baserat på hur du använder dina Adobe-produkter på dessa tre sätt..
+
 <table>
-<thead>
-  <tr>
-    <th colspan="3">Personaliserade utbildnings- och supportrekommendationer för produkter och tjänster från Adobe</th>
-  </tr>
-</thead>
 <tbody>
-  <tr>
-    <td colspan="3">Få relevanta tips och råd, praktiska tips och tricks, praktiska genomgångar med mera baserat på hur du använder dina Adobe-produkter på dessa tre sätt..</td>
-  </tr>
   <tr>
     <td>I dina Adobe-produkter..<br></td>
     <td>Se popup-fönster och verktygstips för hjälp i realtid.</td>
@@ -59,18 +56,13 @@ Du kan när som helst uppdatera dina val i [Inställningar för användarinstäl
 </table>
 
 
+
 ## Personaliserad information om produkter, tjänster, event och Adobe
 
+Få skräddarsydda möjligheter för utbildningstillfällen, forskningssessioner och integreringar baserade på ditt arbete på dessa tre sätt...
+
 <table>
-<thead>
-  <tr>
-    <th colspan="3">Personaliserad information om produkter, tjänster, event och Adobe</th>
-  </tr>
-</thead>
 <tbody>
-  <tr>
-    <td colspan="3">Få skräddarsydda möjligheter för utbildningstillfällen, forskningssessioner och integreringar baserade på ditt arbete på dessa tre sätt...</td>
-  </tr>
   <tr>
     <td>I dina Adobe-produkter..<br></td>
     <td>Se popup-fönster och verktygstips för inbjudningar och möjligheter som är relevanta för dig.</td>
@@ -96,6 +88,9 @@ Du kan när som helst uppdatera dina val i [Inställningar för användarinstäl
 [![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
+
+
+
 ## Se exempel på hur denna anpassade inlärningsinformation kan se ut.
 
 
@@ -103,9 +98,13 @@ Du kan när som helst uppdatera dina val i [Inställningar för användarinstäl
 
 ![](assets/personalized-learning-in-product.gif){width="800"}
 
+
+
 ### I e-post skickar Adobe dig
 
 ![](assets/personalized-learning-email.png){width="400"}
+
+
 
 ### I Experience League Communities
 
