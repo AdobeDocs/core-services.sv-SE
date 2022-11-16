@@ -4,7 +4,7 @@ solution: Experience Cloud
 title: Experience Cloud personaliserade utbildningsinställningar
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 7d115f64105cf24faaa467ab542362663b6e4602
+source-git-commit: 1efadba40356a3bbd87f7150ebe0c417bc2af1c8
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Du kan välja att tillåta oss att förse dig med användbart innehåll som är 
 * Funktioner som du troligtvis kommer att använda
 * Och mycket mer!
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+[![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
 Du kan när som helst uppdatera dina val i [Inställningar för användarinställningar](https://experience.adobe.com/preferences/).
@@ -85,8 +85,7 @@ Få skräddarsydda möjligheter för utbildningstillfällen, forskningssessioner
 </table>
 
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
-
+[![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
 
@@ -110,4 +109,6 @@ Få skräddarsydda möjligheter för utbildningstillfällen, forskningssessioner
 
 ![](assets/personalized-learning-communities.png){width="800"}
 
-[![](assets/personalized-learning-customized-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+
+
+[![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
