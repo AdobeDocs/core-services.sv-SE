@@ -4,9 +4,9 @@ solution: Experience Cloud
 title: Experience Cloud personaliserade utbildningsinställningar
 feature: Customer Attributes
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 1efadba40356a3bbd87f7150ebe0c417bc2af1c8
+source-git-commit: 199643aeaaf422ec9ad637e18a03d25b5782546b
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Du kan välja att tillåta oss att förse dig med användbart innehåll som är 
 [![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
-Du kan när som helst uppdatera dina val i [Inställningar för användarinställningar](https://experience.adobe.com/preferences/).
+Du kan när som helst uppdatera dina val i avsnittet Produktdataanvändning och -samling i [Inställningar för användarinställningar](https://experience.adobe.com/preferences/).
 
 
 
@@ -38,7 +38,7 @@ Få relevanta tips och råd, praktiska tips och tricks, praktiska genomgångar m
   <tr>
     <td>I dina Adobe-produkter..<br></td>
     <td>Se popup-fönster och verktygstips för hjälp i realtid.</td>
-    <td rowspan="3">Detta kan inkludera.. <ul><li>Steg för steg-guider och praktiska tips från Adobe-experter</li> 
+    <td rowspan="3">Detta kan inkludera.. <ul><li>Stegvisa guider och praktiska tips från Adobe-experter</li> 
     <li>Videokurser och informativ genomgång</li> 
     <li>Ingående utbildning</li> 
     <li>Recommendations för videor och inlägg</li>
