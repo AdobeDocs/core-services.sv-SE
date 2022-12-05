@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 86e1ed26209244fd9c8c228c812b744e18e4b8fc
+source-git-commit: 0e4bf07a15c4601b3e6278a57880920710a69a79
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 0%
@@ -55,7 +55,7 @@ Så här implementerar du ett nytt SSL-certifikat från första part för datain
 
    När du fått biljetten ska en kundtjänstrepresentant ge dig en CNAME-post. Dessa poster måste konfigureras på företagets DNS-server innan Adobe kan köpa certifikatet åt dig. CNAME liknar följande:
 
-   **Säker** - till exempel värdnamnet `smetrics.example.com` pekar på: `example.com.adobedc.net`.
+   **Säker** - till exempel värdnamnet `smetrics.example.com` pekar på: `[random-10-character-string].data.adobedc.net`.
 
    >[!NOTE]
    > Tidigare har Adobe rekommenderat att kunderna ska konfigurera två CNAME, en för HTTPS och en för HTTP. Eftersom det är en bra metod att kryptera trafik, och de flesta webbläsare avråder från HTTP, rekommenderar vi inte längre att du konfigurerar en CNAME för HTTP. Det anses nu som bästa praxis att ange båda `trackingServer` och `trackingServerSecure` med samma CNAME. Till exempel, båda `trackingServer` och `trackingServerSecure` ställs in på `smetrics.example.com`. HTTP tillåts bara för värdnamn från tredje part.
@@ -94,12 +94,12 @@ Organisationens nätverksteam bör konfigurera dina DNS-servrar genom att skapa 
 FPC-specialisten ger dig det konfigurerade värdnamnet och vilken CNAME de ska peka på. Exempel:
 
 * **SSL-värdnamn**:`smetrics.mysite.com`
-* **SSL CNAME**:`mysite.com.adobedc.net`
+* **SSL CNAME**:`[random-10-character-string].data.adobedc.net`
 
 >[!NOTE]
 > Om du fortfarande använder osäkert ser det ut så här:
 > * **Värdnamn som inte är SSL**:`metrics.mysite.com`
-> * **ICKE-SSL CNAME**:`mysite.com.adobedc.net`
+> * **ICKE-SSL CNAME**:`[random-10-character-string].data.adobedc.net`
 
 
 Så länge implementeringskoden inte ändras kommer det här steget inte att påverka datainsamlingen och kan utföras när som helst efter att implementeringskoden har uppdaterats.
