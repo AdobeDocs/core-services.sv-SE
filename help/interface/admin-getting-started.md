@@ -1,6 +1,6 @@
 ---
 title: Hantera användare och produkter
-description: Logga in på Admin Console och hantera användarbehörigheter och produkter för Experience Cloud (produktprofiler). Läs om hur du delegerar administratörsrättigheter till Experience Cloud och om webbläsarstöd för Experience Cloud.
+description: Logga in på Admin Console och hantera användarbehörigheter och produkter för Experience Cloud (produktprofiler). Lär dig hur du delegerar administratörsrättigheter till Experience Cloud-användare och om webbläsarstöd för Experience Cloud.
 solution: Admin
 index: true
 feature: Admin Console
@@ -11,7 +11,7 @@ exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
 workflow-type: tm+mt
 source-wordcount: '1841'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -21,7 +21,7 @@ Lär dig hur du loggar in på Admin Console, hanterar användarbehörigheter fö
 
 >[!IMPORTANT]
 >
->Följande information gäller särskilt för Experience Cloud. Denna information kompletterar den vidare administrativa informationen i [Användarhandbok för företagsadministration](https://helpx.adobe.com/enterprise/admin-guide.html) för alla Adobe molnprodukter.
+>Följande information gäller särskilt för Experience Cloud. Denna information kompletterar den vidare administrativa informationen i [Användarhandbok för företagsadministration](https://helpx.adobe.com/se/enterprise/admin-guide.html) för alla Adobe molnprodukter.
 
 Du kan visa en sorterbar och filterbar lista över alla Experience Cloud-användare och deras information i Admin Tool. Se [Visa Experience Cloud-användare i administrationsverktyget](admin-tool-experience-cloud.md).
 
@@ -49,7 +49,7 @@ Administratörer kan se ändringar eller tillägg i Admin Console enligt följan
    * Sandlådor
    * Experience Data Model
    * Scheman
-   * Datastreams
+   * Dataströmmar
    * Besökar-ID
 
    För organisationer som inte använder Experience Platform ser du nu _Adobe Experience Platform_ i Admin Console, inklusive de funktioner som anges ovan.
@@ -67,9 +67,9 @@ Mer information om de nya funktionerna finns på Experience League:
 * [Sandlådor](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en)
 * [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=sv)
 * [Scheman](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html)
-* [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=en)
+* [Dataströmmar](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=en)
 * [Besökar-ID](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=en#section_3C9F6DF37C654D939625BB4D485E4354)
-* [Integritet](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)
+* [Integritet](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=sv)
 
 ## Autentisering av Experience Cloud-användare (planerad migrering){#migration}
 
