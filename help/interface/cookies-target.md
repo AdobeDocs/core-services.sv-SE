@@ -1,6 +1,6 @@
 ---
 description: Läs om hur Adobe Target använder cookies för att ge webbplatsoperatörer möjlighet att testa vilket onlineinnehåll och vilka erbjudanden som är mer relevanta för besökarna.
-solution: Experience Cloud,Analytics,Target,Social
+solution: Experience Cloud,Analytics,Target
 title: Adobe Target Cookies
 uuid: 44f7e32e-8d99-4682-8b54-8364d001b403
 feature: Cookies
@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
-source-git-commit: 65e4b6739568ea06b86744e891d30c3917f02bcc
+source-git-commit: 323a8a6f53e659369df867f19170c199aee3ac40
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -32,7 +32,7 @@ Du kan ändra de här inställningarna om det behövs, förutom för cookie-vara
 | Serverdomän | `clientcode.tt.omtrdc.net`, med hjälp av klientkoden för [!DNL Adobe Target] konto. |
 | Cookie-varaktighet | Cookien finns kvar i besökarens webbläsare två år efter deras senaste inloggning. Du kan inte ändra varaktighet för cookie-filen. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -47,4 +47,4 @@ Denna cookie ger vissa värderingar när det gäller att hantera hur besökarna 
 | check | Ett enkelt testvärde som används för att avgöra om en besökare stöder cookies. Ange varje gång en besökare begär en sida. |
 | disable | Ange om besökarens inläsningstid överskrider den timeout som har konfigurerats i filen at.js. Som standard varar den här tidsgränsen 1 timme. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
