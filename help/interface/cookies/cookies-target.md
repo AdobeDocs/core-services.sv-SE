@@ -1,13 +1,13 @@
 ---
 description: Läs om hur Adobe Target använder cookies för att ge webbplatsoperatörer möjlighet att testa vilket onlineinnehåll och vilka erbjudanden som är mer relevanta för besökarna.
-solution: Experience Cloud,Analytics,Target,Social
+solution: Experience Cloud,Analytics,Target
 title: Adobe Target Cookies
 feature: Cookies
 topic: Administration
 role: Administrator
 level: Experienced
 exl-id: c4399cc0-8333-47b8-b830-2ba7359f464a
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: ea50808d2514ff3c94ffa1bee2d9aa3ddf51f120
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 1%
