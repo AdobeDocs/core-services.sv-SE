@@ -11,7 +11,7 @@ level: Experienced
 exl-id: 1c6e54ac-4886-46ed-9df7-201d2df31847
 source-git-commit: ae14748aa7b0f0d803d48fe980a6743f53d996ab
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '811'
 ht-degree: 4%
 
 ---
@@ -49,7 +49,7 @@ I följande tabell beskrivs hur målgrupper används i Experience Cloud-program:
 | Campaign | <ul><li>Importera delade målgrupper från olika Adobe Experience Cloud-program till Adobe Campaign.</li><li>Exportera mottagarlistor i form av delade målgrupper. Dessa delade målgrupper kan användas i de olika Adobe Experience Cloud-program som du använder.</li></ul> |
 | Advertising Cloud | Använd målgruppen som mål. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!IMPORTANT]
 >
@@ -63,7 +63,7 @@ I följande tabell beskrivs hur målgrupper används i Experience Cloud-program:
 | Användningsfall | Mer information om vilka program du ska använda finns på [Alternativ för att skapa målgrupper](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-16471.html?lang=en) i kunskapsbasen. |
 | Forum | The [Forum för målgrupper](https://experienceleaguecommunities.adobe.com/t5/Adobe-Experience-Cloud-Audiences/ct-p/experience-cloud-audiences-community) är en annan resurs för att få hjälp med målgrupper. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Gränssnittselement i målgruppsbiblioteket {#section_D04ACEF61CEF4B189AE6BA9F40D0DBF4}
 
@@ -82,4 +82,4 @@ The [!DNL Experience Cloud] innehåller ett bibliotek för att skapa och hantera
 | Aktuell storlek | Den aktuella målgruppsstorleken. |
 | Aktiv | Segmentets aktiva status. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
