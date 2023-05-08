@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 3ef59cfa7ea4c1a27776153d847b0ba20e8fc6b4
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '735'
 ht-degree: 3%
 
 ---
@@ -42,7 +42,7 @@ Mer information finns i Analytics-hjälpen om [Cookies från första part](cooki
 | Plats | Endast CNAME-kunder. Gäller inte för tredjepartsscenarier. Cookie lagras på din domän, samma domän som används av CNAME och din bildförfrågan från Analytics. |
 | Storlek | 45 byte |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Cookie-namn: s_cc {#section-03aa90aa7e36427b8cb12dc4a0f0291e}
 
@@ -54,7 +54,7 @@ Mer information finns i Analytics-hjälpen om [Cookies från första part](cooki
 | Plats | Denna cookie lagras i sidans domän |
 | Storlek | 4 byte |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Cookie-namn: s_sq {#section-8abfff3a302d494f81a3cfb91e3b09ff}
 
@@ -66,7 +66,7 @@ Mer information finns i Analytics-hjälpen om [Cookies från första part](cooki
 | Plats | Denna cookie lagras i sidans domän |
 | Storlek | Varierar beroende på sidans URL-storlek, men vanligtvis 100-200 byte |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Cookie-namn: s_vi {#section-5d50a078de444d12b7d927d68ff3b679}
 
@@ -78,7 +78,7 @@ Mer information finns i Analytics-hjälpen om [Cookies från första part](cooki
 | Plats | Denna cookie lagras i domänen för bildbegäran - vanligtvis en kundspecifik underdomän i 2o7.net eller omtrdc.net om du använder cookies från tredje part eller om din domän använder cookies från första part. |
 | Storlek | 44 byte |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ Mer information finns i Analytics-hjälpen om [Cookies från första part](cooki
 | Plats | Denna cookie lagras på din domän som en cookie från en annan leverantör. |
 | Storlek | 33 byte |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Cookie-flaggor
 
@@ -108,7 +108,7 @@ I följande tabell beskrivs flaggorna för Analytics-cookies:
 | s_cc (JavaScript) | Nej | Nej | Ta bort |
 | s_sq (Javascript) | Nej | Nej | Ta bort |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 >[!NOTE]
 >
@@ -116,6 +116,8 @@ I följande tabell beskrivs flaggorna för Analytics-cookies:
 
 ## Cookies angivna av plugin-program {#section-a6b1cae8454945fab9eea5c7884c40fc}
 
-Ytterligare cookies kan anges beroende på hur Analytics-plugin-program används. Dessa cookies är kodfragment som är tillgängliga för klienten för användning i olika situationer. Dessa omständigheter omfattar följande: hämta värden från webbadressen, sammanfogning av värden som ska överföras till Analytics, hämta in formuläravhopp och så vidare. Om du vill ha mer information om cookies som anges av varje plugin-program kontaktar du ClientCare. Ett exempel är [!DNL s_vh] cookie som används med *Ange en gång per* och *Ange och hämta senaste värde* plugin-program.
+{{plug-in}}
+
+Ytterligare cookies kan anges beroende på hur Analytics-plugin-program används. Dessa cookies är kodfragment som är tillgängliga för klienten för användning i olika situationer. Dessa omständigheter omfattar följande: hämta värden från webbadressen, sammanfogning av värden som ska överföras till Analytics, hämta in formuläravhopp och så vidare. Ett exempel är [!DNL s_vh] cookie som används med *Ange en gång per* och *Ange och hämta senaste värde* plugin-program.
 
 Konverteringsvariabler (eVarX) som skickas på en bildbegäran utan JavaScript, till exempel kod som placeras i ett e-postmeddelande, tilldelas bara korrekt om e-postklienten och webbläsaren delar cookie-utrymme.
