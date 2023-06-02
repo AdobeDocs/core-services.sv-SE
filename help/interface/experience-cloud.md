@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 0de9f9d62dcb3e6c32e841de1663704475805315
+source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
 workflow-type: tm+mt
-source-wordcount: '1301'
+source-wordcount: '1311'
 ht-degree: 3%
 
 ---
@@ -24,8 +24,8 @@ ht-degree: 3%
 Från Experience Cloud kan du:
 
 * Få tillgång till dina program och tjänster
-* Sök efter produktdokumentation, självstudiekurser och communityinlägg
-* Sök efter affärsobjekt globalt med hjälp av en global sökning (endast Experience Platform)
+* På Hjälp-menyn söker du efter produktdokumentation, självstudiekurser och communityinlägg. Visa resultat i Experience League.
+* Sök efter affärsobjekt globalt med hjälp av en global sökning (endast Experience Platform) i sökfältet.
 * Hantera dina kontoinställningar (aviseringar, aviseringar och prenumerationer)
 
 ## Logga in på Experience Cloud {#signin}
@@ -130,7 +130,7 @@ På [!UICONTROL Experience Cloud preferences]kan du konfigurera följande funkti
 | [!UICONTROL Alerts] | Välj de meddelanden som du vill visa aviseringar för i webbläsaren. Varningar visas i fönstrets övre högra hörn under några sekunder. |
 | E-post | Ange hur ofta du vill få e-postmeddelanden. (Inte skickat, direkt, dagligen eller varje vecka.) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Meddelanden {#notifications}
 
@@ -168,7 +168,7 @@ I den här guiden får du hjälp om Experience Cloud och produktadministration i
 * [Experience Cloud sekretess- och säkerhetsöversikt](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS-förhämtning](admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
 
-## Stödlinjer
+## Användarhandböcker
 
 Stödlinjer för Experience Cloud:
 
@@ -192,7 +192,7 @@ Självstudiekurser och snabba guider i Experience League:
 
 * [Produktdokumentation för alla Experience Cloud-program](https://experienceleague.adobe.com/docs/home.html?lang=en) - Bläddra efter hjälp på Experience Cloud studiematerial och support
 * [Versionsinformation och produktuppdateringar](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) - Nyheter i Experience Cloud och prenumerera för att få uppdateringar
-* [Tutorials för att införa bastjänster](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=en) - Utforska videor och självstudiekurser om bastjänster
+* [Tutorials för att införa bastjänster](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=sv) - Utforska videor och självstudiekurser om bastjänster
 * [Experthjälp på Experience League](https://experienceleague.adobe.com/) - Få guidad inlärning från experter och communityn
 * [Utbildning](https://helpx.adobe.com/se/learning.html?promoid=KAUDK) - Ta kontakt med Adobe för att få ut så mycket som möjligt av Adobe
 * [Customer Experience Blog](https://blog.adobe.com/en/topics/digital-transformation) - Läs Experience Cloud bloggen
