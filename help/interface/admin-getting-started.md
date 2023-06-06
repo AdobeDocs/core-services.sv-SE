@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
 workflow-type: tm+mt
-source-wordcount: '1841'
-ht-degree: 5%
+source-wordcount: '1813'
+ht-degree: 6%
 
 ---
 
@@ -128,11 +128,11 @@ När du bjuder in en användare till en organisation kan du ge användaren tillg
 1. Välj **[!UICONTROL New Profile]**.
 1. Konfigurera profilinformationen och välj sedan **[!UICONTROL Save]**.
 
-Mer information (och om du vill ha hjälp om produkthantering för Creative Cloud och Document Cloud) finns i [Identitet](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/identity.ug.html) i [Användarhandbok för administration](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/users.ug.html).
+Mer information (och om du vill ha hjälp om produkthantering för Creative Cloud och Document Cloud) finns i [Identitet](https://helpx.adobe.com/enterprise/using/identity.html) i [Användarhandbok för administration](https://helpx.adobe.com/se/enterprise/using/users.html).
 
 **Relaterad hjälp**
 
-* [Hantera produkter och profiler](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html) i administrationshandboken.
+* [Hantera produkter och profiler](https://helpx.adobe.com/enterprise/using/manage-products.html) i administrationshandboken.
 * [Enterprise-användarbehörigheter](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en) i Adobe Target om du vill ha mer information.
 * Video: [Konfigurera Adobe Target Workspaces i Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=en)
 
@@ -188,7 +188,7 @@ Efter migreringen loggar användare in med sin Adobe ID (eller Enterprise ID) oc
 **Relaterad hjälp**
 
 * [Analyser i Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en)
-* [Migrering av användar-ID för analyser](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=en)
+* [Migrering av användar-ID för analyser](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=en)
 
 ## Hantera Adobe Target - produktprofiler jämfört med arbetsytor {#section_3860AF177C9E4C7E9C390D36A414F353}
 
@@ -197,7 +197,7 @@ I Adobe Target är en arbetsyta en produktprofil. Det gör att en organisation k
 Se:
 
 * [Enterprise-användarbehörigheter](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
-* [Hantera produkter och profiler](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/manage-products.ug.html)
+* [Hantera produkter och profiler](https://helpx.adobe.com/enterprise/using/manage-products.html)
 * Video: [Konfigurera Adobe Target Workspaces i Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=en)
 
 ## Hantera kampanjproduktprofiler, klientorganisationer och säkerhetsgrupper {#section_09CDF75366444CF5810CF321B7C712F3}
@@ -220,7 +220,7 @@ Se [Användarbehörigheter](https://experienceleague.adobe.com/docs/experience-p
 
 Adobe Enterprise-kunder representeras av organisationer i Adobe [!UICONTROL Admin Console]. Experience Manager-kunder kan använda Adobe [!UICONTROL Admin Console] hantera produktberättiganden och IMS-autentisering till Experience Manager som [!UICONTROL Cloud Service].
 
-Se [IMS-stöd för Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/security/ims-support.html?lang=en).
+Se [IMS-stöd för Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html?lang=en).
 
 ## Audience Manager {#section_C31E3FA8A1E14463B1B3E07235F1983C}
 
@@ -236,10 +236,9 @@ Se [Administration](https://experienceleague.adobe.com/docs/audience-manager/use
 * [!DNL Safari]
 * [!DNL Opera]
 
-**Obs!** Även om Experience Cloud-gränssnittet har stöd för dessa webbläsare, stöder inte enskilda program alla webbläsare. (Exempel: [Analyser](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en) stöder inte [!DNL Opera]och [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en) stöder inte [!DNL Safari].)
+**Obs!** Även om Experience Cloud-gränssnittet har stöd för dessa webbläsare, stöder inte enskilda program alla webbläsare. ([Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=en) har till exempel inte stöd för [!DNL Opera] och [!DNL Adobe Target] har inte stöd för [!DNL Safari].)
 
 ### Lösningar och produktkrav
 
-* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/sys-reqs.html?lang=en) 
+* [Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=en) 
 * [Report Builder](https://experienceleague.adobe.com/docs/analytics/analyze/report-builder/report-builder-setup/system-requirements.html?lang=en)
-* [Adobe Target](https://experienceleague.adobe.com/docs/target/using/implement-target/before-implement/supported-browsers.html?lang=en)

@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
 workflow-type: tm+mt
-source-wordcount: '2313'
+source-wordcount: '2307'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Vad du måste göra för att gå med i Experience Cloud:
 
    >[!NOTE]
    >
-   >För [!DNL Target], migrera till at.js från [!DNL mbox.js]. Se [Uppgraderar från at.js 1. x till at.js 2. x](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html?lang=en).
+   >För [!DNL Target], migrera till at.js från [!DNL mbox.js]. Se [Uppgraderar från at.js 1. x till at.js 2. x](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/upgrading-from-atjs-1x-to-atjs-20.html).
 
 1. Modernisera implementeringen och få status som administratör.
 
@@ -99,7 +99,7 @@ Om du inte använder [!UICONTROL Experience Platform Launch] eller [!UICONTROL D
 | Uppdatera din befintliga [!DNL s_code] till version H.27.3 eller senare, eller din befintliga [!DNL AppMeasurement.js] till version 1.4 eller senare. | De här filerna är tillgängliga för hämtning i [Kodhanteraren](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/code-manager-admin.html?lang=en) i Analytics Admin Tools. (Med [JavaScript-implementering](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html?lang=en#js) kan du få mer information om [!DNL AppMeasurement.js].) |
 | Synkronisera kund-ID för Analytics | Se [Analyser - synkronisera kund-ID](core-services.md#section_AD473A6A21C1446498E700363F9A8437) (nedan). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ### Analytics &amp; Adobe Target - synkronisera kund-ID {#section_AD473A6A21C1446498E700363F9A8437}
 
@@ -118,7 +118,7 @@ Kund-ID måste anges för varje [!DNL Analytics] serversamtal där Kund-ID:t är
 
 #### Analyser: synkronisera kund-ID:t med bakåtfyllnadsmetoden i Data warehouse
 
-När kundattribut blev tillgängliga hade vissa kunder ännu inte implementerat tjänsten Experience Cloud ID och kunde inte använda kundattribut på ett enkelt sätt. För att lösa detta problem skapade Adobe ett sätt att göra en bakåtfyllning av ID-synk med Adobe Analytics data warehouse. Den här funktionen kallas för &quot;data warehouse backfill&quot;. Bakåtfyllnaden i data warehouse är nu i allmänhet inte nödvändig och därför kommer den inte längre att vara tillgänglig från och med oktober 2022.
+När kundattribut blev tillgängliga hade vissa kunder ännu inte implementerat tjänsten Experience Cloud ID och kunde inte använda kundattribut på ett enkelt sätt. För att lösa detta problem skapade Adobe ett sätt att göra en bakåtfyllning av ID-synk med Adobe Analytics Data warehouse. Den här funktionen kallas för bakfyllning i Data warehouse. Bakåtfyllnaden i Data warehouse är nu i allmänhet inte nödvändig och därför kommer den inte längre att vara tillgänglig från och med oktober 2022.
 
 
 ### SDK för mobiler
