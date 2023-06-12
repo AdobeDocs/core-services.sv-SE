@@ -1,6 +1,6 @@
 ---
 title: Kundattribut
-description: Läs mer om kundattributen i Experience Cloud. Upptäck hur du överför data från Customer Attribute för användning i Adobe Analytics och Adobe Target.
+description: Lär dig mer om Customer Attributes i Experience Cloud. Upptäck hur du överför data från Customer Attribute för användning i Adobe Analytics och Adobe Target.
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
 role: Admin
@@ -10,7 +10,7 @@ exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
@@ -28,13 +28,13 @@ Om du vill hitta den här funktionen går du till **[!DNL Experience Platform]**
 
 * **Gruppmedlemskap:** Användarna måste vara medlemmar i [Kundattributgrupp](admin-getting-started.md#task_3295A85536BF48899A1AB40D207E77E9). Du måste också tillhöra en Adobe Analytics-grupp eller en Adobe Target-grupp.
 
-   Om du vill veta om ditt företag har tillgång till kundattribut kan du [!DNL Experience Cloud] bör administratören logga in på [Experience Cloud](https://experience.adobe.com). Navigera till **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. If *Kundattribut* visas som en av [!UICONTROL Product Profiles]är du redo att börja.
+  Om du vill veta om ditt företag har tillgång till kundattribut kan du [!DNL Experience Cloud] bör administratören logga in på [Experience Cloud](https://experience.adobe.com). Navigera till **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. If *Kundattribut* visas som en av [!UICONTROL Product Profiles]är du redo att börja.
 
-   Användare som läggs till i kundattributen finns i [!UICONTROL Customer Attributes] menyalternativet till vänster om Experience Cloud.
+  Användare som läggs till i kundattributen finns i [!UICONTROL Customer Attributes] menyalternativet till vänster om Experience Cloud.
 
 * **Adobe Target** `at.js` (valfri version) eller `mbox.js` version 58 eller senare krävs för kundattribut.
 
-   Se [Så här distribuerar du at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=en).
+  Se [Så här distribuerar du at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=en).
 
 ## Vad är företagsdata? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 
