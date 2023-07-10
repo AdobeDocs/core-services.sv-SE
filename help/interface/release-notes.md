@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 2f72053beee5f6fc8b2a499cce56efe1afcfa376
 workflow-type: tm+mt
-source-wordcount: '4695'
-ht-degree: 2%
+source-wordcount: '4927'
+ht-degree: 3%
 
 ---
 
@@ -22,6 +22,28 @@ Funktioner, versionsinformation och kända fel för gränssnittskomponenterna i 
 En lista över dokumentationsuppdateringar finns på [Experience Cloud](doc-updates.md#concept_4C8983FCD23848A4B1E4C2D99ED82784).
 
 Versionsinformation om alla program finns i [Versionsinformation för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en).
+
+## Juli-augusti 2023
+
+Version: **20 juli-31 augusti 2023**
+
+Adobe uppdaterar sin etablering för att tillhandahålla alla [!DNL Experience Cloud] kunderna har tillgång till grundläggande funktioner som underlättar samverkan mellan vissa [!DNL Experience Cloud] produkter. Användarna har [!DNL Experience Platform] som ett nytt berättigande som läggs till i deras [!DNL Experience Cloud] organisationer, med [Datainsamling](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) som en inkluderad tjänst. [!DNL Experience Platform] [!UICONTROL Data Collection] innehåller taggar för förenklad universell tagghantering och erbjuder en tillförlitlig, robust och komplett infrastruktur för strömmande data. Uppdateringen förenklar datainsamlingen och effektiviserar leveransen av upplevelsedata.
+
+Med den här uppdateringen kan administratörer se ändringar eller tillägg i Admin Console:
+
+* Adobe [!DNL Experience Platform] produktkortet i Admin Console kommer att innehålla: [Platser](https://experienceleague.adobe.com/docs/places/using/home.html), [Säkerhet](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html), [Identitetsnamnutrymme](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=sv), [Sandlådor](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=sv), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=sv), [Scheman](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html)och [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
+
+   * För organisationer som för närvarande inte använder [!DNL Experience Platform]visas [!DNL Experience Platform] i [!UICONTROL Admin Console], inklusive de funktioner som anges ovan.
+
+   * För organisationer som använder [!DNL Experience Platform], [!UICONTROL Places] kommer att konsolideras i [!DNL Experience Platform] kort.
+
+* Adobe [!DNL Experience Platform] [Datainsamling](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) (tidigare [!DNL Launch]) och [Integritet](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=sv) kommer att visas som sina egna produktkort, åtskilda från de andra [!DNL Experience Platform] funktioner
+
+## Maj 2023
+
+Version: **25 maj 2023**
+
+* I [!DNL Experience Cloud] **[!UICONTROL Help]** har innehållssökningen uppdaterats för att filtrera efter program i [Experience League](https://experienceleague.adobe.com/#home) sökresultat.
 
 ## Juli-2022
 
@@ -35,7 +57,7 @@ Planerad version: **11 juli 2022**
 | ------- | ------- |
 | Enhetligt hem - widget för snabbåtkomst | **Navigera snabbare:** Nu kan du anpassa din hemupplevelse ytterligare och bestämma vilka program du har till hands. Använd den nya fästfunktionen för att välja vilka program som ska visas längst fram och i mitten på din [!UICONTROL Quick Access]. <br>**Håll dig informerad med smart fästning:** Dina nya program är nu enklare att hitta. Nyligen tilldelade program visar en _Nytt_ märke och automatiskt fästa på [!UICONTROL Quick Access]. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## April - 2022
 
@@ -43,7 +65,7 @@ Planerad version: **11 juli 2022**
 | ------- |-------|
 | Naturvetenskapssökning | Få svar på alla dina frågor via ett enda gränssnitt via Unified Search. Den här funktionen är alltid tillgänglig för dig på alla sidor i [!DNL Experience Platform] och [!DNL Journey Optimizer]. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Mars-2022
 
@@ -66,7 +88,7 @@ Planerad version: **11 juli 2022**
 | AEP-instrumentpaneler | [!DNL Helios Lite] innehåller diagramrekommendationer i arbetsflödet för att skapa Experience Platform-widgetar. Förutsatt ett dataurval (för närvarande ett urval av variabeldata), [!DNL Helios] rekommenderar en lämplig visualisering som medföljer valet av data. |
 | AEP-instrumentpaneler | [!DNL Instory] innehåller XML-baserad skriven berättarröst och bildtexter för diagram. Den inordnar diagram på AEP Dashboards-sidan med relevanta punkter som anropar viktiga ändringar och incidenter i grafdata. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Oktober - 2021
 
@@ -77,7 +99,7 @@ Planerad version: **11 juli 2022**
 | Experience Cloud [!UICONTROL Triggers] navigering | [Experience Cloud-utlösare](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=en) är tillgängligt för direkt navigering från programväljaren i huvudet för tilldelade användare. |
 | **Obs!** Uppdatering av planerad gränssnittsnavigering | I november 2021 _[!UICONTROL Go to Launch / Data Collection]_navigeringsfunktionen kommer att tas bort från <https://experience.adobe.com/implement>. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Augusti - 2021
 
@@ -94,19 +116,19 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 | Funktion | Datum | Beskrivning |
 | ------- | ------- | ------- |
 | Stöd för enkel inloggning för Adobe Federated ID:n | 17 juni 2021 | Om du använder Federated ID:n kan du logga in på Experience Cloud utan att behöva ange en e-postadress eller ett lösenord. Lägg till `#/sso:@domain` till Experience Cloud URL. <br>Anta till exempel att du äger domänen `adobecustomer.com` och vill logga in på Adobe Analytics. URL:en skulle vara: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Experience League Search | 1 juni 2021 | Dokumentationssökningen i Experience League har förbättrats. Navigera till [Experience League](https://experienceleague.adobe.com/docs/?lang=en) och använder **[!UICONTROL Search]** för att hitta självstudiekurser, dokumentation, kurser med mera. |
+| Experience League Search | 1 juni 2021 | Dokumentationssökningen i Experience League har förbättrats. Navigera till [Experience League](https://experienceleague.adobe.com/docs/?lang=sv) och använder **[!UICONTROL Search]** för att hitta självstudiekurser, dokumentation, kurser med mera. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Maj - 2021
 
 | Funktion | Datum | Beskrivning |
 | ------- | ------- | ------- |
 | Experience Cloud Header &amp; Navigation | 20 maj 2021 | Adobe Experience Cloud uppdateringar innehåller en ändring av det ljusa temat för sidhuvudet, med möjlighet att enkelt växla tillbaka till det mörka temat och länka för att styra ytterligare inställningar från användarens avatar i sidhuvudet på Experience Cloud. Även om inte alla program i Experience Cloud stöder teman, låser den här funktionen upp det framtida temastödet. |
-| Global sökning i Experience Cloud | 20 maj 2021 | I den här versionen av Experience Cloud kan du söka i alla [Experience League](https://experienceleague.adobe.com/#home) dokumentation, kurser och självstudiekurser. (För närvarande är global sökning bara tillgänglig för användare av Experience Platform. Global sökning efter [!UICONTROL Platform] Med kan du söka efter alla affärsobjekt i Experience Cloud, t.ex. segment, datauppsättningar, scheman och annat.) |
+| Global sökning i Experience Cloud | 20 maj 2021 | Med den här versionen av Experience Cloud kan du söka i alla [Experience League](https://experienceleague.adobe.com/#home) dokumentation, kurser och självstudiekurser. (För närvarande är global sökning bara tillgänglig för användare av Experience Platform. Global sökning efter [!UICONTROL Platform] Med kan du söka efter alla affärsobjekt i Experience Cloud, t.ex. segment, datauppsättningar, scheman och annat.) |
 | Inställningar för Experience Cloud | 20 maj 2021 | I den här uppdateringen finns möjligheten att ställa in vilka språk du vill använda i Experience Cloud [Inställningar](https://experience.adobe.com/preferences). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Augusti - 2020
 
@@ -114,7 +136,7 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 | -----------| ---------- |
 | Administratörsverktyg - policyer | På den här sidan visas en fullständig lista över policyer för Experience Cloud i din organisation. Det innehåller information om produkter, instanser, användare och utvecklare. Du kan söka efter, sortera och filtrera efter anpassade vyer i principlistan. Mer information finns i hjälpen för [Experience Cloud Admin Tool](admin-tool-experience-cloud.md). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## April - 2020
 
@@ -127,7 +149,7 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 | -----------| ---------- |
 | Administratörsverktyg - visa användarinformation | Administratörer kan visa en sorterbar och filterbar lista över alla Experience Cloud-användare och deras information i det nya administrationsverktyget. Användarinformationen innehåller information om en användares produktåtkomst, roller och den senast öppnade informationen. Mer information finns i hjälpen för [Experience Cloud Admin Tool](admin-tool-experience-cloud.md). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **Korrigeringar**
 
@@ -595,7 +617,7 @@ Nya funktioner och korrigeringar i [!DNL Adobe Experience Cloud] samarbets- och 
    <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> Hjälp</span> &gt; <span class="uicontrol"> Exchange</span></p> <p>The <span class="keyword"> Experience Cloud</span><span class="wintitle"> Exchange</span> är ett enda mål där du kan söka efter, bläddra bland, välja ut, betala och hämta tillägg för digital marknadsföring via appar. </p> <p>Apparna innehåller dataanslutningar, anpassade konfigurationer för Adobe Core-produkter, program från tredje part, rapporter och <span class="keyword"> Experience Cloud</span> kort. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Experience Cloud målgrupper </p> </td> 
+   <td colname="col1"> <p>Experience Cloud-målgrupper </p> </td> 
    <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> Målgrupper</span></p> <p> <span class="wintitle"> Målgrupper</span> är där du skapar, redigerar och hanterar målgrupper, ungefär som hur du arbetar med segment. Du kan till exempel skapa ett segment i Rapporter och analyser och sedan dela det med <span class="wintitle"> Experience Cloud</span><span class="wintitle"> Målgrupper</span>. När målgruppen väl har delats är den tillgänglig i <span class="keyword"> Adobe Target</span> för kampanjaktiviteter och i Adobe Audience Manager för segmentering. </p> <p> <p>Obs! Om du vill begära aktivering i Target går du till <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>. </p> </p> </td> 
   </tr> 
   <tr> 
