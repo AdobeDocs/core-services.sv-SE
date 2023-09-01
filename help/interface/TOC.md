@@ -5,7 +5,7 @@ breadcrumb-title: Viktiga gränssnittskomponenter i Experience Cloud
 title: Experience Cloud Interface and Administration Guide
 description: Läs mer om gränssnittet och inställningarna för användarkonton i Experience Cloud. Lär dig hur du söker efter affärsobjekt och hanterar användare och produkter. Konfigurera kundattribut, målgruppsbibliotek, cookies och dela Experience Cloud Assets.
 index: true
-source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
+source-git-commit: 850df6ff4e65f339e35f08bd5aacd2f38f79bea0
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 11%
@@ -20,7 +20,7 @@ ht-degree: 11%
    + [Experience Cloud](core-services-landing.md)
    + [Enhetlig sökning i Experience Cloud](search-experience-cloud.md)
    + [Aktivera implementeringen för tjänster mellan program](core-services.md)
-   + [Experience Cloud personaliserade utbildningsinställningar](personalized-learning-preferences.md)
+   + [Inställningar för anpassad inlärning i Experience Cloud](personalized-learning-preferences.md)
    + Experience Cloud målgruppsbibliotek {#audiences}
       + [Experience Cloud målgrupper](audience-library.md)
       + [Skapa en målgrupp](t-audience-create.md)
@@ -66,7 +66,7 @@ ht-degree: 11%
       + [[!UICONTROL Data Connectors] cookies](cookies-dc.md)
       + [[!UICONTROL Data Workbench] cookies](cookies-insight.md)
       + [Experience Cloud cookies](cookies-mc.md)
-      + [Advertising Cloud cookies](cookies-advertising-cloud.md)
+      + [Adobe Advertising cookies](cookies-advertising-cloud.md)
       + [[!DNL Scene7] cookies](cookies-s7.md)
       + [[!DNL Search and Promote] cookies](cookies-snp.md)
       + [[!DNL Target] cookies](cookies-target.md)
