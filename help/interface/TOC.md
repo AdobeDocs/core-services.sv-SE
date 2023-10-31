@@ -1,11 +1,11 @@
 ---
-audience: administrator
+role: User,Admin
 user-guide-title: Viktiga gränssnittskomponenter i Experience Cloud
 breadcrumb-title: Viktiga gränssnittskomponenter i Experience Cloud
 title: Experience Cloud Interface and Administration Guide
 description: Läs mer om gränssnittet och inställningarna för användarkonton i Experience Cloud. Lär dig hur du söker efter affärsobjekt och hanterar användare och produkter. Konfigurera kundattribut, målgruppsbibliotek, cookies och dela Experience Cloud Assets.
 index: true
-source-git-commit: 850df6ff4e65f339e35f08bd5aacd2f38f79bea0
+source-git-commit: 3d33353d5df4e2dfc618f998d256a5d40ae90c6b
 workflow-type: tm+mt
 source-wordcount: '361'
 ht-degree: 11%
