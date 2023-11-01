@@ -1,14 +1,13 @@
 ---
 description: Lär dig mer om centrala gränssnittskomponenter för Experience Cloud. I den här hjälpen ingår användar- och produktadministration i Admin Console, aktivering av program för Experience Cloud-tjänster samt hjälp om Audience Library, Customer Attributes, Experience Cloud Assets med flera.
-solution: Experience Cloud
 title: Hjälp och dokumentation för Experience Cloud-gränssnittet
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
-feature: Customer Attributes
+feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 657d7e665ac3d20b80bdb26db0e3e62e421218bf
+source-git-commit: acdf73ddc3bacbf18c069b7fd6afd935a17003a4
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 3%
@@ -17,7 +16,7 @@ ht-degree: 3%
 
 # Handbok för gränssnittskomponenter i Experience Cloud Central
 
-[Experience Cloud](https://experience.adobe.com) är en integrerad familj av program, produkter och tjänster för digital marknadsföring. Från det intuitiva gränssnittet får du snabbt tillgång till dina molnprogram, produktfunktioner och tjänster.
+[Experience Cloud](https://experience.adobe.com) är en integrerad familj av program, produkter och tjänster för digital marknadsföring i Adobe. Från det intuitiva gränssnittet får du snabbt tillgång till dina molnprogram, produktfunktioner och tjänster.
 
 ![Experience Cloud](assets/landing.png)
 
@@ -49,22 +48,22 @@ Logga in och verifiera att du är rätt [organisation](organizations.md).
 
    Om din organisation använder Federated ID:n kan du med Experience Cloud logga in med din organisations enkla inloggning utan att behöva ange din e-postadress och ditt lösenord. Lägg till `#/sso:@domain` till Experience Cloud URL (`https://experience.adobe.com`) för att utföra den här uppgiften.
 
-   För en organisation med Federated ID och domänen `adobecustomer.com`, ange URL-länken till `https://experience.adobe.com/#/sso:@adobecustomer.com`. Du kan också gå direkt till ett specifikt program genom att skapa ett bokmärke för den här URL:en, som bifogas med programsökvägen. (Exempel: för Adobe Analytics `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
+   För en organisation med Federated ID och domänen `adobecustomer.com`, ange URL-länken till `https://experience.adobe.com/#/sso:@adobecustomer.com`. Du kan också gå direkt till ett specifikt program genom att skapa ett bokmärke för den här URL:en, som bifogas med programsökvägen. (För Adobe Analytics, till exempel `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
-## Använd Experience Cloud {#navigation}
+## Access Experience Cloud-program {#navigation}
 
 När du har loggat in på Experience Cloud kan du snabbt komma åt alla program, tjänster och organisationer från det enhetliga huvudet.
 
 Gå till programväljaren för att få åtkomst till Experience Cloud-program och -tjänster som du har fått i din organisation ![meny](assets/menu-icon.png).
 
-![Använd Experience Cloud](assets/platform-core-services.png)
+![Access Experience Cloud-program](assets/platform-core-services.png)
 
 ## Stöd för webbläsare i Experience Cloud {#browser}
 
 För bästa prestanda är Experience Cloud optimerat för de vanligaste webbläsarna, inklusive den senaste versionen, plus de två tidigare.
 
 * Krom
-* Edge
+* Kant
 * Firefox
 * Opera
 * Safari
@@ -125,10 +124,10 @@ På [!UICONTROL Experience Cloud preferences]kan du konfigurera följande funkti
 | Standard [organisation](organizations.md) | Välj den organisation som du vill se när du startar Experience Cloud. |
 | [!UICONTROL Product data collection] | Välj vilka tekniker Adobe kan använda för att samla in data om hur du använder dina Adobe-produkter. |
 | [!UICONTROL Personalized learning recommendations and promotions] | Välj var du vill få personlig hjälp för dina Adobe-produkter. Den här hjälpen finns tillgänglig via e-post, i programmet och i Experience League Communities. [Läs mer.](personalized-learning-preferences.md) |
-| [!UICONTROL Subscriptions] | Välj de produkter och kategorier som du vill prenumerera på. Meddelanden i [!UICONTROL Notifications] popup-fönster och i mejl. |
+| [!UICONTROL Subscriptions] | Välj de produkter och kategorier som du vill prenumerera på. Meddelanden i [!UICONTROL Notifications] popup-fönster och i e-postmeddelandet. |
 | [!UICONTROL Priority] | Välj de kategorier som du vill ska ha hög prioritet. Dessa kategorier är markerade med en hög tagg och kan konfigureras för leverans som varningar. |
 | [!UICONTROL Alerts] | Välj de meddelanden som du vill visa aviseringar för i webbläsaren. Varningar visas i fönstrets övre högra hörn under några sekunder. |
-| E-post | Ange hur ofta du vill få e-postmeddelanden. (Inte skickat, direkt, dagligen eller varje vecka.) |
+| E-post | Ange hur ofta du vill få e-postmeddelanden. (Inte skickat, direkt, dagligen eller veckovis.) |
 
 {style="table-layout:auto"}
 
@@ -160,7 +159,7 @@ I den här guiden får du hjälp om Experience Cloud och produktadministration i
 * [Experience Cloud [!UICONTROL Assets]](experience-cloud-assets.md)
 * [Experience Cloud cookies](cookies-privacy.md)
 * [Hantering av användare och produkter](admin-getting-started.md) (Admin Console)
-* [Aktivera era program för bastjänster](core-services.md)
+* [Aktivera era program för bastjänsterna](core-services.md)
 * [Frågor och svar](admin-getting-started.md)
 * [Organisationer och kontolänkning](organizations.md)
 * [Integreringar](marketing-cloud-integrations.md)
@@ -176,7 +175,7 @@ Stödlinjer för Experience Cloud:
 * [Experience Platform Co-op Graph](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=en)
 * [Exchange](https://exchange.adobe.com/experiencecloud)
 * [Experience Cloud ID-tjänst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
-* [Experience Platform datainsamling/start](https://experienceleague.adobe.com/docs/launch.html?lang=en)
+* [Experience Platform datainsamling/lansering](https://experienceleague.adobe.com/docs/launch.html?lang=en)
 * [Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html?lang=en)
 * [[!UICONTROL Dynamic Tag Management]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 
@@ -193,7 +192,7 @@ Självstudiekurser och snabba guider i Experience League:
 * [Produktdokumentation för alla Experience Cloud-program](https://experienceleague.adobe.com/docs/home.html?lang=en) - Bläddra efter hjälp på Experience Cloud studiematerial och support
 * [Versionsinformation och produktuppdateringar](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en) - Nyheter i Experience Cloud och prenumerera för att få uppdateringar
 * [Tutorials för att införa bastjänster](https://experienceleague.adobe.com/docs/platform-learn/data-collection/overview.html?lang=sv) - Utforska videor och självstudiekurser om bastjänster
-* [Experthjälp på Experience League](https://experienceleague.adobe.com/) - Få guidad inlärning från experter och communityn
+* [Experthjälp på Experience League](https://experienceleague.adobe.com/) - Få hjälp av experter och communityn
 * [Utbildning](https://helpx.adobe.com/se/learning.html?promoid=KAUDK) - Ta kontakt med Adobe för att få ut så mycket som möjligt av Adobe
 * [Customer Experience Blog](https://blog.adobe.com/en/topics/digital-transformation) - Läs Experience Cloud bloggen
 * [Kundtjänst](https://experienceleague.adobe.com/?support-solution=General#support) - Kontakta Adobe kundtjänst

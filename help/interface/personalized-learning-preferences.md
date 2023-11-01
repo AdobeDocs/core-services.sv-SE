@@ -1,10 +1,9 @@
 ---
 description: Läs mer om anpassade inlärningsinställningar i Experience Cloud. På så sätt kan kunderna få personlig hjälp och reklam via e-post, i sina Adobe Experience Cloud-produkter och inom Adobe Experience League Communities baserat på användningsdata.
 solution: Experience Cloud
-title: Experience Cloud personaliserade utbildningsinställningar
-feature: Customer Attributes
+title: Inställningar för anpassad inlärning i Experience Cloud
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 199643aeaaf422ec9ad637e18a03d25b5782546b
+source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 0%
@@ -13,7 +12,7 @@ ht-degree: 0%
 
 # Personaliserade utbildningsrekommendationer och -kampanjer
 
-Du kan välja att tillåta oss att förse dig med användbart innehåll som är anpassat efter dig utifrån ditt arbete i dina Adobe-produkter. Välj dina inställningar bland alternativen nedan så får du information om utbildning som är relevant för:
+Du kan välja att tillåta oss att förse dig med användbart innehåll som är anpassat efter dig baserat på ditt arbete i dina Adobe-produkter. Välj dina inställningar bland alternativen nedan så får du information om utbildning som är relevant för:
 
 * Din kunskapsnivå och roll
 * Dina arbetsflöden
@@ -23,7 +22,7 @@ Du kan välja att tillåta oss att förse dig med användbart innehåll som är 
 [![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
 
-Du kan när som helst uppdatera dina val i avsnittet Produktdataanvändning och -samling i [Inställningar för användarinställningar](https://experience.adobe.com/preferences/).
+Du kan när som helst uppdatera dina val i avsnittet Produktdataanvändning och -samling i [Inställningar för användare](https://experience.adobe.com/preferences/).
 
 
 
@@ -41,7 +40,7 @@ Få relevanta tips och råd, praktiska tips och tricks, praktiska genomgångar m
     <td rowspan="3">Detta kan inkludera.. <ul><li>Stegvisa guider och praktiska tips från Adobe-experter</li> 
     <li>Videokurser och informativ genomgång</li> 
     <li>Ingående utbildning</li> 
-    <li>Recommendations för videor och inlägg</li>
+    <li>Recommendations för videoklipp och inlägg</li>
     </ul></td>
   </tr>
   <tr>
@@ -57,7 +56,7 @@ Få relevanta tips och råd, praktiska tips och tricks, praktiska genomgångar m
 
 
 
-## Personaliserad information om produkter, tjänster, event och Adobe
+## Personaliserad information om Adobe produkter, tjänster, event och kampanjer
 
 Få skräddarsydda möjligheter för utbildningstillfällen, forskningssessioner och integreringar baserade på ditt arbete på dessa tre sätt...
 
@@ -79,7 +78,7 @@ Få skräddarsydda möjligheter för utbildningstillfällen, forskningssessioner
   </tr>
   <tr>
     <td>I Experience League Communities...</td>
-    <td>Se personaliserade rekommendationer för händelser och tjänster för att förbättra din inlärning.</td>
+    <td>Se personaliserade rekommendationer för händelser och tjänster för att förbättra ditt lärande.</td>
   </tr>
 </tbody>
 </table>
