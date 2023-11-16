@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 0e4bf07a15c4601b3e6278a57880920710a69a79
+source-git-commit: 92d03444472fc7dddbe955d386452291ed1ca2d8
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1616'
 ht-degree: 0%
 
 ---
@@ -58,11 +58,11 @@ Så här implementerar du ett nytt SSL-certifikat från första part för datain
    **Säker** - till exempel värdnamnet `smetrics.example.com` pekar på: `[random-10-character-string].data.adobedc.net`.
 
    >[!NOTE]
-   > Tidigare har Adobe rekommenderat att kunderna ska konfigurera två CNAME, en för HTTPS och en för HTTP. Eftersom det är en bra metod att kryptera trafik, och de flesta webbläsare avråder från HTTP, rekommenderar vi inte längre att du konfigurerar en CNAME för HTTP. Det anses nu som bästa praxis att ange båda `trackingServer` och `trackingServerSecure` med samma CNAME. Till exempel, båda `trackingServer` och `trackingServerSecure` ställs in på `smetrics.example.com`. HTTP tillåts bara för värdnamn från tredje part.
+   > Tidigare har Adobe rekommenderat att kunderna ska konfigurera två CNAME, en för HTTPS och en för HTTP. Eftersom det är en bra metod att kryptera trafik, och de flesta webbläsare avråder från HTTP, rekommenderar vi inte längre att du konfigurerar en CNAME för HTTP. Det anses nu som bästa praxis att ange båda `trackingServer` och `trackingServerSecure` med samma CNAME. Till exempel båda `trackingServer` och `trackingServerSecure` ställs in på `smetrics.example.com`. HTTP tillåts bara för värdnamn från tredje part.
 
 1. När CNAME finns på plats arbetar Adobe med DigiCert för att köpa och installera ett certifikat på Adobe produktionsservrar.
 
-   Om du har en befintlig implementering bör du överväga att migrera besökare för att behålla befintliga besökare. När certifikatet har publicerats till Adobe produktionsmiljö kan du uppdatera dina spårningsservervariabler till de nya värdnamnen. Om platsen inte är säker (HTTP) uppdaterar du `s.trackingServer`. Om webbplatsen är säker (HTTPS) uppdaterar du båda `s.trackingServer` och `s.trackingServerSecure` variabler.
+   Om ni har en befintlig implementering bör ni överväga att migrera besökarna för att behålla era befintliga besökare. När certifikatet har publicerats till Adobe produktionsmiljö kan du uppdatera dina spårningsservervariabler till de nya värdnamnen. Om platsen inte är säker (HTTP) uppdaterar du `s.trackingServer`. Om webbplatsen är säker (HTTPS) uppdaterar du båda `s.trackingServer` och `s.trackingServerSecure` variabler.
 
 1. [Verifiera vidarebefordran av värdnamn](#validate) (se nedan).
 
@@ -85,7 +85,7 @@ Trettio dagar innan ditt förstapartscertifikat upphör att gälla validerar Ado
 | **Använder det här certifikatet SHA-2-kryptering?** | Ja, Adobe arbetar med DigiCert för att utfärda ett SHA-2-certifikat. |
 | **Kostar detta något?** | Nej, Adobe erbjuder den här tjänsten till alla nuvarande Adobe-kunder med digitala upplevelser utan extra kostnad. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Skapa CNAME-poster
 
@@ -93,14 +93,14 @@ Organisationens nätverksteam bör konfigurera dina DNS-servrar genom att skapa 
 
 FPC-specialisten ger dig det konfigurerade värdnamnet och vilken CNAME de ska peka på. Exempel:
 
-* **SSL-värdnamn**:`smetrics.mysite.com`
+* **SSL-värdnamn**:`smetrics.example.com`
 * **SSL CNAME**:`[random-10-character-string].data.adobedc.net`
 
 >[!NOTE]
 > Om du fortfarande använder osäkert ser det ut så här:
-> * **Värdnamn som inte är SSL**:`metrics.mysite.com`
+>
+> * **Värdnamn som inte är SSL**:`metrics.example.com`
 > * **ICKE-SSL CNAME**:`[random-10-character-string].data.adobedc.net`
-
 
 Så länge implementeringskoden inte ändras kommer det här steget inte att påverka datainsamlingen och kan utföras när som helst efter att implementeringskoden har uppdaterats.
 
@@ -163,7 +163,12 @@ Innan du redigerar kod på din webbplats för att använda datainsamling från f
 När du har verifierat att dina värdnamn svarar och vidarebefordrar till datainsamlingsservrar i Adobe kan du ändra implementeringen så att den pekar på dina egna värdnamn för datainsamling.
 
 1. Öppna JavaScript-huvudfilen (`s_code.js/AppMeasurement.js`).
-1. Om du vill uppdatera kodversionen ersätter du hela `s_code.js/AppMeasurement.js` med den nyare versionen och ersätt eventuella plugin-program eller anpassningar. **eller** Om du bara vill uppdatera koden som är relevant för datainsamling från första part letar du reda på variablerna s.trackingServer och s.trackingServerSecure (om du använder SSL) och pekar dem mot dina nya värdnamn för datainsamling. Använda mysite.com som exempel:`s.trackingServer = "metrics.mysite.com"` `s.trackingServerSecure = "smetrics.mysite.com"`
+1. Om du vill uppdatera kodversionen ersätter du hela `s_code.js/AppMeasurement.js` med den nyare versionen och ersätt eventuella plugin-program eller anpassningar. **eller** Om du bara vill uppdatera koden som är relevant för datainsamling från första part letar du reda på variablerna s.trackingServer och s.trackingServerSecure (om du använder SSL) och pekar dem mot dina nya värdnamn för datainsamling. Exempel:
+
+   ```js
+   s.trackingServer = "metrics.example.com";
+   s.trackingServerSecure = "smetrics.example.com";
+   ```
 
 1. Överför den uppdaterade JavaScript-huvudfilen till din webbplats.
 
