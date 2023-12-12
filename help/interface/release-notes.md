@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: e67941f98156aebaef9035d1d6aa76cb7d17dcbe
 workflow-type: tm+mt
-source-wordcount: '4696'
-ht-degree: 3%
+source-wordcount: '4678'
+ht-degree: 2%
 
 ---
 
@@ -99,8 +99,6 @@ Planerad version: **11 juli 2022**
 | ------- | ------- |
 | Enhetlig sökning | Enhetlig sökning fortsätter att lägga till objekttyper i sökindexet. I den här uppdateringen söker nu global sökning igenom Experience League-innehåll och följande Journey Optimizer-objekttyper: <ul><li>Datauppsättningar</li><li>Mål </li><li>Frågor</li><li>Scheman</li><li>Segment</li><li>Källor</li><li>Erbjudanden</li><li>Komponenter</li><li>Meddelanden</li><li>Resor</li></ul> |
 | Produktanvändningsdata, samtycke | Vid en första inloggning ombeds du ange inställningar för hur Adobe kan ge dig användbart, personaliserat innehåll, t.ex. självstudiekurser, guider, snabbtips, rekommendationer, utbildningsvideor med mera, baserat på dina produktanvändningsdata för Experience Cloud. Denna begäran innehåller även en uppdatering av dina inställningar för insamling och användning av dessa data på <https://experience.adobe.com/preferences>. |
-| Experience Cloud [!UICONTROL Triggers] navigering | [Experience Cloud-utlösare](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=sv) är tillgängligt för direkt navigering från programväljaren i huvudet för tilldelade användare. |
-| **Obs!** Uppdatering av planerad gränssnittsnavigering | I november 2021 _[!UICONTROL Go to Launch / Data Collection]_navigeringsfunktionen tas bort från <https://experience.adobe.com/implement>. |
 
 {style="table-layout:auto"}
 
@@ -119,7 +117,7 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 | Funktion | Datum | Beskrivning |
 | ------- | ------- | ------- |
 | Stöd för enkel inloggning för Adobe Federated ID | 17 juni 2021 | Om du använder Federated ID:n kan du logga in på Experience Cloud utan att behöva ange en e-postadress eller ett lösenord. Lägg till `#/sso:@domain` till Experience Cloud URL. <br>Anta till exempel att du äger domänen `adobecustomer.com` och vill logga in på Adobe Analytics. URL:en skulle vara: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Experience League Search | 1 juni 2021 | Dokumentationssökningen i Experience League har förbättrats. Navigera till [Experience League](https://experienceleague.adobe.com/docs/?lang=sv) och använder **[!UICONTROL Search]** för att hitta självstudiekurser, dokumentation, kurser med mera. |
+| Experience League Search | 1 juni 2021 | Dokumentationssökningen i Experience League har förbättrats. Navigera till [Experience League](https://experienceleague.adobe.com/docs/?lang=en) och använder **[!UICONTROL Search]** för att hitta självstudiekurser, dokumentation, kurser med mera. |
 
 {style="table-layout:auto"}
 
@@ -235,10 +233,6 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 **Korrigeringar**
 
 * Ett problem som förhindrar länkning och enkel inloggning för analys har korrigerats. Det här problemet visade meddelandet &quot;Meddelande: Felmeddelandet: FEL: Det gick inte att hitta det länkade företaget.&quot;
-
-**Känt fel**
-
-Om du använder Dynamic Tag Management via **[!UICONTROL Experience Cloud]** > **[!UICONTROL Activation]** men ditt Dynamic Tag Management-konto är inte länkat till Experience Cloud (Adobe ID). Du kan inte logga in på Dynamic Tag Management. Du undviker problemet genom att navigera direkt till `dtm.adobe.com` på en ny flik i webbläsaren.
 
 ## Version 16.1 - 21 januari 2016 {#section_33B3F7DF6CA347E3AA93801BAC6232CE}
 
@@ -382,11 +376,7 @@ Ingen information finns tillgänglig
    <td colname="col1"> <p>1:N-mappning </p> </td> 
    <td colname="col2"> <p>När du länkar programkonton i Experience Cloud kan du nu mappa flera produkter och tjänster till en enda organisation om du har flera program och organisationer. </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p>Aktivering </p> </td> 
-   <td colname="col2"> <p> <a href="activation.md#concept_EE756B6B0A0643DAB8CA3A00E665406C" format="dita" scope="local"> Aktivering</a> visas nu i den vänstra navigeringen i dialogrutan <span class="keyword"> Experience Cloud</span>. <span class="wintitle"> Aktivering</span> är en <span class="keyword"> Experience Cloud</span> som för närvarande består av den dynamiska tagghanteringstekniken och dirigerar dig dit när du väljer den. </p> </td> 
-  </tr> 
-  <tr> 
+    <tr> 
    <td colname="col1"> <p>Dokumentationsuppdateringar - bastjänster </p> </td> 
    <td colname="col2"> <p>Ämnet har lagts till <a href="core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C" format="dita" scope="local"> Aktivera era program för bastjänsterna</a> för att hjälpa er att implementera bastjänster. </p> </td> 
   </tr> 
