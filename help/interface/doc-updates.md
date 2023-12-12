@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 4%
+source-wordcount: '567'
+ht-degree: 2%
 
 ---
 
@@ -45,7 +45,7 @@ Uppdaterade [Vanliga frågor om administration](faq.md) med information om hur A
 | Enhetlig sökning | Enhetlig sökning fortsätter att lägga till objekttyper i sökindexet. I den här uppdateringen söker nu global sökning igenom Experience League-innehåll och följande Journey Optimizer-objekttyper: <ul><li>Datauppsättningar</li><li>Mål </li><li>Frågor</li><li>Scheman</li><li>Segment</li><li>Källor</li><li>Erbjudanden</li><li>Komponenter</li><li>Meddelanden</li><li>Resor</li></ul> |
 | Produktanvändningsdata, samtycke | Vid en första inloggning ombeds du ange inställningar för hur Adobe kan ge dig användbart, personaliserat innehåll, t.ex. självstudiekurser, guider, snabbtips, rekommendationer, utbildningsvideor med mera, baserat på dina produktanvändningsdata för Experience Cloud. Denna begäran innehåller även en uppdatering av dina inställningar för insamling och användning av dessa data på <https://experience.adobe.com/preferences>. |
 | Experience Cloud [!UICONTROL Triggers] navigering | [Experience Cloud-utlösare](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=sv) är tillgängligt för direkt navigering från programväljaren i huvudet för tilldelade användare. |
-| **Obs!** Uppdatering av planerad gränssnittsnavigering | I november 2021 _[!UICONTROL Go to Launch / Data Collection]_navigeringsfunktionen tas bort från <https://experience.adobe.com/implement>. |
+| **Obs!** Uppdatering av planerad gränssnittsnavigering | I november 2021 _[!UICONTROL Go to Data Collection]_navigeringsfunktionen tas bort från <https://experience.adobe.com/implement>. |
 
 **Uppdaterad 2021-08-24**
 

@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 1%
+source-wordcount: '1041'
+ht-degree: 2%
 
 ---
 
@@ -33,9 +33,9 @@ Beskriver hur du:
 
 Lösningar eller tjänster:
 
-* Aktivering - Experience Platform Data Collection (tidigare Starta)
+* Experience Platform datainsamling
 * Analytics 
-* Målgrupp
+* Target
 * [Experience Cloud ID-tjänst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
 
 ## Experience Cloud ID-tjänst {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
@@ -61,8 +61,8 @@ Skapa och hantera målgrupper i Experience Cloud Audience Library. Målgrupper k
 
 **Tillämpliga lösningar eller tjänster**
 
-* [Verksamhet](https://experienceleague.adobe.com/docs/target/using/activities/activities.html?lang=en) i Adobe Target
-* [Segmentering](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=en) i Audience Manager
+* [Verksamhet](https://experienceleague.adobe.com/docs/target/using/activities/activities.html?lang=en) i ADOBE TARGET
+* [Segmentering](https://experienceleague.adobe.com/docs/analytics/integration/audience-analytics/audience-analytics-workflow/aam-analytics-segments.html?lang=en) i AUDIENCE MANAGER
 * [Advertising Cloud](https://enterprise.efrontier.com/CMDashboard/?ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibmxtHqnZFSOMml-n993zOBc-ovZGNZkX5vgePWqKNMoMmPSqf9PkzFeYF4UN6GqSXDVNDvwgnvv9KT8PvVxk8%3D) (inloggning krävs)
 
 ## Kundattribut {#section_6A9EA6847F654F129381869E5016626C}
@@ -108,7 +108,7 @@ Arbeta med data från Experience Cloud eller andra externa system i Audience Man
 
 **Tillämpliga program eller tjänster**
 
-* [Vidarebefordran på serversidan för Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=en)
+* [Vidarebefordran på analysserversidan](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/server-side-forwarding/ssf.html?lang=en)
 * [Skicka Audience Manager-segment till analyser](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/experience-cloud-destinations/create-analytics-destination.html?lang=en)
 * [Adobe Target dataintegrering](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-applications/aam-target-integration.html?lang=en)
 
@@ -129,7 +129,7 @@ Använd tillägget Adobe Experience Cloud Debugger för att felsöka problem som
 * [Audience Manager](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/audience-manager/overview.html?lang=en)
 * [Advertising Cloud](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 * [Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
-* [Mac ID-tjänst](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
+* [MAC ID-tjänst](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 * [Nielsen Tracking](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
 
 ## Adobe Target {#section_739716AB6022424CBC38724CDED10701}
@@ -190,6 +190,6 @@ Hjälp (inloggning krävs): [Integrering med Adobe Experience Cloud lösningar o
 
 **Experience Cloud målgrupper:** (Annonsörer med visningshantering) Du kan använda alla dina [Adobe Experience Cloud-målgrupper](audience-library.md) som mål för era webbannonser. Ni kan automatiskt använda de målgrupper ni har skapat i Experience Cloud och målgrupper från Analytics som ni har publicerat till Adobe Experience Cloud. Du kan också använda Publiker från Audience Manager när [!DNL Adobe Advertising] kontot är konfigurerat för att tillåta det. Kontakta din kontoansvarige om du vill ha mer information om åtkomst till Adobe Experience Cloud, profiler och målgrupper samt om den första konfigurationen mellan [!DNL Adobe Advertising] och Adobe Experience Cloud-målgrupper. **Obs!** Om du även använder Adobe Target är alla publiker som du har publicerat till Adobe Experience Cloud också tillgängliga för aktiviteter i Adobe Target.
 
-**Experience Cloud Assets:** (Annonsörer med visningshantering) Du kan använda valfritt Adobe Experience Cloud-material som kreatörer för dina displayannonser med vyn Ny betaversion. Du måste vara [inloggad på Adobe Advertising via Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D)) för att få tillgång till dina Adobe Experience Cloud-resurser. Kontakta din kontoansvarige om du vill ha information om åtkomst till Adobe Experience Cloud.
+**Experience Cloud Assets:** (Annonsörer med visningshantering) Du kan använda valfritt Adobe Experience Cloud-material som kreatörer för dina displayannonser med vyn Ny betaversion. Du måste vara [inloggad på Adobe Advertising via Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D)) för att få tillgång till dina Adobe Experience Cloud-resurser. Kontakta din kontohanterare för information om åtkomst till Adobe Experience Cloud.
 
-**Meddelanden från Experience Cloud:** På meddelandelänken längst upp på varje sida kan du visa alla aviseringar som genererats från dina sökmallar för betaversioner. Du kan även dela systemuppdateringar, inlägg, omnämnanden och resurser i Experience Cloud. Du måste vara [inloggad på Adobe Advertising via Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D)) för att komma åt dina meddelanden. Kontakta din kontoansvarige om du vill ha information om åtkomst till Adobe Experience Cloud.
+**Meddelanden från Experience Cloud:** På meddelandelänken längst upp på varje sida kan du visa alla aviseringar som genererats från dina sökmallar för betaversioner. Du kan även dela systemuppdateringar, inlägg, omnämnanden och resurser i Experience Cloud. Du måste vara [inloggad på Adobe Advertising via Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D)) för att komma åt dina meddelanden. Kontakta din kontohanterare för information om åtkomst till Adobe Experience Cloud.

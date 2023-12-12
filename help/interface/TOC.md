@@ -5,10 +5,10 @@ breadcrumb-title: Viktiga gränssnittskomponenter i Experience Cloud
 title: Experience Cloud Interface and Administration Guide
 description: Läs mer om gränssnittet och inställningarna för användarkonton i Experience Cloud. Lär dig hur du söker efter affärsobjekt och hanterar användare och produkter. Konfigurera kundattribut, målgruppsbibliotek, cookies och dela Experience Cloud Assets.
 index: true
-source-git-commit: 3d33353d5df4e2dfc618f998d256a5d40ae90c6b
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 11%
+source-wordcount: '334'
+ht-degree: 7%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 11%
       + [Experience Cloud målgrupper](audience-library.md)
       + [Skapa en målgrupp](t-audience-create.md)
       + [Publicera ett målgruppssegment i Analytics](t-publish-audience-segment.md)
-   + Experience Cloud-kundattribut {#customer-attributes}
+   + Experience Cloud kundattribut {#customer-attributes}
       + [Kundattribut i Experience Cloud](attributes.md)
       + [Vanliga frågor om kundattribut](faq-crs.md)
       + [Om datafiler och datakällor för kundattribut](crs-data-file.md)
@@ -37,10 +37,6 @@ ht-degree: 11%
       + [Stöd för den allmänna dataskyddsförordningen](gdpr.md)
       + [Stöd för California Consumer Privacy Act](ccpa.md)
       + [Sekretessöverväganden för kundattribut](privacy-mac.md)
-   + Aktivering av Experience Cloud {#activation}
-      + [Aktiveringsöversikt](activation.md)
-      + [Användarhandbok för Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)
-      + [Utlösare](triggers.md)
    + Experience Cloud Assets {#assets}
       + [Översikt över Experience Cloud-resurser](experience-cloud-assets.md)
       + [Dela Experience Cloud-mappar och -resurser med Creative Cloud](creative-cloud.md)

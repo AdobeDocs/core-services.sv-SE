@@ -1,5 +1,5 @@
 ---
-description: Läs om Adobe Experience Cloud hantering av användare och produkter, människor (målgrupper och kundattribut), Journey Orchestration, erbjudanden, platser, Experience Platform Launch och mobiltjänster.
+description: Läs mer om användarhantering och produkthantering i Experience Cloud, människor (målgrupper och kundattribut), Journey Orchestration, erbjudanden, platser, Experience Platform och mobiltjänster.
 solution: Experience Cloud
 title: Översikt över Experience Cloud tjänster
 feature: Central Interface Components
@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 6%
+source-wordcount: '314'
+ht-degree: 4%
 
 ---
 
@@ -32,8 +32,7 @@ I den här hjälpen beskrivs följande produkter och tjänster:
 | [Folk - målgruppsbibliotek](audience-library.md) | Målgrupper är samlingar med besökare (en lista med besökar-ID). Med Adobe Audience Library kan ni hantera översättning av besöksdata till målgruppssegmentering. Som |
 | [Personer - kundattribut](attributes.md) | Bygg upp användningsfall för realtidssamordning med hjälp av kontextuella data lagrade i händelser eller datakällor. [!UICONTROL Journey Orchestration] är en programtjänst som är integrerad i Experience Platform. |
 | [Platstjänst](https://experienceleague.adobe.com/docs/places/using/home.html?lang=sv) | Adobe [!UICONTROL Experience Platform Location Service] är en geopositioneringstjänst. Det gör det möjligt för mobilappar med platsmedvetenhet att förstå platskontexten genom att använda avancerade och lättanvända SDK-gränssnitt tillsammans med en flexibel databas med intressepunkter (POI). |
-| [Aktivering](activation.md) | Aktiveringen innehåller den senaste tagghanteringsprodukten Experience Platform Data Collection (Launch) och Experience Cloud Triggers. |
-| [Assets](experience-cloud-assets.md) | Experience Cloud Assets utgör ett enda centralt arkiv med marknadsföringsmaterial som du kan dela mellan olika program. |
+| [Resurser](experience-cloud-assets.md) | Experience Cloud Assets utgör ett enda centralt arkiv med marknadsföringsmaterial som du kan dela mellan olika program. |
 | [Administrering](admin-getting-started.md) | Lär dig mer om att logga in på Admin Console, hantera användarbehörigheter och produktprofiler för Experience Cloud samt webbläsarstöd. |
 | [Cookies](cookies-privacy.md) | Att upprätthålla kundens integritet och datasäkerhet är de viktigaste prioriteringarna på Adobe. Adobe deltar i flera integritetsorganisationer och samarbetar med integritetsreglerande organ och självreglerande principer. |
 

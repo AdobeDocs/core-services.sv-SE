@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 2%
+source-wordcount: '727'
+ht-degree: 1%
 
 ---
 
@@ -29,12 +29,12 @@ Läs mer om webbläsarstöd och vanliga frågor och svar för administratörer i
 
 ## Hur vet jag om mina program är aktiverade för bastjänster?
 
-Om implementeringen inte har etablerats för bastjänsterna finns mer information i [Aktivera era program för bastjänster](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)som beskriver hur du:
+Om implementeringen inte har etablerats för bastjänsterna finns mer information i [Aktivera era program för bastjänsterna](core-services.md#concept_07ED1D5C64234E77976E6D572E78FB9C)som beskriver hur du:
 
 1. [Gå med i Experience Cloud och bli administratör](core-services.md#section_2423F0BD3DF642658103310EE5EA6154)
-1. [Implementera Experience Cloud ID-tjänsten med Experience Platform Launch](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en).
+1. [Implementera Experience Cloud ID-tjänsten med Experience Platform-taggar](https://experienceleague.adobe.com/docs/experience-platform/tags/get-started/quick-start.html?lang=en).
 1. [Mappa rapportsviter till en Experience Cloud-organisation](core-services.md#concept_apg_zq2_rw)
-1. [(Endast analys) Modernisera AppMeasurement Code för analyser](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
+1. [(Endast analys) Modernisera din Analytics-AppMeasurement](core-services.md#section_1798D9D0F05C47E29816AC4EEB9A0913)
 1. [(Endast Adobe Target) Modernisera implementeringen av Adobe Target](core-services.md#section_C2F4493C7A36406DAE2266B429A4BD24)
 1. [Verifiera implementeringen](core-services.md#section_E641782A0F4F44AF8C9C91216BE330D5)
 1. [Hantera användare och produkter](core-services.md#section_B6E95F4E0E12483CB9DA99CBC0C5A4AF)
@@ -71,11 +71,11 @@ Med tillhandahållande i Experience Cloud avses
 
 ## Hur hanterar jag användare och produktprofiler?
 
-* Se [Användarhandbok för Admin Console](https://helpx.adobe.com/enterprise/admin-guide.html) om du behöver hjälp.
+* Se [Användarhandbok för Admin Console](https://helpx.adobe.com/se/enterprise/admin-guide.html) om du behöver hjälp.
 
 * Användarrättigheter och produkthantering utförs i [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (produktlänk).
 
-* **Viktigt:** Analysadministratörer, se [Hantera analysanvändare i Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=en) om hur du migrerar användar-ID:n från administrationsverktygen för Analytics till Admin Console.
+* **Viktigt:** Analysadministratörer, se [Hantera Analytics-användare i Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=en) om hur du migrerar användar-ID:n från administrationsverktygen för Analytics till Admin Console.
 
 ## Vad gör jag om någon inte kan logga in på Experience Cloud?
 

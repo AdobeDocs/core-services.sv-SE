@@ -8,14 +8,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: df7afcd805a342876a5dd0ac77d141e7d1105b77
+source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
 workflow-type: tm+mt
-source-wordcount: '1813'
-ht-degree: 6%
+source-wordcount: '1584'
+ht-degree: 3%
 
 ---
 
-# Hantera Experience Cloud-användare och -produkter
+# Hantera användare och produkter i Experience Cloud
 
 Lär dig hur du loggar in på Admin Console, hanterar användarbehörigheter för Experience Cloud och produktprofiler samt webbläsarstöd.
 
@@ -52,9 +52,9 @@ Administratörer kan se ändringar eller tillägg i Admin Console enligt följan
    * Dataströmmar
    * Besökar-ID
 
-   För organisationer som inte använder Experience Platform ser du nu _Adobe Experience Platform_ i Admin Console, inklusive de funktioner som anges ovan.
+  För organisationer som för närvarande inte använder Experience Platform visas nu _Adobe Experience Platform_ i Admin Console, inklusive de funktioner som anges ovan.
 
-   För organisationer som för närvarande använder Experience Platform _Platser_ kommer nu att konsolideras i Experience Platform-kortet.
+  För organisationer som för närvarande använder Experience Platform _Platser_ kommer nu att konsolideras i Experience Platform-kortet.
 
 * Adobe Experience Platform Data Collection (tidigare Launch) och Privacy (Privacy) kommer att visas som separata produktkort jämfört med andra Experience Platform-funktioner.
 
@@ -67,7 +67,7 @@ Mer information om de nya funktionerna finns på Experience League:
 * [Sandlådor](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en)
 * [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=sv)
 * [Scheman](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html)
-* [Dataströmmar](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=en)
+* [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=en)
 * [Besökar-ID](https://experienceleague.adobe.com/docs/core-services/interface/services/core-services.html?lang=en#section_3C9F6DF37C654D939625BB4D485E4354)
 * [Integritet](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=sv)
 
@@ -81,18 +81,18 @@ Se [Identitetstyper på Adobe Admin Console](https://helpx.adobe.com/enterprise/
 
 När det är dags för din migrering får organisationens administratörer ett e-postmeddelande 30 dagar före migreringen.
 
-* Migreringen planeras till kl. 10.00. - 6.00, baserat på organisationens primära tidszon eller på helgen.
+* Migreringen schemaläggs mellan kl. 10.00-6.00, baserat på organisationens primära tidszon eller på helgen.
 * Under migreringen kan programmet Experience Cloud vara otillgängligt i ungefär 15 minuter och Admin Console kan vara otillgängligt i upp till 30 minuter. Annars kommer migreringen att vara sömlös.
 
 ### Ändringar efter migreringen
 
 Admin Console
 
-* Administratörer med flera konton kan se en profilväljare när de loggar in [!UICONTROL Admin Console].
+* Administratörer med flera konton kan se en profilväljare vid inloggning [!UICONTROL Admin Console].
 * Enskilda Adobe ID-användare uppdateras till Business ID.
 * Arbets-ID-katalogen läggs till i **[!UICONTROL Settings]** > **[!UICONTROL Identity]** > **[!UICONTROL Directories]**.
 
-   ![Admin Console-identitet - företags-ID](assets/identity-home.png)
+  ![Admin Console-identitet - företags-ID](assets/identity-home.png)
 
 ### Logga in efter migreringen
 
@@ -206,15 +206,15 @@ A *tenant* i Campaign visas som *produkt* på Admin Console Products-sidan.
 
 *Säkerhetsgrupp* visas som en produktprofil.
 
-Se [Hantera grupper och användare](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=en) för information om säkerhetsgrupper och hur du tilldelar användare till säkerhetsgrupper.
+Se [Hantera grupper och användare](https://experienceleague.adobe.com/docs/campaign-standard/using/administrating/users-and-security/managing-groups-and-users.html?lang=en) om du vill ha information om säkerhetsgrupper och hur du tilldelar användare till säkerhetsgrupper.
 
-## Hantera Experience Platform-datainsamling (Launch) {#section_F2DA6778DD2D48AA8F794041971EE6B1}
+## Hantera datainsamling i Experience Platform {#section_F2DA6778DD2D48AA8F794041971EE6B1}
 
-Experience Platform [!UICONTROL Data Collection] ([!UICONTROL Launch]) visas på [!UICONTROL Products] sidan i [!UICONTROL Admin Console]. Du kan inkludera andra program och tjänster i en Launch-produktprofil.
+Experience Platform [!UICONTROL Data Collection] visas på [!UICONTROL Products] sidan i [!UICONTROL Admin Console]. Du kan inkludera andra program och tjänster i en produktprofil för datainsamling.
 
-Bjud in användare till [!UICONTROL Platform Launch] och tilldela användarroller och -rättigheter.
+Bjud in användare till [!UICONTROL Platform Data Collection] och tilldela användarroller och -rättigheter.
 
-Se [Användarbehörigheter](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=en) om du vill ha information om användarbehörigheter i Admin Console och om hur du ställer in startspecifika alternativ, inklusive tilldelning av behörigheter till profiler.
+Se [Användarbehörigheter](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=en) om du vill ha information om användarbehörigheter i Admin Console och om hur du konfigurerar behörigheter till profiler.
 
 ## Experience Manager as a Cloud Service
 
@@ -236,7 +236,7 @@ Se [Administration](https://experienceleague.adobe.com/docs/audience-manager/use
 * [!DNL Safari]
 * [!DNL Opera]
 
-**Obs!** Även om Experience Cloud-gränssnittet har stöd för dessa webbläsare, stöder inte enskilda program alla webbläsare. ([Analytics](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=en) har till exempel inte stöd för [!DNL Opera] och [!DNL Adobe Target] har inte stöd för [!DNL Safari].)
+**Obs!** Även om Experience Cloud-gränssnittet har stöd för dessa webbläsare, stöder inte enskilda program alla webbläsare. (Exempel: [Analyser](https://experienceleague.adobe.com/docs/analytics/admin/admin-overview/sys-reqs.html?lang=en) stöder inte [!DNL Opera]och [!DNL Adobe Target] stöder inte [!DNL Safari].)
 
 ### Lösningar och produktkrav
 
