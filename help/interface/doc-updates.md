@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: 8b32f5d688309c01acc5f0618d119f56d339a9e5
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '524'
 ht-degree: 2%
 
 ---
@@ -44,8 +44,6 @@ Uppdaterade [Vanliga frågor om administration](faq.md) med information om hur A
 | ------- | ------- |
 | Enhetlig sökning | Enhetlig sökning fortsätter att lägga till objekttyper i sökindexet. I den här uppdateringen söker nu global sökning igenom Experience League-innehåll och följande Journey Optimizer-objekttyper: <ul><li>Datauppsättningar</li><li>Mål </li><li>Frågor</li><li>Scheman</li><li>Segment</li><li>Källor</li><li>Erbjudanden</li><li>Komponenter</li><li>Meddelanden</li><li>Resor</li></ul> |
 | Produktanvändningsdata, samtycke | Vid en första inloggning ombeds du ange inställningar för hur Adobe kan ge dig användbart, personaliserat innehåll, t.ex. självstudiekurser, guider, snabbtips, rekommendationer, utbildningsvideor med mera, baserat på dina produktanvändningsdata för Experience Cloud. Denna begäran innehåller även en uppdatering av dina inställningar för insamling och användning av dessa data på <https://experience.adobe.com/preferences>. |
-| Experience Cloud [!UICONTROL Triggers] navigering | [Experience Cloud-utlösare](https://experienceleague.adobe.com/docs/core-services/interface/services/activation/triggers.html?lang=sv) är tillgängligt för direkt navigering från programväljaren i huvudet för tilldelade användare. |
-| **Obs!** Uppdatering av planerad gränssnittsnavigering | I november 2021 _[!UICONTROL Go to Data Collection]_navigeringsfunktionen tas bort från <https://experience.adobe.com/implement>. |
 
 **Uppdaterad 2021-08-24**
 
@@ -109,10 +107,6 @@ Reviderad guide för den senaste versionen.
 **Uppdaterat: 2017-03-15**
 
 Definitionen av råanalysdata i har uppdaterats [Skapa en målgrupp](t-audience-create.md#task_37F407F58BF9459493BB8E968CDFE737).
-
-**Uppdaterat: 2/23/2017**
-
-Tillagd [Experience Cloud-utlösare](triggers.md#concept_887B30241B3E4DB0A2553B2996E2D4FB).
 
 **Uppdaterat: 2/1/2017**
 
