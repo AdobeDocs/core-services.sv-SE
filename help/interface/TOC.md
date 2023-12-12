@@ -5,9 +5,9 @@ breadcrumb-title: Viktiga gränssnittskomponenter i Experience Cloud
 title: Experience Cloud Interface and Administration Guide
 description: Läs mer om gränssnittet och inställningarna för användarkonton i Experience Cloud. Lär dig hur du söker efter affärsobjekt och hanterar användare och produkter. Konfigurera kundattribut, målgruppsbibliotek, cookies och dela Experience Cloud Assets.
 index: true
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: c5a755f7fef9052162def14d0eb59b50d1d1268c
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '337'
 ht-degree: 7%
 
 ---
@@ -68,6 +68,7 @@ ht-degree: 7%
       + [[!DNL Target] cookies](cookies-target.md)
       + [Aktivera sekretessinställningar för webbläsarcookies](browser-cookie-settings.md)
       + [Hur ändringar i stödet för cookies från tredje part påverkar kunderna](cookies-thirdparty.md)
++ [Experience Cloud-utlösare](triggers.md)
 + Versionsinformation för användargränssnittet i Experience Cloud {#release-notes}
    + [Versionsinformation för centrala gränssnittskomponenter](release-notes.md)
    + [Versionsinformation för alla Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
