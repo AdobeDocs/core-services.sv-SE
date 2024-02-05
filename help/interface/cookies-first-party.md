@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 92d03444472fc7dddbe955d386452291ed1ca2d8
+source-git-commit: cef927ad0f9f875841d2acf670950de0a766df7e
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1594'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Om du vill upprätta en CNAME för datainsamling och om webbplatsen har säkra s
 
 SSL-certifikatutfärdandeprocessen kan ofta vara förvirrande och tidskrävande. Adobe har därför upprättat ett partnerskap med DigiCert, en branschledande certifikatutfärdare (CA), och utvecklat en integrerad process genom vilken inköp och hantering av dessa certifikat automatiseras.
 
-Med ditt tillstånd arbetar vi med CA för att utfärda, distribuera och hantera ett nytt SHA-2 SSL-certifikat åt dig. Adobe fortsätter att hantera det här certifikatet och ser till att ett oväntat förfallodatum, återkallande eller säkerhetsproblem inte hotar tillgängligheten för din organisations säkra samling.
+Med ditt tillstånd arbetar vi med en certifikatutfärdare för att utfärda, distribuera och hantera ett nytt SHA-2 SSL-certifikat åt dig. Adobe fortsätter att hantera det här certifikatet och ser till att ett oväntat förfallodatum, återkallande eller säkerhetsproblem inte hotar tillgängligheten för din organisations säkra samling.
 
 ## Adobe-hanterat certifikatprogram
 
