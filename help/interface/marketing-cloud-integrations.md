@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: e67941f98156aebaef9035d1d6aa76cb7d17dcbe
+source-git-commit: 700a3e3382abba69f7760916637583b8381af8f8
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 2%
+source-wordcount: '915'
+ht-degree: 1%
 
 ---
 
 # Översikt över integreringar i Experience Cloud
 
-Adobe Experience Cloud är en omfattande uppsättning integrerade program och tjänster i toppklass som bygger på en gemensam dataplattform med en gemensam uppsättning kraftfulla funktioner.
+På den här sidan beskrivs flera sätt att börja integrera Experience Cloud-program. Mer information finns i vårt bibliotek med [självstudiekurser om integrering av video](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en) på Experience League.
 
 ## Aktivera dina Experience Cloud-program för plattformstjänster {#section_A3D024994DA3492F8435CFCC4EF035C2}
 
@@ -28,14 +28,14 @@ Beskriver hur du:
 * Tillhandahåll ditt företag i Experience Cloud.
 * Gör att du kan bli administratör.
 * [Implementera tjänsten Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en).
-* Modernisera [!DNL Analytics] och [!DNL Target] implementeringar via plattformsdatainsamling.
-* Börja använda bastjänsterna.
+* Modernisera [!DNL Analytics] och [!DNL Target] implementeringar via [!UICONTROL Platform Data Collection].
+* Börja använda Experience Cloud [!UICONTROL Customer Attributes] och [!UICONTROL Audiences].
 
 Lösningar eller tjänster:
 
-* Experience Platform datainsamling
-* Analytics 
-* Target
+* [[!DNL Experience Platform Data Collection]](https://experienceleague.adobe.com/docs/experience-platform.html?lang=en)
+* [[!DNL Analytics]](https://experienceleague.adobe.com/docs/analytics.html?lang=sv)
+* [[!DNL Target]](https://experienceleague.adobe.com/docs/target.html?lang=en)
 * [Experience Cloud ID-tjänst](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)
 
 ## Experience Cloud ID-tjänst {#section_6ECCCFA2D84D4D4F88C879C799CA9D78}
@@ -53,7 +53,7 @@ Se [Experience Cloud ID-tjänst](https://experienceleague.adobe.com/docs/id-serv
 
 Hjälp: [Målgrupper](audience-library.md#topic_679810123CAA4E0CA4FA3417FB0100C7)
 
-Skapa och hantera målgrupper i Experience Cloud Audience Library. Målgrupper kan skapas eller härledas från olika källor, till exempel:
+Skapa och hantera målgrupper i Experience Cloud [!UICONTROL Audience Library]. Målgrupper kan skapas eller härledas från olika källor, till exempel:
 
 * Nya som skapats i [!DNL Experience Cloud].
 * Från [!DNL Analytics] segment som publicerats i [!DNL Experience Cloud].
@@ -129,22 +129,9 @@ Integrera Adobe Target med Adobe Analytics och andra Experience Cloud-program f�
 
 ## Integreringar med Experience Manager {#section_32FB010EF8B4429FBC63C8DC2A9BE98F}
 
-Hjälp: [Experience Manager-dokumentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=en)
+* Videosjälvstudiekurser: [Integreringar med Experience Manager](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/integrations-between-applications/overview.html)
 
-Integrera AEM med andra program och tredjepartstjänster.
-
-**Tillämpliga program eller tjänster**
-
-* [Analytics](https://experienceleague.adobe.com/docs/) 
-* [Analyser med externa leverantörer](https://experienceleague.adobe.com/docs/)
-* [Experience Cloud](https://experienceleague.adobe.com/docs/)
-* [Creative Cloud](https://experienceleague.adobe.com/docs/)
-* [Audience Manager](https://experienceleague.adobe.com/docs/)
-* [Campaign](https://experienceleague.adobe.com/docs/)
-* [Scene7](https://experienceleague.adobe.com/docs/)
-* [Adobe Target](https://experienceleague.adobe.com/docs/)
-* [Tredjepartstjänster](https://experienceleague.adobe.com/docs/) (dataanslutningar)
-* [Tillägg](https://experienceleague.adobe.com/docs/)
+* Produktdokumentation: [Experience Manager dokumentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=en)
 
 ## Experience Manager - Assets {#section_CB865F8EFE4C4147BF8E2E4B66B5A318}
 
@@ -160,15 +147,19 @@ Synkronisera materialet i Adobe Experience Manager (AEM) Assets med Adobe Creati
 
 ## [!DNL Adobe Advertising] {#section_9B1935F8BBC147C89C6DB68A35CB1BAB}
 
-Hjälp (inloggning krävs): [Integrering med Adobe Experience Cloud lösningar och tjänster](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
+* Hjälp (inloggning krävs): [Integrering med Adobe Experience Cloud lösningar och tjänster](https://enterprise.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyhyMKZp71ZLeaANvF-RcNMF7oNuZNABh76cKJLNlJJeJ1hQ5vAW1AO1t1DW8tZWM3lYZ8TSh96YAQISUdtHCCgA%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEyibbOnNwb2JBRF7z6tKAOIWkBimlPxCUaZyJnPLqsfdqsf3fpxWoxGasvatKA8S6-h4tlDvxQcm8Gc10dSF9q_E%3D)
+
+* [Adobe Advertising dokumentation](https://experienceleague.adobe.com/docs/advertising.html?lang=en) på Experience League
 
 **Tillämpliga program eller tjänster**
 
 **Analyser:** kan skicka webbplatsengagemangs- och konverteringsdata dagligen till [!DNL Adobe Advertising], där data finns tillgängliga för annonsoptimering och rapportering. Dessutom [!DNL Advertising] Du kan skicka trafikdata för sökmotorer och sociala nätverk dagligen till Analytics, där data finns tillgängliga för rapporter och analyser, Report Builder och Ad Hoc Analysis.
 
-**Dynamisk tagghanterare:** Du kan [använda Dynamic Tag Manager för att skapa annonsbaserade taggar för pixelbaserad konvertering](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)och spårningstaggar från tredje part för sök-, sociala och visnings- och landningssidor. (Du kan också skapa [!DNL Advertising] -taggar direkt i [!DNL Advertising].)
+**Taggar:** Du kan använda [Experience Platform-taggar för att skapa Advertising pixel-based conversion tracking tags](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=en)och spårningstaggar från tredje part för sök-, sociala och visnings- och landningssidor. (Du kan också skapa [!DNL Advertising] -taggar direkt i [!DNL Advertising].)
 
-**Experience Cloud målgrupper:** (Annonsörer med visningshantering) Du kan använda alla dina [Adobe Experience Cloud-målgrupper](audience-library.md) som mål för era webbannonser. Ni kan automatiskt använda de målgrupper ni har skapat i Experience Cloud och målgrupper från Analytics som ni har publicerat till Adobe Experience Cloud. Du kan också använda Publiker från Audience Manager när [!DNL Adobe Advertising] kontot är konfigurerat för att tillåta det. Kontakta din kontoansvarige om du vill ha mer information om åtkomst till Adobe Experience Cloud, profiler och målgrupper samt om den första konfigurationen mellan [!DNL Adobe Advertising] och Adobe Experience Cloud-målgrupper. **Obs!** Om du även använder Adobe Target är alla publiker som du har publicerat till Adobe Experience Cloud också tillgängliga för aktiviteter i Adobe Target.
+**Experience Cloud målgrupper:** (Annonsörer med visningshantering) Du kan använda alla dina [Adobe Experience Cloud-målgrupper](audience-library.md) som mål för era webbannonser. Ni kan automatiskt använda målgrupper som ni har skapat i Experience Cloud och målgrupper från Analytics som ni har publicerat till Experience Cloud. Du kan också använda Publiker från Audience Manager när [!DNL Adobe Advertising] kontot är konfigurerat för att tillåta det.
+
+Kontakta din kontoansvarige om du vill ha mer information om åtkomst till Adobe Experience Cloud, profiler och målgrupper samt om den första konfigurationen mellan [!DNL Adobe Advertising] och Adobe Experience Cloud-målgrupper. **Obs!** Om du även använder Adobe Target är alla de målgrupper du har publicerat till Adobe Experience Cloud också tillgängliga för aktiviteter i Adobe Target.
 
 **Experience Cloud Assets:** (Annonsörer med visningshantering) Du kan använda valfritt Adobe Experience Cloud-material som kreatörer för dina displayannonser med vyn Ny betaversion. Du måste vara [inloggad på Adobe Advertising via Adobe Experience Cloud](https://enterprise-test.efrontier.com/CMDashboard?ticket=JrciD7q2bF1y2mDWFHmEyoBomG0VowpcEgK5zzKFq3mDArroL6xIS3XkmJFZMeeXlj0uIZz-IEcOn3nVHmy9bwdSxEcDv6FMvTkjwz5rpIs%3D&amp;ticket=JrciD7q2bF1y2mDWFHmEykzc2nFNvATOY54xOo03rW0GSLGdEpu5MvttCo6msEyImNVq7_lmlTup-LwCdnPIHA7mJrhugFMnbqTmSB-dfmw%3D)) för att få tillgång till dina Adobe Experience Cloud-resurser. Kontakta din kontohanterare för information om åtkomst till Adobe Experience Cloud.
 

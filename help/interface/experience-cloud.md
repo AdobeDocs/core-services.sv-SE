@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 8b32f5d688309c01acc5f0618d119f56d339a9e5
+source-git-commit: 700a3e3382abba69f7760916637583b8381af8f8
 workflow-type: tm+mt
-source-wordcount: '1197'
+source-wordcount: '1198'
 ht-degree: 1%
 
 ---
@@ -161,7 +161,7 @@ I den här guiden får du hjälp om Experience Cloud och produktadministration i
 * [Aktivera era program för bastjänsterna](core-services.md)
 * [Frågor och svar](admin-getting-started.md)
 * [Organisationer och kontolänkning](organizations.md)
-* [Integreringar](marketing-cloud-integrations.md)
+* [Integreringar](https://experienceleague.adobe.com/docs/integrations-learn/experience-cloud/overview.html?lang=en)
 * [Integrera Adobe Target med Experience Cloud](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=en)
 * [Experience Cloud sekretess- och säkerhetsöversikt](assets/Adobe-Marketing-Cloud-Privacy-and-Security-Overview.pdf)
 * [DNS-förhämtning](admin-getting-started.md#concept_6BC8C6856E3644F8956D7AD0A96383B7)
