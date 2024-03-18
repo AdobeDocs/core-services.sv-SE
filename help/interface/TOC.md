@@ -1,21 +1,21 @@
 ---
 role: User,Admin
-user-guide-title: Handbok för gränssnittskomponenter i Experience Cloud Central
-breadcrumb-title: Handbok för gränssnittskomponenter i Experience Cloud Central
-title: Handbok för gränssnittskomponenter i Experience Cloud Central
+user-guide-title: Användarhandbok om centrala gränssnittskomponenter i Experience Cloud
+breadcrumb-title: Användarhandbok om centrala gränssnittskomponenter i Experience Cloud
+title: Användarhandbok om centrala gränssnittskomponenter i Experience Cloud
 description: Läs mer om gränssnittet och inställningarna för användarkonton i Experience Cloud. Lär dig hur du söker efter affärsobjekt och hanterar användare och produkter. Konfigurera kundattribut, målgruppsbibliotek, cookies och dela Experience Cloud Assets.
 index: true
 source-git-commit: 6586616d6ce861daa500ad3126b0815e6f1632e0
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 2%
+ht-degree: 11%
 
 ---
 
 
-# Handbok för gränssnittskomponenter i Experience Cloud Central {#interface}
+# Användarhandbok om centrala gränssnittskomponenter i Experience Cloud {#interface}
 
-+ [Handbok för gränssnittskomponenter i Experience Cloud Central](experience-cloud.md)
++ [Användarhandbok om centrala gränssnittskomponenter i Experience Cloud](experience-cloud.md)
 + Experience Cloud {#services}
    + [Experience Cloud](core-services-landing.md)
    + [Enhetlig sökning i Experience Cloud](search-experience-cloud.md)
