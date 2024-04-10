@@ -2,16 +2,16 @@
 description: Lär dig mer om regler för hur delade mappar fungerar när de flyttas, tas bort och återställs i Experience Cloud.
 keywords: resursdelning;Creative Cloud;bastjänster
 solution: Experience Cloud
-title: 'Beteende för delade mappar '
+title: Beteende för delade mappar
 uuid: 86348401-f4b1-4efe-acd1-7e73a7030edf
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 5ddcb2f0-b491-466d-b357-aeacbfcf0b8e
-source-git-commit: c073b3bacf5505c01017d4ba2507621df8ef877e
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Du flyttar en delad mapp till en mapp som inte delas.
 
 ![Delad mapp i en mapp som inte delas](assets/02_assets_move.png)
 
-**Resultat**: Mappen som inte delas förblir odelad. Den delade mappen förblir delad.
+**Resultat**: Den mapp som inte delas förblir odelad. Den delade mappen förblir delad.
 
 ## Innehåll från odelad mapp till delad mapp {#section_2941ED0DC52E4573AC1AB4C22313DD8E}
 

@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 643c878f-c2f3-4c1d-ae3e-6a75c95520b4
-source-git-commit: e71461000e352d4a8acba413e0db6180a37395ff
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
 source-wordcount: '345'
 ht-degree: 3%
@@ -17,9 +17,9 @@ ht-degree: 3%
 
 # Översikt över Experience Cloud Assets
 
-Experience Cloud Assets utgör ett enda centralt arkiv med marknadsföringsmaterial som du kan dela mellan olika program. En resurs är ett digitalt dokument, en bild, en video eller ett ljud (eller en del av ett) som kan ha flera återgivningar och som kan ha underresurser (till exempel lager i en [!DNL Photoshop] fil, bilder i [!DNL PowerPoint] -fil, sidor i PDF, filer i en ZIP-fil).
+Experience Cloud Assets utgör ett enda centralt arkiv med marknadsföringsmaterial som du kan dela mellan olika program. En resurs är ett digitalt dokument, en bild, en video eller ett ljud (eller en del av ett) som kan ha flera återgivningar och som kan ha underresurser (till exempel lager i en [!DNL Photoshop] fil, bilder i en [!DNL PowerPoint] , sidor i PDF, filer i en ZIP-fil).
 
-Tillgångstjänster:
+Tillgångstjänster omfattar:
 
 * Resurslagring, hanteringsgränssnitt, inbäddat urvalsgränssnitt (nås via program).
 * Integrering med Creative Cloud, Experience Cloud och Experience Cloud.
@@ -27,7 +27,7 @@ Tillgångstjänster:
 Genom att använda mediefiler blir det enhetligare och varumärkeskommunikationen effektivare och kortare time-to-market. Du kan effektivisera arbetsflöden i program:
 
 * **[!DNL Adobe Target]**: Skapa upplevelser för A/B-tester och multivariata tester.
-* **[!DNL Ad Cloud]**: Utveckla annonsenheter i olika kanaler och kampanjer
+* **[!DNL Ad Cloud]**: Utveckla annonsenheter för olika kanaler och kampanjer
 * **[!DNL Adobe Campaign]**: Lägg in resurser i nyhetsbrev och kampanjer via e-post.
 
 I [!UICONTROL Experience Cloud Assets]kan du:
@@ -59,7 +59,7 @@ Verktygsfältet ger snabb åtkomst till funktioner som sökning, tidslinje, åte
 
 ## Redigera resurser {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
-Redigering av en mediefil möjliggör bland annat följande funktioner:
+Redigering av en resurs möjliggör bland annat följande:
 
 * Beskär
 * Rotera
@@ -87,7 +87,7 @@ Välj **[!UICONTROL Views]** > **[!UICONTROL Image]** för att visa hela bilden 
 
 ## Visa resursegenskaper {#section_FED28711DAB14E1BBEEA7CA890EE9573}
 
-Välj mellan kortvyn med egenskaper, listvy och kolumnvy för att enklare hitta resurser.
+Välj mellan kortvyn med egenskaper, listvy och kolumnvy för att enklare hitta dina resurser.
 
 Välj **[!UICONTROL Views]** > **[!UICONTROL Properties]** om du vill visa en resurs egenskaper:
 

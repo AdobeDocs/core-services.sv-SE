@@ -1,5 +1,5 @@
 ---
-description: Lär dig hur du validerar kundattributschemat i Adobe Experience Cloud.
+description: Lär dig validera kundattributschemat i Adobe Experience Cloud.
 solution: Experience Cloud
 title: Så här validerar du kundattributschemat
 uuid: 163a4dbe-d60b-4089-8ff8-65f7461fbdf7
@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ På [!UICONTROL Validate Schema] sida representerar varje rad i schemat en kolum
 
 * **[!UICONTROL FTP Setup:]** [Överför data via FTP](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
 
-* **[!UICONTROL ID Lookup:]** Ange ett kund-ID (CID) från din `.csv` om du vill söka efter Experience Cloud-information för ID:t. Den här funktionen är användbar för att felsöka varför attributdata inte visas för en besökare:
+* **[!UICONTROL ID Lookup:]** Ange ett kund-ID från din `.csv` om du vill söka efter Experience Cloud-information för ID:t. Den här funktionen är användbar för att felsöka varför attributdata inte visas för en besökare:
 
    * **[!UICONTROL ECID (Experience Cloud ID):]** Visar om du använder den senaste Experience Cloud ID-tjänsten. Om du är i MCID-tjänsten men det inte finns några ID:n i listan här, har Experience Cloud inte fått något alias för det CID:t. Det innebär att besökaren inte har loggat in eller att implementeringen inte skickar det ID:t till.
 
@@ -53,7 +53,7 @@ De namn du anger för strängar, heltal och tal används för att skapa [!DNL An
 
 * **[!UICONTROL Type:]** Datatypen, till exempel:
 
-   * **Sträng:** En teckensekvens.
+   * **Sträng:** En sekvens med tecken.
 
    * **Heltal:** Heltal.
 

@@ -8,9 +8,9 @@ feature: Admin Console
 role: Admin
 level: Experienced
 exl-id: 746d396d-9629-42db-8c55-07d2d24e4611
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '577'
 ht-degree: 3%
 
 ---
@@ -21,13 +21,13 @@ Administratörer kan lära sig mer om kraven och vad de kan förvänta sig när 
 
 ## Analytics Premium {#section_7F50AD7906544F899B844BE31D3BB507}
 
-Uppgradera till Adobe Analytics Premium och få alla funktioner och produkter som finns i Analytics Standard, inklusive Data warehouse, Ad Hoc Analysis, Report Builder och Data Connectors.
+Uppgradera till Adobe Analytics Premium och få alla funktioner och produkter som finns i Analytics Standard, inklusive Data Warehouse, Ad Hoc Analysis, Report Builder och Data Connectors.
 
 Med Analytics Premium får ni:
 
 * Tillgång till 250 konverteringsvariabler (eVars)
 * [Mobilappsanalys](https://experienceleague.adobe.com/docs/mobile-services/using/home.html?lang=en)
-* Data Workbench (Visual data query; regelbaserad attribuering, flerkanalsanalys)
+* Data Workbench (visuell datafråga, regelbaserad attribuering, flerkanalsanalys)
 
 >[!NOTE]
 >
@@ -36,18 +36,17 @@ Med Analytics Premium får ni:
 >* Variablerna 76-250 och 100-250 (Standard) visas i Admin Tools, men är inte aktiverade.
 >* Bidragsanalys aktiveras av Adobe. Platsen ändras inte (den är fortfarande tillgänglig på Anomaly Detection-sidan), men den börjar automatiskt analysera alla datapunkter.
 
-
 ## Analytics Premium Complete {#section_BFAD815EDF364845A52B340B2FD5B64C}
 
 I Analytics Premium Complete får du alla funktionerna i [Analytics Premium](upgrade-to-analytics-premium.md#section_7F50AD7906544F899B844BE31D3BB507), plus följande uppgraderingar:
 
 | Produkt | Uppgraderingar |
 |--- |--- |
-| Rapporter och analyser | <ul><li>[Bidragsanalys](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en)</li><li>[Kundattribut](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1) (Upp till 200)</li></ul> |
+| Reports &amp; Analytics | <ul><li>[Bidragsanalys](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en)</li><li>[Kundattribut](attributes.md#concept_ACFEE7C8B8E94875BA0825CDF4913AF1) (Upp till 200)</li></ul> |
 | Data Workbench | <ul><li>Algoritmisk attribuering</li><li>Fördefinierade arbetsytor</li></ul> |
 | Analytics Platform | [Live Stream](https://github.com/AdobeDocs/analytics-1.4-apis/blob/master/docs/live-stream-api/index.md) (rådata, instrumentpaneler, utlösare) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Prediktiv intelligens {#section_B407932C07A7476F83FB0275C3FB63DC}
 
@@ -55,11 +54,11 @@ Uppgradera till Predictive Intelligence [Analytics Premium](upgrade-to-analytics
 
 | Produkt | Uppgraderingar |
 |---|---|
-| Rapporter och analyser | [Bidragsanalys](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
+| Reports &amp; Analytics | [Bidragsanalys](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/virtual-analyst/contribution-analysis/ca-tokens.html?lang=en) |
 | Data Workbench | Färdiga arbetsytor för målgruppskvalifikationer och prediktiv marknadsföring. |
 | Analytics Platform | Live Stream (instrumentpaneler och utlösare) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Kund 360 {#section_3B2AC245388248688067DC9A48957AFB}
 
@@ -71,7 +70,7 @@ Uppgradera till Customer 360-erbjudanden [Analytics Premium](upgrade-to-analytic
 | Data Workbench | <ul><li>Härledda kundattribut</li><li>Färdiga arbetsytor för målgruppsidentifiering</li></ul> |
 | Analytics Platform | [Kundattribut](attributes.md) |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## Avancerad attribuering {#section_9E4986A8389946CCAA7D003268343296}
 

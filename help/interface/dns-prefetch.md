@@ -1,16 +1,16 @@
 ---
 description: Lär dig hur du implementerar DNS-förhämtning för att minska sidinläsningstiden med olika program och tjänster i Experience Cloud.
 solution: Experience Cloud
-title: Använda DNS-förhämtning med olika program och tjänster
+title: Använd DNS-förhämtning med olika program och tjänster
 uuid: 4220e223-e00e-46b1-8bde-52248913bea1
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: caf2ff76-2076-436d-a5a7-aff531464480
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 1%
+source-wordcount: '370'
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ Du kan emellertid implementera DNS-förhämtning manuellt med dina Experience Cl
 
 I följande exempel visas hur du gör DNS-förhämtningsanrop till olika [!DNL Experience Cloud] program och tjänster. Vissa förhämtningssamtal kräver [!DNL Adobe] Organisations-ID eller spårningsserverinformation. I de här exemplen finns koden i *kursiv* representerar en variabelplatshållare. Du skulle ersätta koden med din egen [!DNL Adobe] partner-ID, kundkod eller spårningsserverinformation osv.
 
-* **Analytics:** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
+* **Analyser:** `<link rel="dns-prefetch" href="//insert tracking server name here">`.
 
   Lägg till en separat tagg för varje DNS-namn om du använder icke-säkra och säkra spårningsservrar.
 

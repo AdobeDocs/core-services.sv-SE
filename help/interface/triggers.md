@@ -8,14 +8,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '648'
 ht-degree: 1%
 
 ---
 
-# Utlösare i Experience Cloud
+# Experience Cloud-utlösare
 
 [!UICONTROL Triggers] i Experience Cloud kan ni identifiera, definiera och övervaka viktiga konsumentbeteenden och sedan generera kommunikation mellan olika tillämpningar för att engagera besökarna på nytt.
 
@@ -24,7 +24,7 @@ ht-degree: 1%
 Ni kan använda triggers i realtidsbeslut och personalisering. Exempel:
 
 * Konfigurera snabb ommarknadsföring för övergivna varukorgar eller övergivna varukorgar med borttagna produkter
-* Ofullständiga formulär och ansökningar
+* Ofullständiga blanketter och tillämpningar
 * Åtgärder eller sekvenser av åtgärder på platsen
 
 ![Exempel på utlösare](assets/trigger-abandonment-2.png)
@@ -60,13 +60,13 @@ Skapa en utlösare och konfigurera villkoren för utlösaren. Du kan till exempe
    | Element | Beskrivning |
    |--- |--- |
    | [!UICONTROL Name] | Det egna namnet för den här utlösaren. |
-   | [!UICONTROL Description] | Beskrivningen av den här utlösaren, hur du använder den och så vidare. |
+   | [!UICONTROL Description] | Beskrivning av den här utlösaren, hur du använder den och så vidare. |
    | [!UICONTROL Report Suite] | Analytics [rapportsvit](https://experienceleague.adobe.com/docs/analytics/admin/manage-report-suites/report-suites-admin.html) används för den här utlösaren. Den här inställningen identifierar de rapportdata som ska användas. |
-   | Besök måste omfatta<br>Besök får inte omfatta<br>Utlös efter ingen åtgärd<br>Inkludera metadata | Du kan definiera villkor eller besökarbeteenden som du vill ska inträffa och beteenden som du inte vill ska inträffa. Regler för en enkel utlösare för övergivna varukorgar kan till exempel vara:<ul><li>Besök måste omfatta följande: [!UICONTROL Cart Addition] (metrisk) och  [!UICONTROL Exists]. (Du kan förfina regeln ytterligare med en viss produktvy eller med dimensioner som webbläsartyper.)</li><li>Besök får inte omfatta  [!UICONTROL Checkout].</li><li>Utlös efter ingen åtgärd för: 10 minuter.</li><li>[!UICONTROL Include Meta Data]: Gör att du kan lägga till en viss [!DNL Campaign] dimensioner eller variabler som är relevanta för en besökares beteende. Det här fältet kan vara användbart för Adobe Campaign att skapa rätt e-postmeddelande för återmarknadsföring.</li></ul><br>Du kan ange  [!UICONTROL Any],  [!UICONTROL And] eller  [!UICONTROL Or] logik i eller mellan behållare, beroende på vilka villkor du anger, är viktiga för regeln. |
+   | Besök måste omfatta<br>Besök får inte omfatta<br>Utlös efter ingen åtgärd<br>Inkludera metadata | Du kan definiera villkor eller besökarbeteenden som du vill ska inträffa och beteenden som du inte vill ska inträffa. Regler för en enkel utlösare för övergivna varukorgar kan till exempel vara:<ul><li>Besök måste omfatta följande: [!UICONTROL Cart Addition] (metrisk) och  [!UICONTROL Exists]. (Du kan förfina regeln ytterligare med en viss produktvy eller med dimensioner som webbläsartyper.)</li><li>Besök får inte omfatta  [!UICONTROL Checkout].</li><li>Utlös efter ingen åtgärd i: 10 minuter.</li><li>[!UICONTROL Include Meta Data]: Gör att du kan lägga till en viss [!DNL Campaign] dimensioner eller variabler som är relevanta för en besökares beteende. Det här fältet kan vara användbart för Adobe Campaign att skapa rätt e-postmeddelande för återmarknadsföring.</li></ul><br>Du kan ange  [!UICONTROL Any],  [!UICONTROL And] eller  [!UICONTROL Or] logik i eller mellan behållare, beroende på vilka villkor du anger, är viktiga för regeln. |
    | [!UICONTROL Container] | [!UICONTROL Containers] är där du anger och lagrar regler, villkor eller filter som definierar en utlösare. Om du vill att händelser ska inträffa samtidigt placerar du dem i samma behållare. Det innebär att varje behållare bearbetas oberoende på träffnivå. Om du till exempel har två behållare som förenas med operatorn And kan du förvänta dig att reglerna kvalificeras när två träffar uppfyller kraven. |
    | Starta ny session efter | Skapa en utlösare för händelser för sessionsstart och sessionsslut. |
 
-   {style=&quot;table-layout:auto&quot;}
+   {style="table-layout:auto"}
 
 5. Välj **[!UICONTROL Save]**.
 6. Använd utlösare för [remarketing i realtid](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html?lang=en) in [!DNL Adobe Campaign].

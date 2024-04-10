@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 7f8fa610-32f0-4b18-8054-3ba05436a10e
-source-git-commit: 700a3e3382abba69f7760916637583b8381af8f8
+source-git-commit: 56936fd32f7208fb2a0c4a2abc67d48f30dd788c
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '908'
 ht-degree: 1%
 
 ---
@@ -25,11 +25,11 @@ Hjälp: [Aktivera program för plattformstjänster](core-services.md#concept_07E
 
 Beskriver hur du:
 
-* Tillhandahåll ditt företag i Experience Cloud.
+* Etablera ditt företag i Experience Cloud.
 * Gör att du kan bli administratör.
 * [Implementera tjänsten Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en).
 * Modernisera [!DNL Analytics] och [!DNL Target] implementeringar via [!UICONTROL Platform Data Collection].
-* Börja använda Experience Cloud [!UICONTROL Customer Attributes] och [!UICONTROL Audiences].
+* Börja använda Experience Cloud [[!DNL Customer Attributes]](attributes.md) och [[!DNL Audience Library]](audience-library.md).
 
 Lösningar eller tjänster:
 

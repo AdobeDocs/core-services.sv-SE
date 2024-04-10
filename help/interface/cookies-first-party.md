@@ -1,7 +1,7 @@
 ---
 description: Läs om hur Adobe Analytics använder cookies för att ge information om variabler och komponenter som inte finns kvar mellan bildbegäranden och webbläsarsessioner.
 solution: Experience Cloud,Analytics
-title: "cookies från första part"
+title: Cookies från första part
 index: y
 snippet: y
 feature: Cookies
@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: cef927ad0f9f875841d2acf670950de0a766df7e
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
 source-wordcount: '1594'
 ht-degree: 0%

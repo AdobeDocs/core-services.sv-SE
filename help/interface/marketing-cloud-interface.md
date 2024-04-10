@@ -3,17 +3,17 @@ description: Läs om nya funktioner och uppdateringar i Experience Cloud.
 solution: Experience Cloud
 title: Nyheter i Experience Cloud
 uuid: bc1b1542-1a37-4da1-bcfd-fc86af881642
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 3%
+source-wordcount: '628'
+ht-degree: 1%
 
 ---
 
 
 # Nyheter i Experience Cloud
 
-En översikt över nya funktioner och uppdateringar i Experience Cloud.
+Översikt över nya funktioner och uppdateringar i Experience Cloud.
 
 ## Augusti 2018 {#section_7388CDAB723B49809AABEFEE85CF6378}
 
@@ -30,7 +30,7 @@ Korrigeringar och förbättringar för juli 2018.
 
 * Använde en backend-funktion för att styra resursdelning mellan Marketing Cloud-till-AEM och Marketing Cloud-till-Creative Cloud. (CORE-14386)
 * Korrigerade ett problem som blockerade etablering av nya innehavare i vissa miljöer. (CORE-15509)
-* Korrigerade ett problem som omdirigerade användare till [!DNL experiencecloud.adobe.com] vid åtkomst till [!DNL experiencecloud.adobe.com] via [!DNL http] i stället för [!DNL https] (skyddat). (CORE-15587)
+* Ett problem som omdirigerade användare till har korrigerats [!DNL experiencecloud.adobe.com] vid åtkomst [!DNL experiencecloud.adobe.com] via [!DNL http] i stället för [!DNL https] (skyddad). (CORE-15587)
 * Korrigerade ett problem som blockerade meddelanden för vissa nya innehavare. (CORE-15240)
 
 ## 14 juni 2018 {#section_7ABC327992CB46B0B8E4A631B8B68899}
@@ -50,7 +50,7 @@ Nya funktioner och korrigeringar i [!DNL Adobe Experience Cloud] gränssnitt.
 |--- |--- |
 | Ny startsida för administration | När du loggar in på Experience Cloud och navigerar till administrationssidan finns det ett nytt intuitivt gränssnitt som hjälper dig att snabbt komma åt dina Experience Cloud-program och bastjänster. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **Korrigeringar**
 
@@ -63,7 +63,7 @@ Nya funktioner och korrigeringar i [!DNL Adobe Experience Cloud] gränssnitt.
 
 Många av underhållsmeddelandena runt schemalagt underhåll/produktuppdateringar saknas i meddelandets e-postmeddelande. Vi arbetar för att se till att alla underhållsmeddelanden inkluderas i e-postmeddelandet.
 
-## 8 augusti 2017 {#section_2313A875454044F490B418506DD24593}
+## 8 augusti 2017 {#section_2313A875454044F490B418506DD24593}
 
 | Funktion | Beskrivning |
 |--- |--- |
@@ -71,7 +71,7 @@ Många av underhållsmeddelandena runt schemalagt underhåll/produktuppdateringa
 | Meddelanden - Underhållsmeddelanden | I Meddelandeinställningarna kan du aktivera underhållsmeddelanden för produkter och program. |
 | Admin Console för Experience Cloud Solutions | Nya Experience Cloud-kunder kan börja använda Admin Console, en central plats för hantering av Adobe i hela organisationen.<br>Migreringen till Admin Console för användarhantering fortsätter i vågor. Adobe kontaktar dig (systemadministratörer) när det är dags att migrera.<br>Analysadministratörer, se  [Migrering av analyser](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=en). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 22 maj 2017 {#section_242FE649FA1B4BFA88EC6E353D175ACC}
 
@@ -80,7 +80,7 @@ Många av underhållsmeddelandena runt schemalagt underhåll/produktuppdateringa
 | Massrapportsvitmappning | I Administration > Rapportsvitsmappning kan du nu välja flera rapportsviter och sedan mappa dem till en organisation. (Tidigare var du tvungen att mappa dem individuellt.)  <br>[Mappningsrapportsviter](core-services.md) till en och samma organisation möjliggör funktioner och tjänster för olika tillämpningar i Experience Cloud. |
 | Uppdateringar till Experience Cloud-målgrupper | **Tillämpar rapportsviter**<br> Nu kan du använda en rapportsserie för alla [målgruppsregler](t-audience-create.md). (Tidigare var du tvungen att ange en rapportserie i varje regeldefinition.) <br>**Profiler och variabler**<br> Nu kan du inkludera utkast och standardvariabler för Analytics (utöver eVars och events) i målgrupper i realtid. |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 ## 8 november 2016-16.11.1 {#section_7065A9BCCDF544C2BB37E9A7D661EA6A}
 
@@ -88,7 +88,7 @@ Många av underhållsmeddelandena runt schemalagt underhåll/produktuppdateringa
 |--- |--- |
 | Uppdatera till profil och lösenord | Användare kan inte längre redigera information om IMS-användarprofiler under Personlig information i Redigera profil > Profil och lösenord. I stället omdirigeras användarna till `accounts.adobe.com`. Uppdateringen gäller alla identitetstyper (Adobe ID, Enterprise och Federated). |
 
-{style=&quot;table-layout:auto&quot;}
+{style="table-layout:auto"}
 
 **Korrigeringar**
 

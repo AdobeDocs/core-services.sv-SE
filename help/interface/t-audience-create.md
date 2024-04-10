@@ -1,17 +1,17 @@
 ---
 description: Lär dig hur du använder attributregler för att skapa en målgrupp och definiera en sammansatt målgrupp i Adobe Experience Cloud.
 solution: Experience Cloud
-title: Skapa en målgrupp
+title: Skapa en publik
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 2%
+source-wordcount: '481'
+ht-degree: 0%
 
 ---
 
@@ -40,12 +40,12 @@ I följande exempel visas hur du skapar regler för en sammansatt målgrupp. Den
 * Avsnittet Hem och Garden är härlett från siddata eller råanalysdata.
 * Chrome- och Safari-användare som härleds från en [!DNL Adobe Analytics] segment [publicerad](audience-library.md#task_32FEEFE0B32E4E388CD4D892D727282A) till [!DNL Experience Cloud].
 
-   ![Skapa regler för en sammansatt målgrupp](assets/audience_create.png)
+  ![Skapa regler för en sammansatt målgrupp](assets/audience_create.png)
 
 **Skapa en publik**
 
 1. I [!DNL Experience Cloud], under [!DNL Experience Platform], markera **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
-1. På [!UICONTROL Audiences] sida, markera **[!UICONTROL New]**. ![add](assets/add_icon_small.png)
+1. På [!UICONTROL Audiences] sida, markera **[!UICONTROL New]**. ![lägg till](assets/add_icon_small.png)
 
    ![Stegresultat](assets/audience_create_new.png)
 
@@ -57,7 +57,7 @@ I följande exempel visas hur du skapar regler för en sammansatt målgrupp. Den
    >
    >På grund av cachelagring kräver borttagna rapportsviter i Analytics 12 timmar innan borttagningen visas i Experience Cloud.
 
-   * **[!UICONTROL Experience Cloud:]** Attributdata härledda från [!DNL Experience Cloud] källor. Detta kan till exempel vara data från målgruppssegment som du skapar i [!DNL Analytics]eller data från [!DNL Audience Manager].
+   * **[!UICONTROL Experience Cloud:]** Attributdata härledda från [!DNL Experience Cloud] Källor. Detta kan till exempel vara data från målgruppssegment som du skapar i [!DNL Analytics]eller data från [!DNL Audience Manager].
 
 1. Definiera målgruppsregler och välj sedan **[!UICONTROL Save].**
 
@@ -69,9 +69,9 @@ Under [!UICONTROL Rules], definierar *`Home & Garden`* attributval:
 
 * **[!UICONTROL Attribute Source:]** Råanalysdata
 * **[!UICONTROL Report Suite:]** Report Suite 31
-* Dimension = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home & Garden]**
+* DIMENSION = **[!UICONTROL Store (Merch) (v6)]** > **[!UICONTROL Equals]** > **[!UICONTROL Home & Garden]**
 
-![Attributmarkeringar i målgruppsbiblioteket](assets/home_garden.png)
+![Attributval i målgruppsbibliotek](assets/home_garden.png)
 
 The *Besökare i Chrome och Safari* är ett målgruppssegment som delas av Analytics:
 

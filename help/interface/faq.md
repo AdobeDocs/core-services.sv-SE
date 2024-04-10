@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '719'
 ht-degree: 1%
 
 ---
@@ -62,10 +62,10 @@ De funktioner som finns i gränssnittet Experience Cloud ger ditt företag ett m
 
 ## Vad är _etablering?_
 
-Med tillhandahållande i Experience Cloud avses
+Med etablering i Experience Cloud avses
 
 * Dina användare kan börja logga in på [!DNL Experience Cloud] och länka program.
-* De kan börja använda de funktioner som är tillgängliga via Experience Cloud, till exempel Personer.
+* De kan börja använda de funktioner som är tillgängliga via Experience Cloud, till exempel Folk.
 * Du kan bli redo att avsluta din programspecifika inloggningsprocess.
 * Du kan behålla åtkomstkontroll för program.
 
@@ -95,7 +95,7 @@ Se [Hantera användarkonton](organizations.md#topic_C31CB834F109465A82ED57FF0563
 
 ## Vad är en organisation?
 
-An [organisation](organizations.md) är den enhet som gör det möjligt för en administratör att konfigurera grupper och användare samt att styra enkel inloggning i Experience Cloud. Organisationen fungerar som ett inloggningsföretag som omfattar alla produkter och program i Experience Cloud. Oftast är en organisation ditt företagsnamn. Ett företag kan dock ha många organisationer.
+An [organisation](organizations.md) är den enhet som gör det möjligt för en administratör att konfigurera grupper och användare samt att styra enkel inloggning i Experience Cloud. Organisationen fungerar som ett inloggningsföretag som omfattar alla produkter och program från Experience Cloud. Oftast är en organisation ditt företagsnamn. Ett företag kan dock ha många organisationer.
 
 ## Var hittar jag mitt IMS-organisations-ID?
 
@@ -103,7 +103,7 @@ Se [Visa ditt organisations-ID](organizations.md) för mer information.
 
 ## Vad ska jag göra när någon av mina användare lämnar mitt företag?
 
-Deras åtkomst bör tas bort från själva programmet. De kommer inte att kunna komma åt produkten från Experience Cloud eller via inloggningen direkt. Du bör även ta bort dem på Experience Cloud-nivå.
+Deras åtkomst bör tas bort från själva programmet. De kommer inte att kunna komma åt produkten från Experience Cloud eller via direktinloggningen. Du bör även ta bort dem på Experience Cloud-nivå.
 
 ## Vad är en Adobe ID?
 

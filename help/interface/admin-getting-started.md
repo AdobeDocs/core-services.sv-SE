@@ -8,16 +8,16 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
-source-git-commit: 807f8a25a58b8416b2db083434dfce84b94954b2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '1584'
-ht-degree: 3%
+source-wordcount: '1538'
+ht-degree: 2%
 
 ---
 
-# Hantera användare och produkter i Experience Cloud
+# Hantera användare och produkter i [!DNL Experience Cloud]
 
-Lär dig hur du loggar in på Admin Console, hanterar användarbehörigheter för Experience Cloud och produktprofiler samt webbläsarstöd.
+Lär dig mer om att logga in på Admin Console, hantera användarbehörigheter och produktprofiler för Experience Cloud samt webbläsarstöd.
 
 >[!IMPORTANT]
 >
@@ -35,13 +35,13 @@ Uppdaterat: **20 juli 2022**
 
 Adobe uppdaterar sin etablering för att ge alla Experience Cloud-kunder tillgång till grundläggande funktioner som underlättar samverkan mellan vissa Experience Cloud-produkter. Adobe Experience Platform läggs till i Experience Cloud-organisationer med [!UICONTROL Data Collection] som en inkluderad tjänst.
 
-Adobe Experience Platform [!UICONTROL Data Collection] inkluderar [taggar](https://experienceleague.adobe.com/docs/tags.html?lang=en) för förenklad universell tagghantering och erbjuder en tillförlitlig, robust och komplett infrastruktur för strömmande data. Taggar förenklar datainsamlingen för kundupplevelsen och effektiviserar leveransen av upplevelser.
+Adobe Experience Platform [!UICONTROL Data Collection] inkluderar [taggar](https://experienceleague.adobe.com/en/docs/tags) för förenklad universell tagghantering och erbjuder en tillförlitlig, robust och komplett infrastruktur för strömmande data. Taggar förenklar datainsamlingen och effektiviserar leveransen av upplevelser.
 
-**Förändringar i Admin Console**
+**Ändringar i[!DNL Admin Console]**
 
-Administratörer kan se ändringar eller tillägg i Admin Console enligt följande:
+Administratörer kan se ändringar eller tillägg i [!DNL Admin Console] enligt följande:
 
-* Adobe Experience Platform produktkort i Admin Console kommer att innehålla:
+* Adobe Experience Platform produktkort i Admin Console innehåller följande:
 
    * Platser
    * Säkerhet
@@ -52,7 +52,7 @@ Administratörer kan se ändringar eller tillägg i Admin Console enligt följan
    * Dataströmmar
    * Besökar-ID
 
-  För organisationer som för närvarande inte använder Experience Platform visas nu _Adobe Experience Platform_ i Admin Console, inklusive de funktioner som anges ovan.
+  För organisationer som för närvarande inte använder Experience Platform visas nu _Adobe Experience Platform_ i [!DNL Admin Console], inklusive de funktioner som anges ovan.
 
   För organisationer som för närvarande använder Experience Platform _Platser_ kommer nu att konsolideras i Experience Platform-kortet.
 
@@ -60,8 +60,8 @@ Administratörer kan se ändringar eller tillägg i Admin Console enligt följan
 
 Mer information om de nya funktionerna finns på Experience League:
 
-* [Datainsamling](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html)
-* [Platser](https://experienceleague.adobe.com/docs/places/using/home.html?lang=sv)
+* [Datainsamling](https://experienceleague.adobe.com/docs/discontinued/using/reports-and-analytics.html)
+* [Platser](https://experienceleague.adobe.com/en/docs/places/using/home)
 * [Säkerhet](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html)
 * [Identitetsnamnutrymme](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=en)
 * [Sandlådor](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=en)
@@ -75,24 +75,24 @@ Mer information om de nya funktionerna finns på Experience League:
 
 Från och med februari 2022 uppdaterar Adobe sitt profilhanteringssystem så att organisationer bättre kan hantera sina rättigheter till enskilda profiler. Alla användare med en personlig profil, som motsvarar en enskild Adobe ID (Type1), kommer därför att migreras till en ny affärsprofil. Den här profilen motsvarar en _Företags-ID_ (Type2e).
 
-Se [Identitetstyper på Adobe Admin Console](https://helpx.adobe.com/enterprise/using/identity.html) för information om identitetstyper.
+Se [Identitetstyper på Adobe [!DNL Admin Console]](https://helpx.adobe.com/enterprise/using/identity.html) för information om identitetstyper.
 
 ### Migreringsprocess
 
 När det är dags för din migrering får organisationens administratörer ett e-postmeddelande 30 dagar före migreringen.
 
 * Migreringen schemaläggs mellan kl. 10.00-6.00, baserat på organisationens primära tidszon eller på helgen.
-* Under migreringen kan programmet Experience Cloud vara otillgängligt i ungefär 15 minuter och Admin Console kan vara otillgängligt i upp till 30 minuter. Annars kommer migreringen att vara sömlös.
+* Under migreringen kan programmet Experience Cloud vara otillgängligt i ungefär 15 minuter och [!DNL Admin Console] kan vara oåtkomliga i upp till 30 minuter. Annars kommer migreringen att vara sömlös.
 
 ### Ändringar efter migreringen
 
-Admin Console
+[!DNL Admin Console]
 
-* Administratörer med flera konton kan se en profilväljare vid inloggning [!UICONTROL Admin Console].
+* Administratörer med flera konton kan se en profilväljare vid inloggning [!DNL Admin Console].
 * Enskilda Adobe ID-användare uppdateras till Business ID.
 * Arbets-ID-katalogen läggs till i **[!UICONTROL Settings]** > **[!UICONTROL Identity]** > **[!UICONTROL Directories]**.
 
-  ![Admin Console-identitet - företags-ID](assets/identity-home.png)
+  ![[!DNL Admin Console] Identitet - företags-ID](assets/identity-home.png)
 
 ### Logga in efter migreringen
 
@@ -104,13 +104,13 @@ Inloggningsupplevelsen ändras inte med den här uppdateringen:
 
 1. Om något av alternativen används blir landningssidan en befintlig upplevelse.
 
-1. En Adobe-profil är associerad med varje affärsplan och ger möjlighet att ordna resurser som skapats från ytterligare Adobe Cloud-erbjudanden (Creative Cloud och Document Cloud).
+1. En Adobe-profil är kopplad till varje affärsplan och ger möjlighet att ordna resurser som skapats från ytterligare molnerbjudanden för Adobe (Creative Cloud och Document Cloud).
 
 Mer information finns i [Nu kommer Adobe-profiler](https://helpx.adobe.com/enterprise/kb/introducing-adobe-profiles.html).
 
 ## Vad är en produktprofil? {#section_AB50558124D541CF80A0D3D76D35A4BF}
 
-_[!UICONTROL Product Profiles]_är grupper av produkter och tjänster som du kan tilldela användare. I Experience Cloud baseras behörigheter på en produkts profil, inte på användaren. (Du kan dock delegera administratörsbehörighet till vissa användare.)
+_[!UICONTROL Product profiles]_är grupper av produkter och tjänster som du kan tilldela användare. I Experience Cloud baseras behörigheter på en produkts profil, inte på användaren. (Du kan dock delegera administratörsbehörighet till vissa användare.)
 
 I Analytics kan du till exempel konfigurera en samling rapporteringsverktyg, som Analysis Workspace och Report Builder, tillsammans med rapportsviter, mätvärden och dimensioner. Du kan ge behörighet till en produktprofil genom att lägga till användare i profilen.
 
@@ -123,7 +123,7 @@ Du kan skapa en produktprofil och tilldela den till en behörighetsgrupp.
 
 När du bjuder in en användare till en organisation kan du ge användaren tillgång till produkter och produktprofiler. Du kan även delegera begränsade administrativa behörigheter till en användare. På samma sätt kan du skapa användargrupper och sedan lägga till gruppen i en produktprofil för att aktivera åtkomst.
 
-1. I [Admin Console](https://adminconsole.adobe.com/enterprise/), markera **[!UICONTROL Products]**.
+1. I [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/), markera **[!UICONTROL Products]**.
 1. Välj organisationsnamn.
 1. Välj **[!UICONTROL New Profile]**.
 1. Konfigurera profilinformationen och välj sedan **[!UICONTROL Save]**.
@@ -132,13 +132,14 @@ Mer information (och om du vill ha hjälp om produkthantering för Creative Clou
 
 **Relaterad hjälp**
 
-* [Hantera produkter och profiler](https://helpx.adobe.com/enterprise/using/manage-products.html) i administrationshandboken.
+* [Hantera användare](https://helpx.adobe.com/se/enterprise/using/users.html) in [!DNL Admin Console]
+* [Hantera produkter och profiler](https://helpx.adobe.com/enterprise/using/manage-products.html) in [!DNL Admin Console].
 * [Enterprise-användarbehörigheter](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en) i Adobe Target om du vill ha mer information.
-* Video: [Konfigurera Adobe Target Workspaces i Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=en)
+* Video: [Konfigurera Adobe Target Workspaces i Adobe [!DNL Admin Console]](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=en)
 
 ## Delegera administrativa roller till användare {#delegate-rights}
 
-I Admin Console kan du delegera begränsade administrativa rättigheter till andra i organisationen. Delegerade roller gör det möjligt för användare att administrera programåtkomst till slutanvändare, ge åtkomst till distributionsfunktioner och fungera som supportrepresentanter.
+I [!DNL Admin Console]kan du delegera begränsade administrativa rättigheter till andra i organisationen. Delegerade roller gör det möjligt för användare att administrera programåtkomst till slutanvändare, ge åtkomst till distributionsfunktioner och fungera som supportrepresentanter.
 
 Du kan till exempel:
 
@@ -148,13 +149,13 @@ Du kan till exempel:
 
 Genom att använda de här rollerna kan du delegera hantering till andra utan att ge dem mer kapacitet än de behöver.
 
-1. I Admin Console väljer du **[!UICONTROL Users]** väljer du sedan användarens namn.
+1. I [!DNL Admin Console], markera **[!UICONTROL Users]** väljer du sedan användarens namn.
 
-   ![Administrativa rättigheter i Admin Console](assets/edit-admin-rights.png)
+   ![Administrativa rättigheter i [!DNL Admin Console]](assets/edit-admin-rights.png)
 
 1. Välj **[!UICONTROL Edit admin rights]**.
 
-   ![Redigera administrativa rättigheter i Admin Console](assets/edit-admin-rights-page.png)
+   ![Redigera administrativa rättigheter i [!DNL Admin Console]](assets/edit-admin-rights-page.png)
 
 1. Ange användarens administratörsbehörighet.
 1. Välj **[!UICONTROL Save]**.
@@ -165,7 +166,7 @@ Du kan tilldela åtkomstbehörigheter för analysrapporter (rapportsviter, mätv
 
 Du kan till exempel skapa en produktprofil som innehåller flera analysverktyg ([!UICONTROL Analysis Workspace], [!UICONTROL Reports & Analytics]och [!UICONTROL Report Builder]). Dessa profiler innehåller behörigheter till specifika mått och mått (inklusive eVars) och funktioner som att skapa segment eller beräknade mätvärden.
 
-1. Logga in på [Admin Console](https://adminconsole.adobe.com/enterprise)väljer **[!UICONTROL Products]**.
+1. Logga in på [[!DNL Admin Console]](https://adminconsole.adobe.com/enterprise)väljer **[!UICONTROL Products]**.
 1. På [!UICONTROL Products] väljer du produkt och sedan **[!UICONTROL Permissions]** (endast tillgängligt för administratörer).
 1. Konfigurera profilens behörigheter:
 
@@ -175,19 +176,19 @@ Du kan till exempel skapa en produktprofil som innehåller flera analysverktyg (
 | Mätvärden | Aktivera behörigheter för trafik, konvertering, anpassade händelser, programhändelser, innehållsmedveten osv. |
 | Mått | Anpassa användaråtkomsten på detaljnivå, inklusive eVars, trafikrapporter, programrapporter och sökvägsrapporter. |
 | Report Suite-verktyg | Aktivera användarbehörigheter för Web Services, Report Suite Management, Tools and Reports och Dashboard Items. |
-| Analysverktyg | Aktivera användarbehörigheter för allmänna objekt (fakturering, loggar o.s.v.), företagshantering, verktyg, webbtjänståtkomst, Report Builder och Data Connectors-integrering. Företagsinställningar från kategorin Anpassa Admin Console har flyttats till Analytics-verktyg. |
+| Analysverktyg | Aktivera användarbehörigheter för allmänna objekt (fakturering, loggar o.s.v.), företagshantering, verktyg, webbtjänståtkomst, Report Builder och Data Connectors-integrering. Företagsinställningar från Anpassa [!DNL Admin Console] har flyttats till Analytics Tools. |
 
 **Migrering av användarkonto**
 
-Det finns ett verktyg för migrering av användar-ID:n i Analytics som hjälper Analytics-administratörer att migrera användarkonton från Analytics-användarhantering till [Adobe Admin Console](https://adminconsole.adobe.com/enterprise/).
+Det finns ett verktyg för migrering av användar-ID:n i Analytics som hjälper Analytics-administratörer att migrera användarkonton från Analytics-användarhantering till [Adobe [!DNL Admin Console]](https://adminconsole.adobe.com/enterprise/).
 
-Kontomigreringen introduceras till kunder i faser. Adobe meddelar och hjälper dig när det är dags att migrera befintliga användarkonton från **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** till Admin Console.
+Kontomigreringen introduceras till kunder i faser. Adobe meddelar och hjälper dig när det är dags att migrera befintliga användarkonton från **[!UICONTROL Admin Tools]** > **[!UICONTROL User Management]** till [!DNL Admin Console].
 
 Efter migreringen loggar användare in med sin Adobe ID (eller Enterprise ID) och autentiserar till Experience Cloud-program och -tjänster på [experience.adobe.com](https://experience.adobe.com). Om användare försöker logga in via äldre inloggningar ([!DNL my.omniture.com], [!DNL sc.omniture.com] och [!DNL experiencecloud.adobe.com]) omdirigeras de till [!DNL experience.adobe.com].
 
 **Relaterad hjälp**
 
-* [Analyser i Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en)
+* [Analyser i [!DNL Admin Console]](https://experienceleague.adobe.com/docs/analytics/admin/admin-console/home.html?lang=en)
 * [Migrering av användar-ID för analyser](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/user-product-management/migrate-users/c-migration-tool.html?lang=en)
 
 ## Hantera Adobe Target - produktprofiler jämfört med arbetsytor {#section_3860AF177C9E4C7E9C390D36A414F353}
@@ -198,9 +199,9 @@ Se:
 
 * [Enterprise-användarbehörigheter](https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=en)
 * [Hantera produkter och profiler](https://helpx.adobe.com/enterprise/using/manage-products.html)
-* Video: [Konfigurera Adobe Target Workspaces i Adobe Admin Console](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=en)
+* Video: [Konfigurera Adobe Target Workspaces i Adobe [!DNL Admin Console]](https://experienceleague.adobe.com/docs/experience-cloud-kcs/kbarticles/KA-17521.html?lang=en)
 
-## Hantera kampanjproduktprofiler, klientorganisationer och säkerhetsgrupper {#section_09CDF75366444CF5810CF321B7C712F3}
+## Hantera produktprofiler, klientorganisationer och säkerhetsgrupper för Campaign {#section_09CDF75366444CF5810CF321B7C712F3}
 
 A *tenant* i Campaign visas som *produkt* på Admin Console Products-sidan.
 
@@ -214,11 +215,11 @@ Experience Platform [!UICONTROL Data Collection] visas på [!UICONTROL Products]
 
 Bjud in användare till [!UICONTROL Platform Data Collection] och tilldela användarroller och -rättigheter.
 
-Se [Användarbehörigheter](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=en) om du vill ha information om användarbehörigheter i Admin Console och om hur du konfigurerar behörigheter till profiler.
+Se [Användarbehörigheter](https://experienceleague.adobe.com/docs/experience-platform/tags/admin/user-permissions.html?lang=en) om du vill ha information om användarbehörigheter i [!DNL Admin Console] och om hur du ställer in rättigheter till profiler.
 
 ## Experience Manager as a Cloud Service
 
-Adobe Enterprise-kunder representeras av organisationer i Adobe [!UICONTROL Admin Console]. Experience Manager-kunder kan använda Adobe [!UICONTROL Admin Console] hantera produktberättiganden och IMS-autentisering till Experience Manager som [!UICONTROL Cloud Service].
+Adobe Enterprise-kunder representeras av organisationer i Adobe [!DNL Admin Console]. Experience Manager-kunder kan använda Adobe [!DNL Admin Console] hantera produktberättiganden och IMS-autentisering till Experience Manager som [!UICONTROL Cloud Service].
 
 Se [IMS-stöd för Experience Manager as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/security/ims-support.html?lang=en).
 

@@ -3,9 +3,9 @@ description: Läs mer om anpassade inlärningsinställningar i Experience Cloud.
 solution: Experience Cloud
 title: Inställningar för anpassad inlärning i Experience Cloud
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: 57f4925616c5accbe605aa96f926335abaf9aebd
+source-git-commit: 8d62b535e0a11879477d5310575d9cf8332b3d5f
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '380'
 ht-degree: 0%
 
 ---
@@ -21,12 +21,7 @@ Du kan välja att tillåta oss att förse dig med användbart innehåll som är 
 
 [![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
-
 Du kan när som helst uppdatera dina val i avsnittet Produktdataanvändning och -samling i [Inställningar för användare](https://experience.adobe.com/preferences/).
-
-
-
-
 
 ## Personaliserade utbildnings- och supportrekommendationer för produkter och tjänster från Adobe
 
@@ -53,8 +48,6 @@ Få relevanta tips och råd, praktiska tips och tricks, praktiska genomgångar m
   </tr>
 </tbody>
 </table>
-
-
 
 ## Personaliserad information om Adobe produkter, tjänster, event och kampanjer
 
@@ -85,9 +78,6 @@ Få skräddarsydda möjligheter för utbildningstillfällen, forskningssessioner
 
 
 [![](assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
-
-
-
 
 ## Se exempel på hur denna anpassade inlärningsinformation kan se ut.
 

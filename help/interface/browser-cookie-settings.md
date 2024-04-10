@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 5d852e0e-4004-4f94-a6f7-3a14a96cd42f
-source-git-commit: ea50808d2514ff3c94ffa1bee2d9aa3ddf51f120
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
 source-wordcount: '282'
-ht-degree: 1%
+ht-degree: 0%
 
 ---
 
@@ -27,7 +27,7 @@ Du kan ta bort användare som har blockerat alla cookies i webbläsare för dato
 
 >[!IMPORTANT]
 >
->Många mobilappar (t.ex. appwebbläsaren för Facebook eller Twitter) kan visas som en standardwebbläsare, men tillåter inte alla cookies. Om du aktiverar den här funktionen kan en stor andel mobiltrafik uteslutas från analysrapporter.
+>Många mobilappar (till exempel webbläsaren i appen för Facebook eller Twitter) kan visas som en standardwebbläsare, men tillåter inte alla cookies. Om du aktiverar den här funktionen kan en stor andel mobiltrafik uteslutas från analysrapporter.
 
 **Om Sekretessinställningar för webbläsare**
 

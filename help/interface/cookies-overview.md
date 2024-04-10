@@ -1,10 +1,10 @@
 ---
 description: Läs om hur lösningar och tjänster i Adobe Experience Cloud använder cookies.
-title: 'Hur cookies används i Experience Cloud '
+title: Hur cookies används i Experience Cloud
 uuid: 4255a13a-917b-4b5f-a7d4-4b2e7521d189
-source-git-commit: c7ed1324015beb7ebcf7a4ee21b05601e36e608f
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '173'
 ht-degree: 0%
 
 ---

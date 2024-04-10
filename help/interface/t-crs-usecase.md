@@ -1,16 +1,16 @@
 ---
 description: Skapa en Customer Attribute-källa och ladda upp den till Adobe Experience Cloud.
 solution: Experience Cloud
-title: Skapa en kundattributskälla och överför datafilen
+title: Skapa en källa för kundattribut och överför datafilen
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1054'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ När datakällan är aktiv kan du:
 
 >[!IMPORTANT]
 >
->För att få tillgång till den här funktionen måste användarna tilldelas till produktprofilen för kundattribut (kundattribut - standardåtkomst). Navigera till **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. If *Kundattribut* visas som en av [!UICONTROL Product Profiles]är du redo att börja. Användare som läggs till i gruppen Kundattribut ser [!UICONTROL Customer Attributes] -menyn till vänster om Experience Cloud.
+>För att få tillgång till den här funktionen måste användarna tilldelas till produktprofilen för kundattribut (kundattribut - standardåtkomst). Navigera till **[!UICONTROL Administration]** > **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. If *Kundattribut* visas som en av [!UICONTROL product profiles]är du redo att börja. Användare som läggs till i gruppen Kundattribut ser [!UICONTROL Customer Attributes] -menyn till vänster om Experience Cloud.
 >
 >Om du vill använda funktionen Kundattribut måste användarna också tillhöra programnivågrupper (Analytics eller [!DNL Target]).
 
@@ -145,7 +145,7 @@ Så här tar du bort attribut och ersätter attribut i schemat.
 
 ## Konfigurera prenumerationer och aktivera attributkällan {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
-När du konfigurerar en prenumeration skapas dataflödet mellan Experience Cloud och program. Genom att aktivera attributkällan kan data flöda till prenumererade program. De kundposter som du har överfört matchas med inkommande ID-signaler från din webbplats eller ditt program.
+När du konfigurerar en prenumeration ställs dataflödet in mellan Experience Cloud och program. Genom att aktivera attributkällan kan data flöda till prenumererade program. De kundposter som du har överfört matchas med inkommande ID-signaler från din webbplats eller ditt program.
 
 Se [Konfigurera prenumerationer](subscription.md#concept_ECA3C44FA6D540C89CC04BA3C49E63BF).
 

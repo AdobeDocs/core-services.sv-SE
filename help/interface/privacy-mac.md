@@ -8,14 +8,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 27c026ff-198b-4f49-9718-f25f77a9e716
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
 
-# Sekretessöverväganden för kundattribut
+# Sekretessöverväganden för [!DNL Customer Attributes]
 
 Överväganden och bästa praxis gällande personligt identifierbar information (PII) som överförts och används i Adobe Experience Cloud.
 
@@ -32,7 +32,7 @@ Ett vanligt skäl till att annonsörer gör detta är att förbättra den inform
 
 Adobe inser att dessa typer av beslut om marknadsföring och reklam kan påverka konsumenternas integritet, och det är därför Adobe har byggt in integritetskontroller för att hjälpa annonsörerna att uppfylla kundernas förväntningar. Adobe rekommenderar sina annonsörer att noga överväga vilken information som är lämplig att använda i marknadsföringssyfte och i vilka fall annonsören har tillstånd att använda sådan information.
 
-## God praxis
+## Bästa praxis
 
 När du överför PII till Adobe Analytics eller Adobe Target rekommenderar Adobe att kunden kraschar PII innan den överförs till Adobe. Hash-kodad information kan fortfarande användas för analys och marknadsföring. Som påminnelse förbjuder Adobe annonsörer att skicka känslig personlig information till Adobe Analytics och Adobe Target, såsom journaler, ekonomisk kontoinformation och information om minderåriga.
 

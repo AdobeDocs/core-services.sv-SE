@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '261'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Du kan överföra data när du har skapat en kundattributskälla och ett FTP-kon
 
 >[!IMPORTANT]
 >
->Granska [Datafilskrav för överföring av kundattribut](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) innan du överför filen.
+>Granska [Datafilskrav för överföring av kundattribut](crs-data-file.md#concept_DE908F362DF24172BFEF48E1797DAF19) innan filen överförs.
 
 Filöverföring till FTP-webbplatsen för kundattribut kan göras via FTP eller SFTP:
 
@@ -39,7 +39,7 @@ Filöverföring till FTP-webbplatsen för kundattribut kan göras via FTP eller 
 
 1. Överför en `.fin` så att filen kan hämtas.
 
-   Filtypen `.fin` är användarskapat och signalerar att överföringen är klar. Det kan vara en tom anteckningsblock-fil. Om du till exempel överför [!DNL crs123.csv], du också överföra [!DNL crs123.fin].
+   Filtypen `.fin` är användarskapat och signalerar att överföringen är klar. Det kan vara en tom anteckningsblock. Om du till exempel överför [!DNL crs123.csv], du också överföra [!DNL crs123.fin].
 
    Om överföringen lyckas flyttas båda filerna till en mapp med namnet **bearbetade**.
 

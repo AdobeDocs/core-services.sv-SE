@@ -1,16 +1,16 @@
 ---
 description: Modernisera era era Adobe Analytics- och Adobe Target-program för olika programtjänster. Lär dig hur du börjar använda Experience Cloud-tjänster.
 solution: Experience Cloud
-title: Aktivera dina program för tjänster över flera program
+title: Aktivera program för tjänster över flera program
 index: true
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: 55b28d6a16f88955d7259a464bb690ee5985540e
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '2136'
+source-wordcount: '2126'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Se [Experience Cloud och produktadministration](admin-getting-started.md#topic_3
 
 ### Användarinloggning
 
-För att kunna logga in på Experience Cloud måste dina användare:
+Om du vill logga in på Experience Cloud måste du:
 
 * Ha en Adobe ID (eller ett Enterprise ID för ditt företag).
 * Logga in på [experience.adobe.com](https://experience.adobe.com).
@@ -79,7 +79,7 @@ Se [Länka konton i Experience Cloud](organizations.md#topic_C31CB834F109465A82E
 >
 >När enterprise- och programgrupper har mappats länkas nya användare automatiskt. (Autentiseringsuppgifter för lösningen skapas automatiskt och länkas till deras Adobe ID.)
 
-I följande avsnitt beskrivs hur du moderniserar implementeringen. Genom att modernisera implementeringen kan du få tillgång till bastjänster i Experience Cloud.
+I följande avsnitt beskrivs hur du moderniserar implementeringen. Genom att modernisera implementeringen kan du få bastjänster i Experience Cloud.
 
 ## Implementera [!UICONTROL Experience Cloud ID Service] {#section_3C9F6DF37C654D939625BB4D485E4354}
 

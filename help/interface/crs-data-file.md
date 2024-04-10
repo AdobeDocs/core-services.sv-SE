@@ -1,27 +1,27 @@
 ---
-description: Läs mer om krav på datafiler och flera datakällor för överföring av kundattribut till Experience Cloud.
+description: Läs mer om datafilkrav och flera datakällor för överföring [!DNL Customer Attributes] till Experience Cloud.
 solution: Experience Cloud
-title: Läs mer om datafiler och datakällor för kundattribut
+title: Datafil och datakällor
 uuid: 9dd0e364-889b-45db-b190-85c0930a101e
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1175'
 ht-degree: 0%
 
 ---
 
-# Om datafiler och datakällor för kundattribut
+# Om datafiler och datakällor för [!DNL Customer Attributes]
 
-Datafilskrav och flera datakällor för överföring av kundattribut till Experience Cloud.
+Datafilskrav och flera datakällor för överföring [!DNL Customer Attributes] till Experience Cloud.
 
 Du behöver åtkomst till CRM eller liknande data från ditt företag. De data du överför till Experience Cloud måste vara `.csv` -fil. Om du överför via FTP eller sFTP överför du även en `.fin` -fil.
 
-Kundattribut är utformat för att hantera några filer per dag. För att minska problemet med att ha många små filer som försenar bearbetningen dirigeras filer som skickas inom 30 minuter från en tidigare batch från samma organisation till en kö med lägre prioritet.
+[!DNL Customer Attributes] är utformat för att hantera ett fåtal filer per dag. För att minimera problemet med att ha många små filer som försenar bearbetningen dirigeras filer som skickas inom 30 minuter från en tidigare batch från samma organisation till en kö med lägre prioritet.
 
 ## Tillåtna filtyper och namnkrav {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
 
@@ -35,7 +35,7 @@ Kundattribut är utformat för att hantera några filer per dag. För att minska
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .csv </span> </p> </td> 
-   <td colname="col2"> <p>En fil med kommaavgränsade värden (t.ex. en som skapats i Excel). Den här filen innehåller kundattributsdata. </p> <p> <b>Namngivningskrav:</b> Kontrollera att filnamnstilläggen inte innehåller blanksteg. </p> </td> 
+   <td colname="col2"> <p>En fil med kommaavgränsade värden (till exempel en som skapats i Excel). Den här filen innehåller kundattributsdata. </p> <p> <b>Namnkrav:</b> Kontrollera att filnamnstilläggen inte innehåller blanksteg. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .fin </span> </p> </td> 
@@ -43,7 +43,7 @@ Kundattribut är utformat för att hantera några filer per dag. För att minska
   </tr> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> .gz </span> eller <span class="filepath"> .zip </span> </p> </td> 
-   <td colname="col2"> <p> <span class="filepath"> .gz </span> (gzip) eller <span class="filepath"> .zip </span> - för komprimerade filer. A <span class="filepath"> .zip </span> filen får inte innehålla mer än en fil i arkivet. </p> <p> <b>Namngivningskrav:</b> Namnet på <span class="filepath"> .zip </span> eller <span class="filepath"> .gz </span> ska matcha namnet på <span class="filepath"> .csv </span>. Om <span class="filepath"> .csv </span> filen är <span class="filepath"> crm_small.csv </span>, <span class="filepath"> .zip </span> filen ska vara <span class="filepath"> crm_small.csv.zip </span>. </p> <p>FIN-filen måste matcha CSV-filen. </p> </td> 
+   <td colname="col2"> <p> <span class="filepath"> .gz </span> (gzip) eller <span class="filepath"> .zip </span> - för komprimerade filer. A <span class="filepath"> .zip </span> filen får inte innehålla mer än en fil i arkivet. </p> <p> <b>Namnkrav:</b> Namnet på <span class="filepath"> .zip </span> eller <span class="filepath"> .gz </span> ska matcha namnet på <span class="filepath"> .csv </span>. Om <span class="filepath"> .csv </span> filen är <span class="filepath"> crm_small.csv </span>, <span class="filepath"> .zip </span> filen ska vara <span class="filepath"> crm_small.csv.zip </span>. </p> <p>FIN-filen måste matcha CSV-filen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,11 +76,11 @@ Samma fil som visas i en textredigerare:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Kund-ID, kolumn </p> </td> 
-   <td colname="col2"> <p> Den första kolumnen måste vara ett unikt kund-ID. Det ID som används ska motsvara det ID som skickas till Experience Cloud ID-tjänsten. </p> <p>För Analytics lagras ID:t i en propp eller eVar. </p> <p>För Target anger du värdet setCustomerID. (Se <a href="core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics &amp; Adobe Target - synkronisera kund-ID </a>) </p> <p> Detta kund-ID är den unika identifierare som CRM använder för varje person i din databas. De återstående kolumnerna är attribut som kommer från CRM. Du väljer hur många attribut du vill överföra. </p> <p>Ett läsbart namn rekommenderas för kolumnrubrikerna, men det behövs inte. När du validerar schemat efter överföring kan du mappa egna namn till överförda rader och kolumner. </p> <p> <b>Om Kund-ID</b> </p> <p>Ett företag använder vanligtvis ett kund-ID från ett CRM-system. Detta ID anges med <span class="codeph"> setCustomerIDs </span> ringa när en person loggar in. Detta ID används också som nyckel i CRM-filen som överförs till Experience Cloud. An <a href="t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> Alias-ID </a> är ett eget namn för ett datalager i Audience Manager, där aliasdata lagras. Systemet skickar alias till detta datalager (via setCustomerID:n). CRM-filen används på data i det datalagret. </p> <p>För <span class="codeph"> setCustomerIDs </span> information, se <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en" format="https" scope="external"> Kund-ID och autentiseringstillstånd </a>. </p> </td> 
+   <td colname="col2"> <p> Den första kolumnen måste vara ett unikt kund-ID. Det ID som används ska motsvara det ID som skickas till Experience Cloud ID-tjänsten. </p> <p>För Analytics lagras ID:t i en prop eller eVar. </p> <p>För Target anger du värdet setCustomerID. (Se <a href="core-services.md#section_AD473A6A21C1446498E700363F9A8437" format="dita" scope="local"> Analytics &amp; Adobe Target - synkronisera kund-ID </a>) </p> <p> Detta kund-ID är den unika identifierare som CRM använder för varje person i din databas. De återstående kolumnerna är attribut som kommer från CRM. Du väljer hur många attribut du vill överföra. </p> <p>Ett läsbart namn rekommenderas för kolumnrubrikerna, men det behövs inte. När du validerar schemat efter överföring kan du mappa egna namn till överförda rader och kolumner. </p> <p> <b>Om Kund-ID</b> </p> <p>Ett företag använder vanligtvis ett kund-ID från ett CRM-system. Detta ID anges med <span class="codeph"> setCustomerIDs </span> ringa när en person loggar in. Detta ID används också som nyckel i CRM-filen som överförs till Experience Cloud. An <a href="t-crs-usecase.md#task_09DAC0F2B76141E491721C1E679AABC8" format="dita" scope="local"> Alias-ID </a> är ett eget namn för ett datalager i Audience Manager, där aliasdata lagras. Systemet skickar alias till detta datalager (via setCustomerID:n). CRM-filen används på data i det datalagret. </p> <p>För <span class="codeph"> setCustomerIDs </span> information, se <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=en" format="https" scope="external"> Kund-ID och autentiseringstillstånd </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Efterföljande rubriker och kolumner </p> </td> 
-   <td colname="col2"> <p>Efterföljande rubriker ska representera namnet på varje attribut. </p> <p> Dessa kolumner ska innehålla kundattribut som kommer från CRM. </p> </td> 
+   <td colname="col2"> <p>Efterföljande rubriker ska representera namnet på varje attribut. </p> <p> De här kolumnerna ska innehålla kundattribut som kommer från CRM. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attributgränser </p> </td> 
@@ -128,7 +128,7 @@ Samma fil som visas i en textredigerare:
   </tr> 
    <tr> 
    <td colname="col1"> <p>Historiska data </p> </td> 
-   <td colname="col2"> <p> Kundattribut är knutna till den underliggande besökarprofilen i [!DNL Analytics]. Som sådan [!UICONTROL Customer Attributes] är kopplade till besökaren under hela besökarprofilens livstid i [!DNL Analytics]. Den här profilen innehåller beteenden som inträffade innan kunden loggade in för första gången. </p> <p> Om du använder metoden för bakåtfyllnad i Data warehouse är data knutna till en post_visid_high/low som är baserad på analys-ID (AID). Om du använder Experience Cloud ID-tjänsten är data knutna till en post_visid_high/low som är baserad på Experience Cloud ID (MID). </p> <p> Observera att metoden Data warehouse backfill inte längre är tillgänglig från och med oktober 2022. </td> 
+   <td colname="col2"> <p> Kundattribut är knutna till den underliggande besökarprofilen i [!DNL Analytics]. Som sådan [!UICONTROL Customer Attributes] är kopplade till besökaren under hela besökarprofilens livstid i [!DNL Analytics]. Den här profilen innehåller beteenden som inträffade innan kunden loggade in för första gången. </p> <p> Om du använder metoden för bakåtfyllnad av Data Warehouse är data knutna till en post_visid_high/low som är baserad på analys-ID (AID). Om du använder Experience Cloud ID-tjänsten är data knutna till en post_visid_high/low som är baserad på Experience Cloud ID (MID). </p> <p> Observera att återfyllningsmetoden för Data Warehouse inte längre är tillgänglig från och med oktober 2022. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dataflöden </p> </td> 

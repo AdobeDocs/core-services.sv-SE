@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: d57f168b-6beb-48f2-b0d2-92593ceee62e
-source-git-commit: eb2ad8a8255915be47b6002a78cc810b522170d2
+source-git-commit: 2d74c6cc78fef614db340cc16a95c603a472907f
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 0%
+source-wordcount: '221'
+ht-degree: 1%
 
 ---
 
@@ -43,7 +43,7 @@ Se [Experience Platform Launch QuickStart Guide](https://experienceleague.adobe.
   </tr>
   <tr> 
    <td colname="col1"> <p>Använda utlösare i Adobe Campaign </p> </td> 
-   <td colname="col2"> <p> Adobe Campaign Standard 16.7 introducerar en integrering med den nya utlösartjänsten. Med den här tjänsten kan företagsanvändare enkelt definiera triggers baserat på onlinebeteendedata som samlats in i Adobe Analytics. När utlösaren har definierats finns den i Adobe Campaign som stöd för återmarknadsföringsmeddelanden som ökar engagemanget och konverteringsgraden. Den här nya körklara funktionen gör det möjligt för marknadsförare att utlösa marknadsföringsmeddelanden vid rätt tidpunkt, baserat på online-händelser som övergivna varukorgar, sidvisningar och bevakade videofilmer. </p> </td>
+   <td colname="col2"> <p> Adobe Campaign Standard 16.7 introducerar en integrering med den nya utlösartjänsten. Med den här tjänsten kan företagsanvändare enkelt definiera triggers baserat på onlinebeteendedata som samlats in i Adobe Analytics. När utlösaren är definierad finns den i Adobe Campaign som stöd för återmarknadsföringsmeddelanden som ökar engagemanget och konverteringsgraden. Den här nya körklara funktionen gör det möjligt för marknadsförare att utlösa marknadsföringsmeddelanden vid rätt tidpunkt, baserat på online-händelser som övergivna varukorgar, sidvisningar och bevakade videofilmer. </p> </td>
   </tr>
  </tbody>
 </table>

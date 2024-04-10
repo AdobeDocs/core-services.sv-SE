@@ -1,7 +1,7 @@
 ---
 description: Läs om de senaste funktionerna, versionsinformationen och kända fel för Experience Cloud-tjänster som kundattribut, målgrupper och användarhantering.
 solution: Experience Cloud
-title: Ackumulerade versionsinformation
+title: Versionsinformation för Experience Cloud
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature-set: Experience Cloud
 feature: Release Notes
@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: e67941f98156aebaef9035d1d6aa76cb7d17dcbe
+source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
-source-wordcount: '4678'
+source-wordcount: '4670'
 ht-degree: 2%
 
 ---
@@ -428,7 +428,7 @@ Nya funktioner och korrigeringar i [!DNL Adobe Experience Cloud] samarbets- och 
 * Vissa användare kan ta bort en inaktuell resurs i stället för att få ett felmeddelande.
 * Vissa användare kan få problem med att logga in i två webbläsare med samma Adobe ID samtidigt.
 * Vissa användare kanske inte kan lägga till en Creative Cloud-användare på nytt i en delad mapp efter att Creative Cloud-användaren har tagits bort.
-* Vissa användare kan få en fördröjning i meddelandet som inträffar när en mapp delas från Experience Cloud till Creative Cloud.
+* Vissa användare kan få en fördröjning i meddelandet som visas när en mapp delas från Experience Cloud till Creative Cloud.
 * Vissa användare kan ha problem med att dela en mapp mellan Experience Cloud och Creative Cloud.
 * Vissa användare kan ha problem med att skapa en målgrupp i en Analytics-rapportsserie när delade målgrupper har aktiverats.
 * Vissa användare kan ha problem med att överföra resurser till en styrelse.
