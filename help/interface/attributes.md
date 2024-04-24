@@ -1,6 +1,6 @@
 ---
 title: "[!DNL Customer Attributes]"
-description: Läs mer om [!DNL Customer Attributes] i Experience Cloud. Lär dig hur du överför kundattributdata för användning i Adobe Analytics och Adobe Target.
+description: Läs mer om [!DNL Customer Attributes] i Experience Cloud. Upptäck hur du överför data från kundattribut för användning i Adobe Analytics och Adobe Target.
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
 role: Admin
@@ -10,7 +10,7 @@ exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
 source-git-commit: 06c51428244c67fdb871d4039888aa2517048d2b
 workflow-type: tm+mt
 source-wordcount: '427'
-ht-degree: 2%
+ht-degree: 5%
 
 ---
 

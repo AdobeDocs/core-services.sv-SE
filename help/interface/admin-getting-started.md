@@ -1,6 +1,6 @@
 ---
 title: Hantera användare och produkter
-description: Logga in på Admin Console och hantera användarbehörigheter och produkter för Experience Cloud (produktprofiler). Lär dig hur du delegerar administratörsrättigheter till Experience Cloud-användare och om webbläsarstöd för Experience Cloud.
+description: Logga in på Admin Console och hantera användarbehörigheter och produkter för Experience Cloud (produktprofiler). Läs om hur du delegerar administratörsrättigheter till Experience Cloud-användare och om webbläsarstöd för Experience Cloud.
 solution: Admin
 index: true
 feature: Admin Console
@@ -11,7 +11,7 @@ exl-id: af9eda5b-d984-44b7-a7b3-52dfc4e03d8f
 source-git-commit: f229ec33ff721527e6a4c920ea63eabb4102935a
 workflow-type: tm+mt
 source-wordcount: '1538'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 

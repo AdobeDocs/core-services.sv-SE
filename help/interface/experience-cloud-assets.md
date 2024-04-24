@@ -1,5 +1,5 @@
 ---
-description: Lär dig mer om Experience Cloud Assets som du kan dela mellan program.
+description: Läs mer om Experience Cloud Assets som du kan dela mellan program.
 solution: Experience Cloud
 title: Översikt över resurser
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
