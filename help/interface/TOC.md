@@ -5,10 +5,10 @@ breadcrumb-title: Gränssnitt och administratörshandbok för Experience Cloud
 title: Experience Cloud Interface and Administration Guide
 description: Läs mer om gränssnittet och inställningarna för användarkonton i Experience Cloud. Lär dig hur du söker efter affärsobjekt och hanterar användare och produkter. Konfigurera kundattribut, målgruppsbibliotek, cookies och dela Experience Cloud Assets.
 index: true
-source-git-commit: 064f3c981b921fd5aec9b252b839d8b7f59b3dee
+source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 9%
+source-wordcount: '248'
+ht-degree: 16%
 
 ---
 
@@ -16,63 +16,64 @@ ht-degree: 9%
 # Gränssnitt och administratörshandbok för Experience Cloud {#interface}
 
 + [Användarhandbok om centrala gränssnittskomponenter i Experience Cloud](experience-cloud.md)
+
 + Experience Cloud {#services}
-   + [Experience Cloud](core-services-landing.md)
-   + [Enhetlig sökning i Experience Cloud](search-experience-cloud.md)
-   + [Aktivera implementeringen för tjänster mellan program](core-services.md)
-   + [Inställningar för anpassad inlärning i Experience Cloud](personalized-learning-preferences.md)
-   + Experience Cloud målgruppsbibliotek {#audiences}
-      + [Experience Cloud målgrupper](audience-library.md)
-      + [Skapa en målgrupp](t-audience-create.md)
-      + [Publicera ett målgruppssegment i Analytics](t-publish-audience-segment.md)
-   + Experience Cloud kundattribut {#customer-attributes}
-      + [Kundattribut i Experience Cloud](attributes.md)
-      + [Vanliga frågor om kundattribut](faq-crs.md)
-      + [Om datafiler och datakällor för kundattribut](crs-data-file.md)
-      + [Skapa en kundattributskälla och överför datafilen](t-crs-usecase.md)
-      + [Valfritt - Överför datafilen via FTP](t-upload-attributes-ftp.md)
-      + [Validera schemat](validate-schema.md)
-      + [Konfigurera prenumerationer](subscription.md)
-      + [Uppdatera schemat](t-update-schema.md)
-      + [Stöd för den allmänna dataskyddsförordningen](gdpr.md)
-      + [Stöd för California Consumer Privacy Act](ccpa.md)
-      + [Sekretessöverväganden för kundattribut](privacy-mac.md)
-   + Experience Cloud Assets {#assets}
-      + [Översikt över Experience Cloud-resurser](experience-cloud-assets.md)
-      + [Dela Experience Cloud-mappar och -resurser med Creative Cloud](creative-cloud.md)
-      + [Hantera Creative Cloud-användare](t-admin-add-cc-user.md)
-      + [Dela en Experience Cloud-resursmapp](t-share-creative-cloud.md)
-      + [Överföra en resurs till en delad mapp från webbläsaren Creative Cloud](t-upload-asset-cc.md)
-      + [Överföra en resurs till en delad mapp från skrivbordet i Creative Cloud](t-cc-asset-upload-thor.md)
-      + [Krav för resursfiler för delning](assets-file-reqs.md)
-      + [Beteende för delade mappar](asset-behavior.md)
+   + [Experience Cloud](services/overview.md)
+   + [Komma igång](services/getting-started.md)
+   + Assets {#assets}
+      + [Översikt över Experience Cloud-resurser](services/assets/experience-cloud-assets.md)
+      + [Dela Experience Cloud-mappar och -resurser med Creative Cloud](services/assets/creative-cloud.md)
+      + [Hantera Creative Cloud-användare](services/assets/manage-cc-users.md)
+      + [Dela en Experience Cloud-resursmapp](services/assets/share.md)
+      + [Överföra en resurs till en delad mapp](services/assets/upload.md)
+      + [Krav för resursfiler för delning](services/assets/file-reqs.md)
+      + [Beteende för delade mappar](services/assets/behavior.md)
+   + Målgruppsbibliotek {#audiences}
+      + [Översikt](services/audiences/overview.md)
+      + [Skapa en målgrupp](services/audiences/create.md)
+   + [Exchange](services/exchange.md)
+   + Kundattribut {#customer-attributes}
+      + [Översikt](services/customer-attributes/attributes.md)
+      + [Vanliga frågor om kundattribut](services/customer-attributes/faq-crs.md)
+      + [Om datafiler och datakällor för kundattribut](services/customer-attributes/crs-data-file.md)
+      + [Skapa en kundattributskälla och överför datafilen](services/customer-attributes/t-crs-usecase.md)
+      + [Valfritt - Överför datafilen via FTP](services/customer-attributes/t-upload-attributes-ftp.md)
+      + [Validera schemat](services/customer-attributes/validate-schema.md)
+      + [Konfigurera prenumerationer](services/customer-attributes/subscription.md)
+      + [Uppdatera schemat](services/customer-attributes/t-update-schema.md)
+      + [Stöd för den allmänna dataskyddsförordningen](services/customer-attributes/gdpr.md)
+      + [Stöd för California Consumer Privacy Act](services/customer-attributes/ccpa.md)
+      + [Sekretessöverväganden för kundattribut](services/customer-attributes/privacy-mac.md)
+   + [Utlösare](services/triggers.md)
+
++ Experience Cloud-funktioner {#features}
+   + [Kontoinställningar](features/account-preferences.md)
+   + [Enhetlig sökning](features/search.md)
+   + [Personligt lärande](features/personalized-learning.md)
+
 + Experience Cloud administration {#administration}
-   + [Hantera användaridentitet och -produkter i Experience Cloud (Admin Console)](admin-getting-started.md)
-   + [Visa användarinformation för Experience Cloud (administrationsverktyget)](admin-tool-experience-cloud.md)
-   + [Frågor och svar](faq.md)
-   + [Organisationer och kontolänkning](organizations.md)
-   + [Uppgradera till Analytics Premium och Experience Cloud](upgrade-to-analytics-premium.md)
-   + [Experience Cloud-integreringar](marketing-cloud-integrations.md)
-   + [Använda DNS-förhämtning med olika program och tjänster](dns-prefetch.md)
-   + Experience Cloud cookies {#ec-cookies}
-      + [Översikt över cookies i Experience Cloud](cookies-privacy.md)
-      + [cookies från första part i Experience Cloud](cookies-first-party.md)
-      + [Analytics-cookies](cookies-analytics.md)
-      + [Audience Manager cookies](cookies-am.md)
-      + [[!UICONTROL Data Connectors] cookies](cookies-dc.md)
-      + [[!UICONTROL Data Workbench] cookies](cookies-insight.md)
-      + [Experience Cloud cookies](cookies-mc.md)
-      + [Adobe Advertising cookies](cookies-advertising-cloud.md)
-      + [[!DNL Scene7] cookies](cookies-s7.md)
-      + [[!DNL Search and Promote] cookies](cookies-snp.md)
-      + [[!DNL Target] cookies](cookies-target.md)
-      + [Aktivera sekretessinställningar för webbläsarcookies](browser-cookie-settings.md)
-      + [Hur ändringar i stödet för cookies från tredje part påverkar kunderna](cookies-thirdparty.md)
-+ [Experience Cloud-utlösare](triggers.md)
-+ Versionsinformation för användargränssnittet i Experience Cloud {#release-notes}
-   + [Versionsinformation för centrala gränssnittskomponenter](release-notes.md)
-   + [Versionsinformation för alla Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=en)
+   + [Visa användarinformation för Experience Cloud (administrationsverktyget)](administration/admin-tool-experience-cloud.md)
+   + [Organisationer och kontolänkning](administration/organizations.md)
+   + [Experience Cloud-integreringar](administration/integrations.md)
+
++ Experience Cloud datainsamling {#data-collection}
+   + [Certifikatprogram som hanteras av Adobe](data-collection/adobe-managed-cert.md)
+   + [IP-adresser](data-collection/ip-addresses.md)
+   + [Domäner](data-collection/domains.md)
+   + Cookies {#cookies}
+      + [Översikt över cookies](data-collection/cookies/overview.md)
+      + [Annonscookies](data-collection/cookies/advertising.md)
+      + [Analytics-cookies](data-collection/cookies/analytics.md)
+      + [Audience Manager cookies](data-collection/cookies/audience-manager.md)
+      + [Experience Cloud cookies](data-collection/cookies/experience-cloud.md)
+      + [Målcookies](data-collection/cookies/target.md)
+      + [Web SDK-cookies](data-collection/cookies/web-sdk.md)
+   + [Regional datainsamling](data-collection/rdc.md)
+   + [Använd DNS-förhämtning](data-collection/dns-prefetch.md)
+
 + Fler resurser {#more-resources}
-   + [Forum](https://experienceleaguecommunities.adobe.com/)
-   + [Terminologi](terms.md)
-   + [Dokumentationsuppdateringar](doc-updates.md)
+   + [Versionsinformation](more-resources/release-notes.md)
+   + [Dokumentationsuppdateringar](more-resources/doc-updates.md)
+   + [Frågor och svar](more-resources/faq.md)
+   + [Terminologi](more-resources/terms.md)
+

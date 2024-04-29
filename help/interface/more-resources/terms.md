@@ -1,0 +1,48 @@
+---
+description: Läs mer om villkoren i Adobe Experience Cloud och hur de skiljer sig åt i Creative Cloud.
+solution: Experience Cloud
+title: Terminologi
+feature-set: Experience Cloud Services
+feature: Central Interface Components
+topic: Administration
+role: Admin
+level: Experienced
+exl-id: 3799f806-2794-43ab-9e70-06ee693871e7
+source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+workflow-type: tm+mt
+source-wordcount: '1218'
+ht-degree: 1%
+
+---
+
+# Terminologi
+
+En terminologisk referens för Experience Cloud-användare och hur dessa termer används i Creative Cloud (där det är tillämpligt).
+
+| Term | Creative Cloud | Experience Cloud |
+|--- |----- |---- |
+| **Tillgång** | I Creative Cloud är en resurs vanligtvis en bildfil.<br>Resurserna kan vara lager i en Photoshop-fil, bilder i en PowerPoint-fil, sidor i PDF och filer i en ZIP-fil. | I Experience Cloud är en resurs ett digitalt dokument, en bild, en video eller ett ljud som kan ha flera återgivningar och kan ha underresurser. Exempel:<ul><li>Fil</li><li>Dokument</li><li>Bild</li><li>Video</li><li>Ljudklipp</li><li>Presentation</li><li>Bildmall</li><li>Videomall</li></ul> |
+| **Attribut** | | Vad folk har gemensamt om de kvalificerar sig för [segment](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html). (Liknar en [trait](https://experienceleague.adobe.com/docs/audience-manager/user-guide/aam-glossary.html) i Audience Manager.) |
+| **Publiker** | I Creative Cloud kan en viss publik vara den person som tittar på en video. | I Experience Cloud är målgrupper samlingar av personer som ni kan inrikta er på i kampanjaktiviteter.<br>Medlemskapet i en målgrupp kan fastställas utifrån en uppsättning regler, utifrån besökarens kontext eller utifrån en fast lista. En lista med e-postprenumeranter eller medlemmar i en Facebook-grupp.<br>I [Experience Cloud målgrupper](../services/audiences/overview.md)Att skapa och hantera målgrupper liknar att skapa och använda segment, och kan dessutom dela dem med Experience Cloud.<br>**Adobe Target**<br> I Adobe Target kallades Publiker tidigare segment.<br>**Adobe Analytics**<br> I Analytics kan målgrupper ses som besökare på en webbplats. Ni kan skapa målgruppssegment och publicera målgruppen på Experience Cloud. |
+| **Kampanjer** | I Creative Cloud kan man tänka sig en kampanj som är en marknadsföringskampanj som använder bildresurser i Creative Cloud. | I Experience Cloud avgör kampanjer vilket innehåll som visas för publiken. Det avgör också var (plats) innehållet visas och när. En kampanj har ett specifikt mål som spåras av statistik.<br>För att kunna köra en kampanj måste besökarens kontext matchas med reglerna som anges i kampanjen, och innehållsleveransen måste ske enligt de tekniska begränsningarna för platsens kanal.<br>I Adobe Target är termerna kampanj och aktivitet synonyma. |
+| **Kanal** | I Creative Cloud kan det vara gråskalebilder som lagrar olika typer av information. Det är informationskanaler och färgkanaler. | I Experience Cloud är en kanal ett attribut för en plats eller en aktivitet i en kampanj.<br>I Analytics används marknadsföringskanaler ofta för att ge insikter om hur besökarna kommer in på er webbplats, till exempel via e-postkampanjer.<br>Exempel:<ul><li>E-post</li><li>Visa annonser</li><li>Sociala nätverk</li><li>Betalsökning</li><li>Naturlig sökning</li><li>Refererande domäner</li></ul> |
+| **Innehåll** | I Creative Cloud avser innehåll text och bilder på en sida. Termen används på liknande sätt mellan Creative och Experience Cloud. | I Experience Cloud avser innehåll marknadsföringsinnehåll som kan användas som en del av en kampanj som stöd för ett specifikt mål.<br>Innehållet används på specifika platser och kan bestå av resurser. Innehåll kan vara strukturerat, t.ex. produktinformation, eller ostrukturerat, t.ex. en webbsida eller en skärm i ett mobilprogram.<br>Exempel:<ul><li>Webbsidor</li><li>Banderoller</li><li>Statusuppdateringar</li><li>Kommentarer</li><li>Textannonser</li><li>Produktinformation</li><li>Produktrecensioner</li><li>Formulärdata</li><li>Dokument i ett sökindex</li><li>Sociala tjänster</li><li>Artiklar</li><li>Publikationer</li></ul> |
+| **Kontrollpanel** | Ingen speciell användning. | En samling datavisualiseringar som hämtar flera nyckelvärden i en enda vy. |
+| **Tillämpning av dataanvändning** | Ingen speciell användning. | Principer, systemdesign, rutiner och procedurer som införs och definieras av ett system (program, appar, tjänster, SDK:er, API:er och så vidare) för att använda metadata för dataanvändning för att möjliggöra att dataanvändningen följer Adobe integritetspolicy, avtalsöverväganden och allmänna integritetsprinciper. |
+| **Enhet** | Ingen speciell användning. | En maskinvaruenhet som en surfplatta, telefon eller dator som programmen körs på. |
+| **Device Co-op** | Ingen speciell användning. | En grupp varumärken som gått med på att dela data om vilka enheter som konsumenter använder för att bättre identifiera en individ i olika enheter och leverera mer meningsfulla och enhetliga upplevelser. |
+| **[!UICONTROL Experience Cloud ID Service](ECID)** | Ingen speciell användning. | Det unika, beständiga ID som tilldelats en besökare. Det är en specifik enhet som kan användas av identitetstjänsten Experience Platform. [Mer...](https://experienceleague.adobe.com/docs/id-service/using/home.html) |
+| **[!UICONTROL Experience Platform Identity Service]** | Ingen speciell användning. | Tjänsten som länkar identiteter. Det är en enhetslänkningstjänst för personbaserad upplevelsehantering. |
+| **Länkar** | Ingen speciell användning. Länkning avser hyperlänksnavigering och länkar till objekt som teckensnitt, egenskaper, lager och så vidare. | I Experience Cloud avser länkning vanligtvis att länka olika programkonton till gränssnittet.<br>Se [Organisationer och kontolänkning](../administration/organizations.md).<br>Länkning hänvisar också till vanliga URL:er för analysrapporter som skickas till andra användare. |
+| **Platser** | I Creative Cloud avser plats filplatser eller en plats i en öppen bild eller ett öppet dokument. | I Experience Cloud är det platser där målgrupperna kan se (och interagera med) innehåll. Kopplingen mellan platser och innehåll kan vara mer eller mindre statisk, eller hanteras dynamiskt enligt reglerna i en kampanj. En plats tillhör alltid en viss kanal som avgör hur innehåll kan levereras och hur mätvärden kan samlas in.<br>Exempel:<ul><li>Sites</li><li>Egenskaper (sociala medier)</li><li>Visa lager</li><li>Landningssidor</li><li>Mobilappar</li><li>Platser (video)</li></ul> |
+| **Mätvärden** | Används inte i Creative Cloud. | Sammanställ siffror om viktiga koncept och mål. I Analytics är mätvärden kvantitativ information om besökaraktivitet, till exempel Vyer, Genomstrykningar, Läs in igen, Genomsnittlig tid, Enheter, Beställningar och Intäkter. |
+| **Organisation** | Används inte i Creative Cloud. | En organisation är Experience Cloud som gör det möjligt för en administratör att konfigurera användare och produkter samt att styra enkel inloggning i Experience Cloud. Oftast är det faktureringsföretaget som är organisationen. |
+| **Portfolio** | En sammansättning med flera filer eller resurser. | En behållare för kampanjer. |
+| **Produktprofil** | Se [Hantera produkter och profiler](https://helpx.adobe.com/enterprise/using/manage-products.html). | För att en användare ska ha rätt att använda en produkt eller tjänst måste användaren ingå i en produktprofil. Produktadministratören tilldelar licenser till en produktprofil genom att associera den med en plan som du har köpt.<br>En användare kan tillhöra flera produktprofiler där varje produktprofil ger användaren olika licenser. En användares sammanlagda behörighet är kombinationen av alla licenser som följer av varje produktprofil för användaren. |
+| **Schema** | Kan referera till en sekvens med scener i Adobe Story eller schemalagda aktiviteter i ColdFusion. | I Experience Cloud är ett schema startdatum (år, månad, dag) och slutdatum för aktivering av kampanjer, kanaler och aktiviteter. Aktivitetsscheman har detaljrikedom ända ner till minuten. Om du ändrar ett schema skapas ett kort.<br>Exempel:<ul><li>Kampanjtidsplaner</li><li>Kanalscheman</li><li>Aktivitetsplaner</li></ul> |
+| **Segment** | Ej tillämpligt | Resultatet av en uppsättning regler för att kvalificera en målgrupp. I Analytics [segment](https://experienceleague.adobe.com/docs/analytics/components/segmentation/seg-home.html) kan användas för att definiera en målgrupp som kan skickas till Experience Cloud. <br>I Audience Manager är ett segment en samling av [traits](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html) och alla kriterier som berättigar besökare till medlemskap eller deltagande i det segmentet. Det är också en samling personer som delar dessa gemensamma attribut. |
+| **Delning** | I Creative Cloud kan du dela filer externt på olika plattformar (sociala nätverk, communities, e-post och så vidare). | I Experience Cloud kan du dela en resurs som ett kort, inuti ritytor inuti gränssnittet. Delning är tillgänglig för dem som är inloggade på webbplatsen. |
+| **Lösning** | Ingen speciell användning. | I Experience Cloud kallas program för produkter som Adobe Analytics, Adobe Target osv. |
+| **Trait** | Ej tillämpligt | Ett nyckelvärdepar, till exempel color=blue. I AUDIENCE MANAGER [traits](https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/traits/traits-overview.html) används för att skapa segment. |
+
+{style="table-layout:auto"}
