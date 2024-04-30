@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: 028b11dfbcfc0c5c9f6fd1c69350574f81f2846b
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -155,7 +155,7 @@ Följande klienter är kända för att inte kunna ansluta med krypteringssäkerh
 
 +++Vilka HTTPS-certifikattyper stöds?
 
-Adobe stöder både RSA- och ECC-certifikattyper för att uppfylla olika kundbehov. RSA-certifikat stöds i större utsträckning för klienter, men ECC-certifikat använder mindre bearbetning både på server- och klientsidan. För certifikat som hanteras av Adobe tillhandahålls både RSA och ECC. För kundhanterade certifikat rekommenderas både RSA och ECC. Moderna klienter har stöd för både RSA och ECC. Följande klienter har vanligtvis bara stöd för RSA-certifikat:
+Adobe stöder både RSA- och ECC-certifikattyper för att uppfylla olika kundbehov. RSA-certifikat stöds i större utsträckning för klienter, men ECC-certifikat använder mindre bearbetning både på server- och klientsidan. För certifikat som hanteras av Adobe tillhandahålls både RSA och ECC. För kundhanterade certifikat krävs RSA och ECC rekommenderas. Moderna klienter har stöd för både RSA och ECC. Följande klienter har vanligtvis bara stöd för RSA-certifikat:
 
 * Windows Vista och tidigare (senast uppdaterat 2012)
 * Windows Phone 8.0 och tidigare (senast uppdaterad 2014)
