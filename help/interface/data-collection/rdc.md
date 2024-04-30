@@ -2,9 +2,9 @@
 title: Regional datainsamling
 description: Information om regional datainsamling
 exl-id: 295e9736-2a58-48a8-9968-5dfa33b70d95
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: 01851c4d66cbaf1a68961b86926e8cc2c310d1ec
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Följande platser (kan ändras) ingår för närvarande i RDC:
 | Typ av domänkontrollant | Datainsamlingscentral |
 | --- | --- |
 | Global (standard) | Oregon, Virginia, Irland, Paris, Mumbai, Singapore, Tokyo, Sydney |
-| Global + Kina* | Kina*, Oregon, Virginia, Irland, Paris, Mumbai, Singapore, Tokyo, Sydney |
+| Global + Kina* | Beijing*, Oregon, Virginia, Irland, Paris, Mumbai, Singapore, Tokyo, Sydney |
 | Endast Amerika | Oregon, Virginia |
 | Endast Europa | Irland, Paris |
 | Endast Asien och Stillahavsområdet | Mumbai, Singapore, Tokyo, Sydney |
@@ -41,6 +41,7 @@ Insamling av data från tredje part inkluderar cookie-domäner som inte matchar 
 
 | Typ av domänkontrollant | Datainsamlingscentral |
 | --- | --- |
-| Standard | Oregon, Virginia, Irland, Paris, Mumbai, Singapore, Tokyo, Sydney, Kina* |
+| Standard | Oregon, Virginia, Irland, Paris, Mumbai, Singapore, Tokyo, Sydney |
+| Standard + Kina* | Beijing*, Oregon, Virginia, Irland, Paris, Mumbai, Singapore, Tokyo, Sydney |
 
 {style="table-layout:auto"}
