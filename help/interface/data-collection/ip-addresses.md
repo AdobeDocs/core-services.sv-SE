@@ -1,26 +1,25 @@
 ---
-title: Adobe Experience Cloud IP-adresser
+title: IP-adresser som används av Adobe Experience Cloud
 description: Om brandväggen blockerar IP-adresser som kommer från Adobe kan du uppdatera brandväggsinställningarna i den här listan.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: df91266d6a15c74e3f110050338498062cc34058
 workflow-type: tm+mt
-source-wordcount: '370'
-ht-degree: 3%
+source-wordcount: '373'
+ht-degree: 2%
 
 ---
 
-# Adobe Experience Cloud IP-adresser och domäner
+# IP-adresser som används av Adobe Experience Cloud
 
 Vissa brandväggskonfigurationer blockerar IP-adresser som kommer från Adobe datainsamlingsservrar eller servrar som är ansvariga för dataåtkomst. Du kan använda den här listan med intervall för att ändra organisationens brandväggsinställningar så att åtkomst tillåts och data skickas inifrån organisationen. Den här sidan innehåller både inkommande och utgående system (till exempel datainsamling) (till exempel dataflöden i Adobe Analytics) som används i Adobe.
 
 >[!IMPORTANT]
 >
->Även om Adobe gör sitt bästa för att hålla det här dokumentet aktuellt kan det inte garantera att listan med IP-intervall är densamma. Möjliga förändringar är tillväxt och expansion av verksamheten, ett Internetregister kräver ändringar av Adobe IP-adressutrymme eller så slutar en Internetleverantör att fungera.
+>Även om Adobe gör sitt bästa för att hålla det här dokumentet aktuellt kan det inte garantera att listan med IP-intervall är densamma. Möjliga förändringar är tillväxt och expansion av verksamheten, ett Internetregister kräver ändringar av Adobe IP-adressutrymme eller att en Internetleverantör slutar fungera.
 
-Förutom de IP-adressblock som listas nedan har enskilda Adobe Experience Cloud-produkter sina egna domäner som de använder:
+Förutom de IP-adressblock som anges nedan har enskilda Adobe Experience Cloud-produkter sina egna IP-adresser som de använder:
 
-* [Adobe Experience Cloud](domains.md)
-* Adobe Analytics
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
 * Customer Journey Analytics
 
 ## Alla IP-adressblock för Adobe
@@ -48,7 +47,7 @@ Om din organisation föredrar att tillåta specifika IP-adressintervall kan du r
 
 Alla IP-intervall i det här avsnittet ingår i tabellen ovan.
 
-| Plats | IP-intervall (CIDR-notering) |
+| Plats | IP-intervall (CIDR-notation) |
 | --- | --- |
 | Australien | `63.140.55.0/24` |
 | Australien | `63.140.56.0/23` |

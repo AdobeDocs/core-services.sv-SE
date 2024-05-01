@@ -5,10 +5,10 @@ breadcrumb-title: Gränssnitt och administratörshandbok för Experience Cloud
 title: Experience Cloud Interface and Administration Guide
 description: Läs mer om gränssnittet och inställningarna för användarkonton i Experience Cloud. Lär dig hur du söker efter affärsobjekt och hanterar användare och produkter. Konfigurera kundattribut, målgruppsbibliotek, cookies och dela Experience Cloud Assets.
 index: true
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 16%
+source-wordcount: '227'
+ht-degree: 18%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 16%
 
 + [Användarhandbok om centrala gränssnittskomponenter i Experience Cloud](experience-cloud.md)
 
-+ Experience Cloud {#services}
-   + [Experience Cloud](services/overview.md)
++ Tjänster {#services}
+   + [Översikt](services/overview.md)
    + [Komma igång](services/getting-started.md)
    + Assets {#assets}
-      + [Översikt över Experience Cloud-resurser](services/assets/experience-cloud-assets.md)
-      + [Dela Experience Cloud-mappar och -resurser med Creative Cloud](services/assets/creative-cloud.md)
+      + [Översikt](services/assets/experience-cloud-assets.md)
+      + [Dela mappar och resurser med Creative Cloud](services/assets/creative-cloud.md)
       + [Hantera Creative Cloud-användare](services/assets/manage-cc-users.md)
-      + [Dela en Experience Cloud-resursmapp](services/assets/share.md)
+      + [Dela en resursmapp](services/assets/share.md)
       + [Överföra en resurs till en delad mapp](services/assets/upload.md)
       + [Krav för resursfiler för delning](services/assets/file-reqs.md)
       + [Beteende för delade mappar](services/assets/behavior.md)
@@ -46,17 +46,17 @@ ht-degree: 16%
       + [Sekretessöverväganden för kundattribut](services/customer-attributes/privacy-mac.md)
    + [Utlösare](services/triggers.md)
 
-+ Experience Cloud-funktioner {#features}
++ Funktioner {#features}
    + [Kontoinställningar](features/account-preferences.md)
    + [Enhetlig sökning](features/search.md)
    + [Personligt lärande](features/personalized-learning.md)
 
-+ Experience Cloud administration {#administration}
-   + [Visa användarinformation för Experience Cloud (administrationsverktyget)](administration/admin-tool-experience-cloud.md)
++ Administration {#administration}
+   + [Visa användarinformation (Admin Tool)](administration/admin-tool-experience-cloud.md)
    + [Organisationer och kontolänkning](administration/organizations.md)
-   + [Experience Cloud-integreringar](administration/integrations.md)
+   + [Integreringar](administration/integrations.md)
 
-+ Experience Cloud datainsamling {#data-collection}
++ Datainsamling {#data-collection}
    + [Certifikatprogram som hanteras av Adobe](data-collection/adobe-managed-cert.md)
    + [IP-adresser](data-collection/ip-addresses.md)
    + [Domäner](data-collection/domains.md)
