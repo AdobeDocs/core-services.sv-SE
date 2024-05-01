@@ -2,9 +2,9 @@
 title: IP-adresser som används av Adobe Experience Cloud
 description: Om brandväggen blockerar IP-adresser som kommer från Adobe kan du uppdatera brandväggsinställningarna i den här listan.
 exl-id: e24a70e4-9ed4-4b87-8bab-4ed0aebedd1f
-source-git-commit: df91266d6a15c74e3f110050338498062cc34058
+source-git-commit: db363c7f35dbd475548af5cbae2977ebf7a9c672
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '374'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ Vissa brandväggskonfigurationer blockerar IP-adresser som kommer från Adobe da
 Förutom de IP-adressblock som anges nedan har enskilda Adobe Experience Cloud-produkter sina egna IP-adresser som de använder:
 
 * [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
-* Customer Journey Analytics
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
 
 ## Alla IP-adressblock för Adobe
 
