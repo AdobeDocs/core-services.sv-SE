@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 0724136e77d6fe1341a64aea75051127956df3b2
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '537'
 ht-degree: 4%
 
 ---
@@ -23,7 +23,7 @@ Organisationen fungerar som ett inloggningsföretag som omfattar alla produkter 
 
 ![Experience Cloud-organisationer](../assets/organizations-menu.png)
 
-Kontrollera att du har loggat in på rätt organisation genom att klicka på din profilavatar för att visa organisationsnamnet. Om du har tillgång till mer än en organisation kan du även visa och växla till en annan organisation i sidhuvudsfältet.
+Kontrollera att du har loggat in på rätt organisation genom att klicka på din profilavatar för att se organisationens namn. Om du har tillgång till mer än en organisation kan du även visa och växla till en annan organisation i sidhuvudsfältet.
 
 ## Federated ID
 
@@ -37,7 +37,7 @@ Du kan hitta ditt tilldelade organisations-ID i supportsyfte. Du kan verifiera a
 
 Organisations-ID är det ID som är kopplat till ditt tilldelade Experience Cloud-företag. Detta ID är en 24 tecken lång alfanumerisk sträng, följt av (och måste innehålla) `@AdobeOrg`.
 
-Du kan visa ditt organisations-ID tillsammans med annan kontoinformation med ett kortkommando **Ctrl+i** från vilken sida som helst `https://experience.adobe.com`.
+Du kan visa ditt organisations-ID tillsammans med annan kontoinformation med hjälp av kortkommandot **Ctrl+i** från vilken sida som helst `https://experience.adobe.com`.
 
 **Så här visar du ditt organisations-ID**
 
@@ -45,7 +45,7 @@ Du kan visa ditt organisations-ID tillsammans med annan kontoinformation med ett
 
    ![Tilldelat organisations-ID](../assets/assigned-organization.png)
 
-1. Under **[!UICONTROL User Information]**, sök efter **[!UICONTROL Current Org ID]** och du ser ditt företags-ID.
+1. Under **[!UICONTROL User Information]**, sök efter **[!UICONTROL Current Org ID]** och du kan hitta organisations-ID:t.
 
    Administratörer kan även logga in på Admin Console (navigera till [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) och visa ditt organisations-ID i URL:en.
 
@@ -87,7 +87,7 @@ Välj **[!UICONTROL Edit Profile]**.
 
 ![Redigera profil](../assets/edit-profile.png)
 
-Under Standardsida för organisation och landning kan du anpassa din inloggningsupplevelse.
+Under **[!UICONTROL Default Organization & Landing Page]** kan du anpassa inloggningsupplevelsen.
 
 ![Standardsida för organisation och landning](../assets/default-organization.png)
 
