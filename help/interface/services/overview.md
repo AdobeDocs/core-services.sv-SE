@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: 9ee4d9b0e670dec35cda530892c49e36bf7cc107
+source-git-commit: b3484afe7ed1e015030f73ea0a25b921c32d81dd
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '186'
 ht-degree: 5%
 
 ---
@@ -28,7 +28,7 @@ I den här hjälpen beskrivs följande produkter och tjänster:
 | Bastjänst | Beskrivning |
 |--- |--- |
 | [Komponenter i det centrala gränssnittet](../experience-cloud.md) | Få åtkomst till kontoinställningar, sök efter produkthjälp och få tillgång till program och tjänster. |
-| [Folk - [!DNL Audience Library]](audiences/overview.md) | Målgrupper är samlingar med besökare (en lista med besökar-ID). Adobe [!DNL Audience Library] Med kan ni hantera översättning av besöksdata till målgruppssegmentering. Som |
+| [Folk - [!DNL Audience Library]](audiences/overview.md) | Målgrupper är samlingar med besökare (en lista med besökar-ID). Adobe [!DNL Audience Library] Med kan ni hantera översättning av besöksdata till målgruppssegmentering. |
 | [Personer - kundattribut](customer-attributes/attributes.md) | Bygg upp användningsfall för realtidssamordning med hjälp av kontextuella data lagrade i händelser eller datakällor. [!UICONTROL Journey Orchestration] är en programtjänst som är integrerad i Experience Platform. |
 | [Resurser](assets/experience-cloud-assets.md) | Experience Cloud Assets utgör ett enda centralt arkiv med marknadsföringsmaterial som du kan dela mellan olika program. |
 
@@ -36,4 +36,4 @@ I den här hjälpen beskrivs följande produkter och tjänster:
 
 >[!NOTE]
 >
->Produktdokumentation för Experience Platform finns [här](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html). Teknisk dokumentation för [!UICONTROL Experience Platform] utvecklare finns på [Adobe Developer](https://developer.adobe.com/apis).
+>Produktdokumentation för [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) är tillgängligt. Teknisk dokumentation för [!UICONTROL Experience Platform] utvecklare finns på [Adobe Developer](https://developer.adobe.com/apis).
