@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 48e79e23-b339-4143-b3b1-969c370efeff
-source-git-commit: a4e0461791cd676365857c2dd4ef28c0e40c3430
+source-git-commit: cdb969ba98f023162297efbd1be320b509c74c32
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '1919'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,7 @@ Experience Cloud (t.ex. Experience Cloud ID-tjänsten och [!UICONTROL People ser
 
 ## Uppdatera Analytics-AppMeasurementen {#section_1798D9D0F05C47E29816AC4EEB9A0913}
 
-Om du använder Analytics bör du kontrollera att du använder regional datainsamling (RDC). Om din datainsamlingsdomän är `omtrdc.net`eller om CNAME är mappat till `omtrdc.net`, du är på RDC. Se [Övergång till RDC](https://experienceleague.adobe.com/docs/analytics/technotes/rdc/regional-data-collection.html) för mer information. Om du använder cookies från första part finns mer information i [CNAME och Experience Cloud ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html) om du vill ha information om CNAME för datainsamling och spårning mellan domäner.
+Om du använder cookies från första part finns mer information i [CNAME och Experience Cloud ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/reference/analytics-reference/cname.html) om du vill ha information om CNAME för datainsamling och spårning mellan domäner.
 
 Vi rekommenderar att du moderniserar din Analytics-implementering genom att uppdatera dina JavaScript-bibliotek, inklusive Visitor API. Det enkla sättet att uppnå är att lägga till en [Adobe Analytics-tillägg](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/analytics/overview.html) i Experience Platform datainsamling.
 
