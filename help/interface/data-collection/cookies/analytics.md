@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: 2691f0dc91e48a8f817467e334d9028f2e506e70
+source-git-commit: e7c4085f41c674826ddc097a01a24ff9ab6aae2c
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '379'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,7 @@ Analytics använder cookies för att definiera nya besökare anonymt, hjälpa ti
 | **`s_sq`** | Session | 100-200 byte | Förste part | Används av Activity Map. Den innehåller information om den föregående länken som besökaren klickade på. Ange med JavaScript. |
 | **`s_vi`** | 2 år | 44 byte | Förste part, eller `*.omtrdc.net` (tredje part) | Lagrar ett unikt besökar-ID och tidsstämpel. Ange med HTTP-svar. Varje besökar-ID är associerat med en besökarprofil på Adobe-servrar. Besökarprofiler tas bort efter 1 års inaktivitet, oavsett om en cookie-fil för besöks-ID har gått ut eller inte. The `Secure` flagga anges när `SameSite` är &quot;Ingen&quot; och anslutningen är HTTPS. `SameSite` är&quot;Lax&quot; som standard för cookies från första part. `SameSite` är &quot;Ingen&quot; när cookies från tredje part används, till exempel på `omtrdc.net` eller `2o7.net`. Ange `SameSite` till &quot;Ingen&quot; när du använder en enda CNAME för att spåra flera domäner eller egenskaper. |
 | **`s_fid`** | 2 år | 33 byte | Förste part | Lagrar unikt besökar-ID och tidsstämpel för reserv. Ange med JavaScript om standardvärdet `s_vi` Det går inte att ange cookie på grund av begränsningar för cookies från tredje part. Används inte för cookie-implementeringar från första part. |
+| **`s_ac`** | Omedelbar | 1 byte | Förste part | Hjälper till att fastställa rätt domän att ange AppMeasurementets cookies. Innehåller det statiska värdet `"1"`. När denna cookie är inställd tas den bort omedelbart. |
 
 {style="table-layout:auto"}
 
