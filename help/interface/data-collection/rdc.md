@@ -16,7 +16,7 @@ Adobe Experience Cloud använder regional datainsamling (RDC) så att interaktio
 Arbetsflödet för regional datainsamling ger flera fördelar:
 
 * **Prestanda**: Med RDC ansluter besökarna till den närmaste edge-webbplatsen. Denna optimering ger den snabbaste svarstiden, vilket ger mer exakt spårning och snabbare laddningstider.
-* **Redundans**: Om kommunikationen mellan en edge-plats och en central plats störs sparar Adobe infrastruktur data lokalt och vidarebefordrar den sedan till kärnplatsen när kommunikationen återställs. Adobe kan även dirigera trafik till andra edge-sajter om en viss plats får avbrott.
+* **Redundans**: Om kommunikationen mellan en edge-plats och en core-plats avbryts, sparar Adobe infrastruktur data lokalt och vidarebefordrar den sedan till huvudplatsen när kommunikationen återställs. Adobe kan även dirigera trafik till andra edge-sajter om en viss plats får avbrott.
 
 Följande platser (kan ändras) ingår för närvarande i RDC:
 
@@ -33,11 +33,11 @@ Följande platser (kan ändras) ingår för närvarande i RDC:
 
 {style="table-layout:auto"}
 
-_*China RDC kräver tilläggspaketet för Kina-prestandaoptimering och gäller endast Adobe Analytics som använder datainsamling från AppMeasurement. Andra Experience Cloud-tjänster och Web SDK-datainsamling stöds inte. Kontakta kontoteamet på Adobe om du vill veta mer om tillägget Prestandaoptimering för Kina._
+_*För Kina-domänkontrollant krävs tilläggspaketet för prestandaoptimering för Kina, och det gäller endast Adobe Analytics som använder datainsamling för AppMeasurement. Andra Experience Cloud-tjänster och Web SDK-datainsamling stöds inte. Kontakta kontoteamet på Adobe om du vill veta mer om tillägget Prestandaoptimering för Kina._
 
 ## Datainsamling från tredje part
 
-Insamling av data från tredje part inkluderar cookie-domäner som inte matchar webbplatsens domän. Exempel: `adobedc.net`, `omtrdc.net`och `2o7.net`.
+Insamling av data från tredje part inkluderar cookie-domäner som inte matchar webbplatsens domän. Exempel är `adobedc.net`, `omtrdc.net` och `2o7.net`.
 
 | Typ av domänkontrollant | Datainsamlingscentral |
 | --- | --- |

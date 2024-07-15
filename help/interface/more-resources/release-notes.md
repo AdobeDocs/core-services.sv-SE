@@ -20,7 +20,7 @@ ht-degree: 4%
 
 Funktioner, versionsinformation och kända fel för gränssnittskomponenterna i Experience Cloud Central.
 
-En lista över dokumentationsuppdateringar finns på [Dokumentation](doc-updates.md).
+En lista över dokumentationsuppdateringar finns i [Dokumentationsuppdateringar](doc-updates.md).
 
 Versionsinformation om alla program finns i [Versionsinformation för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv).
 
@@ -44,13 +44,13 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 ## Maj 2023
 
-* I [!DNL Experience Cloud] **[!UICONTROL Help]** har innehållssökningen uppdaterats för att filtrera efter program i [Experience League](https://experienceleague.adobe.com/#home) sökresultat.
+* Innehållssökningen har uppdaterats på menyn [!DNL Experience Cloud] **[!UICONTROL Help]** för att filtrera efter program i sökresultaten för [Experience League](https://experienceleague.adobe.com/#home).
 
 ## Juli 2022
 
 | Funktion | Beskrivning |
 | ------- | ------- |
-| Enhetligt hem - widget för snabbåtkomst | **Navigera snabbare:** Nu kan du anpassa din hemupplevelse ytterligare och bestämma vilka program du har till hands. Använd den nya fästfunktionen för att välja vilka program som ska visas längst fram och i mitten på din [!UICONTROL Quick Access]. <br>**Håll dig informerad med smart fästning:** Dina nya program är nu enklare att hitta. Nyligen tilldelade program visar en _Nytt_ märke och automatiskt fästa på [!UICONTROL Quick Access]. |
+| Enhetligt hem - widget för snabbåtkomst | **Navigera snabbare:** Nu kan du anpassa din hemupplevelse ytterligare och bestämma vilka program du har till hands. Använd den nya fästfunktionen för att välja vilka program som ska visas längst fram och i mitten på din [!UICONTROL Quick Access]. <br>**Håll dig informerad med smart fästning:** Dina nya program är nu enklare att hitta. Nyligen tilldelade program visar märket _New_ och det automatiska nålet på [!UICONTROL Quick Access]. |
 
 {style="table-layout:auto"}
 
@@ -66,7 +66,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Funktion | Beskrivning |
 | ------- |-------|
-| Åtkomst [!UICONTROL Recents] över Experience Platform och Journey Optimizer via sökfältet | Användare kan nu komma åt nyligen använda objekt från alla sidor i AEP och AJO via det enhetliga sökfältet. |
+| Åtkomst till [!UICONTROL Recents] mellan Experience Platform och Journey Optimizer via sökfältet | Användare kan nu komma åt nyligen använda objekt från alla sidor i AEP och AJO via det enhetliga sökfältet. |
 
 {style="table-layout:auto"}
 
@@ -74,8 +74,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Funktion | Beskrivning |
 | ------- |-------|
-| Kortkommandon (**[!UICONTROL Recents]**) har lagts till i [Experience Cloud](https://experience.adobe.com/home) home | Du kan komma åt genvägar till dina senaste Journey Optimizer- och Experience Platform-arbeten under den nya _Senaste_ på landningssidan. Uppdateringen innehåller även allmänna layoutförbättringar och förbättringar av svarstiderna. |
-| **[!UICONTROL Sandboxes]** flyttad till sidhuvudsfältet | Sandlådeindikatorn är nu integrerad i sidhuvudet för alla Experience Platform-gränssnittsprogram. Se [Sandlådor](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) i Experience Platform för mer information. |
+| Kortkommandon (**[!UICONTROL Recents]**) har lagts till i startsidan för [Experience Cloud](https://experience.adobe.com/home) | Du kan komma åt genvägar till dina senaste Journey Optimizer- och Experience Platform-arbeten under den nya rubriken _Senaste_ på landningssidan. Uppdateringen innehåller även allmänna layoutförbättringar och förbättringar av svarstiderna. |
+| **[!UICONTROL Sandboxes]** har flyttats till rubrikfältet | Sandlådeindikatorn är nu integrerad i sidhuvudet för alla Experience Platform-gränssnittsprogram. Mer information finns i [Sandlådor](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) i Experience Platform. |
 
 {style="table-layout:auto"}
 
@@ -84,8 +84,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 | Funktion | Beskrivning |
 | ------- | ------- |
 | Hemsida | Information om sidfoten i Experience Cloud har flyttats till användarprofilkortet, inklusive Juridiska meddelanden och språkval i Inställningar. |
-| AEP-instrumentpaneler | [!DNL Helios Lite] innehåller diagramrekommendationer i arbetsflödet för att skapa Experience Platform-widgetar. Förutsatt ett dataurval (för närvarande ett urval av variabeldata), [!DNL Helios] rekommenderar en lämplig visualisering som medföljer valet av data. |
-| AEP-instrumentpaneler | [!DNL Instory] innehåller XML-baserad skriven berättarröst och bildtexter för diagram. Den inordnar diagram på AEP Dashboards-sidan med relevanta punkter som anropar viktiga ändringar och incidenter i grafdata. |
+| AEP-instrumentpaneler | [!DNL Helios Lite] innehåller diagramrekommendationer i arbetsflödet för att skapa Experience Platform-widgetar. Med hjälp av ett dataurval (för närvarande ett urval av variabeldata) rekommenderar [!DNL Helios] en lämplig visualisering som medföljer det markerade datameddelandet. |
+| AEP-instrumentpaneler | [!DNL Instory] innehåller en XML-baserad skriven berättarröst och bildtexter för diagram. Den inordnar diagram på AEP Dashboards-sidan med relevanta punkter som anropar viktiga ändringar och incidenter i grafdata. |
 
 {style="table-layout:auto"}
 
@@ -94,7 +94,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | Funktion | Beskrivning |
 | ------- | ------- |
 | Enhetlig sökning | Enhetlig sökning fortsätter att lägga till objekttyper i sökindexet. I den här uppdateringen söker nu global sökning igenom Experience League-innehåll och följande Journey Optimizer-objekttyper: <ul><li>Datauppsättningar</li><li>Mål </li><li>Frågor</li><li>Scheman</li><li>Segment</li><li>Källor</li><li>Erbjudanden</li><li>Komponenter</li><li>Meddelanden</li><li>Resor</li></ul> |
-| Produktanvändningsdata, samtycke | Vid en första inloggning ombeds du ange inställningar för hur Adobe kan ge dig användbart, personaliserat innehåll, t.ex. självstudiekurser, guider, snabbtips, rekommendationer, utbildningsvideor med mera, baserat på dina produktanvändningsdata för Experience Cloud. Denna begäran innehåller även en uppdatering av dina inställningar för insamling och användning av dessa data på <https://experience.adobe.com/preferences>. |
+| Produktanvändningsdata, samtycke | Vid en första inloggning ombeds du ange inställningar för hur Adobe kan ge dig användbart, personaliserat innehåll, t.ex. självstudiekurser, guider, snabbtips, rekommendationer, utbildningsvideor med mera, baserat på dina produktanvändningsdata för Experience Cloud. Den här begäran innehåller även en uppdatering av dina inställningar för insamling och användning av dessa data på <https://experience.adobe.com/preferences>. |
 
 {style="table-layout:auto"}
 
@@ -102,7 +102,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Funktion | Beskrivning |
 | ------- | -------|
-| [!UICONTROL Unified Recents] - Utökat stöd för nyligen använda affärsobjekt | [!UICONTROL Unified Recents] utvidgas till att omfatta ytterligare affärsobjekt i Journey Optimizer och Experience Platform. Journey Optimizer-kunder kan hitta sina nyligen använda objekt (meddelanden, resor, segment, scheman, datauppsättningar, datakällor, händelser, åtgärder, källor och destinationer) från Adobe Journey Optimizer hemsida. |
+| [!UICONTROL Unified Recents] - Utökat stöd för nyligen använda affärsobjekt | [!UICONTROL Unified Recents] utökas till ytterligare affärsobjekt i Journey Optimizer och Experience Platform. Journey Optimizer-kunder kan hitta sina nyligen använda objekt (meddelanden, resor, segment, scheman, datauppsättningar, datakällor, händelser, åtgärder, källor och destinationer) från Adobe Journey Optimizer hemsida. |
 
 {style="table-layout:auto"}
 
@@ -114,8 +114,8 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 
 | Funktion | Datum | Beskrivning |
 | ------- | ------- | ------- |
-| Stöd för enkel inloggning för Adobe Federated ID | 17 juni 2021 | Om du använder Federated ID:n kan du logga in på Experience Cloud utan att behöva ange en e-postadress eller ett lösenord. Lägg till `#/sso:@domain` till Experience Cloud URL. <br>Anta till exempel att du äger domänen `adobecustomer.com` och vill logga in på Adobe Analytics. URL:en skulle vara: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Experience League Search | 1 juni 2021 | Dokumentationssökningen i Experience League har förbättrats. Navigera till [Experience League](https://experienceleague.adobe.com/docs/) och använder **[!UICONTROL Search]** för att hitta självstudiekurser, dokumentation, kurser med mera. |
+| Stöd för enkel inloggning för Adobe Federated ID | 17 juni 2021 | Om du använder Federated ID:n kan du logga in på Experience Cloud utan att behöva ange en e-postadress eller ett lösenord. Om du vill använda den här funktionen lägger du till `#/sso:@domain` i Experience Cloud-URL:en. <br>Anta till exempel att du äger domänen `adobecustomer.com` och vill logga in på Adobe Analytics. URL:en skulle vara: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
+| Experience League Search | 1 juni 2021 | Dokumentationssökningen i Experience League har förbättrats. Navigera till [Experience League](https://experienceleague.adobe.com/docs/) och använd fältet **[!UICONTROL Search]** för att hitta självstudiekurser, dokumentation, kurser med mera. |
 
 {style="table-layout:auto"}
 
@@ -124,8 +124,8 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 | Funktion | Beskrivning |
 | ------- | ------- |
 | Experience Cloud Header &amp; Navigation | Adobe Experience Cloud uppdateringar innehåller en ändring av det ljusa temat för sidhuvudet, med möjlighet att enkelt växla tillbaka till det mörka temat och länka för att styra ytterligare inställningar från användarens avatar i Experience Cloud-huvudet. Även om inte alla program i Experience Cloud stöder teman, låser den här funktionen upp det framtida temastödet. |
-| Global sökning i Experience Cloud | Med den här versionen av Experience Cloud kan du söka i alla [Experience League](https://experienceleague.adobe.com/#home) dokumentation, kurser och självstudier. (För närvarande är global sökning bara tillgänglig för användare av Experience Platform. Global sökning efter [!UICONTROL Platform] Med kan du söka efter alla affärsobjekt i Experience Cloud, t.ex. segment, datauppsättningar, scheman och annat.) |
-| Inställningar för Experience Cloud | I den här uppdateringen finns möjligheten att ställa in vilka språk du vill använda i Experience Cloud [Inställningar](https://experience.adobe.com/preferences). |
+| Global sökning i Experience Cloud | I den här versionen kan du använda global sökning i Experience Cloud för att söka efter dokumentation, kurser och självstudiekurser för [Experience League](https://experienceleague.adobe.com/#home) . (För närvarande är global sökning bara tillgänglig för användare av Experience Platform. Med global sökning efter [!UICONTROL Platform] kan du söka efter alla affärsobjekt i Experience Cloud, t.ex. segment, datauppsättningar, scheman och annat.) |
+| Inställningar för Experience Cloud | Den här uppdateringen innehåller möjligheten att ange dina önskade språk i [Inställningar](https://experience.adobe.com/preferences) för Experience Cloud. |
 
 {style="table-layout:auto"}
 
@@ -152,8 +152,8 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 
 **Korrigeringar**
 
-* **Kundattribut:** Gränssnittet för kundattribut visar nu ytterligare statusvärden för profiler som har synkroniserats i Target. (MCUI-10231)
-* **Huvudtjänst för utlösare:** På grund av bristande användning har benägenheten&quot;Sannolikhet att returnera inom 30 dagar&quot; när en utlösare av typen Abandonment skapas tagits bort. (MCUI-10056)
+* **Kundattribut:** Gränssnittet för kundattribut visar nu ytterligare statusvärden för profiler som synkroniserats i Target. (MCUI-10231)
+* **Startar bastjänst:** På grund av bristande användning har benägenhetspoängen&quot;Sannolikhet att returnera om 30 dagar&quot; tagits bort när en utlösare av typen Utbrott skapas. (MCUI-10056)
 
 ## Januari 2020
 
@@ -164,18 +164,18 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 * Korrigerade ett kritiskt fel i inloggningen på Experience Cloud som ledde till sessionsutloggning för vissa användare. (MCUI-6908)
 * Inloggning från Experience Cloud har uppdaterats för att förbättra prestanda och minska fördröjningen. (MCUI-6854, MCUI-6869, MCUI-6883)
 * Uppdaterat gränssnitt kosmetiskt. (MCUI-6861, MCUI-6911, MCUI-6862)
-* Ett problem med Experience Cloud har korrigerats [!UICONTROL Triggers] som ledde till felaktig tolkning av _Gilla_ -satsen i [!UICONTROL Trigger] definition. (MCUI-6611)
+* Korrigerade ett problem med Experience Cloud [!UICONTROL Triggers] som ledde till felaktig tolkning av _Like_ -satsen i [!UICONTROL Trigger] -definitionen. (MCUI-6611)
 
 ## April 2019
 
 * Appväljaren har uppdaterats så att Marketo ingår i Experience Cloud programsvit och varumärkesuppdateringar för Experience Platform. (MCUI-6529)
 * Experience Cloud Home har uppdaterats med navigeringslänkar till sidorna Feed och Administration. (MCUI-6682)
-* Korrigerat ett problem i [!UICONTROL Trigger] definition för korrekt användning av gilla-satsen. (MCUI-6611)
+* Korrigerade ett problem i definitionen [!UICONTROL Trigger] för korrekt användning av gilla-satsen. (MCUI-6611)
 * Förbättringar av kundattribut för bättre inloggning i prenumerationstjänsten. (MCUI-6519)
 
 ## Januari 2019
 
-**Obs!** I mars 2019 stöder inte Experience Cloud-gränssnittet Internet Explorer 11.
+**Obs!** I mars 2019 har Experience Cloud-gränssnittet inte stöd för Internet Explorer 11.
 
 * Ett problem som hindrade hjälpsökningen från att returnera resultat har åtgärdats. (MCUI-1670)
 * Fast och förbättrad hantering av eVar i utlösare. (MCUI-6400)
@@ -191,15 +191,15 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 
 * Använde en backend-funktion för att styra resursdelning mellan Marketing Cloud-till-AEM och Marketing Cloud-till-Creative Cloud. (CORE-14386)
 * Korrigerade ett problem som blockerade etablering av nya innehavare i vissa miljöer. (CORE-15509)
-* Ett problem som omdirigerade användare till har korrigerats `experiencecloud.adobe.com` använda `http` i stället för `https`. (CORE-15587)
+* Ett problem som omdirigerade användare till `experiencecloud.adobe.com` med `http` i stället för `https` har korrigerats. (CORE-15587)
 * Korrigerade ett problem som blockerade meddelanden för vissa nya innehavare. (CORE-15240)
 
 ## Juni 2018
 
 * Aktiverade en länk till GDPR-åtkomst för administratörer. (CORE-11731)
-* Funktionen Betafeedback har uppdaterats för att begränsa vilka filtyper som kan bifogas till feedback. (CORE-10474)
+* Funktionen Beta Feedback har uppdaterats för att begränsa vilka filtyper som kan bifogas feedback. (CORE-10474)
 * Korrigerade ett problem med att ta bort målgrupper från målgruppsbiblioteket. (CORE-12792)
-* Ett problem som resulterade i en tom skärm vid åtkomst av arbetsytans länkar med Federated ID har korrigerats. (CORE-11620)
+* Korrigerade ett problem som resulterade i en tom skärm vid åtkomst av Workspace-länkar med Federated ID. (CORE-11620)
 
 ## Maj 2018
 
@@ -222,9 +222,9 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 
 | Funktion | Beskrivning |
 |--- |--- |
-| Meddelanden - Detaljerade inställningar | Du kan aktivera meddelanden för produkthändelser och programaktiviteter, inklusive meddelanden om [Kundattribut](../services/customer-attributes/attributes.md) överföringsaktivitet. |
+| Meddelanden - Detaljerade inställningar | Du kan aktivera meddelanden för produkthändelser och programaktiviteter, inklusive meddelanden om [kundattribut](../services/customer-attributes/attributes.md)-överföringsaktivitet. |
 | Meddelanden - Underhållsmeddelanden | I Meddelandeinställningarna kan du aktivera underhållsmeddelanden för produkter och program. |
-| Admin Console för Experience Cloud Solutions | Nya Experience Cloud-kunder kan börja använda Admin Console, en central plats för hantering av Adobe i hela organisationen.<br>Migreringen till Admin Console för användarhantering fortsätter i vågor. Adobe kontaktar dig (systemadministratörer) när det är dags att migrera.<br>Analysadministratörer, se  [Migrering av analyser](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html). |
+| Admin Console för Experience Cloud Solutions | Nya Experience Cloud-kunder kan börja använda Admin Console, en central plats för hantering av Adobe i hela organisationen.<br>Migreringen till Admin Console för användarhantering fortsätter i vågor. Adobe kontaktar dig (systemadministratörer) när det är dags att migrera.<br>Analysadministratörer, se [Analysmigrering](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html). |
 
 {style="table-layout:auto"}
 
@@ -233,7 +233,7 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 | Funktion | Beskrivning |
 |--- |--- |
 | Massrapportsvitmappning | I Administration > Rapportsvitsmappning kan du nu välja flera rapportsviter och sedan mappa dem till en organisation. (Tidigare var du tvungen att mappa dem individuellt.)  <br>Genom att mappa rapportsviter till en enda organisation blir det enklare att aktivera funktioner och tjänster för olika program i Experience Cloud. |
-| Uppdateringar till Experience Cloud-målgrupper | **Tillämpar rapportsviter**<br> Nu kan du använda en rapportsserie för alla [målgruppsregler](../services/audiences/create.md). (Tidigare var du tvungen att ange en rapportserie i varje regeldefinition.) <br>**Profiler och variabler**<br> Nu kan du inkludera utkast och standardvariabler för Analytics (utöver eVars och events) i målgrupper i realtid. |
+| Uppdateringar till Experience Cloud-målgrupper | **Använder rapportsviter**<br> Du kan nu använda en rapportsvit för alla dina [målgruppsregler](../services/audiences/create.md). (Tidigare var du tvungen att ange en rapportserie i varje regeldefinition.) <br>**Props och variabler**<br> Du kan nu inkludera utkast och standardvariabler för analyser (utöver eVars och händelser) i målgrupper i realtid. |
 
 {style="table-layout:auto"}
 
@@ -241,14 +241,14 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 
 | Funktion | Beskrivning |
 |--- |--- |
-| Uppdatera till profil och lösenord | Användare kan inte längre redigera information om IMS-användarprofiler under Personlig information i Redigera profil > Profil och lösenord. I stället omdirigeras användarna till `accounts.adobe.com`. Uppdateringen gäller alla identitetstyper (Adobe ID, Enterprise och Federated). |
+| Uppdatera till profil och lösenord | Användare kan inte längre redigera information om IMS-användarprofiler under Personlig information i Redigera profil > Profil och lösenord. I stället omdirigeras användare till `accounts.adobe.com`. Uppdateringen gäller alla identitetstyper (Adobe ID, Enterprise och Federated). |
 
 {style="table-layout:auto"}
 
 **Korrigeringar**
 
 * Ett problem med tekniska lösenord som orsakade ett fel vid mappdelning mellan Creative Cloud och Experience Cloud har korrigerats. (MAC-31067, MAC-32014)
-* Korrigerade ett problem med överföringen av vissa filtyper, bland annat PDF, som hittades efter oktoberversionen i bastjänsten för Assets. (MAC-32517)
+* Korrigerade ett problem med överföringen av vissa filtyper, bland annat PDF, som hittades efter oktoberversionen i Assets Core Service. (MAC-32517)
 
 ## Maj 2016
 
@@ -273,7 +273,7 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 
 **Korrigeringar**
 
-* Ett problem som hindrade miniatyrbilder från att visa resurser som delats från Assets on Demand till Experience Cloud Feed har åtgärdats. (MAC-2995)
+* Korrigerade ett problem som förhindrade att miniatyrbilder visas för resurser som delas från Assets on Demand till Experience Cloud Feed. (MAC-2995)
 
 ## Februari 2016
 
@@ -286,8 +286,8 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Förbättringar av Experience Cloud Assets </p> </td> 
-   <td colname="col2"> <p>I Experience Cloud Assets kan du lagra, dela och synkronisera digitala resurser från en central plats. Experience Cloud Assets använder några av funktionerna i <span class="keyword"> Adobe Experience Manager</span> AEM. </p> <p>Se <a href="../services/assets/experience-cloud-assets.md" format="dita" scope="local"> Experience Cloud</a></p> </td> 
+   <td colname="col1"> <p>Förbättringar i Experience Cloud Assets </p> </td> 
+   <td colname="col2"> <p>I Experience Cloud Assets kan du lagra, dela och synkronisera digitala resurser från en central plats. Experience Cloud Assets använder några av funktionerna i <span class="keyword"> Adobe Experience Manager</span> (AEM). </p> <p>Se <a href="../services/assets/experience-cloud-assets.md" format="dita" scope="local"> Experience Cloud</a></p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Förbättringar av kontolänkning </p> </td> 
@@ -319,7 +319,7 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 
 >[!NOTE]
 >
->Microsoft® är [support upphör](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) för Internet Explorer 8, 9 och 10. Adobe planerar därför inte att åtgärda problem som rapporteras mot dessa specifika versioner av Internet Explorer.
+>Microsoft® upphör med [stödet](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) för Internet Explorer 8, 9 och 10. Adobe planerar därför inte att åtgärda problem som rapporteras mot dessa specifika versioner av Internet Explorer.
 
 ## Oktober 2015
 
@@ -359,17 +359,17 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>De vänstra navigeringsmenyerna har uppdaterats och ordnats för att ge tillgång till alla bastjänster och program. Viktiga ändringar: </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">The <span class="term"> Målgruppsbibliotek</span> och <span class="term"> Kundattribut</span> menyval finns nu under <span class="term"> Målgrupper</span>. </li> 
-     <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">The <span class="term"> Exchange</span> menyvalet flyttades från den nedrullningsbara menyn Hjälp till den vänstra navigeringslisten. </li> 
-     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term"> Lösningar</span> har tagits bort. Du kan starta alla program från den nedre halvan av navigeringslisten. </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">Menyvalen <span class="term"> Målgruppsbibliotek </span> och <span class="term"> Kundattribut </span> finns nu under <span class="term"> Målgrupper </span>. </li> 
+     <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">Menyvalet <span class="term"> Exchange </span> har flyttats från den nedrullningsbara menyn Hjälp till den vänstra navigeringslisten. </li> 
+     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term"> lösningar</span> har tagits bort. Du kan starta alla program från den nedre halvan av navigeringslisten. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
 * Korrigerade ett problem som förhindrade att kundattribut synkroniserades för vissa kunder.
-* Ett problem som förhindrar [Adobe Target produktdokumentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) sidan visas inte på japanska.
-* Ett problem som förhindrade användning av japansk text i kommentarer mellan [!DNL Creative Cloud] och [!DNL Experience Cloud].
+* Ett problem som gjorde att [Adobe Target produktdokumentationssida](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) inte kunde visas på japanska har korrigerats.
+* Ett problem som förhindrade användning av japansk text i kommentarer mellan [!DNL Creative Cloud] och [!DNL Experience Cloud] har korrigerats.
 
 ## April 2015
 
@@ -387,18 +387,18 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
      <li id="li_6E98974CCB094ABBAB57C51ED56C3F00"> <span class="wintitle"> Admin Console</span> </li> 
      <li id="li_8CDAB6301FD44C3999EE4EEB1A0A2FD6">Stöd för företag och Federated ID </li> 
     </ul> </td> 
-   <td colname="col2"> <p>Funktionen för användar- och grupphantering har flyttats till Admin Console. Den nya navigeringssökvägen är: </p> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> Administration</span> &gt; <span class="uicontrol"> Starta Admin Console</span></p> <p> Stöd för Enterprise ID och Federated ID har lagts till. Du kan använda Enterprise ID:n, Federated ID:n och Adobe ID:n i samma företagsdistribution. Använd till exempel Adobe ID:n för användare som kan använda andra produkter och tjänster från Adobe. Använd Enterprise ID eller Federated ID för användare där du vill hantera deras konton strikt. </p> </td> 
+   <td colname="col2"> <p>Funktionen för användar- och grupphantering har flyttats till Admin Console. Den nya navigeringssökvägen är: </p> <p> <span class="uicontrol"> Experience Cloud </span> &gt; <span class="uicontrol"> Administration </span> &gt; <span class="uicontrol"> Starta Admin Console </span></p> <p> Stöd för Enterprise ID och Federated ID har lagts till. Du kan använda Enterprise ID:n, Federated ID:n och Adobe ID:n i samma företagsdistribution. Använd till exempel Adobe ID:n för användare som kan använda andra produkter och tjänster från Adobe. Använd Enterprise ID eller Federated ID för användare där du vill hantera deras konton strikt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Korrigeringar**
 
-* Ett problem som förhindrar enkel inloggning mellan [!DNL Experience Cloud] och [!DNL Advertising Cloud].
+* Ett problem som förhindrar enkel inloggning mellan [!DNL Experience Cloud] och [!DNL Advertising Cloud] har korrigerats.
 
 **Kända fel**
 
-* Att länka och bryta länken mellan en dynamisk tagghanteringsorganisation och Experience Cloud fungerar inte för nyligen skapade Experience Cloud-organisationer. Adobe arbetar med att åtgärda detta och återställa normal funktionalitet med majversionen. Om du får problem med att logga in på dynamisk tagghantering via Experience Cloud kan du använda den äldre inloggningen på `dtm.adobe.com`.
+* Att länka och bryta länken mellan en dynamisk tagghanteringsorganisation och Experience Cloud fungerar inte för nyligen skapade Experience Cloud-organisationer. Adobe arbetar med att åtgärda detta och återställa normal funktionalitet med majversionen. Om du får problem när du försöker logga in på dynamisk tagghantering via Experience Cloud ska du använda den äldre inloggningen på `dtm.adobe.com`.
 * Ett känt problem är att förhindra målgruppsdelning från rapportsviter som inte ägs av det länkade Analytics-kontot. Saneringsarbetet pågår
 
 ## Mars 2015
@@ -413,7 +413,7 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Kundattribut </p> </td> 
-   <td colname="col2"> <p>Om du samlar in data om företagskunder i en CRM-databas (customer relationship management) kan du överföra dessa data till en datakälla för kundattribut i Experience Cloud. När data har överförts kan du köra <span class="uicontrol"> Besökarprofil</span> &gt; <span class="uicontrol"> Kundattribut</span> rapporter i Analytics. </p> <p>Du kan också använda överförda data som ett målgruppssegment i <span class="keyword"> Adobe Target</span>. </p> <p>Se <a href="../services/customer-attributes/attributes.md" format="dita" scope="local"> Kundattribut</a> produktdokumentation. </p> </td> 
+   <td colname="col2"> <p>Om du samlar in data om företagskunder i en CRM-databas (customer relationship management) kan du överföra dessa data till en datakälla för kundattribut i Experience Cloud. När data har överförts kan du köra <span class="uicontrol"> besökarprofiler </span> &gt; <span class="uicontrol"> kundattribut </span> i Analytics. </p> <p>Du kan också använda överförda data som ett målgruppssegment i <span class="keyword"> Adobe Target</span>. </p> <p>Se produktdokumentation för <a href="../services/customer-attributes/attributes.md" format="dita" scope="local"> kundattribut</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -444,9 +444,9 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 **Korrigeringar**
 
 * Förbättrat arbetsflöde för användarens e-postinbjudan för kontoetablering.
-* Ett problem med resursmappen som förhindrar att [!DNL Experience Cloud] och [!DNL Adobe Campaign] resurser från att visa identiska mapphierarkier.
-* Ett problem som förhindrar att målgrupper som var en del av inaktiverade togs bort har åtgärdats [!DNL Target] verksamhet.
-* Ett problem som gjorde att ikonen Lägg till (plus) inte kunde visas under har korrigerats [!UICONTROL Rules] på [!UICONTROL Create New Audience] sida.
+* Ett problem med resursmappen som förhindrar att [!DNL Experience Cloud] och [!DNL Adobe Campaign] resurser visar identiska mapphierarkier har korrigerats.
+* Ett problem som förhindrar att målgrupper som var en del av inaktiverade [!DNL Target]-aktiviteter tas bort har åtgärdats.
+* Ett problem som gjorde att ikonen Lägg till (plus) inte kunde visas under [!UICONTROL Rules] på sidan [!UICONTROL Create New Audience] har åtgärdats.
 * Förbättrat stöd för Experience Cloud i Internet Explorer 9.
 
 ## Januari 2015
@@ -492,7 +492,7 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 **Kända fel**
 
 * Vissa användare kan ta bort en inaktuell resurs i stället för att få ett felmeddelande.
-* Några `.png` filer kan inte återges på ett kort.
+* Vissa `.png`-filer kan inte återges på ett kort.
 * Vissa användare kan ha problem med att överföra resurser till en styrelse.
 * Ändringar av grupper och tillstånd som görs i användarhantering börjar gälla först efter en ny inloggning.
 * Administratörer måste logga ut och in igen för att se ändringar som gjorts i kontoinställningarna.
@@ -514,8 +514,8 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
    <td colname="col1"> <p>Redigera användarbehörigheter </p> </td> 
    <td colname="col2"> <p>Styrelsemedlemmar kan nu redigera användarbehörigheter på den aktuella ritytan. </p> <p> 
      <ol id="ol_B12251C510744538AF9BCE60ACB04016"> 
-      <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">On the board, select <span class="uicontrol"> Inställningar</span>. </li> 
-      <li id="li_0F4786B0E1E743069D082E7DC488A031">Ange bredvid varje ägare <span class="uicontrol"> Ägare</span>, <span class="uicontrol"> Visningsprogram</span>, eller <span class="uicontrol"> Redigerare</span>. </li> 
+      <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">Välj <span class="uicontrol"> inställningar</span> på kortet. </li> 
+      <li id="li_0F4786B0E1E743069D082E7DC488A031">Ange <span class="uicontrol"> Ägare </span>, <span class="uicontrol"> Visningsprogram </span> eller <span class="uicontrol"> Redigerare</span> bredvid varje ägare. </li> 
      </ol> </p> </td> 
   </tr> 
  </tbody> 
@@ -528,19 +528,19 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 **Kända fel**
 
 * Vissa användare kan ha problem med att överföra resurser till en styrelse.
-* Några `.png` filer kan inte återges på ett kort.
+* Vissa `.png`-filer kan inte återges på ett kort.
 * Ändringar av grupper och tillstånd som görs i användarhantering börjar gälla först efter en ny inloggning.
 * Vissa användare kanske inte kan skapa ett kort från PDF och dela det med en anslagstavla.
 * Vissa användare kan ta bort en inaktuell resurs i stället för att få ett felmeddelande.
 * Användare kan inte dela PowerPoint-filer på ritytor.
 * Experience Cloud kan minska prestandan när många användare använder det parallellt.
-* The [!DNL Search&Promote] länkningen är inte tillgänglig från [!UICONTROL Organizations & Product Access] sida.
+* Länkningen [!DNL Search&Promote] är inte tillgänglig från sidan [!UICONTROL Organizations & Product Access].
 
 ## September 2014
 
 **Korrigeringar och förbättringar**
 
-* När du navigerar till `experience.adobe.com`är inloggningen nu densamma som inloggningen på Adobe Creative Cloud.
+* När du navigerar till `experience.adobe.com` är inloggningsupplevelsen nu konsekvent med inloggningen på Adobe Creative Cloud.
 * På sidan Hantera organisationer är länkningen (efter att en inbjudan har tagits emot) nu konsekvent för varje program.
 
 **Kända fel**
@@ -550,10 +550,10 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 * Vissa användare kan ha problem med att överföra resurser till en styrelse.
 * Vissa användare kan ta bort en inaktuell resurs i stället för att få ett felmeddelande.
 * Användare kan inte dela PowerPoint-filer på ritytor.
-* Några [!DNL .png] filer kan inte återges på ett kort.
-* [!DNL Experience Cloud] -gränssnittet kan minska prestandan när det används parallellt av många användare.
-* The [!DNL Search&Promote] länkningen är inte tillgänglig från [!UICONTROL Organizations & Product Access] sida.
-* Vissa användare kan uppleva [!DNL Creative Cloud] innehåll som tas bort från deras mapp, om innehållet inte delas i [!DNL Experience Cloud].
+* Vissa [!DNL .png]-filer kan inte återges på ett kort.
+* Gränssnittet [!DNL Experience Cloud] kan minska prestandan när det används parallellt av många användare.
+* Länkningen [!DNL Search&Promote] är inte tillgänglig från sidan [!UICONTROL Organizations & Product Access].
+* Vissa användare kan uppleva att deras [!DNL Creative Cloud]-innehåll tas bort från deras mapp om innehållet inte delas i [!DNL Experience Cloud].
 
 ## Augusti 2014
 
@@ -567,7 +567,7 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
  <tbody> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p>Nu kan du komma åt <span class="keyword"> Adobe Mobile Services</span> från vänster navigering. </p> </td> 
+   <td colname="col2"> <p>Du kan nu komma åt <span class="keyword"> Adobe Mobile Services</span> från den vänstra navigeringen. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -578,30 +578,30 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 * Vissa användare kanske inte kan skapa ett kort från PDF och dela det med en anslagstavla.
 * Vissa användare kan ha problem med att överföra resurser till en styrelse.
 * Vissa användare kanske inte kan logga in från [!DNL Target] till [!DNL Experience Cloud].
-* Vissa Audience Manager-användare kan inte logga in på [!DNL Experience Cloud].
+* Vissa Audience Manager-användare kan inte logga in i [!DNL Experience Cloud].
 * Vissa användare kan ta bort en inaktuell resurs i stället för att få ett felmeddelande.
-* Filer som tagits bort från [!DNL Experience Cloud] tas inte bort från [!DNL Digital Asset Management].
+* Filer som tas bort från [!DNL Experience Cloud] tas inte bort från [!DNL Digital Asset Management].
 * Användare kan inte dela PowerPoint-filer på ritytor.
-* Några [!DNL .png] filer kan inte återges på ett kort.
-* [!DNL Experience Cloud] -gränssnittet kan minska prestandan när det används parallellt av många användare.
-* The [!DNL Search&Promote] länkningen är inte tillgänglig från [!UICONTROL Organizations & Product Access] sida.
-* Vissa användare kan uppleva [!DNL Creative Cloud] innehåll som tas bort från deras mapp, om innehållet inte delas i [!DNL Experience Cloud].
+* Vissa [!DNL .png]-filer kan inte återges på ett kort.
+* Gränssnittet [!DNL Experience Cloud] kan minska prestandan när det används parallellt av många användare.
+* Länkningen [!DNL Search&Promote] är inte tillgänglig från sidan [!UICONTROL Organizations & Product Access].
+* Vissa användare kan uppleva att deras [!DNL Creative Cloud]-innehåll tas bort från deras mapp om innehållet inte delas i [!DNL Experience Cloud].
 
 ## Juli 2014
 
 **Kända fel**
 
-* Filer som tagits bort från [!DNL Experience Cloud] tas inte bort från [!DNL Digital Asset Management].
-* Några [!UICONTROL Exchange] användarna kan se sina namn i kommentarerna som ett långt sträng-ID i stället för sina namn
-* Några [!DNL .png] filer kan inte återges på ett kort
-* Att överföra filer ger fler filtyper än att dra och släppa. För bästa resultat ska du överföra med [!UICONTROL Assets].
-* The [!DNL Search&Promote] länkningen är inte tillgänglig från [!UICONTROL Organizations & Product Access] sida.
-* [!DNL Exchange] -användare måste rensa sina cookies för att förbättra sin upplevelse.
-* [!DNL Experience Cloud] gränssnitt kan göra det långsammare när det används parallellt av många användare.
-* Vissa användare kan uppleva [!DNL Creative Cloud] innehåll som tas bort från deras mapp om innehållet inte delas i [!DNL Experience Cloud].
+* Filer som tas bort från [!DNL Experience Cloud] tas inte bort från [!DNL Digital Asset Management].
+* Vissa [!UICONTROL Exchange]-användare kan hitta sina namn i kommentarerna som ett långt sträng-ID i stället för sina namn
+* Vissa [!DNL .png] filer kan inte återges på ett kort
+* Att överföra filer ger fler filtyper än att dra och släppa. För bästa resultat bör du överföra med [!UICONTROL Assets].
+* Länkningen [!DNL Search&Promote] är inte tillgänglig från sidan [!UICONTROL Organizations & Product Access].
+* [!DNL Exchange] användare måste rensa sina cookies för att förbättra sin upplevelse.
+* Gränssnittet [!DNL Experience Cloud] kan göra det långsammare när många användare använder det parallellt.
+* Vissa användare kan uppleva att deras [!DNL Creative Cloud]-innehåll tas bort från deras mapp om innehållet inte delas i [!DNL Experience Cloud].
 * Du loggas ut efter 15 minuters inaktivitet. Om du loggar ut på en plats loggas du ut från [!DNL Experience Cloud].
 * Vissa användare kanske inte kan länka sina Audience Manager-konton till [!DNL Experience Cloud].
-* [!UICONTROL Exchange] -användare kan bara se engelska i språkväljaren.
+* [!UICONTROL Exchange]-användare kan bara se engelska i språkväljaren.
 
 ## Juni 2014
 
@@ -614,8 +614,8 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Spara</span> i Publiker </p> </td> 
-   <td colname="col2"> <p>När du skapar en målgrupp <span class="wintitle"> Spara</span> på <span class="wintitle"> Skapa ny publik</span> sidan är nu inaktiverad tills alla obligatoriska fält har slutförts. 
+   <td colname="col1"> <p> <span class="wintitle"> Spara</span>-knappen i Publiker </p> </td> 
+   <td colname="col2"> <p>När du skapar en målgrupp inaktiveras nu knappen <span class="wintitle"> Spara</span> på sidan <span class="wintitle"> Skapa ny målgrupp </span> tills alla obligatoriska fält har fyllts i. 
      <!--MAC-19712 --></p> </td> 
   </tr> 
  </tbody> 
@@ -623,11 +623,11 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 
 **Kända fel**
 
-* Filer som tagits bort från [!DNL Experience Cloud] tas inte bort från [!DNL Digital Asset Management].
-* Att överföra filer ger fler filtyper än att dra och släppa. För bästa resultat ska du överföra med Assets.
-* The [!DNL Search&Promote] länkningen är inte tillgänglig från [!UICONTROL Organizations & Product Access] sida.
+* Filer som tas bort från [!DNL Experience Cloud] tas inte bort från [!DNL Digital Asset Management].
+* Att överföra filer ger fler filtyper än att dra och släppa. Du får bäst resultat om du överför med Assets.
+* Länkningen [!DNL Search&Promote] är inte tillgänglig från sidan [!UICONTROL Organizations & Product Access].
 * Filter som tillämpas på trendrapporter från [!DNL Analytics] används inte på kort i [!DNL Experience Cloud].
-* Vissa användare kan inte länka sina målgruppshanteringskonton till sina [!DNL Experience Cloud] konto.
+* Vissa användare kan inte länka sina målgruppshanteringskonton till sina [!DNL Experience Cloud]-konton.
 * Du loggas ut efter 15 minuters inaktivitet. Om du loggar ut på en plats loggas du ut från Experience Cloud.
 * Vissa Exchange-användare kan se att deras namn i kommentarerna är ett långt sträng-ID i stället för deras namn
 
@@ -647,15 +647,15 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Exchange </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> Hjälp</span> &gt; <span class="uicontrol"> Exchange</span></p> <p>The <span class="keyword"> Experience Cloud</span><span class="wintitle"> Exchange</span> är ett enda mål där du kan söka efter, bläddra bland, välja ut, betala och hämta tillägg för digital marknadsföring via appar. </p> <p>Apparna innehåller dataanslutningar, anpassade konfigurationer för Adobe Core-produkter, program från tredje part, rapporter och <span class="keyword"> Experience Cloud</span> kort. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> Hjälp</span> &gt; <span class="uicontrol"> Exchange </span></p> <p><span class="keyword"> Experience Cloud</span><span class="wintitle"> Exchange</span> är ett enda mål där du kan söka efter, bläddra bland, välja ut, betala och hämta tillägg för digital marknadsföring via appar. </p> <p>Apparna innehåller dataanslutningar, anpassade konfigurationer för Adobe Core-produkter, tredjepartsprogram, rapporter och <span class="keyword"> Experience Cloud</span>-kort. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud-målgrupper </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> Målgrupper</span></p> <p> <span class="wintitle"> Målgrupper</span> är där du skapar, redigerar och hanterar målgrupper, ungefär som hur du arbetar med segment. Du kan till exempel skapa ett segment i Rapporter och analyser och sedan dela det med <span class="wintitle"> Experience Cloud</span><span class="wintitle"> Målgrupper</span>. När målgruppen väl har delats är den tillgänglig i <span class="keyword"> Adobe Target</span> för kampanjaktiviteter och i Adobe Audience Manager för segmentering. </p> <p> <p>Obs! Om du vill begära aktivering i Target går du till <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>. </p> </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> Publiker </span></p> <p> <span class="wintitle"> Publiker</span> är där du skapar, redigerar och hanterar målgrupper, ungefär som du arbetar med segment. Du kan till exempel skapa ett segment i Rapporter och analyser och sedan dela det till <span class="wintitle"> Experience Cloud</span><span class="wintitle"> Publiker</span>. När målgruppen har delats är den tillgänglig i <span class="keyword"> Adobe Target</span> för kampanjaktiviteter och i Adobe Audience Manager för segmentering. </p> <p> <p>Obs! Om du vill begära aktivering i Target går du till <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p>Användare som nämns på <span class="keyword"> Experience Cloud</span> kort har nu behörighet till det kortet. </p> </td> 
+   <td colname="col2"> <p>Användare som anges på <span class="keyword"> Experience Cloud</span>-kort har nu behörighet till det kortet. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
@@ -670,18 +670,18 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 
 **Korrigeringar**
 
-* [!DNL Experience Cloud] länkades inte till [!DNL Adobe Target]. Problemet uppstod om [!DNL Adobe Target] inloggning kan användas på flera [!DNL Target] servrar.
-* [!DNL Adobe Advertising Cloud] skapar inte användare automatiskt när användaren har skapats i [!DNL Experience Cloud].
+* [!DNL Experience Cloud] länkades inte till [!DNL Adobe Target]. Det här problemet uppstod om inloggningen för [!DNL Adobe Target] kan användas på flera [!DNL Target]-servrar.
+* [!DNL Adobe Advertising Cloud] skapade inte användare automatiskt när användaren skapades i [!DNL Experience Cloud].
 * Alternativ i kombinationsrutor som används för att lägga till nya användare försvinner tillfälligt när du skriver.
 * Länken Kommentarer i resurskortvyn kunde inte markeras.
 * När du har lagt till en anpassad tagg i en resurs, bevaras inga andra metadataändringar.
-* När en bild tas bort varnar Assets inte om bilden används i Adobe Target Essentials.
-* Långsam [!UICONTROL Experience Cloud] gränssnittsprestanda när flera användare använder det parallellt.
-* Ta bort en bild i [!UICONTROL Experience Cloud Assets] genererade ingen varning om bilden användes i [!DNL Adobe Target Essentials].
-* När **[!UICONTROL remember me]** valdes inte under inloggningen, användaren loggades ut efter 15 minuter.
+* När du tar bort en bild visas ingen varning i Assets om bilden används i Adobe Target Essentials.
+* Långsam [!UICONTROL Experience Cloud]-gränssnittsprestanda vid parallell användning av många användare.
+* Om du tog bort en bild i [!UICONTROL Experience Cloud Assets] utlöstes ingen varning om bilden användes i [!DNL Adobe Target Essentials].
+* När **[!UICONTROL remember me]** inte valdes under inloggningen loggades användaren ut efter 15 minuter.
 * Användarna var tvungna att logga ut och in igen för att alla ändringar i behörighet och tillstånd skulle börja gälla.
-* Logga in på [!DNL Experience Cloud] tog längre än en sekund.
-* För vissa användare: ta bort filer från [!DNL Experience Cloud] synkroniserade inte med [!DNL Digital Asset Management].
+* Det tog längre tid än en sekund att logga in på [!DNL Experience Cloud].
+* För vissa användare synkroniserades inte filer som togs bort från [!DNL Experience Cloud] med [!DNL Digital Asset Management].
 * Användare loggades ut efter endast 15 minuters inaktivitet i webbläsaren.
 * Användaren kunde inte dela PowerPoint-filer på ritytor.
 * Vissa användare upplevde dålig visuell layout i Internet Explorer 10.
@@ -700,9 +700,9 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
    <td colname="col1"> <p>Skapa kort från hjälpavsnitt </p> </td> 
    <td colname="col2"> <p>När du har aktiverat funktionen Dela till Adobe Experience Cloud i webbläsarens bokmärkesverktygsfält kan du nu dela hjälpsidor från mikrowebbplatsens URL. </p> <p> <b>Dela ett hjälpavsnitt</b> </p> 
     <ol id="ol_F94B816121494B0FA16CC07B0E96AED8"> 
-     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>I <span class="keyword"> Experience Cloud</span>, markera <span class="uicontrol"> Administration</span>. </p> </li> 
-     <li id="li_94EF58E7A4974B63951E14F72A710183"> <p>Dra <span class="uicontrol"> Dela till Adobe Experience Cloud</span> till bokmärkets verktygsfält. </p> </li> 
-     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>Navigera till en hjälpsida (eller stanna kvar på den här) och markera sedan <span class="uicontrol"> Dela till Adobe Experience Cloud</span> i webbläsarens bokmärkesverktygsfält. </p> <p>I det här steget skapas ett kort som du kan visa i <span class="wintitle"> Experience Cloud</span>. </p> </li> 
+     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>I <span class="keyword"> Experience Cloud </span> väljer du <span class="uicontrol"> Administration </span>. </p> </li> 
+     <li id="li_94EF58E7A4974B63951E14F72A710183"> <p>Dra knappen <span class="uicontrol"> Dela till Adobe Experience Cloud</span> till bokmärkets verktygsfält. </p> </li> 
+     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>Navigera till en hjälpsida (eller stanna kvar på den här) och välj sedan <span class="uicontrol"> Dela till Adobe Experience Cloud</span> i webbläsarens bokmärkesverktygsfält. </p> <p>I det här steget skapas ett kort som du kan visa i <span class="wintitle"> Experience Cloud </span>. </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
@@ -712,58 +712,58 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 
 * När du har lagt till en anpassad tagg i en resurs kan inga andra metadataändringar sparas.
 * Användarna måste uppdatera anslagstavlan för att ta bort de raderade korten.
-* När **[!UICONTROL Remember me]** är inte markerat under inloggning, användaren är utloggad efter 15 minuter
-* [!DNL Analytics] på programmets startsida visas formateringsfel.
+* När **[!UICONTROL Remember me]** inte har valts under inloggningen loggas användaren ut efter 15 minuter
+* [!DNL Analytics]-programmets landningssida visar formateringsfel.
 * Användarna måste logga ut och logga in igen för att alla ändringar i behörighet och tillstånd ska börja gälla.
-* Ta bort en bild, [!UICONTROL Assets] varnar inte om bilden används i [!DNL Adobe Target Essentials].
+* Om du tar bort en bild varnar [!UICONTROL Assets] inte om bilden används i [!DNL Adobe Target Essentials].
 * Kommentarslänken i resurskortvyn kan inte markeras.
 * Alternativ i kombinationsrutor för att lägga till nya användare försvinner tillfälligt när du skriver.
-* Logga in på [!DNL Experience Cloud] tar längre tid än en sekund.
-* Data som delas från [!DNL Advertising Cloud] är felrepresenterad i [!DNL Experience Cloud].
+* Det tar längre tid än en sekund att logga in på [!DNL Experience Cloud].
+* Data som delas från [!DNL Advertising Cloud] är felrepresenterade i [!DNL Experience Cloud].
 * Adobe [!DNL Advertising Cloud] skapar inte användare automatiskt när användare har skapats i [!DNL Experience Cloud].
-* The [!DNL Experience Cloud] kan inte länkas till [!DNL Adobe Target], om [!DNL Adobe Target] inloggning kan användas på flera [!DNL Target] servrar.
-* [!DNL Experience Cloud] gränssnitt kan göra det långsammare när det används parallellt av många användare.
-* [!DNL Search&Promote] länkningen är inte tillgänglig från [!UICONTROL Organizations & Product Access] sida.
+* [!DNL Experience Cloud] kan inte länkas till [!DNL Adobe Target] om inloggningen [!DNL Adobe Target] kan användas på flera [!DNL Target]-servrar.
+* Gränssnittet [!DNL Experience Cloud] kan göra det långsammare när många användare använder det parallellt.
+* [!DNL Search&Promote]-länkning är inte tillgängligt från sidan [!UICONTROL Organizations & Product Access].
 * [!DNL Adobe Advertising Cloud] simuleringskort återges inte korrekt.
-* Filter som tillämpas på trendrapporter från [!DNL Analytics] används inte för kort i [!DNL Experience Cloud].
+* Filter som används på trendrapporter från [!DNL Analytics] används inte på kort i [!DNL Experience Cloud].
 * Filter som tillämpas på trendrapporter från Analytics tillämpas inte på kort i Experience Cloud.
 * Vissa Excel- eller CSV-filer kan inte överföras till en anslagstavla.
-* Vissa användare kanske inte kan länka sitt målgruppshanteringskonto till sina [!DNL Experience Cloud].
-* Vissa användare kan råka ut för fel vid delning [!DNL Analytics] segment i [!DNL Experience Cloud].
-* Vissa användare kanske inte kan fördjupa sig i undermappar i [!UICONTROL Asset Selector].
-* Vissa användare kan inte dela AdLernas i [!DNL Experience Cloud].
+* Vissa användare kanske inte kan länka sina målgruppshanteringskonton till sina [!DNL Experience Cloud].
+* Vissa användare kan få felmeddelanden när de delar [!DNL Analytics] segment i [!DNL Experience Cloud].
+* Vissa användare kanske inte kan gå igenom undermappar i [!UICONTROL Asset Selector].
+* Vissa användare kan inte dela AdLernas i gadgetar i [!DNL Experience Cloud].
 
 ## Mars 2014
 
 **Korrigeringar**
 
 * Lagt till möjlighet att ta bort din avatarbild.
-* Ett problem som hindrar dig från att bryta länken till din [!DNL Adobe Advertising Cloud] konton.
+* Ett problem som hindrade dig från att bryta länken till dina [!DNL Adobe Advertising Cloud]-konton har åtgärdats.
 
 **Kända fel**
 
 * Om du tar bort en bild i Experience Cloud Assets visas ingen varning om att bilden används i Adobe Target Essentials.
-* Uppdatera ett kort från [!DNL Analytics] kan ibland leda till ett tomt diagram i det utökade kortet.
+* Om du uppdaterar ett kort från [!DNL Analytics] kan det ibland leda till ett tomt diagram i det expanderade kortet.
 * Användarna måste logga ut och logga in igen för att alla ändringar i behörighet och tillstånd ska börja gälla.
-* När *`Remember me`* är inte markerat vid inloggning, kommer användaren att loggas ut efter 15 minuter.
-* [!DNL Analytics] på programmets startsida visas formateringsfel.
+* När *`Remember me`* inte har valts under inloggningen loggas användaren ut efter 15 minuter.
+* [!DNL Analytics]-programmets landningssida visar formateringsfel.
 * Länken Kommentarer i resurskortvyn kan inte markeras.
 * Experience Cloud-gränssnittet kan bli långsammare när många användare använder det parallellt
-* Experience Cloud kan inte länkas till [!DNL Adobe Target], om [!DNL Adobe Target] Inloggning kan användas på flera Target-servrar.
+* Experience Cloud kan inte länkas till [!DNL Adobe Target] om inloggningen för [!DNL Adobe Target] kan användas på flera målservrar.
 * Det tar längre tid än en sekund att logga in i Experience Cloud.
 * När du har lagt till en anpassad tagg i en resurs kan inga andra metadataändringar sparas.
 * [!DNL Adobe Advertising Cloud] skapar inte användare automatiskt när användare har skapats i Experience Cloud.
 * Alternativ i kombinationsrutor för att lägga till nya användare försvinner tillfälligt när du skriver.
-* Data som delas från [!DNL Advertising Cloud] är felrepresenterat i Experience Cloud.
+* Data som delas från [!DNL Advertising Cloud] är felaktigt representerade i Experience Cloud.
 * Det går inte att dela Flickr-bilder.
-* Filter som tillämpas på trendrapporter från [!DNL Analytics] inte används på kort i Experience Cloud.
+* Filter som används på trendrapporter från [!DNL Analytics] används inte på kort i Experience Cloud.
 * Ändringar av grupper och tillstånd som görs i användarhantering börjar gälla först efter en ny inloggning.
-* [!DNL Search&Promote] länkningen är inte tillgänglig från [!UICONTROL Organizations & Product Access].
+* Länkningen [!DNL Search&Promote] är inte tillgänglig från [!UICONTROL Organizations & Product Access].
 * Användarna måste uppdatera anslagstavlan för att ta bort de raderade korten.
 * Vissa Excel- eller CSV-filer kan inte överföras till en anslagstavla.
 * [!DNL Adobe Advertising Cloud] simuleringskort återges inte korrekt.
 * Vissa PNG-filer kan inte återges på ett kort.
-* Betafeedback kan inte skickas.
+* Beta feedback kan inte skickas.
 
 ## Februari 2014
 
@@ -782,14 +782,14 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
   <tr> 
    <td colname="col1"> <p>Uppdatera data </p> </td> 
    <td colname="col2"> <p> 
-     <!--MAC-18174-->The <span class="uicontrol"> Uppdatera data</span> ikonen för ett diagram på ett kort döljs nu om programmet inte tillåter att data uppdateras. </p> </td> 
+     <!--MAC-18174-->Ikonen <span class="uicontrol"> Uppdatera data </span> för ett diagram på ett kort döljs nu om programmet inte tillåter en datauppdatering. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 **Korrigeringar**
 
-* Korrigerat ett problem som förhindrade delning [!DNL Analytics] rapporter från användning av segmentfilter.
-* Korrigerat ett problem som gjorde att program visades på [!UICONTROL Experience Cloud Solutions] sida som länkad, även om programkontona inte var länkade.
-* Korrigerade ett problem som förhindrade [!DNL Adobe Target] från att kunna välja **[!UICONTROL Continue to Experience Cloud]** på länkningssidan.
+* Ett problem som gjorde att [!DNL Analytics] rapporter inte kunde använda segmentfilter har korrigerats.
+* Ett problem som gjorde att program visades på sidan [!UICONTROL Experience Cloud Solutions] som länkade har korrigerats, även om programkontona inte var länkade.
+* Ett problem som gjorde att [!DNL Adobe Target] kunder i Asien inte kunde markera knappen **[!UICONTROL Continue to Experience Cloud]** på den länkade sidan har korrigerats.
 * Ett problem som gjorde att YouTube-videor inte kunde delas har åtgärdats.

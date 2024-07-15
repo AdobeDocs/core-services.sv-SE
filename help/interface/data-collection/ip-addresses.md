@@ -1,10 +1,11 @@
 ---
 title: IP-adresser som används av Adobe Experience Cloud
 description: Om brandväggen blockerar IP-adresser som kommer från Adobe kan du uppdatera brandväggsinställningarna i den här listan.
-source-git-commit: 6ef38a303e19f5b18be9e61819d3aff03faeedd4
+exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
+source-git-commit: 12ff555472b99d7297c3d180e786f300b2d490e9
 workflow-type: tm+mt
 source-wordcount: '374'
-ht-degree: 2%
+ht-degree: 1%
 
 ---
 

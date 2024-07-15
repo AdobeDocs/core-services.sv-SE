@@ -38,7 +38,7 @@ Du flyttar en delad mapp till en mapp som inte delas.
 
 ![Delad mapp i en mapp som inte delas](../../assets/02_assets_move.png)
 
-**Resultat**: Den mapp som inte delas förblir odelad. Den delade mappen förblir delad.
+**Resultat**: Mappen som inte delas förblir odelad. Den delade mappen förblir delad.
 
 ## Innehåll från odelad mapp till delad mapp {#section_2941ED0DC52E4573AC1AB4C22313DD8E}
 
@@ -52,7 +52,7 @@ Du flyttar innehåll från en mapp som inte delas till en delad mapp.
 
 Du arkiverar eller tar bort innehåll som finns i en delad mapp.
 
-![Arkiverat och borttaget delat innehåll](../../assets/04_assets_move.png)
+![Arkiverat och tagit bort delat innehåll](../../assets/04_assets_move.png)
 
 **Resultat:** Innehållet arkiveras för mappens ägare. Medarbetare som inte äger innehållet kan inte längre komma åt det.
 
@@ -62,13 +62,13 @@ Du flyttar innehåll från en delad mapp som du äger till en mapp som inte dela
 
 ![Ägt delat innehåll till en mapp som inte delas](../../assets/05_assets_move.png)
 
-**Resultat:** Innehållet delas nu inte. Medarbetarna i den delade mappen har inte längre åtkomst till innehållet.
+**Resultat:** Innehållet delas inte. Medarbetarna i den delade mappen har inte längre åtkomst till innehållet.
 
 ## Innehåll som inte delas till en mapp som inte delas {#section_310766EBF0DC4C0BB4AB3E8A4DAEBE07}
 
 Du flyttar innehåll från en delad mapp som ägs av någon annan till en mapp som inte delas.
 
-![Innehåll som inte delas till en mapp som inte delas](../../assets/06_assets_move.png)
+![Innehållet i en mapp som inte delas](../../assets/06_assets_move.png) har inte använts
 
 **Resultat:** Innehållet visas i den odelade mappen och tas bort från den delade mappen. Medarbetarna i den delade mappen har inte längre åtkomst till innehållet. Innehållet arkiveras för ägaren av den delade mappen.
 

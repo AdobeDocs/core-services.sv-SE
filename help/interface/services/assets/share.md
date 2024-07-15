@@ -19,40 +19,40 @@ ht-degree: 0%
 
 Dela en resursmapp för Experience Cloud med Creative Cloud-användare.
 
-1. I en resursmapp väljer du **[!UICONTROL Share to Creative Cloud]**.
+1. Välj **[!UICONTROL Share to Creative Cloud]** i en resursmapp.
 
    ![Dela till Creative Cloud](../../assets/asset-share-cc.png)
-1. På sidan Dela till Creative Cloud söker du efter användaren och väljer **[!UICONTROL Add]**.
+1. På sidan Dela till Creative Cloud söker du efter användaren och väljer sedan **[!UICONTROL Add]**.
 
    ![Lägg till en Creative Cloud-användare](../../assets/asset-share-cc-page.png)
 
 1. Välj **[!UICONTROL Share]**.
-1. Starta [!DNL Creative Cloud] skrivbordet (eller navigera till [!UICONTROL Creative Cloud Files] sida i en webbläsare) och leta efter meddelandet om begäran.
+1. Starta skrivbordet [!DNL Creative Cloud] (eller navigera till sidan [!UICONTROL Creative Cloud Files] i en webbläsare) och leta efter meddelandet om begäran.
 
    ![Begär meddelande](../../assets/cc_share_request.png)
-1. Öppna begäran och välj **[!UICONTROL Accept]**.
+1. Öppna förfrågan och välj sedan **[!UICONTROL Accept]**.
 
    ![Godkänn begäran](../../assets/cc_share_accept.png)
-1. Om du vill komma åt mappinnehåll väljer du **[!UICONTROL Open Folder]** (eller **[!UICONTROL View on Web]**).
+1. Välj **[!UICONTROL Open Folder]** (eller **[!UICONTROL View on Web]**) om du vill få åtkomst till mappinnehåll.
 
    ![Visa på webben](../../assets/creative_cloud_open_folder.png)
 1. Fortsätt genom att lägga till kommentarer i den delade resursen:
 
-   I Creative Cloud kan du markera i en bild och sedan markera **[!UICONTROL Activity]** om du vill lägga till en kommentar i bilden. Kommentarerna synkroniseras på resurserna i [!DNL Creative Cloud] och [!DNL Experience Cloud].
+   I Creative Cloud kan du markera i en bild och sedan välja **[!UICONTROL Activity]** för att lägga till en kommentar i bilden. Kommentarer synkroniseras för resurserna i [!DNL Creative Cloud] och [!DNL Experience Cloud].
 
-   ![Lägga till en kommentar i bilden](../../assets/asset_comment_cc.png)
+   ![Lägg till en kommentar i bilden](../../assets/asset_comment_cc.png)
 
    I Experience Cloud markerar du en bild och väljer sedan tidslinjeikonen för att lägga till en kommentar i bilden. Kommentarerna synkroniseras på resurserna i Creative Cloud och Experience Cloud.
 
-   ![Lägga till en kommentar i bilden](../../assets/asset_comment_mac.png)
+   ![Lägg till en kommentar i bilden](../../assets/asset_comment_mac.png)
 
-1. Om du vill ta bort delningen av en mapp väljer du **[!UICONTROL Share Using Creative Cloud]** (liknar [Steg 3](share.md)), ta sedan bort användare genom att välja X och sedan markera **[!UICONTROL Share]**.
+1. Om du vill ta bort delningen av en mapp väljer du **[!UICONTROL Share Using Creative Cloud]** (ungefär som [Steg 3](share.md)), tar bort användare genom att välja X och sedan väljer du **[!UICONTROL Share]**.
 
 ![Ta bort delning av en mapp](../../assets/asset_remove_user.png)
 
 När du har tagit bort alla Creative Cloud-användare delas inte mappen och Creative Cloud-användare har inte längre åtkomst.
 
-Fler sätt att använda en delad resurs är att läsa in eller byta resurser i [Erbjudandebibliotek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) i Adobe Target för bilder i aktiviteter.
+Fler sätt att använda en delad resurs är att läsa in eller byta resurser i [Erbjudandebiblioteket](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) i Adobe Target för bilder i aktiviteter.
 
 När du har delat en mapp med Creative Cloud visas Creative Cloud logotypen i mappen.
 
@@ -60,6 +60,6 @@ När du har delat en mapp med Creative Cloud visas Creative Cloud logotypen i ma
 
 Relaterad hjälp:
 
-* [Hjälp om Creative Cloud - Hantera och synkronisera filer](https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html)
-* [Hjälp om Creative Cloud - Samarbeta med andra](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
-* [Hjälp om Creative Cloud - Vanliga frågor om samarbete](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)
+* Hjälp om [Creative Cloud - Hantera och synkronisera filer](https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html)
+* Hjälp om [Creative Cloud - Samarbeta med andra](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
+* Hjälp om [Creative Cloud - Collaboration - frågor och svar](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)

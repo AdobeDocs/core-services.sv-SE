@@ -16,24 +16,24 @@ ht-degree: 5%
 
 # Experience Cloud {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Den här dokumentationen gäller för funktioner i det enhetliga huvudet i Experience Cloud, till exempel [!DNL People] service ([!DNL Audience Library] och [!DNL Customer Attributes]), användar- och produkthantering för Experience Cloud, cookies, kontoinställningar, meddelanden och så vidare.
+Den här dokumentationen gäller för funktioner i det enhetliga huvudet i Experience Cloud, till exempel [!DNL People]-tjänsten ([!DNL Audience Library] och [!DNL Customer Attributes]), användar- och produkthantering för Experience Cloud, cookies, kontoinställningar, meddelanden och så vidare.
 
-Om du vill få tillgång till de här tjänsterna i Experience Cloud väljer du **[!UICONTROL Application Selector]**
-![Tjänstväljare](../assets/menu-icon.png).
+Om du vill få åtkomst till de här tjänsterna i Experience Cloud väljer du **[!UICONTROL Application Selector]**
+![ Tjänstväljare ](../assets/menu-icon.png) .
 
-![Experience Cloud](../assets/platform-core-services.png)
+![Experience Cloud-tjänster](../assets/platform-core-services.png)
 
 I den här hjälpen beskrivs följande produkter och tjänster:
 
 | Bastjänst | Beskrivning |
 |--- |--- |
-| [Komponenter i det centrala gränssnittet](../experience-cloud.md) | Få åtkomst till kontoinställningar, sök efter produkthjälp och få tillgång till program och tjänster. |
-| [Folk - [!DNL Audience Library]](audiences/overview.md) | Målgrupper är samlingar med besökare (en lista med besökar-ID). Adobe [!DNL Audience Library] Med kan ni hantera översättning av besöksdata till målgruppssegmentering. |
+| [Centrala gränssnittskomponenter](../experience-cloud.md) | Få åtkomst till kontoinställningar, sök efter produkthjälp och få tillgång till program och tjänster. |
+| [Personer - [!DNL Audience Library]](audiences/overview.md) | Målgrupper är samlingar med besökare (en lista med besökar-ID). Med Adobe [!DNL Audience Library] kan du hantera översättningen av besöksdata till målgruppssegmentering. |
 | [Personer - kundattribut](customer-attributes/attributes.md) | Bygg upp användningsfall för realtidssamordning med hjälp av kontextuella data lagrade i händelser eller datakällor. [!UICONTROL Journey Orchestration] är en programtjänst som är integrerad i Experience Platform. |
-| [Resurser](assets/experience-cloud-assets.md) | Experience Cloud Assets utgör ett enda centralt arkiv med marknadsföringsmaterial som du kan dela mellan olika program. |
+| [Assets](assets/experience-cloud-assets.md) | Experience Cloud Assets utgör en central lagringsplats för marknadsföringsmaterial som du kan dela mellan olika program. |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->Produktdokumentation för [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) är tillgängligt. Teknisk dokumentation för [!UICONTROL Experience Platform] utvecklare finns på [Adobe Developer](https://developer.adobe.com/apis).
+>Produktdokumentation för [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) finns tillgänglig. Teknisk dokumentation för [!UICONTROL Experience Platform] utvecklare finns på [Adobe Developer](https://developer.adobe.com/apis).

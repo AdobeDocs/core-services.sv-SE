@@ -17,7 +17,7 @@ ht-degree: 1%
 
 # Experience Cloud cookies
 
-Adobe Experience Cloud använder cookies för att lagra ett besökar-ID som används mellan Experience Cloud-program. Dessa cookies gäller särskilt för åtkomst till Adobe Experience Cloud-program på [experience.adobe.com](https://experience.adobe.com).
+Adobe Experience Cloud använder cookies för att lagra ett besökar-ID som används mellan Experience Cloud-program. Dessa cookies gäller specifikt för åtkomst till Adobe Experience Cloud-program på [experience.adobe.com](https://experience.adobe.com).
 
 **Cookie-namn: s_ecid**
 
@@ -31,7 +31,7 @@ Adobe Experience Cloud använder cookies för att lagra ett besökar-ID som anv�
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Information lagrad </p> </td> 
-   <td colname="col2"> <p> Innehåller en kopia av Experience Cloud ID (ECID) eller MID. MID lagras i ett nyckelvärdepar som följer syntaxen s_ecid=MCMID|&lt;ecid&gt; </p> </td> 
+   <td colname="col2"> <p> Innehåller en kopia av Experience Cloud ID (ECID) eller MID. MID lagras i ett nyckelvärdepar som följer syntaxen s_ecid=MCMID|&lt;ECID&gt; </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Förfallotid </p> </td> 
@@ -58,7 +58,7 @@ Adobe Experience Cloud använder cookies för att lagra ett besökar-ID som anv�
 
 **Cookie-namn: AMCV_###@AdobeOrg**
 
-The [Experience Platform ID-tjänst](https://experienceleague.adobe.com/docs/id-service/using/home.html) använder JavaScript för att lagra ett unikt besökar-ID i en `AMCV_###@AdobeOrg` cookie på den aktuella webbplatsens domän, där `###` representerar en slumpmässig teckensträng, som `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+[Experience Platform ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/home.html) använder JavaScript för att lagra ett unikt besökar-ID i en `AMCV_###@AdobeOrg`-cookie på den aktuella webbplatsens domän, där `###` representerar en slumpmässig teckensträng, till exempel `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
 Se även [Cookies och ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
 
@@ -91,7 +91,7 @@ Se även [Cookies och ID-tjänsten](https://experienceleague.adobe.com/docs/id-s
    <td colname="col2"> <p> De flesta kunder kan förvänta sig att den här cookien ska vara ca 200 byte lång. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Inget värde har lagts till. Krom är som standard Lax. </p> </td> 
+   <td colname="col1"> <p>Inget värde har lagts till. Chrome är som standard Lax. </p> </td> 
    <td colname="col2"> <p> Cookies med den här inställningen skickas bara när domänen som visas i webbläsarens URL matchar cookie-domänen. Den här inställningen är ny som standard för cookies i Chrome. </p> </td> 
   </tr> 
  </tbody> 

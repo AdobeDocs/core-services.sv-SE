@@ -7,13 +7,13 @@ feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+exl-id: 77e56cbe-92b6-4b18-ba13-e8178369e57c
+source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
 workflow-type: tm+mt
 source-wordcount: '124'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Exchange
 
@@ -31,8 +31,8 @@ Exchange Marketplace är en enda målplats där du kan söka, bläddra bland, v�
 
 * Avslå eller godkänna ansökningar.
 
-* Publicera i Experience Cloud.
+* Publish i Experience Cloud.
 
 * Sök och filtrera efter kategori, företag, typ, användare med mera.
 
-Se [Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html) för mer information.
+Mer information finns i [Experience Cloud Exchange](https://exchange.adobe.com/experiencecloud.html).

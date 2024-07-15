@@ -15,11 +15,11 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Unified Search] för objekt och enheter {#globally-search}
+# [!UICONTROL Unified Search] för objekt och entiteter {#globally-search}
 
-The [!UICONTROL Unified Search] Med hjälp av sökning kan du söka efter sökbara affärsobjekt eller entiteter på ett smidigt och enhetligt sätt med ett enda klick. Den här sökningen använder även dina nyligen använda objekt.
+Med sökfunktionen [!UICONTROL Unified Search] kan du söka efter sökbara affärsobjekt eller entiteter på ett smidigt och enhetligt sätt med ett enda klick. Den här sökningen använder även dina nyligen använda objekt.
 
-![Sök globalt efter objekt och enheter](../assets/platform-search.png)
+![Sök globalt efter objekt och entiteter](../assets/platform-search.png)
 
 ## Åtkomst till enhetlig sökning
 
@@ -28,7 +28,7 @@ Enhetlig sökning är tillgänglig på alla sidor i sidhuvudet i Experience Clou
 Den här funktionen är endast tillgänglig för produkter som stöds och som för närvarande är:
 
 * Experience Platform (AEP)
-* Journey Optimizer (JO)
+* Journey Optimizer (AJO)
 
 När mer innehåll indexeras läggs den här funktionen till i relevanta program.
 
@@ -38,7 +38,9 @@ När du skriver kommer de matchande toppresultaten från de objekt som du har å
 
 Våra algoritmer visar de mest relevanta posterna först. Vilken ordning du väljer beror på flera faktorer, till exempel:
 
-Din förmåga och objektbehörigheter matchar procentandelen Om det finns en exakt matchning
+Din förmåga och dina objektbehörigheter
+Matchande procent
+Om det finns en exakt matchning
 
 ![Enhetlig sökning i Experience Cloud](../assets/unified-search-results.png)
 
@@ -59,7 +61,7 @@ Om ett nyckelord matchar en navigeringssida kan du få snabb åtkomst till länk
 
 Du hittar även hjälpartiklar från Experience League och Communities. Naturliga språkfrågor stöds.
 
-Till exempel: _Så här skapar du ett schema_ ger resultat från Experience League under _[!UICONTROL Learning]_:
+_Så här skapar du till exempel ett schema_ som ger resultat från Experience League under _[!UICONTROL Learning]_:
 
 ![Enhetlig sökning i hjälpen för Experience Cloud](../assets/unified-search-learning.png)
 
@@ -68,12 +70,12 @@ Sökalgoritmer visar först de mest relevanta posterna. Vilken ordning du välje
 * Användarbehörigheter för att komma åt objekt
 * Matchande procent
 * Exakta matchningar
-* The _[!UICONTROL Top Results]_-avsnittet visar de 30 viktigaste resultaten.
+* Avsnittet _[!UICONTROL Top Results]_visar de 30 viktigaste resultaten.
 
 Förfina sökningen genom att klicka på något av följande:
 
 * **[!UICONTROL All Learning]**: Öppnar sökningen i Experience League.
-* **[!UICONTROL Show all...]**: Du kan förfina och filtrera resultatet ytterligare.
+* **[!UICONTROL Show all...]**: Gör att du kan förfina och filtrera resultaten ytterligare.
 
 ## Enhetliga sökfunktioner
 
@@ -85,7 +87,7 @@ Följande funktioner är tillgängliga i Unified Search.
 | Typo-tolerans | Enhetlig sökning ger robust typotolerans med avancerade algoritmer. Dessa algoritmer beräknar redigeringar och ger lämpliga resultat. |
 | Markering | Söksvaret markerar det matchande nyckelordet från sökfrågan så att du enkelt kan hitta det avsnitt och de ord som matchar frågan. Markering fungerar även för felstavade ord. |
 | Fragment | I söksvaret kan du se ett utdrag av resultatet. Kodavsnitt returnerar matchande ord och en del innehåll runt de matchande nyckelorden. |
-| Stoppord | Vissa vanliga ord på engelska definieras som _stoppa ord_. Om stoppord ingår i sökfrågan ges mindre vikt. <br>Stopporden är: _a, an, and, are, as, at, be, but, by, for, if, in, is, it, no, not, of, on, or, such, the, their, then, this, this, to, was, will, with,_. <br>Stoppord stöds inte i andra globala språk. |
+| Stoppord | Vissa vanliga ord på engelska definieras som _stoppord_. Om stoppord ingår i sökfrågan ges mindre vikt. <br>Stoppord inkluderar: _a, an, och, are, as, at, men, by, for, for, in, is, it, no, not, of, or, so, that,, their, then, this,, to, was, will, with_. <br>Stoppord stöds inte i andra globala språk. |
 | Naturliga språkfrågor | När du söker efter en hjälpartiklar eller en diskussion från Experience League Communities kan du skriva din fråga på ett naturligt språk och få svaret. Exempelsökning:&quot;Hur skapar jag ett schema?&quot; |
 | Exakt sökning inom citattecken | Du kan göra en exakt sökning genom att använda citattecken i frågan. Ingen typokorrigering görs på exakta matchningsfrågor. Exempel:&quot;Luma Journey 2022&quot;. |
 | Filter | Du kan använda filter som _Objekttyp_ och andra objektspecifika filter i popup-fönstret för fullständiga sökresultat. När du trycker på Retur efter att du har kopplat sökfrågan öppnas ett popup-fönster med hela sidan som innehåller filtren. |

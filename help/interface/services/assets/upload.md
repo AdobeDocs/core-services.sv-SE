@@ -19,9 +19,9 @@ Du kan överföra en resurs via Creative Cloud eller webbläsaren Creative Cloud
 
 ## Överföra en resurs till en delad mapp från webbläsaren Creative Cloud
 
-Se [https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html](https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html) för Creative Cloud hjälp.
+Se [https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html](https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html) för hjälp om Creative Cloud.
 
-1. Starta [!DNL Creative Cloud] webbläsare och navigera till [!UICONTROL Creative Cloud Files].
+1. Starta webbläsaren [!DNL Creative Cloud] och gå till [!UICONTROL Creative Cloud Files].
 1. Öppna den delade mappen.
 1. Välj **[!UICONTROL Actions]** > **[!UICONTROL Upload]**.
 1. Använd operativsystemets filbläddring för att välja eller flytta resurser.
@@ -29,6 +29,6 @@ Se [https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html](
 ## Överföra en resurs till en delad mapp från skrivbordet i Creative Cloud
 
 1. Aktivera delning.
-1. Starta [!DNL Creative Cloud] skrivbordet och navigera till [!UICONTROL **Resurser**].
+1. Starta skrivbordet [!DNL Creative Cloud] och gå till [!UICONTROL **Assets**].
 1. Välj **[!UICONTROL Open Folder].**
 1. Använd operativsystemets filbläddring för att välja eller flytta resurser.

@@ -26,11 +26,11 @@ Om du för närvarande hanterar dina egna certifikat ansvarar du för att köpa,
 
 Följ de här stegen för att implementera ett nytt certifikat för datainsamling från första part:
 
-1. Hämta och fyll i [Formulär för begäran om domäner från första part](cookies/assets/First_Party_Domain_Request_Form.xlsx)
+1. Hämta och fyll i formuläret [Förstpartsdomänbegäran](cookies/assets/First_Party_Domain_Request_Form.xlsx)
 
 1. Öppna en biljett där Adobe kundtjänst ber om att få ställa in insamling av förstahandsdata för det Adobe-hanterade certifikatprogrammet.
 
-1. När du fått biljetten får du en CNAME-post från Adobe:s representant. Dessa poster måste konfigureras på företagets DNS-server innan Adobe kan köpa certifikatet åt dig. Värdnamnet `data.example.com` pekar på `hiodsibxvip01.data.adobedc.net`.
+1. När du fått biljetten får du en CNAME-post från Adobe:s representant. Dessa poster måste konfigureras på företagets DNS-server innan Adobe kan köpa certifikatet åt dig. Värdnamnet `data.example.com` pekar till exempel på `hiodsibxvip01.data.adobedc.net`.
 
 1. När CNAME-posten finns på organisationens servrar arbetar Adobe med DigiCert för att köpa och installera ett certifikat på Adobe datainsamlingsservrar.
 
@@ -40,17 +40,17 @@ När Adobe har installerat certifikatet kan du använda någon av följande meto
 
 +++**Validering av webbläsare**
 
-Du kan använda vilken webbläsare som helst för att validera att ett certifikat är korrekt installerat. Skriv CNAME med `_check` som sökvägen till adressfältet. Exempel:
+Du kan använda vilken webbläsare som helst för att validera att ett certifikat är korrekt installerat. Skriv CNAME med `_check` som sökväg i adressfältet. Exempel:
 
 `data.example.com/_check`
 
-Om allt fungerar visas det i webbläsaren `SUCCESS`. Om certifikatet inte är korrekt installerat får du en säkerhetsvarning.
+Om allt fungerar visas `SUCCESS` i webbläsaren. Om certifikatet inte är korrekt installerat får du en säkerhetsvarning.
 
 +++
 
 +++**Kommandorad (`curl`)**
 
-De flesta moderna operativsystem har redan [`curl`](https://curl.se) installerade.
+De flesta moderna operativsystem har redan [`curl`](https://curl.se) installerat.
 
 Skriv följande på kommandoraden:
 
@@ -58,11 +58,11 @@ Skriv följande på kommandoraden:
 curl data.example.com/_check
 ```
 
-Om allt fungerar som det ska returnerar konsolen `SUCCESS`.
+Om allt fungerar korrekt returnerar konsolen `SUCCESS`.
 
 >[!TIP]
 >
->Du kan använda `-k` om du vill inaktivera säkerhetsvarningen som hjälp vid felsökning.
+>Du kan använda flaggan `-k` för att inaktivera säkerhetsvarningen för att hjälpa till med felsökningen.
 
 +++
 
@@ -94,8 +94,8 @@ Aliases: smetrics.example.com
 
 När du har verifierat att ditt certifikat fungerar som det ska kan du uppdatera din Adobe-implementering så att dessa värden används.
 
-* Uppdatera Adobe Analytics AppMeasurement [`trackingServer`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver) konfigurationsvariabel. Om du har en befintlig implementering kan du läsa [Migrering av besökare](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration) om du vill ha mer information om hur du förhindrar att befintliga besökare räknas som nya besökare.
-* För Web SDK-implementeringar uppdaterar du [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) -egenskapen i [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) -kommando.
+* Uppdatera konfigurationsvariabeln [`trackingServer`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver) för implementeringar av Adobe Analytics AppMeasurement. Om du har en befintlig implementering kan du läsa [Besöksmigrering](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration) för ytterligare steg om hur du förhindrar att befintliga besökare räknas som nya besökare.
+* Uppdatera egenskapen [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) i kommandot [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) för Web SDK-implementeringar.
 
 ## Underhåll och förnyelser
 
@@ -105,7 +105,7 @@ Trettio dagar innan ditt förstapartscertifikat upphör att gälla validerar Ado
 >
 >Om din organisations CNAME-post tas bort eller inte längre mappas till det säkra värdnamnet för Adobe kan Adobe inte förnya certifikatet. Posten i Adobe är markerad för borttagning utan ytterligare kommunikation.
 
-## Frågor och svar
+## Vanliga frågor och svar
 
 +++Är den här processen säker?
 
@@ -142,7 +142,7 @@ Nej. Adobe erbjuder denna tjänst till alla Adobe Experience Cloud-kunder utan e
 Adobe erbjuder två krypteringsnivåer för att uppfylla olika kundbehov när det gäller säkerhet vid datainsamling från första part. Dessa nivåer avgör vilka krypteringsalgoritmer som stöds för HTTPS-anslutningar med Adobe-servrar. Adobe granskar och uppdaterar regelbundet de algoritmer som stöds baserat på nuvarande säkerhetspraxis. Kontakta kundtjänst om du vill ändra säkerhetsinställningarna för chiffrering.
 
 * **Standard** kräver TLS 1.2 eller senare och minst 128-bitars kryptering. Den är utformad för att ge största möjliga enhetskompatibilitet samtidigt som den bevarar säker kryptering.
-* **Hög** Chiffer-säkerhetsnivån kräver TLS 1.2 eller senare och tar bort stödet för svagare ciphers. Den är utformad för kunder som vill ha den starkaste krypteringen och inte bryr sig om stöd för äldre enheter.
+* **Hög** krypteringssäkerhet kräver TLS 1.2 eller senare och tar bort stöd för svagare chiffer. Den är utformad för kunder som vill ha den starkaste krypteringen och inte bryr sig om stöd för äldre enheter.
 
 Följande klienter är kända för att inte kunna ansluta med krypteringssäkerhet inställd på **Hög**:
 
@@ -161,6 +161,6 @@ Adobe stöder både RSA- och ECC-certifikattyper för att uppfylla olika kundbeh
 * Windows Phone 8.0 och tidigare (senast uppdaterad 2014)
 * OS X 10.8 och tidigare (senast uppdaterat 2013)
 * iOS 5.1 och tidigare (senast uppdaterad 2012)
-* Android 4.3 och tidigare (senast uppdaterat 2013)
+* Android 4.3 och tidigare (senast uppdaterad 2013)
 
 +++

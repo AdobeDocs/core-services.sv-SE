@@ -28,7 +28,7 @@ ht-degree: 18%
       + [Överföra en resurs till en delad mapp](services/assets/upload.md)
       + [Krav för resursfiler för delning](services/assets/file-reqs.md)
       + [Beteende för delade mappar](services/assets/behavior.md)
-   + Målgruppsbibliotek {#audiences}
+   + Målbibliotek {#audiences}
       + [Översikt](services/audiences/overview.md)
       + [Skapa en målgrupp](services/audiences/create.md)
    + [Exchange](services/exchange.md)
@@ -62,7 +62,7 @@ ht-degree: 18%
    + [Domäner](data-collection/domains.md)
    + Cookies {#cookies}
       + [Översikt över cookies](data-collection/cookies/overview.md)
-      + [Annonscookies](data-collection/cookies/advertising.md)
+      + [Advertising cookies](data-collection/cookies/advertising.md)
       + [Analytics-cookies](data-collection/cookies/analytics.md)
       + [Audience Manager cookies](data-collection/cookies/audience-manager.md)
       + [Experience Cloud cookies](data-collection/cookies/experience-cloud.md)
@@ -74,6 +74,6 @@ ht-degree: 18%
 + Fler resurser {#more-resources}
    + [Versionsinformation](more-resources/release-notes.md)
    + [Dokumentationsuppdateringar](more-resources/doc-updates.md)
-   + [Frågor och svar](more-resources/faq.md)
+   + [Vanliga frågor och svar](more-resources/faq.md)
    + [Terminologi](more-resources/terms.md)
 

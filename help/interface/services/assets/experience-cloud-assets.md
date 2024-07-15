@@ -1,7 +1,7 @@
 ---
 description: Läs mer om Experience Cloud Assets som du kan dela mellan program.
 solution: Experience Cloud
-title: Översikt över resurser
+title: Översikt över Assets
 uuid: 97a849ec-1555-4630-9416-2ab484373f5c
 feature: Assets
 topic: Administration
@@ -17,7 +17,7 @@ ht-degree: 3%
 
 # Översikt över Experience Cloud Assets
 
-Experience Cloud Assets utgör ett enda centralt arkiv med marknadsföringsmaterial som du kan dela mellan olika program. En resurs är ett digitalt dokument, en bild, en video eller ett ljud (eller en del av ett) som kan ha flera återgivningar och som kan ha underresurser (till exempel lager i en [!DNL Photoshop] fil, bilder i en [!DNL PowerPoint] , sidor i PDF, filer i en ZIP-fil).
+Experience Cloud Assets utgör en central lagringsplats för marknadsföringsmaterial som du kan dela mellan olika program. En resurs är ett digitalt dokument, en bild, en video eller ett ljud (eller en del av en) som kan ha flera renderingar och som kan ha underresurser (till exempel lager i en [!DNL Photoshop]-fil, bilder i en [!DNL PowerPoint] -fil, sidor i en PDF, filer i en ZIP-fil).
 
 Tillgångstjänster omfattar:
 
@@ -28,7 +28,7 @@ Genom att använda mediefiler blir det enhetligare och varumärkeskommunikatione
 
 * **[!DNL Adobe Target]**: Skapa upplevelser för A/B-tester och multivariata tester.
 * **[!DNL Ad Cloud]**: Utveckla annonsenheter för olika kanaler och kampanjer
-* **[!DNL Adobe Campaign]**: Lägg in resurser i nyhetsbrev och kampanjer via e-post.
+* **[!DNL Adobe Campaign]**: Placera resurser i e-postnyhetsbrev och kampanjer.
 
 
 ## Navigera till Experience Cloud Assets {#section_3657039DD3524F2AA88753BFF4781125}
@@ -45,7 +45,7 @@ Verktygsfältet ger snabb åtkomst till funktioner som sökning, tidslinje, åte
 
 >[!NOTE]
 >
->Resurser måste tas bort från Adobe Target-aktiviteter innan du kan ta bort dem från [!DNL Target].
+>Assets måste tas bort från Adobe Target-aktiviteter innan du kan ta bort dem från [!DNL Target].
 
 ## Redigera resurser {#section_CD3C55A9D4574455B94D0955391C8FEC}
 
@@ -71,7 +71,7 @@ Välj **[!UICONTROL Annotate]** genom att rita cirklar eller pilar på en bild o
 
 ## Visa resurser i helskärmsläge och zooma {#section_A9F50D7D6BE341A2AB8244A4E42A4EF7}
 
-Välj **[!UICONTROL Views]** > **[!UICONTROL Image]** för att visa hela bilden och aktivera zoomning.
+Välj **[!UICONTROL Views]** > **[!UICONTROL Image]** om du vill visa hela resursbilden och aktivera zoomning.
 
 ![Visa resurser i helskärmsläge](../../assets/asset-zoom.png)
 

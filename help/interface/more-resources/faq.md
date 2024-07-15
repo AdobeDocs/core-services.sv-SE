@@ -52,7 +52,7 @@ Experience Cloud har stöd för de språk som varje användare föredrar, enligt
 * Spanska
 * Taiwanesiska
 
-Även om programgruppen har ett globalt språkstöd erbjuds inte alla program på alla språk som anges ovan. Om ditt primära språk inte stöds i ett Experience Cloud-program kan du även ange ett sekundärt språk som standard till när det är tillämpligt. Detta kan göras i [Användarinställningar för Experience Cloud](https://experience.adobe.com/preferences).
+Även om programgruppen har ett globalt språkstöd erbjuds inte alla program på alla språk som anges ovan. Om ditt primära språk inte stöds i ett Experience Cloud-program kan du även ange ett sekundärt språk som standard till när det är tillämpligt. Detta kan du göra i [Experience Cloud-användarinställningarna](https://experience.adobe.com/preferences).
 
 +++
 
@@ -89,11 +89,11 @@ Med etablering i Experience Cloud avses
 
 +++Hur hanterar jag användare och produktprofiler?
 
-* Se [Användarhandbok för Admin Console](https://helpx.adobe.com/se/enterprise/admin-guide.html) om du behöver hjälp.
+* Mer information finns i användarhandboken för [Admin Console](https://helpx.adobe.com/se/enterprise/admin-guide.html).
 
 * Användarrättigheter och produkthantering utförs i [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (produktlänk).
 
-* **Viktigt:** Analysadministratörer, se [Hantera Analytics-användare i Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) om hur du migrerar användar-ID:n från administrationsverktygen för Analytics till Admin Console.
+* **Viktigt!** Analysadministratörer, se [Hantera analysanvändare i Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) om hur du migrerar användar-ID:n från Analytics Admin Tools till Admin Console.
 
 +++
 
@@ -101,7 +101,7 @@ Med etablering i Experience Cloud avses
 
 Admin Console-administratörer kan ge användare åtkomst. Användarna får e-post med inloggningsinstruktioner.
 
-Du kanske måste [Kontakta Adobe support](https://experienceleague.adobe.com/?support-solution=General#support) för att verifiera att ditt företag har etablerats fullständigt.
+Du kanske måste [kontakta Adobe Support](https://experienceleague.adobe.com/?support-solution=General#support) för att verifiera att ditt företag har etablerats helt.
 
 +++
 
@@ -109,7 +109,7 @@ Du kanske måste [Kontakta Adobe support](https://experienceleague.adobe.com/?su
 
 Vissa användare kan behöva länka sitt programkonto (Analytics) till Adobe ID eller Enterprise ID.
 
-Se [Länka ett programkonto till en Adobe ID](../administration/organizations.md).
+Se [Länka ett programkonto till ett Adobe ID](../administration/organizations.md).
 
 +++
 
@@ -121,13 +121,13 @@ Se [Hantera användarkonton](../administration/organizations.md).
 
 +++Vad är en organisation?
 
-An [organisation](../administration/organizations.md) är den enhet som gör det möjligt för en administratör att konfigurera grupper och användare samt att styra enkel inloggning i Experience Cloud. Organisationen fungerar som ett inloggningsföretag som omfattar alla produkter och program från Experience Cloud. Oftast är en organisation ditt företagsnamn. Ett företag kan dock ha många organisationer.
+En [organisation](../administration/organizations.md) är den entitet som gör det möjligt för en administratör att konfigurera grupper och användare samt att styra enkel inloggning i Experience Cloud. Organisationen fungerar som ett inloggningsföretag som omfattar alla produkter och program från Experience Cloud. Oftast är en organisation ditt företagsnamn. Ett företag kan dock ha många organisationer.
 
 +++
 
 +++Var hittar jag mitt IMS-organisations-ID?
 
-Se [Visa ditt organisations-ID](../administration/organizations.md) för mer information.
+Mer information finns i [Visa ditt organisations-ID](../administration/organizations.md).
 
 +++
 

@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Customer Attributes] stöd för den allmänna dataskyddsförordningen
+# [!DNL Customer Attributes]-stöd för den allmänna dataskyddsförordningen
 
 Den här sidan beskriver hur [!DNL Customer Attributes] stöder allmänna dataskyddsförordningen (GDPR).
 
@@ -21,27 +21,27 @@ Den här sidan beskriver hur [!DNL Customer Attributes] stöder allmänna datask
 >
 >Innehållet i detta dokument är inte juridisk rådgivning eller avsett att ersätta juridisk rådgivning. Kontakta ditt juridiska ombud för råd om GDPR.
 
-The [Allmän dataskyddsförordning](https://business.adobe.com/privacy/general-data-protection-regulation.html), en lag som gäller den 25 maj 2018, ger alla individer (registrerade) inom EU:s gränser kontroll över sina personuppgifter. Det förenklar också regelmiljön för den internationella verksamheten. Denna lag gäller alla företag (registeransvariga) som erbjuder varor eller tjänster för att övervaka, övervaka eller samla in personuppgifter från enskilda personer inom EU:s gränser vid den tidpunkt då deras personuppgifter behandlas, oavsett var den registeransvarige befinner sig.
+Den [allmänna dataskyddsförordningen](https://business.adobe.com/privacy/general-data-protection-regulation.html), en lag som gäller den 25 maj 2018, ger alla individer (registrerade) inom EU:s gränser kontroll över sina personuppgifter. Det förenklar också regelmiljön för den internationella verksamheten. Denna lag gäller alla företag (registeransvariga) som erbjuder varor eller tjänster för att övervaka, övervaka eller samla in personuppgifter från enskilda personer inom EU:s gränser vid den tidpunkt då deras personuppgifter behandlas, oavsett var den registeransvarige befinner sig.
 
 Adobe Experience Cloud fungerar som personuppgiftsbiträde för alla personuppgifter som de tar emot och lagrar för sina kunders räkning. Som personuppgiftsansvarig avgör du vilka personuppgifter Adobe Experience Cloud behandlar och lagrar å dina vägnar.
 
-Det här dokumentet beskriver hur [!DNL Customer Attributes] har stöd för de registrerade i GDPR:s dataåtkomst och borttagningsrättigheter med hjälp av Adobe Experience Platform Privacy Service API och Privacy Servicens användargränssnitt.
+I det här dokumentet beskrivs hur [!DNL Customer Attributes] stöder de registrerade personernas GDPR-dataåtkomst och borttagningsrättigheter med hjälp av Adobe Experience Platform Privacy Service API och Privacy Servicens användargränssnitt.
 
-Mer information om vad GDPR innebär för ditt företag finns i [GDPR och er verksamhet](https://business.adobe.com/privacy/general-data-protection-regulation.html).
+Mer information om vad GDPR innebär för ditt företag finns i [GDPR och ditt företag](https://business.adobe.com/privacy/general-data-protection-regulation.html).
 
-## Nödvändig konfiguration för att skicka begäranden [!DNL Customer Attributes]
+## Nödvändig konfiguration för att skicka begäranden för [!DNL Customer Attributes]
 
-Gör förfrågningar om åtkomst och borttagning av data för [!DNL Customer Attributes]måste du:
+Om du vill göra förfrågningar om åtkomst och borttagning av data för [!DNL Customer Attributes] måste du:
 
 1. Identifiera följande:
 
    * [Organisations-ID](../../administration/organizations.md)
-   * Alias-ID för CRS-datakälla som du vill använda
+   * Alias-ID för CRS-data Source du vill använda
    * CRM-ID för profilen som du vill använda
 
-   Dina [organisations-ID](../../administration/organizations.md) är en alfanumerisk sträng med 24 tecken som läggs till med @AdobeOrg. Du behöver organisationens ID för att kunna skicka begäranden till sekretess-API:t. Kontakta Adobe kundtjänst på `gdprsupport@adobe.com` om du inte kan hitta ID:t.
+   Ditt [organisations-ID](../../administration/organizations.md) är en 24 tecken lång alfanumerisk sträng som läggs till i @AdobeOrg. Du behöver organisationens ID för att kunna skicka begäranden till sekretess-API:t. Kontakta Adobe kundtjänst på `gdprsupport@adobe.com` om du inte kan hitta ID:t.
 
-1. I [!UICONTROL Privacy Service]kan du skicka in begäranden om åtkomst och borttagning till [!DNL Customer Attributes]och kontrollera status för befintliga förfrågningar.
+1. I [!UICONTROL Privacy Service] kan du skicka begäranden om åtkomst och borttagning till [!DNL Customer Attributes] och kontrollera status för befintliga begäranden.
 
 ## Obligatoriska fältvärden i [!DNL Customer Attributes] JSON-begäranden
 
@@ -53,13 +53,13 @@ företagskontext:
 användare:
 
 * &quot;key&quot;: &lt;*vanligtvis kundens namn*>
-* &quot;action&quot;: antingen **åtkomst** eller **delete**
+* &quot;action&quot;: antingen **access** eller **delete**
 * användar-ID:
-   * &quot;namespace&quot;: &lt;*Alias-ID för CRS-datakälla*>
+   * &quot;namespace&quot;: &lt;*Alias ID för CRS Data Source*>
    * &quot;type&quot;: **integrationCode**
-   * &quot;value&quot;: &lt;*CRM-ID*>
-* include: **CRS** (som är den Adobe-produkt som är tillämplig på ansökan)
-* reglering: **gdpr** (som är den sekretessregel som gäller för begäran)
+   * &quot;value&quot;: &lt;*CRM ID*>
+* &quot;include&quot;: **CRS** (som är Adobe-produkten som gäller för begäran)
+* &quot;regler&quot;: **gdpr** (som är den sekretessregel som gäller för begäran)
 
 ## Exempel på JSON-begäran
 

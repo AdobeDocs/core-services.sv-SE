@@ -20,15 +20,15 @@ Adobe Advertising (tidigare Adobe Advertising Cloud) använder cookies för att 
 
 >[!NOTE]
 >
->Taggen Adobe Advertising Javascript som använder [Tjänsten Adobe Experience Cloud ID (ECID)](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) skapar första part [Experience Cloud](experience-cloud.md) `s_ecid` cookies, inte Adobe Advertising cookies.
+>Betataggen Javascript för Adobe Advertising som använder [Adobe Experience Cloud ID-tjänsten (ECID) ](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) skapar cookies från [Experience Cloud](experience-cloud.md) `s_ecid` och inte från Adobe Advertising.
 
 | Kaknamn | Förfallotid | Storlek | Plats | Beskrivning |
 | --- | --- | --- | --- | --- |
 | **`_lcc`** | 15 minuter | 52 byte | `everesttech.net` | Lagrar ID:n och tidsstämplar för visningsklickningar. Avgör om en klickningshändelse på en visningsannons gäller för en Adobe Analytics-träff. |
 | **`_tmae`** | 1 år | 1 kB | `everesttech.net` | Lagrar kodade ID:n och tidsstämplar för annonsinsatser med hjälp av DSP. Inkluderar användarinteraktion med annonser, till exempel annonser som visades senast |
-| **`_tmid`** | 1 år | ~20 byte | `everesttech.net` | Lagrar Adobe Advertising Demand Side Platform (DSP)-ID:t. Motsvarar besökar-ID:t i `everest_g_v2` cookie. |
+| **`_tmid`** | 1 år | ~20 byte | `everesttech.net` | Lagrar Adobe Advertising Demand Side Platform (DSP)-ID:t. Motsvarar besökar-ID:t i `everest_g_v2`-cookien. |
 | **`adcloud`** | 1 år | 50-150 byte | Förste part | Tidsstämplar för besökarens senaste besök på webbplatsen och besökarens senaste sökklick. Lagrar även `ef_id` som skapades när besökaren klickade på en annons. Kopplar besökar-ID:t till relevanta målgruppssegment och konverteringar. Hjälper till att optimera sidinläsningstiden genom att undvika onödiga förfrågningar till Adobe. |
-| **`ev_sync_*`** |  | 8 byte | `everesttech.net` | Det datum då synkronisering utförs i `yyymmdd` format. Synkroniserar besökar-ID:t för Adobe Advertising med partnerannonsutbytet. Den skapas för nya besökare och skickar en synkroniseringsbegäran när den har gått ut. Inkluderar cookies `ev_sync_ax`, `ev_sync_bk`, `ev_sync_dd`, `ev_sync_fs`, `ev_sync_ix`, `ev_sync_nx`, `ev_sync_ox`, `ev_sync_pm`, `ev_sync_rc`, `ev_sync_tm`och `ev_sync_yh`. |
+| **`ev_sync_*`** |  | 8 byte | `everesttech.net` | Det datum då synkronisering utförs i formatet `yyymmdd`. Synkroniserar besökar-ID:t för Adobe Advertising med partnerannonsutbytet. Den skapas för nya besökare och skickar en synkroniseringsbegäran när den har gått ut. Inkluderar cookies `ev_sync_ax`, `ev_sync_bk`, `ev_sync_dd`, `ev_sync_fs`, `ev_sync_ix`, `ev_sync_nx`, `ev_sync_ox`, `ev_sync_pm`, `ev_sync_rc`, `ev_sync_tm` och `ev_sync_yh`. |
 | **`everest_g_v2`** | 1 år | ~27 byte | `everesttech.net` | Lagrar webbläsarens och besökarens ID. Skapas efter att en användare först klickat på en annons. Används för att mappa den aktuella och efterföljande klickningen till andra händelser på webbplatsen. |
 | **`everest_session_v2`** | Session | ~16 byte | `everesttech.net` | Lagrar aktuellt sessions-ID. |
 | **`id_adcloud`** | 91 dagar | 16 byte | Förste part | Lagrar besökar-ID:t. |

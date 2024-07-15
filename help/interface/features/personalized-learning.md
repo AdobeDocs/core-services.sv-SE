@@ -21,7 +21,7 @@ Du kan välja att tillåta Adobe att ge dig användbart innehåll som är anpass
 
 [![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
 
-Du kan när som helst uppdatera dina val i avsnittet Produktdataanvändning och -samling i [Inställningar för användare](https://experience.adobe.com/preferences/).
+Du kan när som helst uppdatera dina val i avsnittet Produktdataanvändning och -samling i [inställningarna för användarinställningar](https://experience.adobe.com/preferences/).
 
 ## Personaliserade utbildnings- och supportrekommendationer för produkter och tjänster från Adobe
 

@@ -18,5 +18,5 @@ ht-degree: 0%
 
 Ta bort och ersätta attribut i schemat.
 
-1. På [!UICONTROL Edit Customer Attribute Source] sidan, ta bort **[!UICONTROL Target]** eller **[!UICONTROL Analytics]** prenumeration (under **[!UICONTROL Configure Subscriptions]**).
+1. På sidan [!UICONTROL Edit Customer Attribute Source] tar du bort prenumerationen **[!UICONTROL Target]** eller **[!UICONTROL Analytics]** (under **[!UICONTROL Configure Subscriptions]**).
 1. [Överför en ny datafil med uppdaterade fält](t-crs-usecase.md).
