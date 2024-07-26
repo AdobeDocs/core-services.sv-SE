@@ -7,10 +7,10 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
+source-git-commit: 2d65d40c462bd031939c0a8efc1631540dd96ec1
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 0%
+source-wordcount: '348'
+ht-degree: 1%
 
 ---
 
@@ -46,3 +46,20 @@ På [!UICONTROL Experience Cloud preferences] kan du konfigurera följande funkt
 Välj **[!UICONTROL Notifications]** om du vill få meddelanden om relevanta och åtgärdbara uppdateringar, inklusive produktreleaser, underhållsmeddelanden, delade objekt och godkännandebegäranden.
 
 ![Meddelanden och meddelanden](../assets/notifications-menu-small.png)
+
+## Språkstöd i Experience Cloud {#languages}
+
+Experience Cloud har stöd för de språk som varje användare föredrar, enligt inställningarna för ditt Adobe-användarkonto. Språk som stöds är:
+
+* Kinesiska
+* Engelska
+* Franska
+* Tyska
+* Italienska
+* Japanska
+* Koreanska
+* Portugisiska
+* Spanska
+* Taiwanesiska
+
+Alla programteam arbetar för globalt språkstöd, men alla program finns inte på alla språk som anges ovan. Om ditt primära språk inte stöds i ett Experience Cloud-program kan du även ange ett sekundärt språk som standard till när det är tillämpligt. Detta kan du göra i [Experience Cloud-användarinställningarna](https://experience.adobe.com/preferences).
