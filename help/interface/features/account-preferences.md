@@ -1,15 +1,15 @@
 ---
 title: Kontoinställningar och meddelanden
-description: Läs om användarprofiler och kontoinställningar i Experience Cloud. Prenumerera på produktmeddelanden och få produktvarningar.
+description: Läs om användarprofiler och kontoinställningar i Experience Cloud. Prenumerera på produktmeddelanden och få produktvarningar. Läs mer om stöd för webbläsare och språk.
 solution: Experience Cloud
 feature: Account Preferences,Notifications,Alerts
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 2d65d40c462bd031939c0a8efc1631540dd96ec1
+source-git-commit: 99b611d1418174ce27fe6a7b231f84bab9e12468
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '430'
 ht-degree: 1%
 
 ---
@@ -46,6 +46,22 @@ På [!UICONTROL Experience Cloud preferences] kan du konfigurera följande funkt
 Välj **[!UICONTROL Notifications]** om du vill få meddelanden om relevanta och åtgärdbara uppdateringar, inklusive produktreleaser, underhållsmeddelanden, delade objekt och godkännandebegäranden.
 
 ![Meddelanden och meddelanden](../assets/notifications-menu-small.png)
+
+## Stöd för webbläsare i Experience Cloud {#browser}
+
+För bästa prestanda är Experience Cloud optimerat för de vanligaste webbläsarna, inklusive den senaste versionen, plus de två tidigare.
+
+* Chrome
+* Edge
+* Firefox
+* Opera
+* Safari
+
+Om webbläsaren inte finns med i listan kanske den fortfarande stöds, men du bör använda en av webbläsarna i listan.
+
+>[!NOTE]
+>
+>Alla program som körs på Experience Cloud har inte stöd för alla webbläsare. Om du är osäker läser du dokumentationen för ett specifikt program.
 
 ## Språkstöd i Experience Cloud {#languages}
 
