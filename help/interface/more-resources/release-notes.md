@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: a4e0461791cd676365857c2dd4ef28c0e40c3430
+source-git-commit: 2690962f4b72d26fcde9883bb0bac3d49a9efa1a
 workflow-type: tm+mt
-source-wordcount: '5013'
+source-wordcount: '5024'
 ht-degree: 4%
 
 ---
@@ -23,6 +23,10 @@ Funktioner, versionsinformation och kända fel för gränssnittskomponenterna i 
 En lista över dokumentationsuppdateringar finns i [Dokumentationsuppdateringar](doc-updates.md).
 
 Versionsinformation om alla program finns i [Versionsinformation för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv).
+
+## September 2024
+
+Du kan konfigurera Slack-meddelanden för [Inställningar](/help\interface\features\account-preferences.md) i Experience Cloud.
 
 <!-- ## July - August 2023
 

@@ -1,14 +1,14 @@
 ---
 description: Läs mer om Adobe Analytics cookies i Adobe Experience Cloud.
 solution: Experience Cloud,Analytics,Target
-title: Adobe Analytics cookies
+title: Adobe Analytics Cookies
 uuid: e2d3d61d-2708-48b2-a7e6-2331f2aed8e0
 feature: Cookies
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: bc8ce894-f98c-4475-8a07-d74ae76f7451
-source-git-commit: e7c4085f41c674826ddc097a01a24ff9ab6aae2c
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 0%

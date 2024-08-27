@@ -1,5 +1,5 @@
 ---
-title: Adobe Experience Platform Web SDK-cookies
+title: Adobe Experience Platform Web SDK Cookies
 description: Lär dig hur Web SDK använder cookies som kan användas i din implementering.
 solution: Experience Cloud
 feature: Cookies
@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 14f06dc9-255e-4a6c-adec-471107cf202e
-source-git-commit: b4d7cc357393798f2265e09885dd4ea2f80ab31e
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 0%

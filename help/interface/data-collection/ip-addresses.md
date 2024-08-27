@@ -1,15 +1,15 @@
 ---
-title: IP-adresser som används av Adobe Experience Cloud
+title: IP-adresser som används av Experience Cloud
 description: Om brandväggen blockerar IP-adresser som kommer från Adobe kan du uppdatera brandväggsinställningarna i den här listan.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: d76af0f0f98b28ad1ac7b539743b722464fe98fa
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '373'
 ht-degree: 1%
 
 ---
 
-# IP-adresser som används av Adobe Experience Cloud
+# IP-adresser som används av Experience Cloud
 
 Vissa brandväggskonfigurationer blockerar IP-adresser som kommer från Adobe datainsamlingsservrar eller servrar som är ansvariga för dataåtkomst. Du kan använda den här listan med intervall för att ändra organisationens brandväggsinställningar så att åtkomst tillåts och data skickas inifrån organisationen. Den här sidan innehåller både inkommande och utgående system (till exempel datainsamling) (till exempel dataflöden i Adobe Analytics) som används i Adobe.
 

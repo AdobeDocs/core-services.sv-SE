@@ -1,15 +1,15 @@
 ---
-description: Lär dig mer om centrala gränssnittskomponenter för Experience Cloud. I den här hjälpen ingår användar- och produktadministration i Admin Console, aktivering av program för Experience Cloud-tjänster samt hjälp om Audience Library, Customer Attributes, Experience Cloud Assets med flera.
-title: Hjälp och dokumentation för Experience Cloud-gränssnittet
+description: Lär dig mer om centrala gränssnittskomponenter för Experience Cloud. Få hjälp med användar- och produktadministration i Admin Console, aktivera program för Experience Cloud-tjänster. Få hjälp med Audience Library, Customer Attributes, Experience Cloud Assets med flera.
+title: Gränssnittsdokumentation för Experience Cloud
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: a4e0461791cd676365857c2dd4ef28c0e40c3430
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '687'
 ht-degree: 0%
 
 ---

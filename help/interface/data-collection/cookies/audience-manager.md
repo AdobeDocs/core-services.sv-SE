@@ -9,14 +9,14 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 1%
 
 ---
 
-# Audience Manager Cookies{#audience-manager-cookies}
+# Audience Manager cookies{#audience-manager-cookies}
 
 Audience Manager förlitar sig på några enkla cookies för att utföra olika funktioner. Det kan vara till exempel att tilldela ID:n, spela in datainanrop, felspårning och testa om cookies kan anges. I det här avsnittet listas och beskrivs de olika cookies som har angetts av Audience Manager.
 

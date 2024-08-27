@@ -1,7 +1,7 @@
 ---
 description: Lär dig hur du ställer in säkra certifikat för användning med Adobe Experience Cloud cookies från första part.
 solution: Experience Cloud,Analytics
-title: Certifikatprogram som hanteras av Adobe
+title: Adobe-hanterat certifikatprogram
 index: y
 snippet: y
 feature: Cookies
@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e15abde5-8027-4aed-a0c1-8a6fc248db5e
-source-git-commit: 028b11dfbcfc0c5c9f6fd1c69350574f81f2846b
+source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 0%
