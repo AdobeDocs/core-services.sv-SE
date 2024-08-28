@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: d541fd7522e7333b1e5163f61d97f2fcea164877
 workflow-type: tm+mt
 source-wordcount: '428'
 ht-degree: 1%
@@ -73,6 +73,7 @@ You can configure your account preferences to send Experience Cloud notification
 
 1. Enable [!DNL Slack] notifications for your desired products and categories.
  -->
+
 ## Stöd för webbläsare i Experience Cloud {#browser}
 
 För bästa prestanda är Experience Cloud optimerat för de vanligaste webbläsarna, inklusive den senaste versionen, plus de två tidigare.
