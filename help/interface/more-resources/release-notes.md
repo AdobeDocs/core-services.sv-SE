@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 05ba40e4ef28c6d244446cc862a0320048f4b219
+source-git-commit: e9f6283e6ecd52be12f97f031785e24c2a15c9e9
 workflow-type: tm+mt
-source-wordcount: '5044'
+source-wordcount: '5039'
 ht-degree: 4%
 
 ---
@@ -29,8 +29,6 @@ Versionsinformation om alla program finns i [Versionsinformation för Experience
 | Funktion | Beskrivning |
 | -----------| ---------- |
 | Slack-meddelanden | Du kan konfigurera dina kontoinställningar så att du kan skicka meddelanden från Experience Cloud till Slack. Mer information finns i _Slack-meddelanden_ i hjälpen för [Inställningar](../features/account-preferences.md). |
-
-Se [Administratörsverktyget för Experience Cloud](../administration/admin-tool-experience-cloud.md)
 
 <!-- ## July - August 2023
 
