@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: d541fd7522e7333b1e5163f61d97f2fcea164877
+source-git-commit: 05ba40e4ef28c6d244446cc862a0320048f4b219
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '503'
 ht-degree: 1%
 
 ---
@@ -45,34 +45,33 @@ Välj **[!UICONTROL Notifications]** om du vill få meddelanden om relevanta och
 
 ![Meddelanden och meddelanden](../assets/notifications-menu-small.png)
 
-<!-- ## [!DNL Slack] notifications
+## [!DNL Slack] meddelanden
 
-Releasing: **September 2, 2024**
+Version: **2 september 2024**
 
-You can configure your account preferences to send Experience Cloud notifications to Slack.
+Du kan konfigurera dina kontoinställningar så att du kan skicka meddelanden från Experience Cloud till Slack.
 
-**Prerequisites**
+**Förhandskrav**
 
-* You must have an Experience Cloud account
-* You must have a [!DNL Slack] account
-* You must be a part of at least one [!DNL Slack] workspace
+* Du måste ha ett Experience Cloud-konto
+* Du måste ha ett [!DNL Slack]-konto
+* Du måste tillhöra minst en [!DNL Slack]-arbetsyta
 
-### To configure Slack notifications
+### Så här konfigurerar du meddelanden i Slack
 
-1. Sign in to Experience Cloud.
+1. Logga in på Experience Cloud.
 
-1. Click your account icon, then click **[!UICONTROL Preferences]**.
+1. Klicka på din kontoikon och sedan på **[!UICONTROL Preferences]**.
 
-1. Under [!DNL Slack], click **[!UICONTROL Add to Slack]**.
+1. Klicka på **[!UICONTROL Add to Slack]** under [!DNL Slack].
 
-1. When [!DNL Slack] opens, click **[!UICONTROL Allow]**.
+1. När [!DNL Slack] öppnas klickar du på **[!UICONTROL Allow]**.
 
-1. In Experience Cloud Preferences, navigate to **[!UICONTROL Notifications]**.
+1. Navigera till **[!UICONTROL Notifications]** i Inställningar för Experience Cloud.
 
-   [Slack notifications](../assets/slack.png)
+[Slack-meddelanden](../assets/slack.png)
 
-1. Enable [!DNL Slack] notifications for your desired products and categories.
- -->
+1. Aktivera [!DNL Slack]-meddelanden för önskade produkter och kategorier.
 
 ## Stöd för webbläsare i Experience Cloud {#browser}
 

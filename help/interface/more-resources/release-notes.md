@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: e2227bc64f5f294692df5c3c1419a5e376f0d136
+source-git-commit: 05ba40e4ef28c6d244446cc862a0320048f4b219
 workflow-type: tm+mt
-source-wordcount: '5013'
+source-wordcount: '5044'
 ht-degree: 4%
 
 ---
@@ -24,9 +24,13 @@ En lista över dokumentationsuppdateringar finns i [Dokumentationsuppdateringar]
 
 Versionsinformation om alla program finns i [Versionsinformation för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv).
 
-<!-- ## September 2024
+## 2 september 2024
 
-You can configure Slack notifications for Experience Cloud. -->
+| Funktion | Beskrivning |
+| -----------| ---------- |
+| Slack-meddelanden | Du kan konfigurera dina kontoinställningar så att du kan skicka meddelanden från Experience Cloud till Slack. Mer information finns i _Slack-meddelanden_ i hjälpen för [Inställningar](../features/account-preferences.md). |
+
+Se [Administratörsverktyget för Experience Cloud](../administration/admin-tool-experience-cloud.md)
 
 <!-- ## July - August 2023
 
