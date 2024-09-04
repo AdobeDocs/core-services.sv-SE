@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
+source-git-commit: 2e2e26e262a7e56ddaaf8b4bfa453b041c832548
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '641'
 ht-degree: 0%
 
 ---
@@ -73,27 +73,15 @@ Du kan konfigurera dina kontoinställningar så att Experience Cloud-meddelanden
 
 **Om du vill prenumerera på Slack-meddelanden**
 
-1. Navigera till Experience Cloud [inställningar](https://experience.adobe.com/preferences)
+1. Navigera till Experience Cloud [inställningar](https://experience.adobe.com/preferences).
 
 1. Leta reda på [!DNL Slack] och klicka sedan på **[!UICONTROL Add to Slack]**.
 
    ![Lägg till i Slack](../assets/add-to-slack.png)
 
-   Om [!DNL Slack] är installerat öppnas programmet och ett meddelande om behörighetsbegäran visas.
+   Om [!DNL Slack] är installerat öppnas programmet och ett meddelande om behörighetsbegäran visas. Om Slack inte är installerat måste du [begära behörighet](#slack-troubleshoot).
 
-   * Klicka på **[!UICONTROL Allow]**.
-
-   Om [!DNL Slack] inte är installerat visas ett _Request to install_ -meddelande:
-
-   ![Begär integrering med Slack](../assets/slack-request.png)
-
-   * I Slack väljer du arbetsytan i det övre högra hörnet av programmet.
-
-   * Klicka på **[!UICONTROL Submit]** om du vill begära programgodkännande för arbetsytehanteraren i Slack.
-
-   * Du får ett meddelande om det i [!DNL Slack] när programbegäran har godkänts.
-
-   * När du har fått [!DNL Slack] godkännande går du tillbaka till Experience Cloud **[!UICONTROL Notifications]** och klickar sedan på **[!UICONTROL Add to Slack]**.
+1. Klicka på **[!UICONTROL Allow]**.
 
 1. Aktivera [!DNL Slack]-meddelanden för önskade produkter och kategorier under **[!UICONTROL Notifications]**.
 
@@ -101,9 +89,25 @@ Du kan konfigurera dina kontoinställningar så att Experience Cloud-meddelanden
 
    Uppdateringar sparas automatiskt.
 
+### Begär behörighet i Slack {#slack-troubleshoot}
+
+Om [!DNL Slack] inte är installerat visas ett _Request to install_ -meddelande när Slack öppnas när du klickar på **[!UICONTROL Add to Slack]**.
+
+![Begär integrering med Slack](../assets/slack-request.png)
+
+**Om du vill begära behörigheter i Slack**
+
+1. I Slack väljer du arbetsytan i det övre högra hörnet av programmet.
+
+1. Klicka på **[!UICONTROL Submit]** om du vill begära programgodkännande för arbetsytehanteraren i Slack.
+
+1. Du får ett meddelande om det i [!DNL Slack] när programbegäran har godkänts.
+
+1. När du har fått [!DNL Slack] godkännande går du tillbaka till Experience Cloud **[!UICONTROL Notifications]** och [prenumerera på Slack](#slack-notifications) (se ovan).
+
 ### Vad du ser i [!DNL Slack]
 
-Meddelanden från Slack visar följande information:
+När integreringen av Slack är klar visas följande information i Slack-meddelandena:
 
 * Det personliga meddelandet tas emot från programnamnet _Adobe Experience Cloud_.
 * Meddelandet innehåller produktlogotypen för det aktuella programmet, t.ex. Adobe Experience Platform, Adobe Experience Manager osv.
