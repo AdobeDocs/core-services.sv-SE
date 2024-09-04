@@ -5,9 +5,9 @@ breadcrumb-title: Gränssnitt och administratörshandbok för Experience Cloud
 title: Experience Cloud Interface and Administration Guide
 description: Läs mer om gränssnittet och inställningarna för användarkonton i Experience Cloud. Lär dig hur du söker efter affärsobjekt och hanterar användare och produkter. Konfigurera kundattribut, målgruppsbibliotek, cookies och dela Experience Cloud Assets.
 index: true
-source-git-commit: 32096aec3acd8dd628123c63b3e047fc0e9f10bd
+source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
 workflow-type: tm+mt
-source-wordcount: '227'
+source-wordcount: '235'
 ht-degree: 18%
 
 ---
@@ -47,14 +47,15 @@ ht-degree: 18%
    + [Utlösare](services/triggers.md)
 
 + Funktioner {#features}
-   + [Kontoinställningar](features/account-preferences.md)
+   + [Meddelanden och kontoinställningar](features/account-preferences.md)
    + [Enhetlig sökning](features/search.md)
    + [Personligt lärande](features/personalized-learning.md)
+   + [Stöd för webbläsare och språk](browser-language.md)
 
 + Administration {#administration}
    + [Visa användarinformation (Admin Tool)](administration/admin-tool-experience-cloud.md)
    + [Organisationer och kontolänkning](administration/organizations.md)
-   + [Integreringar](administration/integrations.md)
+   + [Experience Cloud-integreringar](administration/integrations.md)
 
 + Datainsamling {#data-collection}
    + [Certifikatprogram som hanteras av Adobe](data-collection/adobe-managed-cert.md)
