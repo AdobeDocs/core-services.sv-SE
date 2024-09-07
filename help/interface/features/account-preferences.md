@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 2e2e26e262a7e56ddaaf8b4bfa453b041c832548
+source-git-commit: b79d6c6fb7bb165fdd5d47061da16f65f6fc7579
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '638'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Du kan konfigurera dina kontoinställningar så att Experience Cloud-meddelanden
 
 ### Begär behörighet i Slack {#slack-troubleshoot}
 
-Om [!DNL Slack] inte är installerat visas ett _Request to install_ -meddelande när Slack öppnas när du klickar på **[!UICONTROL Add to Slack]**.
+Om [!DNL Slack] inte är installerat visas ett _[!UICONTROL Request to install]_-meddelande när Slack öppnas när du klickar på&#x200B;**[!UICONTROL Add to Slack]**.
 
 ![Begär integrering med Slack](../assets/slack-request.png)
 
