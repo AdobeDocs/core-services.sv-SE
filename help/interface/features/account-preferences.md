@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: b79d6c6fb7bb165fdd5d47061da16f65f6fc7579
+source-git-commit: 0b2cae6b7aec7e91ac4b46de4d844dd2269095a9
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ I inställningarna kan du:
 
 * Sök efter [organisationer](../administration/organizations.md)
 * Ange ett mörkt tema (alla program stöder inte det här temat).
-* Konfigurera användarinställningar, meddelanden och prenumerationer.
+* Konfigurera kontoinställningar, meddelanden och prenumerationer för användare.
 * Logga ut från Experience Cloud.
 
 ## Hantera inställningar
@@ -58,22 +58,17 @@ E-post och Slack är användbara i situationer när du inte är inloggad på Exp
 
 ### Prenumerera på [!DNL Slack] meddelanden {#slack}
 
->[!NOTE]
->
->Meddelanden från Slack kommer att släppas: **11 september 2024**
-
-
 Du kan konfigurera dina kontoinställningar så att Experience Cloud-meddelanden skickas till en [!DNL Slack]-kanal.
 
 **Förhandskrav**
 
 * Du måste ha ett Experience Cloud-konto.
-* Du måste ha ett [!DNL Slack]-konto. Din Slack-administratör aktiverar integreringen mellan Experience Cloud och Slack.
+* Du måste ha ett [!DNL Slack]-konto. Din [!DNL Slack]-administratör aktiverar integreringen av Experience Cloud med [!DNL Slack].
 * Du måste vara en del av minst en [!DNL Slack]-arbetsyta.
 
-**Om du vill prenumerera på Slack-meddelanden**
+**Om du vill prenumerera på [!DNL Slack] meddelanden**
 
-1. Navigera till Experience Cloud [inställningar](https://experience.adobe.com/preferences).
+1. Navigera till [Inställningar](https://experience.adobe.com/preferences) för Experience Cloud.
 
 1. Leta reda på [!DNL Slack] och klicka sedan på **[!UICONTROL Add to Slack]**.
 
@@ -89,34 +84,34 @@ Du kan konfigurera dina kontoinställningar så att Experience Cloud-meddelanden
 
    Uppdateringar sparas automatiskt.
 
-### Begär behörighet i Slack {#slack-troubleshoot}
+### Begär behörighet i [!DNL Slack] (felsökning) {#slack-troubleshoot}
 
-Om [!DNL Slack] inte är installerat visas ett _[!UICONTROL Request to install]_-meddelande när Slack öppnas när du klickar på&#x200B;**[!UICONTROL Add to Slack]**.
+Om [!DNL Slack] inte är installerat visas ett _[!UICONTROL Request to install]_-meddelande när Slack öppnas när du klickar på&#x200B;**[!UICONTROL Add to Slack]**. Exempel:
 
-![Begär integrering med Slack](../assets/slack-request.png)
+![Begär integrering med Slack](../assets/slack-workspace.png)
 
 **Om du vill begära behörigheter i Slack**
 
-1. I Slack väljer du arbetsytan i det övre högra hörnet av programmet.
+1. I [!DNL Slack] väljer du arbetsytan på menyn **[!UICONTROL Workspace]** (övre högra hörnet).
 
-1. Klicka på **[!UICONTROL Submit]** om du vill begära programgodkännande för arbetsytehanteraren i Slack.
+1. Om du vill begära programgodkännande för arbetsytehanteraren [!DNL Slack] klickar du på **[!UICONTROL Submit]**.
 
 1. Du får ett meddelande om det i [!DNL Slack] när programbegäran har godkänts.
 
-1. När du har fått [!DNL Slack] godkännande går du tillbaka till Experience Cloud **[!UICONTROL Notifications]** och [prenumerera på Slack](#slack-notifications) (se ovan).
+1. När du har fått [!DNL Slack] godkännande går du tillbaka till Experience Cloud **[!UICONTROL Notifications]** och följer stegen för att [prenumerera på Slack](#slack-notifications) (se ovan).
 
 ### Vad du ser i [!DNL Slack]
 
-När integreringen av Slack är klar visas följande information i Slack-meddelandena:
+När [!DNL Slack] har integrerats visas följande information i [!DNL Slack]-meddelandena:
 
-* Det personliga meddelandet tas emot från programnamnet _Adobe Experience Cloud_.
-* Meddelandet innehåller produktlogotypen för det aktuella programmet, t.ex. Adobe Experience Platform, Adobe Experience Manager osv.
+* Det personliga meddelandet kommer att tas emot från programnamnet _Adobe[!DNL Experience Cloud]_.
+* Meddelandet innehåller produktlogotypen för det aktuella programmet, till exempel Adobe [!DNL Experience Platform], Adobe [!DNL Experience Manager] och så vidare.
 * En länk för att visa alla meddelanden på Experience Cloud.
 * En länk för att hantera meddelandeinställningar på Experience Cloud.
 
 ## Visa [!UICONTROL notifications] och meddelanden i Experience Cloud {#view-notifications}
 
-I sidhuvudet på Experience Cloud kan du visa meddelanden som du [prenumererar](#notifications) på samt visa meddelanden.
+I rubriken [!DNL Experience Cloud] kan du visa meddelanden som du [prenumererar](#notifications) på samt visa meddelanden.
 
 1. Klicka på klockikonen i sidhuvudet. ![Meddelanden och meddelanden](../assets/bell-icon.png)
 
