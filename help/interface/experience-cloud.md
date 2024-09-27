@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -22,10 +22,10 @@ ht-degree: 0%
 
 Från Experience Cloud kan du:
 
-* Få tillgång till dina program och tjänster
+* Få tillgång till alla Experience Cloud-program och -tjänster
 * På Hjälp-menyn söker du efter produktdokumentation, självstudiekurser och communityinlägg. Visa resultat i Experience League.
 * Sök efter affärsobjekt globalt med hjälp av en global sökning (endast Experience Platform) i sökfältet.
-* Hantera dina kontoinställningar (aviseringar, aviseringar och prenumerationer)
+* Hantera ditt konto [inställningar](features/account-preferences.md) (aviseringar, aviseringar och prenumerationer)
 
 ## Logga in på Experience Cloud {#signin}
 
@@ -68,35 +68,21 @@ Menyn [!UICONTROL Help] ger dig även åtkomst till:
 * **[!UICONTROL Status]:** Navigera till `https://status.adobe.com/experience_cloud` och kontrollera produktdriftsstatus och [!UICONTROL Manage Subscriptions].
 * **[!UICONTROL Developer Connection]:** Navigering till `adobe.io` och hitta dokumentation för utvecklare.
 
-## Användarprofil och kontoinställningar {#preferences}
+## Hantera din användarprofil
 
-Inställningarna för Experience Cloud omfattar meddelanden, prenumerationer och varningar. På kontoinställningsmenyn kan du:
+På menyn för användarprofiler kan du:
 
 * Ange ett mörkt tema (alla program stöder inte det här temat)
-* Sök efter [organisationer](administration/organizations.md)
+* Hantera [inställningar för Experience Cloud](features/account-preferences.md)
+* Välj eller sök efter en [organisation](administration/organizations.md)
+* Visa [!UICONTROL Legal Notices]
 * Logga ut
 * Konfigurera kontoinställningar, meddelanden och prenumerationer
 
-Om du vill hantera inställningar väljer du **[!UICONTROL Preferences]** på din kontomeny ![inställningar](assets/preferences-icon-sm.png).
+## Visa meddelanden och meddelanden i produkten {#notifications}
 
-![Användarprofil och kontoinställningar](assets/preferences-page.png)
-
-På [!UICONTROL Experience Cloud preferences] kan du konfigurera följande funktioner:
-
-| Funktion | Beskrivning |
-|--- |--- |
-| [Standardorganisation](administration/organizations.md) | Välj den organisation som du vill se när du startar Experience Cloud. |
-| [!UICONTROL Product data collection] | Välj vilka tekniker Adobe kan använda för att samla in data om hur du använder dina Adobe-produkter. |
-| [!UICONTROL Personalized learning recommendations and promotions] | Välj var du vill få personlig hjälp för dina Adobe-produkter. Den här hjälpen finns tillgänglig via e-post, i programmet och i Experience League Communities. [Läs mer.](features/personalized-learning.md) |
-| [!UICONTROL Subscriptions] | Välj de produkter och kategorier som du vill prenumerera på. Meddelanden i popup-fönstret [!UICONTROL Notifications] och i ditt e-postmeddelande. |
-| [!UICONTROL Priority] | Välj de kategorier som du vill ska ha hög prioritet. Dessa kategorier är markerade med en hög tagg och kan konfigureras för leverans som varningar. |
-| [!UICONTROL Alerts] | Välj de meddelanden som du vill visa aviseringar för i webbläsaren. Varningar visas i fönstrets övre högra hörn under några sekunder. |
-| E-post | Ange hur ofta du vill få e-postmeddelanden. (Inte skickat, direkt, dagligen eller veckovis.) |
-
-{style="table-layout:auto"}
-
-## Meddelanden {#notifications}
-
-Välj **[!UICONTROL Notifications]** om du vill få meddelanden om relevanta och åtgärdbara uppdateringar, inklusive produktreleaser, underhållsmeddelanden, delade objekt och godkännandebegäranden.
+Klicka på klockikonen för att visa meddelanden och meddelanden. Meddelanden kan vara relevanta och användbara uppdateringar, inklusive produktreleaser, underhållsmeddelanden, delade artiklar och godkännandeförfrågningar.
 
 ![Meddelanden och meddelanden](assets/notifications-menu-small.png)
+
+Mer information om hur du hanterar meddelanden och aviseringar finns i [Kontoinställningar och meddelanden](features/account-preferences.md)

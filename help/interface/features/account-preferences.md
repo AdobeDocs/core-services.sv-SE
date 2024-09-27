@@ -7,40 +7,26 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: 0b2cae6b7aec7e91ac4b46de4d844dd2269095a9
+source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 0%
+source-wordcount: '595'
+ht-degree: 1%
 
 ---
 
 # Kontoinställningar och meddelanden {#preferences}
 
-Experience Cloud [inställningar](https://experience.adobe.com/preferences) innehåller meddelanden (i programmet, e-post och [!DNL Slack]), prenumerationer och aviseringar.
+Klicka på ikonen **[!UICONTROL User Account]** ![preferences](../assets/preferences-icon-sm.png) och klicka sedan på **[!UICONTROL Preferences]** om du vill hitta inställningarna för Experience Cloud.
 
-I inställningarna kan du:
-
-* Sök efter [organisationer](../administration/organizations.md)
-* Ange ett mörkt tema (alla program stöder inte det här temat).
-* Konfigurera kontoinställningar, meddelanden och prenumerationer för användare.
-* Logga ut från Experience Cloud.
-
-## Hantera inställningar
-
-Om du vill hantera inställningar väljer du **[!UICONTROL Preferences]** på din kontomeny ![inställningar](../assets/preferences-icon-sm.png).
-
-På [!UICONTROL Experience Cloud preferences] kan du konfigurera följande funktioner:
+På sidan [!UICONTROL Experience Cloud preferences] kan du hantera följande kontofunktioner:
 
 | Funktion | Beskrivning |
 |--- |--- |
-| [Standardorganisation](../administration/organizations.md) | Välj den organisation som du vill se när du startar Experience Cloud. |
+| Profil | Uppdatera din [Adobe-kontoprofil](https://account.adobe.com/profile). <p>Ditt profilfoto och namn visas när du loggar in på Adobe.com, Adobe-produkter och -tjänster och på offentliga webbplatser som [!DNL Behance]. |
+| Allmänt | Välj en [organisation](../administration/organizations.md).<p>Den här organisationen används som standard när du loggar in på Experience Cloud. |
 | [!UICONTROL Product data collection] | Välj vilka tekniker Adobe kan använda för att samla in data om hur du använder dina Adobe-produkter. |
-| [Meddelanden](#notifications-and-announcements) | Aktivera [!UICONTROL in-app]-, [!UICONTROL email]- eller [Slack](#slack-notifications)-meddelanden. |
+| Meddelanden | Konfigurera hur och när du vill att [meddelanden](#subscribe-to-notifications-in-experience-cloud) och varningar för produkten ska visas: <ul><li>Välj de produkter du vill prenumerera på för aviseringar</li><li>Konfigurera meddelandetypen ([!UICONTROL in-app], [!UICONTROL email] eller [Slack](#slack-notifications))</li><li>Ange hur ofta du vill få e-postmeddelanden. (Inte skickat, direkt, dagligen eller veckovis.)</li><li>Ange aviseringsprioriteten. Aviseringar i appen visas i fönstrets övre högra hörn under några sekunder. Du kan också ange om aviseringar ska visas tills du stänger dem.</li></ul> |
 | [!UICONTROL Personalized learning recommendations and promotions] | Välj var du vill få [personlig hjälp](personalized-learning.md) för dina Adobe-produkter. Den här hjälpen finns tillgänglig via e-post, i programmet och i Experience League Communities. |
-| [!UICONTROL Subscriptions] | Välj de produkter och kategorier som du vill prenumerera på. Meddelanden i [!UICONTROL Notifications]-porten och i ditt e-postmeddelande. |
-| [!UICONTROL Priority] | Välj de kategorier som du vill ska ha hög prioritet. Dessa kategorier är markerade med en [!UICONTROL High]-tagg och kan konfigureras för leverans som varningar. |
-| [!UICONTROL Alerts] | Välj de meddelanden som du vill visa aviseringar för i webbläsaren. Varningar visas i fönstrets övre högra hörn under några sekunder. |
-| E-post | Ange hur ofta du vill få e-postmeddelanden. (Inte skickat, direkt, dagligen eller veckovis.) |
 
 ## Prenumerera på meddelanden i Experience Cloud {#notifications}
 
