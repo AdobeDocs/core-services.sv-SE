@@ -7,16 +7,18 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
+source-git-commit: 9a6833139a0fb8eed8a10daeda34f354a7133f17
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '599'
 ht-degree: 1%
 
 ---
 
 # Kontoinställningar och meddelanden {#preferences}
 
-Klicka på ikonen **[!UICONTROL User Account]** ![preferences](../assets/preferences-icon-sm.png) och klicka sedan på **[!UICONTROL Preferences]** om du vill hitta inställningarna för Experience Cloud.
+Om du vill hitta inställningarna för Experience Cloud klickar du på ikonen **[!UICONTROL User Account]** ![preferences](../assets/preferences-icon-sm.png) i sidhuvudet och sedan på **[!UICONTROL Preferences]** .
+
+![inställningar](../assets/preferences-navigation.png){width="100" zoomable="yes"}
 
 På sidan [!UICONTROL Experience Cloud preferences] kan du hantera följande kontofunktioner:
 
