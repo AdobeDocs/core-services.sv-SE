@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: cd5d4978f2dcaf79030022cbc0fe67c4c8099775
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '493'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Logga in och verifiera att du är i rätt [organisation](administration/organiza
 
    **Verifiera din organisation**
 
-   Kontrollera att du har loggat in på rätt [organisation](administration/organizations.md) genom att klicka på din profilavatar för att visa organisationsnamnet. Om du har tillgång till mer än en organisation kan du även visa och växla till en annan organisation direkt i sidhuvudsfältet.
+   [organisationen](administration/organizations.md) visas i gränssnittshuvudet.
 
    Om din organisation använder Federated ID:n kan du med Experience Cloud logga in med din organisations enkla inloggning utan att behöva ange din e-postadress och ditt lösenord. Lägg till `#/sso:@domain` i Experience Cloud-URL:en (`https://experience.adobe.com`) för att utföra den här åtgärden.
 
@@ -57,7 +57,7 @@ Gå till programväljaren ![menu](assets/menu-icon.png) om du vill komma åt Exp
 
 ## Få hjälp och support {#support}
 
-Lär dig mer och hjälp med hjälpikonen (![resurs](assets/help-icon.png)) i sidhuvudet, inklusive hjälpinnehåll (dokumentation, självstudiekurser och kurser) på [Experience League](https://experienceleague.adobe.com/#home), samt ytterligare resurser för enskilda program. Du kan även skicka in öppen feedback och skapa prioriterade supportärenden.
+Få tillgång till inlärning och hjälp med **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) i sidhuvudet, inklusive hjälpinnehåll (dokumentation, självstudiekurser och kurser) på [Experience League](https://experienceleague.adobe.com/#home), samt ytterligare resurser för enskilda program. Du kan även skicka in öppen feedback och skapa prioriterade supportärenden.
 
 ![Få hjälp och support](assets/search-menu.png)
 
@@ -70,7 +70,7 @@ Menyn [!UICONTROL Help] ger dig även åtkomst till:
 
 ## Hantera din användarprofil
 
-På menyn för användarprofiler kan du:
+På menyn [!UICONTROL Profile] kan du:
 
 * Ange ett mörkt tema (alla program stöder inte det här temat)
 * Hantera [inställningar för Experience Cloud](features/account-preferences.md)

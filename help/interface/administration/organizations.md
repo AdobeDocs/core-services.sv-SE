@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 0724136e77d6fe1341a64aea75051127956df3b2
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 3%
+source-wordcount: '525'
+ht-degree: 4%
 
 ---
 
@@ -23,7 +23,7 @@ Organisationen fungerar som ett inloggningsföretag som omfattar alla produkter 
 
 ![Experience Cloud-organisationer](../assets/organizations-menu.png)
 
-Kontrollera att du har loggat in på rätt organisation genom att klicka på din profilavatar för att se organisationens namn. Om du har tillgång till mer än en organisation kan du även visa och växla till en annan organisation i sidhuvudsfältet.
+Om du vill verifiera att du har loggat in i rätt organisation klickar du på **[!UICONTROL Profile]** för att visa standardorganisationsnamnet. Om du har tillgång till mer än en organisation kan du även visa och växla till en annan organisation i sidhuvudsfältet.
 
 ## Federated ID
 
@@ -33,7 +33,7 @@ För en organisation med Federated ID och domänen `adobecustomer.com` anger du 
 
 ## Visa ditt organisations-ID {#concept_EA8AEE5B02CF46ACBDAD6A8508646255}
 
-Du kan hitta ditt tilldelade organisations-ID i supportsyfte. Du kan verifiera att du är i rätt organisation eller växla mellan organisationer med hjälp av menyn **[!UICONTROL Organization]**.
+Du kan hitta ditt tilldelade organisations-ID i supportsyfte. Du kan verifiera att du är i rätt organisation, eller växla mellan organisationer, med väljaren **[!UICONTROL Organization]** i sidhuvudet.
 
 Organisations-ID är det ID som är kopplat till ditt tilldelade Experience Cloud-företag. Detta ID är en alfanumerisk sträng med 24 tecken, följt av (och måste innehålla) `@AdobeOrg`.
 
@@ -65,31 +65,30 @@ Administratörer i Experience Cloud ger vanligtvis tillgång till program och tj
 
 1. Logga in med ditt Adobe ID eller Enterprise ID.
 
-1. Välj programväljaren. ( ![meny](../assets/menu-icon.png)).
+1. Klicka på **[!UICONTROL Application selector]**. ( ![meny](../assets/menu-icon.png)).
 
    ![Länka ett programkonto till ett Adobe ID](../assets/solutions-active.png)
 
    De program som du har åtkomst till är färgade.
 
-1. Välj önskat program.
+1. Klicka på önskat program.
 
-   ![Välj önskat program](../assets/analytics-link-accounts.png)
+   ![Klicka på programmet](../assets/analytics-link-accounts.png)
 
    Den här typen av meddelande visas om du tillhör rätt grupp (och har behörighet till programmet) men ännu inte har länkat dina kontoinloggningsuppgifter till din Adobe ID.
 
-1. Välj **[!UICONTROL Link Account]** och ange dina autentiseringsuppgifter.
+1. Klicka på **[!UICONTROL Link Account]** och ange dina autentiseringsuppgifter.
 
-## Ange en standardorganisation och landningssida {#concept_6A191B42A9874A9780882903BA18F071}
+## Ange en standardorganisation {#concept_6A191B42A9874A9780882903BA18F071}
 
-Du kan ange vilken standardorganisation och landningssida som ska användas när du loggar in.
+Du kan ange en standardorganisation som ska användas när du loggar in.
 
-Välj **[!UICONTROL Edit Profile]** i din profil.
+1. Klicka på **[!UICONTROL Profile]** i sidhuvudet och sedan på Inställningar.
+
+1. Välj en standardorganisation under [!UICONTROL General].
+
 
 ![Redigera profil](../assets/edit-profile.png)
-
-Under **[!UICONTROL Default Organization & Landing Page]** kan du anpassa din inloggningsupplevelse.
-
-![Standardsida för organisation och landning](../assets/default-organization.png)
 
 ## Felsöka problem med kontolänkning {#concept_DFCB29A3B4834FC59AA29E0BBA301584}
 

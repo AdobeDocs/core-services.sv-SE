@@ -6,10 +6,10 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: 1ca98d86c3559bf82c33c4fa3c7ec04bde26f1d8
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 1%
+source-wordcount: '697'
+ht-degree: 2%
 
 ---
 
@@ -64,7 +64,7 @@ Logga in och verifiera att du är i rätt [organisation](organizations.md).
 
    ![Verifiera din organisation](assets/organizations-menu.png)
 
-   Kontrollera att du har loggat in på rätt [organisation](organizations.md) genom att klicka på din profilavatar för att visa organisationsnamnet. Om du har tillgång till mer än en organisation kan du även visa och växla till en annan organisation direkt i sidhuvudsfältet.
+   Verifiera att du har loggat in på rätt [organisation](organizations.md) genom att klicka på **[!UICONTROL Profile]** för att visa organisationsnamnet. Om du har tillgång till mer än en organisation kan du även visa och växla till en annan organisation med väljaren **[!UICONTROL Organization]**.
 
    Om din organisation använder Federated ID:n kan du med Experience Cloud logga in med din organisations enkla inloggning utan att behöva ange din e-postadress och ditt lösenord. Lägg till `#/sso:@domain` i Experience Cloud-URL:en (`https://experience.adobe.com`) för att utföra den här åtgärden.
 

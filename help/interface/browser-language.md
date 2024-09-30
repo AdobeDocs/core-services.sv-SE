@@ -6,9 +6,10 @@ feature: Account Preferences
 topic: Administration
 role: Admin
 level: Intermediate
-source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
+exl-id: cc44008e-8b8a-4afb-b692-0ef9b87d5b21
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '188'
+source-wordcount: '186'
 ht-degree: 1%
 
 ---
@@ -35,9 +36,9 @@ Experience Cloud stöder de språk som föredras för varje användare samt ett 
 
 Så här visar du de språk som stöds:
 
-1. Gå till **[!UICONTROL Profile]** > [Inställningar](https://experience.adobe.com/preferences) i Experience Cloud.
+1. Klicka på **[!UICONTROL Profile]** > [Inställningar](https://experience.adobe.com/preferences) i Experience Cloud.
 
-1. Klicka på språklänken i [!UICONTROL Profile].
+1. Klicka på länken för språket under **[!UICONTROL Profile]**.
 
 1. På **[!UICONTROL Select language]** väljer du ett språk på menyn **[!UICONTROL First language]**.
 

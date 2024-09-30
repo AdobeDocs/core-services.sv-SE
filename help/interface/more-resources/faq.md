@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '700'
 ht-degree: 2%
 
 ---
@@ -87,7 +87,13 @@ Med etablering i Experience Cloud avses
 
 +++
 
-+++Hur hanterar jag användare och produktprofiler?
++++Hur hanterar jag användarinställningar, meddelanden och aviseringar?
+
+* Se [Kontoinställningar och meddelanden](/help/interface/features/account-preferences.md)
+
++++
+
++++Hur hanterar jag produktprofiler och autentiseringsuppgifter för användarkonton?
 
 * Mer information finns i användarhandboken för [Admin Console](https://helpx.adobe.com/se/enterprise/admin-guide.html).
 

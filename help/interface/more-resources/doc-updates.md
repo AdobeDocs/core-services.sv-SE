@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
+source-git-commit: 468375c0435e5cffc92db5b737eb55fa92454b99
 workflow-type: tm+mt
-source-wordcount: '545'
+source-wordcount: '557'
 ht-degree: 4%
 
 ---
@@ -18,9 +18,11 @@ ht-degree: 4%
 
 Information om uppdateringar av produktdokumentationen för Experience Cloud.
 
-<!-- **9 September 2024**
+**September 2024**
 
-Added help about [subscribing to Slack notifications](../features/account-preferences.md#subscribe-to-slack-notifications). -->
+Hjälp om att [prenumerera på Slack-meddelanden](../features/account-preferences.md#subscribe-to-slack-notifications) har lagts till.
+
+[användarinställningarna](../features/account-preferences.md) har uppdaterats.
 
 **26 april 2024**
 
