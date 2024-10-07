@@ -3,11 +3,11 @@ role: User,Admin
 user-guide-title: Gränssnitt och administratörshandbok för Experience Cloud
 breadcrumb-title: Gränssnitt och administratörshandbok för Experience Cloud
 title: Experience Cloud Interface and Administration Guide
-description: Läs mer om gränssnittet och inställningarna för användarkonton i Experience Cloud. Lär dig hur du söker efter affärsobjekt och hanterar användare och produkter. Konfigurera kundattribut, målgruppsbibliotek, cookies och dela Experience Cloud Assets.
+description: Läs mer om Experience Cloud gränssnitt, cookies och kontoinställningar. Hantera produkter och konfigurera persontjänsten, inklusive kundattribut och målgruppsbibliotek. Dela Experience Cloud Assets.
 index: true
-source-git-commit: b42a942deb91f3fb68ff1195b94df248763f5122
+source-git-commit: 009c387189d928d3807326939fa56461325011f1
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '229'
 ht-degree: 18%
 
 ---
