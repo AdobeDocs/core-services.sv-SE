@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 9171da93ad234c98c06a5ace2435f7d476151f51
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
@@ -71,11 +71,15 @@ Utför dessa steg på Source-sidan Skapa nytt kundattribut i Experience Cloud.
 
    * **[!UICONTROL Description:]** (Valfritt) En beskrivning av datakällan för dataattribut.
 
-   * **[!UICONTROL Alias ID:]** Representerar en källa med kundattributdata, till exempel ett specifikt CRM-system. [!UICONTROL Alias ID] är ett unikt ID som används i Source-koden för kundattribut. ID:t ska vara unikt, med gemener, utan blanksteg. Värdet som anges i fältet [!UICONTROL Alias ID] för en kundattributskälla i Experience Cloud ska matcha värdena som skickas från implementeringen (oavsett om det är via Platform Data Collection eller JavaScript för Mobile SDK.)
+   * **[!UICONTROL Alias ID:]** Representerar en källa med kundattributdata, till exempel ett specifikt CRM-system. [!UICONTROL Alias ID] är ett unikt ID som används i din [!UICONTROL Customer Attribute Source]-kod. ID:t ska vara unikt, med gemener, utan blanksteg. Värdet som anges i fältet [!UICONTROL Alias ID] för en kundattributskälla i Experience Cloud ska matcha värdena som skickas från implementeringen (oavsett om det är via Platform Data Collection eller JavaScript för Mobile SDK.)
+
+     >[!IMPORTANT]
+     >
+     >Om du tar bort en datakälla som är kopplad till ett alias-ID blir alias-ID inte tillgängligt, eftersom alias-ID sparas i flera tjänster och används för att mappa profiler mellan dem.
 
      Alias-ID motsvarar vissa områden där du anger ytterligare värden för Kund-ID. Exempel:
 
-      * **Dynamisk tagghantering:** Alias-ID motsvarar värdet *Integreringskod* under [!UICONTROL Customer Settings] i verktyget [Experience Cloud ID-tjänst](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=sv).
+      * **Taggar:** Alias-ID motsvarar värdet *Integreringskod* under [!UICONTROL Customer Settings] i verktyget [Experience Cloud ID-tjänst](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=sv).
 
       * **Besökar-API:** Alias-ID:t motsvarar de ytterligare [Kund-ID:n](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) som du kan associera med varje besökare.
 
@@ -99,7 +103,7 @@ Utför dessa steg på Source-sidan Skapa nytt kundattribut i Experience Cloud.
 
         Se [Utnyttjar flera datakällor](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) för mer information om databearbetning för Alias ID-fältet och Kund-ID:n.
 
-   * **[!UICONTROL File Upload:]** Du kan dra och släppa datafilen `.csv` eller överföra data via FTP. (FTP kräver också en `.fin`-fil.) Se [Överför data via FTP](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B).
+   * **[!UICONTROL File Upload:]** Du kan dra och släppa datafilen `.csv` eller överföra data via FTP. (FTP kräver också en `.fin`-fil.) Se [ Överföra data via FTP ](t-upload-attributes-ftp.md#task_591C3B6733424718A62453D2F8ADF73B) .
 
      >[!IMPORTANT]
      >
