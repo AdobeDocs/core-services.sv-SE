@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 9171da93ad234c98c06a5ace2435f7d476151f51
+source-git-commit: 65d77199580a85e3be3e82c06cb215f980d159fd
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -108,7 +108,6 @@ Utför dessa steg på Source-sidan Skapa nytt kundattribut i Experience Cloud.
      >[!IMPORTANT]
      >
      >Det finns särskilda krav på datafiler. Mer information finns i [Datafilskrav](crs-data-file.md).
-
 
      När du har överfört filen visas tabelldata under rubriken [!UICONTROL File Upload] på den här sidan. Du kan validera schemat, konfigurera prenumerationer eller konfigurera FTP.
 
