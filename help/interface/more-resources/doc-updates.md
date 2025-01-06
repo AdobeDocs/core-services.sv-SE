@@ -1,5 +1,5 @@
 ---
-description: Information om uppdateringar av hjälpen för Experience Cloud.
+description: Lär dig var det finns dokumentationsuppdateringar för de gemensamma gränssnittskomponenterna i Experience Cloud.
 solution: Experience Cloud
 title: Dokumentationsuppdateringar
 uuid: f41c4e9f-e784-4706-8c4b-f430c953670d
@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 468375c0435e5cffc92db5b737eb55fa92454b99
+source-git-commit: 855853be8397350bb93f3c9cf02bb73f5e75326f
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '580'
 ht-degree: 4%
 
 ---
 
-# Dokumentationsuppdateringar - Experience Cloud
+# Dokumentationsuppdateringar för Experience Cloud
 
-Information om uppdateringar av produktdokumentationen för Experience Cloud.
+Lär dig var det finns dokumentationsuppdateringar för det centrala gränssnittet och administrationen av Experience Cloud.
+
+**November 2024**
+
+Uppdateringar av [Produktanvändningsdata](../features/account-preferences.md) och [Personligt lärande](../features/personalized-learning.md).
 
 **September 2024**
 
@@ -56,7 +60,7 @@ Uppdaterar hur du kan hitta ditt [organisations-ID](../administration/organizati
 
 | Funktion | Beskrivning |
 | ------- | ------- |
-| Enhetlig sökning | Enhetlig sökning fortsätter att lägga till objekttyper i sökindexet. I den här uppdateringen söker nu global sökning igenom Experience League-innehåll och följande Journey Optimizer-objekttyper: <ul><li>Datauppsättningar</li><li>Mål </li><li>Frågor</li><li>Scheman</li><li>Segment</li><li>Källor</li><li>Erbjudanden</li><li>Komponenter</li><li>Meddelanden</li><li>Resor</li></ul> |
+| Enhetlig sökning | Enhetlig sökning fortsätter att lägga till objekttyper i sökindexet. I den här uppdateringen söker nu global sökning igenom Experience League-innehåll och följande Journey Optimizer-objekttyper: <ul><li>Datauppsättningar</li><li>Mål</li><li>Frågor</li><li>Scheman</li><li>Segment</li><li>Källor</li><li>Erbjudanden</li><li>Komponenter</li><li>Meddelanden</li><li>Resor</li></ul> |
 | Produktanvändningsdata, samtycke | Vid en första inloggning ombeds du ange inställningar för hur Adobe kan ge dig användbart, personaliserat innehåll, t.ex. självstudiekurser, guider, snabbtips, rekommendationer, utbildningsvideor med mera, baserat på dina produktanvändningsdata för Experience Cloud. Den här begäran innehåller även en uppdatering av dina inställningar för insamling och användning av dessa data på <https://experience.adobe.com/preferences>. |
 
 **24 augusti 2021**

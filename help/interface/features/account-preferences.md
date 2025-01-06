@@ -1,16 +1,16 @@
 ---
 title: Kontoinställningar och meddelanden
-description: Läs om användarprofiler och kontoinställningar i Experience Cloud. Prenumerera på produktmeddelanden för e-post och  [!DNL Slack] och konfigurera produktaviseringar.
+description: Läs om användarprofiler, kontoinställningar och produktanvändningsdata i Experience Cloud. Prenumerera på produktmeddelanden för e-post och  [!DNL Slack] och konfigurera produktaviseringar.
 solution: Experience Cloud
 feature: Account Preferences, Notifications, Alerts
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: 1e34c6b2-a792-41c4-adb7-583de596237f
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 2%
+source-wordcount: '788'
+ht-degree: 0%
 
 ---
 
@@ -24,11 +24,23 @@ På sidan [!UICONTROL Experience Cloud preferences] kan du hantera följande kon
 
 | Funktion | Beskrivning |
 |--- |--- |
-| Profil | Uppdatera din [Adobe-kontoprofil](https://account.adobe.com/profile). <p>Ditt profilfoto och namn visas när du loggar in på Adobe.com, Adobe-produkter och -tjänster och på offentliga webbplatser som [!DNL Behance]. |
-| Allmänt | Välj en [organisation](../administration/organizations.md).<p>Den här organisationen används som standard när du loggar in på Experience Cloud. |
-| [!UICONTROL Product data collection] | Välj vilka tekniker Adobe kan använda för att samla in data om hur du använder dina Adobe-produkter. |
-| Meddelanden | Konfigurera hur och när du vill att [meddelanden](#subscribe-to-notifications-in-experience-cloud) och varningar för produkten ska visas: <ul><li>Välj de produkter du vill prenumerera på för aviseringar</li><li>Konfigurera meddelandetypen ([!UICONTROL in-app], [!UICONTROL email] eller [Slack](#slack-notifications))</li><li>Ange hur ofta du vill få e-postmeddelanden. (Inte skickat, direkt, dagligen eller veckovis.)</li><li>Ange aviseringsprioriteten. Aviseringar i appen visas i fönstrets övre högra hörn under några sekunder. Du kan också ange om aviseringar ska visas tills du stänger dem.</li></ul> |
-| [!UICONTROL Personalized learning recommendations and promotions] | Välj var du vill få [personlig hjälp](personalized-learning.md) för dina Adobe-produkter. Den här hjälpen finns tillgänglig via e-post, i programmet och i Experience League Communities. |
+| [!UICONTROL Profile] | Uppdatera din [Adobe-kontoprofil](https://account.adobe.com/profile). <p>Ditt profilfoto och namn visas när du loggar in på Adobe.com, Adobe-produkter och -tjänster och på offentliga webbplatser som [!DNL Behance]. |
+| [!UICONTROL General] | Välj en [organisation](../administration/organizations.md).<p>Den här organisationen används som standard när du loggar in på Experience Cloud. |
+| [!UICONTROL Product usage data] | Du kan styra vilka produktanvändningsdata som delas med Adobe när du använder Experience Cloud-program. Detta handlar om hur du använder våra produkter, inte om innehållet eller informationen i din organisation. Adobe använder den här informationen för att förbättra våra produkter, ge dig bättre produktsupport och för att anpassa din upplevelse och kommunikation från oss. <p>Mer information finns i [Produktanvändningsdata](#product-usage-data) (på den här sidan). |
+| [!UICONTROL Notifications] | Konfigurera hur och när du vill att [meddelanden](#subscribe-to-notifications-in-experience-cloud) och varningar för produkten ska visas: <ul><li>Välj de produkter du vill prenumerera på för aviseringar</li><li>Konfigurera meddelandetypen ([!UICONTROL in-app], [!UICONTROL email] eller [Slack](#slack-notifications))</li><li>Ange hur ofta du vill få e-postmeddelanden. (Inte skickat, direkt, dagligen eller veckovis.)</li><li>Ange aviseringsprioriteten. Aviseringar i appen visas i fönstrets övre högra hörn under några sekunder. Du kan också ange om aviseringar ska visas tills du stänger dem.</li></ul> |
+
+## [!UICONTROL Product usage data] {#product-usage-data}
+
+Produktanvändningsdata som du väljer att dela med Adobe omfattar följande typer av information om hur du använder och interagerar med Adobe-program:
+
+* Information om webbläsare och enheter, t.ex. enhetsmodell och operativsystem, program- och maskinvaruinformation, inställningar för webbläsare och enheter, unika identifierare (t.ex. IP-adress, cookie-ID eller enhets-ID), installerat minne, språkinställningar och skärmupplösning.
+* Hur du interagerar med Adobe Experience Cloud-appar, inklusive de funktioner du använder och de alternativ du väljer;
+* Produktinformation om Adobe, t.ex. versionsnummer.
+* Information om ert innehåll och era dokument, t.ex. antal sidor och unika identifierare, men inte själva innehållet.
+* Information om innehållsanvändning, t.ex. hur många gånger du får tillgång till innehåll och hur du interagerar med innehållet i appen.
+* Krasch- och felloggar.
+
+Adobe använder den här informationen för att förbättra våra produkter, ge dig support både i produkten och via kundtjänst samt för att personalisera din upplevelse och kommunikation från oss. Läs mer om [personaliserade upplevelser](personalized-learning.md).
 
 ## Prenumerera på meddelanden i Experience Cloud {#notifications}
 

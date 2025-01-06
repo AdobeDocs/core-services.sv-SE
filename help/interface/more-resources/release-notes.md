@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f21e82e53a835d723bfd070cd99157c60c5f3eb7
+source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '5141'
+ht-degree: 4%
 
 ---
 
@@ -23,6 +23,10 @@ Funktioner, versionsinformation och kända fel för gränssnittskomponenterna i 
 En lista över dokumentationsuppdateringar finns i [Dokumentationsuppdateringar](doc-updates.md).
 
 Versionsinformation om alla program finns i [Versionsinformation för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv).
+
+## November 2024
+
+För att göra det enklare att styra inställningarna för produktanvändningen i Experience Cloud har vi effektiviserat vår inställningssida för Experience Cloud för att ta bort dubblettalternativ. Med den här förenklingen har vi behållit de aktuella användarinställningarna och kunderna kan uppdatera sina inställningar när som helst på [Experience Cloud-inställningarna](https://experience.adobe.com/preferences).
 
 ## 2 oktober 2024
 
@@ -244,8 +248,8 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 
 | Funktion | Beskrivning |
 |--- |--- |
-| Massrapportsvitmappning | I Administration > Rapportsvitsmappning kan du nu välja flera rapportsviter och sedan mappa dem till en organisation. (Tidigare var du tvungen att mappa dem individuellt.)  <br>Genom att mappa rapportsviter till en enda organisation blir det enklare att aktivera funktioner och tjänster för olika program i Experience Cloud. |
-| Uppdateringar till Experience Cloud-målgrupper | **Använder rapportsviter**<br> Du kan nu använda en rapportsvit för alla dina [målgruppsregler](../services/audiences/create.md). (Tidigare var du tvungen att ange en rapportserie i varje regeldefinition.) <br>**Props och variabler**<br> Du kan nu inkludera utkast och standardvariabler för analyser (utöver eVars och händelser) i målgrupper i realtid. |
+| Massrapportsvitmappning | I Administration > Rapportsvitsmappning kan du nu välja flera rapportsviter och sedan mappa dem till en organisation. (Tidigare var du tvungen att mappa dem individuellt.) <br>Genom att mappa rapportsviter till en enda organisation kan du aktivera funktioner och tjänster för olika program i Experience Cloud. |
+| Uppdateringar till Experience Cloud-målgrupper | **Använder rapportsviter**<br> Du kan nu använda en rapportsvit för alla dina [målgruppsregler](../services/audiences/create.md). (Tidigare var du tvungen att ange en rapportserie i varje regeldefinition.) <br>**Props och Variabler**<br> Nu kan du ta med analysutkast och standardvariabler (utöver eVars och händelser) i målgrupper i realtid. |
 
 {style="table-layout:auto"}
 

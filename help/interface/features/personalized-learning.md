@@ -1,103 +1,89 @@
 ---
-description: Läs mer om anpassade inlärningsinställningar i Experience Cloud. På så sätt kan kunderna få personlig hjälp och reklam via e-post, i sina Adobe Experience Cloud-produkter och inom Adobe Experience League Communities baserat på användningsdata.
+description: Få personlig hjälp och reklam via e-post, i era Experience Cloud-produkter och i Experience League Communities baserat på era användningsdata.
 solution: Experience Cloud
 title: Inställningar för anpassad inlärning i Experience Cloud
 exl-id: ad6c8daf-c8ad-42e9-8ff0-cef59dc0da3f
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '105'
 ht-degree: 0%
 
 ---
 
 # Personaliserade utbildningsrekommendationer och -kampanjer
 
-Du kan välja att tillåta Adobe att ge dig användbart innehåll som är anpassat efter ditt arbete i Adobe. Välj dina inställningar bland alternativen nedan så får du information om utbildning som är relevant för:
+Adobe ger dig användbart innehåll som är anpassat efter dig baserat på ditt arbete i dina Adobe-produkter. Produktanvändningsdata visar hur vi skräddarsyr det här sammanhanget för dig. Du kan välja att dela dina produktanvändningsdata på [Experience Cloud-inställningssidan](https://experience.adobe.com/preferences) eller välja att inte dela dem.
 
-* Din kunskapsnivå och roll
-* Dina arbetsflöden
-* Funktioner som du troligtvis kommer att använda
-* Och mycket mer!
+<!-- ## Personalized training and support recommendations for your Adobe products and services
 
-[![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
-
-Du kan när som helst uppdatera dina val i avsnittet Produktdataanvändning och -samling i [inställningarna för användarinställningar](https://experience.adobe.com/preferences/).
-
-## Personaliserade utbildnings- och supportrekommendationer för produkter och tjänster från Adobe
-
-Få relevanta tips och råd, praktiska tips och tricks, praktiska genomgångar med mera baserat på hur du använder dina Adobe-produkter på dessa tre sätt..
+Receive relevant best practices, tips & tricks, helpful walk throughs, and more based on your use of your Adobe products in each of these three ways...
 
 <table>
 <tbody>
   <tr>
-    <td>I dina Adobe-produkter..<br></td>
-    <td>Se popup-fönster och verktygstips för hjälp i realtid.</td>
-    <td rowspan="3">Detta kan inkludera.. <ul><li>Stegvisa guider och praktiska tips från Adobe-experter</li> 
-    <li>Videokurser och informativ genomgång</li> 
-    <li>Ingående utbildning</li> 
-    <li>Recommendations för videoklipp och inlägg</li>
+    <td>In your Adobe products...<br></td>
+    <td>See pop ups and tool tips for real-time help.</td>
+    <td rowspan="3">This could include... <ul><li>Step-by-step guides and helpful tips from Adobe experts</li> 
+    <li>Video tutorials and informational walkthroughs</li> 
+    <li>In-depth training and education</li> 
+    <li>Recommendations for videos and posts</li>
     </ul></td>
   </tr>
   <tr>
-    <td>I e-post skickar Adobe dig ...</td>
-    <td>Se utbildningsinnehåll som relaterar till ditt arbete i dina produkter.</td>
+    <td>In email Adobe sends you...</td>
+    <td>Seeing learning content that relates to your work in your product(s).</td>
   </tr>
   <tr>
-    <td>I Experience League Communities...</td>
-    <td>Se personliga rekommendationer för inlägg och artiklar baserat på vad du gör nu.</td>
+    <td>In the Experience League Communities..</td>
+    <td>See personalized recommendations for posts and articles based on what you're doing now.</td>
   </tr>
 </tbody>
 </table>
 
-## Personaliserad information om Adobe produkter, tjänster, event och kampanjer
+## Personalized information about Adobe products, services, events, and promotions
 
-Få skräddarsydda möjligheter för utbildningstillfällen, forskningssessioner och integreringar baserade på ditt arbete på dessa tre sätt...
+Receive tailored opportunities for learning events, research sessions, and integrations based on your work in each of these three ways...
 
 <table>
 <tbody>
   <tr>
-    <td>I dina Adobe-produkter..<br></td>
-    <td>Se popup-fönster och verktygstips för inbjudningar och möjligheter som är relevanta för dig.</td>
-    <td rowspan="3">Detta kan inkludera.. <ul>
-    <li>Inbjudningar till webbinarier och event</li> 
-    <li>Möjligheter att testa och ge feedback om framtida versioner av de funktioner du använder</li>
-    <li>Tips för att använda integreringar mellan produkter du äger</li> 
-    <li>Viktiga seminarier på Adobe Summit-konferensen baserade på ditt arbete</li>
+    <td>In your Adobe products...<br></td>
+    <td>See pop ups and tool tips for invitations and opportunities relevant to you.</td>
+    <td rowspan="3">This could include... <ul>
+    <li>Invitations to educational webinars and events</li> 
+    <li>Opportunities to test and give input on future releases of the features you use</li>
+    <li>Tips to use integrations between products you own</li> 
+    <li>Highlights for key sessions at the Adobe Summit conference based on your work</li>
     </ul></td>
   </tr>
   <tr>
-    <td>I e-post skickar Adobe dig ...</td>
-    <td>Få information om nya utbildningsmöjligheter från Adobe i rätt tid.</td>
+    <td>In email Adobe sends you...</td>
+    <td>Get timely information from Adobe about additional learning opportunities.</td>
   </tr>
   <tr>
-    <td>I Experience League Communities...</td>
-    <td>Se personaliserade rekommendationer för händelser och tjänster för att förbättra ditt lärande.</td>
+    <td>In the Experience League Communities..</td>
+    <td>See personalized recommendations for events and services to enhance your learning.</td>
   </tr>
 </tbody>
 </table>
 
+ -->
 
-[![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+<!-- [![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"} -->
 
-## Se exempel på hur denna anpassade inlärningsinformation kan se ut.
-
+## Exempel på hur anpassad utbildningsinformation kan se ut
 
 ### I dina Adobe-produkter
 
 ![](../assets/personalized-learning-in-product.gif){width="800"}
 
-
-
 ### I e-post skickar Adobe dig
 
 ![](../assets/personalized-learning-email.png){width="400"}
-
-
 
 ### I Experience League Communities
 
 ![](../assets/personalized-learning-communities.png){width="800"}
 
 
-
-[![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"}
+<!-- [![](../assets/personalized-learning-customize-learning-button.png)](https://experience.adobe.com/?shell_forceuserconsent=true#/home){width="10%"} -->
