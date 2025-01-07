@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 6d6631c466ce28662f130cdd0fc2f9d6ba2d07b3
+source-git-commit: df8f418907c3b7044b70547ee1b7c5117d1cf8a6
 workflow-type: tm+mt
 source-wordcount: '5218'
 ht-degree: 4%
@@ -29,7 +29,7 @@ Versionsinformation om alla program finns i [Versionsinformation för Experience
 | Datum | Funktion | Beskrivning |
 | -----------| -----------| ---------- |
 | Januari 9 | Produktanvändningsdata | För att göra det enklare att styra inställningarna för produktanvändningsdata för Experience Cloud har vi effektiviserat vår Experience Cloud [inställningssida](../features/account-preferences.md#product-usage-data) för att ta bort dubblettalternativ. Den här förenklingen innebär att de aktuella användarinställningarna bevaras och du kan när som helst uppdatera dina inställningar på [Experience Cloud-inställningarna](https://experience.adobe.com/preferences). |
-| 30 januari (planerat releasedatum) | Spektrum 2 | Programramen Experience Cloud, som innehåller rubrikfältet och den komponent som öppnas från rubrikfältet, samt den vänstra navigeringslisten för vissa program, kommer att uppdateras till Spectrum 2, Adobe senaste designsystem. Den här uppdaterade designen innehåller uppdaterad ikonografi, men samma funktionalitet. Flera element i sidhuvudet placeras om för att justeras mot andra Adobe-platser och -program. |
+| 30 januari (planerat releasedatum) | Spektrum 2 | Programramen Experience Cloud, som innehåller rubrikfältet och de komponenter som öppnas från rubrikfältet, samt den vänstra navigeringslisten för vissa program, kommer att uppdateras till Spectrum 2, Adobe senaste designsystem. Den här uppdaterade designen innehåller uppdaterad ikonografi, men samma funktionalitet. Flera element i sidhuvudet placeras om för att justeras mot andra Adobe-platser och -program. |
 
 ## 2 oktober 2024
 
