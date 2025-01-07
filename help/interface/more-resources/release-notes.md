@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
+source-git-commit: 6d6631c466ce28662f130cdd0fc2f9d6ba2d07b3
 workflow-type: tm+mt
-source-wordcount: '5141'
+source-wordcount: '5218'
 ht-degree: 4%
 
 ---
@@ -24,9 +24,12 @@ En lista över dokumentationsuppdateringar finns i [Dokumentationsuppdateringar]
 
 Versionsinformation om alla program finns i [Versionsinformation för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv).
 
-## November 2024
+## Januari 2025
 
-För att göra det enklare att styra inställningarna för produktanvändningen i Experience Cloud har vi effektiviserat vår inställningssida för Experience Cloud för att ta bort dubblettalternativ. Med den här förenklingen har vi behållit de aktuella användarinställningarna och kunderna kan uppdatera sina inställningar när som helst på [Experience Cloud-inställningarna](https://experience.adobe.com/preferences).
+| Datum | Funktion | Beskrivning |
+| -----------| -----------| ---------- |
+| Januari 9 | Produktanvändningsdata | För att göra det enklare att styra inställningarna för produktanvändningsdata för Experience Cloud har vi effektiviserat vår Experience Cloud [inställningssida](../features/account-preferences.md#product-usage-data) för att ta bort dubblettalternativ. Den här förenklingen innebär att de aktuella användarinställningarna bevaras och du kan när som helst uppdatera dina inställningar på [Experience Cloud-inställningarna](https://experience.adobe.com/preferences). |
+| 30 januari (planerat releasedatum) | Spektrum 2 | Programramen Experience Cloud, som innehåller rubrikfältet och den komponent som öppnas från rubrikfältet, samt den vänstra navigeringslisten för vissa program, kommer att uppdateras till Spectrum 2, Adobe senaste designsystem. Den här uppdaterade designen innehåller uppdaterad ikonografi, men samma funktionalitet. Flera element i sidhuvudet placeras om för att justeras mot andra Adobe-platser och -program. |
 
 ## 2 oktober 2024
 
