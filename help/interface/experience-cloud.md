@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: b122f71a8bffeaaeb20c974c618bacc5a40c2cd9
 workflow-type: tm+mt
 source-wordcount: '493'
 ht-degree: 0%
@@ -51,7 +51,7 @@ Logga in och verifiera att du är i rätt [organisation](administration/organiza
 
 När du har loggat in på Experience Cloud kan du snabbt komma åt alla program, tjänster och organisationer från det enhetliga huvudet.
 
-Gå till programväljaren ![menu](assets/menu-icon.png) om du vill komma åt Experience Cloud-program och -tjänster som har etablerats för dig i din organisation.
+Gå till programväljaren ![menu](assets/apps-icon.png) om du vill komma åt Experience Cloud-program och -tjänster som har etablerats för dig i din organisation.
 
 ![Öppna Experience Cloud-program](assets/platform-core-services.png)
 

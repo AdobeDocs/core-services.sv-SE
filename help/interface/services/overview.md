@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: b3484afe7ed1e015030f73ea0a25b921c32d81dd
+source-git-commit: fcebe4c0c356ef1f8d8756203f9ff7348b91f2b1
 workflow-type: tm+mt
 source-wordcount: '186'
 ht-degree: 5%
@@ -19,7 +19,7 @@ ht-degree: 5%
 Den här dokumentationen gäller för funktioner i det enhetliga huvudet i Experience Cloud, till exempel [!DNL People]-tjänsten ([!DNL Audience Library] och [!DNL Customer Attributes]), användar- och produkthantering för Experience Cloud, cookies, kontoinställningar, meddelanden och så vidare.
 
 Om du vill få åtkomst till de här tjänsterna i Experience Cloud väljer du **[!UICONTROL Application Selector]**
-![ Tjänstväljare ](../assets/menu-icon.png) .
+![ Tjänstväljare ](../assets/apps-icon.png) .
 
 ![Experience Cloud-tjänster](../assets/platform-core-services.png)
 
