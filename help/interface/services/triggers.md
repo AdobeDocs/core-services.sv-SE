@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 9dc26e2f-479b-49a5-93ce-b877559fea43
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -49,9 +49,9 @@ Skapa en utlösare och konfigurera villkoren för utlösaren. Du kan till exempe
 >
 >Det finns för närvarande en teknisk gräns på 100 utlösare.
 
-1. I Experience Cloud väljer du ![menu](../assets/menu-icon.png) och sedan **[!UICONTROL Data Collection/Launch]**.
-2. Välj **[!UICONTROL Manage Triggers]** på [!UICONTROL Triggers]-kortet.
-3. Välj **[!UICONTROL New Trigger]** och ange sedan typ av utlösare:
+1. Klicka på ![menu](../assets/menu-icon.png) i Experience Cloud och sedan på **[!UICONTROL Data Collection/Launch]**.
+2. Klicka på **[!UICONTROL Manage Triggers]** på [!UICONTROL Triggers]-kortet.
+3. Klicka på **[!UICONTROL New Trigger]** och ange sedan typ av utlösare:
 
    ![Stegresultat](../assets/add-trigger.png)
 
@@ -68,7 +68,7 @@ Skapa en utlösare och konfigurera villkoren för utlösaren. Du kan till exempe
 
    {style="table-layout:auto"}
 
-5. Välj **[!UICONTROL Save]**.
+5. Klicka på **[!UICONTROL Save]**.
 6. Använd utlösare för [remarketing i realtid](https://experienceleague.adobe.com/docs/campaign-standard/using/integrating-with-adobe-cloud/working-with-campaign-and-triggers/about-adobe-experience-cloud-triggers.html) i [!DNL Adobe Campaign].
 
 ### Exempelutlösare

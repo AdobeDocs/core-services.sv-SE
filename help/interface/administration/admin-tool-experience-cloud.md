@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 127eecdd-3862-48ba-8cf6-a8082d2b7bae
-source-git-commit: 66f78a04674a82335f5df20c4c15d983b6ebdc66
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
-source-wordcount: '1187'
+source-wordcount: '1185'
 ht-degree: 3%
 
 ---
@@ -37,7 +37,7 @@ På den här sidan visas en fullständig lista över användare som har tillgån
 
 | Element | Beskrivning |
 |---|---|
-| [!UICONTROL Name] | Användarens för- och efternamn. Du kan sortera den här kolumnen från A till Ö och Ö till A. Välj en användares namn om du vill se mer information om användaren. |
+| [!UICONTROL Name] | Användarens för- och efternamn. Du kan sortera den här kolumnen från A till Ö och Ö till A. Klicka på en användares namn för att se mer information om användaren. |
 | [!UICONTROL Email] | E-postadressen som är associerad med användaren. Kolumnen kan sorteras A->Z, Z->A. |
 | [!UICONTROL ID Type] | Identitetstypen för användarens konto. Du kan använda filter för att visa specifika ID-typer. Mer information finns i [Hantera identitetstyper](https://helpx.adobe.com/enterprise/using/identity.html). |
 | [!UICONTROL Solutions] | Sammanfattning av Experience Cloud-program som användaren kan komma åt. Du kan använda filter för att begränsa listan över användare med särskild programåtkomst. |
@@ -49,7 +49,7 @@ Du kan söka efter, sortera eller filtrera kolumnerna för att anpassa användar
 
 * Sök efter användare efter namn eller e-postadress. Sökningar matchar textsträngen som du skriver.
 * Sortera kolumnen efter stigande eller fallande värden. Den här sorteringen gäller för [!UICONTROL Name,] [!UICONTROL Email,] och [!UICONTROL Last Login] kolumner.
-* Om du vill använda flera filter för att lista användare med särskilda villkor väljer du ikonen **[!UICONTROL Filter By]**. När flera filterkategorier används innehåller sökningarna e-postdomänens `AND` ID-typslösning `AND`.
+* Klicka på **[!UICONTROL Filter By]** om du vill använda flera filter för att lista användare med specifika villkor. När flera filterkategorier används innehåller sökningarna e-postdomänens `AND` ID-typslösning `AND`.
 
 | Element | Beskrivning |
 |---------|----------|
@@ -59,7 +59,7 @@ Du kan söka efter, sortera eller filtrera kolumnerna för att anpassa användar
 
 ## Visa användarinformation
 
-Om du vill visa information om en användare på sidan [!UICONTROL Users] markerar du användarens e-postadress.
+Klicka på användarens e-postadress på sidan [!UICONTROL Users] om du vill visa information om en användare.
 
 ![Visa användarinformation i Admin Console](../assets/admin-tool-user-details.png)
 
@@ -113,7 +113,7 @@ Du kan söka efter, sortera eller filtrera kolumnerna för att anpassa principli
 
 * Sök efter produktprofiler efter namn. Sökningar matchar textsträngen som du skriver.
 * Sortera kolumnen efter stigande eller fallande värden. Den här sorteringen gäller för [!UICONTROL product profile,] [!UICONTROL Product,] [!UICONTROL Instance,] [!UICONTROL Number of users,] och [!UICONTROL Number of Developers,] kolumner.
-* Välj ikonen **[!UICONTROL Filter By]** om du vill använda flera filter för att lista produktprofiler med specifika villkor. När flera filterkategorier används innehåller sökningarna grupper som är associerade med `AND` instans `AND`-lösningen.
+* Klicka på ikonen **[!UICONTROL Filter By]** om du vill använda flera filter för att lista produktprofiler med specifika villkor. När flera filterkategorier används innehåller sökningarna grupper som är associerade med `AND` instans `AND`-lösningen.
 
 | Element | Beskrivning |
 |---------|----------|

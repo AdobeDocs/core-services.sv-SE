@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 5df8104d3d148cc7bda823b27bf96429ddb6018d
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '775'
 ht-degree: 10%
@@ -32,7 +32,7 @@ Från Experience Cloud kan du:
 Logga in och verifiera att du är i rätt [organisation](administration/organizations.md).
 
 1. Navigera till [Adobe Experience Cloud](https://experience.adobe.com).
-1. Skriv din e-postadress för Adobe och välj sedan **[!UICONTROL Continue]**.
+1. Skriv din e-postadress för Adobe och klicka sedan på **[!UICONTROL Continue]**.
 1. Välj ett konto.
 1. Skriv ditt lösenord.
 1. Kontrollera att du är i rätt organisation.

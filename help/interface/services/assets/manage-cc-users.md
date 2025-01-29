@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 1%
@@ -22,8 +22,8 @@ Experience Cloud har administrationsverktyg för hantering av godkända använda
 >
 >Du måste vara administratör för att kunna utföra den här proceduren.
 
-1. I Experience Cloud väljer du **[!UICONTROL Administration]** > **[!UICONTROL Manage Creative Cloud Collaborators]**.
-1. Välj **[!UICONTROL Creative Cloud Asset Sharing]**.
-1. Välj **[!UICONTROL Add New User]**.  ![lägg till ny användare](../../assets/mac_add_icon.png)
+1. Klicka på **[!UICONTROL Administration]** > **[!UICONTROL Manage Creative Cloud Collaborators]** i Experience Cloud.
+1. Klicka på **[!UICONTROL Creative Cloud Asset Sharing]**.
+1. Klicka på **[!UICONTROL Add New User]**.  ![lägg till ny användare](../../assets/mac_add_icon.png)
 1. Skriv ett e-postmeddelande, visningsnamn, titel och lägg till en Avatar om du vill.
-1. Välj **[!UICONTROL Create]**.
+1. Klicka på **[!UICONTROL Create]**.

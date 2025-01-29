@@ -6,7 +6,7 @@ feature: Central Interface Components
 topic: Administration
 role: Admin, User
 level: Beginner, Intermediate, Experienced
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 2%
@@ -59,7 +59,7 @@ Alla programteam arbetar för globalt språkstöd, men alla program finns inte p
 Logga in och verifiera att du är i rätt [organisation](organizations.md).
 
 1. Navigera till [Adobe Experience Cloud](https://experience.adobe.com).
-1. Välj **[!UICONTROL Sign in with an Adobe ID]**.
+1. Klicka på **[!UICONTROL Sign in with an Adobe ID]**.
 1. Kontrollera att du är i rätt organisation.
 
    ![Verifiera din organisation](assets/organizations-menu.png)
@@ -74,7 +74,7 @@ Logga in och verifiera att du är i rätt [organisation](organizations.md).
 
 När du har loggat in på Experience Cloud kan du snabbt komma åt alla program, tjänster och organisationer från det enhetliga huvudet.
 
-Markera programväljaren ![menyn](assets/menu-icon.png) för att komma åt de Experience Cloud-tjänster som du äger.
+Klicka på programväljaren ![menu](assets/menu-icon.png) för att komma åt de Experience Cloud-tjänster som du äger.
 
 ![Öppna Experience Cloud-program](assets/platform-core-services.png)
 
@@ -104,7 +104,7 @@ På kontoinställningsmenyn kan du:
 
 Inställningarna för Experience Cloud omfattar meddelanden, prenumerationer och varningar.
 
-Välj **[!UICONTROL Preferences]** på din kontomeny ![inställningar](assets/preferences-icon-sm.png) för att hantera inställningar.
+* Klicka på **[!UICONTROL Preferences]** på din kontomeny ![inställningar](assets/preferences-icon-sm.png) för att hantera inställningar.
 
 ![Hantera Experience Cloud](assets/preferences-page.png)
 
@@ -122,7 +122,7 @@ På [!UICONTROL Experience Cloud preferences] kan du konfigurera följande funkt
 
 ## Meddelanden {#notifications}
 
-Välj **[!UICONTROL Notifications]** om du vill visa meddelanden som är viktiga för dig och meddelanden från Adobe.
+Klicka på **[!UICONTROL Notifications]** om du vill se meddelanden som är viktiga för dig och meddelanden från Adobe.
 
 ![Meddelanden och meddelanden](assets/notifications-menu-small.png)
 

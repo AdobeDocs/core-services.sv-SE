@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 32f4723e-0e66-46b6-b0c2-ae47b9a06a87
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
 source-wordcount: '289'
 ht-degree: 0%
@@ -19,26 +19,26 @@ ht-degree: 0%
 
 Dela en resursmapp för Experience Cloud med Creative Cloud-användare.
 
-1. Välj **[!UICONTROL Share to Creative Cloud]** i en resursmapp.
+1. Klicka på **[!UICONTROL Share to Creative Cloud]** i en resursmapp.
 
    ![Dela till Creative Cloud](../../assets/asset-share-cc.png)
-1. På sidan Dela till Creative Cloud söker du efter användaren och väljer sedan **[!UICONTROL Add]**.
+1. På sidan Dela till Creative Cloud söker du efter användaren och klickar sedan på **[!UICONTROL Add]**.
 
    ![Lägg till en Creative Cloud-användare](../../assets/asset-share-cc-page.png)
 
-1. Välj **[!UICONTROL Share]**.
+1. Klicka på **[!UICONTROL Share]**.
 1. Starta skrivbordet [!DNL Creative Cloud] (eller navigera till sidan [!UICONTROL Creative Cloud Files] i en webbläsare) och leta efter meddelandet om begäran.
 
    ![Begär meddelande](../../assets/cc_share_request.png)
-1. Öppna förfrågan och välj sedan **[!UICONTROL Accept]**.
+1. Öppna förfrågan och klicka sedan på **[!UICONTROL Accept]**.
 
    ![Godkänn begäran](../../assets/cc_share_accept.png)
-1. Välj **[!UICONTROL Open Folder]** (eller **[!UICONTROL View on Web]**) om du vill få åtkomst till mappinnehåll.
+1. Klicka **[!UICONTROL Open Folder]** (eller **[!UICONTROL View on Web]**) om du vill komma åt mappinnehåll.
 
    ![Visa på webben](../../assets/creative_cloud_open_folder.png)
 1. Fortsätt genom att lägga till kommentarer i den delade resursen:
 
-   I Creative Cloud kan du markera i en bild och sedan välja **[!UICONTROL Activity]** för att lägga till en kommentar i bilden. Kommentarer synkroniseras för resurserna i [!DNL Creative Cloud] och [!DNL Experience Cloud].
+   I Creative Cloud kan du markera i en bild och sedan klicka på **[!UICONTROL Activity]** för att lägga till en kommentar i bilden. Kommentarer synkroniseras för resurserna i [!DNL Creative Cloud] och [!DNL Experience Cloud].
 
    ![Lägg till en kommentar i bilden](../../assets/asset_comment_cc.png)
 
@@ -46,7 +46,7 @@ Dela en resursmapp för Experience Cloud med Creative Cloud-användare.
 
    ![Lägg till en kommentar i bilden](../../assets/asset_comment_mac.png)
 
-1. Om du vill ta bort delningen av en mapp väljer du **[!UICONTROL Share Using Creative Cloud]** (ungefär som [Steg 3](share.md)), tar bort användare genom att välja X och sedan väljer du **[!UICONTROL Share]**.
+1. Om du vill ta bort delningen av en mapp klickar du på **[!UICONTROL Share Using Creative Cloud]** (ungefär som [Steg 3](share.md)), tar bort användare genom att välja X och sedan klicka på **[!UICONTROL Share]**.
 
 ![Ta bort delning av en mapp](../../assets/asset_remove_user.png)
 

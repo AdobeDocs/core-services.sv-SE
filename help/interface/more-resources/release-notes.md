@@ -9,10 +9,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: dce1fe82a93cca78ea4ee2fa504947fcffb8a2c8
+source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
 workflow-type: tm+mt
-source-wordcount: '5218'
-ht-degree: 4%
+source-wordcount: '1177'
+ht-degree: 9%
 
 ---
 
@@ -178,619 +178,619 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 
 * Feed-sidan togs bort i december 2019. Leta efter ett meddelande om borttagning av produkter. (MCUI-10039)
 
-## Augusti 2019
+<!-- ## August 2019
 
-* Korrigerade ett kritiskt fel i inloggningen på Experience Cloud som ledde till sessionsutloggning för vissa användare. (MCUI-6908)
-* Inloggning från Experience Cloud har uppdaterats för att förbättra prestanda och minska fördröjningen. (MCUI-6854, MCUI-6869, MCUI-6883)
-* Uppdaterat gränssnitt kosmetiskt. (MCUI-6861, MCUI-6911, MCUI-6862)
-* Korrigerade ett problem med Experience Cloud [!UICONTROL Triggers] som ledde till felaktig tolkning av _Like_ -satsen i [!UICONTROL Trigger] -definitionen. (MCUI-6611)
+* Fixed a critical issue in Experience Cloud login that led to session logout for some users. (MCUI-6908)
+* Updated Experience Cloud login to improve performance and reduce latency. (MCUI-6854, MCUI-6869, MCUI-6883)
+* Updated interface cosmetically. (MCUI-6861, MCUI-6911, MCUI-6862)
+* Fixed an issue with Experience Cloud [!UICONTROL Triggers] that led to incorrect interpretation of _Like_ clause in the [!UICONTROL Trigger] definition. (MCUI-6611)
 
 ## April 2019
 
-* Appväljaren har uppdaterats så att Marketo ingår i Experience Cloud programsvit och varumärkesuppdateringar för Experience Platform. (MCUI-6529)
-* Experience Cloud Home har uppdaterats med navigeringslänkar till sidorna Feed och Administration. (MCUI-6682)
-* Korrigerade ett problem i definitionen [!UICONTROL Trigger] för korrekt användning av gilla-satsen. (MCUI-6611)
-* Förbättringar av kundattribut för bättre inloggning i prenumerationstjänsten. (MCUI-6519)
+* Updated the app switcher to include Marketo in Experience Cloud application suite, and branding updates to Experience Platform. (MCUI-6529)
+* Updated Experience Cloud Home to include navigation links to the Feed and Administration pages. (MCUI-6682)
+* Fixed an issue in the [!UICONTROL Trigger] definition for correct usage of "like" clause. (MCUI-6611)
+* Improvements to Customer Attributes for better logging in the Subscription service. (MCUI-6519)
 
-## Januari 2019
+## January 2019
 
-**Obs!** I mars 2019 har Experience Cloud-gränssnittet inte stöd för Internet Explorer 11.
+**Note:** In March 2019, The Experience Cloud interface will not support Internet Explorer 11.
 
-* Ett problem som hindrade hjälpsökningen från att returnera resultat har åtgärdats. (MCUI-1670)
-* Fast och förbättrad hantering av eVar i utlösare. (MCUI-6400)
+* Fixed an issue preventing the help search from returning results. (MCUI-1670)
+* Fixed and improved eVar management in Triggers. (MCUI-6400)
 
-## Augusti 2018
+## August 2018
 
-* Förbättrade kommentarer för att synkronisera resurser över Creative Cloud och Experience Cloud. (CORE-15971)
-* Funktionsflagga har lagts till för att styra resurssynkroniseringen mellan Experience Cloud och Creative Cloud. (CORE-15938)
-* Förbättrade målgruppssegment, bland annat bättre sök- och listupplevelser. (CORE-5833, CORE-14278)
-* Ett problem med hög prioritet som blockerade mappdelning från Experience Cloud till Creative Cloud har åtgärdats. (CORE-16677)
+* Made improvements on assets comment sync across Creative Cloud and Experience Cloud. (CORE-15971)
+* Added feature flag to control Experience Cloud-Creative Cloud asset sync. (CORE-15938)
+* Made improvements to Audience segments creation, including better search and listing experience. (CORE-5833, CORE-14278)
+* Fixed a high priority issue that blocked folder sharing from Experience Cloud to Creative Cloud. (CORE-16677)
 
-## Juli 2018
+## July 2018
 
-* Använde en backend-funktion för att styra resursdelning mellan Marketing Cloud-till-AEM och Marketing Cloud-till-Creative Cloud. (CORE-14386)
-* Korrigerade ett problem som blockerade etablering av nya innehavare i vissa miljöer. (CORE-15509)
-* Ett problem som omdirigerade användare till `experiencecloud.adobe.com` med `http` i stället för `https` har korrigerats. (CORE-15587)
-* Korrigerade ett problem som blockerade meddelanden för vissa nya innehavare. (CORE-15240)
+* Deployed a back-end capability to control asset sharing between Marketing Cloud-to-AEM and Marketing Cloud-to-Creative Cloud. (CORE-14386)
+* Fixed an issue that blocked provisioning of new tenants on some environments. (CORE-15509)
+* Fixed an issue that redirected users to `experiencecloud.adobe.com` using `http` instead of `https`. (CORE-15587)
+* Fixed an issue that blocked notifications for some new tenants. (CORE-15240)
 
-## Juni 2018
+## June 2018
 
-* Aktiverade en länk till GDPR-åtkomst för administratörer. (CORE-11731)
-* Funktionen Beta Feedback har uppdaterats för att begränsa vilka filtyper som kan bifogas feedback. (CORE-10474)
-* Korrigerade ett problem med att ta bort målgrupper från målgruppsbiblioteket. (CORE-12792)
-* Korrigerade ett problem som resulterade i en tom skärm vid åtkomst av Workspace-länkar med Federated ID. (CORE-11620)
+* Enabled a link to GDPR access for Administrators. (CORE-11731)
+* Updated Beta Feedback feature to restrict file types that can be attached to feedback. (CORE-10474)
+* Fixed an issue with deleting audiences from Audience Library. (CORE-12792)
+* Fixed an issue that resulted in a blank screen while accessing Workspace links using Federated IDs. (CORE-11620)
 
-## Maj 2018
+## May 2018
 
-| Funktion | Beskrivning |
+| Feature | Description |
 |--- |--- |
-| Ny startsida för administration | När du loggar in på Experience Cloud och navigerar till administrationssidan finns det ett nytt intuitivt gränssnitt som hjälper dig att snabbt komma åt dina Experience Cloud-program och bastjänster. |
+|New administration landing page|When you sign in to Experience Cloud and navigate to the Administration page, a new intuitive interface is available to help you quickly access your Experience Cloud applications and Core Services.|
 
 {style="table-layout:auto"}
 
-**Korrigeringar**
+**Fixes** 
 
-* Ett problem där bildöverföringen misslyckades på grund av en Scene7-uppdatering har åtgärdats. (CORE-12746)
-* Utför uppdateringar av stöd för TLS 1.0-protokoll, enligt PCI:s anvisningar för att eliminera säkerhetsluckor. (CORE-7695)
+* Fixed an issue where the image upload failed due to a Scene7 update. (CORE-12746)
+* Made updates to drop support for TLS 1.0 protocol, as mandated by PCI to eliminate security vulnerability. (CORE-7695)
 
-## Oktober 2017
+## October 2017
 
-**Känt fel**: Många av underhållsmeddelandena runt schemalagt underhåll/produktuppdateringar saknas i meddelandets e-postmeddelande. Vi arbetar för att se till att alla underhållsmeddelanden inkluderas i e-postmeddelandet.
+**Known Issue**: Many of the maintenance notifications around scheduled maintenance / product updates are missing from the notifications email digest. We are working to ensure that all maintenance notifications are included in the email digest. 
 
-## Augusti 2017
+## August 2017
 
-| Funktion | Beskrivning |
+| Feature | Description |
 |--- |--- |
-| Meddelanden - Detaljerade inställningar | Du kan aktivera meddelanden för produkthändelser och programaktiviteter, inklusive meddelanden om [kundattribut](../services/customer-attributes/attributes.md)-överföringsaktivitet. |
-| Meddelanden - Underhållsmeddelanden | I Meddelandeinställningarna kan du aktivera underhållsmeddelanden för produkter och program. |
-| Admin Console för Experience Cloud Solutions | Nya Experience Cloud-kunder kan börja använda Admin Console, en central plats för hantering av Adobe i hela organisationen.<br>Migreringen till Admin Console för användarhantering fortsätter i vågor. Adobe kontaktar dig (systemadministratörer) när det är dags att migrera.<br>Analysadministratörer, se [Analysmigrering](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html). |
+|Notifications - Granular settings|You can enable notifications for product and application events and activities, including notifications about [Customer Attributes](../services/customer-attributes/attributes.md) upload activity.|
+|Notifications - Maintenance notifications|In Notification settings, you can enable maintenance notifications for products and applications.|
+|Admin Console for Experience Cloud Solutions|New Experience Cloud customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html).|
 
 {style="table-layout:auto"}
 
-## Maj 2017
+## May 2017
 
-| Funktion | Beskrivning |
+| Feature | Description |
 |--- |--- |
-| Massrapportsvitmappning | I Administration > Rapportsvitsmappning kan du nu välja flera rapportsviter och sedan mappa dem till en organisation. (Tidigare var du tvungen att mappa dem individuellt.) <br>Genom att mappa rapportsviter till en enda organisation kan du aktivera funktioner och tjänster för olika program i Experience Cloud. |
-| Uppdateringar till Experience Cloud-målgrupper | **Använder rapportsviter**<br> Du kan nu använda en rapportsvit för alla dina [målgruppsregler](../services/audiences/create.md). (Tidigare var du tvungen att ange en rapportserie i varje regeldefinition.) <br>**Props och Variabler**<br> Nu kan du ta med analysutkast och standardvariabler (utöver eVars och händelser) i målgrupper i realtid. |
+|Bulk Report Suite Mapping|In Administration > Report Suite Mapping, you can now select multiple report suites, then map them to an organization. (Previously, you had to map them individually.)  <br>Mapping report suites to a single organization helps enable cross-application features and services in Experience Cloud.|
+|Updates to Experience Cloud Audiences|**Applying Report Suites**<br>You can now apply a report suite to all your [audience rules](../services/audiences/create.md). (Previously, you had to specify a report suite in each rule definition.) <br>**Props and Variables**<br>You can now include Analytics props and default variables (in addition to eVars and events) in real-time audiences.|
 
 {style="table-layout:auto"}
 
 ## November 2016
 
-| Funktion | Beskrivning |
+| Feature | Description |
 |--- |--- |
-| Uppdatera till profil och lösenord | Användare kan inte längre redigera information om IMS-användarprofiler under Personlig information i Redigera profil > Profil och lösenord. I stället omdirigeras användare till `accounts.adobe.com`. Uppdateringen gäller alla identitetstyper (Adobe ID, Enterprise och Federated). |
+|Update to Profile & Passwords|Users can no longer edit IMS user profile information under  Personal Details In  Edit Profile >  Profile & Passwords. Instead users are redirected to `accounts.adobe.com`. This update applies to all identity types (Adobe ID, Enterprise, and Federated).|
 
 {style="table-layout:auto"}
 
-**Korrigeringar**
+**Fixes** 
 
-* Ett problem med tekniska lösenord som orsakade ett fel vid mappdelning mellan Creative Cloud och Experience Cloud har korrigerats. (MAC-31067, MAC-32014)
-* Korrigerade ett problem med överföringen av vissa filtyper, bland annat PDF, som hittades efter oktoberversionen i Assets Core Service. (MAC-32517)
+* Fixed an issue with technical passwords that caused an error in folder sharing between Creative Cloud and Experience Cloud. (MAC-31067, MAC-32014)
+* Fixed an issue with the upload of certain file types, including PDF, that was found after the October release in Assets Core Service. (MAC-32517)
 
-## Maj 2016
+## May 2016
 
 <table id="table_ABBCE1A66F534059BD728BC2B9AEFA80"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funktion </th> 
-   <th colname="col2" class="entry"> Beskrivning </th> 
+   <th colname="col1" class="entry"> Feature </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Förkonfigurerade produktkonfigurationer i Admin Console </p> </td> 
-   <td colname="col2"> <p>Experience Cloud kundadministratörer kan använda produktkonfigurationer som är färdiga och mappade till standardbehörighetsgrupper för Analytics och Dynamic Tag Management. </p> <p>Den här optimeringen är tillgänglig för nyligen etablerade organisationer och minskar den tid som organisationer behöver för att hantera användare i Admin Console. </p> </td> 
+   <td colname="col1"> <p>Pre-configured product configurations in the Admin Console </p> </td> 
+   <td colname="col2"> <p>Experience Cloud customer administrators can use product configurations that are pre-created and mapped to default permission groups for Analytics and Dynamic Tag Management. </p> <p>This optimization is available for newly provisioned organizations, and it reduces the amount of time required by organizations to manage users in the Admin Console. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Förbättrad feed </p> </td> 
-   <td colname="col2"> <p> När du skapar ett inlägg i flödet från Experience Cloud används nu det aktiva ämnet på Till-raden i stället för att använda organisationen som standard.</p> </td> 
+   <td colname="col1"> <p>Feed improvement </p> </td> 
+   <td colname="col2"> <p> When creating a post in the Experience Cloud Feed, the To line now uses the currently active topic instead using the organization by default.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Korrigeringar**
+**Fixes**
 
-* Korrigerade ett problem som förhindrade att miniatyrbilder visas för resurser som delas från Assets on Demand till Experience Cloud Feed. (MAC-2995)
+* Fixed an issue preventing thumbnails from showing for assets shared from Assets on Demand to the Experience Cloud Feed. (MAC-29955) 
 
-## Februari 2016
+## February 2016
 
 <table id="table_C9B288CF42034F329C3C72D95D22E515"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funktion </th> 
-   <th colname="col2" class="entry"> Beskrivning </th> 
+   <th colname="col1" class="entry"> Feature </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Förbättringar i Experience Cloud Assets </p> </td> 
-   <td colname="col2"> <p>I Experience Cloud Assets kan du lagra, dela och synkronisera digitala resurser från en central plats. Experience Cloud Assets använder några av funktionerna i <span class="keyword"> Adobe Experience Manager</span> (AEM). </p> <p>Se <a href="../services/assets/experience-cloud-assets.md" format="dita" scope="local"> Experience Cloud</a></p> </td> 
+   <td colname="col1"> <p>Experience Cloud Assets improvements </p> </td> 
+   <td colname="col2"> <p>In Experience Cloud Assets, you can store, share, and synchronize your digital assets from one central location. Experience Cloud Assets uses some of the features available in <span class="keyword"> Adobe Experience Manager</span> (AEM). </p> <p>See <a href="../services/assets/experience-cloud-assets.md" format="dita" scope="local"> Experience Cloud</a></p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Förbättringar av kontolänkning </p> </td> 
-   <td colname="col2"> <p>Förbättrat gränssnittsarbetsflöde för att länka programkonton till Experience Cloud (Adobe ID). Det nya arbetsflödet hittar alla användarkonton som är kopplade till en organisation och låter dig välja vilket konto som ska länkas. Vi effektiviserade även kontolänkningen så att du inte längre behöver komma åt sidan Hantera organisationer för att manuellt länka konton. </p> </td> 
+   <td colname="col1"> <p>Account linking improvements </p> </td> 
+   <td colname="col2"> <p>Improved the interface workflow for linking application accounts with the Experience Cloud (Adobe ID). This new workflow locates all the user's accounts associated with an organization, and lets you choose which account to link. We also streamlined the account linking experience, so that you no longer must access the Manage Organizations page to manually link accounts. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Korrigeringar**
+**Fixes** 
 
-* Ett problem som förhindrar länkning och enkel inloggning för analys har korrigerats. Det här problemet visade meddelandet &quot;Meddelande: Felmeddelandet: FEL: Det gick inte att hitta det länkade företaget.&quot;
+* Fixed an issue preventing linking and SSO for Analytics. This issue displayed the "Notice: The error message: ERROR IMS SSO Failed: Unable to find linked company."
 
-## Januari 2016
+## January 2016
 
 <table id="table_4223658257DA41C999AC710A10D26771"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funktion </th> 
-   <th colname="col2" class="entry"> Beskrivning </th> 
+   <th colname="col1" class="entry"> Feature </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> Målgruppsmeddelanden </td> 
-   <td colname="col2"> <p> Vi har förbättrat målgruppsbiblioteket så att det innehåller användbara meddelanden när målgrupper byggs eller när en timeout inträffar. </p> <p>Om du till exempel lägger till fler än fem regler visas ett meddelande som anger att du har överskridit de högsta tillåtna reglerna. (MAC-27376, MAC-27375) </p> </td> 
+   <td colname="col1"> Audience Library messages </td> 
+   <td colname="col2"> <p> We improved Audience Library to include helpful messages when building audiences or when a time-out occurs. </p> <p>For example, when adding more than five rules, a message displays indicating you exceeded maximum allowable rules. (MAC-27376, MAC-27375) </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->Microsoft® upphör med [stödet](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) för Internet Explorer 8, 9 och 10. Adobe planerar därför inte att åtgärda problem som rapporteras mot dessa specifika versioner av Internet Explorer.
+>Microsoft&reg; is [ending support](https://www.microsoft.com/en-us/WindowsForBusiness/End-of-IE-support) for Internet Explorer 8, 9, and 10. As such, Adobe does not plan to fix issues reported against these specific versions of Internet Explorer. 
 
-## Oktober 2015
+## October 2015
 
-**Kända fel**
+**Known Issues** 
 
-* Kunder kan inte logga in på Report Builder om de har enkel inloggning på Analytics via Experience Cloud. Problemet påverkar inte kunder som använder äldre inloggningsuppgifter för Analytics.
-* Känt problem med funktionen Länka till rapport i Analytics. Kunder som loggar in på Analytics via Experience Cloud dirigeras till en annan inloggningssida än SSO för Analytics när de försöker dela en rapport.
+* Customers are not able to log into Report Builder if they SSO into Analytics via Experience Cloud. This issue does not impact customers using legacy Analytics credentials.
+* Known issue with the "Link to Report" function in Analytics. Customers logging into Analytics via Experience Cloud are directed to a non-SSO login page for Analytics when trying to share a report.
 
 ## September 2015
 
-* Korrigerade ett prestandaproblem för Audience Manager API som orsakade intermittenta timeout vid överföring av kundattributsdata. (MAC-26305)
-* Ett problem som gjorde att användare inte kunde lägga till upp till 200 kundattribut i en prenumeration har åtgärdats. (MAC-2618)
-* Korrigerade ett problem med målgruppsbiblioteket som förhindrade målgruppsdelning från Analytics-segmentering. Detta orsakade att&quot;Collecting Data&quot; (0 målgrupper) visades. För att förhindra detta rekommenderar Adobe att segmentstorlekarna hålls under 50 000 publiken per segment. (MAC-2578)
-* Korrigerade ett tidigare känt fel på sidan Kundattribut - Redigera schema som orsakade ett innehållsmedvetet fel som utfärdades när ett visningsnamn ändrades. (MAC-25589, AN-103834)
+* Fixed an Audience Manager API performance issue causing intermittent timeouts when uploading Customer Attributes data. (MAC-26305)
+* Fixed an issue that prevented users from adding up to 200 Customer Attributes to a subscription. (MAC-26188)
+* Fixed an Audience Library issue that prevented audience sharing from Analytics segmentation. This issue caused "Collecting Data" (0 audiences) to display. To prevent this issue, Adobe recommends keeping the segment sizes under 50k audience members per segment. (MAC-25788)
+* Fixed a previous known issue on the Customer attributes - Edit Schema page that was causing a Content Aware error that was issued when changing a display name. (MAC-25589, AN-103834)
 
-## Juli 2015
+## July 2015
 
-* Ett problem har korrigerats som förhindrade att attributbeskrivningar som anges på sidan Visa/redigera schema (i kundattribut) uppdaterades i analysrapporter. (MAC-25985)
-* Ett problem som hindrade miniatyrbilderna från att rendera överförda resurser har åtgärdats. (MAC-25863)
-* Ett problem som gjorde att nya segment som skapats i rapporter och analyser inte kunde vara tillgängliga i Experience Cloud-målgrupper har åtgärdats. (MAC-25817)
-* Korrigerade ett problem som förhindrade målgruppsdelning från Analytics när besökar-ID-tjänsten användes. (MAC-25788, MAC-25747)
-* Stöd för flerbytetecken i kundattribut har lagts till. (MAC-25552)
+* Fixed an issue that prevented attribute descriptions specified on the View/Edit Schema page (in Customer Attributes) from being updated in Analytics reports. (MAC-25985)
+* Fixed an issue preventing the thumbnails from rendering for uploaded assets. (MAC-25863)
+* Fixed an issue that prevented new segments created in reports & analytics from being available in Experience Cloud Audiences. (MAC-25817)
+* Fixed an issue that prevented audience sharing from Analytics, when using the visitor ID service. (MAC-25788, MAC-25747)
+* Added support for multibyte characters in Customer Attributes. (MAC-25552)
 
-**Känt fel**: Ett känt fel gör att duplicerade autogenererade konton skapas i Audience Manager och länkas automatiskt till en användares Experience Cloud-identitet. Det här problemet uppstår om du försöker navigera till Audience Manager innan du länkar dina konton. Adobe rekommenderar att du länkar dina Audience Manager-konton till Experience Cloud innan du navigerar till Audience Manager. (MAC-25640)
+**Known Issue**: A known issue is causing duplicate auto-generated accounts to be created in Audience Manager, and automatically linking them to a user's Experience Cloud identity. This issue occurs if you attempt to navigate to Audience Manager before linking your accounts. Adobe recommends that you link your Audience Manager accounts to Experience Cloud before navigating to Audience Manager. (MAC-25640) 
 
-## Maj 2015
+## May 2015
 
 <table id="table_14E7B35E06C84A258A21D09691B58354"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funktion </th> 
-   <th colname="col2" class="entry"> Beskrivning </th> 
+   <th colname="col1" class="entry"> Feature </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p>De vänstra navigeringsmenyerna har uppdaterats och ordnats för att ge tillgång till alla bastjänster och program. Viktiga ändringar: </p> 
+   <td colname="col2"> <p>The left navigation menus have been updated and arranged to provide access to all the core services and applications. Notable changes include: </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">Menyvalen <span class="term"> Målgruppsbibliotek </span> och <span class="term"> Kundattribut </span> finns nu under <span class="term"> Målgrupper </span>. </li> 
-     <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">Menyvalet <span class="term"> Exchange </span> har flyttats från den nedrullningsbara menyn Hjälp till den vänstra navigeringslisten. </li> 
-     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term"> lösningar</span> har tagits bort. Du kan starta alla program från den nedre halvan av navigeringslisten. </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">The <span class="term"> Audience Library</span> and <span class="term"> Customer Attributes</span> menu selections are now located under <span class="term"> Audiences</span>. </li> 
+     <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">The <span class="term"> Exchange</span> menu selection was moved from the Help drop-down menu to the left navigation rail. </li> 
+     <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term"> Solutions</span> has been removed. You can launch all applications from the bottom half of the navigation rail. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-* Korrigerade ett problem som förhindrade att kundattribut synkroniserades för vissa kunder.
-* Ett problem som gjorde att [Adobe Target produktdokumentationssida](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) inte kunde visas på japanska har korrigerats.
-* Ett problem som förhindrade användning av japansk text i kommentarer mellan [!DNL Creative Cloud] och [!DNL Experience Cloud] har korrigerats.
+* Fixed an issue preventing Customer Attributes from syncing for some customers.
+* Fixed an issue preventing [Adobe Target Product Documentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) page from displaying in Japanese.
+* Fixed an issue preventing the use of Japanese text in comments between the [!DNL Creative Cloud] and the [!DNL Experience Cloud].
 
 ## April 2015
 
 <table id="table_3A6FBAE36558425A803B078150862C92"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funktion </th> 
-   <th colname="col2" class="entry"> Beskrivning </th> 
+   <th colname="col1" class="entry"> Feature </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Administrationsförbättringar: </p> 
+   <td colname="col1"> <p>Administration improvements: </p> 
     <ul id="ul_7D5FCBEFA262435D865CA1018BFB792E"> 
      <li id="li_6E98974CCB094ABBAB57C51ED56C3F00"> <span class="wintitle"> Admin Console</span> </li> 
-     <li id="li_8CDAB6301FD44C3999EE4EEB1A0A2FD6">Stöd för företag och Federated ID </li> 
+     <li id="li_8CDAB6301FD44C3999EE4EEB1A0A2FD6">Enterprise and Federated ID support </li> 
     </ul> </td> 
-   <td colname="col2"> <p>Funktionen för användar- och grupphantering har flyttats till Admin Console. Den nya navigeringssökvägen är: </p> <p> <span class="uicontrol"> Experience Cloud </span> &gt; <span class="uicontrol"> Administration </span> &gt; <span class="uicontrol"> Starta Admin Console </span></p> <p> Stöd för Enterprise ID och Federated ID har lagts till. Du kan använda Enterprise ID:n, Federated ID:n och Adobe ID:n i samma företagsdistribution. Använd till exempel Adobe ID:n för användare som kan använda andra produkter och tjänster från Adobe. Använd Enterprise ID eller Federated ID för användare där du vill hantera deras konton strikt. </p> </td> 
+   <td colname="col2"> <p>User and group management functionality has been moved to the Admin Console. The new navigation path is: </p> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> Administration</span> &gt; <span class="uicontrol"> Launch Admin Console</span></p> <p> Also, support for enterprise and federated IDs has been added. You can use enterprise IDs, federated IDs, and Adobe IDs in the same enterprise deployment. For example, use Adobe IDs for users who may use other Adobe product and services. Use enterprise or federated IDs for users where you want to strictly manage their accounts. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Korrigeringar**
+**Fixes** 
 
-* Ett problem som förhindrar enkel inloggning mellan [!DNL Experience Cloud] och [!DNL Advertising Cloud] har korrigerats.
+* Fixed an issue preventing single sign-on between the [!DNL Experience Cloud] and [!DNL Advertising Cloud].
 
-**Kända fel**
+**Known Issues** 
 
-* Att länka och bryta länken mellan en dynamisk tagghanteringsorganisation och Experience Cloud fungerar inte för nyligen skapade Experience Cloud-organisationer. Adobe arbetar med att åtgärda detta och återställa normal funktionalitet med majversionen. Om du får problem när du försöker logga in på dynamisk tagghantering via Experience Cloud ska du använda den äldre inloggningen på `dtm.adobe.com`.
-* Ett känt problem är att förhindra målgruppsdelning från rapportsviter som inte ägs av det länkade Analytics-kontot. Saneringsarbetet pågår
+* Linking and unlinking your dynamic tag management organization with Experience Cloud is not working for newly created Experience Cloud organizations. Adobe is working to fix this and restore normal functionality with the May release. If you experience problems when trying to single-sign on into dynamic tag management via Experience Cloud, use the legacy login at `dtm.adobe.com`.
+* A known issue is preventing audience sharing from report suites which are not owned by the linked Analytics account. Remedial efforts are underway
 
-## Mars 2015
+## March 2015
 
 <table id="table_54025DBE2D094FF1BE837BA60816C6DF"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funktion </th> 
-   <th colname="col2" class="entry"> Beskrivning </th> 
+   <th colname="col1" class="entry"> Feature </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Kundattribut </p> </td> 
-   <td colname="col2"> <p>Om du samlar in data om företagskunder i en CRM-databas (customer relationship management) kan du överföra dessa data till en datakälla för kundattribut i Experience Cloud. När data har överförts kan du köra <span class="uicontrol"> besökarprofiler </span> &gt; <span class="uicontrol"> kundattribut </span> i Analytics. </p> <p>Du kan också använda överförda data som ett målgruppssegment i <span class="keyword"> Adobe Target</span>. </p> <p>Se produktdokumentation för <a href="../services/customer-attributes/attributes.md" format="dita" scope="local"> kundattribut</a>. </p> </td> 
+   <td colname="col1"> <p>Customer Attributes </p> </td> 
+   <td colname="col2"> <p>If you capture enterprise customer data in a customer relationship management (CRM) database, you can upload the data into a Customer Attribute data source in Experience Cloud. After the data is uploaded, you can run <span class="uicontrol"> Visitor Profile</span> &gt; <span class="uicontrol"> Customer Attributes</span> reports in Analytics. </p> <p>You can also use the uploaded data as an audience segment in <span class="keyword"> Adobe Target</span>. </p> <p>See <a href="../services/customer-attributes/attributes.md" format="dita" scope="local"> Customer Attributes</a> product documentation. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Mars 2015
+## March 2015
 
 <table id="table_EB3FFBA2DF904546A5185EC9A63BBA98"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funktion </th> 
-   <th colname="col2" class="entry"> Beskrivning </th> 
+   <th colname="col1" class="entry"> Feature </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Gruppmappning </p> </td> 
-   <td colname="col2"> <p>Sidan Grupphantering har fått en ny design som ett administrativt gränssnitt där du kan skapa grupper, lägga till användare i grupper och tillämpa behörigheter i olika Experience Cloud-program. </p> </td> 
+   <td colname="col1"> <p>Group Mapping </p> </td> 
+   <td colname="col2"> <p>The Group Management page has been redesigned as an administrative interface that lets you create groups, add users to groups, and apply permissions across Experience Cloud applications. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>1:N-mappning </p> </td> 
-   <td colname="col2"> <p>När du länkar programkonton i Experience Cloud kan du nu mappa flera produkter och tjänster till en enda organisation om du har flera program och organisationer. </p> </td> 
+   <td colname="col1"> <p>One-to-many mapping </p> </td> 
+   <td colname="col2"> <p>When linking application accounts in Experience Cloud, if you have multiple applications and organizations, you can now map multiple products and services to a single organization. </p> </td> 
   </tr>
  </tbody> 
 </table>
 
-## Februari 2015
+## February 2015
 
-**Korrigeringar**
+**Fixes**
 
-* Förbättrat arbetsflöde för användarens e-postinbjudan för kontoetablering.
-* Ett problem med resursmappen som förhindrar att [!DNL Experience Cloud] och [!DNL Adobe Campaign] resurser visar identiska mapphierarkier har korrigerats.
-* Ett problem som förhindrar att målgrupper som var en del av inaktiverade [!DNL Target]-aktiviteter tas bort har åtgärdats.
-* Ett problem som gjorde att ikonen Lägg till (plus) inte kunde visas under [!UICONTROL Rules] på sidan [!UICONTROL Create New Audience] har åtgärdats.
-* Förbättrat stöd för Experience Cloud i Internet Explorer 9.
+* Improved the user email invitation workflow for account provisioning.
+* Fixed an asset folder issue preventing [!DNL Experience Cloud] and [!DNL Adobe Campaign] assets from displaying identical folder hierarchies.
+* Fixed an issue preventing the deletion of audiences that were part of deactivated [!DNL Target] activities.
+* Fixed an issue preventing the Add (plus) icon from displaying under [!UICONTROL Rules] on the [!UICONTROL Create New Audience] page.
+* Improved Experience Cloud interface support for Internet Explorer 9.
 
-## Januari 2015
+## January 2015
 
 <table id="table_AD0A8CA760E64227BB04BA6B0E425E80"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funktion </th> 
-   <th colname="col2" class="entry"> Beskrivning </th> 
+   <th colname="col1" class="entry"> Feature </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Skrivskyddad åtkomst. </p> </td> 
-   <td colname="col2"> <p>Administratörer kan nu ge icke-administrativa användare skrivskyddad åtkomst. </p> </td> 
+   <td colname="col1"> <p>Read-only access. </p> </td> 
+   <td colname="col2"> <p>Administrators can now grant non-administrative users read-only access. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Korrigeringar**
+**Fixes** 
 
-* Korrigerade ett problem där PNG-filer inte kunde återges på ett kort.
-* Ett problem med att överföra filer till Experience Cloud Assets via dra och släpp har åtgärdats.
+* Fixed an issue in which PNG files could not be rendered on a card.
+* Fixed an issue with uploading files to Experience Cloud Assets via drag and drop.
 
-**Kända fel**
+**Known Issues** 
 
-* Användare kan inte dela PowerPoint-filer på ritytor.
-* Ändringar av grupper och tillstånd som görs i användarhantering börjar gälla först efter en ny inloggning.
-* Vissa användare kan ha problem med att överföra stora filtyper till Experience Cloud Assets.
-* Användare kanske saknar länkar på sina Experience Cloud-kort från Advertising Cloud.
-* Vissa administrativa användare kan få problem med att länka sina konton efter att ha accepterat en inbjudan att gå med i Experience Cloud.
-* Experience Cloud gränssnitt kan minska prestandan när flera användare använder det parallellt.
-* Vissa användare kan ta bort en inaktuell resurs i stället för att få ett felmeddelande.
-* Vissa användare kan få problem med att logga in i två webbläsare med samma Adobe ID samtidigt.
-* Vissa användare kanske inte kan lägga till en Creative Cloud-användare på nytt i en delad mapp efter att Creative Cloud-användaren har tagits bort.
-* Vissa användare kan få en fördröjning i meddelandet som visas när en mapp delas från Experience Cloud till Creative Cloud.
-* Vissa användare kan ha problem med att dela en mapp mellan Experience Cloud och Creative Cloud.
-* Vissa användare kan ha problem med att skapa en målgrupp i en Analytics-rapportsserie när delade målgrupper har aktiverats.
-* Vissa användare kan ha problem med att överföra resurser till en styrelse.
+* Users are not able to share PowerPoint files on boards.
+* Group and entitlement changes made in User Management take effect only after a new login.
+* Some users might have issues uploading large file-types to Experience Cloud Assets.
+* Users might be missing links on their Experience Cloud cards from Advertising Cloud.
+* Some administrative users might experience issues linking their accounts after accepting an invitation to join Experience Cloud.
+* Experience Cloud interface can reduce in performance when in parallel use by multiple users.
+* Some users are able to delete an out-of-date asset instead of receiving an error notification.
+* Some users might experience issues when logging into two browsers with the same Adobe ID simultaneously.
+* Some users might be unable to re-add a Creative Cloud user to a shared folder after the Creative Cloud user has been deleted.
+* Some users might experience a delay in the notification that occurs when a folder is shared from Experience Cloud to Creative Cloud.
+* Some users might experience an issue sharing a folder between Experience Cloud and Creative Cloud.
+* Some users may have trouble creating an audience within an Analytics report suite after shared audiences have been enabled.
+* Some users may have trouble uploading assets to a board.
 
 ## November 2014
 
-**Kända fel**
+**Known issues**
 
-* Vissa användare kan ta bort en inaktuell resurs i stället för att få ett felmeddelande.
-* Vissa `.png`-filer kan inte återges på ett kort.
-* Vissa användare kan ha problem med att överföra resurser till en styrelse.
-* Ändringar av grupper och tillstånd som görs i användarhantering börjar gälla först efter en ny inloggning.
-* Administratörer måste logga ut och in igen för att se ändringar som gjorts i kontoinställningarna.
-* Användare kan inte dela PowerPoint-filer på ritytor.
-* Experience Cloud kan minska prestandan när många användare använder det parallellt.
-* Synkroniseringen mellan Adobe Experience Manager och Creative Cloud fungerar inte.
+* Some users are able to delete an out-of-date asset instead of receiving an error notification.
+* Some `.png` files cannot be rendered on a card.
+* Some users may have trouble uploading assets to a board.
+* Group and entitlement changes made in user management only take effect after a new login.
+* Admins must log out and back in to see changes made in Account Settings.
+* Users are not able to share PowerPoint files on boards.
+* Experience Cloud interface can reduce in performance when in parallel use by many users.
+* Adobe Experience Manager to Creative Cloud synchronization is not working.
 
-## Oktober 2014
+## October 2014
 
 <table id="table_7C1ACE8108D54782AE128ACD35069DF5"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funktion </th> 
-   <th colname="col2" class="entry"> Beskrivning </th> 
+   <th colname="col1" class="entry"> Feature </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Redigera användarbehörigheter </p> </td> 
-   <td colname="col2"> <p>Styrelsemedlemmar kan nu redigera användarbehörigheter på den aktuella ritytan. </p> <p> 
+   <td colname="col1"> <p>Edit User Permissions </p> </td> 
+   <td colname="col2"> <p>Owners of a board can now edit user permissions on the particular board. </p> <p> 
      <ol id="ol_B12251C510744538AF9BCE60ACB04016"> 
-      <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">Välj <span class="uicontrol"> inställningar</span> på kortet. </li> 
-      <li id="li_0F4786B0E1E743069D082E7DC488A031">Ange <span class="uicontrol"> Ägare </span>, <span class="uicontrol"> Visningsprogram </span> eller <span class="uicontrol"> Redigerare</span> bredvid varje ägare. </li> 
+      <li id="li_87B3EDE9542B47CEBE0BE7F2D1DE844D">On the board, select <span class="uicontrol"> Settings</span>. </li> 
+      <li id="li_0F4786B0E1E743069D082E7DC488A031">Next to each owner, specify <span class="uicontrol"> Owner</span>, <span class="uicontrol"> Viewer</span>, or <span class="uicontrol"> Editor</span>. </li> 
      </ol> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Korrigeringar**
+**Fixes** 
 
-* Ett felmeddelande returnerades när ett kort skapades från PDF och delades till styrelsen.
+* Creating a card from a PDF and sharing it to the board was returning an error message.
 
-**Kända fel**
+**Known Issues** 
 
-* Vissa användare kan ha problem med att överföra resurser till en styrelse.
-* Vissa `.png`-filer kan inte återges på ett kort.
-* Ändringar av grupper och tillstånd som görs i användarhantering börjar gälla först efter en ny inloggning.
-* Vissa användare kanske inte kan skapa ett kort från PDF och dela det med en anslagstavla.
-* Vissa användare kan ta bort en inaktuell resurs i stället för att få ett felmeddelande.
-* Användare kan inte dela PowerPoint-filer på ritytor.
-* Experience Cloud kan minska prestandan när många användare använder det parallellt.
-* Länkningen [!DNL Search&Promote] är inte tillgänglig från sidan [!UICONTROL Organizations & Product Access].
+* Some users may have trouble uploading assets to a board.
+* Some `.png` files cannot be rendered on a card.
+* Group and entitlement changes made in user management only take effect after a new login.
+* Some users may not be able to create a card from a PDF and share it to a board.
+* Some users are able to delete an out-of-date asset instead of receiving an error notification.
+* Users are not able to share PowerPoint files on boards.
+* Experience Cloud interface can reduce in performance when in parallel use by many users.
+* The [!DNL Search&Promote] linking is not available from the [!UICONTROL Organizations & Product Access] page.
 
 ## September 2014
 
-**Korrigeringar och förbättringar**
+**Fixes and Improvements** 
 
-* När du navigerar till `experience.adobe.com` är inloggningsupplevelsen nu konsekvent med inloggningen på Adobe Creative Cloud.
-* På sidan Hantera organisationer är länkningen (efter att en inbjudan har tagits emot) nu konsekvent för varje program.
+* When you navigate to `experience.adobe.com`, the login experience is now consistent with Adobe's Creative Cloud login.
+* On the Manage Organizations page, the linking experience (after an invite is received) is now consistent for each application.
 
-**Kända fel**
+**Known Issues** 
 
-* Ändringar av grupper och tillstånd som görs i användarhantering börjar gälla först efter en ny inloggning.
-* Vissa användare kan inte skapa ett kort från PDF och dela det med en anslagstavla.
-* Vissa användare kan ha problem med att överföra resurser till en styrelse.
-* Vissa användare kan ta bort en inaktuell resurs i stället för att få ett felmeddelande.
-* Användare kan inte dela PowerPoint-filer på ritytor.
-* Vissa [!DNL .png]-filer kan inte återges på ett kort.
-* Gränssnittet [!DNL Experience Cloud] kan minska prestandan när det används parallellt av många användare.
-* Länkningen [!DNL Search&Promote] är inte tillgänglig från sidan [!UICONTROL Organizations & Product Access].
-* Vissa användare kan uppleva att deras [!DNL Creative Cloud]-innehåll tas bort från deras mapp om innehållet inte delas i [!DNL Experience Cloud].
+* Group and entitlement changes made in user management only take effect after a new login.
+* Some users cannot create a card from a PDF and share it to a board.
+* Some users may have trouble uploading assets to a board.
+* Some users are able to delete an out-of-date asset instead of receiving an error notification.
+* Users are not able to share PowerPoint files on boards.
+* Some [!DNL .png] files cannot be rendered on a card.
+* [!DNL Experience Cloud] interface can reduce in performance when in parallel use by many users.
+* The [!DNL Search&Promote] linking is not available from the [!UICONTROL Organizations & Product Access] page.
+* Some users may experience their [!DNL Creative Cloud] contents being removed from their folder, if the content is unshared in the [!DNL Experience Cloud].
 
-## Augusti 2014
+## August 2014
 
 <table id="table_1E7DBEB5E83B4E4285B6FD1D718CD16D"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funktion </th> 
-   <th colname="col2" class="entry"> Beskrivning </th> 
+   <th colname="col1" class="entry"> Feature </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p>Du kan nu komma åt <span class="keyword"> Adobe Mobile Services</span> från den vänstra navigeringen. </p> </td> 
+   <td colname="col2"> <p>You can now access <span class="keyword"> Adobe Mobile Services</span> from the left-hand navigation. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Kända fel**
+**Known Issues** 
 
-* Ändringar av grupper och tillstånd som görs i användarhantering börjar gälla först efter en ny inloggning.
-* Vissa användare kanske inte kan skapa ett kort från PDF och dela det med en anslagstavla.
-* Vissa användare kan ha problem med att överföra resurser till en styrelse.
-* Vissa användare kanske inte kan logga in från [!DNL Target] till [!DNL Experience Cloud].
-* Vissa Audience Manager-användare kan inte logga in i [!DNL Experience Cloud].
-* Vissa användare kan ta bort en inaktuell resurs i stället för att få ett felmeddelande.
-* Filer som tas bort från [!DNL Experience Cloud] tas inte bort från [!DNL Digital Asset Management].
-* Användare kan inte dela PowerPoint-filer på ritytor.
-* Vissa [!DNL .png]-filer kan inte återges på ett kort.
-* Gränssnittet [!DNL Experience Cloud] kan minska prestandan när det används parallellt av många användare.
-* Länkningen [!DNL Search&Promote] är inte tillgänglig från sidan [!UICONTROL Organizations & Product Access].
-* Vissa användare kan uppleva att deras [!DNL Creative Cloud]-innehåll tas bort från deras mapp om innehållet inte delas i [!DNL Experience Cloud].
+* Group and entitlement changes made in user management only take effect after a new login.
+* Some users may not be able to create a card from a PDF and share it to a board.
+* Some users may have trouble uploading assets to a board.
+* Some users may not be able to log in from [!DNL Target] to [!DNL Experience Cloud].
+* Some Audience Manager users cannot log into the [!DNL Experience Cloud].
+* Some users are able to delete an out-of-date asset instead of receiving an error notification.
+* Files deleted from [!DNL Experience Cloud] are not being deleted from [!DNL Digital Asset Management].
+* Users are not able to share PowerPoint files on boards.
+* Some [!DNL .png] files cannot be rendered on a card.
+* [!DNL Experience Cloud] interface can reduce in performance when in parallel use by many users.
+* The [!DNL Search&Promote] linking is not available from the [!UICONTROL Organizations & Product Access] page.
+* Some users may experience their [!DNL Creative Cloud] contents being removed from their folder, if the content is unshared in the [!DNL Experience Cloud].
 
-## Juli 2014
+## July 2014
 
-**Kända fel**
+**Known Issues** 
 
-* Filer som tas bort från [!DNL Experience Cloud] tas inte bort från [!DNL Digital Asset Management].
-* Vissa [!UICONTROL Exchange]-användare kan hitta sina namn i kommentarerna som ett långt sträng-ID i stället för sina namn
-* Vissa [!DNL .png] filer kan inte återges på ett kort
-* Att överföra filer ger fler filtyper än att dra och släppa. För bästa resultat bör du överföra med [!UICONTROL Assets].
-* Länkningen [!DNL Search&Promote] är inte tillgänglig från sidan [!UICONTROL Organizations & Product Access].
-* [!DNL Exchange] användare måste rensa sina cookies för att förbättra sin upplevelse.
-* Gränssnittet [!DNL Experience Cloud] kan göra det långsammare när många användare använder det parallellt.
-* Vissa användare kan uppleva att deras [!DNL Creative Cloud]-innehåll tas bort från deras mapp om innehållet inte delas i [!DNL Experience Cloud].
-* Du loggas ut efter 15 minuters inaktivitet. Om du loggar ut på en plats loggas du ut från [!DNL Experience Cloud].
-* Vissa användare kanske inte kan länka sina Audience Manager-konton till [!DNL Experience Cloud].
-* [!UICONTROL Exchange]-användare kan bara se engelska i språkväljaren.
+* Files deleted from [!DNL Experience Cloud] are not being deleted from [!DNL Digital Asset Management].
+* Some [!UICONTROL Exchange] users may find their names in the comments to be a long string ID instead of their names
+* Some [!DNL .png] files cannot be rendered on a card
+* Uploading files allows more file types than the drag-and-drop method. For best results, upload using [!UICONTROL Assets].
+* The [!DNL Search&Promote] linking is not available from the [!UICONTROL Organizations & Product Access] page.
+* [!DNL Exchange] users must clear their cookies to improve their experience.
+* [!DNL Experience Cloud] interface can slow down when in parallel use by many users.
+* Some users may experience their [!DNL Creative Cloud] contents being removed from their folder if the content is unshared in the [!DNL Experience Cloud].
+* You will be logged out after 15 minutes of inactivity. Also, logging out in one location logs you out of the [!DNL Experience Cloud].
+* Some users may not be able to link their Audience Manager accounts to [!DNL Experience Cloud].
+* [!UICONTROL Exchange] users can only see English in language selector.
 
-## Juni 2014
+## June 2014
 
 <table id="table_C9BD63436BF0414B97B8D07387D1993B"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funktion </th> 
-   <th colname="col2" class="entry"> Beskrivning </th> 
+   <th colname="col1" class="entry"> Feature </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="wintitle"> Spara</span>-knappen i Publiker </p> </td> 
-   <td colname="col2"> <p>När du skapar en målgrupp inaktiveras nu knappen <span class="wintitle"> Spara</span> på sidan <span class="wintitle"> Skapa ny målgrupp </span> tills alla obligatoriska fält har fyllts i. 
-     <!--MAC-19712 --></p> </td> 
+   <td colname="col1"> <p> <span class="wintitle"> Save</span> button in Audiences </p> </td> 
+   <td colname="col2"> <p>When you create an audience, the <span class="wintitle"> Save</span> button on the <span class="wintitle"> Create New Audience</span> page is now disabled until all the required fields are completed. 
+     </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Kända fel**
+**Known Issues** 
 
-* Filer som tas bort från [!DNL Experience Cloud] tas inte bort från [!DNL Digital Asset Management].
-* Att överföra filer ger fler filtyper än att dra och släppa. Du får bäst resultat om du överför med Assets.
-* Länkningen [!DNL Search&Promote] är inte tillgänglig från sidan [!UICONTROL Organizations & Product Access].
-* Filter som tillämpas på trendrapporter från [!DNL Analytics] används inte på kort i [!DNL Experience Cloud].
-* Vissa användare kan inte länka sina målgruppshanteringskonton till sina [!DNL Experience Cloud]-konton.
-* Du loggas ut efter 15 minuters inaktivitet. Om du loggar ut på en plats loggas du ut från Experience Cloud.
-* Vissa Exchange-användare kan se att deras namn i kommentarerna är ett långt sträng-ID i stället för deras namn
+* Files deleted from [!DNL Experience Cloud] are not being deleted from [!DNL Digital Asset Management].
+* Uploading files allows more file types than the drag-and-drop method. For best results, upload using Assets.
+* The [!DNL Search&Promote] linking is not available from the [!UICONTROL Organizations & Product Access] page.
+* Filters applied to trended reports from [!DNL Analytics] are not applied to cards in the [!DNL Experience Cloud].
+* Some users are not able to link their audience management account with their [!DNL Experience Cloud] account.
+* You will be logged out after 15 minutes of inactivity. Also, logging out in one location logs you out of Experience Cloud.
+* Some Exchange users may find their names in the comments to be a long string ID instead of their names
 
-**Korrigeringar**
+**Fixes** 
 
-* Korrigerade ett problem som förhindrade videoöverföring till appar.
+* Fixed an issue preventing video upload to apps.
 
-## Maj 2014
+## May 2014
 
 <table id="table_4E4B34EEE3D94D78BA1A1FBC62950559"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funktion </th> 
-   <th colname="col2" class="entry"> Beskrivning </th> 
+   <th colname="col1" class="entry"> Feature </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Experience Cloud Exchange </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> Hjälp</span> &gt; <span class="uicontrol"> Exchange </span></p> <p><span class="keyword"> Experience Cloud</span><span class="wintitle"> Exchange</span> är ett enda mål där du kan söka efter, bläddra bland, välja ut, betala och hämta tillägg för digital marknadsföring via appar. </p> <p>Apparna innehåller dataanslutningar, anpassade konfigurationer för Adobe Core-produkter, tredjepartsprogram, rapporter och <span class="keyword"> Experience Cloud</span>-kort. </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> Help</span> &gt; <span class="uicontrol"> Exchange</span></p> <p>The <span class="keyword"> Experience Cloud</span><span class="wintitle"> Exchange</span> is a single destination where you can search, browse, select, pay, and download digital marketing extensions via apps. </p> <p>Apps include data connectors, custom configurations to Adobe's core product, third-party applications, reports, and <span class="keyword"> Experience Cloud</span> cards. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Experience Cloud-målgrupper </p> </td> 
-   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> Publiker </span></p> <p> <span class="wintitle"> Publiker</span> är där du skapar, redigerar och hanterar målgrupper, ungefär som du arbetar med segment. Du kan till exempel skapa ett segment i Rapporter och analyser och sedan dela det till <span class="wintitle"> Experience Cloud</span><span class="wintitle"> Publiker</span>. När målgruppen har delats är den tillgänglig i <span class="keyword"> Adobe Target</span> för kampanjaktiviteter och i Adobe Audience Manager för segmentering. </p> <p> <p>Obs! Om du vill begära aktivering i Target går du till <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>. </p> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p>Användare som anges på <span class="keyword"> Experience Cloud</span>-kort har nu behörighet till det kortet. </p> </td> 
+   <td colname="col1"> <p>Experience Cloud Audiences </p> </td> 
+   <td colname="col2"> <p> <span class="uicontrol"> Experience Cloud</span> &gt; <span class="uicontrol"> Audiences</span></p> <p> <span class="wintitle"> Audiences</span> is where you create, edit, and manage audiences, similar to how you work with segments. For example, you can create a segment in Reports & Analytics, then share it to <span class="wintitle"> Experience Cloud</span><span class="wintitle"> Audiences</span>. Once shared, the audience is available in <span class="keyword"> Adobe Target</span> for campaign activities, and in Adobe Audience Manager for segmentation. </p> <p> <p>Note: To request enablement in Target, visit <a href="https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES" format="http" scope="external"> https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES</a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> </p> </td> 
-   <td colname="col2"> <p>Användare av nya Adobe kan länka sina Scene7-konton till Adobe ID och deras teammedlemmar. Administratörer kan även bryta länken till användare från Scene7-konton. </p> </td> 
+   <td colname="col2"> <p>Users who are mentioned on <span class="keyword"> Experience Cloud</span> cards now have permissions to that card. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Resurssynkronisering. </p> </td> 
-   <td colname="col2"> <p> Du kan dela resurser inom Experience Manager Assets med Experience Cloud och Creative Cloud. Alla ändringar av dessa resurser återspeglas i de delade kopiorna av resurserna i Experience Cloud och Creative Cloud. </p> </td> 
+   <td colname="col1"> <p> </p> </td> 
+   <td colname="col2"> <p>New Adobe users can link their Scene7 accounts to Adobe ID and their team members. Administrators can unlink users from Scene7 accounts as well. </p> </td> 
+  </tr> 
+  <tr> 
+   <td colname="col1"> <p>Asset synchronization. </p> </td> 
+   <td colname="col2"> <p> You can share assets within Experience Manager Assets with Experience Cloud and Creative Cloud. Any changes to these assets are reflected in the shared copies of the assets in Experience Cloud and Creative Cloud. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Korrigeringar**
+**Fixes** 
 
-* [!DNL Experience Cloud] länkades inte till [!DNL Adobe Target]. Det här problemet uppstod om inloggningen för [!DNL Adobe Target] kan användas på flera [!DNL Target]-servrar.
-* [!DNL Adobe Advertising Cloud] skapade inte användare automatiskt när användaren skapades i [!DNL Experience Cloud].
-* Alternativ i kombinationsrutor som används för att lägga till nya användare försvinner tillfälligt när du skriver.
-* Länken Kommentarer i resurskortvyn kunde inte markeras.
-* När du har lagt till en anpassad tagg i en resurs, bevaras inga andra metadataändringar.
-* När du tar bort en bild visas ingen varning i Assets om bilden används i Adobe Target Essentials.
-* Långsam [!UICONTROL Experience Cloud]-gränssnittsprestanda vid parallell användning av många användare.
-* Om du tog bort en bild i [!UICONTROL Experience Cloud Assets] utlöstes ingen varning om bilden användes i [!DNL Adobe Target Essentials].
-* När **[!UICONTROL remember me]** inte valdes under inloggningen loggades användaren ut efter 15 minuter.
-* Användarna var tvungna att logga ut och in igen för att alla ändringar i behörighet och tillstånd skulle börja gälla.
-* Det tog längre tid än en sekund att logga in på [!DNL Experience Cloud].
-* För vissa användare synkroniserades inte filer som togs bort från [!DNL Experience Cloud] med [!DNL Digital Asset Management].
-* Användare loggades ut efter endast 15 minuters inaktivitet i webbläsaren.
-* Användaren kunde inte dela PowerPoint-filer på ritytor.
-* Vissa användare upplevde dålig visuell layout i Internet Explorer 10.
+* [!DNL Experience Cloud] was not linking to [!DNL Adobe Target]. This issue occurred if the [!DNL Adobe Target] login can be used on multiple [!DNL Target] servers.
+* [!DNL Adobe Advertising Cloud] was not creating users automatically when the user has been created in [!DNL Experience Cloud].
+* Options in combo boxes used for adding new users temporarily disappeared while typing.
+* The Comments link on asset card view was not selectable.
+* After adding a custom tag to an asset, no other metadata changes were not persisting.
+* Deleting an image, Assets does not warn if the image is used in Adobe Target Essentials.
+* Slow [!UICONTROL Experience Cloud] interface performance when in parallel use by many users.
+* Deleting an image in [!UICONTROL Experience Cloud Assets] was not issuing a warning if the image was used in [!DNL Adobe Target Essentials].
+* When **[!UICONTROL remember me]** was not selected during login, the user was logged out after 15 minutes.
+* Users were having to log out and back in for all permission and entitlement changes to take effect.
+* Logging in to the [!DNL Experience Cloud] was taking longer than a second.
+* For certain users, deleting files from the [!DNL Experience Cloud] did not synchronizing with [!DNL Digital Asset Management].
+* Users were being logged out after only 15 minutes of browser inactivity.
+* User were not able to share PowerPoint files on boards.
+* Some users were experiencing poor visual layout in Internet Explorer 10.
 
 ## April 2014
 
 <table id="table_D95C0DC64F2A4B47BAC83E504CFD6825"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funktion </th> 
-   <th colname="col2" class="entry"> Beskrivning </th> 
+   <th colname="col1" class="entry"> Feature </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Skapa kort från hjälpavsnitt </p> </td> 
-   <td colname="col2"> <p>När du har aktiverat funktionen Dela till Adobe Experience Cloud i webbläsarens bokmärkesverktygsfält kan du nu dela hjälpsidor från mikrowebbplatsens URL. </p> <p> <b>Dela ett hjälpavsnitt</b> </p> 
+   <td colname="col1"> <p>Create cards from help topics </p> </td> 
+   <td colname="col2"> <p>After you enable the Share to Adobe Experience Cloud feature in your browser's Bookmark toolbar, you can now share help pages from the microsite URL. </p> <p> <b>To share a help topic</b> </p> 
     <ol id="ol_F94B816121494B0FA16CC07B0E96AED8"> 
-     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>I <span class="keyword"> Experience Cloud </span> väljer du <span class="uicontrol"> Administration </span>. </p> </li> 
-     <li id="li_94EF58E7A4974B63951E14F72A710183"> <p>Dra knappen <span class="uicontrol"> Dela till Adobe Experience Cloud</span> till bokmärkets verktygsfält. </p> </li> 
-     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>Navigera till en hjälpsida (eller stanna kvar på den här) och välj sedan <span class="uicontrol"> Dela till Adobe Experience Cloud</span> i webbläsarens bokmärkesverktygsfält. </p> <p>I det här steget skapas ett kort som du kan visa i <span class="wintitle"> Experience Cloud </span>. </p> </li> 
+     <li id="li_F47187D4B5FE46D3A51D257DD569B4D6"> <p>In the <span class="keyword"> Experience Cloud</span>, select <span class="uicontrol"> Administration</span>. </p> </li> 
+     <li id="li_94EF58E7A4974B63951E14F72A710183"> <p>Drag the <span class="uicontrol"> Share to Adobe Experience Cloud</span> button to your Bookmark toolbar. </p> </li> 
+     <li id="li_69EEC4F25D8F4AD7AA106A10B7F50FF6"> <p>Navigate to a help page (or remain on this one), then select <span class="uicontrol"> Share to Adobe Experience Cloud</span> in your browser's Bookmarks toolbar. </p> <p>This step creates a card, which you can view in the <span class="wintitle"> Experience Cloud</span>. </p> </li> 
     </ol> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Korrigeringar**
+**Fixes**
 
-* När du har lagt till en anpassad tagg i en resurs kan inga andra metadataändringar sparas.
-* Användarna måste uppdatera anslagstavlan för att ta bort de raderade korten.
-* När **[!UICONTROL Remember me]** inte har valts under inloggningen loggas användaren ut efter 15 minuter
-* [!DNL Analytics]-programmets landningssida visar formateringsfel.
-* Användarna måste logga ut och logga in igen för att alla ändringar i behörighet och tillstånd ska börja gälla.
-* Om du tar bort en bild varnar [!UICONTROL Assets] inte om bilden används i [!DNL Adobe Target Essentials].
-* Kommentarslänken i resurskortvyn kan inte markeras.
-* Alternativ i kombinationsrutor för att lägga till nya användare försvinner tillfälligt när du skriver.
-* Det tar längre tid än en sekund att logga in på [!DNL Experience Cloud].
-* Data som delas från [!DNL Advertising Cloud] är felrepresenterade i [!DNL Experience Cloud].
-* Adobe [!DNL Advertising Cloud] skapar inte användare automatiskt när användare har skapats i [!DNL Experience Cloud].
-* [!DNL Experience Cloud] kan inte länkas till [!DNL Adobe Target] om inloggningen [!DNL Adobe Target] kan användas på flera [!DNL Target]-servrar.
-* Gränssnittet [!DNL Experience Cloud] kan göra det långsammare när många användare använder det parallellt.
-* [!DNL Search&Promote]-länkning är inte tillgängligt från sidan [!UICONTROL Organizations & Product Access].
-* [!DNL Adobe Advertising Cloud] simuleringskort återges inte korrekt.
-* Filter som används på trendrapporter från [!DNL Analytics] används inte på kort i [!DNL Experience Cloud].
-* Filter som tillämpas på trendrapporter från Analytics tillämpas inte på kort i Experience Cloud.
-* Vissa Excel- eller CSV-filer kan inte överföras till en anslagstavla.
-* Vissa användare kanske inte kan länka sina målgruppshanteringskonton till sina [!DNL Experience Cloud].
-* Vissa användare kan få felmeddelanden när de delar [!DNL Analytics] segment i [!DNL Experience Cloud].
-* Vissa användare kanske inte kan gå igenom undermappar i [!UICONTROL Asset Selector].
-* Vissa användare kan inte dela AdLernas i gadgetar i [!DNL Experience Cloud].
+* After adding a custom tag to an asset, no other metadata changes can be persisted.
+* Users have to refresh the board to make the deleted cards disappear from view.
+* When **[!UICONTROL Remember me]** is not selected during login, the user is logged out after 15 minutes
+* [!DNL Analytics] application landing page shows formatting errors.
+* Users must log out and log back in for all permission and entitlement changes to take effect.
+* Deleting an image, [!UICONTROL Assets] does not warn if the image is used in [!DNL Adobe Target Essentials].
+* Comments link on asset card view is not selectable.
+* Options in combo boxes for adding new users temporarily disappear while typing.
+* Logging in to the [!DNL Experience Cloud] takes longer than a second.
+* Data shared from [!DNL Advertising Cloud] is misrepresented in the [!DNL Experience Cloud].
+* Adobe [!DNL Advertising Cloud] does not create users automatically when user has been created in the [!DNL Experience Cloud].
+* The [!DNL Experience Cloud] cannot be linked to [!DNL Adobe Target], if the [!DNL Adobe Target] login can be used on multiple [!DNL Target] servers.
+* [!DNL Experience Cloud] interface can slow down when in parallel use by many users.
+* [!DNL Search&Promote] linking is not available from the [!UICONTROL Organizations & Product Access] page.
+* [!DNL Adobe Advertising Cloud] simulation cards are not rendering correctly.
+* Filters applied to trended reports from [!DNL Analytics] are not applied to cards in [!DNL Experience Cloud].
+* Filters applied to trended reports from Analytics are not applied to cards in Experience Cloud.
+* Some Excel or CSV files cannot be uploaded to a board.
+* Some users may not be able to link their audience management account with their [!DNL Experience Cloud].
+* Some users may experience error when sharing [!DNL Analytics] segments in the [!DNL Experience Cloud].
+* Some users may not be able to drill down to subfolders in [!UICONTROL Asset Selector].
+* Some users are not able to share AdLens gadgets in the [!DNL Experience Cloud].
 
-## Mars 2014
+## March 2014
 
-**Korrigeringar**
+**Fixes** 
 
-* Lagt till möjlighet att ta bort din avatarbild.
-* Ett problem som hindrade dig från att bryta länken till dina [!DNL Adobe Advertising Cloud]-konton har åtgärdats.
+* Added the ability to remove your avatar image.
+* Fixed an issue preventing you from unlinking your [!DNL Adobe Advertising Cloud] accounts.
 
-**Kända fel**
+**Known Issues** 
 
-* Om du tar bort en bild i Experience Cloud Assets visas ingen varning om att bilden används i Adobe Target Essentials.
-* Om du uppdaterar ett kort från [!DNL Analytics] kan det ibland leda till ett tomt diagram i det expanderade kortet.
-* Användarna måste logga ut och logga in igen för att alla ändringar i behörighet och tillstånd ska börja gälla.
-* När *`Remember me`* inte har valts under inloggningen loggas användaren ut efter 15 minuter.
-* [!DNL Analytics]-programmets landningssida visar formateringsfel.
-* Länken Kommentarer i resurskortvyn kan inte markeras.
-* Experience Cloud-gränssnittet kan bli långsammare när många användare använder det parallellt
-* Experience Cloud kan inte länkas till [!DNL Adobe Target] om inloggningen för [!DNL Adobe Target] kan användas på flera målservrar.
-* Det tar längre tid än en sekund att logga in i Experience Cloud.
-* När du har lagt till en anpassad tagg i en resurs kan inga andra metadataändringar sparas.
-* [!DNL Adobe Advertising Cloud] skapar inte användare automatiskt när användare har skapats i Experience Cloud.
-* Alternativ i kombinationsrutor för att lägga till nya användare försvinner tillfälligt när du skriver.
-* Data som delas från [!DNL Advertising Cloud] är felaktigt representerade i Experience Cloud.
-* Det går inte att dela Flickr-bilder.
-* Filter som används på trendrapporter från [!DNL Analytics] används inte på kort i Experience Cloud.
-* Ändringar av grupper och tillstånd som görs i användarhantering börjar gälla först efter en ny inloggning.
-* Länkningen [!DNL Search&Promote] är inte tillgänglig från [!UICONTROL Organizations & Product Access].
-* Användarna måste uppdatera anslagstavlan för att ta bort de raderade korten.
-* Vissa Excel- eller CSV-filer kan inte överföras till en anslagstavla.
-* [!DNL Adobe Advertising Cloud] simuleringskort återges inte korrekt.
-* Vissa PNG-filer kan inte återges på ett kort.
-* Beta feedback kan inte skickas.
+* Deleting an image in Experience Cloud Assets does not warn if the image is used in Adobe Target Essentials.
+* Refreshing a card from [!DNL Analytics] can sometimes lead to an empty chart in the expanded card.
+* Users must log out and log back in for all permission and entitlement changes to take effect.
+* When *`Remember me`* is not selected during login, the user will be logged out after 15 minutes.
+* [!DNL Analytics] application landing page shows formatting errors.
+* The Comments link on asset card view is not selectable.
+* Experience Cloud interface can slow down when in parallel use by many users
+* Experience Cloud cannot be linked to [!DNL Adobe Target], if the [!DNL Adobe Target] login can be used on multiple Target servers.
+* Logging in to Experience Cloud takes longer than a second.
+* After adding a custom tag to an asset, no other metadata changes can be persisted.
+* [!DNL Adobe Advertising Cloud] does not create users automatically when user has been created in Experience Cloud.
+* Options in combo boxes for adding new users temporarily disappear while typing.
+* Data shared from [!DNL Advertising Cloud] is mis-represented in Experience Cloud.
+* Sharing Flickr images fails.
+* Filters applied to trended reports from [!DNL Analytics] are not applied to cards in Experience Cloud.
+* Group and entitlement changes made in user management only take effect after a new login.
+* [!DNL Search&Promote] linking is not available from [!UICONTROL Organizations & Product Access].
+* Users have to refresh the board to make the deleted cards disappear from view.
+* Some Excel or CSV files cannot be uploaded to a board.
+* [!DNL Adobe Advertising Cloud] simulation cards are not rendering correctly.
+* Some PNG files cannot be rendered on a card.
+* Beta feedback cannot be submitted.
 
-## Februari 2014
+## February 2014
 
 <table id="table_DFAB002358C94A17A7F91DAB323A488F"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funktion </th> 
-   <th colname="col2" class="entry"> Beskrivning </th> 
+   <th colname="col1" class="entry"> Feature </th> 
+   <th colname="col2" class="entry"> Description </th> 
   </tr> 
  </thead>
  <tbody> 
@@ -799,16 +799,17 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
    <td colname="col2"> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>Uppdatera data </p> </td> 
+   <td colname="col1"> <p>Refresh Data </p> </td> 
    <td colname="col2"> <p> 
-     <!--MAC-18174-->Ikonen <span class="uicontrol"> Uppdatera data </span> för ett diagram på ett kort döljs nu om programmet inte tillåter en datauppdatering. </p> </td> 
+     The <span class="uicontrol"> Refresh Data</span> icon for a graph on a card is now hidden if the application does not allow a data refresh. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-**Korrigeringar**
+**Fixes** 
 
-* Ett problem som gjorde att [!DNL Analytics] rapporter inte kunde använda segmentfilter har korrigerats.
-* Ett problem som gjorde att program visades på sidan [!UICONTROL Experience Cloud Solutions] som länkade har korrigerats, även om programkontona inte var länkade.
-* Ett problem som gjorde att [!DNL Adobe Target] kunder i Asien inte kunde markera knappen **[!UICONTROL Continue to Experience Cloud]** på den länkade sidan har korrigerats.
-* Ett problem som gjorde att YouTube-videor inte kunde delas har åtgärdats.
+* Fixed an issue that prevented shared [!DNL Analytics] reports from applying segment filters.
+* Fixed an issue causing applications to display on the [!UICONTROL Experience Cloud Solutions] page as linked, even if the applications accounts were not linked.
+* Fixed an issue that prevented [!DNL Adobe Target] customers in Asia from being able to select the **[!UICONTROL Continue to Experience Cloud]** button on the linking page.
+* Fixed an issue that prevented the sharing of YouTube videos.
+ -->
