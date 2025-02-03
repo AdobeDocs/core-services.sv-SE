@@ -2,9 +2,9 @@
 title: IP-adresser som används av Experience Cloud
 description: Om brandväggen blockerar IP-adresser som kommer från Adobe kan du uppdatera brandväggsinställningarna i den här listan.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: faa9b8067a85f86cc0b559bdeeaed80df2339c7d
 workflow-type: tm+mt
-source-wordcount: '373'
+source-wordcount: '374'
 ht-degree: 1%
 
 ---
@@ -78,6 +78,7 @@ Alla IP-intervall i det här avsnittet ingår i tabellen ovan.
 | Singapore | `172.82.240.88/29` |
 | Virginia | `63.140.38.0/23` |
 | Virginia | `63.140.54.0/24` |
+| Virginia | `67.202.5.244` |
 
 {style="table-layout:auto"}
 
