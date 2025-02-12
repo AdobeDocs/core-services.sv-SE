@@ -1,7 +1,7 @@
 ---
-description: Läs om de senaste funktionerna, versionsinformationen och kända fel för Experience Cloud-tjänster som kundattribut, målgrupper och användarhantering.
+description: Läs om de senaste funktionerna, versionsinformationen och kända problem för Experience Cloud tjänster som kundattribut, målgrupper och användarhantering.
 solution: Experience Cloud
-title: Versionsinformation för Experience Cloud
+title: Cumulative Release Notes for Experience Cloud Interface
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
 feature-set: Experience Cloud
 feature: Release Notes
@@ -9,39 +9,44 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: b44a57082f65be8f9957d48ee50adcc1b6f72ce5
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1182'
 ht-degree: 9%
 
 ---
 
 # Ackumulerade versionsinformation
 
-Funktioner, versionsinformation och kända fel för gränssnittskomponenterna i Experience Cloud Central.
+Funktioner, versionsinformation och kända fel för Experience Cloud Central Interface Components.
 
 En lista över dokumentationsuppdateringar finns i [Dokumentationsuppdateringar](doc-updates.md).
 
 Versionsinformation om alla program finns i [Versionsinformation för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv).
 
+## Februari 2025
+
+| Datum | Funktion | Beskrivning |
+| -----------| -----------| ---------- |
+| 13 februari (planerat utgivningsdatum) | Spektrum 2 | Experience Cloud-programramen, som innehåller rubrikfältet och de komponenter som öppnas från rubrikfältet, samt den vänstra navigeringslisten för vissa program, kommer att uppdateras till Spectrum 2, Adobe senaste designsystem. Den här uppdaterade designen innehåller uppdaterad ikonografi, men samma funktionalitet. Flera element i sidhuvudet placeras dock om för att justeras mot andra Adobe-webbplatser och -program. |
+
 ## Januari 2025
 
 | Datum | Funktion | Beskrivning |
 | -----------| -----------| ---------- |
-| Januari 9 | Produktanvändningsdata | För att göra det enklare att styra inställningarna för produktanvändningsdata för Experience Cloud har vi effektiviserat vår Experience Cloud [inställningssida](../features/account-preferences.md#product-usage-data) för att ta bort dubblettalternativ. Den här förenklingen innebär att de aktuella användarinställningarna bevaras och du kan när som helst uppdatera dina inställningar på [Experience Cloud-inställningarna](https://experience.adobe.com/preferences). |
-| 5 februari (planerat utgivningsdatum) | Spektrum 2 | Programramen Experience Cloud, som innehåller rubrikfältet och de komponenter som öppnas från rubrikfältet, samt den vänstra navigeringslisten för vissa program, kommer att uppdateras till Spectrum 2, Adobe senaste designsystem. Den här uppdaterade designen innehåller uppdaterad ikonografi, men samma funktionalitet. Flera element i sidhuvudet placeras om för att justeras mot andra Adobe-platser och -program. |
+| Januari 9 | Produktanvändningsdata | För att göra det enklare att styra inställningarna för Experience Cloud produktanvändningsdata har vi effektiviserat vår Experience Cloud [inställningssida](../features/account-preferences.md#product-usage-data) för att ta bort dubblettalternativ. Den här förenklingen innebär att de aktuella användarinställningarna bevaras och du kan när som helst uppdatera dina inställningar på [Experience Cloud-inställningarna](https://experience.adobe.com/preferences). |
 
 ## 2 oktober 2024
 
 | Funktion | Beskrivning |
 | -----------| ---------- |
-| Anpassningsbart hem | Klicka på **[!UICONTROL Edit]** på landningssidan för Experience Cloud. I [!UICONTROL Edit]-läget kan du anpassa din Experience Cloud-hemsida med åtkomst till ett widgetbibliotek och anpassade bakgrunder. [!UICONTROL Edit]-läget ger smidiga, intuitiva kontroller för att flytta, ändra storlek på och hantera widgetar, inklusive massåtgärder och layoutjusteringar, vilket ger en mer estetisk och anpassad upplevelse. |
+| Anpassningsbart hem | Klicka på **[!UICONTROL Edit]** på Experience Cloud startsida. I [!UICONTROL Edit]-läget kan du anpassa din Experience Cloud-hemsida med tillgång till ett widgetbibliotek och anpassade bakgrunder. [!UICONTROL Edit]-läget ger smidiga, intuitiva kontroller för att flytta, ändra storlek på och hantera widgetar, inklusive massåtgärder och layoutjusteringar, vilket ger en mer estetisk och anpassad upplevelse. |
 
 ## 10 september 2024
 
 | Funktion | Beskrivning |
 | -----------| ---------- |
-| Slack-meddelanden | Du kan konfigurera dina kontoinställningar så att du kan skicka meddelanden från Experience Cloud till Slack. Mer information finns i _Slack-meddelanden_ i hjälpen för [Inställningar](../features/account-preferences.md). |
+| Slack-meddelanden | Du kan konfigurera dina kontoinställningar så att Experience Cloud-meddelanden skickas till Slack. Mer information finns i _Slack-meddelanden_ i hjälpen för [Inställningar](../features/account-preferences.md). |
 
 <!-- ## July - August 2023
 
@@ -85,7 +90,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Funktion | Beskrivning |
 | ------- |-------|
-| Åtkomst till [!UICONTROL Recents] mellan Experience Platform och Journey Optimizer via sökfältet | Användare kan nu komma åt nyligen använda objekt från alla sidor i AEP och AJO via det enhetliga sökfältet. |
+| Åtkomst till [!UICONTROL Recents] i Experience Platform och Journey Optimizer via sökfältet | Användare kan nu komma åt nyligen använda objekt från alla sidor i AEP och AJO via det enhetliga sökfältet. |
 
 {style="table-layout:auto"}
 
@@ -93,7 +98,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Funktion | Beskrivning |
 | ------- |-------|
-| Kortkommandon (**[!UICONTROL Recents]**) har lagts till i startsidan för [Experience Cloud](https://experience.adobe.com/home) | Du kan komma åt genvägar till dina senaste Journey Optimizer- och Experience Platform-arbeten under den nya rubriken _Senaste_ på landningssidan. Uppdateringen innehåller även allmänna layoutförbättringar och förbättringar av svarstiderna. |
+| Genvägar (**[!UICONTROL Recents]**) har lagts till i startsidan för [Experience Cloud](https://experience.adobe.com/home) | Du kan komma åt genvägar till dina senaste Journey Optimizer- och Experience Platform-arbeten under den nya rubriken _Senaste_ på landningssidan. Uppdateringen innehåller även allmänna layoutförbättringar och förbättringar av svarstiderna. |
 | **[!UICONTROL Sandboxes]** har flyttats till rubrikfältet | Sandlådeindikatorn är nu integrerad i sidhuvudet för alla Experience Platform-gränssnittsprogram. Mer information finns i [Sandlådor](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) i Experience Platform. |
 
 {style="table-layout:auto"}
@@ -102,7 +107,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 | Funktion | Beskrivning |
 | ------- | ------- |
-| Hemsida | Information om sidfoten i Experience Cloud har flyttats till användarprofilkortet, inklusive Juridiska meddelanden och språkval i Inställningar. |
+| Hemsida | Information om Experience Cloud sidfot i hemmet har flyttats till användarprofilkortet, inklusive Juridiska meddelanden och språkval i Inställningar. |
 | AEP-instrumentpaneler | [!DNL Helios Lite] innehåller diagramrekommendationer i arbetsflödet för att skapa Experience Platform-widgetar. Med hjälp av ett dataurval (för närvarande ett urval av variabeldata) rekommenderar [!DNL Helios] en lämplig visualisering som medföljer det markerade datameddelandet. |
 | AEP-instrumentpaneler | [!DNL Instory] innehåller en XML-baserad skriven berättarröst och bildtexter för diagram. Den inordnar diagram på AEP Dashboards-sidan med relevanta punkter som anropar viktiga ändringar och incidenter i grafdata. |
 
@@ -113,7 +118,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | Funktion | Beskrivning |
 | ------- | ------- |
 | Enhetlig sökning | Enhetlig sökning fortsätter att lägga till objekttyper i sökindexet. I den här uppdateringen söker nu global sökning igenom Experience League-innehåll och följande Journey Optimizer-objekttyper: <ul><li>Datauppsättningar</li><li>Mål</li><li>Frågor</li><li>Scheman</li><li>Segment</li><li>Källor</li><li>Erbjudanden</li><li>Komponenter</li><li>Meddelanden</li><li>Resor</li></ul> |
-| Produktanvändningsdata, samtycke | Vid en första inloggning ombeds du ange inställningar för hur Adobe kan ge dig användbart, personaliserat innehåll, t.ex. självstudiekurser, guider, snabbtips, rekommendationer, utbildningsvideor med mera, baserat på dina produktanvändningsdata för Experience Cloud. Den här begäran innehåller även en uppdatering av dina inställningar för insamling och användning av dessa data på <https://experience.adobe.com/preferences>. |
+| Produktanvändningsdata, samtycke | Vid en första inloggning ombeds du ange inställningar för hur Adobe kan ge dig användbart, personaliserat innehåll, t.ex. självstudiekurser, guider, snabbtips, rekommendationer, utbildningsvideor med mera, baserat på dina Experience Cloud produktanvändningsdata. Den här begäran innehåller även en uppdatering av dina inställningar för insamling och användning av dessa data på <https://experience.adobe.com/preferences>. |
 
 {style="table-layout:auto"}
 
@@ -127,14 +132,14 @@ With this update, administrators may see changes or additions to the Admin Conso
 
 ## Juli 2021
 
-Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience League. Tidigare var den här funktionen bara tillgänglig för Experience Platform.
+Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience League. Tidigare var den här funktionen bara tillgänglig för Experience Platform-användare.
 
 ## Juni 2021
 
 | Funktion | Datum | Beskrivning |
 | ------- | ------- | ------- |
-| Stöd för enkel inloggning för Adobe Federated ID | 17 juni 2021 | Om du använder Federated ID:n kan du logga in på Experience Cloud utan att behöva ange en e-postadress eller ett lösenord. Om du vill använda den här funktionen lägger du till `#/sso:@domain` i Experience Cloud-URL:en. <br>Anta till exempel att du äger domänen `adobecustomer.com` och vill logga in på Adobe Analytics. URL:en skulle vara: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Experience League Search | 1 juni 2021 | Dokumentationssökningen i Experience League har förbättrats. Navigera till [Experience League](https://experienceleague.adobe.com/docs/) och använd fältet **[!UICONTROL Search]** för att hitta självstudiekurser, dokumentation, kurser med mera. |
+| Stöd för enkel inloggning för Adobe Federated ID:n | 17 juni 2021 | Om du använder Federated ID:n kan du logga in på Experience Cloud utan att behöva ange en e-postadress eller ett lösenord. Om du vill använda den här funktionen lägger du till `#/sso:@domain` i Experience Cloud URL. <br>Anta till exempel att du äger domänen `adobecustomer.com` och vill logga in på Adobe Analytics. URL:en skulle vara: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
+| Experience League Search | 1 juni 2021 | Experience League dokumentationssökning har förbättrats. Navigera till [Experience League](https://experienceleague.adobe.com/docs/) och använd fältet **[!UICONTROL Search]** för att hitta självstudiekurser, dokumentation, kurser med mera. |
 
 {style="table-layout:auto"}
 
@@ -142,9 +147,9 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 
 | Funktion | Beskrivning |
 | ------- | ------- |
-| Experience Cloud Header &amp; Navigation | Adobe Experience Cloud uppdateringar innehåller en ändring av det ljusa temat för sidhuvudet, med möjlighet att enkelt växla tillbaka till det mörka temat och länka för att styra ytterligare inställningar från användarens avatar i Experience Cloud-huvudet. Även om inte alla program i Experience Cloud stöder teman, låser den här funktionen upp det framtida temastödet. |
-| Global sökning i Experience Cloud | I den här versionen kan du använda global sökning i Experience Cloud för att söka efter dokumentation, kurser och självstudiekurser för [Experience League](https://experienceleague.adobe.com/#home) . (För närvarande är global sökning bara tillgänglig för användare av Experience Platform. Med global sökning efter [!UICONTROL Platform] kan du söka efter alla affärsobjekt i Experience Cloud, t.ex. segment, datauppsättningar, scheman och annat.) |
-| Inställningar för Experience Cloud | Den här uppdateringen innehåller möjligheten att ange dina önskade språk i [Inställningar](https://experience.adobe.com/preferences) för Experience Cloud. |
+| Experience Cloud Header &amp; Navigation | Adobe Experience Cloud-uppdateringarna innehåller en ändring av det ljusa temat för rubriken, med möjlighet att enkelt växla tillbaka till det mörka temat och länka för att styra ytterligare inställningar från användarens avatar i Experience Cloud-huvudet. Även om inte alla program i Experience Cloud har stöd för teman, kommer den här funktionen att frigöra det framtida stödet för teman. |
+| Experience Cloud Global Search | I den här versionen kan du använda Experience Cloud globala sökning till att söka i [Experience League](https://experienceleague.adobe.com/#home) -dokumentation, -kurser och -självstudiekurser. (För närvarande är global sökning bara tillgänglig för Experience Platform-användare. Med global sökning efter [!UICONTROL Platform] kan du söka efter alla affärsobjekt i Experience Cloud, t.ex. segment, datauppsättningar, scheman och annat.) |
+| Språkinställningar för Experience Cloud | Den här uppdateringen innehåller möjligheten att ange dina favoritspråk i [Inställningar](https://experience.adobe.com/preferences) för Experience Cloud. |
 
 {style="table-layout:auto"}
 
@@ -152,7 +157,7 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 
 | Funktion | Beskrivning |
 | -----------| ---------- |
-| Administratörsverktyg - policyer | På den här sidan visas en fullständig lista över policyer för Experience Cloud i din organisation. Det innehåller information om produkter, instanser, användare och utvecklare. Du kan söka efter, sortera och filtrera efter anpassade vyer i principlistan. Mer information finns i hjälpen för [Experience Cloud Admin Tool](../administration/admin-tool-experience-cloud.md). |
+| Administratörsverktyg - policyer | På den här sidan visas en fullständig lista över Experience Cloud-policyer i din organisation. Det innehåller information om produkter, instanser, användare och utvecklare. Du kan söka efter, sortera och filtrera efter anpassade vyer i principlistan. Mer information finns i hjälpen för [Experience Cloud Admin Tool](../administration/admin-tool-experience-cloud.md). |
 
 {style="table-layout:auto"}
 
