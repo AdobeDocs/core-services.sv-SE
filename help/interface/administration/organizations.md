@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: 1e0206286d4ac0f1987ee053bcbfce8649902ccd
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 4%
@@ -17,9 +17,9 @@ ht-degree: 4%
 
 # Organisationer i Experience Cloud
 
-En *organisation* (Org ID) är den entitet som gör att en administratör kan konfigurera grupper och användare samt styra enkel inloggning i Experience Cloud.
+En *organisation* (Org ID) är den entitet som gör det möjligt för en administratör att konfigurera grupper och användare samt att styra enkel inloggning i Experience Cloud.
 
-Organisationen fungerar som ett inloggningsföretag som omfattar alla produkter och program från Experience Cloud. Oftast är en organisation ditt företagsnamn. Ett företag kan dock ha många organisationer.
+Organisationen fungerar som ett inloggningsföretag som omfattar alla Experience Cloud-produkter och program. Oftast är en organisation ditt företagsnamn. Ett företag kan dock ha många organisationer.
 
 ![Experience Cloud-organisationer](../assets/organizations-menu.png)
 
@@ -47,7 +47,7 @@ Du kan visa ditt organisations-ID och annan kontoinformation med hjälp av kortk
 
 1. Under **[!UICONTROL User Information]** söker du efter **[!UICONTROL Current Org ID]** och hittar ditt organisations-ID.
 
-   Administratörer kan också logga in på Admin Console (gå till [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) och visa ditt organisations-ID i URL:en.
+   Administratörer kan också logga in på Admin Console (gå till [https://adminconsole.adobe.com](https://adminconsole.adobe.com)) och visa ditt företags-ID i URL:en.
 
    I följande URL:
 
@@ -59,13 +59,13 @@ Du kan visa ditt organisations-ID och annan kontoinformation med hjälp av kortk
 
 ## Länka ett programkonto till en Adobe ID {#task_FD389E78640848919E247AC5E95B8369}
 
-Administratörer i Experience Cloud ger vanligtvis tillgång till program och tjänster. I sällsynta fall kan du länka programinloggningsuppgifter till en Adobe ID.
+Vanligtvis ger Experience Cloud-administratörer tillgång till program och tjänster. I sällsynta fall kan du länka programinloggningsuppgifter till en Adobe ID.
 
 1. Följ stegen i din e-postinbjudan till Experience Cloud.
 
-1. Logga in med ditt Adobe ID eller Enterprise ID.
+1. Logga in med din Adobe ID eller Enterprise ID.
 
-1. Klicka på **[!UICONTROL Application selector]**. ( ![meny](../assets/menu-icon.png)).
+1. Klicka på **[!UICONTROL Application selector]**. ( ![meny](../assets/apps-icon.png)).
 
    ![Länka ett programkonto till ett Adobe ID](../assets/solutions-active.png)
 
