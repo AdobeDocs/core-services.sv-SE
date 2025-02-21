@@ -5,9 +5,9 @@ breadcrumb-title: Gränssnitt och administratörshandbok för Experience Cloud
 title: Experience Cloud Interface and Administration Guide
 description: Läs mer om Experience Cloud gränssnitt, cookies och kontoinställningar. Hantera produkter och konfigurera persontjänsten, inklusive kundattribut och målgruppsbibliotek. Dela Experience Cloud Assets.
 index: true
-source-git-commit: eddbda54bc3f1cbbc98d7a993d0b477e05c5b01c
+source-git-commit: 6ec16a14407f5b41178cf5e4fdc6ee6e57bf3f80
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '233'
 ht-degree: 18%
 
 ---
@@ -53,6 +53,7 @@ ht-degree: 18%
    + [Stöd för webbläsare och språk](browser-language.md)
 
 + Administration {#administration}
+   + [Användar- och produktadministration](administration/admin-console.md)
    + [Visa användarinformation (Admin Tool)](administration/admin-tool-experience-cloud.md)
    + [Organisationer och kontolänkning](administration/organizations.md)
    + [Experience Cloud-integreringar](administration/integrations.md)

@@ -7,16 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: 855853be8397350bb93f3c9cf02bb73f5e75326f
+source-git-commit: e0b8281058b44012bdd7befa6ce26355a35bcf11
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '605'
 ht-degree: 4%
 
 ---
 
 # Dokumentationsuppdateringar för Experience Cloud
 
-Lär dig var det finns dokumentationsuppdateringar för det centrala gränssnittet och administrationen av Experience Cloud.
+Lär dig var det finns dokumentationsuppdateringar för Experience Cloud centrala gränssnitt och administration.
+
+**Februari 2025**
+
+[Hantera användare och produkter i Experience Cloud](../administration/admin-console.md) har lagts till. På den här sidan kan administratörer hitta hjälp för användar- och produkthantering (Admin Console) för alla program.
 
 **November 2024**
 
@@ -24,7 +28,7 @@ Uppdateringar av [Produktanvändningsdata](../features/account-preferences.md) o
 
 **September 2024**
 
-Hjälp om att [prenumerera på Slack-meddelanden](../features/account-preferences.md#subscribe-to-slack-notifications) har lagts till.
+Hjälpen om att [prenumerera på Slack-meddelanden](../features/account-preferences.md#subscribe-to-slack-notifications) har lagts till.
 
 [användarinställningarna](../features/account-preferences.md) har uppdaterats.
 
@@ -52,7 +56,7 @@ Uppdaterar hur du kan hitta ditt [organisations-ID](../administration/organizati
 
 | Funktion | Beskrivning |
 | ------- | ------- |
-| Hemsida | Information om sidfoten i Experience Cloud har flyttats till användarprofilkortet, inklusive Juridiska meddelanden och språkval i Inställningar. |
+| Hemsida | Information om Experience Cloud sidfot i hemmet har flyttats till användarprofilkortet, inklusive Juridiska meddelanden och språkval i Inställningar. |
 | AEP-instrumentpaneler | [!DNL Helios Lite] innehåller diagramrekommendationer i arbetsflödet för att skapa Experience Platform-widgetar. Om man utgår från ett dataurval (för närvarande ett val av variabeldata) rekommenderar vi en lämplig visualisering som medföljer detta dataurval. |
 | AEP-instrumentpaneler | [!DNL Instory] innehåller en XML-baserad skriven berättarröst och bildtexter för diagram. Den inordnar diagram på AEP Dashboards-sidan med relevanta punkter som anropar viktiga ändringar och incidenter i grafdata. |
 
@@ -61,7 +65,7 @@ Uppdaterar hur du kan hitta ditt [organisations-ID](../administration/organizati
 | Funktion | Beskrivning |
 | ------- | ------- |
 | Enhetlig sökning | Enhetlig sökning fortsätter att lägga till objekttyper i sökindexet. I den här uppdateringen söker nu global sökning igenom Experience League-innehåll och följande Journey Optimizer-objekttyper: <ul><li>Datauppsättningar</li><li>Mål</li><li>Frågor</li><li>Scheman</li><li>Segment</li><li>Källor</li><li>Erbjudanden</li><li>Komponenter</li><li>Meddelanden</li><li>Resor</li></ul> |
-| Produktanvändningsdata, samtycke | Vid en första inloggning ombeds du ange inställningar för hur Adobe kan ge dig användbart, personaliserat innehåll, t.ex. självstudiekurser, guider, snabbtips, rekommendationer, utbildningsvideor med mera, baserat på dina produktanvändningsdata för Experience Cloud. Den här begäran innehåller även en uppdatering av dina inställningar för insamling och användning av dessa data på <https://experience.adobe.com/preferences>. |
+| Produktanvändningsdata, samtycke | Vid en första inloggning ombeds du ange inställningar för hur Adobe kan ge dig användbart, personaliserat innehåll, t.ex. självstudiekurser, guider, snabbtips, rekommendationer, utbildningsvideor med mera, baserat på dina Experience Cloud produktanvändningsdata. Den här begäran innehåller även en uppdatering av dina inställningar för insamling och användning av dessa data på <https://experience.adobe.com/preferences>. |
 
 **24 augusti 2021**
 
@@ -77,11 +81,11 @@ Strukturen på den omstrukturerade guiden, innehållsförteckningen.
 
 **1 juni 2021**
 
-[Startsidan](../experience-cloud.md) har uppdaterats med ny hjälp om att få åtkomst till Experience Cloud, global sökning, inställningar och meddelanden.
+[Startsidan](../experience-cloud.md) har uppdaterats med ny hjälp om åtkomst till Experience Cloud, global sökning, inställningar och meddelanden.
 
 **19 augusti 2020**
 
-[Visa användarinformation för Experience Cloud (Admin Tool)](../administration/admin-tool-experience-cloud.md) har uppdaterats med principinformation.
+[Visa Experience Cloud-användarinformation (Admin Tool)](../administration/admin-tool-experience-cloud.md) har uppdaterats med principinformation.
 
 **19 maj 2020**
 
@@ -128,7 +132,7 @@ Definitionen av Raw Analytics-data i [Skapa en målgrupp](../services/audiences/
 
 **9 maj 2016**
 
-[Experience Cloud-integreringar](../administration/integrations.md) har lagts till, en sammanfattning av integreringsdokumentationen.
+[Experience Cloud Integrations](../administration/integrations.md) har lagts till, en genomgång av integreringsdokumentationen.
 
 **11 februari 2016**
 
@@ -136,11 +140,11 @@ Definitionen av Raw Analytics-data i [Skapa en målgrupp](../services/audiences/
 
 **15 januari 2015**
 
-Med tillagda Experience Cloud-användare kan du nu dela mappar på Creative Cloud och synkronisera resurser och kommentarer mellan de två molnen. Se [Resursdelning](../services/assets/creative-cloud.md).
+Experience Cloud-användare som lagts till kan nu dela mappar till Creative Cloud och synkronisera resurser och kommentarer mellan de två molnen. Se [Resursdelning](../services/assets/creative-cloud.md).
 
 **17 juli 2014**
 
-[Vanliga frågor om Experience Cloud ](faq.md) har lagts till för administratörer.
+[Experience Cloud - frågor och svar](faq.md) har lagts till för administratörer.
 
 **22 maj 2014**
 
