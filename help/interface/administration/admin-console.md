@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: e2e6c0daf8f765fe76f9c7bd44042d91dce142f2
+source-git-commit: 9932f21e4aa4d4a5bf08d7f1617b4c25d4fb14bb
 workflow-type: tm+mt
-source-wordcount: '605'
+source-wordcount: '786'
 ht-degree: 2%
 
 ---
@@ -22,6 +22,43 @@ Den här sidan innehåller information för Experience Cloud-administratörer, m
 Allmän hjälp om identitetshantering för alla Adobe-program finns i [Administratörshandboken för Enterprise och teams](https://helpx.adobe.com/se/enterprise/admin-guide.html).
 
 I följande avsnitt finns länkar till resurser i hjälpen för Admin Console.
+
+## Administrativa roller i Admin Console
+
+Admin Console har tre primära administrativa roller med specifika nivåer av åtkomst och ansvar:
+
+**Systemadministratör:** Fullständig åtkomst - Hanterar alla aspekter av konsolen.
+
+Viktiga ansvarsområden:
+
+* Lägg till, ta bort och hantera användare.
+* Tilldela och återkalla produktlicenser.
+* Konfigurera inställningar för identitet och autentisering.
+* Visa och hantera faktureringsinformation.
+* Ställ in ytterligare administratörer och delegatroller.
+
+  **Passar bäst för:** IT-administratörer eller team som leder övervakningen av hela organisationens Adobe-miljö.
+
+**Produktadministratör:** Produktspecifik hantering - Styr åtkomst och behörigheter för specifika Adobe-produkter.
+
+Viktiga ansvarsområden:
+
+* Tilldela och hantera licenser för en viss produkt.
+* Skapa och hantera produktprofiler.
+* Lägg till eller ta bort användare i tilldelade produkter.
+
+  **Passar bäst för:** Team/användare som hanterar viss programvara som Marketo Engage eller Adobe Creative Cloud.
+
+**Administratör för produktprofil:** Detaljerad rollhantering - Fokuserar på hantering av användargrupper och behörigheter i en produkt.
+
+* Viktiga ansvarsområden:
+* Skapa och hantera produktprofiler.
+* Tilldela behörigheter och funktionsåtkomst i profiler.
+* Lägg till eller ta bort användare i profiler.
+
+  **Passar bäst för:** Avdelningsledare eller gruppchefer som övervakar mindre grupper med särskilda behov
+
+  Administratörer kan kombinera roller för större flexibilitet beroende på organisationens krav.
 
 ## Admin Console
 
