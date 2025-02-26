@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 6eb58530-2a7a-48c7-9a5b-48a6e980a034
-source-git-commit: 1e0206286d4ac0f1987ee053bcbfce8649902ccd
+source-git-commit: f83ddfe82a55c6b88cf35a14b030d9b82c17f16d
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 4%
+source-wordcount: '572'
+ht-degree: 3%
 
 ---
 
@@ -24,6 +24,10 @@ Organisationen fungerar som ett inloggningsföretag som omfattar alla Experience
 ![Experience Cloud-organisationer](../assets/organizations-menu.png)
 
 Om du vill verifiera att du har loggat in i rätt organisation klickar du på **[!UICONTROL Profile]** för att visa standardorganisationsnamnet. Om du har tillgång till mer än en organisation kan du även visa och växla till en annan organisation i sidhuvudsfältet.
+
+>[!NOTE]
+>
+>Genom att växla mellan olika organisationer får du tillgång till Admin Console för just den organisationen. Om du inte ser önskad organisation kan du behöva begära åtkomst från en administratör i den organisationen. (Om du behöver sammanfoga flera Admin Consoles kontaktar du Adobe kundsupport för hjälp.)
 
 ## Federated ID
 
