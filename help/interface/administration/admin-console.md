@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: d39d8a26a6870edd4d1674da12f24ab5ac5d05bc
+source-git-commit: 91f06f12c9c9ec8df19f513f2a09de0b871137cb
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '716'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Allmän hjälp om identitetshantering för alla Adobe-program finns i [Administr
 
 Admin Console har tre primära administrativa roller med specifika nivåer av åtkomst och ansvar:
 
-| Hjälplänk | Beskrivning |
+| Roll | Beskrivning |
 | ------- | ------- |
 | Systemadministratör | Fullständig åtkomst - Hanterar alla delar av konsolen. <br>Viktiga ansvarsområden: <br><ul><li>Lägg till, ta bort och hantera användare.</li><li>Tilldela och återkalla produktlicenser.</li><li>Konfigurera inställningar för identitet och autentisering</li><li>Visa och hantera faktureringsinformation.</li><li>Ställ in ytterligare administratörer och delegatroller.</li></ul> **Passar bäst för:** IT-administratörer eller team som leder övervakningen av hela organisationens Adobe-miljö. |
 | Produktadministratör | Produktspecifik hantering - Styr åtkomst och behörigheter för specifika Adobe-produkter.<br>Viktiga ansvarsområden:<ul><li>Tilldela och hantera licenser för en viss produkt.</li><li>Skapa och hantera produktprofiler.</li><li>Lägg till eller ta bort användare i tilldelade produkter.</li></ul>   **Passar bäst för:** Team/användare som hanterar viss programvara som Marketo Engage eller Adobe Creative Cloud. |
@@ -37,7 +37,7 @@ Om du vill hantera identitet och produktlicenser för Experience Cloud-program g
 
 Här är resurser som du kan behöva för att komma igång som administratör i Admin Console:
 
-### Konfigurera uppgifter
+### Konfigurera resurser
 
 | Hjälplänk | Beskrivning |
 | ------- | ------- |
