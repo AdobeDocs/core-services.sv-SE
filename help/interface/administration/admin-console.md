@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: 9932f21e4aa4d4a5bf08d7f1617b4c25d4fb14bb
+source-git-commit: d39d8a26a6870edd4d1674da12f24ab5ac5d05bc
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '717'
 ht-degree: 2%
 
 ---
@@ -21,78 +21,46 @@ Den här sidan innehåller information för Experience Cloud-administratörer, m
 
 Allmän hjälp om identitetshantering för alla Adobe-program finns i [Administratörshandboken för Enterprise och teams](https://helpx.adobe.com/se/enterprise/admin-guide.html).
 
-I följande avsnitt finns länkar till resurser i hjälpen för Admin Console.
-
 ## Administrativa roller i Admin Console
 
 Admin Console har tre primära administrativa roller med specifika nivåer av åtkomst och ansvar:
 
-**Systemadministratör:** Fullständig åtkomst - Hanterar alla aspekter av konsolen.
+| Hjälplänk | Beskrivning |
+| ------- | ------- |
+| Systemadministratör | Fullständig åtkomst - Hanterar alla delar av konsolen. <br>Viktiga ansvarsområden: <br><ul><li>Lägg till, ta bort och hantera användare.</li><li>Tilldela och återkalla produktlicenser.</li><li>Konfigurera inställningar för identitet och autentisering</li><li>Visa och hantera faktureringsinformation.</li><li>Ställ in ytterligare administratörer och delegatroller.</li></ul> **Passar bäst för:** IT-administratörer eller team som leder övervakningen av hela organisationens Adobe-miljö. |
+| Produktadministratör | Produktspecifik hantering - Styr åtkomst och behörigheter för specifika Adobe-produkter.<br>Viktiga ansvarsområden:<ul><li>Tilldela och hantera licenser för en viss produkt.</li><li>Skapa och hantera produktprofiler.</li><li>Lägg till eller ta bort användare i tilldelade produkter.</li></ul>   **Passar bäst för:** Team/användare som hanterar viss programvara som Marketo Engage eller Adobe Creative Cloud. |
+| Produktprofiladministratör | Detaljerad rollhantering - Fokuserar på hantering av användargrupper och behörigheter i en produkt.<br>Viktiga ansvarsområden:<ul><li>Skapa och hantera produktprofiler.</li><li>Tilldela behörigheter och funktionsåtkomst i profiler.</li><li>Lägg till eller ta bort användare i profiler.</li></ul> **Passar bäst för:** Avdelningsledare eller gruppchefer som övervakar mindre grupper med specialiserade behov. <br> Administratörer kan kombinera roller för större flexibilitet, beroende på organisatoriska krav. |
 
-Viktiga ansvarsområden:
-
-* Lägg till, ta bort och hantera användare.
-* Tilldela och återkalla produktlicenser.
-* Konfigurera inställningar för identitet och autentisering.
-* Visa och hantera faktureringsinformation.
-* Ställ in ytterligare administratörer och delegatroller.
-
-  **Passar bäst för:** IT-administratörer eller team som leder övervakningen av hela organisationens Adobe-miljö.
-
-**Produktadministratör:** Produktspecifik hantering - Styr åtkomst och behörigheter för specifika Adobe-produkter.
-
-Viktiga ansvarsområden:
-
-* Tilldela och hantera licenser för en viss produkt.
-* Skapa och hantera produktprofiler.
-* Lägg till eller ta bort användare i tilldelade produkter.
-
-  **Passar bäst för:** Team/användare som hanterar viss programvara som Marketo Engage eller Adobe Creative Cloud.
-
-**Administratör för produktprofil:** Detaljerad rollhantering - Fokuserar på hantering av användargrupper och behörigheter i en produkt.
-
-* Viktiga ansvarsområden:
-* Skapa och hantera produktprofiler.
-* Tilldela behörigheter och funktionsåtkomst i profiler.
-* Lägg till eller ta bort användare i profiler.
-
-  **Passar bäst för:** Avdelningsledare eller gruppchefer som övervakar mindre grupper med särskilda behov
-
-  Administratörer kan kombinera roller för större flexibilitet beroende på organisationens krav.
-
-## Admin Console
+## Admin Console för Experience Cloud
 
 Om du vill hantera identitet och produktlicenser för Experience Cloud-program går du till [Admin Console](https://adminconsole.adobe.com/enterprise/).
 
-* [Konfigurera identitet och enkel inloggning](https://helpx.adobe.com/enterprise/using/set-up-identity.html) - Lär dig hur du konfigurerar dina användarkonton med olika ID-typer med eller utan enkel inloggning (SSO). Konfigurera enkel inloggning för Adobe, konfigurera SAML-inställningar och gå igenom de vanligaste frågorna och felen.
+Här är resurser som du kan behöva för att komma igång som administratör i Admin Console:
 
-* [Konfigurera organisation via katalogförtroende](https://helpx.adobe.com/enterprise/using/directory-trust.html) - Använd katalogförtroende för att autentisera dina användare mot en domän som redan tagits i anspråk av en annan organisation.
+### Konfigurera uppgifter
 
-  Mer information om organisationer finns i [Organisationer i Experience Cloud](organizations.md).
+| Hjälplänk | Beskrivning |
+| ------- | ------- |
+| [Konfigurera identitet och enkel inloggning](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | **[!UICONTROL  Admin Console]** > **[!UICONTROL Settings]** <br>Lär dig hur du konfigurerar dina användarkonton med olika ID-typer med eller utan enkel inloggning (SSO). Konfigurera enkel inloggning för Adobe, konfigurera SAML-inställningar och gå igenom de vanligaste frågorna och felen. |
+| [Konfigurera organisation via katalogförtroende](https://helpx.adobe.com/enterprise/using/directory-trust.html) | Autentisera dina användare mot en domän som redan tagits i anspråk av en annan organisation. Mer information om hur du söker efter och byter organisation finns i [Organisationer i Experience Cloud](organizations.md). |
+| [Autentiseringsinställningar (Enterprise)](https://helpx.adobe.com/enterprise/using/authentication-settings.html) | Admin Console stöder flera skyddsnivåer och principer för lösenord för att säkerställa säkerheten. Du kan ange att en lösenordsskyddsnivå ska användas för alla användare i organisationen. |
+| [Kontakter för sekretess och säkerhet](https://helpx.adobe.com/enterprise/using/security-contacts.html) | Skydda organisationens och användarnas data. Om en säkerhetsincident inträffar med våra programvarulösningar, skickas meddelanden till lämplig personal. Företag har personal vars roll är specifik för dataskydd, integritet och andra regelefterlevnadsfrågor. Kontaktinformation för sådan personal är därför mycket viktig för att säkerställa snabb information i händelse av säkerhetstillbud. |
 
-* [Autentiseringsinställningar (enterprise)](https://helpx.adobe.com/enterprise/using/authentication-settings.html) - Admin Console stöder flera lösenordsskyddsnivåer och principer för att säkerställa säkerhet och säkerhet. Du kan ange att en lösenordsskyddsnivå ska användas för alla användare i organisationen. Adobe kundtjänst - tre säkerhetsnivåer.
+### Användarhantering
 
-* [Sekretess- och säkerhetskontakter](https://helpx.adobe.com/enterprise/using/security-contacts.html) - Adobe betonar att skydda din organisations och dina användares data. Vid säkerhetstillbud som inbegriper våra programvarulösningar skickas meddelanden till de ansvariga för regelefterlevnad.
+| Hjälplänk | Beskrivning |
+| ------- | ------- |
+| [Hantera flera användare](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Users]** <br>Lär dig hantera flera användare via CSV-massöverföring till Admin Console. |
+| [Identitetstyper](https://helpx.adobe.com/enterprise/using/identity.html) | Med identitetstyper kan organisationen ha olika nivåer av kontroll över användarnas konton och data. Ditt val av identitetsmodell påverkar hur organisationen lagrar och delar resurser. Federated ID- och Enterprise ID-modeller skapas och hanteras av organisationen, men Adobe ID:n skapas och hanteras av individen. |
+| [Verktyget för användarsynkronisering](https://helpx.adobe.com/enterprise/using/user-sync.html) (UST) | Adobe användarsynkroniseringsverktyg är ett datorprogram som används för att automatisera synkroniseringen av användardata mellan en organisations identitetshanteringssystem (som Active Directory) och Adobe Admin Console. Med det här verktyget kan administratörer effektivisera användarnas etablering, uppdateringar och inaktivering av Adobe-produkter. |
+| [Visa användarinformation (Admin Tool)](admin-tool-experience-cloud.md) | Visa en sorterbar och filtrerbar lista över alla Experience Cloud-användare och principer med information i [!UICONTROL Admin Tool]. |
 
-  Företag har sin egen personal vars roll är specifik för dataskydd, integritet och andra regelefterlevnadsfrågor. Kontaktinformation för sådan personal är därför mycket viktig för att säkerställa snabb information i händelse av säkerhetstillbud.
+### Rapporter och loggar
 
-## Användarhantering
+| Hjälplänk | Beskrivning |
+| ------- |------- |
+| [Granskningslogg](https://helpx.adobe.com/enterprise/using/audit-logs.html) | **[!UICONTROL Insights]** > **[!UICONTROL Logs]** > **[!UICONTROL Audit Log]** <br> Spåra alla ändringar som gjorts i Admin Console. |
 
-* [Hantera flera användare](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) Massöverföring av CSV - Lär dig hur du hanterar flera användare via CSV-massöverföring på Adobe Admin Console.
-
-* [Identitetstyper](https://helpx.adobe.com/enterprise/using/identity.html) - Identitetstyper tillåter organisationen olika nivåer av kontroll över användarnas konton och data. Ditt val av identitetsmodell påverkar hur organisationen lagrar och delar resurser. Federated ID- och Enterprise ID-modeller skapas och hanteras av organisationen, men Adobe ID:n skapas och hanteras av individen.
-
-* [Användarsynkroniseringsverktyg](https://helpx.adobe.com/enterprise/using/user-sync.html) (UST) - Adobe användarsynkroniseringsverktyg är ett skrivbordsprogram som används för att automatisera synkroniseringen av användardata mellan en organisations identitetshanteringssystem (som Active Directory) och Adobe Adobe Admin Console. Med det här verktyget kan administratörer effektivisera användarnas etablering, uppdateringar och inaktivering av Adobe-produkter.
-
-  Med verktyget för användarsynkronisering kan organisationer förenkla hanteringen av användarkonton och licenser genom att automatiskt synkronisera användardata (t.ex. roller, grupper och åtkomstbehörigheter) mellan katalogtjänsten och Adobe-systemen. Det här verktyget är särskilt användbart för företag med stora team. Det bidrar till att upprätthålla enhetlighet och säkerhet samtidigt som det säkerställs att användarna bara har tillgång till de produkter och tjänster som de har rätt till.
-
-* [Visa användarinformation (Admin Tool)](admin-tool-experience-cloud.md) - Administratörer kan visa en sorterbar och filterbar lista över alla Experience Cloud-användare och -profiler med information i [!UICONTROL Admin Tool].
-
-## Rapporter och loggar
-
-* [Granskningslogg](https://helpx.adobe.com/enterprise/using/audit-logs.html) Om du vill spåra alla ändringar som gjorts i Admin Console.
-
-Om du vill ha hjälp som inte beskrivs ovan kan du bläddra i [Administratörshandboken för Enterprise och teams](https://helpx.adobe.com/se/enterprise/admin-guide.html).
 
 ## Programspecifika resurser
 
@@ -140,3 +108,5 @@ Länkarna hjälper dig att hitta administrationsinformation för specifika Exper
 * [Adobe Pass](https://experienceleague.adobe.com/en/docs/pass/aiq-help/get-started)
 * [Mål](https://experienceleague.adobe.com/en/docs/target/using/administer/start-target)
 * [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console)
+
+Huvuddelen av Admin Console-hjälpen för alla Adobe-program beskrivs i [Administratörshandboken för Enterprise och team](https://helpx.adobe.com/se/enterprise/admin-guide.html).
