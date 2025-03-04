@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: 4b9318849f76941cb59ab5e9ca08045705c8ec46
+source-git-commit: 77841faeb5b005e4913408edb3e9cfbbdfc8961d
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 2%
@@ -40,7 +40,7 @@ Här är resurser som du kan behöva för att komma igång som administratör i 
 ### Konfigurera resurser
 
 | Hjälplänk | Beskrivning |
-| ------- | ------- |
+| ------- | ------ |
 | [Konfigurera identitet och enkel inloggning](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | **[!UICONTROL  Admin Console]** > **[!UICONTROL Settings]** <br> Lär dig hur du konfigurerar dina användarkonton med olika ID-typer med eller utan enkel inloggning (SSO). Konfigurera enkel inloggning för Adobe, konfigurera SAML-inställningar och gå igenom de vanligaste frågorna och felen. |
 | [Konfigurera organisation via katalogförtroende](https://helpx.adobe.com/enterprise/using/directory-trust.html) | Autentisera dina användare mot en domän som redan tagits i anspråk av en annan organisation. Mer information om hur du söker efter och byter organisation finns i [Organisationer i Experience Cloud](organizations.md). |
 | [Autentiseringsinställningar (Enterprise)](https://helpx.adobe.com/enterprise/using/authentication-settings.html) | Admin Console stöder flera skyddsnivåer och principer för lösenord för att säkerställa säkerheten. Du kan ange att en lösenordsskyddsnivå ska användas för alla användare i organisationen. |
