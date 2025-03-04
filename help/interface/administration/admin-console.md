@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: 77841faeb5b005e4913408edb3e9cfbbdfc8961d
+source-git-commit: daebfdac5f3e97cf97353d34ca7be90f29a1e1ef
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 2%
@@ -41,7 +41,7 @@ Här är resurser som du kan behöva för att komma igång som administratör i 
 
 | Hjälplänk | Beskrivning |
 | ------- | ------ |
-| [Konfigurera identitet och enkel inloggning](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | **[!UICONTROL  Admin Console]** > **[!UICONTROL Settings]** <br> Lär dig hur du konfigurerar dina användarkonton med olika ID-typer med eller utan enkel inloggning (SSO). Konfigurera enkel inloggning för Adobe, konfigurera SAML-inställningar och gå igenom de vanligaste frågorna och felen. |
+| [Konfigurera identitet och enkel inloggning](https://helpx.adobe.com/enterprise/using/set-up-identity.html) | **[!UICONTROL Admin Console]** > **[!UICONTROL Settings]** <br> Lär dig hur du konfigurerar dina användarkonton med olika ID-typer med eller utan enkel inloggning (SSO). Konfigurera enkel inloggning för Adobe, konfigurera SAML-inställningar och gå igenom de vanligaste frågorna och felen. |
 | [Konfigurera organisation via katalogförtroende](https://helpx.adobe.com/enterprise/using/directory-trust.html) | Autentisera dina användare mot en domän som redan tagits i anspråk av en annan organisation. Mer information om hur du söker efter och byter organisation finns i [Organisationer i Experience Cloud](organizations.md). |
 | [Autentiseringsinställningar (Enterprise)](https://helpx.adobe.com/enterprise/using/authentication-settings.html) | Admin Console stöder flera skyddsnivåer och principer för lösenord för att säkerställa säkerheten. Du kan ange att en lösenordsskyddsnivå ska användas för alla användare i organisationen. |
 | [Kontakter för sekretess och säkerhet](https://helpx.adobe.com/enterprise/using/security-contacts.html) | Skydda organisationens och användarnas data. Om en säkerhetsincident inträffar med våra programvarulösningar, skickas meddelanden till lämplig personal. Företag har personal vars roll är specifik för dataskydd, integritet och andra regelefterlevnadsfrågor. Kontaktinformation för sådan personal är därför mycket viktig för att säkerställa snabb information i händelse av säkerhetstillbud. |
