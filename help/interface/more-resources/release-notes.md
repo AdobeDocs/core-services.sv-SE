@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: b44a57082f65be8f9957d48ee50adcc1b6f72ce5
+source-git-commit: f563e49a1650dd82a219b3fbaf931afb9373a1f4
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1217'
 ht-degree: 9%
 
 ---
@@ -24,11 +24,17 @@ En lista över dokumentationsuppdateringar finns i [Dokumentationsuppdateringar]
 
 Versionsinformation om alla program finns i [Versionsinformation för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv).
 
+## Mars 2025
+
+| Datum | Uppdatering | Beskrivning |
+| -----------| -----------| ---------- |
+| 6 mars 2025 | Högerklicka på menyalternativ | Korrigering av Experience Cloud-programbildrutor för rubriknavigeringsflikar som tillåter snabbklicksfunktioner i rullgardinsmenyn. Detta åtgärdar ett fel som introducerades i februari 2-versionen av designsystemet Spectrum 2. |
+
 ## Februari 2025
 
 | Datum | Funktion | Beskrivning |
 | -----------| -----------| ---------- |
-| 13 februari (planerat utgivningsdatum) | Spektrum 2 | Experience Cloud-programramen, som innehåller rubrikfältet och de komponenter som öppnas från rubrikfältet, samt den vänstra navigeringslisten för vissa program, kommer att uppdateras till Spectrum 2, Adobe senaste designsystem. Den här uppdaterade designen innehåller uppdaterad ikonografi, men samma funktionalitet. Flera element i sidhuvudet placeras dock om för att justeras mot andra Adobe-webbplatser och -program. |
+| Februari 13 | Spektrum 2 | Experience Cloud-programramen, som innehåller rubrikfältet och de komponenter som öppnas från rubrikfältet, samt den vänstra navigeringslisten för vissa program, kommer att uppdateras till Spectrum 2, Adobe senaste designsystem. Den här uppdaterade designen innehåller uppdaterad ikonografi, men samma funktionalitet. Flera element i sidhuvudet placeras dock om för att justeras mot andra Adobe-webbplatser och -program. |
 
 ## Januari 2025
 
