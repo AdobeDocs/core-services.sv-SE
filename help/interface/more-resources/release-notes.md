@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: f563e49a1650dd82a219b3fbaf931afb9373a1f4
+source-git-commit: c9226cb71fdda9a04c4b8d3d25f348746af62865
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1214'
 ht-degree: 9%
 
 ---
@@ -28,7 +28,7 @@ Versionsinformation om alla program finns i [Versionsinformation för Experience
 
 | Datum | Uppdatering | Beskrivning |
 | -----------| -----------| ---------- |
-| 6 mars 2025 | Högerklicka på menyalternativ | Korrigering av Experience Cloud-programbildrutor för rubriknavigeringsflikar som tillåter snabbklicksfunktioner i rullgardinsmenyn. Detta åtgärdar ett fel som introducerades i februari 2-versionen av designsystemet Spectrum 2. |
+| 6 mars 2025 | Korrigera menyalternativ genom att högerklicka | Experience Cloud rubriknavigeringsflikar tillåter nu funktioner för högerklickning och rullgardinsmeny. Detta åtgärdar ett fel som introducerades i februari 2-versionen av designsystemet Spectrum 2. |
 
 ## Februari 2025
 
