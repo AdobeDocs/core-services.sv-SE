@@ -1,30 +1,30 @@
 ---
-description: Lär dig mer om centrala gränssnittskomponenter för Experience Cloud. Få hjälp med användar- och produktadministration i Admin Console, aktivera program för Experience Cloud-tjänster. Få hjälp med Audience Library, Customer Attributes, Experience Cloud Assets med flera.
-title: Gränssnittsdokumentation för Experience Cloud
+description: Lär dig mer om centrala gränssnittskomponenter för Experience Cloud. Få hjälp med användar- och produktadministration i Admin Console, aktivera program för Experience Cloud tjänster. Få hjälp om Audience Library, Customer Attributes, Experience Cloud Assets med flera.
+title: Experience Cloud Interface and Administration Guide
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: e88d23143e29040a8baf49108be35f8f766aed5e
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
 
-# Översikt över det centrala gränssnittet i Experience Cloud
+# Experience Cloud gränssnitt och administrationsdokumentation
 
-[Experience Cloud](https://experience.adobe.com) är en integrerad familj av program, produkter och tjänster för digital marknadsföring i Adobe. Från det intuitiva gränssnittet får du snabbt tillgång till dina molnprogram, produktfunktioner och tjänster.
+[Experience Cloud](https://experience.adobe.com) är en integrerad Adobe-familj med program, produkter och tjänster för digital marknadsföring. Från det intuitiva gränssnittet får du snabbt tillgång till dina molnprogram, produktfunktioner och tjänster.
 
 ![Experience Cloud](assets/landing.png)
 
-Från Experience Cloud kan du:
+Från Experience Cloud sidhuvud kan du:
 
-* Få tillgång till alla Experience Cloud-program och -tjänster
+* Få tillgång till alla program och tjänster i Experience Cloud
 * På Hjälp-menyn söker du efter produktdokumentation, självstudiekurser och communityinlägg. Visa resultat i Experience League.
-* Sök efter affärsobjekt globalt med hjälp av en global sökning (endast Experience Platform) i sökfältet.
+* Sök efter affärsobjekt globalt med en global sökning (endast Experience Platform-användare) i sökfältet.
 * Hantera ditt konto [inställningar](features/account-preferences.md) (aviseringar, aviseringar och prenumerationer)
 
 ## Logga in på Experience Cloud {#signin}
@@ -47,24 +47,24 @@ Logga in och verifiera att du är i rätt [organisation](administration/organiza
 
    För en organisation med Federated ID och domänen `adobecustomer.com` anger du URL-länken till `https://experience.adobe.com/#/sso:@adobecustomer.com`. Du kan också gå direkt till ett specifikt program genom att skapa ett bokmärke för den här URL:en, som bifogas med programsökvägen. (För Adobe Analytics, till exempel, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
-## Access Experience Cloud-program {#navigation}
+## Öppna Experience Cloud-program {#navigation}
 
 När du har loggat in på Experience Cloud kan du snabbt komma åt alla program, tjänster och organisationer från det enhetliga huvudet.
 
-Gå till programväljaren ![menu](assets/apps-icon.png) om du vill komma åt Experience Cloud-program och -tjänster som har etablerats för dig i din organisation.
+Gå till programväljaren ![menu](assets/apps-icon.png) om du vill få åtkomst till Experience Cloud-program och -tjänster som har etablerats för dig inom din organisation.
 
 ![Öppna Experience Cloud-program](assets/platform-core-services.png)
 
 ## Få hjälp och support {#support}
 
-Få tillgång till inlärning och hjälp med **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) i sidhuvudet, inklusive hjälpinnehåll (dokumentation, självstudiekurser och kurser) på [Experience League](https://experienceleague.adobe.com/#home), samt ytterligare resurser för enskilda program. Du kan även skicka in öppen feedback och skapa prioriterade supportärenden.
+Lär dig mer och hjälp med **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) i sidhuvudet, inklusive hjälpinnehåll (dokumentation, självstudiekurser och kurser) på [Experience League](https://experienceleague.adobe.com/#home), samt ytterligare resurser för enskilda program. Du kan även skicka in öppen feedback och skapa prioriterade supportärenden.
 
 ![Få hjälp och support](assets/search-menu.png)
 
 Menyn [!UICONTROL Help] ger dig även åtkomst till:
 
-* **[!UICONTROL Support]:** Skapa en supportanmälan eller kontakta [!UICONTROL Support] med hjälp av Twitter.
-* **[!UICONTROL Feedback]:** Dela feedback om din Experience Cloud-upplevelse. Dina synpunkter används för att förbättra Adobe produkter och tjänster.
+* **[!UICONTROL Support]:** Skapa en supportanmälan eller kontakta [!UICONTROL Support] med Twitter.
+* **[!UICONTROL Feedback]:** Dela feedback om Experience Cloud. Dina synpunkter används för att förbättra Adobe produkter och tjänster.
 * **[!UICONTROL Status]:** Navigera till `https://status.adobe.com/experience_cloud` och kontrollera produktdriftsstatus och [!UICONTROL Manage Subscriptions].
 * **[!UICONTROL Developer Connection]:** Navigering till `adobe.io` och hitta dokumentation för utvecklare.
 
@@ -73,7 +73,7 @@ Menyn [!UICONTROL Help] ger dig även åtkomst till:
 På menyn [!UICONTROL Profile] kan du:
 
 * Ange ett mörkt tema (alla program stöder inte det här temat)
-* Hantera [inställningar för Experience Cloud](features/account-preferences.md)
+* [Hantera Experience Cloud-inställningar](features/account-preferences.md)
 * Välj eller sök efter en [organisation](administration/organizations.md)
 * Visa [!UICONTROL Legal Notices]
 * Logga ut
