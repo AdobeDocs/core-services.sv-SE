@@ -1,20 +1,20 @@
 ---
 description: Lär dig mer om centrala gränssnittskomponenter för Experience Cloud. Få hjälp med användar- och produktadministration i Admin Console, aktivera program för Experience Cloud tjänster. Få hjälp om Audience Library, Customer Attributes, Experience Cloud Assets med flera.
-title: Experience Cloud Interface and Administration Guide
+title: Experience Cloud Interface and Administration
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: e88d23143e29040a8baf49108be35f8f766aed5e
+source-git-commit: dd4f3b5df4bb7f3775977049e8d9a67e21052f10
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
 
-# Experience Cloud gränssnitt och administrationsdokumentation
+# Experience Cloud gränssnitt och administration
 
 [Experience Cloud](https://experience.adobe.com) är en integrerad Adobe-familj med program, produkter och tjänster för digital marknadsföring. Från det intuitiva gränssnittet får du snabbt tillgång till dina molnprogram, produktfunktioner och tjänster.
 
