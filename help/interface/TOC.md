@@ -1,21 +1,21 @@
 ---
 role: User,Admin
-user-guide-title: Experience Cloud gränssnitt och administration
-breadcrumb-title: Experience Cloud gränssnitt och administration
+user-guide-title: Gränssnitt och administration i Experience Cloud
+breadcrumb-title: Gränssnitt och administration i Experience Cloud
 title: Experience Cloud Interface and Administration
 description: Läs mer om Experience Cloud gränssnitt, cookies och kontoinställningar. Hantera produkter och konfigurera persontjänsten, inklusive kundattribut och målgruppsbibliotek. Dela Experience Cloud Assets.
 index: true
 source-git-commit: dd4f3b5df4bb7f3775977049e8d9a67e21052f10
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 8%
+ht-degree: 19%
 
 ---
 
 
-# Experience Cloud gränssnitt och administration {#interface}
+# Gränssnitt och administration i Experience Cloud {#interface}
 
-+ [Experience Cloud gränssnitt och administration](experience-cloud.md)
++ [Gränssnitt och administration i Experience Cloud](experience-cloud.md)
 
 + Tjänster {#services}
    + [Översikt](services/overview.md)
