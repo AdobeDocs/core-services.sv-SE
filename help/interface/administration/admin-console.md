@@ -8,18 +8,18 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: c82821c4-aa5d-48ae-8bef-5937fede8db2
-source-git-commit: daebfdac5f3e97cf97353d34ca7be90f29a1e1ef
+source-git-commit: ce65c5292caaa4a24945e2119e78fd97a7d84109
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 2%
+source-wordcount: '737'
+ht-degree: 5%
 
 ---
 
 # Användarhantering och produktlicenser
 
-Den här sidan innehåller information för Experience Cloud-administratörer, med länkar till vanliga användar- och produkthanteringsdokument.
+Du kan hantera användare och produktlicenser i Adobe [Admin Console](https://adminconsole.adobe.com/enterprise/). Allmän hjälp om identitetshantering för alla Adobe-program finns i [Administratörshandboken för Enterprise och teams](https://helpx.adobe.com/se/enterprise/admin-guide.html).
 
-Allmän hjälp om identitetshantering för alla Adobe-program finns i [Administratörshandboken för Enterprise och teams](https://helpx.adobe.com/se/enterprise/admin-guide.html).
+Den här sidan innehåller information som är särskilt användbar för Experience Cloud-administratörer, definierar roller och länkar till vanliga användar- och produkthanteringsämnen i företagsguiden.
 
 ## Administrativa roller i Admin Console
 
