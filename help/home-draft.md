@@ -1,31 +1,153 @@
 ---
-description: Lär dig mer om centrala gränssnittskomponenter för Experience Cloud. Få hjälp med användar- och produktadministration i Admin Console, aktivera program för Experience Cloud-tjänster. Få hjälp med Audience Library, Customer Attributes, Experience Cloud Assets med flera.
-title: Gränssnittsdokumentation för Experience Cloud
+description: Lär dig mer om centrala gränssnittskomponenter för Experience Cloud. Få hjälp med användar- och produktadministration i Admin Console, aktivera program för Experience Cloud tjänster. Få hjälp om Audience Library, Customer Attributes, Experience Cloud Assets med flera.
+title: Experience Cloud gränssnittsdokumentation
 uuid: aec6f689-e617-4876-ae6c-e961cfcb991a
 feature: Central Interface Components
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 0740361094aac0e63207e5e60aa666a1613d0e94
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 10%
+source-wordcount: '896'
+ht-degree: 8%
 
 ---
 
-# Översikt över det centrala gränssnittet i Experience Cloud
+# Experience Cloud Central Interface - översikt
 
-[Experience Cloud](https://experience.adobe.com) är en integrerad familj av program, produkter och tjänster för digital marknadsföring i Adobe. Från det intuitiva gränssnittet får du snabbt tillgång till dina molnprogram, produktfunktioner och tjänster.
+[Experience Cloud](https://experience.adobe.com) är en integrerad Adobe-familj med program, produkter och tjänster för digital marknadsföring. Från det intuitiva gränssnittet får du snabbt tillgång till dina molnprogram, produktfunktioner och tjänster.
 
 ![Experience Cloud](assets/landing.png)
 
-Från Experience Cloud kan du:
+Från Experience Cloud sidhuvud kan du:
 
-* Få tillgång till alla Experience Cloud-program och -tjänster
+* Få tillgång till alla program och tjänster i Experience Cloud
 * På Hjälp-menyn söker du efter produktdokumentation, självstudiekurser och communityinlägg. Visa resultat i Experience League.
-* Sök efter affärsobjekt globalt med hjälp av en global sökning (endast Experience Platform) i sökfältet.
+* Sök efter affärsobjekt globalt med en global sökning (endast Experience Platform-användare) i sökfältet.
 * Hantera ditt konto [inställningar](features/account-preferences.md) (aviseringar, aviseringar och prenumerationer)
+
+
+Borttaget från GSPM:
+
+## Utforska funktioner
+
+<table style="table-layout:fixed">
+<tr style="border: 0;">
+   <td valign="top">
+      <a href="../user-guide/effective-prompts.md">
+      <img alt="Höger vinklad" src="../assets/icons/icon-chevronRight.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/effective-prompts.md">
+         <strong> Skriv effektiva frågor </strong>
+         </a>
+      </div>
+      <p>
+         <em>Skapa beskrivande uppmaningar som genererar digitala upplevelser under varumärket.</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/create/overview.md">
+      <img alt="Pensel" src="../assets/icons/icon-create.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/create/overview.md">
+         <strong> Skapa upplevelser </strong>
+         </a>
+      </div>
+      <p>
+         <em>Skapa prestanda, e-post under varumärket och Meta-annonser.</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/approvals/overview.md">
+      <img alt="Markering" src="../assets/icons/icon-checkmarkCircle.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/approvals/overview.md">
+         <strong> Granska och godkänn </strong>
+         </a>
+      </div>
+      <p>
+         <em>Samordna den effektiva granskningen och godkännandet av marknadsföringsresurser.</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/content/overview.md">
+      <img alt="Stödraster" src="../assets/icons/icon-images.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/content/overview.md">
+         <strong> Hantera innehåll </strong>
+         </a>
+      </div>
+      <p>
+         <em>Sök, hantera och återanvänd innehåll samtidigt som varumärkesriktlinjerna behålls.</em>
+      </p>
+   </td>
+   <td valign="top">
+      <a href="../user-guide/insights/overview.md">
+      <img alt="Diagram" src="../assets/icons/icon-dataAnalytics.svg" width="35">
+      </a>
+      <div>
+         <a href="../user-guide/insights/overview.md">
+         <strong> Visa insikter </strong>
+         </a>
+      </div>
+      <p>
+         <em>Analysera innehållseffektiviteten för betalda mediekanaler.</em>
+      </p>
+   </td>
+</tr>
+</table>
+
+## Lär dig hur
+
+<table style="table-layout:fixed">
+<td valign="top">
+   <div>
+      <a href="/help/user-guide/guidelines/add-guidelines.md">
+      <img alt="Lägg till riktlinjer" src="../assets/card-guidelines.png">
+      <strong>Lägg till riktlinjer</strong>
+      </a>
+   </div>
+   <p>
+      <em>Lär dig hur du lägger till riktlinjer - varumärken, produkter och egenskaper - i GenStudio for Performance Marketing.</em>
+   </p>
+</td>
+<td valign="top">
+   <div>
+      <a href="/help/user-guide/create/create-email-experience.md">
+      <img alt="Idéer, böcker, penna, dator" src="../assets/card-create-assets.png">
+      <strong>Skapa en e-postupplevelse</strong>
+      </a>
+   </div>
+   <p>
+      <em>Lär dig hur du skapar en e-postupplevelse på ett varumärke.</em>
+   </p>
+</td>
+<td valign="top">
+   <div>
+      <a href="/help/user-guide/create/create-meta-ad.md">
+      <img alt="Personer som flyttar filer till en mapp" src="../assets/card-manage-content.png">
+      <strong>Skapa en annonsupplevelse i Meta </strong>
+      </a>
+   </div>
+   <p>
+      <em>Lär dig hur du skapar en varumärkesanpassad annonsupplevelse i Meta.</em>
+   </p>
+</td>
+</table>
+
+
+(Slut på GSPM)
+
+
+
+
+
+
 
 ## Logga in på Experience Cloud {#signin}
 
@@ -47,24 +169,24 @@ Logga in och verifiera att du är i rätt [organisation](administration/organiza
 
    För en organisation med Federated ID och domänen `adobecustomer.com` anger du URL-länken till `https://experience.adobe.com/#/sso:@adobecustomer.com`. Du kan också gå direkt till ett specifikt program genom att skapa ett bokmärke för den här URL:en, som bifogas med programsökvägen. (För Adobe Analytics, till exempel, `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`.)
 
-## Access Experience Cloud-program {#navigation}
+## Öppna Experience Cloud-program {#navigation}
 
 När du har loggat in på Experience Cloud kan du snabbt komma åt alla program, tjänster och organisationer från det enhetliga huvudet.
 
-Gå till programväljaren ![menu](assets/menu-icon.png) om du vill komma åt Experience Cloud-program och -tjänster som har etablerats för dig i din organisation.
+Gå till programväljaren ![menu](assets/menu-icon.png) om du vill få åtkomst till Experience Cloud-program och -tjänster som har etablerats för dig inom din organisation.
 
 ![Öppna Experience Cloud-program](assets/platform-core-services.png)
 
 ## Få hjälp och support {#support}
 
-Få tillgång till inlärning och hjälp med **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) i sidhuvudet, inklusive hjälpinnehåll (dokumentation, självstudiekurser och kurser) på [Experience League](https://experienceleague.adobe.com/#home), samt ytterligare resurser för enskilda program. Du kan även skicka in öppen feedback och skapa prioriterade supportärenden.
+Lär dig mer och hjälp med **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) i sidhuvudet, inklusive hjälpinnehåll (dokumentation, självstudiekurser och kurser) på [Experience League](https://experienceleague.adobe.com/#home), samt ytterligare resurser för enskilda program. Du kan även skicka in öppen feedback och skapa prioriterade supportärenden.
 
 ![Få hjälp och support](assets/search-menu.png)
 
 Menyn [!UICONTROL Help] ger dig även åtkomst till:
 
-* **[!UICONTROL Support]:** Skapa en supportanmälan eller kontakta [!UICONTROL Support] med hjälp av Twitter.
-* **[!UICONTROL Feedback]:** Dela feedback om din Experience Cloud-upplevelse. Dina synpunkter används för att förbättra Adobe produkter och tjänster.
+* **[!UICONTROL Support]:** Skapa en supportanmälan eller kontakta [!UICONTROL Support] med Twitter.
+* **[!UICONTROL Feedback]:** Dela feedback om Experience Cloud. Dina synpunkter används för att förbättra Adobe produkter och tjänster.
 * **[!UICONTROL Status]:** Navigera till `https://status.adobe.com/experience_cloud` och kontrollera produktdriftsstatus och [!UICONTROL Manage Subscriptions].
 * **[!UICONTROL Developer Connection]:** Navigering till `adobe.io` och hitta dokumentation för utvecklare.
 
@@ -73,7 +195,7 @@ Menyn [!UICONTROL Help] ger dig även åtkomst till:
 På menyn [!UICONTROL Profile] kan du:
 
 * Ange ett mörkt tema (alla program stöder inte det här temat)
-* Hantera [inställningar för Experience Cloud](features/account-preferences.md)
+* [Hantera Experience Cloud-inställningar](features/account-preferences.md)
 * Välj eller sök efter en [organisation](administration/organizations.md)
 * Visa [!UICONTROL Legal Notices]
 * Logga ut
@@ -90,11 +212,11 @@ Mer information om hur du hanterar meddelanden och aviseringar finns i [Kontoins
 
 ## Nyheter
 
-Läs om de senaste förbättringarna av gränssnittskomponenterna i Experience Cloud.
+Läs om de senaste förbättringarna av Experience Cloud centrala gränssnittskomponenter.
 
 >[!BEGINTABS]
 
->[!TAB Integrering med Slack med Experience Cloud]
+>[!TAB Slack-integrering med Experience Cloud]
 
 Du kan konfigurera dina kontoinställningar så att Experience Cloud-meddelanden skickas till en [!DNL Slack]-kanal.
 
@@ -188,5 +310,5 @@ Vissa viktiga ändringar av tjänsten Android Firebase Cloud Messaging (FCM) kom
 
 ## Ytterligare resurser
 
-[Produktbeskrivning för Adobe Campaign v8](https://helpx.adobe.com/se/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Dokumentation för Adobe Campaign webbgränssnitt](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"} - [Tutorials](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign] automatiseringsguide](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target="_blank"} - [Kontrollpanelen för Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=sv){target="_blank"}
+[Produktbeskrivning för Adobe Campaign v8](https://helpx.adobe.com/se/legal/product-descriptions/adobe-campaign-managed-cloud-services.html){target="_blank"} - [Dokumentation för Adobe Campaign webbgränssnitt](https://experienceleague.adobe.com/docs/campaign-web/v8/campaign-web-home.html){target="_blank"} - [Självstudiekurser](https://experienceleague.adobe.com/docs/campaign-learn/tutorials/overview.html){target="_blank"} - [[!DNL Adobe Campaign] automatiseringsguide](https://experienceleague.adobe.com/docs/campaign/automation/home.html){target="_blank"} - [Kontrollpanelen för Campaign v8](https://experienceleague.adobe.com/docs/control-panel/using/discover-control-panel/key-features.html?lang=sv){target="_blank"}
 
