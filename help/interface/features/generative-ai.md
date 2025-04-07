@@ -9,13 +9,13 @@ level: Intermediate
 hide: false
 hidefromtoc: true
 index: n
-source-git-commit: 7f852f0f3b4943cad28c2db2bb65f438a3f5a54a
+exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
+source-git-commit: 3f1065affe2665bb0867de02e4aef4c755c5f201
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 3%
+source-wordcount: '1808'
+ht-degree: 2%
 
 ---
-
 
 # AI i Experience Cloud-program
 
@@ -83,6 +83,26 @@ När du har skapat varianter kan du använda innehållet på webbplatsen och mä
 Se [Generera bild](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image).
 
 **Kompatibilitet med Adobe Firefly:** Ja
+
+## Adobe Journey Optimizer
+
+Journey Optimizer använder [AI Assistant](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) med två frågeklasser:
+
+**Produktkunskap** - Frågar Adobe datalager (t.ex. Experience League produktdokumentation) efter produktinformation. Resultatet är kundagnostiker. Exempel:
+
+* Hur många aktiva aktiviteter kan jag ha i en Adobe Journey Optimizer-sandlåda?
+
+**Operational Insights (Beta)** - Frågar ett kundspecifikt datalager för operativa insikter som innehåller centraliserade driftdata om resor, som partitioneras av kundens sandlåda. Hämtar endast metadata från affärsobjekt och får inte åtkomst till data i sandlådan.
+
+* Hur många resor har skapats de senaste sju dagarna?
+
+Operativa insikter som skapas beror på metadata som hämtas från kundens affärsobjekt.
+
+Resor är det enda tillgängliga objektet för AI Assistant i Journey Optimizer, och metadata hämtas från den aktuella sandlådan.
+
+Mer information finns i [Arbeta med AI-assistenten](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant) och [Fältberedskap](https://fieldreadiness-adobe.highspot.com/items/6661f1c132683fd5e6a8adf4?lfrm=srp.1#11).
+
+**Kompatibilitet med Adobe Firefly:** Nej
 
 
 
