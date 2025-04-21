@@ -10,10 +10,10 @@ hide: false
 hidefromtoc: true
 index: n
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: d54af09033b1a0727e9b7aa3dbf4a9be6003a8ea
+source-git-commit: 4c0e9ef974ab31a7d82a61c3a69f7d76389774f9
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 1%
+source-wordcount: '1314'
+ht-degree: 2%
 
 ---
 
@@ -77,7 +77,7 @@ När du har skapat varianter kan du använda innehållet på webbplatsen och mä
 
 ### Indata- och utdatafält
 
-**Indata:** Indatafält innehåller:
+Indatafält innehåller:
 
 * Antal variationer att generera
 * Audience Source
@@ -85,9 +85,9 @@ När du har skapat varianter kan du använda innehållet på webbplatsen och mä
 * Ytterligare sammanhang
 * Kunddrivna uppmaningar
 
-**Utdata:** Genererat innehåll/marknadskopia. Du kan också generera bilder i Adobe Express med Firefly generativa AI-funktioner.
+Resultatet genereras innehåll eller marknadskopia.
 
-Mer information finns i [Generera bild](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image).
+Du kan också generera bilder i Adobe Express med Firefly generativa AI-funktioner. [Läs mer...](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image)
 
 **Kompatibel med Adobe Firefly:** Ja
 
@@ -145,7 +145,7 @@ Kampanjhanterade molntjänster använder [AI-assistenten för Content Accelerato
 
 ## AI Assistant i Customer Journey Analytics {#cja}
 
-Customer Journey Analytics använder [AI Assistant](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/ai-assistant) för att hjälpa dig att identifiera produktkunskaper och insikter från Experience League.
+Customer Journey Analytics använder [AI Assistant](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) för att hjälpa dig att identifiera produktkunskaper och insikter från Experience League.
 
 **Exempelfråga:** Hur skapar jag ett beräknat mått?
 
@@ -173,7 +173,7 @@ Exempel:
 
 * Indata: _Hur många datauppsättningar har jag?_
 
-* Svar: _Operativa insikter-utdata är beroende av metadata som hämtas från kundens affärsobjekt (attribut, målgrupper, dataflöden, datauppsättningar, destinationer, scheman och källor) och innehåller en länk till en specifik användargränssnittssida som innehåller efterfrågade data._
+* Svar: Operational Insights-utdata är beroende av metadata som hämtas från kundens affärsobjekt (attribut, målgrupper, dataflöden, datauppsättningar, destinationer, scheman och källor), och innehåller en länk till en specifik gränssnittssida med efterfrågade data.
 
 Mer exempel finns i indatatabellerna _Produktkunskap_ och _Operational Insights_ i [AI Assistant i Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)
 
@@ -181,12 +181,22 @@ Mer exempel finns i indatatabellerna _Produktkunskap_ och _Operational Insights_
 
 ## DYNAMIC CHAT i MARKETO {#marketo}
 
-[Dynamic Chat](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/dynamic-chat-overview) skapar AI-stödda konversationer med anpassade och förgodkända frågor och svar, samt en sammanfattning av konversationer |<ul><li> **Generera frågor:** Ange URL:er som innehållet extraheras från och används för att generera frågor/svar. </li><li> **Konversationssammanfattning:** Skapar en sammanfattning av en chattkonversation. </li></ul> [Läs mer..](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/response-library)  | Nej |
+Med de generativa AI-baserade funktionerna i Adobe Dynamic Chat kan ni optimera produktiviteten för säljarna, få insikter i besökarnas avsikter och besvara besökarnas frågor på ett säkert sätt. Du kan förgodkänna frågorna, svaren och konversationssammanfattningen. [Läs mer...](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
+
+**Kompatibel med Firefly:** Nej
 
 ## AI Assistant i Workfront {#workfront}
 
-[AI-assistenten](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview) i Workfront hjälper dig att slutföra ditt arbete genom att erbjuda information och förslag i appen i en konversation på ett naturligt språk. AI Assistant har följande funktioner: Sammanfattar projekt/uppgifter/ärenden/dokument, ger instruktioner eller referensinformation som hämtas från Workfront-dokumentationen för Experience League, genererar eller förfinar formler för beräknade anpassade fält.  | <ul><li>**Sammanfatta projektindata:** Sammanfatta det här projektet </li><li> **Sammanfatta projektutdata:** Returnerar korta beskrivningar av projektets syfte och status, ger exempel på aktiviteter som är slutförda och som fortfarande väntar samt ger ytterligare information och anteckningar.</li><li> **Generera/förfina formelindata:** &quot;Skriv om formeln för att ta bort det ogiltiga uttrycksfelet.&quot; </li><li> **Generera/förfina formelutdata:** Genererad eller förfinad formel. </li></ul>**Obs!** Det kan ta en stund att generera den reviderade formeln, beroende på formelns storlek och komplexitet. | Nej  |
+AI Assistant i Workfront hjälper dig att slutföra arbetet genom att erbjuda information och förslag i appen. Du kan:
 
+* Få sammanfattningar av vissa objekt, vilket ger dig en högnivåvy över objektets avsikt eller detaljer.
+* Ställ frågor och låt [!DNL AI Assistant] hitta svar på Experience League.
+* Hämta genererade formler baserat på dina uppmaningar. Du kan också lösa fel i ogiltiga anpassade uttryck i beräkningsfält.
+* Hitta projekt, uppgifter och problem.
+
+[Läs mer...](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
+
+**Kompatibel med Firefly:** Nej
 
 <!-- ## Experience Cloud applications that use AI
 
