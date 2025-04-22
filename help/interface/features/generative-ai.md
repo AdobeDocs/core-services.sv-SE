@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: b94bf94368312b3ed64a559da946a1be8ccb3c18
+source-git-commit: a5d595fc8ee9b76ee1bf4a24364674a3af447b2a
 workflow-type: tm+mt
-source-wordcount: '1118'
+source-wordcount: '1108'
 ht-degree: 3%
 
 ---
@@ -47,20 +47,18 @@ In AI Assistant, security is the priority:
 Läs mer om stöd för generativ AI- eller AI-assistent i Experience Cloud-produkter och om Adobe Firefly stöds.
 
 * [GenStudio för prestationsbaserad marknadsföring](#gspm)
-* [Generera variationer i AEM Sites (Cloud Service)](#aem-sites)
+* [Generera variationer i Experience Manager Sites](#aem-sites)
 * [AI Assistant i Journey Optimizer](#journey-optimizer)
-* [Adobe Journey Optimizer Prime och Ultimate](#ajo-prime-ultimate)
-* [Journey Optimizer B2B-version](#ajo-b2b)
 * [AI Assistant i Journey Optimizer Prime och Ultimate](#ajo-prime-ultimate)
 * [AI Assistant i Journey Optimizer B2B edition](#ajo-b2b)
-* [AI-assistenten i Campaign Managed Cloud Services](#campaign-cs)
+* [AI Assistant i webbgränssnittet för Campaign v8](#campaign-cs)
 * [AI Assistant i Customer Journey Analytics](#cja)
 * [Intelligenta bildtexter i Customer Journey Analytics](#cja-captions)
 * [AI Assistant i Real-Time CDP](#rtcdp)
 * [DYNAMIC CHAT i MARKETO](#marketo)
 * [AI Assistant i Workfront](#workfront)
 
-### GenStudio för prestationsbaserad marknadsföring {#gspm}
+## GenStudio för prestationsbaserad marknadsföring {#gspm}
 
 GenStudio for Performance Marketing är en AI-driven plattform som ger er möjlighet att generera och hantera marknadsföringsmaterial som uppfyller era varumärkesstandarder och följer företagets policy. Generera material för e-post, Meta-annonser, LinkedIn-annonser, displayannonser och banners.
 
@@ -70,7 +68,7 @@ Ni kan också utbilda GenStudio for Performance Marketing om ert varumärke med 
 
 Kompatibilitet med Adobe Firefly: **Planerad**
 
-### Generera variationer i Experience Manager Sites {#aem-sites}
+## Generera variationer i Experience Manager Sites {#aem-sites}
 
 Generate Variations in AEM Sites använder generativ AI för att skapa innehållsvariationer baserat på uppmaningar. Dessa uppmaningar tillhandahålls antingen av Adobe eller skapas och hanteras av dig.
 
@@ -110,7 +108,7 @@ Journey Optimizer B2B edition använder AI Assistant för att hjälpa dig med pr
 
 Kompatibilitet med Adobe Firefly: **Nej**
 
-## AI-assistenten i Campaign Managed Cloud Services {#campaign-cs}
+## AI-assistenten i webbgränssnittet för Campaign v8  {#campaign-cs}
 
 Kampanjhanterade molntjänster använder AI Assistant för Content Accelerator. Med den här funktionen kan ni automatiskt generera personaliserat, engagerande och effektivt innehåll baserat på ert marknadsföringsmål, med innehåll som är optimerat för varumärkesanpassade format, layouter, färgtoner med mera. Ni kan använda det i alla kanaler, som e-post, SMS och push.
 
