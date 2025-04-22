@@ -7,18 +7,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: aad561869cdfa7ddbc66b296d0a46c8f49f83d94
+source-git-commit: b94bf94368312b3ed64a559da946a1be8ccb3c18
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 2%
+source-wordcount: '1118'
+ht-degree: 3%
 
 ---
 
-# AI i Experience Cloud-program
-
-På den här sidan kan du förstå hur du genererar AI och hur du kan använda det i Experience Cloud-program. Ta reda på vilka produktfunktioner som använder generativ AI, AI Assistant och om Adobe Firefly stöds.
-
-## Om generativ AI- och AI-assistent
+# AI i Experience Cloud-produkter
 
 Generativ AI är en typ av artificiell intelligens som gör mer än att bara svara på frågor. Det _skapar_-innehåll och _svarar_ på dina _uppmaningar_ (frågor och satser).
 
@@ -28,11 +24,13 @@ Generativ AI är en typ av artificiell intelligens som gör mer än att bara sva
 
 Om du inte har använt Experience Cloud tidigare kan du använda generativ AI för att snabbt få produktkunskap. Som erfaren användare kan ni identifiera driftsinsikter på några sekunder snarare än timmar.
 
-### AI-assistenten
+**Om AI Assistant**
 
-[AI Assistant](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing) är ett konversationsverktyg som stöds i Experience Platform och relaterade program. Använd det för att snabba upp arbetsflödena, förbättra produktkunskapen, felsöka problem eller söka i informationen. I vissa program kan du med AI Assistant omedelbart upptäcka operativa insikter.
+AI Assistant är ett konversationsverktyg som stöds i Experience Platform och andra program. Använd det för att snabba upp arbetsflödena, förbättra produktkunskapen, felsöka problem eller söka i informationen. I vissa program kan du med AI Assistant omedelbart upptäcka operativa insikter.
 
 Produktkunskapssvaren från Experience League kan verifieras och citeras med länkar. Lär dig mer om de olika typerna av [målinriktade uppmaningar](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) för att få ut så mycket som möjligt av AI Assistant.
+
+[Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
 <!-- **Your data remains yours**
 
@@ -44,7 +42,9 @@ In AI Assistant, security is the priority:
 * It's audit-ready: Responses are attributable to source documents.
 * Enterprise controls are in place to manage who has AI access in the company. -->
 
-## Program med funktioner som stöder AI
+## AI-tillgänglighet i Experience Cloud-produkter
+
+Läs mer om stöd för generativ AI- eller AI-assistent i Experience Cloud-produkter och om Adobe Firefly stöds.
 
 * [GenStudio för prestationsbaserad marknadsföring](#gspm)
 * [Generera variationer i AEM Sites (Cloud Service)](#aem-sites)
@@ -62,135 +62,99 @@ In AI Assistant, security is the priority:
 
 ### GenStudio för prestationsbaserad marknadsföring {#gspm}
 
-[GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) är en generativ AI-driven plattform med funktioner som kan förändra hur marknadsföringsmaterial skapas, granskas, delas och analyseras.
+GenStudio for Performance Marketing är en AI-driven plattform som ger er möjlighet att generera och hantera marknadsföringsmaterial som uppfyller era varumärkesstandarder och följer företagets policy. Generera material för e-post, Meta-annonser, LinkedIn-annonser, displayannonser och banners.
 
-På hemsidan [Skapa](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/overview) kan du skapa högpresterande varumärkesupplevelser. Generera innehåll för:
+Ni kan också utbilda GenStudio for Performance Marketing om ert varumärke med hjälp av exempel, beskrivningar av kundprofiler och produkter samt varumärkesriktlinjer.
 
-* E-post
-* Meta ads
-* LinkedIn-annonser
-* Visa annonser
-* Banderoller
+[Läs mer](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home)
 
-Ni kan också utbilda GenStudio for Performance Marketing om ert varumärke med hjälp av exempel, beskrivningar av kundprofiler och produkter samt varumärkesriktlinjer. [Läs mer...](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/overview)
-
-**Kompatibel med Adobe Firefly:** Planerad
+Kompatibilitet med Adobe Firefly: **Planerad**
 
 ### Generera variationer i Experience Manager Sites {#aem-sites}
 
-[Generera variationer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations) i AEM Sites använder generativ AI för att skapa innehållsvariationer baserat på uppmaningar. Dessa uppmaningar tillhandahålls antingen av [Adobe](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#get-started) eller skapas och hanteras av [användare](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#create-prompt).
+Generate Variations in AEM Sites använder generativ AI för att skapa innehållsvariationer baserat på uppmaningar. Dessa uppmaningar tillhandahålls antingen av Adobe eller skapas och hanteras av dig.
 
-När du har skapat varianter kan du använda innehållet på webbplatsen och mäta hur det fungerar med hjälp av Experimentationsfunktionen i Edge Delivery Services.
+När du har skapat varianter kan du använda innehållet på webbplatsen och mäta hur det fungerar med hjälp av Experimentationsfunktionen i Edge Delivery Services. Du kan också generera bilder i Adobe Express med Firefly generativa AI-funktioner.
 
-### Indata- och utdatafält
+[Läs mer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations)
 
-Indatafält innehåller:
-
-* Antal variationer att generera
-* Audience Source
-* Målgrupp
-* Ytterligare sammanhang
-* Kunddrivna uppmaningar
-
-Resultatet genereras innehåll eller marknadskopia.
-
-Du kan också generera bilder i Adobe Express med Firefly generativa AI-funktioner. [Läs mer...](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations#generate-image)
-
-**Kompatibel med Adobe Firefly:** Ja
+Kompatibilitet med Adobe Firefly: **Ja**
 
 ## AI Assistant i Journey Optimizer {#journey-optimizer}
 
-I Journey Optimizer kan AI Assistant hjälpa dig att få produktkunskaper och driftsinsikter.
+I Journey Optimizer kan du använda AI Assistant för att få produktkunskaper och driftsinsikter. Fråga till exempel _Hur många aktiva aktiviteter kan jag ha i en Journey Optimizer-sandlåda?_ Du får omedelbart svar från Experience League och andra Adobe datalager.
 
-**Produktkunskap:** AI Assistant frågar Adobe datalager (t.ex. Experience League produktdokumentation) efter produktinformation. Resultatet är kundagnostiker.
+AI Assistant kan även hjälpa till med driftsinsikter (beta). Du kan till exempel snabbt lära dig hur många resor som har skapats de senaste sju dagarna.
 
-Exempel:
+AI Assistant frågar ett kundspecifikt datalager efter driftsinsikter. Datalagret innehåller centraliserade, driftsdata om [!UICONTROL Journeys]. Den här funktionen är kundagnostiker och hämtar endast metadata från affärsobjekt. Den har inte åtkomst till data i din sandlåda.
 
-* _Hur många aktiva aktiviteter kan jag ha i en Adobe Journey Optimizer-sandlåda?_
+[Läs mer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant).
 
-**Operational Insights (Beta)** - AI Assistant frågar efter ett kundspecifikt datalager med driftsinsikter som innehåller centraliserade driftdata om resor, som partitioneras av kundens sandlåda. Den här funktionen hämtar endast metadata från affärsobjekt och får inte åtkomst till data i sandlådan.
-
-Exempelfråga:
-
-* _Hur många resor har skapats de senaste sju dagarna?_
-
-Operativa insikter som skapas beror på metadata som hämtas från kundens affärsobjekt. Resultatet är kundagnostiker.
-
-_Resor_ är det enda tillgängliga objektet för AI Assistant i Journey Optimizer, och metadata hämtas från den aktuella sandlådan. [Läs mer..](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant).
-
-**Kompatibel med Adobe Firefly:** Nej
+Kompatibilitet med Adobe Firefly: **Nej**
 
 ## AI Assistant i Journey Optimizer Prime och Ultimate {#ajo-prime-ultimate}
 
-Journey Optimizer Prime och Ultimate använder [AI Assistant för Content Accelerator](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) för att ge proaktiva variantförslag för text och bilder.
+Journey Optimizer Prime och Ultimate använder AI Assistant för Content Accelerator för att ge proaktiva variantförslag för text och bilder.
 
-Den här funktionen är tillgänglig för kanalerna [e-post](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-email), [push-meddelanden](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-push), [webbsida](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-web), [innehåll](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-experimentation) och [SMS](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/generative-sms). Den ger snabb generering av text och bilder.
+Den här funktionen är tillgänglig för e-post, push-meddelanden, webbsidor, innehåll och SMS-kanaler. Den ger snabb generering av text och bilder. Utdata från Content Accelerator i AJO Prime och Ultimate är ersättningsberättigande.
 
-**Obs!** Utdata från Content Accelerator i AJO Prime och Ultimate är ersättningsberättigande.
+[Läs mer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative)
 
-**Kompatibel med Adobe Firefly:** Ja
+Kompatibilitet med Adobe Firefly: **Ja**
 
 ## AI Assistant i Journey Optimizer B2B edition {#ajo-b2b}
 
-Journey Optimizer B2B edition använder [AI Assistant](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) för att hjälpa dig med produktkunskap, baserat på dina produktkunskapsfrågor.
+Journey Optimizer B2B edition använder AI Assistant för att hjälpa dig med produktkännedom.
 
-**Produktkunskap** - Frågar Adobe datalager (t.ex. Experience League produktdokumentation) efter produktinformation. Resultatet är kundagnostiker.
+[Läs mer](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)
 
-* **Indata:** Hur skickar jag ett e-postmeddelande under en kontoresa?
-
-* **Utdata:** Produktinformation hämtas från Experience League (offentlig dokumentation). [Läs mer...](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/question-guidance)
-
-**Kompatibel med Adobe Firefly:** Nej
+Kompatibilitet med Adobe Firefly: **Nej**
 
 ## AI-assistenten i Campaign Managed Cloud Services {#campaign-cs}
 
-Kampanjhanterade molntjänster använder [AI-assistenten för Content Accelerator](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs). Med den här funktionen kan ni automatiskt generera personaliserat, engagerande och effektivt innehåll baserat på ert marknadsföringsmål, med innehåll som är optimerat för varumärkesanpassade format, layouter, färgtoner med mera. Du kan använda det i flera kanaler, som [email](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-content), [SMS](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-sms) och [push](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-push).
+Kampanjhanterade molntjänster använder AI Assistant för Content Accelerator. Med den här funktionen kan ni automatiskt generera personaliserat, engagerande och effektivt innehåll baserat på ert marknadsföringsmål, med innehåll som är optimerat för varumärkesanpassade format, layouter, färgtoner med mera. Ni kan använda det i alla kanaler, som e-post, SMS och push.
 
 **Obs!** Utdata från Content Accelerator i Campaign Managed Cloud Services har försäkringsskydd.
 
-**Kompatibel med Adobe Firefly:** Ja
+[Läs mer](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs)
+
+Kompatibilitet med Adobe Firefly: **Ja**
 
 ## AI Assistant i Customer Journey Analytics {#cja}
 
-Customer Journey Analytics använder [AI Assistant](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) för att hjälpa dig att identifiera produktkunskaper och insikter från Experience League.
+Customer Journey Analytics använder AI Assistant för att hjälpa dig att hitta produktkunskaper och insikter från Experience League. Om du är ny som användare kan du snabbt lära dig Customer Journey Analytics koncept och ta dig an produkter och funktioner.
 
-**Exempelfråga:** Hur skapar jag ett beräknat mått?
+Erfarna användare får avancerade användningsexempel eller lär sig strategier för att utföra uppgifter i snabb takt. Förstå koncept, felsök problem eller sök efter information.
 
-Nya användare kan använda den för att lära sig Customer Journey Analytics koncept och ta till sig själv med produkter och funktioner som du inte är bekant med.
+[Läs mer](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
 
-Erfarna användare kan använda AI Assistant för att visa upp mer avancerade användningsfall eller tips och tricks och utföra uppgifter i snabb takt. Förstå koncept, felsök problem eller sök efter information. [Läs mer...](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/ai-assistant#knowledge)
-
-**Kompatibel med Adobe Firefly:** Nej
+Kompatibilitet med Adobe Firefly: **Nej**
 
 ## Intelligenta bildtexter i Customer Journey Analytics {#cja-captions}
 
-[Intelligenta bildtexter](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) i Customer Journey Analytics ger insikter i naturliga språk för de vanligaste Workspace-visualiseringarna.
+Intelligenta bildtexter i Customer Journey Analytics ger naturliga språkinsikter för de vanligaste Workspace-visualiseringarna. Intelligenta bildtexter är idealiska för analytiker som behöver berättarröster och sammanhang för att dela med andra användare. Affärsanvändare kan använda den för att snabbt upptäcka högnivåaktiviteter.
 
-**Kompatibel med Adobe Firefly:** Nej
+[Läs mer](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
+
+Kompatibilitet med Adobe Firefly: **Nej**
 
 ## AI Assistant i Real-Time CDP {#rtcdp}
 
-Real-Time CDP använder [AI Assistant](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) för att hjälpa dig att identifiera produktkunskaper och insikter från Experience League. [Få tips](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions) om hur du ställer frågor.
+Real-Time CDP använder AI Assistant för att hjälpa dig med produktkunskaper från Experience League. Här finns även användbara insikter (i betaversion). AI Assistant skickar frågor till ett kundspecifikt datalager med verksamhetsinsikter som innehåller centraliserade driftdata, som är partitionerat i din AEP-sandlåda. Systemet hämtar endast metadata från attribut, målgrupper, dataflöden, datauppsättningar, destinationer, scheman och källor och har inte åtkomst till data i sandlådan.
 
-Här finns även användbara insikter (i betaversion). AI Assistant skickar frågor till ett kundspecifikt datalager med verksamhetsinsikter som innehåller centraliserade driftdata, som partitioneras av kundens AEP-sandlåda. Metadata hämtas endast från Attribut, Publiker, Dataflöden, Datauppsättningar, Destinationer, Scheman och Källor, och de har inte åtkomst till data i sandlådan.
+Om du till exempel frågar efter en publik kan [!DNL AI Assistant] komma åt målgruppens namn och andra associerade metadata, men inte komma åt profilerna inom den målgruppen.
 
-För en fråga om en målgrupp kan till exempel [!DNL AI Assistant] komma åt målgruppens namn och andra associerade metadata, men kan inte komma åt profilerna inom den målgruppen.
+[Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)
 
-Exempel:
-
-* Indata: _Hur många datauppsättningar har jag?_
-
-* Svar: Operational Insights-utdata är beroende av metadata som hämtas från kundens affärsobjekt (attribut, målgrupper, dataflöden, datauppsättningar, destinationer, scheman och källor), och innehåller en länk till en specifik gränssnittssida med efterfrågade data.
-
-Mer exempel finns i indatatabellerna _Produktkunskap_ och _Operational Insights_ i [AI Assistant i Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)
-
-**Kompatibel med Firefly:** Nej
+Kompatibilitet med Adobe Firefly: **Nej**
 
 ## DYNAMIC CHAT i MARKETO {#marketo}
 
-Med de generativa AI-baserade funktionerna i Adobe Dynamic Chat kan ni optimera produktiviteten för säljarna, få insikter i besökarnas avsikter och besvara besökarnas frågor på ett säkert sätt. Du kan förgodkänna frågorna, svaren och konversationssammanfattningen. [Läs mer...](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
+Med de generativa AI-baserade funktionerna i Adobe Dynamic Chat kan ni optimera produktiviteten för säljarna, få insikter i besökarnas avsikter och besvara besökarnas frågor på ett säkert sätt. Du kan förgodkänna frågorna, svaren och konversationssammanfattningen.
 
-**Kompatibel med Firefly:** Nej
+[Läs mer](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
+
+Kompatibilitet med Adobe Firefly: **Nej**
 
 ## AI Assistant i Workfront {#workfront}
 
@@ -201,6 +165,6 @@ AI Assistant i Workfront hjälper dig att slutföra arbetet genom att erbjuda in
 * Hämta genererade formler baserat på dina uppmaningar. Du kan också lösa fel i ogiltiga anpassade uttryck i beräkningsfält.
 * Hitta projekt, uppgifter och problem.
 
-[Läs mer...](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
+[Läs mer](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
 
-**Kompatibel med Firefly:** Nej
+Kompatibilitet med Adobe Firefly: **Nej**
