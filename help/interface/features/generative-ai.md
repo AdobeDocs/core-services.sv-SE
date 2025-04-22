@@ -1,15 +1,15 @@
 ---
 title: AI i Experience Cloud-program
-description: Läs om hur Experience Cloud-program använder generativ AI- och AI-assistent.
+description: Läs mer om generativ AI och hur Experience Cloud-program använder genAI och AI Assistant.
 solution: Experience Cloud
 feature: AI Assistant, Generative AI
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 7060cc75e06a00dd06475958f94b03ceaf39ae62
+source-git-commit: aad561869cdfa7ddbc66b296d0a46c8f49f83d94
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1313'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,16 @@ Om du inte har använt Experience Cloud tidigare kan du använda generativ AI f�
 
 Produktkunskapssvaren från Experience League kan verifieras och citeras med länkar. Lär dig mer om de olika typerna av [målinriktade uppmaningar](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) för att få ut så mycket som möjligt av AI Assistant.
 
+<!-- **Your data remains yours**
+
+In AI Assistant, security is the priority:
+
+* Customer data is not used to train language models.
+* AI Assistant looks at only the documents that you tell it to. You are in control.
+* Your people can use AI Assistant only on documents they can access.
+* It's audit-ready: Responses are attributable to source documents.
+* Enterprise controls are in place to manage who has AI access in the company. -->
+
 ## Program med funktioner som stöder AI
 
 * [GenStudio för prestationsbaserad marknadsföring](#gspm)
@@ -52,7 +62,7 @@ Produktkunskapssvaren från Experience League kan verifieras och citeras med lä
 
 ### GenStudio för prestationsbaserad marknadsföring {#gspm}
 
-[GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) är inte en funktion utan en generativ AI-driven plattform. Dess generativa AI-funktioner förändrar hur marknadsföringsmaterial skapas, granskas, delas och analyseras.
+[GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) är en generativ AI-driven plattform med funktioner som kan förändra hur marknadsföringsmaterial skapas, granskas, delas och analyseras.
 
 På hemsidan [Skapa](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/create/overview) kan du skapa högpresterande varumärkesupplevelser. Generera innehåll för:
 
