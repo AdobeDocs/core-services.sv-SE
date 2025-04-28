@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 835bcd684384d1c8809fba062c9e9d8edd4de535
+source-git-commit: c97ace2c192517a49a01c4247d9f6b4220e0514d
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1098'
 ht-degree: 2%
 
 ---
@@ -136,7 +136,13 @@ Kompatibilitet med Adobe Firefly: **Nej**
 
 ## [!DNL Customer Journey Analytics] {#cja-captions}
 
-Intelligenta bildtexter i [!DNL Customer Journey Analytics] ger naturliga språkinsikter för de vanligaste Workspace-visualiseringarna. Intelligenta bildtexter är idealiska för analytiker som behöver berättarröster och sammanhang för att dela med andra användare. Affärsanvändare kan använda den för att snabbt upptäcka högnivåaktiviteter.
+Du kan använda _Intelligenta bildtexter_ i [!DNL Customer Journey Analytics] för att få naturtrogna språkkunskaper för de vanligaste Workspace-visualiseringarna. Intelligenta bildtexter är idealiska för analytiker som behöver berättarröster och sammanhang för att dela med andra användare. Affärsanvändare kan använda den för att snabbt upptäcka högnivåaktiviteter.
+
+Exempel:
+
+* **Indata:** Kör en visualisering som stöds i CJA (inklusive Line, Area, Bar-diagram, Flow eller Fallout) och klicka sedan på **[!UICONTROL Intelligent captions]**.
+
+* **Utdata:** Visa automatiskt genererade, naturliga språkbeskrivningar som visar sammanhang och viktiga uppgifter. Sedan kan du vidta åtgärder för genererade data, till exempel granska, kopiera och dela dem med din organisation. [Se hur](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on#_blank)
 
 [Läs mer](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
