@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: cadc0d7eaaa9acb868f96561c2a562d9d29fc9ac
+source-git-commit: 0e9f35807a856e87923b2ba48f37365870cbd339
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1169'
 ht-degree: 2%
 
 ---
@@ -36,15 +36,16 @@ Generativ AI är en typ av artificiell intelligens som gör mer än att bara sva
 
 [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
-**Dina data är fortfarande dina**
+<!-- **Your data remains yours**
 
-I AI Assistant är säkerhet högsta prioritet:
+In AI Assistant, security is the priority:
 
-* Kunddata används inte för att utbilda språkmodeller.
-* AI Assistant tittar bara på de dokument du skickar till den. Du har kontrollen.
-* Dina medarbetare kan bara använda AI Assistant för dokument som de har tillgång till.
-* Det är granskningsklart: Svaren kan tillskrivas källdokument.
-* Enterprise-kontroller finns för att hantera vem som har AI-åtkomst i företaget.
+* Customer data is not used to train language models.
+* AI Assistant looks at only the documents that you tell it to. You are in control.
+* Your people can use AI Assistant only on documents they can access.
+* It's audit-ready: Responses are attributable to source documents.
+* Enterprise controls are in place to manage who has AI access in the company.
+ -->
 
 ## AI-tillgänglighet i Experience Cloud-produkter
 
