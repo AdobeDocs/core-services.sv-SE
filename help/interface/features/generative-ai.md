@@ -7,9 +7,9 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 0e9f35807a856e87923b2ba48f37365870cbd339
+source-git-commit: d84fcf64b7019f0146340a423e8e20a932cd7874
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1163'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ Läs om stöd för generativ AI eller [!DNL AI Assistant] i Experience Cloud-pro
 * [[!DNL Experience Manager Sites]](#aem-sites)
 * [[!DNL Journey Optimizer]](#journey-optimizer)
 * [[!DNL Journey Optimizer] B2B edition](#ajo-b2b)
-* [[!DNL Campaign] Managed Services (Campaign v8 Web)](#campaign-cs)
+* [[!DNL Campaign] hanterade molntjänster](#campaign-cs)
 * [[!DNL Customer Journey Analytics]](#cja)
 * [[!DNL Customer Journey Analytics]](#cja-captions)
 * [[!DNL Real-Time CDP]](#rtcdp)
@@ -140,9 +140,9 @@ Exempelindata:
 
 Kompatibilitet med Adobe Firefly: **Nej**
 
-## [!DNL Campaign] Managed Services (Campaign v8 Web) {#campaign-cs}
+## [!DNL Campaign] hanterade molntjänster {#campaign-cs}
 
-Campaign v8 (Campaign Managed Cloud Services) använder [!DNL AI Assistant] för innehållsgenerering. Med den här funktionen kan ni automatiskt generera personaliserat, engagerande och effektivt innehåll baserat på ert marknadsföringsmål, med innehåll som är optimerat för varumärkesanpassade format, layouter, färgtoner med mera. Ni kan använda det i alla kanaler, som e-post, SMS och push.
+Kampanjhanterade molntjänster använder [!DNL AI Assistant] för innehållsgenerering. Med den här funktionen kan ni automatiskt generera personaliserat, engagerande och effektivt innehåll baserat på ert marknadsföringsmål, med innehåll som är optimerat för varumärkesanpassade format, layouter, färgtoner med mera. Ni kan använda det i alla kanaler, som e-post, SMS och push.
 
 **Obs!** Utdata från innehållsgenerering i Campaign Managed Cloud Services har försäkringsskydd.
 
