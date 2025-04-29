@@ -7,16 +7,16 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: d84fcf64b7019f0146340a423e8e20a932cd7874
+source-git-commit: 8f342544483dbd42f034fffd2e1c2b25833d5866
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1144'
 ht-degree: 2%
 
 ---
 
 # AI i Experience Cloud-produkter
 
-På den här sidan kan du lära dig vilka produkter som stöder generativ AI, [!DNL AI Assistant] och om Adobe Firefly är kompatibelt. Du kan även hitta länkar till produktspecifika hjälpresurser om hur du använder AI i Experience Cloud.
+På den här sidan kan du lära dig vilka produkter som stöder generativ AI, [!DNL AI Assistant] och om Adobe Firefly är kompatibelt. Du hittar också länkar till information om hur du kan använda AI i Experience Cloud-program.
 
 **Om generativ AI**
 
@@ -28,11 +28,11 @@ Generativ AI är en typ av artificiell intelligens som gör mer än att bara sva
 
 **Vad är [!DNL AI Assistant]?**
 
-[!DNL AI Assistant] är ett konversationsverktyg som stöds i Experience Platform och relaterade program. Använd den för att snabbt få _produktkunskap_ och, i program som stöds, få _driftsinsikter_ nästan omedelbart.
+[!DNL AI Assistant] är ett konversationsverktyg som stöds i Experience Platform och relaterade program. Använd den för att snabbt få _produktkunskap_ och, i produkter som stöds, _driftsinsikter_ nästan omedelbart.
 
-* **Produktkunskap:** Produktkunskap syftar på begrepp och ämnen som beskrivs i Experience League-dokumentationen. Svar från Experience League kan verifieras och anges med länkar. Lär dig mer om de olika typerna av [målinriktade uppmaningar](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) för att få ut det mesta av [!DNL AI Assistant].
+* **Produktkunskap:** Produktkunskap avser begrepp och ämnen som anges i Experience League-dokumentationen. Lär dig hur du skapar effektiva, [målbaserade uppmaningar](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) för att få ut det mesta av [!DNL AI Assistant]. Alla svar från Experience League kan verifieras och anges med länkar.
 
-* **Driftsinsikter:** Driftsinsikter refererar till svar AI Assistant genererar om dina metadata-objekt (attribut, målgrupper, dataflöden, datauppsättningar, destinationer, resor, scheman och källor), inklusive antal, sökningar och linjepåverkan. Med hjälp av AI Assistant kan du identifiera driftsinsikter på några sekunder istället för timmar.
+* **Driftsinsikter:** [Driftsinsikter](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) refererar till genererade svar om dina metadataobjekt (attribut, målgrupper, dataflöden, datauppsättningar och så vidare). Med AI Assistant kan du uppnå på några sekunder vad som annars kan ta timmar eller dagar.
 
 [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
@@ -49,7 +49,7 @@ In AI Assistant, security is the priority:
 
 ## AI-tillgänglighet i Experience Cloud-produkter
 
-Läs om stöd för generativ AI eller [!DNL AI Assistant] i Experience Cloud-produkter. Support för Adobe Firefly anges också.
+Läs om hur följande Experience Cloud-program stöder generativ AI eller [!DNL AI Assistant]. Support för Adobe Firefly anges också.
 
 * [[!DNL GenStudio for Performance Marketing]](#gspm)
 * [[!DNL Experience Manager Sites]](#aem-sites)
@@ -90,9 +90,10 @@ Indatafält innehåller:
 
 Resultatet genereras innehåll eller marknadskopia.
 
+Kompatibilitet med Adobe Firefly: **Ja**
+
 [Läs mer om Generera variationer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
 
-Kompatibilitet med Adobe Firefly: **Ja**
 
 ## Adobe [!DNL Journey Optimizer] {#journey-optimizer}
 
@@ -114,7 +115,7 @@ Här är ett exempel på indata för driftsinsikter:
 
 [Läs mer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant).
 
-Kompatibilitet med Adobe Firefly: **Nej**
+Adobe Firefly-kompatibilitet: **Nej**
 
 ### AI Assistant för innehållsgenerering (AJO Prime och Ultimate) {#ajo-prime}
 
@@ -138,7 +139,7 @@ Exempelindata:
 
 [Läs mer](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview)
 
-Kompatibilitet med Adobe Firefly: **Nej**
+Adobe Firefly-kompatibilitet: **Nej**
 
 ## [!DNL Campaign] hanterade molntjänster {#campaign-cs}
 
@@ -162,7 +163,7 @@ Erfarna användare får avancerade användningsexempel eller lär sig strategier
 
 [Läs mer](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
 
-Kompatibilitet med Adobe Firefly: **Nej**
+Adobe Firefly-kompatibilitet: **Nej**
 
 ## [!DNL Customer Journey Analytics] {#cja-captions}
 
@@ -176,7 +177,7 @@ Exempel:
 
 [Läs mer](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
-Kompatibilitet med Adobe Firefly: **Nej**
+Adobe Firefly-kompatibilitet: **Nej**
 
 ## [!DNL Real-Time CDP] {#rtcdp}
 
@@ -186,7 +187,7 @@ Om du till exempel frågar efter en publik kan [!DNL AI Assistant] komma åt må
 
 [Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home)
 
-Kompatibilitet med Adobe Firefly: **Nej**
+Adobe Firefly-kompatibilitet: **Nej**
 
 ## [!DNL Marketo] {#marketo}
 
@@ -194,7 +195,7 @@ Med de generativa AI-baserade funktionerna i Adobe Dynamic Chat kan ni optimera 
 
 [Läs mer](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview)
 
-Kompatibilitet med Adobe Firefly: **Nej**
+Adobe Firefly-kompatibilitet: **Nej**
 
 ## [!DNL Workfront] {#workfront}
 
@@ -207,4 +208,4 @@ Kompatibilitet med Adobe Firefly: **Nej**
 
 [Läs mer](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview)
 
-Kompatibilitet med Adobe Firefly: **Nej**
+Adobe Firefly-kompatibilitet: **Nej**
