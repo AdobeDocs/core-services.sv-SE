@@ -7,14 +7,14 @@ topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 8f342544483dbd42f034fffd2e1c2b25833d5866
+source-git-commit: 182ac8ce357e232d0149272151e4647080b005b8
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1151'
 ht-degree: 2%
 
 ---
 
-# AI i Experience Cloud-produkter
+# Generativ AI i Experience Cloud-produkter
 
 På den här sidan kan du lära dig vilka produkter som stöder generativ AI, [!DNL AI Assistant] och om Adobe Firefly är kompatibelt. Du hittar också länkar till information om hur du kan använda AI i Experience Cloud-program.
 
@@ -57,7 +57,6 @@ Läs om hur följande Experience Cloud-program stöder generativ AI eller [!DNL 
 * [[!DNL Journey Optimizer] B2B edition](#ajo-b2b)
 * [[!DNL Campaign] hanterade molntjänster](#campaign-cs)
 * [[!DNL Customer Journey Analytics]](#cja)
-* [[!DNL Customer Journey Analytics]](#cja-captions)
 * [[!DNL Real-Time CDP]](#rtcdp)
 * [[!DNL Marketo]](#marketo)
 * [[!DNL Workfront]](#workfront)
@@ -153,9 +152,11 @@ Kompatibilitet med Adobe Firefly: **Ja**
 
 ## [!DNL Customer Journey Analytics] {#cja}
 
-Customer Journey Analytics använder [!DNL AI Assistant] för att hjälpa dig att identifiera produktkunskaper och insikter från Experience League.
+Customer Journey Analytics erbjuder [!DNL AI Assistant] för produktkunskap och produktinsikter och [!UICONTROL Intelligent Captions] för Workspace-visualiseringar.
 
-Om du är ny som användare kan du snabbt lära dig Customer Journey Analytics koncept och ta dig an produkter och funktioner. Exempel:
+**AI-assistenten**
+
+Upptäck produktkunskaper och insikter från Experience League. Om du är ny som användare kan du snabbt lära dig Customer Journey Analytics koncept och ta dig an produkter och funktioner. Exempel:
 
 * _Hur skickar jag ett e-postmeddelande i en kontoresa?_
 
@@ -163,9 +164,7 @@ Erfarna användare får avancerade användningsexempel eller lär sig strategier
 
 [Läs mer](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant)
 
-Adobe Firefly-kompatibilitet: **Nej**
-
-## [!DNL Customer Journey Analytics] {#cja-captions}
+**Intelligenta bildtexter**
 
 Du kan använda _Intelligenta bildtexter_ i [!DNL Customer Journey Analytics] för att få naturtrogna språkkunskaper för de vanligaste Workspace-visualiseringarna. Intelligenta bildtexter är idealiska för analytiker som behöver berättarröster och sammanhang för att dela med andra användare. Affärsanvändare kan använda den för att snabbt upptäcka högnivåaktiviteter.
 
