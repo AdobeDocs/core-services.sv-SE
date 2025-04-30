@@ -1,22 +1,22 @@
 ---
 title: AI i Experience Cloud-program
-description: Läs mer om generativ AI och hur Experience Cloud-program använder genAI och [!DNL AI Assistant].
+description: Läs mer om generativ AI (GenAI) och hur Experience Cloud-program använder GenAI och [!DNL AI Assistant].
 solution: Experience Cloud
 feature: AI Assistant, Generative AI
 topic: Administration
 role: Admin
 level: Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 182ac8ce357e232d0149272151e4647080b005b8
+source-git-commit: 47d3a948511714ea0ce682c205eb29118d36ce62
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1412'
 ht-degree: 2%
 
 ---
 
 # Generativ AI i Experience Cloud-produkter
 
-På den här sidan kan du lära dig vilka produkter som stöder generativ AI, [!DNL AI Assistant] och om Adobe Firefly är kompatibelt. Du hittar också länkar till information om hur du kan använda AI i Experience Cloud-program.
+På den här sidan kan du lära dig vilka produkter som stöder generativ AI (GenAI), [!DNL AI Assistant] och om Adobe Firefly är kompatibelt. Du kan också hitta länkar till information om olika sätt att använda AI i Experience Cloud-program.
 
 **Om generativ AI**
 
@@ -34,7 +34,7 @@ Generativ AI är en typ av artificiell intelligens som gör mer än att bara sva
 
 * **Driftsinsikter:** [Driftsinsikter](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) refererar till genererade svar om dina metadataobjekt (attribut, målgrupper, dataflöden, datauppsättningar och så vidare). Med AI Assistant kan du uppnå på några sekunder vad som annars kan ta timmar eller dagar.
 
-[Läs mer](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
+[Läs mer om AI Assistant](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing)
 
 <!-- **Your data remains yours**
 
@@ -52,7 +52,7 @@ In AI Assistant, security is the priority:
 Läs om hur följande Experience Cloud-program stöder generativ AI eller [!DNL AI Assistant]. Support för Adobe Firefly anges också.
 
 * [[!DNL GenStudio for Performance Marketing]](#gspm)
-* [[!DNL Experience Manager Sites]](#aem-sites)
+* [[!DNL Experience Manager]](#aem)
 * [[!DNL Journey Optimizer]](#journey-optimizer)
 * [[!DNL Journey Optimizer] B2B edition](#ajo-b2b)
 * [[!DNL Campaign] hanterade molntjänster](#campaign-cs)
@@ -71,7 +71,11 @@ Ni kan också utbilda GenStudio for Performance Marketing om ert varumärke med 
 
 Kompatibilitet med Adobe Firefly: **Ja**
 
-## Adobe [!DNL Experience Manager Sites] {#aem-sites}
+## Adobe [!DNL Experience Manager] {#aem}
+
+I följande avsnitt beskrivs kortfattat generativ AI i AEM-program.
+
+### Experience Manager Sites
 
 I AEM Sites kan du använda _[!UICONTROL Generate Variations]_. Den här funktionen använder generativ artificiell intelligens för att skapa innehållsvariationer baserat på dina inmatningsfrågor. Frågorna tillhandahålls antingen av Adobe eller skapas och hanteras av dig.
 
@@ -93,6 +97,15 @@ Kompatibilitet med Adobe Firefly: **Ja**
 
 [Läs mer om Generera variationer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor)
 
+### Experience Manager Assets
+
+[!UICONTROL Content Hub] är tillgänglig som en del av [!DNL Experience Manager Assets as a Cloud Service] för att demokratisera åtkomsten till varumärkesinnehåll för organisationer och deras affärspartners. Fokus ligger på att distribuera resurser för aktivering i stor skala och att skapa innehållsvarianter för varumärke, vilket ger förbättrad marknadsföringsflexibilitet.
+
+I Content Hub kan du skapa innehåll med Adobe Express (om du har Adobe Express-rättigheter). Du kan redigera befintligt innehåll med enkla verktyg, producera varumärkesanpassade varianter med mallar och märkeselement och skapa innehåll med de senaste GenAI-funktionerna från [!DNL Adobe Firefly].
+
+[Läs mer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview)
+
+Kompatibilitet med Adobe Firefly: **Ja**
 
 ## Adobe [!DNL Journey Optimizer] {#journey-optimizer}
 
@@ -152,7 +165,11 @@ Kompatibilitet med Adobe Firefly: **Ja**
 
 ## [!DNL Customer Journey Analytics] {#cja}
 
-Customer Journey Analytics erbjuder [!DNL AI Assistant] för produktkunskap och produktinsikter och [!UICONTROL Intelligent Captions] för Workspace-visualiseringar.
+Med Customer Journey Analytics kan du använda generativ AI på följande sätt:
+
+* [!DNL AI Assistant] för produktkunskap och insikter
+* [!UICONTROL Intelligent Captions] i Workspace-visualiseringar
+* AI och GenAI om du vill tilldela alla metadata för resurser automatiskt i [!DNL Content Analytics]
 
 **AI-assistenten**
 
@@ -176,6 +193,12 @@ Exempel:
 
 [Läs mer](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions)
 
+**Content Analytics**
+
+Content Analytics använder AI och GenAI för att tilldela alla metadata för resurser automatiskt, till exempel motiv, scener, förgrundsfärger och så vidare. Ett attribut är en AI-tilldelad metadatatagg som beskriver vad som finns i en resurs eller upplevelse.
+
+Till exempel: förgrunden `color: red` är ett automatiskt tilldelat attribut. Med visualiseringarna kan du identifiera vilka attribut i dina resurser som bidrar mest till konverteringen. [Läs mer](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report#template)
+
 Adobe Firefly-kompatibilitet: **Nej**
 
 ## [!DNL Real-Time CDP] {#rtcdp}
@@ -189,6 +212,21 @@ Om du till exempel frågar efter en publik kan [!DNL AI Assistant] komma åt må
 Adobe Firefly-kompatibilitet: **Nej**
 
 ## [!DNL Marketo] {#marketo}
+
+I Marketo finns generativ AI i interaktiva webbinarier och Dynamic Chat.
+
+**Interaktiva webbinarier**
+
+Generera kapitel och sammanfattningar automatiskt för dina inspelade webbinarier, så att de blir mer tillgängliga och lättare att navigera i. Funktioner:
+
+* Skapa kapitel automatiskt
+* AI-genererad textsammanfattning
+* Redigerbart innehåll - Ändra genererade kapitel och sammanfattningar
+* Enkel integrering - Lägg till kapitel och sammanfattningar på dina landningssidor genom att kopiera HTML-koden till den webbsidesredigerare du väljer
+
+[Läs mer](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai)
+
+**Dynamic Chat**
 
 Med de generativa AI-baserade funktionerna i Adobe Dynamic Chat kan ni optimera produktiviteten för säljarna, få insikter i besökarnas avsikter och besvara besökarnas frågor på ett säkert sätt. Du kan förgodkänna frågorna, svaren och konversationssammanfattningen.
 
