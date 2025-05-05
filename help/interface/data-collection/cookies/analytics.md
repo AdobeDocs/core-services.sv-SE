@@ -34,4 +34,4 @@ Analytics använder cookies för att definiera nya besökare anonymt, hjälpa ti
 
 ## Cookies angivna av plugin-program
 
-Vissa implementeringar använder plugin-program, som är kodfragment som ger ytterligare funktioner för Analytics. Dessa plugin-program kan ange cookies som inte finns med i listan ovan. Se [Översikt över plugin-program för analys](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins) för en lista över tillgängliga plugin-program och vilka cookies de anger.
+Vissa implementeringar använder plugin-program, som är kodfragment som ger ytterligare funktioner för Analytics. Dessa plugin-program kan ange cookies som inte finns med i listan ovan. Se [Översikt över plugin-program för analys](https://experienceleague.adobe.com/sv/docs/analytics/implementation/vars/plugins/impl-plugins) för en lista över tillgängliga plugin-program och vilka cookies de anger.

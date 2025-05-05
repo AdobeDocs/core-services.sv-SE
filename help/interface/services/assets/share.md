@@ -52,7 +52,7 @@ Dela en resursmapp för Experience Cloud med Creative Cloud-användare.
 
 När du har tagit bort alla Creative Cloud-användare delas inte mappen och Creative Cloud-användare har inte längre åtkomst.
 
-Fler sätt att använda en delad resurs är att läsa in eller byta resurser i [Erbjudandebiblioteket](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) i Adobe Target för bilder i aktiviteter.
+Fler sätt att använda en delad resurs är att läsa in eller byta resurser i [Erbjudandebiblioteket](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=sv-SE) i Adobe Target för bilder i aktiviteter.
 
 När du har delat en mapp med Creative Cloud visas Creative Cloud logotypen i mappen.
 
@@ -60,6 +60,6 @@ När du har delat en mapp med Creative Cloud visas Creative Cloud logotypen i ma
 
 Relaterad hjälp:
 
-* Hjälp om [Creative Cloud - Hantera och synkronisera filer](https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html)
-* Hjälp om [Creative Cloud - Samarbeta med andra](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
-* Hjälp om [Creative Cloud - Collaboration - frågor och svar](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)
+* Hjälp om [Creative Cloud - Hantera och synkronisera filer](https://helpx.adobe.com/se/creative-cloud/help/sync-creative-cloud-files.html)
+* Hjälp om [Creative Cloud - Samarbeta med andra](https://helpx.adobe.com/se/creative-cloud/help/collaboration.html)
+* Hjälp om [Creative Cloud - Collaboration - frågor och svar](https://helpx.adobe.com/se/creative-cloud/help/collaboration-faq.html)

@@ -19,9 +19,9 @@ Experience Cloud använder följande värdar för att leverera programmet, förb
 
 Förutom de domäner som anges nedan har enskilda Adobe Experience Cloud-produkter sina egna domäner som de använder:
 
-* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/domains)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/domains)
-* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
+* [Adobe Analytics](https://experienceleague.adobe.com/sv/docs/analytics/technotes/domains)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/technotes/domains)
+* [Marketo Engage](https://experienceleague.adobe.com/sv/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo)
 
 | Teknik | Domäner |
 | --- | --- |

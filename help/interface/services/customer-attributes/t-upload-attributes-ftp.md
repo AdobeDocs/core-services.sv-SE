@@ -27,7 +27,7 @@ Du kan överföra data när du har skapat en kundattributskälla och ett FTP-kon
 Filöverföring till FTP-webbplatsen för kundattribut kan göras via FTP eller SFTP:
 
 * Du behöver en klient som stöder SFTP-anslutningar.
-* Du kan ansluta med SFTP med antingen användarnamn/lösenord eller utan lösenord, vilket beskrivs [här](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
+* Du kan ansluta med SFTP med antingen användarnamn/lösenord eller utan lösenord, vilket beskrivs [här](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=sv-SE).
 
 **Så här överför du datafilen via FTP**
 

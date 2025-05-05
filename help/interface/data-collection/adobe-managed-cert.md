@@ -94,8 +94,8 @@ Aliases: smetrics.example.com
 
 När du har verifierat att ditt certifikat fungerar som det ska kan du uppdatera din Adobe-implementering så att dessa värden används.
 
-* Uppdatera konfigurationsvariabeln [`trackingServer`](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/config-vars/trackingserver) för implementeringar av Adobe Analytics AppMeasurement. Om du har en befintlig implementering kan du läsa [Besöksmigrering](https://experienceleague.adobe.com/en/docs/analytics/technotes/visitor-migration) för ytterligare steg om hur du förhindrar att befintliga besökare räknas som nya besökare.
-* Uppdatera egenskapen [`edgeDomain`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/edgedomain) i kommandot [`configure`](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/commands/configure/overview) för Web SDK-implementeringar.
+* Uppdatera konfigurationsvariabeln [`trackingServer`](https://experienceleague.adobe.com/sv/docs/analytics/implementation/vars/config-vars/trackingserver) för implementeringar av Adobe Analytics AppMeasurement. Om du har en befintlig implementering kan du läsa [Besöksmigrering](https://experienceleague.adobe.com/sv/docs/analytics/technotes/visitor-migration) för ytterligare steg om hur du förhindrar att befintliga besökare räknas som nya besökare.
+* Uppdatera egenskapen [`edgeDomain`](https://experienceleague.adobe.com/sv/docs/experience-platform/web-sdk/commands/configure/edgedomain) i kommandot [`configure`](https://experienceleague.adobe.com/sv/docs/experience-platform/web-sdk/commands/configure/overview) för Web SDK-implementeringar.
 
 ## Underhåll och förnyelser
 

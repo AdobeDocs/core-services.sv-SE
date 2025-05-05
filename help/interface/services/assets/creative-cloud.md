@@ -32,4 +32,4 @@ Innan användare av Creative Cloud har tillgång till resurser måste de vitlist
 
 När du skapar aktiviteter i [!DNL Adobe Target] kan du använda en delad bildresurs när du byter bilder i [!UICONTROL Offers Library].
 
-Se [Erbjudandebibliotek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) i hjälpen för [!DNL Target].
+Se [Erbjudandebibliotek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=sv-SE) i hjälpen för [!DNL Target].

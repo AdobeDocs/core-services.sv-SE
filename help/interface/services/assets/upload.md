@@ -19,7 +19,7 @@ Du kan överföra en resurs via Creative Cloud eller webbläsaren Creative Cloud
 
 ## Överföra en resurs till en delad mapp från webbläsaren Creative Cloud
 
-Se [https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html](https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html) för hjälp om Creative Cloud.
+Se [https://helpx.adobe.com/se/creative-cloud/help/sync-creative-cloud-files.html](https://helpx.adobe.com/se/creative-cloud/help/sync-creative-cloud-files.html) för hjälp om Creative Cloud.
 
 1. Starta webbläsaren [!DNL Creative Cloud] och gå till [!UICONTROL Creative Cloud Files].
 1. Öppna den delade mappen.

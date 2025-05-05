@@ -39,7 +39,7 @@ På den här sidan visas en fullständig lista över användare som har tillgån
 |---|---|
 | [!UICONTROL Name] | Användarens för- och efternamn. Du kan sortera den här kolumnen från A till Ö och Ö till A. Klicka på en användares namn för att se mer information om användaren. |
 | [!UICONTROL Email] | E-postadressen som är associerad med användaren. Kolumnen kan sorteras A->Z, Z->A. |
-| [!UICONTROL ID Type] | Identitetstypen för användarens konto. Du kan använda filter för att visa specifika ID-typer. Mer information finns i [Hantera identitetstyper](https://helpx.adobe.com/enterprise/using/identity.html). |
+| [!UICONTROL ID Type] | Identitetstypen för användarens konto. Du kan använda filter för att visa specifika ID-typer. Mer information finns i [Hantera identitetstyper](https://helpx.adobe.com/se/enterprise/using/identity.html). |
 | [!UICONTROL Solutions] | Sammanfattning av Experience Cloud-program som användaren kan komma åt. Du kan använda filter för att begränsa listan över användare med särskild programåtkomst. |
 | [!UICONTROL Last Login] | Tid och datum för den senaste användarens inloggning på Experience Cloud. Den här kolumnen kan sorteras efter stigande eller fallande datum. <br> **Viktigt!** Från och med den 13 januari 2020 sparas en användares senaste inloggningsdata i 365 dagar. Denna information är avsedd att visa den aktuella inloggningsaktiviteten i Experience Cloud och inte en rekommendation om att vidta åtgärder för inaktiva konton före den 13 januari 2020. |
 
@@ -73,7 +73,7 @@ I det här avsnittet visas en sammanfattning av användarkontot, inklusive:
 * Namn
 * E-post
 * Användarnamn (Federated ID kan ha andra användarnamn än e-postadressen)
-* [ID-typ](https://helpx.adobe.com/enterprise/using/identity.html)
+* [ID-typ](https://helpx.adobe.com/se/enterprise/using/identity.html)
 * Land
 * Senaste inloggning
 

@@ -36,7 +36,7 @@ Audience Manager förlitar sig på några enkla cookies för att utföra olika f
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Innehåll</b> </p> </td> 
-   <td colname="col2"> <p>Cookien <span class="wintitle"> demdex </span> innehåller ett unikt användar-ID (UUID) enligt exemplet nedan: </p> <p> <span class="codeph"> 061513042277697204303923517820449977 </span> </p> <p>Se även <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">-index för ID i Audience Manager </a>. </p> </td> 
+   <td colname="col2"> <p>Cookien <span class="wintitle"> demdex </span> innehåller ett unikt användar-ID (UUID) enligt exemplet nedan: </p> <p> <span class="codeph"> 061513042277697204303923517820449977 </span> </p> <p>Se även <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=sv-SE" format="https" scope="external">-index för ID i Audience Manager </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Andra attribut</b> </p> </td> 
@@ -129,7 +129,7 @@ I följande tabell visas och definieras elementen i en `dextp`-cookie efter plat
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Syfte</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> ställer in den här cookien när det uppstår ett fel när data skickas till ett <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html" format="https" scope="external">-mål </a>. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> ställer in den här cookien när det uppstår ett fel när data skickas till ett <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=sv-SE" format="https" scope="external">-mål </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Innehåll</b> </p> </td> 

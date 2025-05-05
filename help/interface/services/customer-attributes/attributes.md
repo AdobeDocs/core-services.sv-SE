@@ -36,7 +36,7 @@ ht-degree: 5%
 
 * **Adobe Target** `at.js` (valfri version) eller `mbox.js` version 58 eller senare krävs för kundattribut.
 
-  Se [Distribuera på.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html).
+  Se [Distribuera på.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=sv-SE).
 
 ## Vad är företagsdata? {#section_6F34C29F11414842AA57D2B1248FA3C6}
 

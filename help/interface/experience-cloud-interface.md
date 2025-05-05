@@ -80,7 +80,7 @@ Klicka på programväljaren ![menu](assets/menu-icon.png) för att komma åt de 
 
 ## Söka och få support i Experience Cloud {#search-support}
 
-Med Experience Cloud-sökning kan du söka efter hjälp (dokumentation, självstudiekurser och kurser) på [Experience League](https://experienceleague.adobe.com/#home).
+Med Experience Cloud-sökning kan du söka efter hjälp (dokumentation, självstudiekurser och kurser) på [Experience League](https://experienceleague.adobe.com/sv#home).
 
 ![Söka och support i Experience Cloud](assets/search-menu.png)
 

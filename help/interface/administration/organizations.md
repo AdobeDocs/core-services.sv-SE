@@ -100,5 +100,5 @@ Hjälp om problem som uppstår vid kontolänkning.
 
 Kontolänkning misslyckas oftast eftersom Adobe ID är länkat till en tidigare användare. När kontolänkningen misslyckas kan du:
 
-* [Kontakta Adobe support](https://experienceleague.adobe.com/?support-solution=General#support).
+* [Kontakta Adobe support](https://experienceleague.adobe.com/sv?support-solution=General#support).
 * Använd standardinloggningen när problemet är löst.

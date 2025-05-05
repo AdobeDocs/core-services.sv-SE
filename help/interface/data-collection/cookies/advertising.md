@@ -20,7 +20,7 @@ Adobe Advertising (tidigare Adobe Advertising Cloud) använder cookies för att 
 
 >[!NOTE]
 >
->Betataggen Javascript för Adobe Advertising som använder [Adobe Experience Cloud ID-tjänsten (ECID) ](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html) skapar cookies från [Experience Cloud](experience-cloud.md) `s_ecid` och inte från Adobe Advertising.
+>Betataggen Javascript för Adobe Advertising som använder [Adobe Experience Cloud ID-tjänsten (ECID) ](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=sv-SE) skapar cookies från [Experience Cloud](experience-cloud.md) `s_ecid` och inte från Adobe Advertising.
 
 | Kaknamn | Förfallotid | Storlek | Plats | Beskrivning |
 | --- | --- | --- | --- | --- |

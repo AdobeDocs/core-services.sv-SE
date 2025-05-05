@@ -21,7 +21,7 @@ Tillåtna filtyper och storleksbegränsningar för delning av resurser mellan Ex
 
 ## Filtyper som tillåts för överföring {#section_52B6A40BB00B45BC944C01C49B4BB590}
 
-De filtyper du kan överföra är bland annat bilder, dokument och multimedia. Mer information om filformat i [!DNL Experience Cloud] Assets finns i [Format som stöds](https://helpx.adobe.com/experience-manager/brand-portal/using/brand-portal-supported-formats.html).
+De filtyper du kan överföra är bland annat bilder, dokument och multimedia. Mer information om filformat i [!DNL Experience Cloud] Assets finns i [Format som stöds](https://helpx.adobe.com/se/experience-manager/brand-portal/using/brand-portal-supported-formats.html).
 
 ## Begränsningar för filstorlek {#section_410ED8E24DBD4136830AE679C6B10D88}
 
