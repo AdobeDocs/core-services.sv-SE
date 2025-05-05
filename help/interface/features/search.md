@@ -70,7 +70,7 @@ Sökalgoritmer visar först de mest relevanta posterna. Vilken ordning du välje
 * Användarbehörigheter för att komma åt objekt
 * Matchande procent
 * Exakta matchningar
-* Avsnittet _[!UICONTROL Top Results]_visar de 30 viktigaste resultaten.
+* Avsnittet _[!UICONTROL Top Results]_&#x200B;visar de 30 viktigaste resultaten.
 
 Förfina sökningen genom att klicka på något av följande:
 

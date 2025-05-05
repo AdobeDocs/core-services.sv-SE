@@ -98,7 +98,7 @@ På kontoinställningsmenyn kan du:
 * Ange ett mörkt tema (alla program stöder inte det här temat)
 * Sök efter [organisationer](organizations.md)
 * Logga ut
-* Konfigurera inställningar, meddelanden och prenumerationer för kontot [](#preferences)
+* Konfigurera inställningar, meddelanden och prenumerationer för kontot [&#128279;](#preferences)
 
 ### Hantera Experience Cloud [!UICONTROL Preferences] {#preferences}
 
