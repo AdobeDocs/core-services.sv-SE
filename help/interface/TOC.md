@@ -5,10 +5,10 @@ breadcrumb-title: Gränssnitt och administration i Experience Cloud
 title: Experience Cloud Interface and Administration
 description: Läs mer om Experience Cloud gränssnitt, cookies och kontoinställningar. Hantera produkter och konfigurera persontjänsten, inklusive kundattribut och målgruppsbibliotek. Dela Experience Cloud Assets.
 index: true
-source-git-commit: 34b02683979c36728cddf8cf6d152d84c910f735
+source-git-commit: 82153937f2fbc9b14d76d9ba52b77c41f0a138db
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 18%
+source-wordcount: '236'
+ht-degree: 20%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 18%
 + Tjänster {#services}
    + [Översikt](services/overview.md)
    + [Komma igång](services/getting-started.md)
-   + Assets {#assets}
+   + Resurser {#assets}
       + [Översikt](services/assets/experience-cloud-assets.md)
       + [Dela mappar och resurser med Creative Cloud](services/assets/creative-cloud.md)
       + [Hantera Creative Cloud-användare](services/assets/manage-cc-users.md)
@@ -28,7 +28,7 @@ ht-degree: 18%
       + [Överföra en resurs till en delad mapp](services/assets/upload.md)
       + [Krav för resursfiler för delning](services/assets/file-reqs.md)
       + [Beteende för delade mappar](services/assets/behavior.md)
-   + Målbibliotek {#audiences}
+   + Målgruppsbibliotek {#audiences}
       + [Översikt](services/audiences/overview.md)
       + [Skapa en målgrupp](services/audiences/create.md)
    + [Exchange](services/exchange.md)
@@ -53,7 +53,7 @@ ht-degree: 18%
    + [Personligt lärande](features/personalized-learning.md)
    + [Stöd för webbläsare och språk](browser-language.md)
 
-+ Administration {#administration}
++ Administrering {#administration}
    + [Användarhantering och produktlicenser](administration/admin-console.md)
    + [Visa användarinformation (Admin Tool)](administration/admin-tool-experience-cloud.md)
    + [Organisationer och kontolänkning](administration/organizations.md)
@@ -74,7 +74,7 @@ ht-degree: 18%
    + [Regional datainsamling](data-collection/rdc.md)
    + [Använd DNS-förhämtning](data-collection/dns-prefetch.md)
 
-+ Fler resurser {#more-resources}
++ Versionsinformation och resurser {#more-resources}
    + [Versionsinformation](more-resources/release-notes.md)
    + [Dokumentationsuppdateringar](more-resources/doc-updates.md)
    + [Vanliga frågor och svar](more-resources/faq.md)
