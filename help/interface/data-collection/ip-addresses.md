@@ -1,10 +1,10 @@
 ---
 title: IP-adresser som används av Experience Cloud
-description: Om brandväggen blockerar IP-adresser som kommer från Adobe kan du uppdatera brandväggsinställningarna i den här listan.
+description: Om brandväggen blockerar IP-adresser som kommer från Adobe använder du den här listan för att uppdatera brandväggsinställningarna.
 exl-id: 1fca8d3b-ae8b-4095-96ef-d165f912b4c6
-source-git-commit: faa9b8067a85f86cc0b559bdeeaed80df2339c7d
+source-git-commit: 92f041f11cfa33c2e08e90c45e6fa46729447ac5
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '375'
 ht-degree: 1%
 
 ---
@@ -15,17 +15,17 @@ Vissa brandväggskonfigurationer blockerar IP-adresser som kommer från Adobe da
 
 >[!IMPORTANT]
 >
->Även om Adobe gör sitt bästa för att hålla det här dokumentet aktuellt kan det inte garantera att listan med IP-intervall är densamma. Möjliga förändringar är tillväxt och expansion av verksamheten, ett Internetregister kräver ändringar av Adobe IP-adressutrymme eller att en Internetleverantör slutar fungera.
+>Även om Adobe gör sitt bästa för att hålla det här dokumentet aktuellt kan det inte garantera att listan med IP-intervall är densamma. Möjliga förändringar är bland annat tillväxt och expansion av verksamheten, ett Internetregister kräver ändringar av Adobe IP-adressutrymme eller att en Internetleverantör slutar fungera.
 
 Förutom de IP-adressblock som anges nedan har enskilda Adobe Experience Cloud-produkter sina egna IP-adresser som de använder:
 
-* [Adobe Analytics](https://experienceleague.adobe.com/sv/docs/analytics/technotes/ip-addresses)
-* [Customer Journey Analytics](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/technotes/ip-addresses)
-* [Marketo Engage](https://experienceleague.adobe.com/sv/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
+* [Adobe Analytics](https://experienceleague.adobe.com/en/docs/analytics/technotes/ip-addresses)
+* [Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/ip-addresses)
+* [Marketo Engage](https://experienceleague.adobe.com/en/docs/marketo/using/getting-started/initial-setup/configure-protocols-for-marketo#step-allowlist-marketo-ips)
 
-## Alla IP-adressblock för Adobe
+## Alla Adobe IP-adressblock
 
-Följande tabell omfattar alla IP-adresser som ägs av Adobe. Tabellen innehåller alla medarbetarkontor i Adobe och datacenter som drivs av Adobe globalt. Det omfattar inte tjänster som lagras på offentliga moln.
+Följande tabell omfattar alla IP-adresser som ägs av Adobe. Tabellen innehåller alla Adobe personalkontor och datacenter som Adobe driver globalt. Det omfattar inte tjänster som lagras på offentliga moln.
 
 | IP-block (CIDR-notering) |
 | --- |
@@ -55,7 +55,6 @@ Alla IP-intervall i det här avsnittet ingår i tabellen ovan.
 | Kalifornien | `63.140.32.0/23` |
 | Kalifornien | `63.140.34.0/24` |
 | Frankrike | `63.140.62.0/23` |
-| Indien | `66.117.20.0/24` |
 | Indien | `66.117.22.0/23` |
 | Japan | `130.248.169.0/23` |
 | Japan | `63.140.50.0/23` |
@@ -64,6 +63,7 @@ Alla IP-intervall i det här avsnittet ingår i tabellen ovan.
 | London | `185.34.188.0/22` |
 | London | `130.248.152.0/22` |
 | London | `130.248.244.0/23` |
+| Ohio | `66.117.20.0/24` |
 | Oregon | `66.235.132.0/22` |
 | Oregon | `130.248.130.0/23` |
 | Oregon | `130.248.150.0/24` |
@@ -93,6 +93,7 @@ Adobe Experience Cloud har också stöd för IPv6 med begränsad kapacitet. Dess
 | Indien | `2406:da1a:f34:6a00::/56` |
 | Irland | `2a05:d018:309:600::/56` |
 | Japan | `2406:da14:b07:ab00::/56` |
+| Ohio | `2600:1f16:130f:7d00::/56` |
 | Oregon | `2600:1f14:1eb:7d00::/56` |
 | Oregon | `2600:1f14:9d3:2b00::/56` |
 | Singapore | `2406:da18:6e8:1e00::/56` |
