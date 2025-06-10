@@ -8,10 +8,10 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: bd9bea58-9987-40d6-84e0-da185388bbbb
-source-git-commit: cb928a0398699b966a0f0dacc569c7958dac12d1
+source-git-commit: 2073400a04933226bd036c1fcd729df70f101df3
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 2%
+source-wordcount: '352'
+ht-degree: 1%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Experience Cloud använder cookies för att lagra ett besökar-ID som anv�
   </tr> 
   <tr> 
    <td colname="col1"> <p> Förfallotid </p> </td> 
-   <td colname="col2"> <p>2 år </p> </td> 
+   <td colname="col2"> <p>2 år, men de flesta moderna webbläsare trunkerar till 13 månader</p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> Användning </p> </td> 
@@ -58,9 +58,9 @@ Adobe Experience Cloud använder cookies för att lagra ett besökar-ID som anv�
 
 **Cookie-namn: AMCV_###@AdobeOrg**
 
-[Experience Platform ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=sv-SE) använder JavaScript för att lagra ett unikt besökar-ID i en `AMCV_###@AdobeOrg`-cookie på den aktuella webbplatsens domän, där `###` representerar en slumpmässig teckensträng, till exempel `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
+[Experience Platform ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/home.html) använder JavaScript för att lagra ett unikt besökar-ID i en `AMCV_###@AdobeOrg`-cookie på den aktuella webbplatsens domän, där `###` representerar en slumpmässig teckensträng, till exempel `AMCV_1FD6776A524453CC0A490D44%40AdobeOrg.`
 
-Se även [Cookies och ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html?lang=sv-SE).
+Se även [Cookies och ID-tjänsten](https://experienceleague.adobe.com/docs/id-service/using/intro/cookies.html).
 
 <table id="table_1883C0836C1E4AF5A262FBF5000C1B11"> 
  <thead> 
