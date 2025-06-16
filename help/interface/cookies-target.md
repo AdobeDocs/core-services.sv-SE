@@ -23,7 +23,7 @@ ht-degree: 0%
 >
 >Informationen i den här artikeln gäller endast för JavaScript-biblioteket [[!DNL Target] at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}.
 >
->Mer information om cookies som används i en [!DNL Target]-implementering med [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target=_blank} finns i&quot;Använder [!DNL Adobe Experience Platform Web SDK] cookies? Om så är fallet, vilka cookies använder den?&quot; i [Vanliga frågor och svar i översiktsguiden för DNL Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html){target=_blank}.
+>Mer information om cookies som används i en [!DNL Target]-implementering med [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html){target=_blank} finns i&quot;Använder [!DNL Adobe Experience Platform Web SDK] cookies? Om så är fallet, vilka cookies använder den?&quot; i [[!DNL Vanliga frågor och svar i översiktsguiden för Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/web-sdk-faq.html){target=_blank}.
 >
 >Du kan ändra inställningarna som beskrivs i den här artikeln om det behövs, förutom cookie-varaktighet. [Kontakta din kontorepresentant](https://experienceleague.adobe.com/docs/target/using/cmp-resources-and-contact-information.html){target=_blank} när du ändrar cookie-inställningar.
 >
