@@ -99,7 +99,7 @@ Med etablering i Experience Cloud avses följande:
 
 * Användarrättigheter och produkthantering utförs i [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (produktlänk).
 
-* **Viktigt!** Analysadministratörer, se [Hantera analysanvändare i Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) om hur du migrerar användar-ID:n från Analytics Admin Tools till Admin Console.
+* **Viktigt!** Analysadministratörer, se [Hantera analysanvändare i Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=sv-SE) om hur du migrerar användar-ID:n från Analytics Admin Tools till Admin Console.
 
 +++
 
@@ -107,7 +107,7 @@ Med etablering i Experience Cloud avses följande:
 
 Admin Console-administratörer kan ge användare åtkomst. Användarna får e-post med inloggningsinstruktioner.
 
-Du kanske måste [kontakta Adobe Support](https://experienceleague.adobe.com/?support-solution=General#support) för att verifiera att ditt företag har etablerats helt.
+Du kanske måste [kontakta Adobe Support](https://experienceleague.adobe.com/sv?support-solution=General#support) för att verifiera att ditt företag har etablerats helt.
 
 +++
 
@@ -145,7 +145,7 @@ Deras åtkomst bör tas bort från själva programmet. De kommer inte att kunna 
 
 +++Vad är en Adobe ID?
 
-Se [Identitetstyper](https://helpx.adobe.com/enterprise/using/identity.html).
+Se [Identitetstyper](https://helpx.adobe.com/se/enterprise/using/identity.html).
 
 +++
 
