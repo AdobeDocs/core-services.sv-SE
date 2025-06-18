@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 062576da-328e-4b46-9e71-5a25733d607a
-source-git-commit: e523471b6dd67cf8213ead3208347fd3aa32a164
+source-git-commit: 74c584e657e02fdebcaa52cffb6778f8ce5f350c
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '697'
 ht-degree: 2%
 
 ---
@@ -33,13 +33,13 @@ Det går att använda en annan webbläsare, men det går inte att garantera supp
 
 >[!NOTE]
 >
->Alla program som körs på Experience Cloud har inte stöd för alla webbläsare. Om du är osäker läser du dokumentationen för ett specifikt program.
+>Alla program som körs på Experience Cloud-domäner stöder inte alla webbläsare. Om du är osäker läser du dokumentationen för ett specifikt program.
 
 +++
 
 +++Vilka språk stöds?
 
-Experience Cloud har stöd för de språk som varje användare föredrar, enligt inställningarna för ditt Adobe-användarkonto. Språk som stöds är:
+Experience Cloud har stöd för de språk varje användare föredrar, enligt inställningarna för ditt Adobe-användarkonto. Språk som stöds är:
 
 * Kinesiska
 * Engelska
@@ -52,25 +52,25 @@ Experience Cloud har stöd för de språk som varje användare föredrar, enligt
 * Spanska
 * Taiwanesiska
 
-Även om programgruppen har ett globalt språkstöd erbjuds inte alla program på alla språk som anges ovan. Om ditt primära språk inte stöds i ett Experience Cloud-program kan du även ange ett sekundärt språk som standard till när det är tillämpligt. Detta kan du göra i [Experience Cloud-användarinställningarna](https://experience.adobe.com/preferences).
+Även om programgruppen har ett globalt språkstöd erbjuds inte alla program på alla språk som anges ovan. Om ditt primära språk inte stöds i ett Experience Cloud-program kan du även ange ett sekundärt språk som standard till när det är tillämpligt. Detta kan du göra i [Experience Cloud användarinställningar](https://experience.adobe.com/preferences).
 
 +++
 
-+++debiterar Adobe mitt företag för Adobe Experience Cloud åtkomst?
++++debiterar Adobe mitt företag Adobe Experience Cloud åtkomst?
 
 Nej. Adobe Experience Cloud ingår utan extra kostnad. Vissa bastjänster kan dock medföra extrakostnader.
 
 +++
 
-+++Varför måste mitt företag logga in via Experience Cloud-gränssnittet?
++++Varför måste mitt företag logga in via Experience Cloud gränssnitt?
 
-De funktioner som finns i gränssnittet Experience Cloud ger ditt företag ett mervärde. Det är också standardsökvägen för att komma åt program som går framåt och som till slut ersätter andra inloggningsflöden för enskilda program. Inloggning via Experience Cloud underlättar en smidigare övergång senare.
+Funktionerna i Experience Cloud-gränssnittet ger ditt företag ett mervärde. Det är också standardsökvägen för att komma åt program som går framåt och som till slut ersätter andra inloggningsflöden för enskilda program. Inloggning via Experience Cloud underlättar en smidigare övergång senare.
 
 +++
 
-+++Hur kan Adobe komma åt min molnmiljö i Adobe för att felsöka ett problem?
++++Hur kan Adobe komma åt min molnmiljö i Adobe och felsöka ett problem?
 
-Adobe kundtjänst kan skicka in en personifieringsbegäran som du får ett Adobe-märkt e-postmeddelande om att du behöver din uttryckliga behörighet. Åtkomsten beviljas för en begränsad tid. När åtkomsten har beviljats kan du återkalla den när som helst. Adobe loggar alla åtgärder som vidtas av företrädare för Adobe.
+Adobe kundtjänst kan skicka in en personifieringsförfrågan som du får ett Adobe-märkt mejl (exempel nedan) som efterfrågar din uttryckliga behörighet. Åtkomsten beviljas för en begränsad tid. När åtkomsten har beviljats kan du återkalla den när som helst. Adobe loggar alla åtgärder som Adobe har vidtagit.
 
 ![Adobe supportärende](../assets/support-email.png)
 
@@ -78,10 +78,10 @@ Adobe kundtjänst kan skicka in en personifieringsbegäran som du får ett Adobe
 
 +++Vad är &quot;provisionering&quot;?
 
-Med etablering i Experience Cloud avses
+Med etablering i Experience Cloud avses följande:
 
 * Dina användare kan börja logga in på Experience Cloud och länka program.
-* De kan börja använda de funktioner som är tillgängliga via Experience Cloud, till exempel Folk.
+* De kan börja använda de funktioner som är tillgängliga via Experience Cloud.
 * Du kan bli redo att avsluta din programspecifika inloggningsprocess.
 * Du kan behålla åtkomstkontroll för program.
 
@@ -95,11 +95,11 @@ Med etablering i Experience Cloud avses
 
 +++Hur hanterar jag produktprofiler och autentiseringsuppgifter för användarkonton?
 
-* Mer information finns i användarhandboken för [Admin Console](https://helpx.adobe.com/se/enterprise/admin-guide.html).
+* Se [Admin Console användarhandbok](https://helpx.adobe.com/se/enterprise/admin-guide.html) för hjälp.
 
 * Användarrättigheter och produkthantering utförs i [Adobe Admin Console](https://adminconsole.adobe.com/enterprise) (produktlänk).
 
-* **Viktigt!** Analysadministratörer, se [Hantera analysanvändare i Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html?lang=sv-SE) om hur du migrerar användar-ID:n från Analytics Admin Tools till Admin Console.
+* **Viktigt!** Analysadministratörer, se [Hantera analysanvändare i Admin Console](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/migrate-users/c-migration-tool.html) om hur du migrerar användar-ID:n från Analytics Admin Tools till Admin Console.
 
 +++
 
@@ -107,7 +107,7 @@ Med etablering i Experience Cloud avses
 
 Admin Console-administratörer kan ge användare åtkomst. Användarna får e-post med inloggningsinstruktioner.
 
-Du kanske måste [kontakta Adobe Support](https://experienceleague.adobe.com/sv?support-solution=General#support) för att verifiera att ditt företag har etablerats helt.
+Du kanske måste [kontakta Adobe Support](https://experienceleague.adobe.com/?support-solution=General#support) för att verifiera att ditt företag har etablerats helt.
 
 +++
 
@@ -127,7 +127,7 @@ Se [Hantera användarkonton](../administration/organizations.md).
 
 +++Vad är en organisation?
 
-En [organisation](../administration/organizations.md) är den entitet som gör det möjligt för en administratör att konfigurera grupper och användare samt att styra enkel inloggning i Experience Cloud. Organisationen fungerar som ett inloggningsföretag som omfattar alla produkter och program från Experience Cloud. Oftast är en organisation ditt företagsnamn. Ett företag kan dock ha många organisationer.
+En [organisation](../administration/organizations.md) är den entitet som gör det möjligt för en administratör att konfigurera grupper och användare samt att styra enkel inloggning i Experience Cloud. Organisationen fungerar som ett inloggningsföretag som omfattar alla Experience Cloud-produkter och program. Oftast är en organisation ditt företagsnamn. Ett företag kan dock ha många organisationer.
 
 +++
 
@@ -145,7 +145,7 @@ Deras åtkomst bör tas bort från själva programmet. De kommer inte att kunna 
 
 +++Vad är en Adobe ID?
 
-Se [Identitetstyper](https://helpx.adobe.com/se/enterprise/using/identity.html).
+Se [Identitetstyper](https://helpx.adobe.com/enterprise/using/identity.html).
 
 +++
 

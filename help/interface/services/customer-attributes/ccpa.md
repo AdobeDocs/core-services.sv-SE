@@ -1,21 +1,21 @@
 ---
-title: Customer Attributes Support for California Consumer Privacy Act
-description: Läs mer om stöd för Kundattribut i Kaliforniens konsumentintegritetslag
+title: Kundattribut - stöd för California Consumer Privacy Act
+description: Läs mer om stöd för kundattribut i Kaliforniens konsumentintegritetslag
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: c39672f0d8a0fd353b275b2ecd095ada1e2bf744
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '403'
 ht-degree: 0%
 
 ---
 
-# Customer Attributes support for California Consumer Privacy Act
+# Kundattribut - stöd för California Consumer Privacy Act
 
-Den här sidan beskriver [!UICONTROL Customer Attributes]-stödet för California Consumer Privacy Act (CCPA).
+Den här sidan beskriver [!UICONTROL customer attributes]-stöd för California Consumer Privacy Act (CCPA).
 
 >[!IMPORTANT]
 >
@@ -25,15 +25,15 @@ CCPA är Kaliforniens nya integritetslagstiftning som träder i kraft den 1 janu
 
 Som företag avgör du vilka personuppgifter Adobe Experience Cloud behandlar och lagrar å dina vägnar.
 
-Som tjänsteleverantör tillhandahåller Adobe Experience Cloud support för ert företag för att uppfylla de skyldigheter enligt CCPA som gäller för användning av Experience Cloud produkter och tjänster. Supporten omfattar hantering av förfrågningar om åtkomst och radering av personlig information.
+Som tjänsteleverantör tillhandahåller Adobe Experience Cloud support för ditt företag så att det kan uppfylla sina skyldigheter enligt CCPA som är tillämpliga på användningen av Experience Cloud produkter och tjänster. Supporten omfattar hantering av förfrågningar om åtkomst och radering av personlig information.
 
-I det här dokumentet beskrivs hur [!UICONTROL Customer Attributes] stöder de registrerade personernas CCPA-dataåtkomst och borttagningsrättigheter med hjälp av Adobe Experience Platform Privacy Service API och Privacy Servicens användargränssnitt.
+I det här dokumentet beskrivs hur [!UICONTROL customer attributes] stöder de registrerade personernas CCPA-dataåtkomst och borttagningsrättigheter med hjälp av Adobe Experience Platform Privacy Service API och Privacy Service UI.
 
-Mer information om sekretessavtal för CCPA för Adobe finns i [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html).
+Mer information om Adobe sekretesstjänster för CCPA finns i [Adobe Privacy Center](https://www.adobe.com/privacy/ccpa.html).
 
-## Nödvändig konfiguration för att skicka begäranden för [!UICONTROL Customer Attributes]
+## Nödvändig konfiguration för att skicka begäranden för [!UICONTROL customer attributes]
 
-Om du vill göra förfrågningar om åtkomst och borttagning av data för [!UICONTROL Customer Attributes] måste du:
+Om du vill göra förfrågningar om åtkomst och borttagning av data för [!UICONTROL customer attributes] måste du:
 
 1. Identifiera följande:
 
@@ -45,7 +45,7 @@ Om du vill göra förfrågningar om åtkomst och borttagning av data för [!UICO
 
 1. I [!UICONTROL Privacy Service] kan du skicka in begäran om åtkomst och borttagning till kundattribut och kontrollera status för befintliga begäranden.
 
-## Obligatoriska fältvärden i [!UICONTROL Customer Attributes] JSON-begäranden
+## Obligatoriska fältvärden i [!UICONTROL customer attributes] JSON-begäranden
 
 företagskontext:
 
@@ -60,7 +60,7 @@ användare:
    * &quot;namespace&quot;: &lt;*Alias ID för CRS Data Source*>
    * &quot;type&quot;: **integrationCode**
    * &quot;value&quot;: &lt;*CRM ID*>
-* &quot;include&quot;: **CRS** (som är Adobe-produkten som gäller för begäran)
+* &quot;include&quot;: **CRS** (som är den Adobe-produkt som gäller för begäran)
 * &quot;regler&quot;: **ccpa** (som är sekretessregeln som gäller för begäran)
 
 ## Exempel på JSON-begäran

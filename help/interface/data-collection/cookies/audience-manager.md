@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ab6de845-99ea-4cd8-b7cd-012fb641403f
-source-git-commit: 2a80851c0a7d4ef7dbcc2565177b239f3e063164
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '626'
 ht-degree: 1%
@@ -32,11 +32,11 @@ Audience Manager förlitar sig på några enkla cookies för att utföra olika f
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Syfte</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> ställer in den här cookien så att den tilldelar ett unikt ID till en webbplatsbesökare. Cookien <span class="wintitle"> demdex </span> hjälper <span class="keyword"> Audience Manager </span> att utföra grundläggande funktioner som besökaridentifiering, ID-synkronisering, segmentering, modellering, rapportering och så vidare. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> ställer in den här cookien så att den tilldelar ett unikt ID till en besökare. Cookien <span class="wintitle"> demdex </span> hjälper <span class="keyword"> Audience Manager </span> att utföra grundläggande funktioner som besökaridentifiering, ID-synkronisering, segmentering, modellering, rapportering och så vidare. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Innehåll</b> </p> </td> 
-   <td colname="col2"> <p>Cookien <span class="wintitle"> demdex </span> innehåller ett unikt användar-ID (UUID) enligt exemplet nedan: </p> <p> <span class="codeph"> 061513042277697204303923517820449977 </span> </p> <p>Se även <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html?lang=sv-SE" format="https" scope="external">-index för ID i Audience Manager </a>. </p> </td> 
+   <td colname="col2"> <p>Cookien <span class="wintitle"> demdex </span> innehåller ett unikt användar-ID (UUID) enligt exemplet nedan: </p> <p> <span class="codeph"> 061513042277697204303923517820449977 </span> </p> <p>Se även <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/reference/ids-in-aam.html" format="https" scope="external">-index för ID i Audience Manager </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Andra attribut</b> </p> </td> 
@@ -61,7 +61,7 @@ Audience Manager förlitar sig på några enkla cookies för att utföra olika f
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Syfte</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> ställer in den här cookien så att den registreras senast den gjorde ett datasynkroniseringsanrop. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> ställer in den här cookie-filen så att den spelas in vid det senaste anropet till datasynkronisering. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Innehåll</b> </p> </td> 
@@ -129,7 +129,7 @@ I följande tabell visas och definieras elementen i en `dextp`-cookie efter plat
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <b>Syfte</b> </p> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> ställer in den här cookien när det uppstår ett fel när data skickas till ett <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html?lang=sv-SE" format="https" scope="external">-mål </a>. </p> </td> 
+   <td colname="col2"> <p> <span class="keyword"> Audience Manager </span> ställer in denna cookie när ett fel uppstår när data skickas till ett <a href="https://experienceleague.adobe.com/docs/audience-manager/user-guide/features/destinations/destinations.html" format="https" scope="external"> mål </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> <b>Innehåll</b> </p> </td> 

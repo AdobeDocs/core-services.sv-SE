@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 11cc5005-8ec0-4308-bc94-0f78666ea645
-source-git-commit: e0b8281058b44012bdd7befa6ce26355a35bcf11
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 4%
@@ -57,8 +57,8 @@ Uppdaterar hur du kan hitta ditt [organisations-ID](../administration/organizati
 | Funktion | Beskrivning |
 | ------- | ------- |
 | Hemsida | Information om Experience Cloud sidfot i hemmet har flyttats till användarprofilkortet, inklusive Juridiska meddelanden och språkval i Inställningar. |
-| AEP-instrumentpaneler | [!DNL Helios Lite] innehåller diagramrekommendationer i arbetsflödet för att skapa Experience Platform-widgetar. Om man utgår från ett dataurval (för närvarande ett val av variabeldata) rekommenderar vi en lämplig visualisering som medföljer detta dataurval. |
-| AEP-instrumentpaneler | [!DNL Instory] innehåller en XML-baserad skriven berättarröst och bildtexter för diagram. Den inordnar diagram på AEP Dashboards-sidan med relevanta punkter som anropar viktiga ändringar och incidenter i grafdata. |
+| AEP Dashboards | [!DNL Helios Lite] innehåller diagramrekommendationer i arbetsflödet för att skapa Experience Platform-widgetar. Om man utgår från ett dataurval (för närvarande ett val av variabeldata) rekommenderar vi en lämplig visualisering som medföljer detta dataurval. |
+| AEP Dashboards | [!DNL Instory] innehåller en XML-baserad skriven berättarröst och bildtexter för diagram. Den inordnar diagram på AEP Dashboards-sidan med relevanta punkter som anropar viktiga ändringar och incidenter i grafdata. |
 
 **13 oktober 2021**
 
@@ -112,7 +112,7 @@ Lade till hur ett kundattribut skulle tas bort. Se [(Valfritt) Uppdatera schemat
 
 **8 juni 2018**
 
-[Datafilen och datakällorna för kundattribut](../services/customer-attributes/crs-data-file.md) har uppdaterats med information om överföring av flera filer.
+Uppdaterade [Om datafiler och datakällor för kundattribut](../services/customer-attributes/crs-data-file.md) med information om överföring av flera filer.
 
 **6 juni 2018**
 

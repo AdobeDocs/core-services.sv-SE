@@ -1,5 +1,5 @@
 ---
-description: Lär dig hur du överför kundattributdata via FTP till Experience Cloud.
+description: Lär dig överföra kundattributdata via FTP till Experience Cloud.
 solution: Experience Cloud
 title: Överför kundattributdatafilen via FTP
 feature: Customer Attributes
@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Valfritt - Överför datafilen via FTP
 
-Om du inte överför via dra och släpp kan du överföra kundattributdata via FTP till Experience Cloud.
+Om du inte överför med dra och släpp kan du överföra kundattributdata via FTP till Experience Cloud.
 
 Du kan överföra data när du har skapat en kundattributskälla och ett FTP-konto i Experience Cloud. Du skapar ett FTP-konto per attributkälla. De överförda filerna lagras i kontots rotmapp. Data måste vara i formatet `.csv`, med en andra `.fin`-fil för att indikera att överföringen är slutförd.
 
@@ -24,10 +24,10 @@ Du kan överföra data när du har skapat en kundattributskälla och ett FTP-kon
 >
 >Granska [datafilskraven för överföring av kundattribut](crs-data-file.md) innan du överför filen.
 
-Filöverföring till FTP-webbplatsen för kundattribut kan göras via FTP eller SFTP:
+Filöverföring till kundattributen FTP-plats kan göras via FTP eller SFTP:
 
 * Du behöver en klient som stöder SFTP-anslutningar.
-* Du kan ansluta med SFTP med antingen användarnamn/lösenord eller utan lösenord, vilket beskrivs [här](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=sv-SE).
+* Du kan ansluta med SFTP med antingen användarnamn/lösenord eller utan lösenord, vilket beskrivs [här](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
 
 **Så här överför du datafilen via FTP**
 

@@ -3,9 +3,9 @@ role: User,Admin
 user-guide-title: Gränssnitt och administration i Experience Cloud
 breadcrumb-title: Gränssnitt och administration i Experience Cloud
 title: Experience Cloud Interface and Administration
-description: Läs mer om Experience Cloud gränssnitt, cookies och kontoinställningar. Hantera produkter och konfigurera persontjänsten, inklusive kundattribut och målgruppsbibliotek. Dela Experience Cloud Assets.
+description: Läs mer om Experience Cloud gränssnitt, cookies och kontoinställningar. Hantera produkter och konfigurera Persontjänsten, inklusive kundattribut och målgruppsbibliotek. Dela Experience Cloud Assets.
 index: true
-source-git-commit: 1a6acca32b4975f8e35f7d2630f976b8b36fb043
+source-git-commit: cee634cd4f64bac4e06d25e1872a0f84772c46ed
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 20%
@@ -34,9 +34,9 @@ ht-degree: 20%
    + [Exchange](services/exchange.md)
    + Kundattribut {#customer-attributes}
       + [Översikt](services/customer-attributes/attributes.md)
-      + [Vanliga frågor om kundattribut](services/customer-attributes/faq-crs.md)
+      + [Frågor och svar om kundattribut](services/customer-attributes/faq-crs.md)
       + [Om datafiler och datakällor för kundattribut](services/customer-attributes/crs-data-file.md)
-      + [Skapa en kundattributskälla och överför datafilen](services/customer-attributes/t-crs-usecase.md)
+      + [Skapa en kundattributkälla och överför datafilen](services/customer-attributes/t-crs-usecase.md)
       + [Valfritt - Överför datafilen via FTP](services/customer-attributes/t-upload-attributes-ftp.md)
       + [Validera schemat](services/customer-attributes/validate-schema.md)
       + [Konfigurera prenumerationer](services/customer-attributes/subscription.md)

@@ -1,5 +1,5 @@
 ---
-description: Läs om de senaste funktionerna, versionsinformationen och kända problem för Experience Cloud tjänster som kundattribut, målgrupper och användarhantering.
+description: Läs om de senaste funktionerna, versionsinformationen och kända problem för Experience Cloud-tjänster som kundattribut, målgrupper och användarhantering.
 solution: Experience Cloud
 title: Cumulative Release Notes for Experience Cloud Interface
 uuid: fcff8cc6-e587-4bf2-9a75-261d4eabc7d4
@@ -9,7 +9,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: c9226cb71fdda9a04c4b8d3d25f348746af62865
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '1214'
 ht-degree: 9%
@@ -60,21 +60,21 @@ NA - released July 2022
 
 Release: **July 20 - August 31, 2023**
 
-Adobe is updating its provisioning to provide all [!DNL Experience Cloud] customers access to foundational capabilities that aid interoperability between some [!DNL Experience Cloud] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL Experience Cloud] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=sv-SE) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
+Adobe is updating its provisioning to provide all [!DNL Experience Cloud] customers access to foundational capabilities that aid interoperability between some [!DNL Experience Cloud] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL Experience Cloud] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
 
 With this update, administrators may see changes or additions to the Admin Console:
 
-* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=sv-SE), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=sv-SE), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=sv-SE), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=sv-SE), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=sv-SE), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=sv-SE), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=sv-SE), and [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=sv-SE).
+* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html), and [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
 
   * For organizations who are not currently using [!DNL Experience Platform], you will now see the [!DNL Experience Platform] product in the [!UICONTROL Admin Console], including the capabilities listed above.
 
   * For organizations currently using [!DNL Experience Platform], [!UICONTROL Places] will be consolidated into the [!DNL Experience Platform] card.
 
-* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=sv-SE) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=sv-SE) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities -->
+* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities -->
 
 ## Maj 2023
 
-* Innehållssökningen har uppdaterats på menyn [!DNL Experience Cloud] **[!UICONTROL Help]** för att filtrera efter program i sökresultaten för [Experience League](https://experienceleague.adobe.com/sv#home).
+* Innehållssökningen har uppdaterats på menyn [!DNL Experience Cloud] **[!UICONTROL Help]** för att filtrera efter program i sökresultaten för [Experience League](https://experienceleague.adobe.com/#home).
 
 ## Juli 2022
 
@@ -105,7 +105,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | Funktion | Beskrivning |
 | ------- |-------|
 | Genvägar (**[!UICONTROL Recents]**) har lagts till i startsidan för [Experience Cloud](https://experience.adobe.com/home) | Du kan komma åt genvägar till dina senaste Journey Optimizer- och Experience Platform-arbeten under den nya rubriken _Senaste_ på landningssidan. Uppdateringen innehåller även allmänna layoutförbättringar och förbättringar av svarstiderna. |
-| **[!UICONTROL Sandboxes]** har flyttats till rubrikfältet | Sandlådeindikatorn är nu integrerad i sidhuvudet för alla Experience Platform-gränssnittsprogram. Mer information finns i [Sandlådor](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=sv-SE) i Experience Platform. |
+| **[!UICONTROL Sandboxes]** har flyttats till rubrikfältet | Sandlådeindikatorn är nu integrerad i sidhuvudet för alla Experience Platform-gränssnittsprogram. Mer information finns i [Sandlådor](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) i Experience Platform. |
 
 {style="table-layout:auto"}
 
@@ -114,8 +114,8 @@ With this update, administrators may see changes or additions to the Admin Conso
 | Funktion | Beskrivning |
 | ------- | ------- |
 | Hemsida | Information om Experience Cloud sidfot i hemmet har flyttats till användarprofilkortet, inklusive Juridiska meddelanden och språkval i Inställningar. |
-| AEP-instrumentpaneler | [!DNL Helios Lite] innehåller diagramrekommendationer i arbetsflödet för att skapa Experience Platform-widgetar. Med hjälp av ett dataurval (för närvarande ett urval av variabeldata) rekommenderar [!DNL Helios] en lämplig visualisering som medföljer det markerade datameddelandet. |
-| AEP-instrumentpaneler | [!DNL Instory] innehåller en XML-baserad skriven berättarröst och bildtexter för diagram. Den inordnar diagram på AEP Dashboards-sidan med relevanta punkter som anropar viktiga ändringar och incidenter i grafdata. |
+| AEP Dashboards | [!DNL Helios Lite] innehåller diagramrekommendationer i arbetsflödet för att skapa Experience Platform-widgetar. Med hjälp av ett dataurval (för närvarande ett urval av variabeldata) rekommenderar [!DNL Helios] en lämplig visualisering som medföljer det markerade datameddelandet. |
+| AEP Dashboards | [!DNL Instory] innehåller en XML-baserad skriven berättarröst och bildtexter för diagram. Den inordnar diagram på AEP Dashboards-sidan med relevanta punkter som anropar viktiga ändringar och incidenter i grafdata. |
 
 {style="table-layout:auto"}
 
@@ -145,7 +145,7 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 | Funktion | Datum | Beskrivning |
 | ------- | ------- | ------- |
 | Stöd för enkel inloggning för Adobe Federated ID:n | 17 juni 2021 | Om du använder Federated ID:n kan du logga in på Experience Cloud utan att behöva ange en e-postadress eller ett lösenord. Om du vill använda den här funktionen lägger du till `#/sso:@domain` i Experience Cloud URL. <br>Anta till exempel att du äger domänen `adobecustomer.com` och vill logga in på Adobe Analytics. URL:en skulle vara: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Experience League Search | 1 juni 2021 | Experience League dokumentationssökning har förbättrats. Navigera till [Experience League](https://experienceleague.adobe.com/docs/?lang=sv-SE) och använd fältet **[!UICONTROL Search]** för att hitta självstudiekurser, dokumentation, kurser med mera. |
+| Experience League Search | 1 juni 2021 | Experience League dokumentationssökning har förbättrats. Navigera till [Experience League](https://experienceleague.adobe.com/docs/) och använd fältet **[!UICONTROL Search]** för att hitta självstudiekurser, dokumentation, kurser med mera. |
 
 {style="table-layout:auto"}
 
@@ -154,7 +154,7 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 | Funktion | Beskrivning |
 | ------- | ------- |
 | Experience Cloud Header &amp; Navigation | Adobe Experience Cloud-uppdateringarna innehåller en ändring av det ljusa temat för rubriken, med möjlighet att enkelt växla tillbaka till det mörka temat och länka för att styra ytterligare inställningar från användarens avatar i Experience Cloud-huvudet. Även om inte alla program i Experience Cloud har stöd för teman, kommer den här funktionen att frigöra det framtida stödet för teman. |
-| Experience Cloud Global Search | I den här versionen kan du använda Experience Cloud globala sökning till att söka i [Experience League](https://experienceleague.adobe.com/sv#home) -dokumentation, -kurser och -självstudiekurser. (För närvarande är global sökning bara tillgänglig för Experience Platform-användare. Med global sökning efter [!UICONTROL Platform] kan du söka efter alla affärsobjekt i Experience Cloud, t.ex. segment, datauppsättningar, scheman och annat.) |
+| Experience Cloud Global Search | I den här versionen kan du använda Experience Cloud globala sökning till att söka i [Experience League](https://experienceleague.adobe.com/#home) -dokumentation, -kurser och -självstudiekurser. (För närvarande är global sökning bara tillgänglig för Experience Platform-användare. Med global sökning efter [!UICONTROL Platform] kan du söka efter alla affärsobjekt i Experience Cloud, t.ex. segment, datauppsättningar, scheman och annat.) |
 | Språkinställningar för Experience Cloud | Den här uppdateringen innehåller möjligheten att ange dina favoritspråk i [Inställningar](https://experience.adobe.com/preferences) för Experience Cloud. |
 
 {style="table-layout:auto"}
@@ -201,7 +201,7 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 * Updated the app switcher to include Marketo in Experience Cloud application suite, and branding updates to Experience Platform. (MCUI-6529)
 * Updated Experience Cloud Home to include navigation links to the Feed and Administration pages. (MCUI-6682)
 * Fixed an issue in the [!UICONTROL Trigger] definition for correct usage of "like" clause. (MCUI-6611)
-* Improvements to Customer Attributes for better logging in the Subscription service. (MCUI-6519)
+* Improvements to Customer attributes for better logging in the Subscription service. (MCUI-6519)
 
 ## January 2019
 
@@ -252,9 +252,9 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 
 | Feature | Description |
 |--- |--- |
-|Notifications - Granular settings|You can enable notifications for product and application events and activities, including notifications about [Customer Attributes](../services/customer-attributes/attributes.md) upload activity.|
+|Notifications - Granular settings|You can enable notifications for product and application events and activities, including notifications about [customer attributes](../services/customer-attributes/attributes.md) upload activity.|
 |Notifications - Maintenance notifications|In Notification settings, you can enable maintenance notifications for products and applications.|
-|Admin Console for Experience Cloud Solutions|New Experience Cloud customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=sv-SE).|
+|Admin Console for Experience Cloud Solutions|New Experience Cloud customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html).|
 
 {style="table-layout:auto"}
 
@@ -360,18 +360,18 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 
 ## September 2015
 
-* Fixed an Audience Manager API performance issue causing intermittent timeouts when uploading Customer Attributes data. (MAC-26305)
-* Fixed an issue that prevented users from adding up to 200 Customer Attributes to a subscription. (MAC-26188)
+* Fixed an Audience Manager API performance issue causing intermittent timeouts when uploading customer attributes data. (MAC-26305)
+* Fixed an issue that prevented users from adding up to 200 customer attributes to a subscription. (MAC-26188)
 * Fixed an Audience Library issue that prevented audience sharing from Analytics segmentation. This issue caused "Collecting Data" (0 audiences) to display. To prevent this issue, Adobe recommends keeping the segment sizes under 50k audience members per segment. (MAC-25788)
-* Fixed a previous known issue on the Customer attributes - Edit Schema page that was causing a Content Aware error that was issued when changing a display name. (MAC-25589, AN-103834)
+* Fixed a previous known issue on the customer attributes - Edit Schema page that was causing a Content Aware error that was issued when changing a display name. (MAC-25589, AN-103834)
 
 ## July 2015
 
-* Fixed an issue that prevented attribute descriptions specified on the View/Edit Schema page (in Customer Attributes) from being updated in Analytics reports. (MAC-25985)
+* Fixed an issue that prevented attribute descriptions specified on the View/Edit Schema page (in customer attributes) from being updated in Analytics reports. (MAC-25985)
 * Fixed an issue preventing the thumbnails from rendering for uploaded assets. (MAC-25863)
 * Fixed an issue that prevented new segments created in reports & analytics from being available in Experience Cloud Audiences. (MAC-25817)
 * Fixed an issue that prevented audience sharing from Analytics, when using the visitor ID service. (MAC-25788, MAC-25747)
-* Added support for multibyte characters in Customer Attributes. (MAC-25552)
+* Added support for multibyte characters in customer attributes. (MAC-25552)
 
 **Known Issue**: A known issue is causing duplicate auto-generated accounts to be created in Audience Manager, and automatically linking them to a user's Experience Cloud identity. This issue occurs if you attempt to navigate to Audience Manager before linking your accounts. Adobe recommends that you link your Audience Manager accounts to Experience Cloud before navigating to Audience Manager. (MAC-25640) 
 
@@ -389,7 +389,7 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
    <td colname="col1"> <p> </p> </td> 
    <td colname="col2"> <p>The left navigation menus have been updated and arranged to provide access to all the core services and applications. Notable changes include: </p> 
     <ul id="ul_5BEBAB86B9234A239C4E2DAF8826D8E3"> 
-     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">The <span class="term"> Audience Library</span> and <span class="term"> Customer Attributes</span> menu selections are now located under <span class="term"> Audiences</span>. </li> 
+     <li id="li_7FA9F64CE69144B8A8A92746BF40E5A1">The <span class="term"> Audience Library</span> and <span class="term"> customer attributes</span> menu selections are now located under <span class="term"> Audiences</span>. </li> 
      <li id="li_95D62A43AE6243DBB2A65EDB830D05C4">The <span class="term"> Exchange</span> menu selection was moved from the Help drop-down menu to the left navigation rail. </li> 
      <li id="li_0443FD50C78446CD8AA27A4F272CAD31"> <span class="term"> Solutions</span> has been removed. You can launch all applications from the bottom half of the navigation rail. </li> 
     </ul> </td> 
@@ -397,8 +397,8 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
  </tbody> 
 </table>
 
-* Fixed an issue preventing Customer Attributes from syncing for some customers.
-* Fixed an issue preventing [Adobe Target Product Documentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=sv-SE) page from displaying in Japanese.
+* Fixed an issue preventing customer attributes from syncing for some customers.
+* Fixed an issue preventing [Adobe Target Product Documentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) page from displaying in Japanese.
 * Fixed an issue preventing the use of Japanese text in comments between the [!DNL Creative Cloud] and the [!DNL Experience Cloud].
 
 ## April 2015
@@ -442,8 +442,8 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>Customer Attributes </p> </td> 
-   <td colname="col2"> <p>If you capture enterprise customer data in a customer relationship management (CRM) database, you can upload the data into a Customer Attribute data source in Experience Cloud. After the data is uploaded, you can run <span class="uicontrol"> Visitor Profile</span> &gt; <span class="uicontrol"> Customer Attributes</span> reports in Analytics. </p> <p>You can also use the uploaded data as an audience segment in <span class="keyword"> Adobe Target</span>. </p> <p>See <a href="../services/customer-attributes/attributes.md" format="dita" scope="local"> Customer Attributes</a> product documentation. </p> </td> 
+   <td colname="col1"> <p>Customer attributes </p> </td> 
+   <td colname="col2"> <p>If you capture enterprise customer data in a customer relationship management (CRM) database, you can upload the data into a customer attribute data source in Experience Cloud. After the data is uploaded, you can run <span class="uicontrol"> Visitor Profile</span> &gt; <span class="uicontrol"> customer attributes</span> reports in Analytics. </p> <p>You can also use the uploaded data as an audience segment in <span class="keyword"> Adobe Target</span>. </p> <p>See <a href="../services/customer-attributes/attributes.md" format="dita" scope="local"> customer attributes</a> product documentation. </p> </td> 
   </tr> 
  </tbody> 
 </table>

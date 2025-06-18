@@ -8,7 +8,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 361175f290d73f1637673420700874a2415e3fca
 workflow-type: tm+mt
 source-wordcount: '481'
 ht-degree: 0%
@@ -53,12 +53,11 @@ I följande exempel visas hur du skapar regler för en sammansatt målgrupp. Den
 1. Välj en attributkälla under [!UICONTROL Rules]:
 
    * **[!UICONTROL Real-Time Analytics Data:]** (eller Raw-data) Detta är attributdata som härleds från Real-Time Analytics-bildbegäranden och innehåller data som eVars och events. Du måste välja en rapportserie när du använder den här attributkällan och definiera dimensionen eller händelsen som ska inkluderas. Rapportsvitens urval innehåller den variabelstruktur som används av rapportsviten.
-
    >[!NOTE]
    >
    >På grund av cachelagring kräver borttagna rapportsviter i Analytics 12 timmar innan borttagningen visas i Experience Cloud.
 
-   * **[!UICONTROL Experience Cloud:]** Attributdata härledda från [!DNL Experience Cloud]-källor. Detta kan till exempel vara data från målgruppssegment som du skapar i [!DNL Analytics] eller data från [!DNL Audience Manager].
+   * **[!UICONTROL Experience Cloud:]** attributdata härledda från [!DNL Experience Cloud]-källor. Detta kan till exempel vara data från målgruppssegment som du skapar i [!DNL Analytics] eller data från [!DNL Audience Manager].
 
 1. Definiera målgruppsregler och klicka sedan på **[!UICONTROL Save].**
 
@@ -90,7 +89,7 @@ Den resulterande regeln är en definierad målgrupp som omfattar användare av C
 ![Definierad målgrupp i Experience Cloud](assets/defined_audience.png)
 
 * **Historisk uppskattning:** (prickad cirkel) Representerar regler som skapats baserat på [!DNL Analytics]-data.
-* **Faktisk publik:** (heldragen cirkel) En regel som har skapats med 30 dagars data från Audience Manager. När data från Audience Manager når 30 dagar blir raden heldragen och representerar faktiska tal.
+* **Faktisk publik:** (heldragen cirkel) En regel som har skapats med 30 dagars data från Audience Manager. När Audience Manager-data når 30 dagar blir raden heldragen och representerar faktiska tal.
 
 När datainsamlingen har slutförts för den angivna perioden kombineras cirklarna för att visa en definierad målgrupp.
 
