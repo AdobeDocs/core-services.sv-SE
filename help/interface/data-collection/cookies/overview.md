@@ -22,7 +22,7 @@ Adobe Experience Cloud använder cookies för att spåra information som inte va
 
 Vissa webbläsare och antispionprogram blockerar cookies från tredje part. Adobe kan se till att cookies fortfarande fungerar även om cookies blockeras. Hur detta fungerar beror på om du använder Experience Platform Identity Service (ECID) eller äldre Analytics-cookies (som `s_vi`-cookies):
 
-* [Experience Cloud Identity Service](https://experienceleague.adobe.com/en/docs/id-service/using/intro/overview): ECID-tjänsten anger alltid cookies från första part, oavsett om din samlingsdomän matchar din webbplatsdomän. Den använder JavaScript för att placera cookien på din webbplats domän.
+* [Experience Cloud Identity Service](https://experienceleague.adobe.com/sv/docs/id-service/using/intro/overview): ECID-tjänsten anger alltid cookies från första part, oavsett om din samlingsdomän matchar din webbplatsdomän. Den använder JavaScript för att placera cookien på din webbplats domän.
 
 * [Analyserar äldre identifierare](analytics.md) (till exempel cookie-filen `s_vi`): Om cookies är första eller tredje part beror på din konfiguration:
 
