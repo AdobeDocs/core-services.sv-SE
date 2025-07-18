@@ -32,13 +32,13 @@ Analytics använder cookies för att definiera nya besökare anonymt, hjälpa ti
 
 ## Cookies angivna av plugin-program
 
-Vissa implementeringar använder plugin-program, som är kodfragment som ger ytterligare funktioner för Analytics. Dessa plugin-program kan ange cookies som inte finns med i listan ovan. Se [Översikt över plugin-program för analys](https://experienceleague.adobe.com/en/docs/analytics/implementation/vars/plugins/impl-plugins) för en lista över tillgängliga plugin-program och vilka cookies de anger.
+Vissa implementeringar använder plugin-program, som är kodfragment som ger ytterligare funktioner för Analytics. Dessa plugin-program kan ange cookies som inte finns med i listan ovan. Se [Översikt över plugin-program för analys](https://experienceleague.adobe.com/sv/docs/analytics/implementation/vars/plugins/impl-plugins) för en lista över tillgängliga plugin-program och vilka cookies de anger.
 
 ## Konsekvenser av borttagning av analyscookies
 
 Om en besökare tar bort sina Analytics-cookies bör du tänka på följande:
 
-* **Besökaridentifieringen förloras:** När cookies tas bort kan Adobe Analytics inte identifiera återkommande besökare. Nästa gång användaren besöker din webbplats räknas de som en ny besökare. [Enhetsövergripande analys](https://experienceleague.adobe.com/en/docs/analytics/components/cda/overview) kan hjälpa till att minska den här effekten.
+* **Besökaridentifieringen förloras:** När cookies tas bort kan Adobe Analytics inte identifiera återkommande besökare. Nästa gång användaren besöker din webbplats räknas de som en ny besökare. [Enhetsövergripande analys](https://experienceleague.adobe.com/sv/docs/analytics/components/cda/overview) kan hjälpa till att minska den här effekten.
 * **Sessionskontinuiteten har brutits:** Alla sessionsbaserade analyser eller flerbesöksanalyser (som attribuering eller konverteringsspårning) har avbrutits. Händelser och konverteringar som inträffar efter borttagning av cookies kan inte kopplas till tidigare aktiviteter av samma användare.
 * **Personalization och segmentering påverkas:** Segment eller personaliserade upplevelser som baseras på besökarhistorik eller -beteende återställs eftersom tidigare data inte längre är associerade med deras aktuella besök.
 * **Spårning över domäner har avbrutits:** För cookies från tredje part förhindras Adobe Analytics från att länka användaraktivitet över flera domäner som du äger om du tar bort dem.
