@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: aedad5cb-3282-4a97-8e7e-6d65f7b75ba9
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: ab65ddb3bf6887db4fa0b2ffbbef89fc198b191a
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 1%
@@ -57,7 +57,7 @@ Gå till programväljaren ![menu](assets/apps-icon.png) om du vill få åtkomst 
 
 ## Få hjälp och support {#support}
 
-Lär dig mer och hjälp med **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) i sidhuvudet, inklusive hjälpinnehåll (dokumentation, självstudiekurser och kurser) på [Experience League](https://experienceleague.adobe.com/sv#home), samt ytterligare resurser för enskilda program. Du kan även skicka in öppen feedback och skapa prioriterade supportärenden.
+Lär dig mer och hjälp med **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) i sidhuvudet, inklusive hjälpinnehåll (dokumentation, självstudiekurser och kurser) på [Experience League](https://experienceleague.adobe.com/#home), samt ytterligare resurser för enskilda program. Du kan även skicka in öppen feedback och skapa prioriterade supportärenden.
 
 ![Få hjälp och support](assets/search-menu.png)
 
@@ -86,3 +86,4 @@ Klicka på klockikonen för att visa meddelanden och meddelanden. Meddelanden ka
 ![Meddelanden och meddelanden](assets/notifications-menu-small.png)
 
 Mer information om hur du hanterar meddelanden och aviseringar finns i [Kontoinställningar och meddelanden](features/account-preferences.md)
+
