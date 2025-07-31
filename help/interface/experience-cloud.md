@@ -57,7 +57,7 @@ Gå till programväljaren ![menu](assets/apps-icon.png) om du vill få åtkomst 
 
 ## Få hjälp och support {#support}
 
-Lär dig mer och hjälp med **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) i sidhuvudet, inklusive hjälpinnehåll (dokumentation, självstudiekurser och kurser) på [Experience League](https://experienceleague.adobe.com/#home), samt ytterligare resurser för enskilda program. Du kan även skicka in öppen feedback och skapa prioriterade supportärenden.
+Lär dig mer och hjälp med **[!UICONTROL Help center]** (![asset](assets/help-icon.png)) i sidhuvudet, inklusive hjälpinnehåll (dokumentation, självstudiekurser och kurser) på [Experience League](https://experienceleague.adobe.com/sv#home), samt ytterligare resurser för enskilda program. Du kan även skicka in öppen feedback och skapa prioriterade supportärenden.
 
 ![Få hjälp och support](assets/search-menu.png)
 
