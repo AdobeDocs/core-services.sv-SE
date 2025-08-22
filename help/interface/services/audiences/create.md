@@ -1,23 +1,23 @@
 ---
-description: Lär dig hur du använder attributregler för att skapa en målgrupp och definiera en sammansatt målgrupp i Adobe Experience Cloud.
+title: Skapa en publik i målgruppsbiblioteket
+description: Ta reda på hur du använder attributregler för att skapa en delbar målgrupp i Audience Library. Lär dig konfigurera en regel och definiera en sammansatt målgrupp.
 solution: Experience Cloud
-title: Skapa en publik
 uuid: 7e622539-296e-4ff3-93b0-ec1c08b35429
 feature: Audience Library
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '501'
 ht-degree: 0%
 
 ---
 
 # Skapa en målgrupp
 
-Lär dig hur du använder attributregler för att skapa en målgrupp och definiera en sammansatt målgrupp i Experience Cloud.
+I [!UICONTROL Audience Library] kan du använda attributregler för att skapa en målgrupp och definiera en sammansatt målgrupp för delning i Experience Cloud-program.
 
 Den här artikeln hjälper dig att förstå hur du gör:
 
@@ -38,21 +38,22 @@ Varje cirkel representerar en regel som definierar målgruppsmedlemskap. Besöka
 I följande exempel visas hur du skapar regler för en sammansatt målgrupp. Denna målgrupp består av:
 
 * Avsnittet Hem och Garden är härlett från siddata eller råanalysdata.
-* Chrome- och Safari-användare härledda från ett [!DNL Adobe Analytics]-segment [publicerat](overview.md) till [!DNL Experience Cloud].
+* Chrome- och Safari-användare härledda från ett [!DNL Adobe Analytics] segment [publicerat](overview.md) till [!DNL Experience Cloud].
 
   ![Skapa regler för en sammansatt målgrupp](assets/audience_create.png)
 
 **Så här skapar du en publik**
 
-1. I [!DNL Experience Cloud], under [!DNL Experience Platform], klickar du på **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
-1. Klicka på **[!UICONTROL New]** på sidan [!UICONTROL Audiences]. ![lägg till](assets/add_icon_small.png)
+1. Klicka på [!DNL Experience Cloud] appar (![Appikonen ](assets/apps-icon.png)) och sedan på **[!UICONTROL People]** > **[!UICONTROL Audience Library].**
 
-   ![Stegresultat](assets/audience_create_new.png)
+1. Klicka på [!UICONTROL Audiences] på sidan **[!UICONTROL New]**. ![Ny publik](assets/add_icon_small.png)
 
-1. Ange en rubrik och beskrivning på sidan [!UICONTROL Create New Audience].
-1. Välj en attributkälla under [!UICONTROL Rules]:
+   ![Skapa en målgrupp](assets/audience_create_new.png)
 
-   * **[!UICONTROL Real-Time Analytics Data:]** (eller Raw-data) Detta är attributdata som härleds från Real-Time Analytics-bildbegäranden och innehåller data som eVars och events. Du måste välja en rapportserie när du använder den här attributkällan och definiera dimensionen eller händelsen som ska inkluderas. Rapportsvitens urval innehåller den variabelstruktur som används av rapportsviten.
+1. Fyll i fälten [!UICONTROL Create New Audience] och **[!UICONTROL Title]** på sidan **[!UICONTROL Description]**.
+1. Under [!UICONTROL Rules] väljer du en referensrapportssvit och sedan en attributkälla:
+
+   * **[!UICONTROL Real-Time Analytics Data:]** (eller Raw-data) Detta är attributdata som härleds från Real-Time Analytics bildbegäranden. Den innehåller eVars och events. Du måste välja en rapportserie när du använder den här attributkällan och definiera dimensionen eller händelsen som ska inkluderas. Rapportsvitens urval innehåller den variabelstruktur som används av rapportsviten.
 
    >[!NOTE]
    >
@@ -66,7 +67,7 @@ I följande exempel visas hur du skapar regler för en sammansatt målgrupp. Den
 >
 >Ni bör förstå era implementeringsvariabler när ni definierar målgruppsregler.
 
-Definiera attributvalen *`Home & Garden`* under [!UICONTROL Rules]:
+Definiera attributvalen [!UICONTROL Rules] under *`Home & Garden`*:
 
 * **[!UICONTROL Attribute Source:]** råanalysdata
 * **[!UICONTROL Report Suite:]** Report Suite 31
@@ -94,4 +95,4 @@ Den resulterande regeln är en definierad målgrupp som omfattar användare av C
 
 När datainsamlingen har slutförts för den angivna perioden kombineras cirklarna för att visa en definierad målgrupp.
 
-När målgruppen har sparats är den tillgänglig för andra program. Du kan till exempel inkludera en delad målgrupp i en Adobe Target-aktivitet.
+När målgruppen har sparats är den tillgänglig för andra Experience Cloud-program. Du kan till exempel inkludera en delad målgrupp i en Adobe Target [aktivitet](https://experienceleague.adobe.com/en/docs/target/using/activities/activities).

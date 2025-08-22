@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
+source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1044'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Utför dessa steg på källsidan Skapa nytt kundattribut i Experience Cloud.
 
       * **Taggar:** Alias-ID motsvarar värdet *Integreringskod* under [!UICONTROL customer Settings] i verktyget [Experience Cloud ID-tjänst](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=sv).
 
-      * **Besökar-API:** Alias-ID:t motsvarar de ytterligare [kund-ID:n](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=sv-SE) som du kan associera med varje besökare.
+      * **Besökar-API:** Alias-ID:t motsvarar de ytterligare [kund-ID:n](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) som du kan associera med varje besökare.
 
         Till exempel *&quot;crm_id&quot;* i:
 
@@ -89,13 +89,13 @@ Utför dessa steg på källsidan Skapa nytt kundattribut i Experience Cloud.
         "crm_id":"67312378756723456"
         ```
 
-      * **iOS:** Alias-ID motsvarar *&quot;idType&quot;* i [visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=sv-SE).
+      * **iOS:** Alias-ID motsvarar *&quot;idType&quot;* i [visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html).
 
         Exempel:
 
         `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android™:** Alias-ID motsvarar *&quot;idType&quot;* i [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=sv-SE).
+      * **Android™:** Alias-ID motsvarar *&quot;idType&quot;* i [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html).
 
         Exempel:
 
@@ -103,7 +103,7 @@ Utför dessa steg på källsidan Skapa nytt kundattribut i Experience Cloud.
 
         Se [Utnyttjar flera datakällor](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) om du vill ha mer information om databearbetning för Alias ID-fältet och kund-ID:n.
 
-   * **[!UICONTROL Namespace Code:]** Använd det här värdet för att identifiera kundattributskällan när du använder [ IdentityMap](https://experienceleague.adobe.com/sv/docs/experience-platform/web-sdk/identity/overview) som en del av en AEP WebSDK-implementering.
+   * **[!UICONTROL Namespace Code:]** Använd det här värdet för att identifiera kundattributskällan när du använder [ IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) som en del av en AEP WebSDK-implementering.
 
 ## Överför fil {#upload}
 
@@ -150,7 +150,7 @@ Se [Konfigurera prenumerationer](subscription.md).
 
 **Så här aktiverar du en attributkälla**
 
-Leta reda på rubriken [!UICONTROL Activate] på sidan [!UICONTROL Create New or Edit customer attribute Source] och klicka sedan på **[!UICONTROL Active]**.
+Leta reda på rubriken [!UICONTROL Create New or Edit customer attribute Source] på sidan [!UICONTROL Activate] och klicka sedan på **[!UICONTROL Active]**.
 
 ![Stegresultat](assets/activate_attribute_source.png)
 
@@ -170,4 +170,4 @@ I [!DNL Target] kan du välja ett kundattribut i avsnittet [!UICONTROL Visitor P
 
 ![Använd kundattribut i Adobe Target](assets/crs-add-attribute-target.png)
 
-Se [Skapa en ny publik](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=sv-SE) i hjälpen för [!DNL Target].
+Se [Skapa en ny publik](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html) i hjälpen för [!DNL Target].

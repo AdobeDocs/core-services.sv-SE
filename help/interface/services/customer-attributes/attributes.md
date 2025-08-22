@@ -7,9 +7,9 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 361175f290d73f1637673420700874a2415e3fca
+source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '421'
 ht-degree: 5%
 
 ---
@@ -36,7 +36,7 @@ Med [!DNL Customer attributes] i Experience Cloud kan du överföra dina hämtad
 
 * **Adobe Target** `at.js` (valfri version) eller `mbox.js` version 58 eller senare krävs för kundattribut.
 
-  Se [Distribuera på.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=sv-SE).
+  Se [Distribuera på.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html).
 
 ## Vad är företagsdata? {#enterprise_data}
 
