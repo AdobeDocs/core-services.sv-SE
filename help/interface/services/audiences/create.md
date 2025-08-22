@@ -8,9 +8,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b65a12f5-fa89-400a-b279-13c381cd6c22
-source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
+source-git-commit: c98084e3960e40ae28e55050ce0727abce94ba0c
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,8 @@ I följande exempel visas hur du skapar regler för en sammansatt målgrupp. Den
 
 1. Definiera målgruppsregler och klicka sedan på **[!UICONTROL Save].**
 
+**Exempel: Definiera regler för sammansatta målgrupper**
+
 >[!NOTE]
 >
 >Ni bör förstå era implementeringsvariabler när ni definierar målgruppsregler.
@@ -95,4 +97,4 @@ Den resulterande regeln är en definierad målgrupp som omfattar användare av C
 
 När datainsamlingen har slutförts för den angivna perioden kombineras cirklarna för att visa en definierad målgrupp.
 
-När målgruppen har sparats är den tillgänglig för andra Experience Cloud-program. Du kan till exempel inkludera en delad målgrupp i en Adobe Target [aktivitet](https://experienceleague.adobe.com/sv/docs/target/using/activities/activities).
+När målgruppen har sparats är den tillgänglig för andra Experience Cloud-program. Du kan till exempel inkludera en delad målgrupp i en Adobe Target [aktivitet](https://experienceleague.adobe.com/en/docs/target/using/activities/activities).
