@@ -95,4 +95,4 @@ Den resulterande regeln är en definierad målgrupp som omfattar användare av C
 
 När datainsamlingen har slutförts för den angivna perioden kombineras cirklarna för att visa en definierad målgrupp.
 
-När målgruppen har sparats är den tillgänglig för andra Experience Cloud-program. Du kan till exempel inkludera en delad målgrupp i en Adobe Target [aktivitet](https://experienceleague.adobe.com/en/docs/target/using/activities/activities).
+När målgruppen har sparats är den tillgänglig för andra Experience Cloud-program. Du kan till exempel inkludera en delad målgrupp i en Adobe Target [aktivitet](https://experienceleague.adobe.com/sv/docs/target/using/activities/activities).
