@@ -7,36 +7,20 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: bd718358c6db1ea4a6150d019773072418b629f9
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 5%
+source-wordcount: '304'
+ht-degree: 7%
 
 ---
 
 # [!DNL Customer Attributes] i Experience Cloud
 
-Med [!DNL Customer Attributes] i Experience Cloud kan du överföra dina hämtade företagsdata från en CRM-databas (customer relationship management). Du kan överföra data till en datakälla för kundattribut i Experience Cloud och sedan använda data i [!DNL Adobe Analytics] och [!DNL Adobe Target].
+**[!UICONTROL Apps]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**
 
-## Hitta funktionen [!DNL Customer Attributes]
-
-1. Logga in på [!DNL Experience Cloud] och välj menyikonen ![menu](assets/menu-icon.png) .
-
-1. Välj **[!DNL Customer Attributes]**.
+Med [!DNL Customer Attributes] i Experience Cloud kan du överföra dina hämtade företagsdata från en CRM-databas (customer relationship management). Du kan [överföra data](t-crs-usecase.md) till en [!DNL Customer Attributes]-datakälla i Experience Cloud och sedan använda data i [!DNL Adobe Analytics] och [!DNL Adobe Target].
 
 ![Översikt över kundattribut](assets/custom_reports.png)
-
-## Krav för överföring av kundattributdata {#prerequisites}
-
-* **Gruppmedlemskap:** Om du vill överföra kundattributdata måste användarna vara medlemmar i gruppen Kundattribut. Du måste också tillhöra en Adobe Analytics-grupp eller en Adobe Target-grupp.
-
-  Om du vill veta om ditt företag har åtkomst till kundattribut bör [!DNL Experience Cloud]-administratören logga in på [Experience Cloud](https://experience.adobe.com). Navigera till **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Om *[!DNL Customer Attributes]* visas som en av [!UICONTROL product profiles] är du redo att börja.
-
-  Användare som läggs till i [!DNL Customer Attributes] ser menyalternativet [!DNL Customer Attributes] till vänster i Experience Cloud-gränssnittet.
-
-* **Adobe Target** `at.js` (valfri version) eller `mbox.js` version 58 eller senare krävs för kundattribut.
-
-  Se [Distribuera på.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=sv-SE).
 
 ## Vad är företagsdata? {#enterprise_data}
 
