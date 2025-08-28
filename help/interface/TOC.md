@@ -5,9 +5,9 @@ breadcrumb-title: Gränssnitt och administration i Experience Cloud
 title: Experience Cloud Interface and Administration
 description: Läs mer om Experience Cloud gränssnitt, cookies och kontoinställningar. Hantera produkter och konfigurera Persontjänsten, inklusive kundattribut och målgruppsbibliotek. Dela Experience Cloud Assets.
 index: true
-source-git-commit: cee634cd4f64bac4e06d25e1872a0f84772c46ed
+source-git-commit: 84e5d971dadd2281ff7a225d860400d1807c5d46
 workflow-type: tm+mt
-source-wordcount: '235'
+source-wordcount: '239'
 ht-degree: 20%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 20%
       + [Skapa en kundattributkälla och överför datafilen](services/customer-attributes/t-crs-usecase.md)
       + [Valfritt - Överför datafilen via FTP](services/customer-attributes/t-upload-attributes-ftp.md)
       + [Validera schemat](services/customer-attributes/validate-schema.md)
-      + [Konfigurera prenumerationer](services/customer-attributes/subscription.md)
+      + [Konfigurera prenumerationer och aktivera datakälla](services/customer-attributes/subscription.md)
       + [Uppdatera schemat](services/customer-attributes/t-update-schema.md)
       + [Stöd för den allmänna dataskyddsförordningen](services/customer-attributes/gdpr.md)
       + [Stöd för California Consumer Privacy Act](services/customer-attributes/ccpa.md)

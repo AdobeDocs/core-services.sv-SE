@@ -6,7 +6,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 02417c0c-6780-4699-9470-f1685c3cd25d
-source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
+source-git-commit: b296b7fe76ad686d45a5927c55f798dc0203c684
 workflow-type: tm+mt
 source-wordcount: '392'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # [!DNL Customer attributes]-stöd för den allmänna dataskyddsförordningen
 
-Den här sidan beskriver hur [!DNL customer attributes] stöder allmänna dataskyddsförordningen (GDPR).
+Den här sidan beskriver hur [!DNL Customer Attributes] stöder allmänna dataskyddsförordningen (GDPR).
 
 >[!IMPORTANT]
 >
@@ -25,13 +25,13 @@ Den [allmänna dataskyddsförordningen](https://business.adobe.com/privacy/gener
 
 Adobe Experience Cloud fungerar som personuppgiftsbiträde för alla personuppgifter som de tar emot och lagrar för sina kunders räkning. Som personuppgiftsansvarig avgör du vilka personuppgifter Adobe Experience Cloud behandlar och lagrar å dina vägnar.
 
-I det här dokumentet beskrivs hur [!DNL customer attributes] stöder de registrerades GDPR-dataåtkomst och borttagningsrättigheter med hjälp av Adobe Experience Platform Privacy Service API och Privacy Service UI.
+I det här dokumentet beskrivs hur [!DNL Customer Attributes] stöder de registrerades GDPR-dataåtkomst och borttagningsrättigheter med hjälp av Adobe Experience Platform Privacy Service API och Privacy Service UI.
 
 Mer information om vad GDPR innebär för ditt företag finns i [GDPR och ditt företag](https://business.adobe.com/privacy/general-data-protection-regulation.html).
 
-## Nödvändig konfiguration för att skicka begäranden för [!DNL customer attributes]
+## Nödvändig konfiguration för att skicka begäranden för [!DNL Customer Attributes]
 
-Om du vill göra förfrågningar om åtkomst och borttagning av data för [!DNL customer attributes] måste du:
+Om du vill göra förfrågningar om åtkomst och borttagning av data för [!DNL Customer Attributes] måste du:
 
 1. Identifiera följande:
 
@@ -41,9 +41,9 @@ Om du vill göra förfrågningar om åtkomst och borttagning av data för [!DNL 
 
    Ditt [organisations-ID](../../administration/organizations.md) är en 24 tecken lång alfanumerisk sträng som läggs till i @AdobeOrg. Du behöver organisationens ID för att kunna skicka begäranden till sekretess-API:t. Kontakta Adobe kundtjänst på `gdprsupport@adobe.com` om du inte kan hitta ID:t.
 
-1. I [!UICONTROL Privacy Service] kan du skicka begäranden om åtkomst och borttagning till [!DNL customer attributes] och kontrollera status för befintliga begäranden.
+1. I [!UICONTROL Privacy Service] kan du skicka begäranden om åtkomst och borttagning till [!DNL Customer Attributes] och kontrollera status för befintliga begäranden.
 
-## Obligatoriska fältvärden i [!DNL customer attributes] JSON-begäranden
+## Obligatoriska fältvärden i [!DNL Customer Attributes] JSON-begäranden
 
 företagskontext:
 

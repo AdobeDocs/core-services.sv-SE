@@ -1,33 +1,35 @@
 ---
-description: Skapa en kundattributkälla och ladda upp den till Adobe Experience Cloud.
+description: Lär dig skapa en kundattributkälla och överföra den till Adobe Experience Cloud.
 solution: Experience Cloud
-title: Skapa ett kundattribut Source och överför datafilen
+title: Skapa och överföra en Source-fil med kundattributdata
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 3043cd913d5165c58fb84f3342b05a00a690d6a6
+source-git-commit: 32f3bd4eb6229a910366f274f9adfbc609440764
 workflow-type: tm+mt
-source-wordcount: '1044'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
 
 # Skapa en kundattributkälla och överför datafilen
 
-Skapa kundattributskällan (`.csv`- och `.fin`-filer) och överför data. Du kan aktivera datakällan när du är klar. När datakällan är aktiv delar du attributdata till Analytics och Target.
+Skapa kundattributskällan (`.csv`- och `.fin`-filer) och överför data. Du kan aktivera datakällan när du är klar. När datakällan är aktiv delar du attributdata till [!DNL Analytics] och [!DNL Target].
 
-## arbetsflöde för kundattribut {#concept_BF0AF88E9EF841219ED4D10754CD7154}
+**Arbetsflöde för kundattribut**
 
 ![Arbetsflöde för kundattribut](assets/crs.png)
 
->[!IMPORTANT]
->
->För att få tillgång till den här funktionen måste användarna tilldelas till kundattributens produktprofil (kundattribut - standardåtkomst). Navigera till **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Om *kundattribut* visas som en av [!UICONTROL product profiles] är du redo att börja. Användare som läggs till i kundattributgruppen ser menyn [!UICONTROL customer attributes] till vänster i Experience Cloud-gränssnittet.
->
->Om du vill använda funktionen för kundattribut måste användarna också tillhöra programnivågrupper (Adobe Analytics eller [!DNL Target]).
+## Förhandskrav
+
+**Produktåtkomst:** För att få åtkomst till [!DNL Customer Attributes] måste användare tilldelas till produktprofilen för kundattribut (**[!UICONTROL Customer Attributes - Default Access]**) i Admin Console (`adminconsole.adobe.com`).
+
+Navigera till **[!UICONTROL Admin Console]** > **[!UICONTROL Products]**. Om *kundattribut* visas som en av produkterna (en [!UICONTROL Product profile]) är du redo att börja. Användare som läggs till i kundattributens produktprofil kan se **[!DNL Customer Attributes]** i **[!UICONTROL Apps]**-väljaren. (![arbetsflöde för kundattribut](assets/menu-icon.png))
+
+**Programgrupper:** Om du vill använda funktionen **[!DNL Customer Attributes]** måste användarna också tillhöra programnivågrupper (Adobe [!DNL Analytics] eller [!DNL Adobe Target]).
 
 ## Skapa en datafil {#create-data}
 
@@ -44,7 +46,7 @@ Dessa data är företagskunddata från din CRM. Informationen kan omfatta prenum
    ![Exempel på kunddatafil för företag](assets/01_crs_usecase.png)
 
 1. Granska viktig information i [Datafilskrav](crs-data-file.md) innan du överför filen innan du fortsätter.
-1. [Skapa en kundattributkälla och överför data](t-crs-usecase.md), vilket beskrivs nedan.
+1. [Skapa en kundattributkälla och överför data](t-crs-usecase.md#create-source), vilket beskrivs nedan.
 
 ## Skapa attributkällan och överför datafilen {#create-source}
 
@@ -54,18 +56,15 @@ Utför dessa steg på källsidan Skapa nytt kundattribut i Experience Cloud.
 >
 >När du skapar, ändrar eller tar bort kundattributskällor är det en fördröjning på upp till en timme innan ID:n börjar synkronisera med den nya datakällan. Du måste ha administratörsbehörighet i Audience Manager för att kunna skapa eller ändra källor för kundattribut. Kontakta Audience Manager kundtjänst eller konsult för att få administrationsrättigheter.
 
-1. I [!DNL Experience Cloud] väljer du menyikonen ![menu](assets/menu-icon.png) .
-1. Välj **[!UICONTROL customer attributes]**.
+1. I [!DNL Experience Cloud] klickar du på **[!UICONTROL Apps]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
 
-   På sidan [!UICONTROL customer attributes] kan du hantera och redigera befintliga attributdatakällor.
-
-   ![huvudskärmen för kundattribut](assets/cust-attr.png)
+   ![Sidan Kundattribut](assets/cust-attr.png)
 
 1. Klicka på **[!UICONTROL New]**.
 
-   ![Stegresultat](assets/04_crs_usecase.png)
+   ![Stegresultat](assets/new-customer-attribute-source.png)
 
-1. Konfigurera följande fält på sidan [!UICONTROL Create customer attribute Source]:
+1. Konfigurera följande fält på sidan [!UICONTROL Create Customer Attribute Source]:
 
    * **[!UICONTROL Name:]** Ett eget namn för datakällan för dataattribut. För [!DNL Adobe Target] får attributnamn inte innehålla blanksteg. Om ett attribut med ett blanksteg skickas ignorerar [!DNL Target] det. Andra tecken som inte stöds är: `< , >, ', "`.
 
@@ -81,7 +80,7 @@ Utför dessa steg på källsidan Skapa nytt kundattribut i Experience Cloud.
 
       * **Taggar:** Alias-ID motsvarar värdet *Integreringskod* under [!UICONTROL customer Settings] i verktyget [Experience Cloud ID-tjänst](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=sv).
 
-      * **Besökar-API:** Alias-ID:t motsvarar de ytterligare [kund-ID:n](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=sv-SE) som du kan associera med varje besökare.
+      * **Besökar-API:** Alias-ID:t motsvarar de ytterligare [kund-ID:n](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) som du kan associera med varje besökare.
 
         Till exempel *&quot;crm_id&quot;* i:
 
@@ -89,13 +88,13 @@ Utför dessa steg på källsidan Skapa nytt kundattribut i Experience Cloud.
         "crm_id":"67312378756723456"
         ```
 
-      * **iOS:** Alias-ID motsvarar *&quot;idType&quot;* i [visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=sv-SE).
+      * **iOS:** Alias-ID motsvarar *&quot;idType&quot;* i [visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html).
 
         Exempel:
 
         `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android™:** Alias-ID motsvarar *&quot;idType&quot;* i [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=sv-SE).
+      * **Android™:** Alias-ID motsvarar *&quot;idType&quot;* i [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html).
 
         Exempel:
 
@@ -103,21 +102,27 @@ Utför dessa steg på källsidan Skapa nytt kundattribut i Experience Cloud.
 
         Se [Utnyttjar flera datakällor](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) om du vill ha mer information om databearbetning för Alias ID-fältet och kund-ID:n.
 
-   * **[!UICONTROL Namespace Code:]** Använd det här värdet för att identifiera kundattributskällan när du använder [ IdentityMap](https://experienceleague.adobe.com/sv/docs/experience-platform/web-sdk/identity/overview) som en del av en AEP WebSDK-implementering.
+   * **[!UICONTROL Namespace Code:]** Använd det här värdet för att identifiera kundattributskällan när du använder [ IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) som en del av en AEP WebSDK-implementering.
+
+1. Klicka på **[!UICONTROL Save]**.
 
 ## Överför fil {#upload}
 
+Kundattributposten skapas och du kan överföra filen genom att redigera kundattributet.
 
-1. Klicka på Filöverföring.
+1. Klicka på attributkällan på sidan [!DNL Customer Attributes].
 
-2. Dra och släpp datafilen `.csv`, `.zip` eller `.gzip` i dra och släpp-fönstret.
+1. Klicka på [!UICONTROL Edit Customer Data Source] på sidan **[!UICONTROL File Upload]**.
+
+   ![Filöverföring och schemaverifiering](assets/file-upload-schema-validation.png)
+
+1. Dra och släpp datafilen `.csv`, `.zip` eller `.gzip` i dra och släpp-fönstret.
 
 >[!IMPORTANT]
 >
 >Det finns särskilda krav på datafiler. Mer information finns i [Datafilskrav](crs-data-file.md).
 
 När du har överfört filen visas tabelldata under rubriken [!UICONTROL File Upload] på den här sidan. Du kan validera schemat, konfigurera prenumerationer eller konfigurera FTP.
-
 
 ![attribut](assets/file_upload_attributes.png)
 
@@ -139,20 +144,15 @@ Mer information om hur du tar bort attribut finns i [(Valfritt) Uppdatera schema
 
 Så här tar du bort attribut och ersätter attribut i schemat.
 
-1. På sidan [!UICONTROL Edit customer attribute Source] tar du bort prenumerationen **[!UICONTROL Target]** eller **[!UICONTROL Analytics]** (under [!UICONTROL Configure Subscriptions]).
+1. På sidan [!UICONTROL Edit Customer Attribute Source] tar du bort prenumerationen **[!UICONTROL Target]** eller **[!UICONTROL Analytics]** (under **[!UICONTROL Configure Subscriptions]**).
+
 1. [Överför en ny datafil med uppdaterade fält](t-crs-usecase.md).
 
 ## Konfigurera prenumerationer och aktivera attributkällan {#task_1ACA21198F0E46A897A320C244DFF6EA}
 
 När du konfigurerar en prenumeration ställs dataflödet in mellan Experience Cloud och program. Genom att aktivera attributkällan kan data flöda till prenumererade program. De kundposter som du har överfört matchas med inkommande ID-signaler från din webbplats eller ditt program.
 
-Se [Konfigurera prenumerationer](subscription.md).
-
-**Så här aktiverar du en attributkälla**
-
-Leta reda på rubriken [!UICONTROL Create New or Edit customer attribute Source] på sidan [!UICONTROL Activate] och klicka sedan på **[!UICONTROL Active]**.
-
-![Stegresultat](assets/activate_attribute_source.png)
+Se [Konfigurera prenumerationer och aktivera datakällan](subscription.md).
 
 ## Använd kundattribut i Adobe Analytics {#task_7EB0680540CE4B65911B2C779210915D}
 
@@ -170,4 +170,4 @@ I [!DNL Target] kan du välja ett kundattribut i avsnittet [!UICONTROL Visitor P
 
 ![Använd kundattribut i Adobe Target](assets/crs-add-attribute-target.png)
 
-Se [Skapa en ny publik](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=sv-SE) i hjälpen för [!DNL Target].
+Se [Skapa en ny publik](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html) i hjälpen för [!DNL Target].

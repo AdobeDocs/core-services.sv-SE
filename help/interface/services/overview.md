@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: b790f79a6e49f2103e6b3c1fcde3a36c1ea5c141
+source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 5%
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 # Experience Cloud-tjänster {#topic_C1087DCC538F4F9A99D983C1BB29EBE0}
 
-Den här dokumentationen gäller funktioner i det enhetliga huvudet i Experience Cloud, till exempel [!DNL People]-tjänsten ([!DNL Audience Library] och [!DNL customer attributes]), användar- och produkthantering för Experience Cloud, cookies, kontoinställningar, meddelanden och så vidare.
+Den här dokumentationen gäller funktioner i det enhetliga huvudet i Experience Cloud, till exempel [!DNL People]-tjänsten ([!DNL Audience Library] och [!DNL Customer Attributes]), användar- och produkthantering för Experience Cloud, cookies, kontoinställningar, meddelanden och så vidare.
 
 Om du vill få tillgång till de här tjänsterna i Experience Cloud väljer du **[!UICONTROL Application Selector]**
 ![ Tjänstväljare ](../assets/apps-icon.png) .
@@ -36,4 +36,4 @@ I den här hjälpen beskrivs följande produkter och tjänster:
 
 >[!NOTE]
 >
->Produktdokumentation för [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=sv-SE) finns tillgänglig. Teknisk dokumentation för [!UICONTROL Experience Platform] utvecklare finns på [Adobe Developer](https://developer.adobe.com/apis).
+>Produktdokumentation för [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) finns tillgänglig. Teknisk dokumentation för [!UICONTROL Experience Platform] utvecklare finns på [Adobe Developer](https://developer.adobe.com/apis).

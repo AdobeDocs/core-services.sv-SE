@@ -1,5 +1,5 @@
 ---
-description: Läs mer om datafilskrav och flera datakällor för överföring av [!DNL customer attributes] till Experience Cloud.
+description: Läs mer om krav på datafiler och olika datakällor för överföring av kundattribut till Experience Cloud.
 solution: Experience Cloud
 title: Datafil och datakällor
 feature: Customer Attributes
@@ -7,20 +7,20 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
+source-git-commit: 106ad989c5eef60dabbe4b82deaed9d87b09d795
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
 
-# Om datafil och datakällor för [!DNL customer attributes]
+# Om datafil och datakällor för [!DNL Customer Attributes]
 
-Datafilskrav och flera datakällor för överföring av [!DNL customer attributes] till Experience Cloud.
+Datafilskrav och flera datakällor för överföring av kundattributdata till Experience Cloud.
 
 Du behöver åtkomst till CRM eller liknande data från ditt företag. De data som du överför till Experience Cloud måste vara en `.csv`-fil. Om du överför via FTP eller sFTP överför du även en `.fin`-fil.
 
-[!DNL customer attributes] är utformat för att hantera några filer per dag. För att minimera problemet med att ha många små filer som försenar bearbetningen dirigeras filer som skickas inom 30 minuter från en tidigare batch från samma organisation till en kö med lägre prioritet.
+[!DNL Customer Attributes] är utformat för att hantera några filer per dag. För att minimera problemet med att ha många små filer som försenar bearbetningen dirigeras filer som skickas inom 30 minuter från en tidigare batch från samma organisation till en kö med lägre prioritet.
 
 ## Tillåtna filtyper och namnkrav {#section_6F64FA02ACCC4215B0862CB6A1821FBF}
 
@@ -59,7 +59,7 @@ Samma fil som visas i en textredigerare:
   </tr> 
   <tr> 
    <td colname="col1"> <p>kundens ID-kolumn </p> </td> 
-   <td colname="col2"> <p> Den första kolumnen måste vara ett unikt kund-ID. Det ID som används ska motsvara det ID som skickas till Experience Cloud ID-tjänsten. </p> <p>För Analytics lagras ID:t i en propp eller eVar. </p> <p>Ange värdet för setCustomerID för Target. </p> <p> Detta kund-ID är den unika identifierare som CRM använder för varje person i din databas. De återstående kolumnerna är attribut som kommer från CRM. Du väljer hur många attribut du vill överföra. </p> <p>Ett läsbart namn rekommenderas för kolumnrubrikerna, men det behövs inte. När du validerar schemat efter överföring kan du mappa egna namn till överförda rader och kolumner. </p> <p> <b>Om kund-ID</b> </p> <p>Ett företag använder vanligtvis ett kund-ID från ett CRM-system. Detta ID anges med <span class="codeph"> setCustomerID:n </span> när en person loggar in. Detta ID används också som nyckel i CRM-filen som överförs till Experience Cloud. Ett <a href="t-crs-usecase.md" format="dita" scope="local"> alias-ID </a> är ett eget namn för ett datalager i Audience Manager, där aliasdata lagras. Systemet skickar alias till det här datalagret (via setCustomerID). CRM-filen används på data i det datalagret. </p> <p>Mer information om <span class="codeph"> setCustomerID:n </span> finns i <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=sv-SE" format="https" scope="external"> Customer IDs and Authentication State (Kund-ID:n och autentiseringstillstånd) </a>. </p> </td> 
+   <td colname="col2"> <p> Den första kolumnen måste vara ett unikt kund-ID. Det ID som används ska motsvara det ID som skickas till Experience Cloud ID-tjänsten. </p> <p>För Analytics lagras ID:t i en propp eller eVar. </p> <p>Ange värdet för setCustomerID för Target. </p> <p> Detta kund-ID är den unika identifierare som CRM använder för varje person i din databas. De återstående kolumnerna är attribut som kommer från CRM. Du väljer hur många attribut du vill överföra. </p> <p>Ett läsbart namn rekommenderas för kolumnrubrikerna, men det behövs inte. När du validerar schemat efter överföring kan du mappa egna namn till överförda rader och kolumner. </p> <p> <b>Om kund-ID</b> </p> <p>Ett företag använder vanligtvis ett kund-ID från ett CRM-system. Detta ID anges med <span class="codeph"> setCustomerID:n </span> när en person loggar in. Detta ID används också som nyckel i CRM-filen som överförs till Experience Cloud. Ett <a href="t-crs-usecase.md" format="dita" scope="local"> alias-ID </a> är ett eget namn för ett datalager i Audience Manager, där aliasdata lagras. Systemet skickar alias till det här datalagret (via setCustomerID). CRM-filen används på data i det datalagret. </p> <p>Mer information om <span class="codeph"> setCustomerID:n </span> finns i <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Customer IDs and Authentication State (Kund-ID:n och autentiseringstillstånd) </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Efterföljande rubriker och kolumner </p> </td> 
@@ -103,7 +103,7 @@ Samma fil som visas i en textredigerare:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Flera filer </p> </td> 
-   <td colname="col2"> <p>När du överför kundattributdata, om du har flera filer som du vill överföra i snabb följd, och särskilt om filerna är stora, bör du kontrollera att den föregående filen har bearbetats innan du överför nästa fil. Du kan övervaka detta genom att kontrollera när den föregående filen har flyttats till den bearbetade eller misslyckade mappen i ditt [!UICONTROL customer attributes] FTP-konto. </p> <p> Att dela upp en stor fil i mindre filer och skicka in dem i snabb följd kan i själva verket göra bearbetningen långsammare, såvida du inte kan säkerställa att varje fil bearbetas innan du skickar in nästa. </p> </td> 
+   <td colname="col2"> <p>När du överför kundattributdata, om du har flera filer som du vill överföra i snabb följd, och särskilt om filerna är stora, bör du kontrollera att den föregående filen har bearbetats innan du överför nästa fil. Du kan övervaka detta genom att kontrollera när den föregående filen har flyttats till den bearbetade eller misslyckade mappen i ditt [!DNL Customer Attributes] FTP-konto. </p> <p> Att dela upp en stor fil i mindre filer och skicka in dem i snabb följd kan i själva verket göra bearbetningen långsammare, såvida du inte kan säkerställa att varje fil bearbetas innan du skickar in nästa. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Teckenkodning </p> </td> 
@@ -111,7 +111,7 @@ Samma fil som visas i en textredigerare:
   </tr> 
    <tr> 
    <td colname="col1"> <p>Historiska data </p> </td> 
-   <td colname="col2"> <p> kundattribut är knutna till den underliggande besökarprofilen i [!DNL Analytics]. Därför är [!UICONTROL customer attributes] associerad med besökaren under hela besökarprofilens livstid i [!DNL Analytics]. Den här profilen innehåller beteenden som inträffade innan kunden loggade in för första gången. </p> <p> Om du använder Data Warehouse bakåtfyllningsmetod är data knutna till en post_visid_high/low som är baserad på analys-ID (AID). Om du använder Experience Cloud ID-tjänsten är data knutna till en post_visid_high/low som är baserad på Experience Cloud ID (MID). </p> <p> Observera att Data Warehouse bakåtfyllnadsmetod inte längre är tillgänglig från och med oktober 2022. </td> 
+   <td colname="col2"> <p> kundattribut är knutna till den underliggande besökarprofilen i [!DNL Analytics]. Därför är [!DNL Customer Attributes] associerad med besökaren under hela besökarprofilens livstid i [!DNL Analytics]. Den här profilen innehåller beteenden som inträffade innan kunden loggade in för första gången. </p> <p> Om du använder Data Warehouse bakåtfyllningsmetod är data knutna till en post_visid_high/low som är baserad på analys-ID (AID). Om du använder Experience Cloud ID-tjänsten är data knutna till en post_visid_high/low som är baserad på Experience Cloud ID (MID). </p> <p> Observera att Data Warehouse bakåtfyllnadsmetod inte längre är tillgänglig från och med oktober 2022. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Dataflöden </p> </td> 
@@ -137,8 +137,8 @@ Visitor.setcustomerIDs({
 });
 ```
 
-(Mer information finns i [Kund-ID:n och autentiseringstillstånd](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=sv-SE).)
+(Mer information finns i [Kund-ID:n och autentiseringstillstånd](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html).)
 
-I **[!UICONTROL Experience Cloud]** > **[!UICONTROL Customer Attributes]**:
+I **[!DNL Experience Cloud]** > **[!DNL Customer Attributes]**:
 
 Skapa två kundattributskällor med unika alias-ID:n som motsvarar kundens ID:n ovan. Med den här metoden kan samma referens-ID skickas till flera källor för kundattribut.
