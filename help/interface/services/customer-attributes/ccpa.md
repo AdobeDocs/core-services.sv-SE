@@ -1,19 +1,19 @@
 ---
-title: Kundattribut - stöd för California Consumer Privacy Act
-description: Läs mer om stöd för kundattribut i Kaliforniens konsumentintegritetslag
+title: '[!DNL Customer Attributes] Stöd för Kaliforniens sekretesslag för kunder'
+description: Läs mer om  [!DNL Customer Attributes] stöd för Kaliforniens konsumentsekretesslag
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 320defc7-2cd5-4481-955d-77cf6fbfef6d
-source-git-commit: 106ad989c5eef60dabbe4b82deaed9d87b09d795
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '397'
 ht-degree: 0%
 
 ---
 
-# Kundattribut - stöd för California Consumer Privacy Act
+# [!DNL Customer Attributes]-stöd för Kaliforniens konsumentsekretesslag
 
 Den här sidan beskriver [!DNL Customer Attributes]-stöd för California Consumer Privacy Act (CCPA).
 

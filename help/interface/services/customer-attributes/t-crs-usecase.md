@@ -1,21 +1,21 @@
 ---
-description: Lär dig skapa en kundattributkälla och överföra den till Adobe Experience Cloud.
+description: Lär dig att skapa en  [!DNL Customer Attributes] datakälla och överföra den till Experience Cloud.
 solution: Experience Cloud
-title: Skapa och överföra en Source-fil med kundattributdata
+title: Skapa och överföra en  [!DNL Customer Attributes] Source-datafil
 uuid: 53dca789-9a91-4385-839d-c9d1aa36b9be
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: 21ed7c35-aac9-46f1-a50c-84e7c075209c
-source-git-commit: 32f3bd4eb6229a910366f274f9adfbc609440764
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
 
-# Skapa en kundattributkälla och överför datafilen
+# Skapa en datakälla och överför filen
 
 Skapa kundattributskällan (`.csv`- och `.fin`-filer) och överför data. Du kan aktivera datakällan när du är klar. När datakällan är aktiv delar du attributdata till [!DNL Analytics] och [!DNL Target].
 
@@ -80,7 +80,7 @@ Utför dessa steg på källsidan Skapa nytt kundattribut i Experience Cloud.
 
       * **Taggar:** Alias-ID motsvarar värdet *Integreringskod* under [!UICONTROL customer Settings] i verktyget [Experience Cloud ID-tjänst](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=sv).
 
-      * **Besökar-API:** Alias-ID:t motsvarar de ytterligare [kund-ID:n](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=sv-SE) som du kan associera med varje besökare.
+      * **Besökar-API:** Alias-ID:t motsvarar de ytterligare [kund-ID:n](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) som du kan associera med varje besökare.
 
         Till exempel *&quot;crm_id&quot;* i:
 
@@ -88,13 +88,13 @@ Utför dessa steg på källsidan Skapa nytt kundattribut i Experience Cloud.
         "crm_id":"67312378756723456"
         ```
 
-      * **iOS:** Alias-ID motsvarar *&quot;idType&quot;* i [visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html?lang=sv-SE).
+      * **iOS:** Alias-ID motsvarar *&quot;idType&quot;* i [visitorSyncIdentifiers:identifiers](https://experienceleague.adobe.com/docs/mobile-services/ios/overview.html).
 
         Exempel:
 
         `[ADBMobile visitorSyncIdentifiers:@{@<`**`"idType"`**`:@"idValue"}];`
 
-      * **Android™:** Alias-ID motsvarar *&quot;idType&quot;* i [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html?lang=sv-SE).
+      * **Android™:** Alias-ID motsvarar *&quot;idType&quot;* i [syncIdentifiers](https://experienceleague.adobe.com/docs/mobile-services/android/overview.html).
 
         Exempel:
 
@@ -102,7 +102,7 @@ Utför dessa steg på källsidan Skapa nytt kundattribut i Experience Cloud.
 
         Se [Utnyttjar flera datakällor](crs-data-file.md#section_76DEB6001C614F4DB8BCC3E5D05088CB) om du vill ha mer information om databearbetning för Alias ID-fältet och kund-ID:n.
 
-   * **[!UICONTROL Namespace Code:]** Använd det här värdet för att identifiera kundattributskällan när du använder [ IdentityMap](https://experienceleague.adobe.com/sv/docs/experience-platform/web-sdk/identity/overview) som en del av en AEP WebSDK-implementering.
+   * **[!UICONTROL Namespace Code:]** Använd det här värdet för att identifiera kundattributskällan när du använder [ IdentityMap](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/identity/overview) som en del av en AEP WebSDK-implementering.
 
 1. Klicka på **[!UICONTROL Save]**.
 
@@ -170,4 +170,4 @@ I [!DNL Target] kan du välja ett kundattribut i avsnittet [!UICONTROL Visitor P
 
 ![Använd kundattribut i Adobe Target](assets/crs-add-attribute-target.png)
 
-Se [Skapa en ny publik](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html?lang=sv-SE) i hjälpen för [!DNL Target].
+Se [Skapa en ny publik](https://experienceleague.adobe.com/docs/target/using/audiences/create-audiences/audiences.html) i hjälpen för [!DNL Target].

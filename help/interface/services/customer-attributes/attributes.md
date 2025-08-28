@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Customer Attributes]'
+title: Om [!DNL Customer Attributes]
 description: Läs mer om  [!DNL Customer Attributes] i Experience Cloud. Upptäck hur du överför data från kundattribut för användning i Adobe Analytics och Adobe Target.
 solution: Experience Cloud,Target,Analytics
 feature: Customer Attributes
@@ -7,9 +7,9 @@ role: Admin
 topic: Administration
 level: Experienced
 exl-id: fe8ad013-76da-49f8-aa51-dc5f6c1b1d79
-source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '425'
 ht-degree: 5%
 
 ---
@@ -36,7 +36,7 @@ Med [!DNL Customer Attributes] i Experience Cloud kan du överföra dina hämtad
 
 * **Adobe Target** `at.js` (valfri version) eller `mbox.js` version 58 eller senare krävs för kundattribut.
 
-  Se [Distribuera på.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=sv-SE).
+  Se [Distribuera på.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html).
 
 ## Vad är företagsdata? {#enterprise_data}
 

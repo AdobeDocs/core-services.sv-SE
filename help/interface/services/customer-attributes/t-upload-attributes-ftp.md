@@ -1,20 +1,20 @@
 ---
 description: Lär dig överföra kundattributdata via FTP till Experience Cloud.
 solution: Experience Cloud
-title: Överför kundattributdatafilen via FTP
+title: Överför kundattributdatafil via FTP
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: ed9e4a8f-493a-4a0f-a87e-674c7da95b99
-source-git-commit: 2f126877f6a5f090884ebe093f35e4f6d90b4df6
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
 
-# Valfritt - Överför datafilen via FTP
+# Överför datafilen via FTP (valfritt)
 
 Om du inte överför med dra och släpp kan du överföra kundattributdata via FTP till Experience Cloud.
 
@@ -27,7 +27,7 @@ Du kan överföra data när du har skapat en kundattributskälla och ett FTP-kon
 Filöverföring till kundattributen FTP-plats kan göras via FTP eller SFTP:
 
 * Du behöver en klient som stöder SFTP-anslutningar.
-* Du kan ansluta med SFTP med antingen användarnamn/lösenord eller utan lösenord, vilket beskrivs [här](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html?lang=sv-SE).
+* Du kan ansluta med SFTP med antingen användarnamn/lösenord eller utan lösenord, vilket beskrivs [här](https://experienceleague.adobe.com/docs/analytics/export/ftp-and-sftp/secure-file-transfer-protocol/ftp-sftp-cert-auth.html).
 
 **Så här överför du datafilen via FTP**
 
@@ -44,3 +44,29 @@ Filöverföring till kundattributen FTP-plats kan göras via FTP eller SFTP:
    Om överföringen lyckas flyttas båda filerna till en mapp med namnet **bearbetad**.
 
    Se [Datafilskrav för överföring av kundattribut](crs-data-file.md) för viktig information om filnamn och struktur.
+
+## Konfigurera ett FTP-konto
+
+Ställ in ett FTP-konto per attributkälla.
+
+Klicka på [!UICONTROL File Upload and Schema Validation] på sidan **[!UICONTROL FTP Setup]**.
+
+![Redigera ett schema](assets/ftp-account.png)
+
+De överförda filerna lagras i kontots rotmapp. Data måste vara i formatet `.csv`, med en andra `.fin`-fil för att indikera att överföringen är slutförd.
+
+De namn du anger för strängar, heltal och tal används för att skapa [!DNL Analytics]-mått.
+
+* **[!UICONTROL attribute:]** attributdata lästes från den överförda `.csv`-filen.
+
+* **[!UICONTROL Type:]** Datatypen, till exempel:
+
+   * **Sträng:** En teckensekvens.
+
+   * **Heltal:** Hela tal.
+
+   * **Nummer:** Kan innehålla upp till två decimaler.
+
+* **[!UICONTROL Display Name:]** Ett eget namn för attributet. Du kan till exempel ändra attributet *kundens ålder* till *kund sedan*.
+
+* **[!UICONTROL Description:]** En användarvänlig beskrivning av attributet.

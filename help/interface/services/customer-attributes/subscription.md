@@ -1,28 +1,28 @@
 ---
-description: Lär dig hur du konfigurerar prenumerationer på kundattribut för Analytics och Target samt hur du aktiverar en datakälla.
+description: Lär dig hur du konfigurerar prenumerationer i  [!DNL Customer Attributes] för Analytics och Target, och hur du aktiverar en datakälla.
 solution: Experience Cloud
-title: Konfigurera prenumerationer
+title: Konfigurera prenumerationer i  [!DNL Customer Attributes]
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: cfa2aa5c-337f-401e-80eb-cbe36cb1d41e
-source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '415'
 ht-degree: 1%
 
 ---
 
 # Konfigurera prenumerationer och aktivera datakällan
 
-Prenumerationer möjliggör dataflöde för kundattribut mellan Experience Cloud och program ([!DNL Analytics] och [!DNL Target]).
+[!DNL Customer Attributes]-prenumerationer aktiverar dataflödet för kundattribut mellan Experience Cloud och program ([!DNL Analytics] och [!DNL Target]).
 
-En Adobe Analytics-prenumeration kan t.ex. aktivera attributdata i rapporter. Om du använder Adobe Target kan du överföra kundattribut för målgruppsanpassning och segmentering.
+En Adobe Analytics-prenumeration kan t.ex. aktivera attributdata i rapporter. Om du använder [!DNL Adobe Target] kan du överföra kundattribut för målinriktning och segmentering.
 
 **Konfigurera prenumerationer och aktivera datakällan**
 
-1. Leta reda på kundens attributkälla för redigering:
+1. Leta reda på datakällan i [!DNL Customer Attributes] för redigering:
 
    I [!DNL Experience Cloud] klickar du på **[!UICONTROL Apps]** ![menu](assets/menu-icon.png) > **[!DNL Customer Attributes]**.
 

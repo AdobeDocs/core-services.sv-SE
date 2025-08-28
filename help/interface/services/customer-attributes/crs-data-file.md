@@ -1,15 +1,15 @@
 ---
-description: Läs mer om krav på datafiler och olika datakällor för överföring av kundattribut till Experience Cloud.
+description: Läs mer om datafilskrav och flera datakällor för överföring av data i [!DNL Customer Attributes] till Experience Cloud.
 solution: Experience Cloud
-title: Datafil och datakällor
+title: Datafil och datakällor för kundattribut
 feature: Customer Attributes
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: e2dfe10d-7003-4afa-a5e6-57703d74efd4
-source-git-commit: 106ad989c5eef60dabbe4b82deaed9d87b09d795
+source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1150'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Samma fil som visas i en textredigerare:
   </tr> 
   <tr> 
    <td colname="col1"> <p>kundens ID-kolumn </p> </td> 
-   <td colname="col2"> <p> Den första kolumnen måste vara ett unikt kund-ID. Det ID som används ska motsvara det ID som skickas till Experience Cloud ID-tjänsten. </p> <p>För Analytics lagras ID:t i en propp eller eVar. </p> <p>Ange värdet för setCustomerID för Target. </p> <p> Detta kund-ID är den unika identifierare som CRM använder för varje person i din databas. De återstående kolumnerna är attribut som kommer från CRM. Du väljer hur många attribut du vill överföra. </p> <p>Ett läsbart namn rekommenderas för kolumnrubrikerna, men det behövs inte. När du validerar schemat efter överföring kan du mappa egna namn till överförda rader och kolumner. </p> <p> <b>Om kund-ID</b> </p> <p>Ett företag använder vanligtvis ett kund-ID från ett CRM-system. Detta ID anges med <span class="codeph"> setCustomerID:n </span> när en person loggar in. Detta ID används också som nyckel i CRM-filen som överförs till Experience Cloud. Ett <a href="t-crs-usecase.md" format="dita" scope="local"> alias-ID </a> är ett eget namn för ett datalager i Audience Manager, där aliasdata lagras. Systemet skickar alias till det här datalagret (via setCustomerID). CRM-filen används på data i det datalagret. </p> <p>Mer information om <span class="codeph"> setCustomerID:n </span> finns i <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=sv-SE" format="https" scope="external"> Customer IDs and Authentication State (Kund-ID:n och autentiseringstillstånd) </a>. </p> </td> 
+   <td colname="col2"> <p> Den första kolumnen måste vara ett unikt kund-ID. Det ID som används ska motsvara det ID som skickas till Experience Cloud ID-tjänsten. </p> <p>För Analytics lagras ID:t i en propp eller eVar. </p> <p>Ange värdet för setCustomerID för Target. </p> <p> Detta kund-ID är den unika identifierare som CRM använder för varje person i din databas. De återstående kolumnerna är attribut som kommer från CRM. Du väljer hur många attribut du vill överföra. </p> <p>Ett läsbart namn rekommenderas för kolumnrubrikerna, men det behövs inte. När du validerar schemat efter överföring kan du mappa egna namn till överförda rader och kolumner. </p> <p> <b>Om kund-ID</b> </p> <p>Ett företag använder vanligtvis ett kund-ID från ett CRM-system. Detta ID anges med <span class="codeph"> setCustomerID:n </span> när en person loggar in. Detta ID används också som nyckel i CRM-filen som överförs till Experience Cloud. Ett <a href="t-crs-usecase.md" format="dita" scope="local"> alias-ID </a> är ett eget namn för ett datalager i Audience Manager, där aliasdata lagras. Systemet skickar alias till det här datalagret (via setCustomerID). CRM-filen används på data i det datalagret. </p> <p>Mer information om <span class="codeph"> setCustomerID:n </span> finns i <a href="https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html" format="https" scope="external"> Customer IDs and Authentication State (Kund-ID:n och autentiseringstillstånd) </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Efterföljande rubriker och kolumner </p> </td> 
@@ -137,7 +137,7 @@ Visitor.setcustomerIDs({
 });
 ```
 
-(Mer information finns i [Kund-ID:n och autentiseringstillstånd](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=sv-SE).)
+(Mer information finns i [Kund-ID:n och autentiseringstillstånd](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html).)
 
 I **[!DNL Experience Cloud]** > **[!DNL Customer Attributes]**:
 
