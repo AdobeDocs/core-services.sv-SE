@@ -36,7 +36,7 @@ Med [!DNL Customer Attributes] i Experience Cloud kan du överföra dina hämtad
 
 * **Adobe Target** `at.js` (valfri version) eller `mbox.js` version 58 eller senare krävs för kundattribut.
 
-  Se [Distribuera på.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html).
+  Se [Distribuera på.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=sv-SE).
 
 ## Vad är företagsdata? {#enterprise_data}
 
