@@ -36,4 +36,4 @@ I den här hjälpen beskrivs följande produkter och tjänster:
 
 >[!NOTE]
 >
->Produktdokumentation för [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) finns tillgänglig. Teknisk dokumentation för [!UICONTROL Experience Platform] utvecklare finns på [Adobe Developer](https://developer.adobe.com/apis).
+>Produktdokumentation för [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=sv-SE) finns tillgänglig. Teknisk dokumentation för [!UICONTROL Experience Platform] utvecklare finns på [Adobe Developer](https://developer.adobe.com/apis).
