@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 776d1fd3-c733-4970-a76b-4c3c0119ee77
-source-git-commit: 21120abb5ab0fcc8d556012851548f39f3875038
+source-git-commit: d2244e249c7af27bc1b4fc7bfe628bc25b37f4d4
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 0%
@@ -32,11 +32,11 @@ Ett schema skapas baserat på dessa inställningar. Schemat används för att va
 
 1. På sidan [!UICONTROL File Upload and Schema Validation] klickar du på **[!UICONTROL Actions]** > **[!UICONTROL View/Edit Schema]**
 
-   ![Redigera ett schema](assets/view_edit_schema.png)
+   ![Redigera ett schema](assets/actions.png)
 
    På sidan [!UICONTROL Edit Schema] representerar varje rad i schemat en kolumn i den överförda CSV-filen.
 
-   ![Redigera schemasida i Experience Cloud](assets/edit-schema.png)
+   ![Redigera schemasida i Experience Cloud](assets/schema-edit.png)
 
 **Åtgärder**
 
