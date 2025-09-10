@@ -15,13 +15,13 @@ Detta projekt har antagit [Adobe Open Source Code of Conduct](code-of-conduct.md
 
 ## Om dina bidrag till innehåll hos Adobe
 
-Se [Guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
+Se [Guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/sv/docs/contributor/contributor-guide/introduction).
 
 Hur du bidrar beror på vem du är och vilken typ av ändringar du vill bidra med:
 
 ### Mindre ändringar
 
-Om du bidrar med mindre uppdateringar av ditt hjärta kan du gå till artikeln och välja länken **Redigera** i artikeln som går till artikelns GitHub-källa. Använd sedan helt enkelt GitHub-gränssnittet för att göra uppdateringarna. Mer information finns i den allmänna [guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
+Om du bidrar med mindre uppdateringar av ditt hjärta kan du gå till artikeln och välja länken **Redigera** i artikeln som går till artikelns GitHub-källa. Använd sedan helt enkelt GitHub-gränssnittet för att göra uppdateringarna. Mer information finns i den allmänna [guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/sv/docs/contributor/contributor-guide/introduction).
 
 Mindre korrigeringar och förtydliganden som du lämnar in för dokumentation och kodexempel i den här databasen omfattas av Adobes användarvillkor.
 
@@ -43,7 +43,7 @@ Om du är teknikskribent, programansvarig eller utvecklare från produktteamet f
 
 Deltagare i vårt community kan använda GitHub-gränssnittet för grundläggande redigeringar eller förgrena databasen för att göra större bidrag.
 
-Mer information finns i [guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
+Mer information finns i [guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/sv/docs/contributor/contributor-guide/introduction).
 
 ## Så använder du markdown för att formatera ditt ämne
 
