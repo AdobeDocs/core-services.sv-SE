@@ -1,8 +1,8 @@
 ---
-source-git-commit: 00a6aa791dd08c2907cd09c17b7e2a1e62b060c1
+source-git-commit: d192f4fec8cd150f77d076d3ad749048319cd701
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 71%
+source-wordcount: '397'
+ht-degree: 74%
 
 ---
 # Artikel om att bidra
@@ -15,13 +15,13 @@ Detta projekt har antagit [Adobe Open Source Code of Conduct](code-of-conduct.md
 
 ## Om dina bidrag till innehåll hos Adobe
 
-Se [Guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Se [Guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
 
 Hur du bidrar beror på vem du är och vilken typ av ändringar du vill bidra med:
 
 ### Mindre ändringar
 
-Om du bidrar med mindre uppdateringar av ditt hjärta kan du gå till artikeln och välja **Redigera** i artikeln som går till artikelns GitHub-källa. Använd sedan helt enkelt GitHub-gränssnittet för att göra uppdateringarna. Mer information finns i den allmänna [guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Om du bidrar med mindre uppdateringar av ditt hjärta kan du gå till artikeln och välja länken **Redigera** i artikeln som går till artikelns GitHub-källa. Använd sedan helt enkelt GitHub-gränssnittet för att göra uppdateringarna. Mer information finns i den allmänna [guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
 
 Mindre korrigeringar och förtydliganden som du lämnar in för dokumentation och kodexempel i den här databasen omfattas av Adobes användarvillkor.
 
@@ -35,7 +35,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Stora förändringar från anställda hos Adobe
 
-Om du är teknikskribent, programchef eller utvecklare för en [!UICONTROL Adobe Experience Cloud] och det är ditt jobb att bidra till eller skriva tekniska artiklar, du bör använda det privata arkivet på `https://git.corp.adobe.com/AdobeDocs`.
+Om du är teknikskribent, programansvarig eller utvecklare från produktteamet för en [!UICONTROL Adobe Experience Cloud]-lösning och det är ditt jobb att bidra till eller skapa tekniska artiklar, bör du använda den privata databasen på `https://git.corp.adobe.com/AdobeDocs`.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
@@ -43,7 +43,7 @@ Om du är teknikskribent, programchef eller utvecklare för en [!UICONTROL Adobe
 
 Deltagare i vårt community kan använda GitHub-gränssnittet för grundläggande redigeringar eller förgrena databasen för att göra större bidrag.
 
-Mer information finns i [guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Mer information finns i [guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
 
 ## Så använder du markdown för att formatera ditt ämne
 
