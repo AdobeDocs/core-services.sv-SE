@@ -64,7 +64,7 @@ Innan Creative Cloud-användare har tillgång till mediefiler måste de vara til
 
    När du har tagit bort alla Creative Cloud-användare delas inte mappen och Creative Cloud-användarna har inte längre åtkomst.
 
-Fler sätt att använda en delad resurs är att läsa in eller byta resurser i [Erbjudandebiblioteket](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) i Adobe Target för bilder i aktiviteter.
+Fler sätt att använda en delad resurs är att läsa in eller byta resurser i [Erbjudandebiblioteket](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=sv-SE) i Adobe Target för bilder i aktiviteter.
 
 När du har delat en mapp med Creative Cloud visas Creative Cloud logotyp i mappen.
 
@@ -72,12 +72,12 @@ När du har delat en mapp med Creative Cloud visas Creative Cloud logotyp i mapp
 
 Relaterad hjälp:
 
-* [Hjälp om Creative Cloud - Hantera och synkronisera filer](https://helpx.adobe.com/creative-cloud/help/sync-creative-cloud-files.html)
-* [Hjälp om Creative Cloud - Samarbeta med andra](https://helpx.adobe.com/creative-cloud/help/collaboration.html)
-* [Hjälp om Creative Cloud - Vanliga frågor om Collaboration](https://helpx.adobe.com/creative-cloud/help/collaboration-faq.html)
+* [Hjälp om Creative Cloud - Hantera och synkronisera filer](https://helpx.adobe.com/se/creative-cloud/help/sync-creative-cloud-files.html)
+* [Hjälp om Creative Cloud - Samarbeta med andra](https://helpx.adobe.com/se/creative-cloud/help/collaboration.html)
+* [Hjälp om Creative Cloud - Vanliga frågor om Collaboration](https://helpx.adobe.com/se/creative-cloud/help/collaboration-faq.html)
 
 ## Om resursdelning med Adobe Target {#section_B7CD64CAB35D43A4B12957B304072DC9}
 
 När du skapar aktiviteter i [!DNL Adobe Target] kan du använda en delad bildresurs när du byter bilder i [!UICONTROL Offers Library].
 
-Se [Erbjudandebibliotek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html) i hjälpen för [!DNL Target].
+Se [Erbjudandebibliotek](https://experienceleague.adobe.com/docs/target/using/experiences/offers/manage-content.html?lang=sv-SE) i hjälpen för [!DNL Target].
