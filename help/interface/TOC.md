@@ -5,9 +5,9 @@ breadcrumb-title: Gränssnitt och administration i Experience Cloud
 title: Experience Cloud Interface and Administration
 description: Läs mer om Experience Cloud gränssnitt, cookies och kontoinställningar. Hantera produkter och konfigurera Persontjänsten, inklusive kundattribut och målgruppsbibliotek. Dela Experience Cloud Assets.
 index: true
-source-git-commit: 84e5d971dadd2281ff7a225d860400d1807c5d46
+source-git-commit: 751ac6de0df2956fc91aa8a19a1fc54c1a7c29b1
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '232'
 ht-degree: 20%
 
 ---
@@ -22,7 +22,6 @@ ht-degree: 20%
    + [Komma igång](services/getting-started.md)
    + Resurser {#assets}
       + [Översikt](services/assets/experience-cloud-assets.md)
-      + [Dela mappar och resurser med Creative Cloud](services/assets/creative-cloud.md)
       + [Hantera Creative Cloud-användare](services/assets/manage-cc-users.md)
       + [Dela en resursmapp](services/assets/share.md)
       + [Överföra en resurs till en delad mapp](services/assets/upload.md)
