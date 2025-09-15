@@ -5,10 +5,10 @@ breadcrumb-title: Gränssnitt och administration i Experience Cloud
 title: Experience Cloud Interface and Administration
 description: Läs mer om Experience Cloud gränssnitt, cookies och kontoinställningar. Hantera produkter och konfigurera Persontjänsten, inklusive kundattribut och målgruppsbibliotek. Dela Experience Cloud Assets.
 index: true
-source-git-commit: 751ac6de0df2956fc91aa8a19a1fc54c1a7c29b1
+source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 20%
+source-wordcount: '205'
+ht-degree: 24%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 20%
 
 + Tjänster {#services}
    + [Översikt](services/overview.md)
-   + [Komma igång](services/getting-started.md)
+   + [Kom igång](services/getting-started.md)
    + Resurser {#assets}
       + [Översikt](services/assets/experience-cloud-assets.md)
       + [Hantera Creative Cloud-användare](services/assets/manage-cc-users.md)
@@ -33,16 +33,16 @@ ht-degree: 20%
    + [Exchange](services/exchange.md)
    + Kundattribut {#customer-attributes}
       + [Översikt](services/customer-attributes/attributes.md)
-      + [Frågor och svar om kundattribut](services/customer-attributes/faq-crs.md)
-      + [Om datafiler och datakällor för kundattribut](services/customer-attributes/crs-data-file.md)
-      + [Skapa en kundattributkälla och överför datafilen](services/customer-attributes/t-crs-usecase.md)
-      + [Valfritt - Överför datafilen via FTP](services/customer-attributes/t-upload-attributes-ftp.md)
+      + [Vanliga frågor och svar](services/customer-attributes/faq-crs.md)
+      + [Om datafiler och datakällor](services/customer-attributes/crs-data-file.md)
+      + [Skapa och överföra datafilen](services/customer-attributes/t-crs-usecase.md)
+      + [Valfritt - Överför via FTP](services/customer-attributes/t-upload-attributes-ftp.md)
       + [Validera schemat](services/customer-attributes/validate-schema.md)
       + [Konfigurera prenumerationer och aktivera datakälla](services/customer-attributes/subscription.md)
       + [Uppdatera schemat](services/customer-attributes/t-update-schema.md)
-      + [Stöd för den allmänna dataskyddsförordningen](services/customer-attributes/gdpr.md)
-      + [Stöd för California Consumer Privacy Act](services/customer-attributes/ccpa.md)
-      + [Sekretessöverväganden för kundattribut](services/customer-attributes/privacy-mac.md)
+      + [Stöd för GDPR](services/customer-attributes/gdpr.md)
+      + [Stöd för CCPA](services/customer-attributes/ccpa.md)
+      + [Sekretessfrågor](services/customer-attributes/privacy-mac.md)
    + [Utlösare](services/triggers.md)
 
 + Funktioner {#features}
@@ -56,7 +56,7 @@ ht-degree: 20%
 + Administrering {#administration}
    + [Användarhantering och produktlicenser](administration/admin-console.md)
    + [Visa användarinformation (Admin Tool)](administration/admin-tool-experience-cloud.md)
-   + [Organisationer och kontolänkning](administration/organizations.md)
+   + [Organisationer](administration/organizations.md)
    + [Experience Cloud-integreringar](administration/integrations.md)
 
 + Datainsamling {#data-collection}

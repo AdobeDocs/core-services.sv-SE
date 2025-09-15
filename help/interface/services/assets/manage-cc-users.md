@@ -1,22 +1,22 @@
 ---
-description: Lär dig mer om administrationsverktyg för hantering av godkända Creative Cloud-användare i Experience Cloud.
+description: Läs om administrationsverktygen för att hantera godkända Creative Cloud-användare i Experience Cloud.
 solution: Experience Cloud
-title: Hantera Creative Cloud-användare
+title: Hantera Creative Cloud-användare i Experience Cloud
 feature: Assets
 topic: Administration
 role: Admin
 level: Experienced
 exl-id: f94e8b8f-d666-4aa1-a3b7-246026035b78
-source-git-commit: 163dc8ef83fb83a0e51879520bcb3ae697c95144
+source-git-commit: 51f87269d7d475b958b3b853484d94073bd64d3e
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '109'
 ht-degree: 1%
 
 ---
 
 # Hantera Creative Cloud-användare
 
-Experience Cloud har administrationsverktyg för hantering av godkända användare i Creative Cloud. Dessa användare kan bjudas in ad hoc-till en kampanjmapp. Endast användare som har lagts till i listan av en administratör kan bjudas in till en kampanj. De tillagda användarna visas i listan över användare som fylls i automatiskt i Experience Cloud.
+Experience Cloud innehåller administrationsverktyg för hantering av godkända Creative Cloud-användare. Dessa användare kan bjudas in ad hoc-till en kampanjmapp. Endast användare som har lagts till i listan av en administratör kan bjudas in till en kampanj. De tillagda användarna visas i listan över användare som fylls i automatiskt i Experience Cloud.
 
 >[!NOTE]
 >
