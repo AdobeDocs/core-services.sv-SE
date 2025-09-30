@@ -9,9 +9,9 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: b71d144c-a097-4cdb-9721-671519d38aff
-source-git-commit: 87926f9a069167ae146f8063e82f31cd0a287ce4
+source-git-commit: 66e8f4fe4ef0d0f2c00a875f13f0b8cd73ea1232
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1273'
 ht-degree: 9%
 
 ---
@@ -24,11 +24,11 @@ En lista över dokumentationsuppdateringar finns i [Dokumentationsuppdateringar]
 
 Versionsinformation om alla program finns i [Versionsinformation för Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=sv).
 
-<!-- ## September 2025
+## September 2025
 
-| Date | Update  | Description  |
+| Datum | Uppdatering | Beskrivning |
 | -----------| -----------| ---------- |
-| September 25, 2025 | Support for IP Access Lists | For organizations that have IP Access Lists in Admin Console available and enabled, Experience Cloud will honor those IP restrictions to access applications on the https://experience.adobe.com domain. This update affects all web applications accessed via that domain, and checks occur at login and new page loads in that organization.  | -->
+| **25 september 2025** | Stöd för IP-åtkomstlistor | För organisationer som har IP-åtkomstlistor i Admin Console tillgängliga och aktiverade respekterar Experience Cloud dessa IP-begränsningar för åtkomst till program i domänen `https://experience.adobe.com`. Den här uppdateringen påverkar alla webbprogram som nås via den domänen, och kontroller utförs vid inloggning och när nya sidor läses in i den organisationen. |
 
 ## Mars 2025
 
@@ -66,21 +66,21 @@ NA - released July 2022
 
 Release: **July 20 - August 31, 2023**
 
-Adobe is updating its provisioning to provide all [!DNL Experience Cloud] customers access to foundational capabilities that aid interoperability between some [!DNL Experience Cloud] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL Experience Cloud] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=sv-SE) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
+Adobe is updating its provisioning to provide all [!DNL Experience Cloud] customers access to foundational capabilities that aid interoperability between some [!DNL Experience Cloud] products. Users will have [!DNL Experience Platform] as a new entitlement added to their [!DNL Experience Cloud] organizations, with [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) as an included service. [!DNL Experience Platform] [!UICONTROL Data Collection] includes tags for simplified universal tag management and offers a trusted, robust, and complete streaming data infrastructure. This update simplifies your experience data collection and streamlines experience delivery. 
 
 With this update, administrators may see changes or additions to the Admin Console:
 
-* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html?lang=sv-SE), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html?lang=sv-SE), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html?lang=sv-SE), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html?lang=sv-SE), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html?lang=sv-SE), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html?lang=sv-SE), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html?lang=sv-SE), and [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html?lang=sv-SE).
+* The Adobe [!DNL Experience Platform] product card in the Admin Console will include: [Places](https://experienceleague.adobe.com/docs/places/using/home.html), [Assurance](https://experienceleague.adobe.com/docs/platform-learn/implement-mobile-sdk/app-implementation/assurance.html), [Identity Namespace](https://experienceleague.adobe.com/docs/experience-platform/identity/home.html), [Sandboxes](https://experienceleague.adobe.com/docs/experience-platform/sandbox/home.html), [Experience Data Model](https://experienceleague.adobe.com/docs/experience-platform/xdm/home.html), [Schemas](https://experienceleague.adobe.com/docs/experience-platform/xdm/schema/composition.html), [Datastreams](https://experienceleague.adobe.com/docs/experience-platform/edge/datastreams/overview.html), and [Experience Cloud ID](https://experienceleague.adobe.com/docs/id-service/using/intro/overview.html).
 
   * For organizations who are not currently using [!DNL Experience Platform], you will now see the [!DNL Experience Platform] product in the [!UICONTROL Admin Console], including the capabilities listed above.
 
   * For organizations currently using [!DNL Experience Platform], [!UICONTROL Places] will be consolidated into the [!DNL Experience Platform] card.
 
-* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html?lang=sv-SE) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=sv-SE) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities -->
+* Adobe [!DNL Experience Platform] [Data Collection](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/reporting-interface/overview-data-collection.html) (formerly [!DNL Launch]) and [Privacy](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html) will continue to appear as their own product cards, separate from the other [!DNL Experience Platform] capabilities -->
 
 ## Maj 2023
 
-* Innehållssökningen har uppdaterats på menyn [!DNL Experience Cloud] **[!UICONTROL Help]** för att filtrera efter program i sökresultaten för [Experience League](https://experienceleague.adobe.com/sv#home).
+* Innehållssökningen har uppdaterats på menyn [!DNL Experience Cloud] **[!UICONTROL Help]** för att filtrera efter program i sökresultaten för [Experience League](https://experienceleague.adobe.com/#home).
 
 ## Juli 2022
 
@@ -111,7 +111,7 @@ With this update, administrators may see changes or additions to the Admin Conso
 | Funktion | Beskrivning |
 | ------- |-------|
 | Genvägar (**[!UICONTROL Recents]**) har lagts till i startsidan för [Experience Cloud](https://experience.adobe.com/home) | Du kan komma åt genvägar till dina senaste Journey Optimizer- och Experience Platform-arbeten under den nya rubriken _Senaste_ på landningssidan. Uppdateringen innehåller även allmänna layoutförbättringar och förbättringar av svarstiderna. |
-| **[!UICONTROL Sandboxes]** har flyttats till rubrikfältet | Sandlådeindikatorn är nu integrerad i sidhuvudet för alla Experience Platform-gränssnittsprogram. Mer information finns i [Sandlådor](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html?lang=sv-SE) i Experience Platform. |
+| **[!UICONTROL Sandboxes]** har flyttats till rubrikfältet | Sandlådeindikatorn är nu integrerad i sidhuvudet för alla Experience Platform-gränssnittsprogram. Mer information finns i [Sandlådor](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/user-guide.html) i Experience Platform. |
 
 {style="table-layout:auto"}
 
@@ -151,7 +151,7 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 | Funktion | Datum | Beskrivning |
 | ------- | ------- | ------- |
 | Stöd för enkel inloggning för Adobe Federated ID:n | 17 juni 2021 | Om du använder Federated ID:n kan du logga in på Experience Cloud utan att behöva ange en e-postadress eller ett lösenord. Om du vill använda den här funktionen lägger du till `#/sso:@domain` i Experience Cloud URL. <br>Anta till exempel att du äger domänen `adobecustomer.com` och vill logga in på Adobe Analytics. URL:en skulle vara: `https://experience.adobe.com/#/sso:@adobecustomer.com/analytics`. |
-| Experience League Search | 1 juni 2021 | Experience League dokumentationssökning har förbättrats. Navigera till [Experience League](https://experienceleague.adobe.com/docs/?lang=sv-SE) och använd fältet **[!UICONTROL Search]** för att hitta självstudiekurser, dokumentation, kurser med mera. |
+| Experience League Search | 1 juni 2021 | Experience League dokumentationssökning har förbättrats. Navigera till [Experience League](https://experienceleague.adobe.com/docs/) och använd fältet **[!UICONTROL Search]** för att hitta självstudiekurser, dokumentation, kurser med mera. |
 
 {style="table-layout:auto"}
 
@@ -160,7 +160,7 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 | Funktion | Beskrivning |
 | ------- | ------- |
 | Experience Cloud Header &amp; Navigation | Adobe Experience Cloud-uppdateringarna innehåller en ändring av det ljusa temat för rubriken, med möjlighet att enkelt växla tillbaka till det mörka temat och länka för att styra ytterligare inställningar från användarens avatar i Experience Cloud-huvudet. Även om inte alla program i Experience Cloud har stöd för teman, kommer den här funktionen att frigöra det framtida stödet för teman. |
-| Experience Cloud Global Search | I den här versionen kan du använda Experience Cloud globala sökning till att söka i [Experience League](https://experienceleague.adobe.com/sv#home) -dokumentation, -kurser och -självstudiekurser. (För närvarande är global sökning bara tillgänglig för Experience Platform-användare. Med global sökning efter [!UICONTROL Platform] kan du söka efter alla affärsobjekt i Experience Cloud, t.ex. segment, datauppsättningar, scheman och annat.) |
+| Experience Cloud Global Search | I den här versionen kan du använda Experience Cloud globala sökning till att söka i [Experience League](https://experienceleague.adobe.com/#home) -dokumentation, -kurser och -självstudiekurser. (För närvarande är global sökning bara tillgänglig för Experience Platform-användare. Med global sökning efter [!UICONTROL Platform] kan du söka efter alla affärsobjekt i Experience Cloud, t.ex. segment, datauppsättningar, scheman och annat.) |
 | Språkinställningar för Experience Cloud | Den här uppdateringen innehåller möjligheten att ange dina favoritspråk i [Inställningar](https://experience.adobe.com/preferences) för Experience Cloud. |
 
 {style="table-layout:auto"}
@@ -260,7 +260,7 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 |--- |--- |
 |Notifications - Granular settings|You can enable notifications for product and application events and activities, including notifications about [customer attributes](../services/customer-attributes/attributes.md) upload activity.|
 |Notifications - Maintenance notifications|In Notification settings, you can enable maintenance notifications for products and applications.|
-|Admin Console for Experience Cloud Solutions|New Experience Cloud customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html?lang=sv-SE).|
+|Admin Console for Experience Cloud Solutions|New Experience Cloud customers can begin using the Admin Console, a central location for managing your Adobe entitlements across your entire organization.<br>The migration to the Admin Console for user management will proceed in waves. Adobe contacts you (system administrators) when it is time to migrate.<br>Analytics administrators, see  [Analytics Migration](https://experienceleague.adobe.com/docs/analytics/admin/user-product-management/user-management/migrate-users/c-migration-tool.html).|
 
 {style="table-layout:auto"}
 
@@ -404,7 +404,7 @@ Enhetlig sökning har uppdaterats för Journey Optimizer, Offers och Experience 
 </table>
 
 * Fixed an issue preventing customer attributes from syncing for some customers.
-* Fixed an issue preventing [Adobe Target Product Documentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html?lang=sv-SE) page from displaying in Japanese.
+* Fixed an issue preventing [Adobe Target Product Documentation](https://experienceleague.adobe.com/docs/target/using/integrate/a4t/a4t.html) page from displaying in Japanese.
 * Fixed an issue preventing the use of Japanese text in comments between [!DNL Creative Cloud] and [!DNL Experience Cloud].
 
 ## April 2015
