@@ -7,7 +7,7 @@ topic: Administration
 role: Admin
 level: Experienced
 exl-id: 020a6478-13ef-42c0-80de-7867cfe0c937
-source-git-commit: fc60b49af0839769fdd8d18fd61863c8b28bbd57
+source-git-commit: df8ad2c4b911c077f61f9b5dd8d2043280a8f2af
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 5%
@@ -36,4 +36,4 @@ I den här hjälpen beskrivs följande produkter och tjänster:
 
 >[!NOTE]
 >
->Produktdokumentation för [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=sv-SE) finns tillgänglig. Teknisk dokumentation för [!UICONTROL Experience Platform] utvecklare finns på [Adobe Developer](https://developer.adobe.com/apis).
+>Produktdokumentation för [Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html) finns tillgänglig. Teknisk dokumentation för [!UICONTROL Experience Platform] utvecklare finns på [Adobe Developer](https://developer.adobe.com/apis).
