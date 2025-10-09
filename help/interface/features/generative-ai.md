@@ -7,9 +7,9 @@ topic: Artificial Intelligence
 role: Admin, User
 level: Beginner, Intermediate
 exl-id: bdc51956-82aa-4aae-b627-a2018f80b5f5
-source-git-commit: 99ab2eba629e6f90591f2c075997557263cd4d8d
+source-git-commit: 4ce6b7ae75b8fdad478384fbd6d3400c4b852bf3
 workflow-type: tm+mt
-source-wordcount: '2432'
+source-wordcount: '2399'
 ht-degree: 5%
 
 ---
@@ -36,55 +36,56 @@ Generativ AI är en typ av AI som kan skapa ursprungligt innehåll. Det kan till
 
 [!UICONTROL AI Assistant] är ett konversationsgenererat AI-verktyg som stöds i många Experience Cloud-program. Använd den för att snabbt få _produktkunskap_ och _driftsinsikter_, beroende på vilket program du använder.
 
-* **Produktkunskap:** Produktkunskap avser begrepp och ämnen som anges i Experience League-dokumentationen. Använd t.ex. [målbaserade uppmaningar](https://experienceleague.adobe.com/sv/docs/experience-platform/ai-assistant/home) för att snabbt lära dig mer om Experience Platform. Alla svar från Experience League kan verifieras och anges med länkar.
+* **Produktkunskap:** Produktkunskap avser begrepp och ämnen som beskrivs i Experience Cloud produktdokumentation för Experience League. Använd t.ex. [målbaserade uppmaningar](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) för att snabbt lära dig mer om Experience Platform. Alla svar från Experience League kan verifieras och anges med länkar.
 
-* **Driftsinsikter:** Exempel: [driftsinsikter](https://experienceleague.adobe.com/sv/docs/experience-platform/ai-assistant/questions#objects-questions) i Experience Platform refererar till genererade svar om dina metadataobjekt (attribut, målgrupper, dataflöden, datauppsättningar och så vidare). Med [!UICONTROL AI Assistant] kan du uppnå på några sekunder vad som annars kan ta timmar eller dagar.
+* **Driftsinsikter:** Exempel: [driftsinsikter](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions#objects-questions) i Experience Platform refererar till genererade svar om dina metadataobjekt (attribut, målgrupper, dataflöden, datauppsättningar och så vidare). Med [!UICONTROL AI Assistant] kan du uppnå på några sekunder vad som annars kan ta timmar eller dagar.
 
 >[!NOTE]
 >
 >I många Experience Cloud-program används _AI Assistant_ som funktionsnamn (enligt beskrivningen nedan). Den här funktionen hämtar dock information endast för det program du använder. Exempel: AI Assistant i AEM ger relevant och användbar information om AEM.
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/sv/docs/experience-platform/ai-assistant/landing" tooltip="Gå till AI Assistant"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing" tooltip="Gå till AI Assistant"}
 
-[!BADGE Integritet, säkerhet och styrning]{type=Informative url="https://experienceleague.adobe.com/sv/docs/experience-platform/ai-assistant/privacy" tooltip="GenAI på Adobe"}
+[!BADGE Integritet, säkerhet och styrning]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/privacy" tooltip="GenAI på Adobe"}
 
 ## Vilka genAI-funktioner stöds? {#ai-roundup}
 
 Här är en rensning av [!DNL Experience Cloud]-program som använder generativa AI-funktioner och AI Assistant. Kompatibilitet med [Adobe Firefly](https://business.adobe.com/products/firefly-business/firefly-ai-approach.html) anges för generativa AI-funktioner.
 
-**Obs!** [!DNL Experience Platform Agents] beskrivs i [AI i Experience Cloud](agentic-ai.md).
+### Generativ AI
 
-<!-- ### Generative AI
-
-| Product | Key AI features | Firefly Compatibility |
+<!-- | Product | Key AI features | Firefly Compatibility |
 |----------------|-----------------|---------|
-| GenStudio for Performance Marketing | Create personalized, on-brand content | Yes|
-| Adobe Experience Manager (Sites, Assets, Dynamic Media, Forms) | Generative AI for content variations, smart tagging, content optimization | Yes|
-| Marketo Engage      | Generative Email Designer, AI for webinars & chat | Yes|
-| Campaign          | Content Accelerator for cross-channel personalization | Yes|
-| Journey Optimizer          | Generative text & image variations, AI-assisted subject lines | No|
-| Real-Time CDP           | Predictive Audiences, AI Assistant support | No|
-| Journey Optimizer        | AI-driven orchestration recommendations |
-| Experience Platform      | AI Assistant for data and schema insights |
-| Customer Journey Analytics       | AI Assistant, intelligent captions, automated content insights |
-| Experience Platform       | Operational insights via AI Assistant |
-| Workfront            | AI-assisted work management and recommendations | -->
+| GenStudio for Performance Marketing | Create personalized, on-brand content | Yes |
+| Adobe Experience Manager (AEM CS) | Generate Variations, Sites Optimizer GenAI, Content Hub, Smart Tags | Yes |
+| Adobe Experience Manager 6.5 | AI Assistant support | Yes |
+| Adobe Experience Manager 6.5 LTS | AI Assistant support | Yes |
+| Adobe Experience Platform | AI Assistant for product knowledge and operational insights | No |
+| Adobe Journey Optimizer | AI Assistant, content generation (Prime/Ultimate) | Yes |
+| Adobe Journey Optimizer B2B Edition | AI Assistant for product knowledge | No |
+| Campaign Managed Cloud Services | Content Accelerator for cross-channel personalization | Yes |
+| Customer Journey Analytics | AI Assistant, Intelligent Captions, Content Analytics | No |
+| Real-Time CDP | AI Assistant for product knowledge and operational insights | No |
+| Marketo | Email Designer, Dynamic Chat, Interactive Webinars | Yes |
+| Workfront | AI Assistant for work management and recommendations | Yes | -->
 
-| **Produktnamn** | **AI-funktioner** | **AI-assistenten** | **Firefly-kompatibilitet** |
-|------------------|-------------------------|------------------|-------------------|
-| **Adobe GenStudio for Performance Marketing** | GenStudio for Performance Marketing är ett genAI-program. Det hjälper marknadsförings- och kreativa team att skapa personaliserat varumärkesanpassat innehåll. [Läs mer](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home) | Ej tillämpligt | Ja |
-| **Adobe Experience Manager as a Cloud Service (AEM CS)** | AI finns i:<ul><li>[Generera variationer](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor) i **AEM Sites**</li><li>[GenAI](https://experienceleague.adobe.com/sv/docs/experience-manager-sites-optimizer/content/opportunity-types/overview) i **Sites Optimizer**</li><li>[Content Hub](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en) och [Smarta taggar](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags) i **AEM Assets**</li></ul> [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/generative-ai/generative-ai-in-aem) <br> | AI Assistant finns för: <ul><li>Experience Hub - översikt<li>Edge-leveranstjänster</li><li>Webbplatser</li><li>Resurser</li><li>Forms</li><li>Dynamiska medier</li><li>Cloud Manager</li></ul> [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/ai-assistant/ai-assistant-in-aem) | Ja |
-| **Adobe Experience Manager 6.5** | | AI Assistant finns för: <ul><li>Experience Hub - översikt<li>Edge-leveranstjänster</li><li>Webbplatser</li><li>Resurser</li><li>Forms</li><li>Dynamiska medier</li><li>Cloud Manager</li></ul> [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-manager-65/content/ai-assistant/ai-assistant-in-aem) | Ja |
-| **Adobe Experience Manager 6.5 LTS** | | AI Assistant finns för: <ul><li>Experience Hub - översikt<li>Edge-leveranstjänster</li><li>Webbplatser</li><li>Resurser</li><li>Forms</li><li>Dynamiska medier</li><li>Cloud Manager</li></ul> [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-manager-65-lts/content/ai-assistant/ai-assistant-in-aem) | Ja |
-| **Adobe Experience Platform** | | Finns för produktkunskap och driftsinsikter. [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-platform/ai-assistant/landing) | Nej |
-| **Adobe Journey Optimizer** | | Finns för produktkunskap och driftsinsikter. [Läs mer](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/get-started/ai-assistant) | Nej |
-| | | _AJO Prime_ och _Ultimate_ erbjuder [innehållsgenerering](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en) för att ge proaktiva variantförslag för text och bilder. | Ja |
-| **Adobe Journey Optimizer B2B edition** |  | Finns för att hjälpa till med produktkännedom. [Läs mer](https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | Nej |
-| **[!DNL Campaign]hanterade molntjänster** |  | Content Accelerator finns för automatisk generering av personaliserat, engagerande och effektivt innehåll baserat på marknadsföringsmål i olika kanaler som e-post, SMS och Push. [Läs mer](https://experienceleague.adobe.com/sv/docs/campaign-web/v8/content/ai-assistant/generative-gs) | Ja |
-| **[!DNL Customer Journey Analytics]** | AI används med:<ul><li> [Intelligenta bildtexter](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en): För information om de vanligaste Workspace-visualiseringarna.</li><li>[Content Analytics](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/content-analytics/report/report?lang=en#template): Om du vill tilldela metadata för resurser automatiskt.</li></ul> | Finns för:<ul><li>[Produktkunskap](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) (Experience League)</li><li>[Produktsupportagent](agentic-ai.md) </li><li>[Agenten för datainsikter](agentic-ai.md)</li></ul> | Nej |
-| **Real-Time CDP** |  | Finns för produktinformation från Experience League. Det ger också operativa insikter. [Läs mer](https://experienceleague.adobe.com/sv/docs/experience-platform/ai-assistant/home) | Nej |
-| **[!DNL Marketo]** | AI är tillgängligt i e-post-Designer (med Firefly), [Dynamic Chat](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview?lang=en) och [Interaktiva webbinarier](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai?lang=en). | Finns i Marketo Engage [Email Designer](https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/email-marketing/email-designer/ai-assistant) | Ja |
-| **[!DNL Workfront]** |  | Finns för information och förslag i appen. [Läs mer](https://experienceleague.adobe.com/sv/docs/workfront/using/basics/ai-assistant/ai-assistant-overview) | Ja |
+| **Produktnamn** | **Key GenAI Features** | **Firefly-kompatibilitet** |
+|------------------|-------------------------|-------------------|
+| [Adobe GenStudio for Performance Marketing](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) | Skapa personaliserat varumärkesanpassat innehåll med genAI. | Ja |
+| [Adobe Experience Manager as a Cloud Service (AEM CS)](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-in-aem/overview) | GenAI finns i:<ul><li>[Generera variationer](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor) i **AEM Sites**</li><li>[GenAI](https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/opportunity-types/overview) i **Sites Optimizer**</li><li>[Content Hub](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview?lang=en) och [Smarta taggar](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/smart-tags?lang=en#ai-smart-tags) i **AEM Assets**</li></ul> AI Assistant för: <ul><li>Experience Hub - översikt<li>Edge-leveranstjänster</li><li>Webbplatser</li><li>Resurser</li><li>Forms</li><li>Dynamiska medier</li><li>Cloud Manager</li></ul> | Ja |
+| [Adobe Experience Manager 6.5](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/ai-assistant/ai-assistant-in-aem) | AI Assistant för: <ul><li>Experience Hub - översikt<li>Edge-leveranstjänster</li><li>Webbplatser</li><li>Resurser</li><li>Forms</li><li>Dynamiska medier</li><li>Cloud Manager</li></ul> | Ja |
+| [Adobe Experience Manager 6.5 LTS](https://experienceleague.adobe.com/en/docs/experience-manager-65-lts/content/ai-assistant/ai-assistant-in-aem) | AI Assistant för: <ul><li>Experience Hub - översikt<li>Edge-leveranstjänster</li><li>Webbplatser</li><li>Resurser</li><li>Forms</li><li>Dynamiska medier</li><li>Cloud Manager</li></ul> | Ja |
+| [Adobe Experience Platform](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing) | AI Assistant för produktkunskap och driftsinsikter. | Nej |
+| [Adobe Journey Optimizer](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant) | AI Assistant för produktkunskap och driftsinsikter. | Nej |
+| | _AJO Prime_ och _Ultimate_ erbjuder [innehållsgenerering](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative?lang=en) för att ge proaktiva variantförslag för text och bilder. | Ja |
+| [Adobe Journey Optimizer B2B edition](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview) | AI Assistant för produktkännedom. | Nej |
+| [[!DNL Campaign] Hanterade molntjänster](https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs) | AI Assistant for Content Accelerator för automatisk generering av personaliserat, engagerande och effektivt innehåll baserat på marknadsföringsmål i olika kanaler som e-post, SMS och Push. | Ja |
+| **[!DNL Customer Journey Analytics]** | GenAI används med:<ul><li> [Intelligenta bildtexter](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions?lang=en): För information om de vanligaste Workspace-visualiseringarna.</li><li>[Content Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report?lang=en#template): Om du vill tilldela metadata för resurser automatiskt.</li></ul> AI Assistant för:<ul><li>[Produktkunskap](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant?lang=en) </li><li>[Produktsupportagent](agentic-ai.md) </li><li>[Agenten för datainsikter](agentic-ai.md)</li></ul> | Nej |
+| [Real-Time CDP](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home) | AI Assistant för produktinformation från Experience League. Det ger också operativa insikter. | Nej |
+| **[!DNL Marketo]** | GenAI är tillgängligt i e-post-Designer (med Firefly), [Dynamic Chat](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview?lang=en) och [Interaktiva webbinarier](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai?lang=en). <br> AI-assistenten för Marketo Engage [Skicka e-post till Designer](https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/email-designer/ai-assistant) | Ja |
+| [Workfront](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview) | AI Assistant för information och förslag i programmet. | Ja |
+
+**Obs!** [!DNL Experience Platform Agents] beskrivs i [AI-agenter i Experience Cloud](agentic-ai.md).
 
 ## Hur kan jag använda generativ AI i Experience Cloud? {#products}
 
@@ -98,7 +99,7 @@ I följande avsnitt beskrivs mer ingående hur du kan använda genAI eller AI As
 
 Marknadsförarna kan använda naturliga språk för att generera personaliserade, varumärkesanpassade resurser. GenStudio for Performance Marketing snabbar upp kampanjgenomförandet, anpassar innehållsproduktionen utan att varumärkesintegriteten äventyras och tillhandahåller prestandaanalyser för att förbättra den totala avkastningen.
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/home" tooltip="Gå till GenStudio for Performance Marketing"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home" tooltip="Gå till GenStudio for Performance Marketing"}
 
 +++
 
@@ -112,7 +113,7 @@ I följande avsnitt beskrivs kortfattat generativ AI i AEM-program.
 
 Med Adobe Generative AI for Adobe Experience Manager (AEM) as a Cloud Service kan varumärken skapa högpresterande upplevelser med både kopiering och bildgenerering i redigeringsgränssnittet.
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/generative-ai/generative-ai-in-aem" tooltip="Gå till GenAI i AEM CS"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generative-ai-in-aem" tooltip="Gå till GenAI i AEM CS"}
 
 #### AI Assistant i AEM CS
 
@@ -128,7 +129,7 @@ AI Assistant har stöd för AEM as a Cloud Service på följande platser:
 * Dynamiska medier
 * Cloud Manager
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/ai-assistant/ai-assistant-in-aem" tooltip="Gå till AI Assistant i AEM"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/ai-assistant/ai-assistant-in-aem" tooltip="Gå till AI Assistant i AEM"}
 
 #### Experience Manager Sites
 
@@ -148,13 +149,13 @@ Indatafält innehåller:
 
 Resultatet genereras innehåll eller marknadskopia.
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor" tooltip="Gå till Generera variationer på Experience League"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/generative-ai/generate-variations-integrated-editor" tooltip="Gå till Generera variationer på Experience League"}
 
 #### Sites Optimizer {#sites-optimizer}
 
 AEM Sites Optimizer använder generativ AI för att analysera och förbättra webbupplevelsernas prestanda och effektivitet. Dessa insikter grupperas i nyckelområden: engagemang, trafikvärvning, säkerhetsläge och webbplatshälsa. Varje kategori beskriver specifika sätt att förbättra webbplatsen, antingen genom att öka besökarinteraktionen, förbättra upptäckbarheten, stärka säkerheten eller upprätthålla webbplatsens stabilitet.
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/sv/docs/experience-manager-sites-optimizer/content/opportunity-types/overview" tooltip="Gå till Sites Optimizer på Experience League"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-manager-sites-optimizer/content/opportunity-types/overview" tooltip="Gå till Sites Optimizer på Experience League"}
 
 #### Experience Manager Assets {#aem-assets}
 
@@ -166,7 +167,7 @@ I AEM Assets kan du använda generativ AI i **Content Hub** och **AI-genererade 
 
 I Content Hub kan du skapa innehåll med Adobe Express (om du har Adobe Express-rättigheter). Du kan redigera befintligt innehåll med enkla verktyg, producera varumärkesanpassade varianter med mallar och märkeselement och skapa innehåll med de senaste GenAI-funktionerna från [!DNL Adobe Firefly].
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview" tooltip="Gå till Content Hub på Experience League"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/content-hub/product-overview" tooltip="Gå till Content Hub på Experience League"}
 
 **Smarta taggar**
 
@@ -174,7 +175,7 @@ I stället för att förlita sig på manuell inmatning kan AI automatiskt tillde
 
 Om resursen till exempel är en bild kan AI identifiera objekt, scener, känslor eller till och med varumärkeslogotyper. Det kan generera relevanta taggar som _solnedgång_, _strand_, _semester_ eller _leende_.
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/sv/docs/experience-manager-cloud-service/content/assets/manage/smart-tags#ai-smart-tags" tooltip="Läs mer om smarta taggar"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/smart-tags#ai-smart-tags" tooltip="Läs mer om smarta taggar"}
 
 +++
 
@@ -190,7 +191,7 @@ AI Assistant i Adobe Experience Platform är ett chattverktyg som hjälper dig a
 
 AI Assistant finns i Experience Platform, Real-Time Customer Data Platform, Adobe Journey Optimizer och Customer Journey Analytics. (Beskrivs nedan)
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/sv/docs/experience-platform/ai-assistant/landing" tooltip="AI Assistant i Adobe Experience Platform"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/landing" tooltip="AI Assistant i Adobe Experience Platform"}
 
 +++
 
@@ -198,7 +199,7 @@ AI Assistant finns i Experience Platform, Real-Time Customer Data Platform, Adob
 
 +++Information
 
-I [!DNL Journey Optimizer] (AJO) kan du använda [ AI Assistant](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/get-started/ai-assistant) för att få _produktkunskap_ och _driftsinsikter_ (beta).
+I [!DNL Journey Optimizer] (AJO) kan du använda [ AI Assistant](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant) för att få _produktkunskap_ och _driftsinsikter_ (beta).
 
 #### Exempel på hur du använder AI Assistant i AJO
 
@@ -214,15 +215,15 @@ Här är ett exempel på indata för driftsinsikter:
 
   AI Assistant hämtar utdata från ett kundspecifikt datalager. Datalagret innehåller centraliserade, driftsdata om [!UICONTROL Journeys]. Den här funktionen är kundagnostiker och hämtar endast metadata från affärsobjekt. Den har inte åtkomst till data i din sandlåda.
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/get-started/ai-assistant" tooltip="Läs om AI Assistant i AJO"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/get-started/ai-assistant" tooltip="Läs om AI Assistant i AJO"}
 
 #### AI Assistant för innehållsgenerering (AJO Prime och Ultimate) {#ajo-prime}
 
-I AJO _Prime_ och _Ultimate_ kan du använda [innehållsgenerering](https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) för innehållsgenerering för att ge proaktiva variantförslag för text och bilder.
+I AJO _Prime_ och _Ultimate_ kan du använda [innehållsgenerering](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative) för innehållsgenerering för att ge proaktiva variantförslag för text och bilder.
 
 Den här funktionen är tillgänglig för e-post, push-meddelanden, webbsidor, innehåll och SMS-kanaler. Den ger snabb generering av text och bilder. Utdata från innehållsgenerering i AJO Prime och Ultimate är ersättningsberättigande.
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/sv/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative" tooltip="Läs om AI Assistant i AJO"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/ai-assistant/gs-generative" tooltip="Läs om AI Assistant i AJO"}
 
 +++
 
@@ -238,7 +239,7 @@ Exempelindata:
 
   Produkternas kunskapsresultat hämtas från Experience League.
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/sv/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview" tooltip="Läs om AI Assistant i AJO"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/ai-assistant/ai-assistant-overview" tooltip="Läs om AI Assistant i AJO"}
 
 +++
 
@@ -248,9 +249,9 @@ Exempelindata:
 
 Med Customer Journey Analytics kan du använda generativ AI- eller AI-assistent på följande sätt:
 
-* [AI Assistant](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) för produktinformation.
-* [Intelligenta bildtexter](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) som ger viktiga insikter om de vanligaste Workspace-visualiseringarna på naturspråket.
-* [Content Analytics](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/content-analytics/report/report#template) om du vill tilldela alla metadata för resurser automatiskt.
+* [AI Assistant](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant) för produktinformation.
+* [Intelligenta bildtexter](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions) som ger viktiga insikter om de vanligaste Workspace-visualiseringarna på naturspråket.
+* [Content Analytics](https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report#template) om du vill tilldela alla metadata för resurser automatiskt.
 
 **AI-assistenten**
 
@@ -260,7 +261,7 @@ Upptäck produktkunskaper från Experience League. Om du är ny som användare k
 
 Erfarna användare får avancerade användningsexempel eller lär sig strategier för att utföra uppgifter i snabb takt. Du kan snabbt förstå koncept, felsöka problem eller söka efter information.
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant" tooltip="Läs om AI Assistant i CJA"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-b2c-overview/ai-assistant" tooltip="Läs om AI Assistant i CJA"}
 
 **Intelligenta bildtexter**
 
@@ -270,9 +271,9 @@ Exempel:
 
 * **Indata:** I CJA kör du en visualisering som stöds (inklusive Line, Area, Bar, Flow eller Fallout) och klickar sedan på **[!UICONTROL Intelligent captions]**.
 
-* **Utdata:** Visa automatiskt genererade, naturliga språkbeskrivningar som visar sammanhang och viktiga uppgifter. Sedan kan du vidta åtgärder för genererade data, till exempel granska, kopiera och dela dem med din organisation. [Se hur](https://video.tv.adobe.com/v/3443142/?quality=12&learn=on#_blank&captions=swe)
+* **Utdata:** Visa automatiskt genererade, naturliga språkbeskrivningar som visar sammanhang och viktiga uppgifter. Sedan kan du vidta åtgärder för genererade data, till exempel granska, kopiera och dela dem med din organisation. [Se hur](https://video.tv.adobe.com/v/3420131/?quality=12&learn=on#_blank)
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/sv/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions" tooltip="Läs om intelligenta bildtexter"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/visualizations/intelligent-captions" tooltip="Läs om intelligenta bildtexter"}
 
 **Content Analytics**
 
@@ -280,7 +281,7 @@ Content Analytics använder AI och GenAI för att tilldela alla metadata för re
 
 Till exempel: förgrunden `color: red` är ett automatiskt tilldelat attribut. Med visualiseringarna kan du identifiera vilka attribut i dina resurser som bidrar mest till konverteringen.
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/sv/docs/analytics-platform/using/content-analytics/report/report#template" tooltip="Läs om Content Analytics"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/analytics-platform/using/content-analytics/report/report#template" tooltip="Läs om Content Analytics"}
 
 +++
 
@@ -292,7 +293,7 @@ Real-Time CDP använder [!UICONTROL AI Assistant] för att hjälpa dig med produ
 
 Om du till exempel frågar efter en publik kan [!UICONTROL AI Assistant] komma åt målgruppens namn och andra associerade metadata, men inte komma åt profilerna inom den målgruppen.
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/sv/docs/experience-platform/ai-assistant/home" tooltip="Läs om Real-Time CDP"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home" tooltip="Läs om Real-Time CDP"}
 
 +++
 
@@ -304,7 +305,7 @@ Kampanjhanterade molntjänster använder [!UICONTROL AI Assistant] för innehål
 
 **Obs!** Utdata från innehållsgenerering i Campaign Managed Cloud Services har försäkringsskydd.
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/sv/docs/campaign-web/v8/content/ai-assistant/generative-gs" tooltip="Läs om AI Assistant i AJO"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/campaign-web/v8/content/ai-assistant/generative-gs" tooltip="Läs om AI Assistant i AJO"}
 
 +++
 
@@ -323,19 +324,19 @@ Generera kapitel och sammanfattningar automatiskt för dina inspelade webbinarie
 * Redigerbart innehåll - Ändra genererade kapitel och sammanfattningar
 * Enkel integrering - Lägg till kapitel och sammanfattningar på dina landningssidor genom att kopiera HTML-koden till den webbsidesredigerare du väljer
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai" tooltip="Läs mer om interaktiva webbinarier"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/events/interactive-webinars/gen-ai" tooltip="Läs mer om interaktiva webbinarier"}
 
 **Dynamic Chat**
 
 Med de generativa AI-baserade funktionerna i Adobe Dynamic Chat kan ni optimera produktiviteten för säljarna, få insikter i besökarnas avsikter och besvara besökarnas frågor på ett säkert sätt. Du kan förgodkänna frågorna, svaren och konversationssammanfattningen. Dynamic Chat innehåller både en kostnadsfri och en premiumversion.
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview" tooltip="Läs om Dynamic Chat"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/demand-generation/dynamic-chat/generative-ai/overview" tooltip="Läs om Dynamic Chat"}
 
 **Email Designer**
 
 [!UICONTROL AI Assistant] i Marketo Engage [!UICONTROL Email Designer] hjälper dig att skapa aktuella, avancerade och intuitiva e-postmeddelanden. Detta uppnås genom Adobe generativa AI-teknologi och ett bibliotek med Firefly för bildgenerering som hjälper till att skapa lämpligt innehåll för en viss individ/köpgrupp, marknadsföringssteg, kommunikationsstrategi, ton osv. Specifika varumärkesresurser kan också användas för att skapa innehåll.
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/sv/docs/marketo/using/product-docs/email-marketing/email-designer/ai-assistant" tooltip="Läs om Dynamic Chat"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/marketo/using/product-docs/email-marketing/email-designer/ai-assistant" tooltip="Läs om Dynamic Chat"}
 
 **GenStudio for Performance Marketing**
 
@@ -354,7 +355,7 @@ Marketo kan integreras med GenStudio for Performance Marketing
 * Hämta genererade formler baserat på dina uppmaningar. Du kan också lösa fel i ogiltiga anpassade uttryck i beräkningsfält.
 * Hitta projekt, uppgifter och problem.
 
-[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/sv/docs/workfront/using/basics/ai-assistant/ai-assistant-overview" tooltip="Läs om AI Assistant i Workfront"}
+[!BADGE Läs mer]{type=Informative url="https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview" tooltip="Läs om AI Assistant i Workfront"}
 
 +++
 
