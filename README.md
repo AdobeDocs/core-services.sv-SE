@@ -1,60 +1,12 @@
 ---
-source-git-commit: d192f4fec8cd150f77d076d3ad749048319cd701
+source-git-commit: 159ffe3315c7c1e96af3c52f412e9ddee017e736
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 74%
+source-wordcount: '4'
+ht-degree: 0%
 
 ---
-# Artikel om att bidra
+# ARKIVERAD
 
-Vi välkomnar bidrag från både vårt community och från anställda hos Adobe utanför dokumentationsteamen.
+Migrerad till GHEC
 
-## Adobes uppförandekod gällande öppen källkod
-
-Detta projekt har antagit [Adobe Open Source Code of Conduct](code-of-conduct.md) eller [.NET Foundation Code of Conduct](https://dotnetfoundation.org/code-of-conduct). Mer information finns i artikeln [Contributing](contributing.md).
-
-## Om dina bidrag till innehåll hos Adobe
-
-Se [Guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/sv/docs/contributor/contributor-guide/introduction).
-
-Hur du bidrar beror på vem du är och vilken typ av ändringar du vill bidra med:
-
-### Mindre ändringar
-
-Om du bidrar med mindre uppdateringar av ditt hjärta kan du gå till artikeln och välja länken **Redigera** i artikeln som går till artikelns GitHub-källa. Använd sedan helt enkelt GitHub-gränssnittet för att göra uppdateringarna. Mer information finns i den allmänna [guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/sv/docs/contributor/contributor-guide/introduction).
-
-Mindre korrigeringar och förtydliganden som du lämnar in för dokumentation och kodexempel i den här databasen omfattas av Adobes användarvillkor.
-
-### Större ändringar eller nya artiklar från communitymedlemmar
-
-Om du är en del av Adobes community och vill skapa en ny artikel eller skicka in större ändringar ska du använda fliken Problem i Git-databasen för att skicka in ett problem och påbörja en konversation med dokumentationsteamet. När du har godkänt en plan kan du arbeta med en anställd för att få in det nya innehållet genom en kombination av arbete i den offentliga och privata databasen.
-
-<!--
-If you submit a pull request with significant changes to documentation and code examples, you'll see a message in the pull request asking you to submit an online contribution license agreement (CLA). We need you to complete the online form before we can review your pull request.
--->
-
-### Stora förändringar från anställda hos Adobe
-
-Om du är teknikskribent, programansvarig eller utvecklare från produktteamet för en [!UICONTROL Adobe Experience Cloud]-lösning och det är ditt jobb att bidra till eller skapa tekniska artiklar, bör du använda den privata databasen på `https://git.corp.adobe.com/AdobeDocs`.
-
-<!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
-
-## Verktyg och inställningar
-
-Deltagare i vårt community kan använda GitHub-gränssnittet för grundläggande redigeringar eller förgrena databasen för att göra större bidrag.
-
-Mer information finns i [guiden för bidragsgivare till Adobe Docs](https://experienceleague.adobe.com/sv/docs/contributor/contributor-guide/introduction).
-
-## Så använder du markdown för att formatera ditt ämne
-
-Alla artiklar i den här databasen använder GitHub-anpassad markdown. Om du inte är van vid markdown bör du läsa:
-
-* [Grunderna i markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Utskrivbar lathund för markdown](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
-
-## Etiketter
-
-I den offentliga databasen tilldelas pull-begäranden automatiska etiketter, vilket hjälper oss att hantera arbetsflödet med pull-begäranden och hjälper dig att ta reda på vad som pågår med din pull-begäran:
-
-* **Ändringen har skickats till författaren**: författaren har underrättats om den väntande pull-begäran.
-* **redo för sammanslagning**: redo för granskning av vårt team som granskar pull-begäranden.
+<https://github.com/Adobe-Enterprise-Docs/core-services.en>
